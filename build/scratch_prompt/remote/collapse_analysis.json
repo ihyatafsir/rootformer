@@ -1,0 +1,2219 @@
+{
+  "train": {
+    "n_pos": 22519,
+    "distinct_top1_tuples": 50,
+    "distinct_true_tuples": 6574,
+    "top1_tuple_share": 0.7924419379190906,
+    "top5_tuple_share": 0.931657711266042,
+    "mean_P_particle": 0.1680747602407735,
+    "mean_P_special": 0.45979891173437987,
+    "adjacent_root_change_rate": 0.17044942131369306,
+    "mean_distinct_root_per_sentence": 1.719921875,
+    "top1_tuples": [
+      {
+        "tuple": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "n": 17845,
+        "share": 0.7924419379190906,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          4,
+          45,
+          1
+        ],
+        "n": 1869,
+        "share": 0.08299658066521604,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "n": 607,
+        "share": 0.026955015764465563,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          4,
+          118,
+          1
+        ],
+        "n": 351,
+        "share": 0.015586837781429016,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          15,
+          1,
+          1
+        ],
+        "n": 308,
+        "share": 0.013677339135840846,
+        "surface": "أن",
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          3,
+          4,
+          45,
+          1
+        ],
+        "n": 203,
+        "share": 0.009014609884986011,
+        "surface": "ال",
+        "prefix": "ال",
+        "root": "<PARTICLE>",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "n": 133,
+        "share": 0.005906123717749456,
+        "surface": "أله",
+        "prefix": "<NONE>",
+        "root": "اله",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          25,
+          1,
+          1
+        ],
+        "n": 132,
+        "share": 0.00586171677250322,
+        "surface": "كان",
+        "prefix": "<NONE>",
+        "root": "<P:كان>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          8,
+          1,
+          1
+        ],
+        "n": 128,
+        "share": 0.005684088991518273,
+        "surface": "على",
+        "prefix": "<NONE>",
+        "root": "<P:على>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          7270,
+          120,
+          1
+        ],
+        "n": 109,
+        "share": 0.00484035703183978,
+        "surface": "كنن",
+        "prefix": "<NONE>",
+        "root": "كنن",
+        "wazn": "يَفْعُلُ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          7309,
+          118,
+          1
+        ],
+        "n": 99,
+        "share": 0.0043962875793774146,
+        "surface": "يكون",
+        "prefix": "<NONE>",
+        "root": "كون",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          6,
+          1,
+          1
+        ],
+        "n": 96,
+        "share": 0.004263066743638705,
+        "surface": "من",
+        "prefix": "<NONE>",
+        "root": "<P:من>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          3,
+          4,
+          1,
+          1
+        ],
+        "n": 94,
+        "share": 0.004174252853146232,
+        "surface": "ال",
+        "prefix": "ال",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          20,
+          1,
+          1
+        ],
+        "n": 76,
+        "share": 0.003374927838713975,
+        "surface": "لا",
+        "prefix": "<NONE>",
+        "root": "<P:لا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          25,
+          45,
+          1
+        ],
+        "n": 46,
+        "share": 0.0020427194813268795,
+        "surface": "كان",
+        "prefix": "<NONE>",
+        "root": "<P:كان>",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      }
+    ],
+    "true_tuples": [
+      {
+        "tuple": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "n": 3907,
+        "share": 0.17349793507704606,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          6,
+          1,
+          1
+        ],
+        "n": 604,
+        "share": 0.026821794928726852,
+        "surface": "من",
+        "prefix": "<NONE>",
+        "root": "<P:من>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          5,
+          1,
+          1
+        ],
+        "n": 585,
+        "share": 0.02597806296904836,
+        "surface": "في",
+        "prefix": "<NONE>",
+        "root": "<P:في>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          15,
+          1,
+          1
+        ],
+        "n": 351,
+        "share": 0.015586837781429016,
+        "surface": "أن",
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          8,
+          1,
+          1
+        ],
+        "n": 346,
+        "share": 0.015364803055197832,
+        "surface": "على",
+        "prefix": "<NONE>",
+        "root": "<P:على>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "n": 283,
+        "share": 0.012567165504684933,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          20,
+          1,
+          1
+        ],
+        "n": 249,
+        "share": 0.011057329366312891,
+        "surface": "لا",
+        "prefix": "<NONE>",
+        "root": "<P:لا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "n": 243,
+        "share": 0.010790887694835473,
+        "surface": "أله",
+        "prefix": "<NONE>",
+        "root": "اله",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          21,
+          1,
+          1
+        ],
+        "n": 193,
+        "share": 0.008570540432523647,
+        "surface": "ما",
+        "prefix": "<NONE>",
+        "root": "<P:ما>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          7,
+          1,
+          1
+        ],
+        "n": 157,
+        "share": 0.006971890403659133,
+        "surface": "إلى",
+        "prefix": "<NONE>",
+        "root": "<P:إلى>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          25,
+          1,
+          1
+        ],
+        "n": 154,
+        "share": 0.006838669567920423,
+        "surface": "كان",
+        "prefix": "<NONE>",
+        "root": "<P:كان>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          17,
+          3,
+          1,
+          1
+        ],
+        "n": 149,
+        "share": 0.006616634841689241,
+        "surface": "على",
+        "prefix": "على",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          10,
+          3,
+          1,
+          1
+        ],
+        "n": 147,
+        "share": 0.006527820951196767,
+        "surface": "ل",
+        "prefix": "ل",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          9,
+          1,
+          1
+        ],
+        "n": 144,
+        "share": 0.0063946001154580575,
+        "surface": "عن",
+        "prefix": "<NONE>",
+        "root": "<P:عن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          44,
+          1,
+          1
+        ],
+        "n": 140,
+        "share": 0.006216972334473112,
+        "surface": "أو",
+        "prefix": "<NONE>",
+        "root": "<P:أو>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      }
+    ],
+    "root_correct_preds": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 3690,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 157,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 110,
+        "tag": "real"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 86,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 25,
+        "name": "<P:كان>",
+        "n": 47,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 46,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7309,
+        "name": "كون",
+        "n": 30,
+        "tag": "real"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 18,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 15,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7,
+        "name": "<P:إلى>",
+        "n": 15,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7270,
+        "name": "كنن",
+        "n": 14,
+        "tag": "real"
+      },
+      {
+        "id": 744,
+        "name": "بنن",
+        "n": 13,
+        "tag": "real"
+      },
+      {
+        "id": 8819,
+        "name": "وحد",
+        "n": 12,
+        "tag": "real"
+      },
+      {
+        "id": 1459,
+        "name": "جلل",
+        "n": 7,
+        "tag": "real"
+      },
+      {
+        "id": 5240,
+        "name": "عبس",
+        "n": 6,
+        "tag": "real"
+      },
+      {
+        "id": 8333,
+        "name": "نهم",
+        "n": 5,
+        "tag": "real"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 5,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 5660,
+        "name": "علم",
+        "n": 4,
+        "tag": "real"
+      },
+      {
+        "id": 1992,
+        "name": "حنف",
+        "n": 4,
+        "tag": "real"
+      },
+      {
+        "id": 44,
+        "name": "<P:أو>",
+        "n": 3,
+        "tag": "SPECIAL"
+      }
+    ],
+    "root_all_preds": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 20394,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 663,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 308,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 25,
+        "name": "<P:كان>",
+        "n": 178,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 138,
+        "tag": "real"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 128,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7270,
+        "name": "كنن",
+        "n": 111,
+        "tag": "real"
+      },
+      {
+        "id": 7309,
+        "name": "كون",
+        "n": 107,
+        "tag": "real"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 96,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 76,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8819,
+        "name": "وحد",
+        "n": 66,
+        "tag": "real"
+      },
+      {
+        "id": 744,
+        "name": "بنن",
+        "n": 55,
+        "tag": "real"
+      },
+      {
+        "id": 7,
+        "name": "<P:إلى>",
+        "n": 46,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 25,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 5240,
+        "name": "عبس",
+        "n": 25,
+        "tag": "real"
+      },
+      {
+        "id": 44,
+        "name": "<P:أو>",
+        "n": 21,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 820,
+        "name": "بيي",
+        "n": 13,
+        "tag": "real"
+      },
+      {
+        "id": 5660,
+        "name": "علم",
+        "n": 12,
+        "tag": "real"
+      },
+      {
+        "id": 1992,
+        "name": "حنف",
+        "n": 11,
+        "tag": "real"
+      },
+      {
+        "id": 8333,
+        "name": "نهم",
+        "n": 9,
+        "tag": "real"
+      }
+    ]
+  },
+  "test_gen": {
+    "n_pos": 23111,
+    "distinct_top1_tuples": 48,
+    "distinct_true_tuples": 5281,
+    "top1_tuple_share": 0.8013932759292112,
+    "top5_tuple_share": 0.9400718272684003,
+    "mean_P_particle": 0.17063706701390186,
+    "mean_P_special": 0.45840165526465304,
+    "adjacent_root_change_rate": 0.1582891343486935,
+    "mean_distinct_root_per_sentence": 1.6875,
+    "top1_tuples": [
+      {
+        "tuple": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "n": 18521,
+        "share": 0.8013932759292112,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          4,
+          45,
+          1
+        ],
+        "n": 1890,
+        "share": 0.08177923932326597,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "n": 625,
+        "share": 0.027043399247111764,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          4,
+          118,
+          1
+        ],
+        "n": 350,
+        "share": 0.015144303578382588,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          15,
+          1,
+          1
+        ],
+        "n": 340,
+        "share": 0.0147116091904288,
+        "surface": "أن",
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          3,
+          4,
+          45,
+          1
+        ],
+        "n": 170,
+        "share": 0.0073558045952144,
+        "surface": "ال",
+        "prefix": "ال",
+        "root": "<PARTICLE>",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "n": 104,
+        "share": 0.004500021634719398,
+        "surface": "أله",
+        "prefix": "<NONE>",
+        "root": "اله",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          25,
+          1,
+          1
+        ],
+        "n": 101,
+        "share": 0.004370213318333261,
+        "surface": "كان",
+        "prefix": "<NONE>",
+        "root": "<P:كان>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          6,
+          1,
+          1
+        ],
+        "n": 101,
+        "share": 0.004370213318333261,
+        "surface": "من",
+        "prefix": "<NONE>",
+        "root": "<P:من>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          8,
+          1,
+          1
+        ],
+        "n": 97,
+        "share": 0.004197135563151746,
+        "surface": "على",
+        "prefix": "<NONE>",
+        "root": "<P:على>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          3,
+          4,
+          1,
+          1
+        ],
+        "n": 93,
+        "share": 0.004024057807970231,
+        "surface": "ال",
+        "prefix": "ال",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          7270,
+          120,
+          1
+        ],
+        "n": 83,
+        "share": 0.0035913634200164424,
+        "surface": "كنن",
+        "prefix": "<NONE>",
+        "root": "كنن",
+        "wazn": "يَفْعُلُ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          7309,
+          118,
+          1
+        ],
+        "n": 78,
+        "share": 0.0033750162260395484,
+        "surface": "يكون",
+        "prefix": "<NONE>",
+        "root": "كون",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          20,
+          1,
+          1
+        ],
+        "n": 75,
+        "share": 0.003245207909653412,
+        "surface": "لا",
+        "prefix": "<NONE>",
+        "root": "<P:لا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          8819,
+          1,
+          1
+        ],
+        "n": 43,
+        "share": 0.0018605858682012894,
+        "surface": "وحد",
+        "prefix": "<NONE>",
+        "root": "وحد",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      }
+    ],
+    "true_tuples": [
+      {
+        "tuple": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "n": 4284,
+        "share": 0.18536627579940287,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          5,
+          1,
+          1
+        ],
+        "n": 585,
+        "share": 0.025312621695296612,
+        "surface": "في",
+        "prefix": "<NONE>",
+        "root": "<P:في>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          6,
+          1,
+          1
+        ],
+        "n": 581,
+        "share": 0.025139543940115097,
+        "surface": "من",
+        "prefix": "<NONE>",
+        "root": "<P:من>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          8,
+          1,
+          1
+        ],
+        "n": 324,
+        "share": 0.01401929816970274,
+        "surface": "على",
+        "prefix": "<NONE>",
+        "root": "<P:على>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "n": 313,
+        "share": 0.013543334342953572,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          15,
+          1,
+          1
+        ],
+        "n": 313,
+        "share": 0.013543334342953572,
+        "surface": "أن",
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          20,
+          1,
+          1
+        ],
+        "n": 272,
+        "share": 0.01176928735234304,
+        "surface": "لا",
+        "prefix": "<NONE>",
+        "root": "<P:لا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "n": 232,
+        "share": 0.010038509800527886,
+        "surface": "أله",
+        "prefix": "<NONE>",
+        "root": "اله",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          21,
+          1,
+          1
+        ],
+        "n": 231,
+        "share": 0.009995240361732508,
+        "surface": "ما",
+        "prefix": "<NONE>",
+        "root": "<P:ما>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          6397,
+          45,
+          1
+        ],
+        "n": 201,
+        "share": 0.008697157197871144,
+        "surface": "قال",
+        "prefix": "<NONE>",
+        "root": "قال",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          37,
+          1,
+          1
+        ],
+        "n": 176,
+        "share": 0.007615421227986673,
+        "surface": "ذلك",
+        "prefix": "<NONE>",
+        "root": "<P:ذلك>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          9,
+          1,
+          1
+        ],
+        "n": 172,
+        "share": 0.007442343472805158,
+        "surface": "عن",
+        "prefix": "<NONE>",
+        "root": "<P:عن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          17,
+          3,
+          1,
+          1
+        ],
+        "n": 168,
+        "share": 0.007269265717623642,
+        "surface": "على",
+        "prefix": "على",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          34,
+          1,
+          1
+        ],
+        "n": 147,
+        "share": 0.006360607502920687,
+        "surface": "هذا",
+        "prefix": "<NONE>",
+        "root": "<P:هذا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          25,
+          1,
+          1
+        ],
+        "n": 147,
+        "share": 0.006360607502920687,
+        "surface": "كان",
+        "prefix": "<NONE>",
+        "root": "<P:كان>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      }
+    ],
+    "root_correct_preds": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 4038,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 178,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 85,
+        "tag": "real"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 64,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 36,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 25,
+        "name": "<P:كان>",
+        "n": 32,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7309,
+        "name": "كون",
+        "n": 26,
+        "tag": "real"
+      },
+      {
+        "id": 744,
+        "name": "بنن",
+        "n": 16,
+        "tag": "real"
+      },
+      {
+        "id": 8819,
+        "name": "وحد",
+        "n": 12,
+        "tag": "real"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 10,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 820,
+        "name": "بيي",
+        "n": 10,
+        "tag": "real"
+      },
+      {
+        "id": 7,
+        "name": "<P:إلى>",
+        "n": 8,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 1992,
+        "name": "حنف",
+        "n": 6,
+        "tag": "real"
+      },
+      {
+        "id": 5660,
+        "name": "علم",
+        "n": 6,
+        "tag": "real"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 5,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 5240,
+        "name": "عبس",
+        "n": 4,
+        "tag": "real"
+      },
+      {
+        "id": 7270,
+        "name": "كنن",
+        "n": 4,
+        "tag": "real"
+      },
+      {
+        "id": 1459,
+        "name": "جلل",
+        "n": 3,
+        "tag": "real"
+      },
+      {
+        "id": 6397,
+        "name": "قال",
+        "n": 2,
+        "tag": "real"
+      },
+      {
+        "id": 55,
+        "name": "<P:بين>",
+        "n": 2,
+        "tag": "SPECIAL"
+      }
+    ],
+    "root_all_preds": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 21076,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 674,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 340,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 25,
+        "name": "<P:كان>",
+        "n": 129,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 109,
+        "tag": "real"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 101,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 97,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7270,
+        "name": "كنن",
+        "n": 84,
+        "tag": "real"
+      },
+      {
+        "id": 7309,
+        "name": "كون",
+        "n": 80,
+        "tag": "real"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 75,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 744,
+        "name": "بنن",
+        "n": 68,
+        "tag": "real"
+      },
+      {
+        "id": 8819,
+        "name": "وحد",
+        "n": 61,
+        "tag": "real"
+      },
+      {
+        "id": 1992,
+        "name": "حنف",
+        "n": 40,
+        "tag": "real"
+      },
+      {
+        "id": 820,
+        "name": "بيي",
+        "n": 36,
+        "tag": "real"
+      },
+      {
+        "id": 5240,
+        "name": "عبس",
+        "n": 31,
+        "tag": "real"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 21,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7,
+        "name": "<P:إلى>",
+        "n": 20,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 44,
+        "name": "<P:أو>",
+        "n": 14,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 5660,
+        "name": "علم",
+        "n": 13,
+        "tag": "real"
+      },
+      {
+        "id": 8333,
+        "name": "نهم",
+        "n": 12,
+        "tag": "real"
+      }
+    ]
+  },
+  "test_deriv": {
+    "n_pos": 26629,
+    "distinct_top1_tuples": 45,
+    "distinct_true_tuples": 5812,
+    "top1_tuple_share": 0.8025085433174359,
+    "top5_tuple_share": 0.9424687370911412,
+    "mean_P_particle": 0.1696159747780016,
+    "mean_P_special": 0.45313675086915217,
+    "adjacent_root_change_rate": 0.14354563961942748,
+    "mean_distinct_root_per_sentence": 1.73046875,
+    "top1_tuples": [
+      {
+        "tuple": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "n": 21370,
+        "share": 0.8025085433174359,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          4,
+          45,
+          1
+        ],
+        "n": 2519,
+        "share": 0.09459611701528409,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "n": 633,
+        "share": 0.02377107664576214,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          4,
+          118,
+          1
+        ],
+        "n": 289,
+        "share": 0.010852829621840851,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          15,
+          1,
+          1
+        ],
+        "n": 286,
+        "share": 0.01074017049081828,
+        "surface": "أن",
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          3,
+          4,
+          45,
+          1
+        ],
+        "n": 214,
+        "share": 0.008036351346276616,
+        "surface": "ال",
+        "prefix": "ال",
+        "root": "<PARTICLE>",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          7270,
+          120,
+          1
+        ],
+        "n": 150,
+        "share": 0.005632956551128469,
+        "surface": "كنن",
+        "prefix": "<NONE>",
+        "root": "كنن",
+        "wazn": "يَفْعُلُ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          6,
+          1,
+          1
+        ],
+        "n": 113,
+        "share": 0.004243493935183446,
+        "surface": "من",
+        "prefix": "<NONE>",
+        "root": "<P:من>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          8,
+          1,
+          1
+        ],
+        "n": 108,
+        "share": 0.004055728716812498,
+        "surface": "على",
+        "prefix": "<NONE>",
+        "root": "<P:على>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          25,
+          1,
+          1
+        ],
+        "n": 99,
+        "share": 0.0037177513237447897,
+        "surface": "كان",
+        "prefix": "<NONE>",
+        "root": "<P:كان>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "n": 95,
+        "share": 0.00356753914904803,
+        "surface": "أله",
+        "prefix": "<NONE>",
+        "root": "اله",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          7309,
+          118,
+          1
+        ],
+        "n": 81,
+        "share": 0.003041796537609373,
+        "surface": "يكون",
+        "prefix": "<NONE>",
+        "root": "كون",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          3,
+          4,
+          1,
+          1
+        ],
+        "n": 78,
+        "share": 0.0029291374065868038,
+        "surface": "ال",
+        "prefix": "ال",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          20,
+          1,
+          1
+        ],
+        "n": 67,
+        "share": 0.002516053926170716,
+        "surface": "لا",
+        "prefix": "<NONE>",
+        "root": "<P:لا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          5,
+          1,
+          1
+        ],
+        "n": 44,
+        "share": 0.001652333921664351,
+        "surface": "في",
+        "prefix": "<NONE>",
+        "root": "<P:في>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      }
+    ],
+    "true_tuples": [
+      {
+        "tuple": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "n": 4455,
+        "share": 0.16729880956851553,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<PARTICLE>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          5,
+          1,
+          1
+        ],
+        "n": 743,
+        "share": 0.027901911449923017,
+        "surface": "في",
+        "prefix": "<NONE>",
+        "root": "<P:في>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          6,
+          1,
+          1
+        ],
+        "n": 678,
+        "share": 0.02546096361110068,
+        "surface": "من",
+        "prefix": "<NONE>",
+        "root": "<P:من>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          8,
+          1,
+          1
+        ],
+        "n": 377,
+        "share": 0.014157497465169552,
+        "surface": "على",
+        "prefix": "<NONE>",
+        "root": "<P:على>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          15,
+          1,
+          1
+        ],
+        "n": 354,
+        "share": 0.013293777460663186,
+        "surface": "أن",
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "n": 295,
+        "share": 0.011078147883885989,
+        "surface": "",
+        "prefix": "<NONE>",
+        "root": "<UNK>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          20,
+          1,
+          1
+        ],
+        "n": 229,
+        "share": 0.008599647001389463,
+        "surface": "لا",
+        "prefix": "<NONE>",
+        "root": "<P:لا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          21,
+          1,
+          1
+        ],
+        "n": 208,
+        "share": 0.007811033084231477,
+        "surface": "ما",
+        "prefix": "<NONE>",
+        "root": "<P:ما>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          6397,
+          45,
+          1
+        ],
+        "n": 207,
+        "share": 0.007773480040557287,
+        "surface": "قال",
+        "prefix": "<NONE>",
+        "root": "قال",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          9,
+          1,
+          1
+        ],
+        "n": 194,
+        "share": 0.0072852904727928195,
+        "surface": "عن",
+        "prefix": "<NONE>",
+        "root": "<P:عن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "n": 194,
+        "share": 0.0072852904727928195,
+        "surface": "أله",
+        "prefix": "<NONE>",
+        "root": "اله",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>",
+        "root_tag": "real"
+      },
+      {
+        "tuple": [
+          1,
+          37,
+          1,
+          1
+        ],
+        "n": 184,
+        "share": 0.006909760036050922,
+        "surface": "ذلك",
+        "prefix": "<NONE>",
+        "root": "<P:ذلك>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          34,
+          1,
+          1
+        ],
+        "n": 171,
+        "share": 0.0064215704682864545,
+        "surface": "هذا",
+        "prefix": "<NONE>",
+        "root": "<P:هذا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          44,
+          1,
+          1
+        ],
+        "n": 167,
+        "share": 0.006271358293589695,
+        "surface": "أو",
+        "prefix": "<NONE>",
+        "root": "<P:أو>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      },
+      {
+        "tuple": [
+          1,
+          22,
+          1,
+          1
+        ],
+        "n": 143,
+        "share": 0.00537008524540914,
+        "surface": "لم",
+        "prefix": "<NONE>",
+        "root": "<P:لم>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>",
+        "root_tag": "SPECIAL"
+      }
+    ],
+    "root_correct_preds": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 4238,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 107,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 73,
+        "tag": "real"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 68,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 45,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 25,
+        "name": "<P:كان>",
+        "n": 33,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7309,
+        "name": "كون",
+        "n": 31,
+        "tag": "real"
+      },
+      {
+        "id": 7270,
+        "name": "كنن",
+        "n": 24,
+        "tag": "real"
+      },
+      {
+        "id": 744,
+        "name": "بنن",
+        "n": 19,
+        "tag": "real"
+      },
+      {
+        "id": 8819,
+        "name": "وحد",
+        "n": 16,
+        "tag": "real"
+      },
+      {
+        "id": 7,
+        "name": "<P:إلى>",
+        "n": 14,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 12,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 5660,
+        "name": "علم",
+        "n": 11,
+        "tag": "real"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 9,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 820,
+        "name": "بيي",
+        "n": 4,
+        "tag": "real"
+      },
+      {
+        "id": 1459,
+        "name": "جلل",
+        "n": 4,
+        "tag": "real"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 3,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 44,
+        "name": "<P:أو>",
+        "n": 3,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8774,
+        "name": "وبن",
+        "n": 2,
+        "tag": "real"
+      },
+      {
+        "id": 5240,
+        "name": "عبس",
+        "n": 2,
+        "tag": "real"
+      }
+    ],
+    "root_all_preds": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 24518,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 671,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 286,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 7270,
+        "name": "كنن",
+        "n": 155,
+        "tag": "real"
+      },
+      {
+        "id": 25,
+        "name": "<P:كان>",
+        "n": 139,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 113,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 108,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 99,
+        "tag": "real"
+      },
+      {
+        "id": 7309,
+        "name": "كون",
+        "n": 88,
+        "tag": "real"
+      },
+      {
+        "id": 744,
+        "name": "بنن",
+        "n": 70,
+        "tag": "real"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 67,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 8819,
+        "name": "وحد",
+        "n": 49,
+        "tag": "real"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 44,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 5240,
+        "name": "عبس",
+        "n": 38,
+        "tag": "real"
+      },
+      {
+        "id": 7,
+        "name": "<P:إلى>",
+        "n": 37,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 1992,
+        "name": "حنف",
+        "n": 34,
+        "tag": "real"
+      },
+      {
+        "id": 44,
+        "name": "<P:أو>",
+        "n": 32,
+        "tag": "SPECIAL"
+      },
+      {
+        "id": 820,
+        "name": "بيي",
+        "n": 24,
+        "tag": "real"
+      },
+      {
+        "id": 5660,
+        "name": "علم",
+        "n": 14,
+        "tag": "real"
+      },
+      {
+        "id": 8774,
+        "name": "وبن",
+        "n": 13,
+        "tag": "real"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حكر   stratum=mA
+REC ontological_core : The foundational physical origin of the root حكر is the act of withholding, confining, or hoarding a commodity—specifically foodstuffs—by collecting and retaining it in expectation of scarcity and price inflation. It denotes a deliberate, self-serving retention that restricts circulation and access.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is the hoarding of food (احتكار الطعام), i.e., its retention and confinement for the purpose of selling at a higher price during times of scarcity. It also literally denotes a person who monopolizes something and acts exclusively with it (المحتجن للشيء المستبد به), and can describe difficulty, crookedness, or harshness in socia […]
+REC canon_def.ar     : الحَكْرُ: ادِّخارُ الطعام للتَّرَبُّصِ، وصاحبُه مُحْتَكِرٌ. والاحْتِكارُ: جمع الطعام ونحوه مما يؤكل واحتباسُه انتظارَ وقتِ الغَلاءِ به.
+REC canon_def.en     : Al-ḥakr is the storing of food in anticipation [of scarcity]; one who does so is a muḥtakir. Al-iḥtikār is the gathering of food and similar edible goods and retaining them in expectation of a time of high prices.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 18828 hdr=حكر] الحاء والكاف والراء أصل واحد، وهو الحبس. والحكرة: حبس الطعام منتظرا لعلائه، وهو الحكره وأصله فى كلام العرب الحكر، وهو الماء المجتمع، كأنه احتكر لقلته.
+SRC Asas [haqiqah_literal]        : فلان حصر حكر وهو المحتجن للشيء المستبد به. وفيه حكر أي عسر والتواء وسوء معاشرة. وفيه مناكرة ومحاكرة أي مماراة. واحتكر الطعام: احتبسه للغلاء. وفلان حرفته الحكرة وهي الاحتكار.
+SRC Ayn (al-Khalil)  : [line 8992 hdr=حكر] الحَكْرُ: الظُلم في النقص «4» وسُوء المعاشرة. وفلان يحكِرُ فلاناً: أدخَلَ عليه مَشَقّة ومَضَرَّةً في مُعاشَرته ومُعايَشته. وفلان يَحْكِرُ فلاناً حَكْراً. والنَعْت حكر، قال الشاعر: __________ (1) في التهذيب: كثح، كحث مستعملان. (2) هو الشاعر (لبيد) . وصدر البيت: ساهم الوجه شديد أسره. الديوان ص 187. (3) كذا في الديوان واللسان (حرك) والتهذيب، وفي الأصول المخطوطة: محروك. (4) في التهذيب عن الليث: الظلم والتنقص.... ناعَمَتْ […]

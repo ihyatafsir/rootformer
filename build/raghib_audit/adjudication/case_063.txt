@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ارش   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ارش is the infliction of a wound or injury (jarḥ) upon the body, from which arises a compensatory claim or indemnity for that injury.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the act of wounding or injuring (jarḥ) and the taking of compensation (arsh) for that wound.
+REC canon_def.ar     : الأَرْشُ: دِيَةُ الجِرَاحَاتِ، وَقَدْ أَرَشَ يَأْرِشُ أَرْشًا إِذَا جَرَحَ وَأَخَذَ الأَرْشَ.
+REC canon_def.en     : Al-Arsh: the indemnity for wounds; one says arasha ya'rishu arshan when he wounded and took the indemnity.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 3126 hdr=أرش] الهمزة والراء والشين يمكن أن يكون أصلا، وقد جعلها بعض أهل العلم فرعا، وزعم أن الأصل الهرش، وأن الهمزة عوض من الهاء. وهذا عندى متقارب، لأن هذين الحرفين- أعنى الهمزة والهاء- متقاربان، يقولون إياك وهياك، وأرقت وهرقت. وأيا كان فالكلام من باب التحريش، يقال أرشت الحرب والنار إذا أوقدتهما. قال: وما كنت ممن أرش الحرب بينهم ولكن مسعودا جناها وجندبا (2) وأرش الجناية: ديتها، وهو أيضا مما يدعو إلى خلاف وتحريش، فالباب واحد.
+SRC Asas [haqiqah_literal]        : تقول: أجل من الحرش، أن يجرح ويؤخذ بالأرش.
+SRC Ayn (al-Khalil)  : [line 27163 hdr=أرش] الأرش: دية الجراحة قال حماس: الأرش: ثمن الماء إذا ورد عليك قوم فلا تمكنهم من الماء حتى تأخذ الثَّمن. والتأريش: التَّحريش، قال رؤبة «1» : أصبحت من حرصٍ على التأريش

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قبا   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ق ب و is the act of gathering, collecting, or picking up a substance with the fingers or hand, specifically the harvesting of saffron and safflower. This concrete manual act of aggregation is the root's primary material sense, from which all subsequent applications derive by extension or restriction.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the direct, manual gathering of a substance—such as saffron (زعفران) or safflower (عصفر)—by the fingers, i.e., picking or harvesting it. It also denotes the physical convergence or closing of the lips (القَبْوة: انضمام ما بين الشفتين).
+REC canon_def.ar     : قَبا الشيءَ قَبْواً: جمعه بأَصابعه. والقَبْوةُ: انضمام ما بين الشفتين. والقَباء، ممدود، من الثياب.
+REC canon_def.en     : He gathered the thing with his fingers. Al-qabwa is the closing of the lips. Al-qabāʾ, with madd, is a type of garment.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 21981 hdr=قبا] القَباءُ ممدود، وثلاثة أَقْبِية، وتَقَبَّى الرجل: لبس قَباءَهُ. وقُبا- مقصور-: قرية بالمدينة. والقباية: المفازة بلغة حمير. قال شاعرهم: «4» وما كان عنز ترتعي بقَبايةٍ وقابياء وقابعاء، يقال ذلك للئام. __________ (1) في النسخ: الارتواء. (2) التاج (عذب) ، غير منسوب أيضا. (3) في النسخ: منقاب بالباء، وما أثبتناه فمن التهذيب 9/ 350 عن العين، والمحكم 6/ 364، واللسان (بوق) . (4) التهذيب 9/ 346، واللسان (قبا) غير منسوب أيضا. و […]

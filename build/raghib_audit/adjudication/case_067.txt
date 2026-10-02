@@ -1,0 +1,12 @@
+================================================================================================
+ROOT بنق   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of gathering, tightening, and securing disparate elements into a coherent, bounded whole — specifically, the stitching or fastening of garment seams and the binding of a book's quires.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah: the banāʾiq are the seams or stitched joins of a wide shirt (qamīṣ wāsiʿ al-banāʾiq), also described as its dakhārīṣ (seam-lines) or its lining (libn). To banāʾiq a garment is to sew its seams; to banāʾiq a book is to bind or stitch its quires together.
+REC canon_def.ar     : بَنَّقَ الكِتَابَ: لُغَةٌ فِي نَبَّقَهُ. وَبَنَّقَ كَلَامَهُ: جَمَعَهُ وَسَوَّاهُ، وَمِنْهُ بَنَائِقُ القَمِيصِ أَيْ جَمْعُ شَيْءٍ. وَالبَنِيقَةُ: خِيَاطَةُ القَمِيصِ، وَالجَمْعُ بَنَائِقُ.
+REC canon_def.en     : To banāʾiq a book is a dialectal variant of to nabaqahu (to bind or close it). To banāʾiq one's speech is to gather it and set it in order, whence the banāʾiq of a shirt, meaning the gathering of something. The banīqah is the stitching of a […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 9515 hdr=بنق] الباء والنون والقاف كلمة واحدة، وأراها من الحواشى غير واسطة. وهى البنيقة، وهو جربان القميص. ويقال: البنيقة كل رقعة فى الثوب كاللبنة ونحوها. على أنها قد جاءت فى الشعر. قال: بضم إلى الليل أطفال حبها كما ضم أزرار القميص البنائق (3)
+SRC Asas [bilingual_haqiqah_majaz]        : قميص واسع البنائق وهي الدخاريص، وقيل اللبن. قال ذو الرمة: على كل كهل أزعكي ويافع ... من اللؤم سربال جديد البنائق وتقول إذا خطت البنيقة، فخطه Metaphorical (Majaz): جعبة مبنقة: زيد في أعلاها شبه بنيقة لتتسع. وطريق مبنق: واسع. ومفازة مبنوقة بأخرى: موصولة بها.
+SRC Asas [haqiqah_literal]        : قميص واسع البنائق وهي الدخاريص، وقيل اللبن. قال ذو الرمة: على كل كهل أزعكي ويافع ... من اللؤم سربال جديد البنائق وتقول إذا خطت البنيقة، فخطها بنيقه. وبنق الكتاب: ذره. وإذا فرغت من قراءة الكتاب فبنقه ولا تدعه غير مبنق.
+SRC Asas [majaz_metaphorical]        : جعبة مبنقة: زيد في أعلاها شبه بنيقة لتتسع. وطريق مبنق: واسع. ومفازة مبنوقة بأخرى: موصولة بها.
+SRC Ayn (al-Khalil)  : [line 21445 hdr=بنق] البَنيقَةُ كل رقعة في الثوب نحو اللبنة وشبهها، والجميع بَنائِقُ، قال: قميص من القوهي بيض بَنائقُهْ «3»

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جاز   stratum=mA
+REC ontological_core : The foundational physical origin of the root جاز is the act of traversing, passing through, or crossing over a boundary, barrier, or medium—whether a road, a valley, a river, or a choking obstruction in the throat—such that the traverser moves from one side, state, or condition to another.
+REC haqiqah_literal  : The literal physical meaning is to pass or cross over something, as in crossing a road (جاز الطريق), traversing a valley (جاز الوادي), or passing through water (جاز الماء). It also denotes the physical act of a choking morsel or obstruction passing down the throat, as in the expression 'يا ماء إن أجأزت فكم أجزت من غصة' (O water, if you pass, how many a choking morsel have you p […]
+REC canon_def.ar     : جاز: أصلٌ يدلُّ على النُّفُوذ والمُضِيِّ في الشيء، يقال: جاز الطريقَ، وجاز الماءَ، وجازت الغُصَّةُ في الحلق. ثم استُعير للجواز بمعنى الإباحة والإمضاء، وللجائز في المنطق والكلام بمعنى الممكن الذي لا يمتنع وجوده ولا عدمه.
+REC canon_def.en     : Jāza: The root signifies penetration and passage through a thing. One says: he crossed the road, he passed through the water, and the choking morsel passed down the throat. It is then metaphorically extended to permissibility in the sense o […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : فلان جئز شئز أي شرق قلق. وتقول: يا ماء إن أجأزت، فكم أجزت، من أجاز الغصة.
+SRC Ayn (al-Khalil)  : [line 25865 hdr=جأز] الجأزُ: كهيئة الغصص، يأخذ في الصَّدر عِند الغيظ.. جئز يجأزُ جأزاً فهو جَئِزٌ. قال «1» : يسقي العدى غيظاً طويل الجأزِ

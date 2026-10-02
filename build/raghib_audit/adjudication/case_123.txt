@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حفص   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of gathering, collecting, or bringing together a thing into a compact mass; a secondary, less authoritative strand denotes casting or throwing something from the hand, though the classical lexicographers explicitly judge the cognate root with ḍād (حفض) as the superior form for that latter sense.
+REC haqiqah_literal  : The literal physical meaning is the gathering and collecting of a thing (حَفَصَ الشيءَ: جَمَعَه), and the resulting substance so gathered is termed الحُفَاصة. A marginal literal usage denotes casting a thing away (حَفَصَ الشيءَ: أَلْقَاه), but Ibn Sīdah and Ibn Barrī both affirm that the variant with ḍād (حفض) is the higher and more correct form for the sense of throwing down.
+REC canon_def.ar     : حَفَصَ الشيءَ يَحْفِصُه حَفْصاً: جَمَعَه. والحُفَاصةُ: اسمُ ما حُفِصَ. وحَفَصَ الشيءَ: أَلْقَاه، قال ابن سيده: والضاد أَعْلى.
+REC canon_def.en     : Ḥafaṣa al-shayʾa yaḥfiṣuhu ḥafṣan: he gathered it together. Al-ḥufāṣah: the noun denoting that which has been gathered. And ḥafaṣa al-shayʾa: he cast it away; Ibn Sīdah said: the ḍād variant is the higher and more correct form.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 18626 hdr=حفص] الحاء والفاء والصاد ليس أصلا، ولا فيه لغة تنقاس. يقال للزبيل من جلود حفص. ويقال للدجاجة أم حفصة. ويقال إن ولد الأسد حفص. وفى كل ذلك نظر.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 9931 hdr=حفص] أمُّ حَفْصة: تُكْنَى به الدَجاجةُ. ووَلَدُ الأَسَد يُسَمَّى [حفصاً] «5» . باب الحاء والصاد والباء معهما ح ص ب، ص ح ب، ص ب ح، مستعملات

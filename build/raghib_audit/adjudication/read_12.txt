@@ -1,0 +1,87 @@
+================================================================================================
+ROOT مكت   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on fixedness and settled persistence in a place, with a secondary concrete sense of a boil or pustule reaching full maturation and becoming engorged with pus.
+REC haqiqah_literal  : To remain, stay, or abide in a place; to settle firmly. In the concrete medical sense: a boil or pustule (al-ʿudd) becoming fully engorged with pus, and its incision or rupture.
+REC canon_def.ar     : مَكَتَ بالمكان: أَقام، كمَكَدَ. واسْتَمْكَتَ العُدُّ: امتلأَ قيحاً.
+REC canon_def.en     : He remained in the place: he stayed, like makada. And the boil became fully engorged: it filled with pus.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ملز   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root م-ل-ز is the act of slipping away, escaping, or quietly departing from a place, grasp, or state. It denotes a subtle, often elusive motion of withdrawal or release, frequently paired with its phonetic sibling م-ل-س (malasa), which carries the same semantic field of slipping out or slipping away.
+REC haqiqah_literal  : The literal physical meaning is: a thing slipped away from me, departed, or went off (مَلَزَ الشيءُ عَنِّي); and one escaped or got free from a matter (امَّلَزَ من الأمر), or extracted oneself from it (تَمَلَّزَ من الأمر). The transitive form مَلَّزْتُه means: I caused it to slip away or made it depart.
+REC canon_def.ar     : مَلَزَ الشيءُ عَنِّي مَلْزاً وامَّلَزَ ومَلَّزَ: ذهب. وتَمَلَّزَ من الأَمر تَمَلُّزاً وتَمَلَّسَ تَمَلُّساً: خرج منه. وامَّلَزَ من الأَمر وامَّلَسَ إِذا انفلت. وقد مَلَّزْتُه ومَلَّسْتُه إِذا فعلت به ذلك.
+REC canon_def.en     : The thing slipped away from me (malaza), and it escaped (immallaza) and slipped away (mallaza): it departed. And he extracted himself from the matter (tamallaza) and slipped out (tamallasa): he exited from it. And he escaped from the matter […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT موا   stratum=ma
+REC ontological_core : The root م و ا is a secondary, denominative formation from the primary root م و ه / م ي ه (water), denoting the substance of water and, by extension, anything that shares its defining property of limpid transparency and reflective clarity.
+REC haqiqah_literal  : The literal, physical referent of the derived noun مَاوِيَّة is a mirror (مِرْآة), so named because it is fashioned from, or functions as, a polished watery surface: images are seen in it exactly as they are seen in clear, still water. A second literal application is the crystal stone (حَجَر البِلَّوْر), i.e. rock crystal, on account of its water-like translucency.
+REC canon_def.ar     : المَاوِيَّةُ: المِرْآةُ، كأَنَّها نُسِبَت إِلى الماءِ لصَفائها وأَنَّ الصُّورَ تُرى فيها كما تُرى في الماءِ الصافي، والميمُ أَصليةٌ فيها؛ وقيل: المَاوِيَّةُ حَجَرُ البِلَّوْرِ، وثلاثُ مَاوِيَّاتٍ.
+REC canon_def.en     : Al-māwiyyah: the mirror, as though it were attributed to water (al-māʾ) because of its limpidity and because images are seen in it just as they are seen in clear water; the mīm therein is radical. It is also said that al-māwiyyah is rock cr […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ناث   stratum=ma
+REC ontological_core : The root ن-و-ث (n-w-th) denotes the fundamental act of agitating, shaking, or loosening a thing from its compacted or settled state, and by extension, the scattering or dispersing of its constituent parts.
+REC haqiqah_literal  : To shake or agitate something so as to loosen it, or to scatter and disperse it; said of a thing that is stirred up and broken apart.
+REC canon_def.ar     : نَاثَ الشَّيْءَ يَنِيثُهُ نَيْثًا: حَرَّكَهُ وَفَرَّقَهُ. وَالنَّيْثُ: التَّحْرِيكُ وَالتَّفْرِيقُ.
+REC canon_def.en     : He shook the thing and dispersed it; al-nayth is the act of shaking and dispersing.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT نهتر   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in the classical lexicons as a primary sensory or material root; it is a quadriliteral (rubāʿī) verbal root whose earliest lexical attestation is the act of speaking falsehood, specifically fabricating and circulating lies against others.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the literal meaning is the act of speaking falsehood and lying, as in نَهْتَرَ عَلَيْنا (he fabricated lies against us).
+REC canon_def.ar     : النَّهْتَرَةُ: التَّحَدُّثُ بِالكَذِبِ، وَقَدْ نَهْتَرَ عَلَيْنا.
+REC canon_def.en     : Al-nahtarah: speaking falsehood; and he fabricated lies against us.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT هنبث   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the semantic field of tangled, interwoven, and confused affairs, with the concrete image of a knot or a dense thicket underlying the abstract notion of calamities and mixed reports.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a single calamity or a tangled, confused matter (هَنْبَثَةٌ), and its plural (هَنَابِثُ) denotes calamities, affairs, and reports that are intermingled and obscure.
+REC canon_def.ar     : الهَنَابِثُ: الدَّوَاهِي، واحدتها هَنْبَثَةٌ؛ وقيل: الهَنَابِثُ الأُمور والأَخْبار المختلطة.
+REC canon_def.en     : Al-hanābith: calamities, the singular of which is hanbathah; it is also said that al-hanābith are confused affairs and reports.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT وظم   stratum=ma
+REC ontological_core : The root denotes the act of imputing a charge or suspicion to someone, with the underlying physical image of something being pinned or fastened onto a person, as a mark or accusation is attached to the accused.
+REC haqiqah_literal  : The concrete, non-metaphorical sense is the noun الوَظْمَة (al-waẓmah), meaning an accusation or imputation (تُهَمَة) that is attached to a person.
+REC canon_def.ar     : الوَظْمَةُ: التُّهَمَةُ
+REC canon_def.en     : Al-waẓmah: an accusation or imputation of a charge.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT وعم   stratum=ma
+REC ontological_core : The root وعم denotes the act of addressing a dwelling-place or ruin with the imperative of well-being and enduring prosperity, rooted in the physical practice of saluting abandoned campsites and invoking blessing upon them.
+REC haqiqah_literal  : To say to a house or ruin 'may you thrive and prosper' (انْعِمي), addressing it directly with the imperative of well-being.
+REC canon_def.ar     : يقال: وَعَمْتُ الدارَ أَعِمُ وَعْمًا، أي قلت لها انْعِمي.
+REC canon_def.en     : It is said: I addressed the dwelling with the salutation 'may you thrive' — that is, I said to it 'thrive and prosper.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

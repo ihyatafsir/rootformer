@@ -1,0 +1,27 @@
+{
+ "dhalq_letters": [
+  "ر",
+  "ل",
+  "ن",
+  "ف",
+  "ب",
+  "م"
+ ],
+ "rule_verbatim": "الحروف الذلق: ر، ل، ن، ف، ب، م. فإذا جاءت كلمة رباعية أو خماسية لا يكون فيها واحد من هذه الستة، فاعلم أنها ليست بعربية",
+ "source": "al-Khalil, Kitab al-'Ayn",
+ "khalil_examples": [
+  "الحضاثج",
+  "الخضعثج",
+  "الدعشوقة"
+ ],
+ "validated": "the rule reproduces all three of al-Khalils own judgements once the definite article is excluded",
+ "marks": [
+  "معرب",
+  "معربة",
+  "معربا",
+  "ليس بعربية محضة",
+  "من كلام العجم",
+  "أعجمي"
+ ],
+ "why": "loan words have no Arabic root; forcing one is a source of the <UNK> residue and of unsound (root,pattern) attributions"
+}

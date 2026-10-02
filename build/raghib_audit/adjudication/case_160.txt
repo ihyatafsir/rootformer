@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جعا   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the substance of clay or mud (ṭīn), and by extension any moist, agglutinated mass such as dung collected and kneaded together; from this concrete sense of a cohesive, earthy lump the root extends to the posterior (the buttocks) as a bodily mass, and to the act of pelting someone with such a lump.
+REC haqiqah_literal  : The literal physical meaning is clay or mud (al-ṭīn); it also denotes the posterior (al-ist), and a quantity of dung or similar matter gathered and formed into a mass. The verb jaʿʿa (جَعَّ) means: he threw clay or mud at someone.
+REC canon_def.ar     : الجَعْوُ: الطين. يقال: جَعَّ فلانٌ فلاناً إِذا رماه بالجَعْوِ وهو الطين. والجَعْوُ: الاسْتُ. والجَعْوُ: ما جُمِعَ من بَعَرٍ أَو غيره فجُعِلَ.
+REC canon_def.en     : Al-jaʿw is clay. It is said: so-and-so jaʿʿa (pelting with clay) so-and-so, when he threw clay at him. Al-jaʿw is the posterior. And al-jaʿw is what is gathered from dung or other matter and formed into a mass.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

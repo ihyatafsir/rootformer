@@ -1,0 +1,261 @@
+====================================================================================================
+ROOT عنب   stratum=Ma
+-- RECORD.ontological_core: The foundational physical referent is the grape: the fruit of the vine (al-karm), and by extension the vine itself. The root's primary ontological anchor is the concrete, edible berry produced by the grapevine, from which the secondary sense of a small pustule or blister (ʿunbah) is derived by structural resemblance.
+-- RECORD.haqiqah_literal: The literal, physical meaning is the grape: the well-known fruit of the vine, both individually as a single berry (ʿinabah) and collectively as grapes (ʿinab). It also denotes the grapevine itself (al-karm). The plural forms are aʿnāb and ʿinab. The diminutive/singulative ʿunbah denotes a single grape-berry, and by literal extension a pustule or blister on the body, due to its resemblance in shape to a grape.
+-- RECORD.majaz_scholastic: In the Qurʾānic and theological register, ʿinab appears strictly in its literal botanical sense within enumerations of divine bounty: 'And from the fruits of the date-palm and grapes' (al-Naḥl 16:67); 'a garden of date-palms and grapes' (al-Isrāʾ 17:91); 'gardens of grapes' (al-Raʿd 13:4); 'orchards and grapes' (al-Nabaʾ 78:32); 'and grapes and clover and olives' (ʿAbasa 80:28); 'two gardens of grapes' (al-Kahf 18:32). No metaphorical or scholastic technical usage is attested in the classical lexical sources. The only extended application is the concrete anatomical analogy: ʿunbah as a blister or pustule, which remains a literal resemblance-based usage rather than a philosophical metaphor.
+-- RECORD.canonical_definition.ar: العِنَبُ: معروف، واحدتُه عِنَبة؛ ويُجْمَعُ العِنبُ أَيضاً على أَعناب. وهو العِنَباءُ، بالمدّ، أَيضاً. وقال الراغب: العنب يقال لثمرة الكرم، وللكرم نفسه، الواحدة: عنبة، وجمعه: أعناب. والعنبة: بثرة على هيئته.
+-- RECORD.canonical_definition.en: ʿInab is the well-known grape; its singular is ʿinabah, and it is also pluralized as aʿnāb. It is also called ʿinbāʾ, with madd. Al-Rāghib said: ʿInab denotes the fruit of the vine and the vine itself; the singular is ʿinabah, and its plural is aʿnāb. And the ʿunbah is a pustule or blister resembling it in shape.
+-- SOURCE.mufradat @line 23651 hdr=عنب: العنب يقال لثمرة الكرم، وللكرم نفسه، الواحدة: عنبة، وجمعه: أعناب. قال تعالى: ومن ثمرات النخيل والأعناب [النحل/ 67]، وقال تعالى: جنة من نخيل وعنب [الإسراء/ 91]، وجنات من أعناب* [الرعد/ 4]، حدائق وأعنابا [النبأ/ 32]، وعنبا وقضبا* وزيتونا [عبس/ 28- 29]، جنتين من أعناب [الكهف/ 32]، والعنبة: بثرة على هيئته.
+-- SOURCE.maqayis @line 48857 hdr=عنب: العين والنون والباب أصيل يدل على ثمر معروف، وكلمة غير ذلك. فالثمر العنب، واحدته عنبة. ويقولون: ليس فى كلامهم فعلة إلا عنبة. وربما قالوا للعنب العنباء. قال: تعنو بمخروت له ناضح ذو ريق يغذو وذو شلشل العنباء المتنقى والتين (1) وربما جمعوا العنب على الأعناب. ويقال رجل عانب، أى كثير العنب، كما يقال تامر ولابن. والكلمة الأخرى: العنبان، على وزن فعلان: الوعل الطويل القرون. قال: يشد شد العنبان البارح ويقال للظبى النشيط: العنبان، ولا يبنى منه فعل.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عنته   stratum=ma
+-- RECORD.ontological_core: The root ع ن ت ه (ʿ-n-t-h) is a quadriliteral (rubāʿī) formation, likely of onomatopoeic or dialectal origin, denoting intense, exaggerated immersion or exertion in an affair. Its foundational physical image is that of a person plunging headlong into a matter with excessive zeal, to the point of saturating or exhausting it.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in Lisān al-ʿArab, is a man who is عُنْتُهٌ or عُنْتُهِيٌّ — that is, one who goes to extremes and exerts himself excessively in an affair once he has entered into it.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah. In scholastic and theological usage, the root does not appear as a technical term; its metaphorical extension would denote excessive, immoderate commitment (ghuluw) in any matter, which classical ethics often censures as a deviation from the virtuous mean (iʿtidāl).
+-- RECORD.canonical_definition.ar: رجل عُنْتُهٌ وعُنْتُهِيٌّ، وهو المُبالِغُ في الأمرِ إذا أَخذَ فيه.
+-- RECORD.canonical_definition.en: A man who is ʿuntuh or ʿuntuhiyy — one who goes to extremes in an affair once he has entered into it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عنسل   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is rapid, forceful, and agile motion, specifically the swift, bounding, or trotting gait characteristic of a wolf (عَسَلان الذئب), from which the quadriliteral root is derived by the addition of the augmentative نون.
+-- RECORD.haqiqah_literal: The literal physical meaning is a strong, swift she-camel (الناقة القوية السريعة), characterized by speed and power in her movement.
+-- RECORD.majaz_scholastic: While the term is primarily a concrete zoological descriptor, it may be applied metaphorically to any entity or person possessing exceptional speed and strength, though classical sources do not record a distinct scholastic or theological majāz usage.
+-- RECORD.canonical_definition.ar: العَنْسَل: الناقة القوية السريعة، والنون زائدة، مأخوذ من عَسَلان الذئب.
+-- RECORD.canonical_definition.en: Al-ʿansal: the strong, swift she-camel; the nūn is augmentative, derived from the wolf's swift, bounding gait.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عنشق   stratum=ma
+-- RECORD.ontological_core: The root denotes a nominal entity, likely a plant or natural object, with no attested verbal derivation in the classical lexicon; its foundational physical origin is obscure but points to a concrete, perhaps botanical, referent.
+-- RECORD.haqiqah_literal: A literal noun (ism) referring to a specific entity, possibly a plant or shrub, as recorded in Lisān al-ʿArab without metaphorical extension.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical sources; the term remains a hapax legomenon with no scholastic application.
+-- RECORD.canonical_definition.ar: عَنْشَق: اسم.
+-- RECORD.canonical_definition.en: ʿAnshaq: a noun.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عنقس   stratum=ma
+-- RECORD.ontological_core: The root denotes elongation and stretching, specifically a tall, slender, and extended bodily frame; its foundational physical image is that of something drawn out or extended in length.
+-- RECORD.haqiqah_literal: A tall, slender woman of extended stature; the literal physical meaning is a woman characterized by elongation and height.
+-- RECORD.majaz_scholastic: No established metaphorical or scholastic usage is attested in the classical lexicons; the term remains confined to its literal physical description of stature.
+-- RECORD.canonical_definition.ar: العَنْقَس من النساء: الطويلة المُعْرِقة.
+-- RECORD.canonical_definition.en: Al-ʿAnqas, of women: the tall, slender one of extended stature.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عنكث   stratum=ma
+-- RECORD.ontological_core: The root denotes a specific desert plant or shrub, characterized by its dense, tangled, matted growth and its desirability as forage for the spiny-tailed lizard (ḍabb).
+-- RECORD.haqiqah_literal: A type of desert vegetation or shrub that grows in a tangled, matted form; it is a plant craved by the ḍabb (spiny-tailed lizard), which scrapes it with its tail.
+-- RECORD.majaz_scholastic: No metaphorical or scholastic usages are attested in the classical sources; the term remains strictly botanical and zoological in its reference.
+-- RECORD.canonical_definition.ar: العَنْكَثُ: ضَرْبٌ من النَّبْتِ، وقيل: هو شجر يَشْتَهيه الضَّبُّ فيَسْحَجُها بِذَنَبِه
+-- RECORD.canonical_definition.en: Al-ʿankath: a type of vegetation; it is said to be a shrub that the spiny-tailed lizard (ḍabb) craves, scraping it with its tail.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عنه   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is a specific desert plant or herb, termed العِنْه, characterized by its growth in arid environments; this botanical entity serves as the concrete substrate from which all derived meanings emanate.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the plant known as العِنْه (al-ʿinh), a singular unit being عِنْهَة (ʿinhah), which is a type of herbage or vegetation.
+-- RECORD.majaz_scholastic: Metaphorical, philosophical, and theological usages are not attested in the classical sources for this root; the term remains confined to its literal botanical reference, with no extension into abstract or scholastic domains.
+-- RECORD.canonical_definition.ar: العِنْهُ نَبْتٌ، واحدتُه عِنْهَةٌ
+-- RECORD.canonical_definition.en: Al-ʿinh is a plant; its singular unit is ʿinhah.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT غرا   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is glue or adhesive substance (al-ghirāʾ), derived from fish, used to bind and attach one thing to another; hence the primary sense of sticking, adhering, and cleaving.
+-- RECORD.haqiqah_literal: The literal physical meaning is the act of gluing or pasting, as in غَرَوْتُ الجِلْدَ (I glued the hide), and the substance itself, الغِراء (glue), which causes one thing to adhere to another.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root denotes persistent attachment, devotion, or incitement: غَرِيَ بكذا (he became devoted to it, clung to it), أَغْرَيْتُ فلاناً بكذا (I made him cling to it, incited him to it), and in theology, God's incitement of enmity and hatred among people (فأغرينا بينهم العداوة والبغضاء) and His incitement of the believers against the hypocrites (لنغرينك بهم). The semantic extension moves from physical adhesion to psychological and social binding, including passionate attachment and provocation.
+-- RECORD.canonical_definition.ar: الغِراءُ: الذي يُلْصَقُ به الشيءُ، يكونُ من السَّمَكِ. وغَرَا الجِلْدَ: أَلْصَقَهُ بالغِراءِ. وغَرِيَ بكذا: لَهِجَ به ولَصِقَ. وأَغْرَيْتُ فلاناً بكذا: أَلْهَجْتُهُ به.
+-- RECORD.canonical_definition.en: Al-ghirāʾ is that with which a thing is glued, made from fish. He glued the hide: he attached it with glue. He became devoted to something: he became passionately attached and clung to it. I incited someone to something: I made him cling to it.
+-- SOURCE.mufradat @line 24290 hdr=غرا: غري بكذا (2)، أي: لهج به ولصق، وأصل ذلك من الغراء، وهو ما يلصق به، وقد أغريت فلانا بكذا، نحو: ألهجت به. قال تعالى: فأغرينا بينهم العداوة والبغضاء [المائدة/ 14]، لنغرينك بهم [الأحزاب/ 60].
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT غلف   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of enclosing, sheathing, or wrapping an object within a protective or containing cover (ghilāf), such as a sword in its scabbard, a flask in its case, or a bud within its calyx.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is a thing covered by a sheath or container, e.g., a sheathed sword (sayf aghlaf), a covered saddle (raḥl maghlūf), or a covered beard dyed with henna.
+-- RECORD.majaz_scholastic: Metaphorically and theologically, it denotes hearts that are covered, sealed, or wrapped in a veil preventing them from receiving prophetic guidance, as in 'Our hearts are ghulf' (Q 2:88). It also expresses the heart as a receptacle (wiʿāʾ) for knowledge, or as being in a state of heedlessness (ghaflah) and blindness to revelation. The term also refers to the uncircumcised male (ghulām aghlaf) by extension of the covering of the foreskin (ghulfah).
+-- RECORD.canonical_definition.ar: الغِلاف: الصِّوان وما اشتمل على الشيء كقَمِيص القَلْب وغِرْقِئِ البيض وكِمام الزَّهْر وساهُور القَمر، والجمع غُلُفٌ. وسيف أَغْلَف وقوس غَلْفاء، وكذلك كل شيء في غِلاف.
+-- RECORD.canonical_definition.en: Al-ghilāf: the protective container and that which encloses a thing, such as the pericardium of the heart, the membrane of an egg, the calyx of a flower, and the halo of the moon; the plural is ghuluf. A sheathed sword (sayf aghlaf) and a covered bow (qaws ghalfāʾ), and likewise anything within a cover.
+-- SOURCE.mufradat @line 24555 hdr=غلف: قوله تعالى: قلوبنا غلف* [البقرة/ 88]، قيل: هو جمع أغلف، كقولهم: سيف أغلف. أي: هو في غلاف، ويكون ذلك كقوله: وقالوا قلوبنا في أكنة [فصلت/ 5]، في غفلة من هذا* [ق/ 22]. وقيل: معناه قلوبنا أوعية للعلم (2). وقيل: معناه قلوبنا مغطاة، وغلام أغلف كناية عن الأقلف، والغلفة كالقلفة، وغلفت السيف، والقارورة، والرحل، والسرج: جعلت لها غلافا، وغلفت لحيته بالحناء، وتغلف نحو تخضب، وقيل: قلوبنا غلف* [البقرة/ 88]، هي جمع غلاف، والأصل: غلف بضم اللام، وقد قرئ به (3)، نحو: كتب، أي: هي أوعية للعلم تنبيها أنا لا نحتاج أن نتعلم منك، فلنا غنية بما عندنا.
+-- SOURCE.maqayis @line 55365 hdr=غلف: الغين واللام والفاء كلمة واحدة صحيحة، تدل على غشاوة وغشيان شىء لشىء. يقال: غلاف السيف والسكين. وقلب أغلف: كأنما أغشى غلافا فهو لا يعى شيئا. قال الله تعالى: @QUR@03 وقالوا قلوبنا غلف، أى أغشيت شيئا فهى لا تعى. وقرئت (3): غلف (4)، أى أوعية للعلم. والقياس فى ذلك كله واحد. ويقولون: تغلف بالغالية، وليس ببعيد مما ذكرناه.
+-- SOURCE.asas[haqiqah_literal]: السلطان من تجرد لخلافه، جرد له السيف من غلافه. ورحل مغلوف: له غلاف. قال ذو الرمة يصف ناقة: فمازلت أكسو كل يوم سراتها ... خصاصة م
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT غيذ   stratum=ma
+-- RECORD.ontological_core: The root غيذ denotes the act of forming a correct conjecture that subsequently proves true; its foundational physical origin is the hitting or striking of a target, from which the cognitive sense of 'hitting upon the truth' is derived.
+-- RECORD.haqiqah_literal: The literal physical meaning is 'to strike or hit a target' (as in striking with a weapon or arrow), which then metaphorically extends to the mental act of forming an opinion that corresponds to reality.
+-- RECORD.majaz_scholastic: In scholastic and theological usage, the root is employed to describe the faculty of conjecture (ẓann) that aligns with actuality, often discussed in epistemology and the philosophy of mind regarding the validity of probable knowledge and its correspondence to truth.
+-- RECORD.canonical_definition.ar: الغَيْذان: الذي يظن فيصيب
+-- RECORD.canonical_definition.en: Al-ghaydhān: the one who conjectures and then hits upon the truth.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فجس   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; however, the Lisān material points to a core sense of swelling, rising, and towering—a physical expansion upward that manifests as haughtiness and self-magnification.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is not explicitly attested; based on Lisān al-ʿArab, the ḥaqīqah is the act of swelling, rising, and towering physically, as in the swelling of a she-camel's hump or the rising of a structure.
+-- RECORD.majaz_scholastic: The metaphorical and scholastic usage, as delineated by Al-Zamakhsharī's method, transfers the physical sense of swelling and towering to the domain of character and social behavior: haughtiness, arrogance, self-aggrandizement, and overweening pride. The Lisān citation of al-Layth explicitly states that al-fajs and al-tafajjus denote greatness, pride, and self-elevation, with the poetic image of a she-camel's prideful swelling serving as the concrete basis for the abstract moral quality.
+-- RECORD.canonical_definition.ar: الفَجْسُ والتَفَجُّس: عَظَمة وتَكَبّر وتطاوُل.
+-- RECORD.canonical_definition.en: Al-fajs and al-tafajjus: greatness, pride, and self-elevation.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 57900 hdr=فجس: الفاء والجيم والسين كلمة إن صحت. يقولون: الفجس: التكبر والتعظم. يقال منه: تفجس.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فحز   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt or Asās al-Balāghah; classical lexicography records only a derived participial form denoting self-magnification and coarseness of conduct, without a recoverable concrete physical prototype.
+-- RECORD.haqiqah_literal: Not attested in Asās al-Balāghah; the sole classical datum is the participial adjective مُتَفَحِّز, meaning 'one who magnifies himself and behaves coarsely or obscenely' (mutaʿaẓẓim mutafaḥḥish), as transmitted by al-Jawharī from Ibn al-Sikkīt.
+-- RECORD.majaz_scholastic: No philosophical or theological majāz is recorded in the classical sources; the term remains confined to the ethical-psychological register of self-aggrandizement and vulgarity, with no attested extension into metaphysics, logic, or theology.
+-- RECORD.canonical_definition.ar: رجل مُتَفَحِّز أَي متعظم متفحش؛ حكاه الجوهري عن ابن السكيت.
+-- RECORD.canonical_definition.en: A man who is مُتَفَحِّز, that is, self-magnifying and coarse or obscene in conduct; al-Jawharī transmitted it from Ibn al-Sikkīt.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فخذ   stratum=mA
+-- RECORD.ontological_core: The foundational physical referent is the anatomical segment of the limb situated between the hip and the knee—the thigh—conceived as a distinct, bounded bodily member whose primary ontological mode is that of a corporeal part susceptible to injury.
+-- RECORD.haqiqah_literal: The literal, strictly anatomical sense is the thigh: the bodily member extending from the hip joint to the knee. In its verbal derivation, the root denotes the infliction of injury upon this member, as in 'he struck his thigh, rendering it fractured' (كُسِرَتْ فَخِذُهُ فَهُوَ مَفْخُوذٌ), and 'I struck him so that I injured his thigh' (رَمَيْتُهُ فَفَخَذْتُهُ).
+-- RECORD.majaz_scholastic: Beyond the anatomical literal, the root admits extended and figurative applications. In genealogical and social discourse, the plural أَفْخَاذ designates the major sub-lineages or branches of a tribe, by analogy of the tribal body to a physical body whose limbs are its constituent clans. In juridical and lexical classification, the term may denote a portion or division of a larger whole, reflecting the part-whole relation inherent in the limb. The passive participle مَفْخُوذٌ is applied to one whose thigh has been injured, and by extension to any structure or entity metaphorically 'wounded' in its supporting member.
+-- RECORD.canonical_definition.ar: الفَخِذُ: وصل ما بين الساق والورك، أُنثى، والجمع أَفخاذ. وفُخِذَ فَخْذاً، فهو مفخوذ: أُصيبت فخذه.
+-- RECORD.canonical_definition.en: The fakhidh is the anatomical segment connecting the lower leg and the hip; it is feminine, and its plural is afkhādh. One is said to have been fakhidha—sustaining a fakhdh—when their thigh has been injured, rendering them mafkhūdh.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 58055 hdr=فخذ: الفاء والخاء والذال كلمة واحدة، وهى الفخذ من الإنسان، معروفة، واستعير* فقيل الفخذ بسكون الخاء، دون القبيلة وفوق البطن، والجمع أفخاذ. ||| باب الفاء والدال وما يثلثهما
+-- SOURCE.asas[haqiqah_literal]: فخذ الرجل: كسرت فخذه فهو مفخوذ.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: فخذ الرجل: كسرت فخذه فهو مفخوذ. Metaphorical (Majaz): هذا فخذي بالتذكير أي أدنى عشيرتي. وفلان من فخذ من أفخاذ بني تميم، وفخذ قبيلته: جعلهم فخذا فخذا. وفخذت بني فلان فلم أر عندهم خيرا أي أتيتهم ف
+-- SOURCE.asas[majaz_metaphorical]: هذا فخذي بالتذكير أي أدنى عشيرتي. وفلان من فخذ من أفخاذ بني تميم، وفخذ قبيلته: جعلهم فخذا فخذا. وفخذت بني فلان فلم أر عندهم خيرا أي أتيتهم فخذا فخذا فسألتهم في حمالة أو غيرها. ولما أنزل على رسول الله صلى الله عليه وسلم قوله تعالى: " وأنذر عشيرتك الأقربين " بات يفخذ عشيرته أي يدعو
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فرشط   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of a creature (human or camel) lowering and pressing its hindquarters or forelegs flat against the ground in a slack, spread-out posture, specifically during sitting or kneeling.
+-- RECORD.haqiqah_literal: Literal physical meaning: A man's pressing his buttocks to the ground and resting his legs (as a pillow); a camel's kneeling in a relaxed manner, pressing its forearms to the ground, or spreading out in the act of kneeling.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical sources; the root remains confined to its literal zoological and postural sense.
+-- RECORD.canonical_definition.ar: فَرْشَط الرجلُ فَرْشَطة: أَلصق أَليتيه بالأَرض وتوسَّد ساقيه. وفَرْشَط البعيرُ فَرْشَطة وفِرْشاطاً: برَك بُروكاً مسترخياً فأَلصق أَعضاده بالأَرض، وقيل: هو أَن ينتشر بِرْكةَ البعير عند البُروك.
+-- RECORD.canonical_definition.en: A man performed farshata: he pressed his buttocks to the ground and used his legs as a pillow. A camel performed farshata and firshāṭ: it knelt in a relaxed manner, pressing its forearms to the ground; it is also said to be the spreading out of a camel's kneeling posture when it kneels.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فرقس   stratum=ma
+-- RECORD.ontological_core: The root denotes a sharp, guttural vocalization directed at a dog—an onomatopoeic summons or command, rooted in the physical act of calling out to an animal with a distinctive, percussive sound.
+-- RECORD.haqiqah_literal: The literal, physical meaning is the call or summons addressed to a dog (دعاء الكلب), i.e., the utterance used to invoke, command, or incite a dog.
+-- RECORD.majaz_scholastic: No metaphorical or scholastic extension is attested in the classical lexica; the term remains confined to its literal onomatopoeic function as an animal call. Ibn Manẓūr cross-references the root قرقس, indicating a parallel or variant form with the same semantic field.
+-- RECORD.canonical_definition.ar: فِرْقِس وفُرْقُوس: دعاءُ الكلب.
+-- RECORD.canonical_definition.en: Firqis and furqūs: the call or summons addressed to a dog.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فرم   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root فرم is the act of constricting, narrowing, or tightening an orifice—specifically the vagina—by means of a medicinal agent or physical obstruction, thereby inducing a state of constriction (taḍayyuq).
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is the use of a drug or medicinal substance (farām) to constrict the vagina, as in the phrase 'istaframat al-marʾah' (the woman used a constricting agent). The root also appears in the proverbial expression 'more abject than the faram of a slave-girl,' referring to the medicinal plug used for vaginal constriction.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root extends to any act of tightening, narrowing, or restricting, whether physical or abstract. The phrase 'ibn al-mustafrimah bi-ʿajam al-zabīb' (son of the woman who constricted herself with grape seeds) in the ḥadīth of ʿAbd al-Malik employs the root as a derogatory allusion to base origin, metaphorically linking physical constriction to moral or social degradation. The variant form 'tafrīm' (with mīm) is used interchangeably with 'tafrīb' (with bāʾ) in the sense of narrowing the woman's orifice.
+-- RECORD.canonical_definition.ar: الفَرْمُ والفِرَامُ: ما تَتَضَيَّقُ به المرأَة من دواء. وامرأَةٌ فَرْماءُ ومُسْتَفْرِمة: وهي التي تجعل الدواء في فرجها ليضيق.
+-- RECORD.canonical_definition.en: Al-farm and al-firām: a medicinal substance by which a woman constricts [her vagina]. A woman who is farmāʾ or mustafrimah is one who places a drug in her vulva in order to narrow it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 58459 hdr=فرم: الفاء والراء والميم كلمة واحدة، أظنها ليست عربية، وهو الاستفرام. يقولون: هو أن تحتشى (1) المرأة شيئا تضيق به [ما تحت إزارها (2)]. قال الخليل: وليس هذا من كلام أهل البادية. قال ابن دريد (3): يقال لذلك الشىء: فرمة (4). فأما قول الراجز (5): مستفرمات بالحصى جوافلا فإنه يريد خيلا. يعنى أن من شدة جريها يدخل الحصى فى فروجها، فشبه الحصى بالفرمة. والفرماء: موضع (6).
+-- SOURCE.asas[haqiqah_literal]: استفرمت المرأة إذا تضيقت بالفرم، ويقال: أذل من فرم الأمة. وفي حديث عبد الملك: يا ابن المستفرمة بعجم الزبيب.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فصعل   stratum=ma
+-- RECORD.ontological_core: The root denotes a small, lowly, or contemptible entity; its foundational physical origin appears to be the scorpion (العَقْرَب), a creature perceived as base, harmful, and of low status, from which the meaning of meanness and ignobility derives.
+-- RECORD.haqiqah_literal: The literal physical meaning is the scorpion (العَقْرَب), as stated by al-Azharī; it also literally denotes a person of low, ignoble, or base character (اللئيم).
+-- RECORD.majaz_scholastic: By metaphorical extension, the term is applied to a person of vile or ignoble disposition, likening such a person to a scorpion in harmfulness and lowliness; it may also be used as an invective or term of abuse.
+-- RECORD.canonical_definition.ar: الفُصْعُل والفِصْعِل: اللئيم. الأَزهري: الفُصْعُل العَقْرَب.
+-- RECORD.canonical_definition.en: Al-Fuṣʿul and al-Fiṣʿil: the ignoble one. Al-Azharī said: al-Fuṣʿul is the scorpion.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فطن   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin centers on a sharp, penetrating cognitive grasp — an acute mental alertness that seizes upon a matter swiftly and thoroughly, as opposed to dullness or obtuseness (ghabāwah). It is the mind's capacity to apprehend subtle distinctions and respond with precision.
+-- RECORD.haqiqah_literal: To be acutely aware of, to grasp a matter with mental sharpness, to perceive something with alert intelligence; said of a person who is keenly attentive and quick to understand (فَطِنٌ), and of the act of making someone else attentive or sharpening their understanding (تفطين).
+-- RECORD.majaz_scholastic: In scholastic and theological usage, فِطْنَة denotes the faculty of intellectual apprehension (idrāk) by which the rational soul grasps intelligible meanings, distinguished from mere sensory perception. It is the cognitive virtue opposed to heedlessness (ghaflah) and stupidity (ghabāwah), and is closely allied to fiqh (deep understanding) and ḥikmah (wisdom). The verb فَطَّنَ (to make someone attentive) is used in pedagogical and ethical contexts to signify the cultivation of the rational faculty through instruction and discipline.
+-- RECORD.canonical_definition.ar: الفِطْنَةُ: كالفهم، وهي ضد الغباوة. ورجل فَطِنٌ بَيِّنُ الفِطْنَة والفَطَن، وقد فَطَنَ لهذا الأمر يَفْطُنُ فِطْنَةً، وفَطُنَ.
+-- RECORD.canonical_definition.en: Fiṭnah is akin to understanding (fahm), and it is the opposite of dullness (ghabāwah). A man who is faṭin is one in whom acute intelligence and mental alertness are manifest; he has grasped this matter with keen perception, and he is sharp-witted.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 58901 hdr=فطن: الفاء والطاء والنون كلمة واحدة تدل على ذكاء وعلم بشىء. يقال: رجل فطن وفطن، وهى الفطنة والفطانة (1).
+-- SOURCE.asas[haqiqah_literal]: مررت به فما فطن لي، وإذا حدثتك بشيء فافطن له، وتفطن لما أقول لك، وفاطن صاحبه مفاطنة، وهو فطن، وقد فطن وفطن فطانة، وفطنته للأمر، وفطنه المعلم: رده فطنا بتأديبه وتثقيفه. قال رؤبة: وقد أعاصي في الشباب الميال ... موعظة الأدنى وتفطين الوال
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فلقس   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is not attested in Al-Mufradāt; however, the Lisān material points to a quadriradical (or quasi-quadriradical) cluster denoting meanness, lowliness, and mixed/base descent, with the physical origin likely rooted in the notion of paucity, stinginess, and social inferiority.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān, the literal sense is 'a stingy, base person' and 'a person of mixed descent, especially one whose father is a client (mawlā) and whose mother is a client (mawlā).'
+-- RECORD.majaz_scholastic: Metaphorical and scholastic usages: The term is applied to moral and social inferiority, including extreme miserliness and lowly lineage. In genealogical and legal discourse, it denotes a person of mixed parentage (hajīn) or one whose parents are of servile/client status (muqrif), extending to broader notions of baseness and ignobility.
+-- RECORD.canonical_definition.ar: الفَلْقَسُ والفَلَنْقَس: البخيل اللئيم. والفَلَنْقَس: الهَجِين من قِبَل أَبَوَيْه الذي أَبُوه مَوْلًى وأُمّه مَوْلاة.
+-- RECORD.canonical_definition.en: Al-falqas and al-falanqas: the stingy, base person. And al-falanqas: the person of mixed descent on both parental sides, whose father is a client (mawlā) and whose mother is a client (mawlā).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT فوج   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is a group of people in motion—specifically, a company or band that passes along swiftly and in successive waves, conceived as a moving collective rather than a static aggregate.
+-- RECORD.haqiqah_literal: A company or band of people passing by rapidly; a troop or crowd advancing in motion, such that the valley surges with them wave upon wave.
+-- RECORD.majaz_scholastic: In theological and eschatological usage, the term denotes successive multitudes or waves of humanity: the recurrent bands cast into the Fire (Q 67:8), the intruding faction thrust in alongside the damned (Q 38:59), and the peoples entering the religion of God in successive waves (Q 110:2). The plural أفواج conveys rhythmic, wave-like succession, whether of believers embracing the faith or of groups consigned to perdition.
+-- RECORD.canonical_definition.ar: الفَوْجُ: الجماعة من الناس المارّة المسرعة، والجمع أَفْوَاجٌ وأَفَاوِجُ وأَفَاوِيجُ.
+-- RECORD.canonical_definition.en: Al-Fawj: a company of people passing by swiftly; its plurals are afwāj, afāwij, and afāwīj.
+-- SOURCE.mufradat @line 25978 hdr=فوج: الفوج: الجماعة المارة المسرعة، وجمعه أفواج. قال تعالى: كلما ألقي فيها فوج [الملك/ 8]، هذا فوج مقتحم معكم [ص/ 59]، في دين الله أفواجا [النصر/ 2].
+-- SOURCE.maqayis @line 57337 hdr=فوج: الفاء والواو والجيم كلمة تدل على تجمع. من ذلك الفوج: الجماعة من الناس، والجمع أفواج، وجمع الجمع أفاوج وأفاويج. وأما أفاج الرجل، إذا أسرع، فهو من ذوات الياء، والنيج منه.
+-- SOURCE.asas[haqiqah_literal]: أقبلوا فوجا فوجا، يموج بهم الوادي موجا.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

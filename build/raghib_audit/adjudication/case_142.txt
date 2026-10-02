@@ -1,0 +1,12 @@
+================================================================================================
+ROOT زلل   stratum=mA
+REC ontological_core : The foundational physical origin of the root زلل is the act of slipping, sliding, or losing one's footing upon a surface—whether descending from a rock, sliding in mud, or an arrow glancing off a shield. It denotes a sudden, unintended departure from a stable position or intended trajectory.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is: slipping from a rock or in mud (زل عن الصخرة وفي الطين زليلا); a place of slipping (مزلة); a man with a slipping foot or speech (سمع أزل); a woman who slips (امرأة زلاء); and God causing the earth to shake (زلزل الله الأرض زلزالا).
+REC canon_def.ar     : زَلَّ السَّهْمُ عن الدِّرْع، والإنسانُ عن الصخرة يَزِلُّ ويَزَلُّ زَلاًّ وزَلِيلاً ومَزِلَّة: زَلِقَ. وزَلَلْتَ يا فلان تَزِلُّ زَلِيلاً إذا زَلَّ في طِين أو مَنْطِق.
+REC canon_def.en     : The arrow slipped off the shield, and a person slipped from the rock—he slips, slipping, and a place of slipping: he slid. And you, O so-and-so, slipped with a slipping when you slipped in mud or in speech.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : زل عن الصخرة وفي الطين زليلا. وهذه مزلة من المزال. وسمع أزل. وامرأة زلاء. وزلزل الله الأرض زلزالا. Metaphorical (Majaz): زل في قوله ورأيه زلة وزللا. وأزله الشيطان عن الحق واستزله. و
+SRC Asas [majaz_metaphorical]        : زل في قوله ورأيه زلة وزللا. وأزله الشيطان عن الحق واستزله. و
+SRC Asas [haqiqah_literal]        : زل عن الصخرة وفي الطين زليلا. وهذه مزلة من المزال. وسمع أزل. وامرأة زلاء. وزلزل الله الأرض زلزالا.
+SRC Ayn (al-Khalil)  : (NO ENTRY)

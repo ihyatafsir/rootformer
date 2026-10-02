@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عظط   stratum=ma
+REC ontological_core : A marginal, dialectally-attested root denoting the act of exposing or uncovering oneself during intimate congress; its foundational physical origin is the manifest disclosure of the body in the marital act.
+REC haqiqah_literal  : The literal physical meaning is the act of a man uncovering or exposing himself when he comes to his wife for intercourse.
+REC canon_def.ar     : قال الأَزهري في ترجمة عذط: ومنهم من يقول: عِظْيَوْطٌ، بالظاء، وهو الذي إِذا أَتَى أَهلَه أَبْدَى.
+REC canon_def.en     : Al-Azhari, in the entry for ʿadhṭ, reports: some say ʿiẓyawṭ, with ẓāʾ, meaning one who exposes himself when he comes to his wife.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

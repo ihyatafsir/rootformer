@@ -1,0 +1,8 @@
+# config parity: CTL (RCA=top4) vs DEPTH (RCA=top8/top12); only <RCA> differs (plus tag/paths)
+# generated 2026-10-02T16:55:18Z by diffing the two launch blocks
+
+IDENTICAL after normalization (no diff lines)
+
+CTL  : --root-cross-attn top4  (layers 20-23)
+DEPTH: --root-cross-attn top8  (layers 16-23)  [stage 1]
+DEPTH: --root-cross-attn top12 (layers 12-23)  [stage 2]

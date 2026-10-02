@@ -1,0 +1,267 @@
+--- nrmt_train.py
++++ nrmt_train_shrink.py
+@@ -106,7 +106,8 @@
+     return torch.cat(hs)
+ 
+ 
+-def remap_legacy_head(sd, head_state, d_model, cond_init='truncate', allow_local=False):
++def remap_legacy_head(sd, head_state, d_model, cond_init='truncate', allow_local=False,
++                      class_to_orig=None):
+     """Map legacy `nrmp_head.*` (or already-`nrmt_head.*`) tensors onto the new head.
+ 
+     `head_state` is the NEW head's own state_dict, i.e. keys WITHOUT the `nrmt_head.` prefix.
+@@ -147,6 +148,11 @@
+         if tuple(v.shape) == tuple(tgt.shape):
+             out[local] = v.to(tgt.dtype)
+             applied.append(f'{local} {tuple(v.shape)} (exact)')
++        elif local == 'root_head.weight' and class_to_orig is not None:
++            # SHRUNK ARM: keep the trained row of each retained root, selected by rank.
++            out[local] = v.to(tgt.dtype)[class_to_orig.to(v.device)]
++            applied.append(f'{local} {tuple(v.shape)} -> {tuple(tgt.shape)} '
++                           f'(SHRUNK WARM START: {tgt.shape[0]} kept-root rows by rank)')
+         elif local == 'cond_proj.0.weight':
+             if cond_init == 'scratch':
+                 exempt.append(f'{local} {tuple(v.shape)} -> {tuple(tgt.shape)} (re-initialised)')
+@@ -257,6 +263,15 @@
+     ap.add_argument('--no-ngram-gate', action='store_true',
+                     help='disable the zero-init fade-in gate on the discrete arm (NOT recommended: '
+                          'the arm slams from 0 to full RMS in one Adam step)')
++    ap.add_argument('--root-classes', type=int, default=0,
++                    help='ARTIFACT: 0 = shipped full-vocab behaviour.  >0 = shrink the ROOT '
++                         'CLASSIFIER to this many classes (top-K by train frequency); the '
++                         'cache, backbone, hidden states and conditioning are untouched.')
++    ap.add_argument('--root-map', default='/workspace/vocab_shrink/root_map_top500.pt')
++    ap.add_argument('--oov', choices=('drop', 'other'), default='drop',
++                    help='CHOSEN: drop -- exclude positions whose gold root is outside the top-K '
++                         '(the only design that gives a real cardinality reduction); '
++                         'other: REFUSED (assert in the model-build block).')
+     ap.add_argument('--tag', default='full')
+     ap.add_argument('--eval-every', type=int, default=2000)
+     ap.add_argument('--probe-out', default='',
+@@ -278,6 +293,7 @@
+     from deepseek_v4_1_flash_model import UnifiedRootformerV17_DeepSeekFlash
+     from safetensors.torch import load_file
+     from nrmt_arch import RootformerNRMT, build_operator_table, ngram_order_vocabs
++    import nrmt_arch as _na                      # ARTIFACT: shrunk-root-head patch
+ 
+     V = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+     bp = str(ROOT_DIR / 'data/rootformer_v12_arabic_blueprint.json')
+@@ -295,6 +311,68 @@
+         print('[*] ngram vocab (train stream): ' +
+               ', '.join(f'k{k}={len(v)}' for k, v in zip(ng_orders, ng_vocabs)) +
+               f' rows ({time.time()-_t:.0f}s)', flush=True)
++
++    # ================= ARTIFACT: SHRUNK ROOT-VOCAB ARM ==================================
++    # Hypothesis under test: (A) cardinality / data-per-class -- 9490 root classes at ~25M
++    # words is simply too many -- versus (B) a deeper architecture problem, i.e. the root slot
++    # is not being optimised or the signal is unreachable from the shared trunk.
++    #
++    # WHAT CHANGES: `root_head` emits K classes (top-K real roots by TRAIN frequency, map built
++    # by analyze_roots.py from the train stream ONLY) and the root CE / root metrics use those K
++    # CLASS ids as targets.
++    # WHAT DOES NOT CHANGE: the image-aligned cache, the frozen backbone, the cached hidden
++    # states, the morphemic/history/operator conditioning (all still indexed by ORIGINAL root
++    # ids, so the trunk input is byte-identical), the optimiser, LR schedule, batch size, step
++    # count (20 000), eval windows/positions, novelty masking, and the impossibility hinge (its
++    # forbidden set is re-expressed in the K classes; on the top-500 roots it is EMPTY, so the
++    # hinge is exactly as active as it is on those same positions in the full-vocab arm, i.e.
++    # not at all).
++    root_map = None
++    if getattr(args, 'root_classes', 0):
++        _rm = torch.load(args.root_map, map_location='cpu')
++        class_to_orig = _rm['class_to_orig'].long()            # (K,) rank -> original root id
++        orig_to_class = _rm['orig_to_class'].long()            # (Nfull,) -1 => out of vocabulary
++        assert int(_rm['topk']) == int(args.root_classes), (_rm['topk'], args.root_classes)
++        assert int(orig_to_class.numel()) == vocab.num_roots
++        root_map = (class_to_orig, orig_to_class)
++        assert args.oov == 'drop', (
++            'the OTHER design was REJECTED: on the identical eval positions the fold-in class '
++            'holds 26.85% of the mass and would dominate as a trivial catch-all, while raising '
++            'data-per-real-class only 1.67x (426 -> 711 tokens) against 12.3x for drop '
++            '(426 -> 5237).  Only drop is a real cardinality reduction.')
++        print(f'[*] SHRUNK ROOT VOCAB: K={args.root_classes} classes from train-frequency map '
++              f'{args.root_map} (design={args.oov})')
++
++        class _ShrunkRootHead(_na.NRMTHead):
++            """NRMTHead whose `root_head` emits K classes instead of num_roots.
++
++            `cond_roots` and the free-running argmax are CLASS ids; they are mapped back to the
++            representative ORIGINAL root id before the shared root embedding, so the root
++            conditioning channel keeps exactly the semantics it has in the full-vocab arm.
++            """
++            _MAP = None
++
++            def __init__(self, d_model, num_roots, *a, **kw):
++                super().__init__(d_model, num_roots, *a, **kw)
++                c2o = type(self)._MAP
++                self.root_head = torch.nn.Linear(d_model, int(c2o.numel()), bias=False)
++                self.num_root_classes = int(c2o.numel())
++                object.__setattr__(self, 'class_to_orig', c2o)
++
++            def forward(self, h, root_ids, op_ids, w_ids, p_ids, s_ids, cond_roots=None):
++                h_aug = h + self.build_features(root_ids, op_ids, w_ids, p_ids, s_ids).to(h.dtype)
++                root_logits = self.root_head(h_aug)
++                cls = root_logits.argmax(-1) if cond_roots is None else cond_roots
++                cls = cls.clamp(min=0, max=self.num_root_classes - 1)
++                e_root = self._root_embed(self.class_to_orig.to(cls.device)[cls])
++                h_cond = self.cond_proj(torch.cat([h_aug, e_root.to(h_aug.dtype)], dim=-1))
++                return {'root_logits': root_logits, 'wazn_logits': self.wazn_head(h_cond),
++                        'prefix_logits': self.prefix_head(h_cond),
++                        'suffix_logits': self.suffix_head(h_cond), 'root_states': h_aug}
++
++        _ShrunkRootHead._MAP = class_to_orig
++        _na.NRMTHead = _ShrunkRootHead                                   # patch BEFORE build
++    # =====================================================================================
+ 
+     base = UnifiedRootformerV12(bp, 'Qwen/Qwen2.5-0.5B', str(device), torch.bfloat16).to(device)
+     flash = UnifiedRootformerV17_DeepSeekFlash(base, device, torch.bfloat16).to(device)
+@@ -347,7 +425,9 @@
+         head_state = model.nrmt_head.state_dict()
+         print(f'[*] new head cond_proj.0.weight target {tuple(head_state["cond_proj.0.weight"].shape)} '
+               f'(d_root={model.morphemic_embed.d_root}, d_model={model.d_model})')
+-        remapped, applied, exempt = remap_legacy_head(sd, head_state, model.d_model, args.cond_init)
++        remapped, applied, exempt = remap_legacy_head(
++            sd, head_state, model.d_model, args.cond_init,
++            class_to_orig=(root_map[0] if root_map is not None else None))
+         res = model.nrmt_head.load_state_dict(remapped, strict=False)
+         n_legacy = len(applied) + len(exempt)
+         print(f'[*] head warm start [{args.head_init}/{args.cond_init}]: '
+@@ -366,8 +446,9 @@
+         hsd = (load_file(args.head_checkpoint) if args.head_checkpoint.endswith('.safetensors')
+                else torch.load(args.head_checkpoint, map_location='cpu'))
+         head_state = model.nrmt_head.state_dict()
+-        remapped, applied, exempt = remap_legacy_head(hsd, head_state, model.d_model,
+-                                                      'truncate', allow_local=True)
++        remapped, applied, exempt = remap_legacy_head(
++            hsd, head_state, model.d_model, 'truncate', allow_local=True,
++            class_to_orig=(root_map[0] if root_map is not None else None))
+         res = model.nrmt_head.load_state_dict(remapped, strict=False)
+         print(f'[*] head checkpoint {Path(args.head_checkpoint).name}: '
+               f'applied {len(applied)} tensors, missing={len(res.missing_keys)}')
+@@ -456,6 +537,16 @@
+     fmask_root = torch.zeros(vocab.num_roots, dtype=torch.bool)
+     fmask_root[torch.tensor(forbidden_ids)] = True
+     print(f'[*] static forbidden roots (impossibility hinge): {int(fmask_root.sum())}')
++    if root_map is not None:
++        fmask_cls = torch.zeros(args.root_classes, dtype=torch.bool)
++        fmask_cls[torch.isin(root_map[0], torch.tensor(forbidden_ids))] = True
++    else:
++        fmask_cls = fmask_root
++    print(f'[*] forbidden classes actually active in the K={args.root_classes} space: '
++          f'{int(fmask_cls.sum())}'
++          + ('' if root_map is None else
++             ' (none of the top-K roots is in al-Khalil forbidden set, so this term is '
++             'exactly 0 here and on these same positions in the full arm)'))
+ 
+     specials = sorted({vocab.PAD_ROOT, vocab.BOS_ROOT, vocab.EOS_ROOT, vocab.UNK_ROOT,
+                        vocab.root2id['<PARTICLE>']} |
+@@ -480,10 +571,25 @@
+         seg = Tv[w].tolist()
+         for t in range(CTX, WIN):
+             novel_mask[w * per + (t - 1)] = nov.novel(seg[t - CTX:t])
+-    keep_all = ~torch.isin(Rt_va.reshape(-1), spec_t)
++    if root_map is not None:
++        tgt_va_cls = root_map[1][Rt_va.reshape(-1)]
++        keep_all = tgt_va_cls >= 0
++    else:
++        tgt_va_cls = Rt_va.reshape(-1)
++        keep_all = ~torch.isin(tgt_va_cls, spec_t)
+     keep_novel = keep_all & novel_mask
+     print(f'[*] val radical positions: all={int(keep_all.sum())} novel={int(keep_novel.sum())} '
+           f'({100*int(keep_novel.sum())/max(int(keep_all.sum()),1):.1f}%)')
++    marg_shrunk = None
++    if root_map is not None:
++        _cva = torch.bincount(tgt_va_cls[keep_all], minlength=args.root_classes)
++        marg_shrunk = float(_cva.max()) / max(int(keep_all.sum()), 1)
++        _fva = ~torch.isin(Rt_va.reshape(-1), spec_t)
++        print(f'[*] SHRUNK marginal on the IDENTICAL eval positions: {100*marg_shrunk:.3f}% '
++              f'(majority class of {args.root_classes}, n={int(keep_all.sum())}); '
++              f'full-space marginal on the same windows = '
++              f'{100*float(torch.bincount(Rt_va.reshape(-1)[_fva]).max())/max(int(_fva.sum()),1):.3f}% '
++              f'(n={int(_fva.sum())})')
+ 
+     head = model.nrmt_head
+     opt = torch.optim.AdamW([p for p in head.parameters() if p.requires_grad],
+@@ -514,17 +620,22 @@
+         The impossibility hinge keeps using the RAW logits, because its margin is defined in
+         raw-logit units.
+         """
++        if root_map is not None:
++            tgt_cls = root_map[1].to(tgt_r.device)[tgt_r]      # -1 => out of the K classes
++            keep = tgt_cls >= 0
++        else:
++            tgt_cls = tgt_r
++            keep = ~torch.isin(tgt_r, spec_t.to(tgt_r.device))
+         cond = None
+         if p_ss <= 0.0:
+-            cond = tgt_r
++            cond = tgt_cls.clamp(min=0)
+         elif p_ss < 1.0:
+             with torch.no_grad():
+                 h_aug = h + head.build_features(R, O, W, P, S).to(h.dtype)
+                 pred = head.root_head(h_aug).argmax(-1)
+             use_pred = torch.rand(pred.shape, device=pred.device) < p_ss
+-            cond = torch.where(use_pred, pred, tgt_r)
++            cond = torch.where(use_pred, pred, tgt_cls.clamp(min=0))
+         out = head(h, R, O, W, P, S, cond_roots=cond)
+-        keep = ~torch.isin(tgt_r, spec_t.to(tgt_r.device))
+         rl_raw = out['root_logits']
+         if logit_scale == 'ln':
+             rl = (rl_raw - rl_raw.mean(-1, keepdim=True)) / \
+@@ -534,7 +645,7 @@
+                 * math.sqrt(vocab.num_roots)
+         else:
+             rl = rl_raw
+-        l_root = (F.cross_entropy(rl[keep], tgt_r[keep]) if keep.any()
++        l_root = (F.cross_entropy(rl[keep], tgt_cls[keep]) if keep.any()
+                   else rl.sum() * 0.0)
+         l_wazn = F.cross_entropy(out['wazn_logits'].reshape(-1, vocab.num_awzan),
+                                  tgt_w.reshape(-1), ignore_index=vocab.PAD_WAZN)
+@@ -550,15 +661,16 @@
+             #   root_raw = historical scale-dependent raw-logit CE
+             #   root_cez = scale-invariant per-position-standardised CE (the capability number)
+             rr = rl_raw[keep]
+-            info['root_raw'] = float(F.cross_entropy(rr, tgt_r[keep]).detach())
++            info['root_raw'] = float(F.cross_entropy(rr, tgt_cls[keep]).detach())
+             rs = rr.std(-1, keepdim=True).clamp_min(1e-6)
+             info['root_cez'] = float(
+-                F.cross_entropy((rr - rr.mean(-1, keepdim=True)) / rs, tgt_r[keep]).detach())
++                F.cross_entropy((rr - rr.mean(-1, keepdim=True)) / rs, tgt_cls[keep]).detach())
+         if args.extra_norm_l2 != 0.0:
+             pen_norm = head.feat_proj.weight.pow(2).sum()
+             loss = loss + args.extra_norm_l2 * pen_norm
+             info['extra_l2'] = float(pen_norm.detach())
+-        fm = fmask_root.to(tgt_r.device)[tgt_r]
++        fm = (fmask_cls.to(tgt_r.device)[tgt_cls.clamp(min=0)] if root_map is not None
++              else fmask_root.to(tgt_r.device)[tgt_r])
+         m = args.margin if eff_margin is None else eff_margin
+         if fm.any() and m != 0.0:
+             pen = F.relu(rl_raw[fm] - m) ** 2
+@@ -609,8 +721,9 @@
+             wlg.append(out['wazn_logits'].float().cpu())
+             plg.append(out['prefix_logits'].float().cpu())
+             slg.append(out['suffix_logits'].float().cpu())
+-        LG = torch.cat(lg).reshape(-1, vocab.num_roots)
+-        tg = Rt_va.reshape(-1)
++        LG = torch.cat(lg).reshape(
++            -1, args.root_classes if root_map is not None else vocab.num_roots)
++        tg = tgt_va_cls
+         assert LG.shape[0] == tg.shape[0], (LG.shape, tg.shape)
+         res = {}
+         for tag, m in (('ALL_val', keep_all), ('NOVEL_only', keep_novel)):
+@@ -765,7 +878,14 @@
+     if _pf is not None:
+         _pf.flush()
+         _pf.close()
+-    json.dump({'history': hist, 'args': vars(args)}, open(args.out, 'w'), indent=2)
++    json.dump({'history': hist, 'args': vars(args),
++               'shrunk': {'root_classes': args.root_classes, 'root_map': args.root_map,
++                          'design': args.oov, 'marginal_shrunk_eval': marg_shrunk,
++                          'n_eval_kept': int(keep_all.sum()),
++                          'n_eval_total': int(keep_all.numel()),
++                          'forbidden_classes_active': int(fmask_cls.sum())
++                          if root_map is not None else None}},
++              open(args.out, 'w'), indent=2)
+     print(f'\nwrote {args.out} and {args.save}')
+ 
+ 

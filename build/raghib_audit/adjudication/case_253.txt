@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ملز   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root م-ل-ز is the act of slipping away, escaping, or quietly departing from a place, grasp, or state. It denotes a subtle, often elusive motion of withdrawal or release, frequently paired with its phonetic sibling م-ل-س (malasa), which carries the same semantic field of slipping out or slipping away.
+REC haqiqah_literal  : The literal physical meaning is: a thing slipped away from me, departed, or went off (مَلَزَ الشيءُ عَنِّي); and one escaped or got free from a matter (امَّلَزَ من الأمر), or extracted oneself from it (تَمَلَّزَ من الأمر). The transitive form مَلَّزْتُه means: I caused it to slip away or made it depart.
+REC canon_def.ar     : مَلَزَ الشيءُ عَنِّي مَلْزاً وامَّلَزَ ومَلَّزَ: ذهب. وتَمَلَّزَ من الأَمر تَمَلُّزاً وتَمَلَّسَ تَمَلُّساً: خرج منه. وامَّلَزَ من الأَمر وامَّلَسَ إِذا انفلت. وقد مَلَّزْتُه ومَلَّسْتُه إِذا فعلت به ذلك.
+REC canon_def.en     : The thing slipped away from me (malaza), and it escaped (immallaza) and slipped away (mallaza): it departed. And he extracted himself from the matter (tamallaza) and slipped out (tamallasa): he exited from it. And he escaped from the matter […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

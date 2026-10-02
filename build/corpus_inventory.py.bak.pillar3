@@ -1,0 +1,189 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+corpus_inventory.py -- how much Arabic text do we actually have for a from-scratch morphemic LM?
+
+Scans the pod for every Arabic-bearing .txt / .jsonl / .json, deduplicates at the sentence level,
+and reports:
+  * bytes, sentences, words (Arabic-only)
+  * morphemic tokens  (= words, since NRMT-P is 1 token/word) -- the training-token budget
+  * BPE tokens for the matched baseline
+  * coverage: distinct roots and awzan actually exercised
+  * how many sentences are near-duplicates (important: corpora that look big often repeat)
+
+The number that matters for "start from scratch" is the morphemic-token count, because that is the
+number of next-root-morph prediction steps one epoch provides.
+
+Usage:  python corpus_inventory.py
+"""
+import glob
+import json
+import os
+import re
+import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+
+sys.path.insert(0, '/workspace/hf_v19_2_release')
+sys.path.insert(0, '/workspace/hf_v19_2_release/models')
+
+AR = re.compile(r'[\u0600-\u06FF]')
+DIAC = re.compile(r'[\u064b-\u0652\u0670\u0640]')
+SPLIT = re.compile(r'[\n.!?؟؛:]+')
+
+
+def norm(s):
+    return DIAC.sub('', s).strip()
+
+
+def walk_sources():
+    """Yield (group, path) for every plausible Arabic text file."""
+    roots = [
+        '/workspace/scholastic_sanitized',
+        '/workspace/andalusian_canon_sanitized',
+        '/workspace/heritage_foundations',
+        '/workspace/v20_analysis',
+        '/workspace/hf_v19_2_release/corpus',
+        '/workspace/rootformer_v12/v17_deepseek_flash/data',
+        '/workspace/rootformer_v12/raw_translations',
+        '/workspace/rootformer_v12/v18_next_root_morph/data',
+    ]
+    seen = set()
+    for r in roots:
+        if not os.path.isdir(r):
+            continue
+        grp = os.path.basename(r.rstrip('/'))
+        for ext in ('*.txt', '*.jsonl', '*.json'):
+            for p in sorted(glob.glob(os.path.join(r, '**', ext), recursive=True)):
+                if p in seen or os.path.getsize(p) > 400 * 1024 * 1024:
+                    continue
+                seen.add(p)
+                yield grp, p
+
+
+def extract_text(path):
+    """Return a list of text chunks (sentences) from a txt/jsonl/json file."""
+    out = []
+    try:
+        if path.endswith('.jsonl'):
+            for line in open(path, encoding='utf-8', errors='ignore'):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    d = json.loads(line)
+                except Exception:
+                    continue
+                for k in ('arabic', 'text', 'ar', 'source_text'):
+                    if isinstance(d.get(k), str):
+                        out.append(d[k]); break
+        elif path.endswith('.json'):
+            d = json.load(open(path, encoding='utf-8', errors='ignore'))
+            def rec(x):
+                if isinstance(x, str):
+                    if AR.search(x):
+                        out.append(x)
+                elif isinstance(x, dict):
+                    for k in ('arabic', 'text', 'ar', 'content'):
+                        if isinstance(x.get(k), str):
+                            out.append(x[k]); return
+                    for v in x.values():
+                        rec(v)
+                elif isinstance(x, list):
+                    for v in x[:5000]:
+                        rec(v)
+            rec(d)
+        else:
+            out.append(Path(path).read_text(encoding='utf-8', errors='ignore'))
+    except Exception:
+        pass
+    return out
+
+
+def main():
+    per_group = defaultdict(lambda: {'files': 0, 'bytes': 0, 'sent': 0, 'words': 0})
+    all_words = 0
+    uniq_words = set()
+    uniq_sents = set()
+    dup_sents = 0
+    total_bytes = 0
+
+    import nrmp_vocab as nv
+    V = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+    vocab = V('/workspace/hf_v19_2_release/data/rootformer_v12_arabic_blueprint.json')
+    root_seen, wazn_seen = Counter(), Counter()
+
+    n_files = 0
+    for grp, path in walk_sources():
+        n_files += 1
+        sz = os.path.getsize(path)
+        total_bytes += sz
+        per_group[grp]['files'] += 1
+        per_group[grp]['bytes'] += sz
+        for chunk in extract_text(path):
+            for sent in SPLIT.split(chunk):
+                sent = sent.strip()
+                if len(sent) < 8 or not AR.search(sent):
+                    continue
+                ws = [w for w in sent.split() if AR.search(w)]
+                if not ws:
+                    continue
+                key = norm(sent)
+                if key in uniq_sents:
+                    dup_sents += 1
+                    continue
+                uniq_sents.add(key)
+                per_group[grp]['sent'] += 1
+                per_group[grp]['words'] += len(ws)
+                all_words += len(ws)
+                for w in ws:
+                    cw = norm(w)
+                    uniq_words.add(cw)
+
+    # morphemic coverage on a sample (the analyzer is the expensive part)
+    sample = list(uniq_words)[:120000]
+    ok = 0
+    for w in sample:
+        enc = vocab.encode_sentence(w)
+        if enc:
+            ok += 1
+            for (p, r, wz, s) in enc:
+                root_seen[r] += 1
+                wazn_seen[wz] += 1
+
+    print('=' * 78)
+    print('ARABIC CORPUS INVENTORY')
+    print('=' * 78)
+    print(f'{"group":<34}{"files":>7}{"MB":>9}{"sentences":>12}{"words":>12}')
+    print('-' * 78)
+    for g, d in sorted(per_group.items(), key=lambda x: -x[1]['words']):
+        print(f'{g:<34}{d["files"]:>7}{d["bytes"]/1e6:>9.1f}{d["sent"]:>12}{d["words"]:>12}')
+    print('-' * 78)
+    print(f'{"TOTAL":<34}{n_files:>7}{total_bytes/1e6:>9.1f}'
+          f'{sum(d["sent"] for d in per_group.values()):>12}{all_words:>12}')
+
+    print(f'\nunique sentences      : {len(uniq_sents)}')
+    print(f'duplicate sentences   : {dup_sents} '
+          f'({100*dup_sents/max(dup_sents+len(uniq_sents),1):.1f}% of raw)')
+    print(f'unique word forms     : {len(uniq_words)}')
+    print(f'\n>>> MORPHEMIC TOKENS (1 per word) = {all_words:,}')
+    print(f'>>> that is the number of next-root-morph prediction steps per epoch')
+
+    print(f'\nmorphological coverage (sample of {len(sample)} word types):')
+    print(f'  analysable            : {ok}/{len(sample)} = {100*ok/max(len(sample),1):.1f}%')
+    print(f'  distinct roots seen   : {len(root_seen)} of {vocab.num_roots}')
+    print(f'  distinct awzan seen   : {len(wazn_seen)} of {vocab.num_awzan}')
+
+    json.dump({'total_files': n_files, 'total_bytes': total_bytes,
+               'sentences_unique': len(uniq_sents), 'duplicate_sentences': dup_sents,
+               'words': all_words, 'unique_word_forms': len(uniq_words),
+               'morphemic_tokens': all_words,
+               'distinct_roots_seen': len(root_seen),
+               'distinct_awzan_seen': len(wazn_seen),
+               'per_group': {k: v for k, v in per_group.items()}},
+              open('/workspace/corpus_inventory.json', 'w'), indent=2)
+    print('\nwrote /workspace/corpus_inventory.json')
+
+
+if __name__ == '__main__':
+    main()

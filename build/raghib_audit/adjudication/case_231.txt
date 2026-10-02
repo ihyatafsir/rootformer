@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فوخ   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ف-و-خ is the emission and diffusion of a scent or odor, specifically the rising and spreading of a fragrant or malodorous exhalation through the air, akin to the root ف-و-ح. It denotes the effusion of a volatile substance that fills the surrounding atmosphere and may be perceived by the sense of smell, sometimes with a forceful or overpowering quality.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (as inferred from Lisān al-ʿArab) is: the diffusion and rising of a smell or odor, whether pleasant (like musk) or foul, such that it spreads through the air; also, the emission of wind (flatulence) from a person, and the act of a smell taking away one's breath due to its intensity.
+REC canon_def.ar     : فَاخَ المِسْكُ يَفُوخُ وَيَفِيخُ فَوْخًا وَفَوَخَانًا: سَطَعَ مِثْلَ فَاحَ. وَفَاخَ الرَّجُلُ يَفُوخُ فَوْخًا وَأَفَاخَ يُفِيخُ: خَرَجَتْ مِنْهُ رِيحٌ.
+REC canon_def.en     : Musk diffused and rose like fāḥa. A man emitted wind: he passed wind.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

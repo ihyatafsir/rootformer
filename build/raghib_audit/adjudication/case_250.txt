@@ -1,0 +1,10 @@
+================================================================================================
+ROOT لحط   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ل-ح-ط is the act of sprinkling or scattering water upon a surface, specifically a door or wall, as a practical measure of dust suppression, cooling, or ritual cleansing.
+REC haqiqah_literal  : The literal, physical meaning is to sprinkle water on the door of one's house, as attested in the report that ʿAlī passed by a group who were sprinkling water on the door of their dwelling.
+REC canon_def.ar     : اللَّحْطُ: الرَّشُّ. يقال: لَحَطَ بابَ دارِه إِذا رَشَّه بالماء.
+REC canon_def.en     : Al-Laḥṭ is the sprinkling of water. It is said: he sprinkled water on the door of his house.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

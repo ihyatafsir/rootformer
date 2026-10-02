@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قنفش   stratum=ma
+REC ontological_core : The foundational physical origin of the root قنفش is the act of contraction, shriveling, or drawing together into a compact, wrinkled mass, coupled with the rapid, forceful gathering of a thing. It denotes a sudden, tight coalescence—whether of a body shrinking upon itself or of objects being swept together swiftly.
+REC haqiqah_literal  : The literal physical meaning is contraction (التقبض) and rapid gathering (الجمع السريع). It describes a person or animal that is shriveled, tightly drawn together, or a thing that has been snatched up and collected in haste. It also denotes a small creeping creature (دويبة), likely so named for its contracted, compact form.
+REC canon_def.ar     : القَنْفَشَةُ: التقبُّضُ. وعجوز قِنْفِشَةٌ: مُتَقبِّضةٌ. وقَنْفَشَ الشيءَ: جمعه سريعاً. والقِنْفِشَةُ: دُوَيْبّة.
+REC canon_def.en     : Al-Qanfashah: contraction. An old woman who is qinfishah: shriveled/contracted. Qanfasha al-shayʾ: he gathered the thing quickly. Al-Qinfishah: a small creeping creature.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22185 hdr=قنفش] [القَنْفَشَةُ: التّقَبُّض] «1» . وعجوز قِنْفِشة: متقبضة «2» . القاف والضاد

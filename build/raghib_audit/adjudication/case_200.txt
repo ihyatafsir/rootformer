@@ -1,0 +1,10 @@
+================================================================================================
+ROOT شرنص   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the concrete bodily constitution of a camel: bulk, mass, and elongation of the neck, i.e., a large-bodied, long-necked animal.
+REC haqiqah_literal  : The literal physical meaning is a bulky, long-necked camel; the plural شَرانِيصُ denotes camels of this description.
+REC canon_def.ar     : الليث: جمل شِرْناصٌ ضَخْم طويل العنق، وجمعه شَرانِيصُ.
+REC canon_def.en     : Al-Layth said: a shirnāṣ camel is bulky and long-necked; its plural is sharānīṣ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

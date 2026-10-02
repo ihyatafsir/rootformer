@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حندق   stratum=ma
+REC ontological_core : The root denotes a succulent, fleshy herbaceous plant of the class of soft-stemmed pot-herbs (baql), specifically a variety resembling fresh, tender leek or rush (al-fathth al-ratb), of Nabataean (Aramaic) provenance subsequently Arabicized.
+REC haqiqah_literal  : A literal, concrete botanical referent: a green, edible herb or pasture-plant (baqlah aw ḥashīshah) characterized by softness and succulence, akin to fresh leek, known in Arabic as al-dhuraq.
+REC canon_def.ar     : الحَنْدَقوقَى والحَنْدَقُوقُ والحِنْدَقُوقُ: بقلة أَو حَشِيشة كالفَثِّ الرَّطْب، نَبَطِيَّة مُعرَّبة، ويقال لها بالعربية الذُّرَقُ.
+REC canon_def.en     : Al-ḥandaqūqā, al-ḥandaqūq, and al-ḥindaqūq: a pot-herb or pasture-plant resembling fresh leek, of Nabataean origin and Arabicized; in Arabic it is called al-dhuraq.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

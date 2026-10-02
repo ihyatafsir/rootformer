@@ -1,0 +1,364 @@
+--- remote/hf_v19_2_release/nrmt_train.py	2026-10-02 15:59:10.671733751 +0200
++++ nrmt_train_patched_rootattn.py	2026-10-02 16:03:48.838539715 +0200
+@@ -257,6 +257,41 @@
+     ap.add_argument('--no-ngram-gate', action='store_true',
+                     help='disable the zero-init fade-in gate on the discrete arm (NOT recommended: '
+                          'the arm slams from 0 to full RMS in one Adam step)')
++    # ---- ROOT CROSS-ATTENTION over the ROOT HISTORY + PARTIAL TRUNK UNFREEZE ----------------
++    # ALL of these default to the historical behaviour: with --root-cross-attn none and
++    # --unfreeze-last 0 the code path, the cache, the optimizer groups and the LR schedule are
++    # byte-for-byte the ones that produced FIX 6.84 % / ALIGNED_FIX 6.62 %.
++    ap.add_argument('--root-cross-attn', default='none',
++                    help='which trunk layers get h <- h + gate*CrossAttn(Q=Wq h, K=V=Wkv E_root('
++                         'r_{<=t})).  `none` (default) = historical.  `topN` / `midN` / '
++                         '`everyK` / explicit `a,b,c`.  RCA set should equal the unfrozen set, '
++                         'else the RCA of a frozen layer can never learn (its gate stays 0).')
++    ap.add_argument('--rca-heads', type=int, default=8, help='heads in the cross-attention')
++    ap.add_argument('--rca-dropout', type=float, default=0.0)
++    ap.add_argument('--rca-out-std', type=float, default=1e-3,
++                    help='std of the zero-gated o_proj init (mirrors --feat-gate-proj-std: the '
++                         'OUTPUT is exactly 0 because the gate is 0, but the gate then HAS a '
++                         'non-zero gradient; zeroing both is a dead saddle)')
++    ap.add_argument('--rca-exclude-current', action='store_true',
++                    help='attend over r_{<t} only (the strictly-past variant).  DEFAULT is '
++                         'r_{<=t}: r_t is an INPUT here (the head is fed root_t) and is exactly '
++                         'the context the 53.13 %% order-4 lookup uses')
++    ap.add_argument('--rca-ablate-eval', action='store_true',
++                    help='also evaluate with every RCA gate forced to 0 (inference-time causal '
++                         'ablation of the cross-attention)')
++    ap.add_argument('--unfreeze-last', type=int, default=0,
++                    help='also train the top N trunk layers (0 = frozen, historical).  This '
++                         'BYPASSES the frozen hidden-state cache by construction')
++    ap.add_argument('--trunk-lr-scale', type=float, default=0.1,
++                    help='lr of the unfrozen PRETRAINED trunk weights, as a fraction of --lr')
++    ap.add_argument('--rca-lr-scale', type=float, default=1.0,
++                    help='lr of the NEW cross-attention weights, as a fraction of --lr (the RCA '
++                         'is randomly initialised, so it does not need the warm-start protection '
++                         'that the pretrained trunk needs)')
++    ap.add_argument('--h-drift-probe', type=int, default=0,
++                    help='every N steps, recompute the trunk hidden states of a FIXED batch and '
++                         'log max|h - h_step1|: direct proof that the trunk is being trained and '
++                         'no frozen cache is being read (0 = off)')
+     ap.add_argument('--tag', default='full')
+     ap.add_argument('--eval-every', type=int, default=2000)
+     ap.add_argument('--probe-out', default='',
+@@ -383,8 +418,65 @@
+ 
+     for p in model.nrmt_head.parameters():
+         p.requires_grad = True
+-    n_tr = sum(p.numel() for p in model.parameters() if p.requires_grad)
+-    print(f'[*] trainable parameters: {n_tr/1e6:.2f}M (backbone frozen)')
++
++    # ---- ROOT CROSS-ATTENTION + PARTIAL TRUNK UNFREEZE --------------------------------------
++    # `--root-cross-attn none --unfreeze-last 0` leaves rca_stack None, unfrozen_layers [] and
++    # live False, i.e. the historical frozen-cache trainer, unchanged.  The new module is only
++    # imported when it is actually requested, so the historical path has no new dependency.
++    rca_stack = None
++    unfrozen_layers = []
++    rca_layers = []
++    if str(args.root_cross_attn).strip().lower() not in ('', 'none', 'off', '0'):
++        if '/workspace/root_attn' not in sys.path:
++            sys.path.insert(0, '/workspace/root_attn')
++        from root_cross_attn import RootCrossAttentionStack, parse_layer_spec
++        rca_layers = parse_layer_spec(args.root_cross_attn, len(model.backbone.layers))
++    if rca_layers:
++        rca_stack = RootCrossAttentionStack(
++            model.d_model, model.morphemic_embed.root_embed, rca_layers,
++            num_heads=args.rca_heads, dropout=args.rca_dropout, out_std=args.rca_out_std,
++            dtype=torch.float32).to(device=device)
++        rca_stack.exclude_current = bool(args.rca_exclude_current)
++        model.root_cross = rca_stack           # registers the new params on the owning model
++        rca_stack.attach(model.backbone.layers)
++    if args.unfreeze_last:
++        _n = len(model.backbone.layers)
++        unfrozen_layers = list(range(max(0, _n - args.unfreeze_last), _n))
++        for _i in unfrozen_layers:
++            for _p in model.backbone.layers[_i].parameters():
++                _p.requires_grad = True
++    live = bool(unfrozen_layers) or rca_stack is not None
++    if rca_stack is not None and unfrozen_layers and rca_layers != unfrozen_layers:
++        print(f'[warn] RCA layers {rca_layers} != unfrozen layers {unfrozen_layers}: the RCA '
++              f'residual enters layers that cannot adapt to it', flush=True)
++
++    head_params = [p for p in model.nrmt_head.parameters() if p.requires_grad]
++    rca_params = [p for n, p in model.named_parameters()
++                  if n.startswith('root_cross.') and p.requires_grad]
++    trunk_params = [p for n, p in model.named_parameters()
++                    if p.requires_grad and not n.startswith(('nrmt_head.', 'root_cross.'))]
++    all_trainable = head_params + rca_params + trunk_params
++    n_tr = sum(p.numel() for p in all_trainable)
++    _m = lambda ps: sum(p.numel() for p in ps) / 1e6
++    print(f'[*] trainable parameters: {n_tr/1e6:.2f}M (head {_m(head_params):.2f}M @lr {args.lr:g}'
++          + (f' | rca {_m(rca_params):.2f}M @lr {args.lr*args.rca_lr_scale:g} '
++             f'layers {rca_layers}' if rca_params else '')
++          + (f' | trunk {_m(trunk_params):.2f}M @lr {args.lr*args.trunk_lr_scale:g} '
++             f'layers {unfrozen_layers}' if trunk_params else '')
++          + ')', flush=True)
++    if live:
++        print('[*] TRUNK LIVE: hidden-state cache BYPASSED (extract_backbone is NOT called; the '
++              'trunk runs in the forward pass every step).  morphemic_embed and final_norm stay '
++              'frozen.', flush=True)
++
++        def extract_backbone(*a, **k):        # noqa: F811 -- hard guard, not a silent fallback
++            raise RuntimeError(
++                'extract_backbone() called while the trunk is UNFROZEN: the frozen hidden-state '
++                'cache is only valid for a frozen backbone (it would silently train the head on '
++                'stale trunk activations)')
++    if rca_stack is not None:
++        print(f'[*] RCA init check: gates={rca_stack.gate_values()} '
++              f'(exactly 0 => the attached stack is a numerical no-op at step 0)', flush=True)
+ 
+     if args.lambda_orbit != 0.0:
+         # A structural probe: if the orbit term has no grad_fn it contributes exactly zero
+@@ -413,9 +505,12 @@
+     tr_st = starts_for(tr4[1], args.train_windows, 0)
+     va_st = starts_for(va4[1], args.val_windows, 1)
+ 
+-    print('[*] caching frozen backbone hidden states', flush=True)
+-    Htr = extract_backbone(model, tr4, tr_st, device, 'train')
+-    Hva = extract_backbone(model, va4, va_st, device, 'val')
++    if live:
++        Htr = Hva = None
++    else:
++        print('[*] caching frozen backbone hidden states', flush=True)
++        Htr = extract_backbone(model, tr4, tr_st, device, 'train')
++        Hva = extract_backbone(model, va4, va_st, device, 'val')
+ 
+     def win_tensor(t, starts):
+         return torch.stack([t[j:j + WIN] for j in starts])
+@@ -486,11 +581,40 @@
+           f'({100*int(keep_novel.sum())/max(int(keep_all.sum()),1):.1f}%)')
+ 
+     head = model.nrmt_head
+-    opt = torch.optim.AdamW([p for p in head.parameters() if p.requires_grad],
+-                            lr=args.lr, weight_decay=0.01)
+-    sched = torch.optim.lr_scheduler.OneCycleLR(
+-        opt, max_lr=args.lr, total_steps=args.steps,
+-        pct_start=max(0.03, min(0.3, 500.0 / max(args.steps, 1))))
++
++    def live_h_windows(Pr_w, Tr_w, Wr_w, Sr_w):
++        """Trunk forward for one batch of 128-word windows -> fp32 hidden states [b,127,d].
++
++        This is the LIVE replacement for `extract_backbone`'s cached `Htr_w`/`Hva_w`: the RCA
++        stack consumes the FULL-window root ids (its causal mask, not a slice, decides what is
++        visible), while the head consumes positions 0..T-2, exactly as in the cached path.
++        """
++        emb = model.morphemic_embed(Pr_w, Tr_w, Wr_w, Sr_w)
++        if rca_stack is not None:
++            rca_stack.set_root_ids(Tr_w)
++        out = model.backbone(inputs_embeds=emb)
++        return model.final_norm(out.last_hidden_state).float()[:, :-1].contiguous()
++
++    if live:
++        groups = [{'params': head_params, 'lr': args.lr, 'grp': 'head'}]
++        if rca_params:
++            groups.append({'params': rca_params, 'lr': args.lr * args.rca_lr_scale, 'grp': 'rca'})
++        if trunk_params:
++            groups.append({'params': trunk_params, 'lr': args.lr * args.trunk_lr_scale,
++                           'grp': 'trunk'})
++        opt = torch.optim.AdamW(groups, lr=args.lr, weight_decay=0.01)
++        sched = torch.optim.lr_scheduler.OneCycleLR(
++            opt, max_lr=[g['lr'] for g in groups], total_steps=args.steps,
++            pct_start=max(0.03, min(0.3, 500.0 / max(args.steps, 1))))
++        print('[*] optimizer groups: ' + ' | '.join(
++            f"{g['grp']} n={len(g['params'])} lr={g['lr']:g}" for g in opt.param_groups),
++            flush=True)
++    else:
++        opt = torch.optim.AdamW([p for p in head.parameters() if p.requires_grad],
++                                lr=args.lr, weight_decay=0.01)
++        sched = torch.optim.lr_scheduler.OneCycleLR(
++            opt, max_lr=args.lr, total_steps=args.steps,
++            pct_start=max(0.03, min(0.3, 500.0 / max(args.steps, 1))))
+ 
+     def ss_prob_at(step):
+         """p(use the model's own greedy root) at this step."""
+@@ -581,9 +705,14 @@
+         return loss, info
+ 
+     @torch.no_grad()
+-    def evaluate(H, R, W, P, S, O, B=16):
+-        """H:[N,T1,d]; R/W/P/S/O:[N,T1] inputs. Root metrics on ALL/NOVEL positions, plus the
+-        factorised morph heads (always free-running: cond_roots=None, as at inference).
++    def evaluate(H, R, W, P, S, O, B=16, live_streams=None, ablate=False):
++        """H:[N,T1,d] (or None when live_streams is given); R/W/P/S/O:[N,T1] inputs. Root metrics
++        on ALL/NOVEL positions, plus the factorised morph heads (always free-running:
++        cond_roots=None, as at inference).
++
++        `live_streams=(Pr,Tr,Wr,Sr)` recomputes the trunk activations in the forward pass (the
++        unfrozen mode); `ablate=True` forces every RCA gate to 0 for this pass only, which is an
++        inference-time causal ablation of the cross-attention on the SAME trunk weights.
+ 
+         v18fix METRIC CONTRACT -- read this before quoting any number:
+           acc@1, acc@5        scale-invariant by construction (argmax/topk are invariant to any
+@@ -600,10 +729,19 @@
+         """
+         head.eval()
+         lg, wlg, plg, slg = [], [], [], []
+-        nb = H.shape[0]
++        nb = len(R)
++        _old_gates = None
++        if ablate and rca_stack is not None:
++            _old_gates = rca_stack.zero_gates()
+         for i in range(0, nb, B):
+             sl = slice(i, min(i + B, nb))
+-            out = head(H[sl].to(device), R[sl].to(device), O[sl].to(device),
++            if live_streams is not None:
++                _Pr, _Tr, _Wr, _Sr = live_streams
++                Hsl = live_h_windows(_Pr[sl].to(device), _Tr[sl].to(device),
++                                     _Wr[sl].to(device), _Sr[sl].to(device))
++            else:
++                Hsl = H[sl].to(device)
++            out = head(Hsl, R[sl].to(device), O[sl].to(device),
+                        W[sl].to(device), P[sl].to(device), S[sl].to(device))
+             lg.append(out['root_logits'].float().cpu())
+             wlg.append(out['wazn_logits'].float().cpu())
+@@ -646,6 +784,8 @@
+                         'ce_z': float(F.cross_entropy((ll - ll.mean(-1, keepdim=True)) / sdm, tt)),
+                         'logit_scale': float(sdm.mean()),
+                         'acc@1': float((ll.argmax(-1) == tt).float().mean())}
++        if _old_gates is not None:
++            rca_stack.restore_gates(_old_gates)
+         head.train()
+         return res
+ 
+@@ -699,21 +839,50 @@
+         f = min(1.0, step / float(args.margin_ramp))
+         return args.margin_start + (args.margin - args.margin_start) * f
+ 
++    # ---- PROOF that the trunk is really being trained (only in the live mode) ---------------
++    # A fixed batch of windows is re-forwarded at probe steps; if a frozen cache were being read
++    # (or if nothing were trainable) the hidden states would be bit-identical to step 1.
++    probe_idx = torch.arange(min(4, n_win)) if live else None
++    h_ref = None
++    h_ref_fp = None
++    nan_steps = 0
++
++    def _group_gnorm(ps):
++        tot = 0.0
++        for q in ps:
++            if q.grad is not None:
++                tot += float(q.grad.detach().float().pow(2).sum())
++        return tot ** 0.5
++
+     for step in range(1, args.steps + 1):
+         p_ss = ss_prob_at(step)
+         idx = torch.randint(0, n_win, (args.batch_size,))
++        if live:
++            _p, _r, _w, _s = (t[idx].to(device) for t in (Pr, Tr, Wr, Sr))
++            h_batch = live_h_windows(_p, _r, _w, _s)
++        else:
++            h_batch = Htr_w[idx].to(device)
+         loss, info = step_loss(
+-            Htr_w[idx].to(device),
++            h_batch,
+             Tr[idx][:, :-1].to(device), Wr[idx][:, :-1].to(device),
+             Pr[idx][:, :-1].to(device), Sr[idx][:, :-1].to(device),
+             Otr_w[idx].to(device),
+             Rt_tr[idx].to(device), Wr[idx][:, 1:].to(device),
+             Pr[idx][:, 1:].to(device), Sr[idx][:, 1:].to(device), p_ss,
+             eff_margin=margin_at(step), logit_scale=args.logit_scale)
++        if not torch.isfinite(loss):
++            nan_steps += 1
++            print(f'  [WARN] step {step}: non-finite loss {float(loss)} -- step skipped '
++                  f'(total skipped {nan_steps})', flush=True)
++            opt.zero_grad(set_to_none=True)
++            continue
+         opt.zero_grad(set_to_none=True)
+         loss.backward()
+-        gnorm = torch.nn.utils.clip_grad_norm_(
+-            [p for p in head.parameters() if p.requires_grad], args.grad_clip)
++        # per-group PRE-clip grad norms: the trunk group is the proof that trunk weights receive
++        # a non-zero gradient every step (it is exactly 0 when the trunk is frozen)
++        gn_head, gn_rca, gn_trunk = (_group_gnorm(head_params), _group_gnorm(rca_params),
++                                     _group_gnorm(trunk_params))
++        gnorm = torch.nn.utils.clip_grad_norm_(all_trainable, args.grad_clip)
+         # v18fix: a tighter --grad-clip is a NO-OP for Adam (m_hat/sqrt(v_hat) is invariant to a
+         # global gradient rescale), so the pathological warm-up steps are SKIPPED instead.
+         skipped = False
+@@ -724,10 +893,28 @@
+         else:
+             opt.step()
+         sched.step()
++
++        # h-drift: recompute the FIXED probe batch and compare with step 1 (live mode only)
++        h_drift = None
++        if live and args.h_drift_probe and (step == 1 or step % args.h_drift_probe == 0):
++            with torch.no_grad():
++                _pp, _rr, _ww, _ss = (t[probe_idx].to(device) for t in (Pr, Tr, Wr, Sr))
++                h_now = live_h_windows(_pp, _rr, _ww, _ss)
++                if h_ref is None:
++                    h_ref = h_now.clone()
++                    h_ref_fp = float(h_now.double().abs().sum())
++                h_drift = float((h_now - h_ref).abs().max())
++                if step % (args.h_drift_probe * 10) == 0 or step == 1:
++                    print(f'  [proof] step {step}: trunk h for a FIXED batch vs step 1: '
++                          f'max|dh|={h_drift:.6e} | fp {float(h_now.double().abs().sum()):.6f} '
++                          f'(step-1 fp {h_ref_fp:.6f}) | grad_norm head={gn_head:.3e} '
++                          f'rca={gn_rca:.3e} trunk={gn_trunk:.3e}', flush=True)
+         if _pf is not None:
+             _pf.write(json.dumps({'step': step, 'loss': float(loss),
+                                   'grad_norm': float(gnorm), 'p_ss': p_ss,
+                                   'skipped': skipped,
++                                  'grad_norm_head': gn_head, 'grad_norm_rca': gn_rca,
++                                  'grad_norm_trunk': gn_trunk, 'h_drift_max': h_drift,
+                                   'lr': opt.param_groups[0]['lr'], **info}) + '\n')
+             if step % 25 == 0:
+                 _pf.flush()
+@@ -735,9 +922,20 @@
+             print(f'  step {step}/{args.steps} loss {float(loss):.4f} '
+                   f'(root {info["root"]:.3f} wazn {info["wazn"]:.3f} '
+                   f'pref {info["prefix"]:.3f} suff {info["suffix"]:.3f}) '
+-                  f'{step/(time.time()-t0):.0f} it/s', flush=True)
++                  f'{step/(time.time()-t0):.0f} it/s | gnorm head={gn_head:.2e} '
++                  f'rca={gn_rca:.2e} trunk={gn_trunk:.2e}'
++                  + (f' | h_drift {h_drift:.3e}' if h_drift is not None else ''), flush=True)
+         if step % args.eval_every == 0 or step == args.steps:
+-            m = evaluate(Hva_w, Tv[:, :-1], Wv[:, :-1], Pv[:, :-1], Sv[:, :-1], Ova_w)
++            _ls = (Pr, Tr, Wr, Sr) if live else None
++            m = evaluate(Hva_w if not live else None, Tv[:, :-1], Wv[:, :-1], Pv[:, :-1],
++                         Sv[:, :-1], Ova_w, live_streams=_ls)
++            if live and args.rca_ablate_eval:
++                m_off = evaluate(None, Tv[:, :-1], Wv[:, :-1], Pv[:, :-1], Sv[:, :-1], Ova_w,
++                                 live_streams=_ls, ablate=True)
++                if 'ALL_val' in m_off:
++                    m['ALL_val_RCA_OFF'] = m_off['ALL_val']
++                if 'NOVEL_only' in m_off:
++                    m['NOVEL_only_RCA_OFF'] = m_off['NOVEL_only']
+             parts = []
+             for k, v in m.items():
+                 if 'ppl_z' in v:
+@@ -755,12 +953,33 @@
+                 extra += (f' | ngram gate {model.nrmt_head.ngram_gate():.5f} '
+                           f'scale {model.nrmt_head.ngram_scale():.4f} (RMS x '
+                           f'{model.nrmt_head.ngram_scale():.4f})')
++            if live:
++                if rca_stack is not None:
++                    _g = rca_stack.gate_values()
++                    extra += (' | RCA gates ' + ','.join(f'{x:+.4f}' for x in _g) +
++                              f' (|mean| {sum(abs(x) for x in _g)/max(len(_g),1):.4f})')
++                if h_drift is not None:
++                    extra += f' | h_drift {h_drift:.4e}'
+             print(f'  [eval @{step}] ' + ' | '.join(parts) + extra, flush=True)
+             hist.append({'step': step, **m, 'extra_norm': model.nrmt_head.extra_norm(),
+                          'feat_scale': model.nrmt_head.feat_scale(),
+                          'ngram_gate': model.nrmt_head.ngram_gate(),
+-                         'ngram_scale': model.nrmt_head.ngram_scale()})
++                         'ngram_scale': model.nrmt_head.ngram_scale(),
++                         'h_drift': h_drift, 'nan_steps': nan_steps,
++                         **(rca_stack.stats() if rca_stack is not None else {})})
+             torch.save({k: v.cpu() for k, v in head.state_dict().items()}, args.save)
++            if live:
++                # the head alone does NOT reproduce this arm: the unfrozen trunk moved too
++                keep = {n: p.detach().to(torch.bfloat16).cpu() for n, p in model.named_parameters()
++                        if n.startswith('root_cross.')
++                        or any(n.startswith(f'backbone.layers.{i}.') for i in unfrozen_layers)}
++                torch.save({'state': keep, 'unfrozen_layers': unfrozen_layers,
++                            'rca_layers': rca_layers, 'live': True,
++                            'rca_exclude_current': bool(args.rca_exclude_current),
++                            'rca_heads': int(args.rca_heads),
++                            'trunk_lr_scale': args.trunk_lr_scale,
++                            'rca_lr_scale': args.rca_lr_scale,
++                            'step': step}, args.save + '.trunk.pt')
+ 
+     if _pf is not None:
+         _pf.flush()

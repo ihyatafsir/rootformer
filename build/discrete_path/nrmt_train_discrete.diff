@@ -1,0 +1,97 @@
+--- nrmt_train_pod.py	2026-10-02 02:10:31.342839462 +0200
++++ nrmt_train_discrete.py	2026-10-02 02:29:33.209705154 +0200
+@@ -239,6 +239,24 @@
+     ap.add_argument('--dropout', type=float, default=0.1)
+     ap.add_argument('--no-features', action='store_true',
+                     help='CONTROL: disable root-history/operator/morph conditioning (h-only head)')
++    # ---- DISCRETE root-history pathway (default 'none' = the historical path, reproducible) ----
++    ap.add_argument('--ngram-features', choices=('none', 'vocab', 'hash'), default='none',
++                    help='DISCRETE root-history pathway: every distinct order-k root n-gram owns '
++                         'a learnable embedding row; the projected sum is ADDED to h_t.  `vocab` '
++                         'is collision-free (distinct contexts of the TRAIN stream get compact '
++                         'ids, everything else = one OOV row); `hash` buckets into 2**bits.  '
++                         'none = historical behaviour, byte-for-byte')
++    ap.add_argument('--ngram-orders', default='1,2,3,4',
++                    help='comma-separated orders k (context = the k roots ENDING at the position)')
++    ap.add_argument('--ngram-dim', type=int, default=32, help='embedding width d_ng per order')
++    ap.add_argument('--ngram-bucket-bits', type=int, default=20,
++                    help='hash mode: 2**bits buckets per order')
++    ap.add_argument('--ngram-emb-std', type=float, default=0.02,
++                    help='std of the n-gram embedding init (must be > 0 with the zero gate, else '
++                         'the arm is a dead saddle)')
++    ap.add_argument('--no-ngram-gate', action='store_true',
++                    help='disable the zero-init fade-in gate on the discrete arm (NOT recommended: '
++                         'the arm slams from 0 to full RMS in one Adam step)')
+     ap.add_argument('--tag', default='full')
+     ap.add_argument('--eval-every', type=int, default=2000)
+     ap.add_argument('--probe-out', default='',
+@@ -259,17 +277,40 @@
+     from models.unified_rootformer_v12 import UnifiedRootformerV12
+     from deepseek_v4_1_flash_model import UnifiedRootformerV17_DeepSeekFlash
+     from safetensors.torch import load_file
+-    from nrmt_arch import RootformerNRMT, build_operator_table
++    from nrmt_arch import RootformerNRMT, build_operator_table, ngram_order_vocabs
+ 
+     V = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+     bp = str(ROOT_DIR / 'data/rootformer_v12_arabic_blueprint.json')
+     vocab = V(bp)
++
++    # (0) the cache is loaded BEFORE the head is built, because the discrete pathway's `vocab`
++    # mode needs the train root stream to size its tables (one row per distinct context).
++    tr4 = [t.long() for t in torch.load(Path(args.cache) / 'train.pt', map_location='cpu')]
++    va4 = [t.long() for t in torch.load(Path(args.cache) / 'val.pt', map_location='cpu')]
++    ng_orders = tuple(int(x) for x in str(args.ngram_orders).split(',') if x.strip())
++    ng_vocabs = None
++    if args.ngram_features == 'vocab':
++        _t = time.time()
++        ng_vocabs = ngram_order_vocabs(tr4[1].numpy().astype('int64'), vocab.num_roots, ng_orders)
++        print('[*] ngram vocab (train stream): ' +
++              ', '.join(f'k{k}={len(v)}' for k, v in zip(ng_orders, ng_vocabs)) +
++              f' rows ({time.time()-_t:.0f}s)', flush=True)
++
+     base = UnifiedRootformerV12(bp, 'Qwen/Qwen2.5-0.5B', str(device), torch.bfloat16).to(device)
+     flash = UnifiedRootformerV17_DeepSeekFlash(base, device, torch.bfloat16).to(device)
+     model = RootformerNRMT(flash, vocab, device, torch.bfloat16, hist=args.hist,
+                            dropout=args.dropout, use_features=not args.no_features,
+                            feat_gate=args.feat_gate,
+-                           feat_gate_proj_std=args.feat_gate_proj_std).to(device)
++                           feat_gate_proj_std=args.feat_gate_proj_std,
++                           ngram_mode=args.ngram_features, ngram_orders=ng_orders,
++                           d_ng=args.ngram_dim, ngram_bucket_bits=args.ngram_bucket_bits,
++                           ngram_vocabs=ng_vocabs, ngram_gate=not args.no_ngram_gate,
++                           ngram_emb_init_std=args.ngram_emb_std).to(device)
++    if args.ngram_features != 'none':
++        print(f'[*] DISCRETE arm: mode={args.ngram_features} orders={ng_orders} '
++              f'd_ng={args.ngram_dim} gate={not args.no_ngram_gate} '
++              f'tables={model.nrmt_head.ngram_table_stats()} '
++              f'params={model.nrmt_head.ngram_params()/1e6:.2f}M')
+     print(f'[*] ARM [{args.tag}] use_features={not args.no_features} dropout={args.dropout}')
+     print(f'[*] v18fix: feat_gate={args.feat_gate} (proj_std {args.feat_gate_proj_std}) '
+           f'logit_scale={args.logit_scale} '
+@@ -360,8 +401,7 @@
+               f'grad_fn={type(_l.grad_fn).__name__ if _l.grad_fn is not None else None} | '
+               f'root_embed.weight.requires_grad={_re.requires_grad}')
+ 
+-    tr4 = [t.long() for t in torch.load(Path(args.cache) / 'train.pt', map_location='cpu')]
+-    va4 = [t.long() for t in torch.load(Path(args.cache) / 'val.pt', map_location='cpu')]
++    # (the cache was loaded at (0) above, before the head was built)
+     print(f'[*] train {tr4[1].numel()} | val {va4[1].numel()} root tokens')
+     nov = Novelty(tr4[1].tolist())
+ 
+@@ -711,9 +751,15 @@
+             extra = (f' | extra_norm {model.nrmt_head.extra_norm():.4f} (GAUGE)'
+                      f' | feat_scale {model.nrmt_head.feat_scale():.4f} (real branch RMS x '
+                      f'{model.nrmt_head.feat_scale()/math.sqrt(model.d_model):.4f})')
++            if args.ngram_features != 'none':
++                extra += (f' | ngram gate {model.nrmt_head.ngram_gate():.5f} '
++                          f'scale {model.nrmt_head.ngram_scale():.4f} (RMS x '
++                          f'{model.nrmt_head.ngram_scale():.4f})')
+             print(f'  [eval @{step}] ' + ' | '.join(parts) + extra, flush=True)
+             hist.append({'step': step, **m, 'extra_norm': model.nrmt_head.extra_norm(),
+-                         'feat_scale': model.nrmt_head.feat_scale()})
++                         'feat_scale': model.nrmt_head.feat_scale(),
++                         'ngram_gate': model.nrmt_head.ngram_gate(),
++                         'ngram_scale': model.nrmt_head.ngram_scale()})
+             torch.save({k: v.cpu() for k, v in head.state_dict().items()}, args.save)
+ 
+     if _pf is not None:

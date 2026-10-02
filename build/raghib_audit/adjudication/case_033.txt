@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حيث   stratum=Ma
+REC ontological_core : An indeterminate locative particle (ẓarf mubham) denoting an unspecified place, whose precise reference is disambiguated only by the clause that follows it.
+REC haqiqah_literal  : A literal, indeterminate adverb of place (ẓarf makān mubham) governing the spatial sense of 'where' or 'in the place that', whose referent is specified by the subsequent clause.
+REC canon_def.ar     : حَيْثُ: ظَرْفٌ مُبْهَمٌ مِنَ الأَمْكِنَةِ، مَضْمُومٌ، وَبَعْضُ العَرَبِ يَفْتَحُهُ، وَزَعَمُوا أَنَّ أَصْلَهَا الوَاوُ؛ وَإِنَّمَا قُلِبَتِ الوَاوُ يَاءً طَلَبَ الخِفَّةِ.
+REC canon_def.en     : Ḥaythu is an indeterminate locative adverb of place, pronounced with a ḍammah, though some Arab speakers pronounce it with a fatḥah; it is claimed that its original root was wāw, which was changed to yāʾ for the sake of phonetic lightness.
+SRC al-Mufradat      : [line 10167 hdr=حيث] حيث عبارة عن مكان مبهم يشرح بالجملة التي بعده، نحو قوله تعالى: وحيث ما كنتم* [البقرة/ 144]، ومن حيث خرجت* [البقرة/ 149].
+SRC Maqayis (IbnFaris): [line 19745 hdr=حيث] الحاء والياء والثاء ليست أصلا؛ لأنها كلمة موضوعة لكل مكان، وهى مبهمة، تقول اقعد حيث شئت، وتكون مضمومة. وحكى الكسائى فيها الفتح أيضا.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 12102 hdr=حيث] حوث: للعرب في حيث لغتان واللغة العالية: حَيْثُ، الثاء مضمومة وهو أداة للرّفع يرفع الاسم بعده، ولغةٌ أخرى: حوث رواية عن العرب لبني تميم. قال: «2» ولكن قذاها واحد لا تريده ... أتتنا بها الغيطان من حوث لا ندري __________ (1) ديوانه ص 86. (2) ثاني بيتين (للأخطل) (الديوان ص 361) وهما: وليس القذى بالعود يسقط في الإنا ... ولا بذباب نزعه أيسر الأمر ولكن شخصا لا نزر بفربة ... رمتنا به الغيطان من حيث لا ندري باب الحاء والراء و […]

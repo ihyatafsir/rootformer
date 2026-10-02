@@ -1,0 +1,90 @@
+{
+  "leak": {
+    "train": {
+      "sentences": 2542630,
+      "sentences_containing_heldout_root": 0,
+      "heldout_root_occurrences": 0,
+      "total_word_positions": 25000003,
+      "distinct_heldout_roots_present": 0
+    },
+    "val": {
+      "sentences": 2000,
+      "sentences_containing_heldout_root": 0,
+      "heldout_root_occurrences": 0,
+      "total_word_positions": 19336,
+      "distinct_heldout_roots_present": 0
+    },
+    "test_gen": {
+      "sentences": 4000,
+      "sentences_containing_heldout_root": 0,
+      "heldout_root_occurrences": 0,
+      "total_word_positions": 39757,
+      "distinct_heldout_roots_present": 0
+    },
+    "test_deriv": {
+      "sentences": 4000,
+      "sentences_containing_heldout_root": 4000,
+      "heldout_root_occurrences": 4602,
+      "total_word_positions": 45688,
+      "distinct_heldout_roots_present": 38
+    }
+  },
+  "unigram_bits": {
+    "val": 13.825221773482733,
+    "test_gen": 13.615963391016509,
+    "test_deriv": 15.599057252800497
+  },
+  "unigram_root_acc": {
+    "val": {
+      "all": {
+        "top1": 0.17891760904684975,
+        "top5": 0.28519501500115396,
+        "n": 17332
+      },
+      "real": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "n": 9684
+      },
+      "special": {
+        "top1": 0.4054654811715481,
+        "top5": 0.6463127615062761,
+        "n": 7648
+      }
+    },
+    "test_gen": {
+      "all": {
+        "top1": 0.18754545963184693,
+        "top5": 0.3000335701896716,
+        "n": 35746
+      },
+      "real": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "n": 19123
+      },
+      "special": {
+        "top1": 0.4032966371894363,
+        "top5": 0.6451903988449739,
+        "n": 16623
+      }
+    },
+    "test_deriv": {
+      "all": {
+        "top1": 0.16407918416316736,
+        "top5": 0.2697780443911218,
+        "n": 41675
+      },
+      "real": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "n": 23864
+      },
+      "special": {
+        "top1": 0.38392004940766944,
+        "top5": 0.6312391218909662,
+        "n": 17811
+      }
+    }
+  }
+}

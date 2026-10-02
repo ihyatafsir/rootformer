@@ -1,0 +1,10 @@
+================================================================================================
+ROOT خرفش   stratum=ma
+REC ontological_core : The root denotes a marked, delimited tract of ground — a place-name or topographical locus set apart within the landscape.
+REC haqiqah_literal  : A named locality or place (خِرْفاشٌ: موضع); the literal sense is purely toponymic, referring to a specific site on the ground.
+REC canon_def.ar     : خِرْفاشٌ: موضع.
+REC canon_def.en     : Khirfāsh: a place; a named locality.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 17854 hdr=خرفش] والمُخرْنَفِش والمُخْرَنْشِمُ هو كالمغتاظ.

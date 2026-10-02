@@ -1,0 +1,10 @@
+================================================================================================
+ROOT افح   stratum=ma
+REC ontological_core : The root افح is not attested as an independent lexical root in the classical Arabic lexicographical tradition; its apparent presence in some sources reflects either a scribal variant, a dialectal form, or a mis-segmentation of a larger root such as فوح (diffusion of scent) or أفح (a rare verbal noun). No foundational physical origin (aṣl al-waḍʿ) can be established for it as a standalone root.
+REC haqiqah_literal  : No literal physical meaning is recorded for افح in Asās al-Balāghah or in the classical lexicons; the sequence is not recognized as a ḥaqīqah-bearing root.
+REC canon_def.ar     : افح: لم يثبت في لسان العرب ولا في المفردات كجذر مستقل؛ إنما هو صورة مهملة أو تحريف عن أصل معروف.
+REC canon_def.en     : Afḥ: Not established in Lisān al-ʿArab or Al-Mufradāt as an independent root; it is either an unused form or a corruption of a known root.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

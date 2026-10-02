@@ -1,0 +1,107 @@
+{
+  "CUT": 9015,
+  "num_roots": 9490,
+  "aliased_ids": 475,
+  "train_full": {
+    "n": 7063767,
+    "gt_9014": 876022,
+    "pct_gt": 12.401626497589742,
+    "eq_9014": 3559,
+    "distinct_ids_total": 8614,
+    "distinct_ids_gt": 466
+  },
+  "val_full": {
+    "n": 837575,
+    "gt_9014": 109684,
+    "pct_gt": 13.095424290362057,
+    "eq_9014": 548,
+    "distinct_ids_total": 5070,
+    "distinct_ids_gt": 392
+  },
+  "train_full_nonspecial": {
+    "n": 3558908,
+    "gt_9014": 245796,
+    "pct_gt": 6.906500533309655,
+    "eq_9014": 3559,
+    "distinct_ids_total": 8350,
+    "distinct_ids_gt": 270
+  },
+  "val_full_nonspecial": {
+    "n": 414298,
+    "gt_9014": 30760,
+    "pct_gt": 7.424607408194102,
+    "eq_9014": 548,
+    "distinct_ids_total": 4820,
+    "distinct_ids_gt": 210
+  },
+  "val_windows": {
+    "identity_positions": 18856,
+    "nextword_positions": 18869,
+    "identity_gt_9014": 1380,
+    "nextword_gt_9014": 1384,
+    "identity_marginal": {
+      "majority_acc@1": 0.03574459058124735,
+      "majority_acc@5": 0.08225498515061519,
+      "majority_ids": [
+        283,
+        5660,
+        9356,
+        6397,
+        8232
+      ],
+      "n": 18856
+    },
+    "nextword_marginal": {
+      "majority_acc@1": 0.03566696698288198,
+      "majority_acc@5": 0.08246329959192326,
+      "majority_ids": [
+        283,
+        5660,
+        9356,
+        6397,
+        8232
+      ],
+      "n": 18869
+    }
+  },
+  "train_windows": {
+    "identity_positions": 192049,
+    "nextword_positions": 192064,
+    "identity_gt_9014": 13382,
+    "nextword_gt_9014": 13371,
+    "identity_marginal": {
+      "majority_acc@1": 0.022280772094621686,
+      "majority_acc@5": 0.07174210748298611,
+      "majority_ids": [
+        6397,
+        283,
+        9016,
+        7309,
+        744
+      ],
+      "n": 192049
+    },
+    "nextword_marginal": {
+      "majority_acc@1": 0.022237379206931022,
+      "majority_acc@5": 0.07163237254248583,
+      "majority_ids": [
+        6397,
+        283,
+        9016,
+        7309,
+        744
+      ],
+      "n": 192064
+    }
+  },
+  "val_unique_words": {
+    "n": 73502,
+    "gt_9014": 3494,
+    "distinct_gt_9014": 210
+  },
+  "train_unique_words": {
+    "n": 297815,
+    "gt_9014": 12469,
+    "distinct_gt_9014": 270
+  }
+}

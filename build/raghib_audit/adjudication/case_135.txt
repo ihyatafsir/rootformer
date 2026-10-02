@@ -1,0 +1,10 @@
+================================================================================================
+ROOT هكر   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the state of being overwhelmed by astonishment — a cognitive-affective rupture in which the mind is seized by an object or event that exceeds its ordinary categories of expectation and comprehension.
+REC haqiqah_literal  : The literal, non-figurative meaning is intense wonder or astonishment (al-ʿajab al-shadīd); the verbal noun denotes the sheer magnitude of amazement, and the derived verb describes a person whose astonishment has become acute and overpowering.
+REC canon_def.ar     : الهَكْرُ: العَجَبُ، وقيل: الهَكْرُ أَشدُّ العجبِ. هَكِرَ يَهْكَرُ هَكَراً وهِكْراً، فهو هَكِرٌ: اشتدَّ عَجَبُه.
+REC canon_def.en     : Al-hakr is astonishment; it is also said that al-hakr is the most intense form of astonishment. He was astonished, being astonished with astonishment and intense wonder, so he is wonder-struck: his astonishment became acute.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 74891 hdr=هكر] الهاء والكاف والراء كلمتان: الهكر: العجب. قال: فاعجب لذلك ريب دهر واهكر (3) قال الخليل: تقول هكرا لك. والكلمة الأخرى:* اعتراء النعاس. قال: وهكر الرجل: اعتراه نعاس وكل، واسترخت عظامه ومفاصله. إذا هرق المهقوع بالمرء أنعظت حليلته وازداد حرا عجانها فقد الشباب أبوك إلا ذكره
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

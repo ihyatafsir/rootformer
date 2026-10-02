@@ -1,0 +1,43 @@
+{
+  "layers": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "rel_disp": {
+    "20": 0.034584749665109944,
+    "21": 0.03632801290922871,
+    "22": 0.03776466625731404,
+    "23": 0.035856243804304085
+  },
+  "n_params": 62252824,
+  "damaged_payload": {
+    "tensors": 128,
+    "step": 5000,
+    "trunk_lr_scale": 0.1
+  },
+  "corr_Fret_Fsyn_param": 0.9958837474897936,
+  "corr_logFret_logFsyn_param": 0.983567928492208,
+  "spearman_Fret_Fsyn_param": 0.9951178113311862,
+  "corr_dW2_Fret": -0.013671742244946012,
+  "corr_dW2_Fsyn": -0.0136346644180892,
+  "corr_logdW2_logFret": 0.5706040221652705,
+  "corr_logdW2_logFsyn": 0.564554347439379,
+  "tensor_level": {
+    "n_tensors": 92,
+    "spearman_Fret_Fsyn": 0.9960698488047718,
+    "pearson_logFret_logFsyn": 0.9998965661144191,
+    "spearman_dW2_Fret": 0.14504569764036807,
+    "spearman_dW2_Fsyn": 0.1423331226977791,
+    "top_decile_overlap": 0.8888888888888888
+  },
+  "taylor": {
+    "L_ret_theta0": 15.98763656616211,
+    "L_ret_damaged": 10.525509476661682,
+    "measured_delta": -5.462127089500427,
+    "predicted_delta_Fret": 0.06260272292789863,
+    "predicted_delta_Fsyn": 0.06640422173788743,
+    "ratio_measured_over_Fret": -87.25063118726189
+  }
+}

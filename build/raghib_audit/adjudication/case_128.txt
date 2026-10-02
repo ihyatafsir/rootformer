@@ -1,0 +1,10 @@
+================================================================================================
+ROOT شوع   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root شوع is the dispersal, scattering, and unruly spreading of hair, such that individual strands separate and stand apart in a manner resembling thorns (شَوْك) — a condition of disheveled, bristling separation rather than smooth cohesion.
+REC haqiqah_literal  : The literal physical meaning is the spreading and dispersion of hair (انتشار الشعر وتفرقه), where the hair becomes disheveled and separates into distinct, thorn-like strands, particularly as manifest on the cheeks (خدّين) of a woman, producing a rough, unkempt texture.
+REC canon_def.ar     : الشَّوَعُ: انْتِشارُ الشَّعر وتَفَرُّقُه كأَنَّه شَوْك
+REC canon_def.en     : Al-Shawaʿ: the spreading and dispersion of hair such that it resembles thorns.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 37725 hdr=شوع] الشين والواو والعين أصل يدل على انتشار وتفرق. من ذلك: الشوع، وهو انتشار الشعر وتفرقه. والشوع: شجر (1) ولعله متفرق النبت.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

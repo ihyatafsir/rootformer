@@ -1,0 +1,250 @@
+================================================================================================
+ROOT شبث   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ش-ب-ث is the act of clinging, adhering, or becoming physically attached to an object, such that it is seized and held fast. The root denotes a concrete, tactile grasping or entanglement—a thing becoming caught upon or fastened to another.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is: to cling to something, to hold fast to it, and to become attached to it. The phrase تشبث به (tashabbatha bihi) denotes direct, physical clinging or adherence. The related form شابثه (shābathahu) indicates mutual clinging or grappling. The noun شبث (shabath) and its plural شبثان (shubthān) refer to a thing that clin […]
+REC canon_def.ar     : شَبِثَ الشيءَ: عَلِقَه وأَخذه. والتَّشَبُّثُ بالشيء: التَّعَلُّق به. والتَّثَبُّتُ: التَّعَلُّق.
+REC canon_def.en     : He clung to the thing: he became attached to it and took hold of it. Clinging to a thing is attachment to it. And attachment is clinging.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 38060 hdr=شبث] الشين والباء والثاء أصيل يدل على تعلق الشىء بالشىء. من ذلك قولهم تشبثت، أى تعلقت. ومن ذلك الشبث، وهى دويبة من أحناش الأرض، كأنها تشبثت بما مرت. والجمع شبثان. قال: مدارج شبثان لهن هميم (1) أى دبيب.
+SRC Asas [haqiqah_literal]        : تشبث به، وشابثه. وكأن فرنده مدارج شبثان وهو جمع شبث.
+SRC Ayn (al-Khalil)  : [line 26835 hdr=شبث] الشَّبثُ: دويبة تكون في الأرض، وتكون عند النُّدوة، والجميع: الشِّبثان. ويقال: هو العنكبوت الضخم، و (لا يصح) . قال حّماس: الشَّبثُ: دابة كثيرةُ القوائم، صفراء شبيهةٌ بالعقرب، لا تُخرِّب الأرض، وربما لَدغَ لدغةً شديدة. والتَّشبُّثُ: اللُّزوم، وشدَّةُ الأخذ. وتشبث به، أي: تقبض به. باب الشين والراء والنون معهما ش ن ر، ن ش ر مستعملان
+
+================================================================================================
+ROOT صيح   stratum=mA
+REC ontological_core : The foundational physical origin of the root ص-ي-ح is the emission of a loud, piercing sound, specifically a vocal cry that strains the utterer's maximum capacity. It denotes an intense auditory event, whether from a human, animal, or inanimate object, and by extension, the act of calling out to someone or something.
+REC haqiqah_literal  : The literal, physical meaning is to shout, cry out, or emit a loud sound with one's utmost effort. It also encompasses calling out to someone (صاح به) and the reciprocal act of shouting at one another (تصايحوا). Additionally, it is used literally for the splitting or cracking of objects like a garment or a stick (انصاح الثوب, انصاحت العصا).
+REC canon_def.ar     : الصِّيَاحُ: الصوتُ؛ صوتُ كل شيء إِذا اشتدّ. صاحَ يَصِيحُ صَيْحة وصِياحاً وصُياحاً، وصَيْحاً وصَيَحاناً، وصَيَّحَ: صَوَّتَ بأَقصى طاقته، يكون ذلك في الناس وغيرهم.
+REC canon_def.en     : Al-Ṣiyāḥ is sound; the sound of anything when it intensifies. Ṣāḥa yaṣīḥu (he shouted) yields the verbal noun ṣayḥah, ṣiyāḥ, ṣuyāḥ, ṣayḥ, and ṣayaḥān; and ṣayyaḥa means to vocalize with one's utmost capacity. This applies to humans and othe […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 40468 hdr=صيح] الصاد والياء والحاء أصل صحيح، وهو الصوت العالى. منه الصياح، والواحدة منه صيحة. يقال: لقيت فلانا قبل كل صيح ونفر. فالصيح: الصياح. والنفر: التفرق. ومما يستعار من هذا قولهم: صاحت الشجرة، وصاح النبت، إذا طال، كأنه لما طال وارتفع جعل طوله كالصياح الذى يدل على الصائح. وأما التصيح، وهو تشقق الخشب، فالأصل فيه الواو، وهو التصوح، وقد مضى. ومنه انصاح البرق انصياحا، إذا تصدع وانشق. قال: من بين مرتتق منها ومنصاح (2) وأمست الأرض والقيعان مثرية
+SRC Asas [haqiqah_literal]        : صاح صيحة شديدة، وصاح به وصيح به وصايحه: ناداه، وضح لي بفلان: ادعه لي، وتصايحا: صاحوا، وتصايحوا: تداعوا. وتمر صيحاني، ونخلة صيحانية، قالوا: شد إلى نخلة كبش اسمه صيحان فنسبت إليه. وانصاح الثوب. وانصاحت العصا وتصيحت: تشققت.
+SRC Asas [bilingual_haqiqah_majaz]        : صاح صيحة شديدة، وصاح به وصيح به وصايحه: ناداه، وضح لي بفلان: ادعه لي، وتصايحا: صاحوا، وتصايحوا: تداعوا. وتمر صيحاني، ونخلة صيحانية، قالوا: ش Metaphorical (Majaz): أتيته قبل كل صيح ونفر: قبل كل شيء. وغصب من غير صيح ونفر: من غير شيء. قال: كذوب محول يجعل الله عرضة ... لأيمانه من غير صيح ولا نفر وصاحت الشج
+SRC Asas [majaz_metaphorical]        : أتيته قبل كل صيح ونفر: قبل كل شيء. وغصب من غير صيح ونفر: من غير شيء. قال: كذوب محول يجعل الله عرضة ... لأيمانه من غير صيح ولا نفر وصاحت الشجرة: طالت، وبأرض بني فلان شجر قد صاح. وصاح الكافور إذا ظهر الطلع ونحوه كالكرم إذا نادى من الكافور. وقال الفرزدق: والشيب ينهض في الشباب كأنه .
+SRC Ayn (al-Khalil)  : [line 11925 hdr=صيح] تَصَيَّح الخشب ونحوه إذا تصدّع، قال: «3» ويومٍ من الجَوْزاء مُوتَقِد الحَصَى ... تكادُ صيَاصِي العِينِ منه تَصَيَّحُ
+
+================================================================================================
+ROOT طلس   stratum=mA
+REC ontological_core : The foundational physical origin of the root ط ل س is the act of effacing, obliterating, or wiping out written traces from a surface, and the resulting state of a document or hide whose markings have been erased or obscured. From this primary sense of erasure and obscuration, the root extends to denote a dusty, ash-grey, or dusky coloration that obscures the natural brightness of a thing, as in the grey wolf (ذئب أطلس).
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the effacement of writing: طَلَسَ الكتابَ means to erase the book, and طَلَّسَهُ means to efface it thoroughly so as to corrupt its script. When the effacement is complete and the writing is reduced to a blank, superfluous surface, it becomes a طِرْس. The physical instrument of erasure is the طَلَاسَة, a rag or cloth […]
+REC canon_def.ar     : الطَّلْسُ: لغة في الطِّرْس، وهو المَحْوُ. طَلَسَ الكتابَ طَلْساً وطَلَّسَهُ فَتَطَلَّسَ: كَطَرَّسَهُ. ويقال للصحيفة إذا محيت: طِلْسٌ وطِرْسٌ. والذئب الأطلس: الأغبر.
+REC canon_def.en     : Al-ṭals is a variant of al-ṭirs, and it means effacement. He erased the book with a single act of erasure (ṭalasa) or with intensive erasure (ṭallasa), so it became erased (taṭallasa), just as one says ṭarrasa. A sheet, when it is effaced,  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 43257 hdr=طلس] الطاء واللام والسين أصل صحيح، كأنه يدل على ملاسة. يقال لفخذ البعير إذا تساقط عنه شعره: طلس. ومنه طلست الكتاب (4)، إذا محوته، كأنك قد ملسته (1). فأما الذئب الأطلس فيقولون الأغبر، والقياس يدل على أنه الذى قد تمعط شعره. فإن كان ما يقولونه صحيحا فكأنه من غبرته قد ألبس طيلسانا. والطيلسان بفتح اللام صحيح (2)، وفيه يقول الشاعر: وليل فيه يحسب كل نجم بدالك من خصاصة طيلسان (3)
+SRC Asas [bilingual_haqiqah_majaz]        : ذئب أطلس: أغبر، وذئاب طلس، وذئبة طلساء. وطلست الكتاب طلسا، وطلسته تطليسا وهو أن تمحوه لتفسد خطه، فإذا أعمت محوه وصيرته من الفضول التي يستغنى Metaphorical (Majaz): طلس بصره وطمسه: ذهب به. وشققت طيالس الظلام. قال أبو النجم: كم في لجيم من أغر كأنه ... صبح يشق طيالس الظلماء وتقول العرب: يا ابن الطيلسان: ير
+SRC Asas [majaz_metaphorical]        : طلس بصره وطمسه: ذهب به. وشققت طيالس الظلام. قال أبو النجم: كم في لجيم من أغر كأنه ... صبح يشق طيالس الظلماء وتقول العرب: يا ابن الطيلسان: يريدون يا عجمي.
+SRC Asas [haqiqah_literal]        : ذئب أطلس: أغبر، وذئاب طلس، وذئبة طلساء. وطلست الكتاب طلسا، وطلسته تطليسا وهو أن تمحوه لتفسد خطه، فإذا أعمت محوه وصيرته من الفضول التي يستغنى عنها وصيرته طرسا: فقد طرسته. ومحا اللوح بالطلاسة وهي الخرقة. وجاء البرد والطيالسة. وخرج القاضي متقلسا متطلسا.
+SRC Ayn (al-Khalil)  : [line 29493 hdr=طلس] الطِّلْس: كتابٌ قد مُحِيَ ولم يُنعَم مَحْوهُ. واذا مَحَوْتَ لتُفسِدَ خَطَّه قُلتَ: طَلَسْتُه، فاذا انعَمتَ مَحوَه قلتَ: طَرَسْتُه فيصيرُ طِلْساً. ويقال لجِلدِ فَخِذ البعير: طِلس لتَساقُط شَعرِه ووَبَرِه. والطَّلَسُ والطَّلَسة مصدر الأطلَس، والأطلَسُ من الذِّئاب: الذي قد تساقَطَ شَعرُه، وهو أخبَثُ ما يكون. والطَّلَسُ والطَّلَسَةُ: غُبرةٌ في غُبْسةٍ. [وفي حديث ابي بكرٍ أنَّ مُوَلَّداً أطلَسَ سَرَقَ فقطَعَ يَدَه] «111»  […]
+
+================================================================================================
+ROOT عرس   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a wedding celebration (ʿurs) and the bride (ʿarūs), from which derive associated meanings of adornment, intimacy, and habitation. A secondary, distinct root sense denotes bewilderment or stupefaction (dahash), as in ʿarisa al-rajul (the man was bewildered).
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is the wedding feast or celebration (ʿurs), and the bride (ʿarūs). It also literally denotes the act of a man endearing himself to his wife (tataʿarrasa li-mraʾatihi), and the lair or den of a lion (ʿirs al-asad) where it resides with its lioness (ʿarīs). Additionally, it refers to a brief stop or encampment (taʿrīsa)  […]
+REC canon_def.ar     : العَرَسُ، بالتحريك: الدَّهَشُ. وعَرِسَ الرجل وعَرِشَ، بالكسر والسين والشين، عَرَساً، فهو عَرِسٌ: بَطِرَ، وقيل: أَعْيَا ودَهِشَ. والعرس: مؤنثة، وهي حفل الزفاف. والعروس: المرأة في عرسها. والعرس: مأوى الأسد. والتعريس: نزول القوم في آخر الليل للاستراحة.
+REC canon_def.en     : Al-ʿaras (with a vowel on the second radical) means bewilderment. ʿArisa al-rajul (the man was bewildered) and ʿarisha, with kasra and either sīn or shīn, ʿarasan, so he is ʿaris: he was insolent, or it is said he was exhausted and bewilder […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 51911 hdr=عرس] العين والراء والسين أصل واحد صحيح تعود فروعه إليه (2)، وهو الملازمة. قال الخليل: عرس به، إذا لزمه. فمن فروع هذا الأصل العرس: امرأة الرجل، ولبؤة الأسد. قال امرؤ القيس: كذبت لقد أصبى على [المرء] عرسه وأمنع عرسى أن يزن بها الخالى (3) ويقال إنه يقال للرجل وامرأته عرسان؛ واحتجوا بقول علقمة: أدحى عرسين فيه البيض مركوم (1) ورجل عروس فى رجال عرس، وامرأة عروس فى نسوة عرائس وعرس. وأنشد: جرت بها الهوج أذيالا مظاهرة كما تجر ثياب الفوة العرس (2) وزعم الخليل أن العروس نعت للرجل والمرأة على فعول وقد استويا فيه، ماداما فى تعريسهما أياما إذا عرس أحدهما بالآخر. وأحسن [من] ذلك أن يقال للرجل معرس، أى اتخذ عروسا. والعرب تؤنث العرس (3 […]
+SRC Asas [haqiqah_literal]        : " هو أنقى من الخير من طست العروس " أي لا خير عنده، " ولا مخبأ لعطر بعد عروس ". وشهدنا عرس فلان فيا لها من عرس، ورأينا عرسه فيا لها من عرس، والعرس مؤنثة. قال: إنا وجدنا عرس الخياط ... مذمومة لئيمة الحواط وفلان يتعرس لامرأته أي يتحبب إليها. وهذه عرائس الإبل وعطراتها: لكرامها. وهو أ
+SRC Ayn (al-Khalil)  : [line 3850 hdr=عرس] العِرْسُ: امرأة الرّجل. ولبوءة الأسد عِرْسُه والعَروس نعتٌ للرجل والمرأة، استويا فيه ما داما في تعريسهما إذا عَرَّس أحدهما بالآخر. وأحسن ذلك أن يقال للرجل: مُعْرِسٌ، لأنّه أَعْرَسَ، أي: اتخذ عِرْساً. والعُرْسُ: اسم الطعام الذي يُعْرَسُ للعّروس. والعرب تؤنث العُرْس. قال: «1» يمشي إذا أخذ الوليد برأسه ... مشيا كما يمشي الهجين المعرس هذا هو الذي يُعْرِسُ العُرْس، وهو اسم الطعام الذي يُعْرَسُ للعَروس. قال عرّام: عَرِسَ ا […]
+
+================================================================================================
+ROOT فخذ   stratum=mA
+REC ontological_core : The foundational physical referent is the anatomical segment of the limb situated between the hip and the knee—the thigh—conceived as a distinct, bounded bodily member whose primary ontological mode is that of a corporeal part susceptible to injury.
+REC haqiqah_literal  : The literal, strictly anatomical sense is the thigh: the bodily member extending from the hip joint to the knee. In its verbal derivation, the root denotes the infliction of injury upon this member, as in 'he struck his thigh, rendering it fractured' (كُسِرَتْ فَخِذُهُ فَهُوَ مَفْخُوذٌ), and 'I struck him so that I injured his thigh' (رَمَيْتُهُ فَفَخَذْتُهُ).
+REC canon_def.ar     : الفَخِذُ: وصل ما بين الساق والورك، أُنثى، والجمع أَفخاذ. وفُخِذَ فَخْذاً، فهو مفخوذ: أُصيبت فخذه.
+REC canon_def.en     : The fakhidh is the anatomical segment connecting the lower leg and the hip; it is feminine, and its plural is afkhādh. One is said to have been fakhidha—sustaining a fakhdh—when their thigh has been injured, rendering them mafkhūdh.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 58055 hdr=فخذ] الفاء والخاء والذال كلمة واحدة، وهى الفخذ من الإنسان، معروفة، واستعير* فقيل الفخذ بسكون الخاء، دون القبيلة وفوق البطن، والجمع أفخاذ. ||| باب الفاء والدال وما يثلثهما
+SRC Asas [haqiqah_literal]        : فخذ الرجل: كسرت فخذه فهو مفخوذ.
+SRC Asas [bilingual_haqiqah_majaz]        : فخذ الرجل: كسرت فخذه فهو مفخوذ. Metaphorical (Majaz): هذا فخذي بالتذكير أي أدنى عشيرتي. وفلان من فخذ من أفخاذ بني تميم، وفخذ قبيلته: جعلهم فخذا فخذا. وفخذت بني فلان فلم أر عندهم خيرا أي أتيتهم ف
+SRC Asas [majaz_metaphorical]        : هذا فخذي بالتذكير أي أدنى عشيرتي. وفلان من فخذ من أفخاذ بني تميم، وفخذ قبيلته: جعلهم فخذا فخذا. وفخذت بني فلان فلم أر عندهم خيرا أي أتيتهم فخذا فخذا فسألتهم في حمالة أو غيرها. ولما أنزل على رسول الله صلى الله عليه وسلم قوله تعالى: " وأنذر عشيرتك الأقربين " بات يفخذ عشيرته أي يدعو
+SRC Ayn (al-Khalil)  : [line 16847 hdr=فخذ] الفَخِذُ: وصل ما بين الورك والساق، ويخفف فيقال: فِخْذٌ في لغة سفلى مضر، وهي مؤنثة، وكسرت الفاء على أعقاب كسرة الخاء حيث اسكنت، ومن فتحها مع سكون الخاء تركها على ما كانت، كما قالوا في العقب عقب فلزموا الفتحة، وفي الكتف كتف فلزموا الكسرة. وفُخِذَ الرجل فهو مفخوذ أي كسرت فَخِذُه. وفَخِذُ الرجل: نفره من حيه الذين هم أقرب عشيرته إليه. __________ (1) كذا ورد البيت ولم نهتد إلى تمامه ولا إلى قائله. وهي أفخاذ العرب يذكر، وإذ […]
+
+================================================================================================
+ROOT فرم   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root فرم is the act of constricting, narrowing, or tightening an orifice—specifically the vagina—by means of a medicinal agent or physical obstruction, thereby inducing a state of constriction (taḍayyuq).
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is the use of a drug or medicinal substance (farām) to constrict the vagina, as in the phrase 'istaframat al-marʾah' (the woman used a constricting agent). The root also appears in the proverbial expression 'more abject than the faram of a slave-girl,' referring to the medicinal plug used for vaginal constriction.
+REC canon_def.ar     : الفَرْمُ والفِرَامُ: ما تَتَضَيَّقُ به المرأَة من دواء. وامرأَةٌ فَرْماءُ ومُسْتَفْرِمة: وهي التي تجعل الدواء في فرجها ليضيق.
+REC canon_def.en     : Al-farm and al-firām: a medicinal substance by which a woman constricts [her vagina]. A woman who is farmāʾ or mustafrimah is one who places a drug in her vulva in order to narrow it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 58459 hdr=فرم] الفاء والراء والميم كلمة واحدة، أظنها ليست عربية، وهو الاستفرام. يقولون: هو أن تحتشى (1) المرأة شيئا تضيق به [ما تحت إزارها (2)]. قال الخليل: وليس هذا من كلام أهل البادية. قال ابن دريد (3): يقال لذلك الشىء: فرمة (4). فأما قول الراجز (5): مستفرمات بالحصى جوافلا فإنه يريد خيلا. يعنى أن من شدة جريها يدخل الحصى فى فروجها، فشبه الحصى بالفرمة. والفرماء: موضع (6).
+SRC Asas [haqiqah_literal]        : استفرمت المرأة إذا تضيقت بالفرم، ويقال: أذل من فرم الأمة. وفي حديث عبد الملك: يا ابن المستفرمة بعجم الزبيب.
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT فطن   stratum=mA
+REC ontological_core : The root's foundational physical origin centers on a sharp, penetrating cognitive grasp — an acute mental alertness that seizes upon a matter swiftly and thoroughly, as opposed to dullness or obtuseness (ghabāwah). It is the mind's capacity to apprehend subtle distinctions and respond with precision.
+REC haqiqah_literal  : To be acutely aware of, to grasp a matter with mental sharpness, to perceive something with alert intelligence; said of a person who is keenly attentive and quick to understand (فَطِنٌ), and of the act of making someone else attentive or sharpening their understanding (تفطين).
+REC canon_def.ar     : الفِطْنَةُ: كالفهم، وهي ضد الغباوة. ورجل فَطِنٌ بَيِّنُ الفِطْنَة والفَطَن، وقد فَطَنَ لهذا الأمر يَفْطُنُ فِطْنَةً، وفَطُنَ.
+REC canon_def.en     : Fiṭnah is akin to understanding (fahm), and it is the opposite of dullness (ghabāwah). A man who is faṭin is one in whom acute intelligence and mental alertness are manifest; he has grasped this matter with keen perception, and he is sharp- […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 58901 hdr=فطن] الفاء والطاء والنون كلمة واحدة تدل على ذكاء وعلم بشىء. يقال: رجل فطن وفطن، وهى الفطنة والفطانة (1).
+SRC Asas [haqiqah_literal]        : مررت به فما فطن لي، وإذا حدثتك بشيء فافطن له، وتفطن لما أقول لك، وفاطن صاحبه مفاطنة، وهو فطن، وقد فطن وفطن فطانة، وفطنته للأمر، وفطنه المعلم: رده فطنا بتأديبه وتثقيفه. قال رؤبة: وقد أعاصي في الشباب الميال ... موعظة الأدنى وتفطين الوال
+SRC Ayn (al-Khalil)  : [line 31637 hdr=فطن] رَجُلٌ فَطِنٌ بَيِّنُ الفِطُنةِ والفَطَنِ. وقد فَطَنَ لهذا الشَّيْء يَفْطُنُ فِطْنةً فهو فاطن. وأمّا الفَطِنُ فذو فطنة بين الفطنة. ولا يمتنع كل فِعْلٍ من النُّعُوتِ من أن يُقالَ: قد فَعُلَ، وفَطُنَ، أي: صار فَطِناً إلاّ القليل. وفَطَّنْتُهُ لهذا الأمرِ تفطيناً ففَطِنَ، قال رؤبة «72» : وقد أُعاصي في الشَّباب الميّالْ ... موعظةَ الأَدْنَى وتَفْطينَ الوال يعني بالتفطين: تأديبه إيّاه، وبيانه له الشّرّ.
+
+================================================================================================
+ROOT قشر   stratum=mA
+REC ontological_core : The foundational physical act of stripping away an outer covering from a thing, thereby exposing what lies beneath; the root denotes the removal of a protective or concealing integument, whether by peeling, flaying, or husking.
+REC haqiqah_literal  : The literal, physical removal of an outer layer or rind from a thing, such as peeling a fruit or stripping bark from a tree; the integument itself, especially the rind or husk of fruit, the skin of a snake, or the outer covering of a garment.
+REC canon_def.ar     : القَشْرُ: سَحْقُك الشيء عن دِيهِ. والقِشْرُ: واحد القُشُور، والقِشْرَة أَخص منه. قَشَرَ الشيءَ يَقْشِرُه ويَقْشُره قَشْراً فانْقَشَر وقَشَّرَهُ.
+REC canon_def.en     : Al-Qashr is the stripping of a thing from its outer covering. Al-Qishr is the singular of al-qushūr (peels/rinds), and al-qishrah is more specific than it. One says: qashara al-shayʾa yaqshiruhu wa yaqshuruhu qashran (he peeled the thing),  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 61571 hdr=قشر] القاف والشين والراء أصل صحيح واحد، يدل على تنحية الشيء ويكون الشيء كاللباس ونحوه. من ذلك قولك: قشرت الشيء أقشره. والقشرة: الجلدة المقشورة. [والقشر (5)]: لباس الإنسان. قال الشاعر: [منعت حنيفة واللهازم منكم قشر العراق وما يلذ الحنجر (6)] وفي [حديث (7)] قيلة@HAD09 : «كنت إذا رأيت رجلا ذا رواء وذا قشر @HAD01 طمح @HAD02 بصري إليه» . والمطرة القاشرة: التي تقشر وجه الأرض. وسنة قاشورة: مجدبة تقشر أموال القوم. قال: فابعث عليهم سنة قاشوره تحتلق المال احتلاق النوره (1) ثم سمي كل شيء يفعل ذلك قاشورا، فيقولون للشؤم: قاشور. ويقولون في المثل: «أشأم من قاشر (2)»، وهو فحل له حديث. ولهذا سمي الفسكل (3) من الخيل الذي يجيء في الحلبة […]
+SRC Asas [bilingual_haqiqah_majaz]        : لوز مقشور ومقشر، وهذه قشارته. وثوب رقيق كقشر الحية: كسلخها. وحية قشراء. وشجرة قشراء. وفلان يتفكه بالمقشر أي بالفستق المقشور: اسم غالب عليه. Metaphorical (Majaz): خرج في قشرتين نظيفتين: في ثوبين. وعليه قشر حسن. ورجل ذو رواء وقشر. وجارية بضة القشر والقشرة وهو البشرة ورجل متقشر: عريان. وجاء بالجواب المقش
+SRC Asas [haqiqah_literal]        : لوز مقشور ومقشر، وهذه قشارته. وثوب رقيق كقشر الحية: كسلخها. وحية قشراء. وشجرة قشراء. وفلان يتفكه بالمقشر أي بالفستق المقشور: اسم غالب عليه.
+SRC Asas [majaz_metaphorical]        : خرج في قشرتين نظيفتين: في ثوبين. وعليه قشر حسن. ورجل ذو رواء وقشر. وجارية بضة القشر والقشرة وهو البشرة ورجل متقشر: عريان. وجاء بالجواب المقشر. وهو أشقر أقشر: شديد الحمرة كأنما قشر جلده. ومطرة قاشرة: شديدة الوقع تقشر وجه الأرض، وسنة قاشرة وقاشورة. قال: فابعث عليهم سنة قاشوره ... ت
+SRC Ayn (al-Khalil)  : [line 19896 hdr=قشر] القَشْرُ: سحفك القِشْرَ عن ذيه أي عن صاحبه. والأقشَرُ: الذي اشتدت حمرته كأن بشرته متغيرة. وحية قَشْراءُ، وشجرة قَشْراءُ أيضاً إذا كان بعضها قُشِرَ وبعضها لم يُقْشَرُ. والقُشْرَة والقُشَرَةُ: مطرة تَقشِرُ الحصى عن وجه الأرض. ومطرة قاشِرةٌ: ذات قِشْرةٍ. والقاشُورُ: المشؤوم. ويقال: قَشَرَهُم أي شأمهم قال: __________ (1) بعد القول شقذ في الأصول المخطوطة جاء: قال الزوزني: وأشقذت الرجل طردته (2) صدر بيت ورد في التهذيب وعجز […]
+
+================================================================================================
+ROOT قلق   stratum=mA
+REC ontological_core : The foundational physical origin of the root قلق is the agitated, unstable motion of a thing that is unsettled from its place—specifically, the restless shifting of a saddle or load upon a camel, or the trembling of a pivot in its socket, indicating a loss of firmness and equilibrium.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is the restlessness and instability of a person, animal, or object: a man is قلق (restless, agitated); a woman is قلقة or مقلاق (restless); a girl whose sash (وشاح) is unsettled; a she-camel whose saddle girth (وضين) is restless; the pivot of a pulley (محور البكرة) trembles; a sick person tosses on his bed; and a camel […]
+REC canon_def.ar     : القَلَقُ: الانزعاج. يقال: بات قَلِقاً، وأقلَقَهُ غيره.
+REC canon_def.en     : Al-qalaq is agitation/restlessness. It is said: 'He spent the night restless,' and 'someone else made him restless.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 59627 hdr=قلق] القاف واللام والقاف كلمة تدل على الانزعاج. يقال: قلق يقلق قلقا. ||| باب القاف والميم وما يثلثهما
+SRC Asas [haqiqah_literal]        : رجل قلق: نزق. وامرأة قلقة ومقلاق، وجارية قلق وشاحها، وهي مقلاق الوشاح. وناقة مقلاق الوضين، وسيرتها حتى قلق وضينها، وأقلقت إليك وضن الركائب. وقلق محور البكرة. وقلق المريض على فراشه. وأقلقني الحزن والخوف والرح. وبه شفق وقلق. وأقلق البعير: قلق ما عليه من جهازه وهو قتبه وآلته.
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT كسع   stratum=mA
+REC ontological_core : The foundational physical act of striking the rear or hindquarters of a person or thing with the hand, foot, or an instrument, driving forward from behind.
+REC haqiqah_literal  : To strike with the hand or foot, specifically with the front of the foot, upon the posterior of a person or object; to smite the hindquarters.
+REC canon_def.ar     : الكَسْعُ: أَنْ تَضْرِبَ بيدك أَو برجلك بصدر قدمك على دبر إِنسان أَو شيء.
+REC canon_def.en     : Al-Kasʿ: to strike with your hand or foot, using the front of your foot, upon the posterior of a person or thing.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 64126 hdr=كسع] الكاف والسين والعين أصل صحيح يدل على نوع من الضرب. يقال: كسعه، إذا ضرب برجله على مؤخره أو بيده. ويقال: اتبع أدبارهم يكسعهم بسيفه. وكسعت الرجل بما ساءه، إذا تكلمت فى أثره. وكسعت الناقة بغبرها، إذا تركت بقية من اللبن فى خلفها تريد تغزيرها. ومعنى هذا أنه يخليها بعد أن يحلب بعض لبنها ويضرب بيده على مؤخرها لتمضى. قال: لا تكسع الشول بأغبارها إنك لا تدرى من الناتج (1) ومن الباب رجل مكسع بغبره، إذا لم يتزوج، كأن ماءه قد تبقى كما تبقى لبن الشاة المكسعة. قال: والله لا يخرجها من قعره إلا فتى مكسع بغبره (2) والكسعة: الحمير، سميت لأنها تضرب أبدا على مؤخرها في السوق.
+SRC Asas [haqiqah_literal]        : كسعه: ضربه بيده أو برجله على دبره. وكسع الغلام الدوامة بالمكسع. وكسع الناقة بغبرها: ضرب أخلافها بالماء البارد ليتراد اللبن في ظهرها فيكون أشد لها. واتبع آثارهم يكسعهم بالسيف، ويكسع أدبارهم، وكسعت الرجل بما ساءه إذا تكلم فرميته على أثر كلامه بكلمة تسوءه. وكسعت الخيل بأذنابها واكتس
+SRC Ayn (al-Khalil)  : [line 1935 hdr=كسع] الكسع: ضربُ يدٍ أو رجلٍ على دبر شيءٍ وكَسَعَهم، وكسَع أدبارهم إذا تبع أدبارهم فضربهم بالسيف. وكسعته بما ساءه إذا تكلّم فرميته على إثر قوله بكلمة تسوؤه بها. وكسعتُ الناقةَ بغُبْرِها «1» إذا تركت بقيّة اللبن في ضرعها «2» وهو أشدُّ لها، قال: «3» لا تكسعِ الشول بأغبارها ... إنك لا تدري مَنِ النّاتجُ هذا مثل. يقول: إذا نالت يدُك ممن بينك «4» [وبينه] «5» إحنةٌ فلا تُبْقِ على شيء، لأنك لا تدري ما يكون في غد، وقال الليث: لا  […]
+
+================================================================================================
+ROOT كمع   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) denotes co-lying, the act of two bodies sharing a single resting-place or bed, and by extension the intimate companion who shares that bed.
+REC haqiqah_literal  : Literal physical meaning according to Asās al-Balāghah: كَامَعَ المرأَةَ signifies he lay with the woman as a bedfellow; الكِمْع and الكَمِيع denote the bedfellow or consort.
+REC canon_def.ar     : كامَعَ المرأَةَ: ضَاجَعَها، والكِمْعُ والكَمِيعُ: الضَّجِيعُ؛ ومنه قيل للزوج: هو كَمِيعُها.
+REC canon_def.en     : He lay with the woman as a bedfellow; الكِمْع and الكَمِيع denote the bedfellow; hence the husband is called her كَمِيع (bedfellow).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 62940 hdr=كمع] الكاف والميم والعين أصل صحيح يدل على اطمئنان وسكون. زعموا أن الكمع: البيت؛ يقال هو في كمعه أي بيته. وسمي كمعا لأنه يسكن. ومن الباب الكميع، وهو الضجيع، يقال كامعها، إذا ضاجعها. والمكامعة التي في الحديث، وقد نهي عنها: أن يضاجع الرجل الرجل لا ستر بينهما (3). وقال في الكميع: وهبت الشمأل البليل وإذ بات كميع الفتاة ملتفعا (4) والكمع: المطمئن من الأرض.
+SRC Asas [haqiqah_literal]        : هو كمعها وكميعها: ضجيعها، وكامعها.
+SRC Asas [majaz_metaphorical]        : بات السيف كميعي.
+SRC Asas [bilingual_haqiqah_majaz]        : هو كمعها وكميعها: ضجيعها، وكامعها. Metaphorical (Majaz): بات السيف كميعي.
+SRC Ayn (al-Khalil)  : [line 2221 hdr=كمع] كامعتها: ضممتها إلىّ [أصونُها] «7» . والمُكامِعُ: المُضاجعُ، واشتقاقه من ذلك. والكميع الضَّجيع. قال ذو الرمة: «8» لَيْلَ التِّمام إذا المُكامِعُ ضَمَّها ... بعدَ الهدوّ من الخرائد تسطع __________ (1) فس س: ما بقي وكذلك في الجزء المطبوع. وجاء في التهذيب 1/ 328 مطابقا لما جاء في ط وهو ما أثبتناه. (2) البيت في التهذيب 1/ 328 واللسان 1/ 415 وفي النسخ والتهذيب واللسان: بلت وفي الجزء المطبوع بكت وهو تصحيف. (3) كذا في النسخ […]
+
+================================================================================================
+ROOT لحص   stratum=mA
+REC ontological_core : The foundational physical origin of the root ل ح ص is the constriction and closure of a narrow aperture, specifically the eye of a needle, such that passage through it is blocked. The root thus denotes the state of being tightly closed, narrow, or impenetrable.
+REC haqiqah_literal  : The literal physical meaning, as attested in Asās al-Balāghah, is the closing or sealing of the eye of a needle (خَرْتُ الإبرة), i.e., its becoming blocked and impassable.
+REC canon_def.ar     : اللَّحْصُ واللَّحَصُ واللَّحِيصُ: الضَّيِّقُ. والتحص خرت الإبرة: انسد.
+REC canon_def.en     : Al-laḥṣ, al-laḥaṣ, and al-laḥīṣ: the narrow. And the closing of the eye of a needle: it became blocked.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 65865 hdr=لحص] اللام والحاء والصاد كلمة تدل على ضيق في شيء. يقال: لحص يلحص لحصا. قال: قد كنت خراجا ولوجا صيرفا لم تلتحصني حيص بيص لحاص (5) أي لم أنشب فيها. ولحاص فعال منه. ويقال: التحصت الإبرة، إذا انسد سمها.
+SRC Asas [haqiqah_literal]        : التحص خرت الإبرة: انسد.
+SRC Ayn (al-Khalil)  : [line 9841 hdr=لحص] اللَّحْصُ والتَلحيصُ: استقصاء خَبَر الشيء وبيانه، لَحَصَ لي فلان خَبَرك وأمْرَكَ أي بَيَّنَه شَيئاً شَيئاً. وقال «4» في بعض الوصف: أَمْرُ مَناقِع النّزّ ومواقع الرّزّ، حبُّها لا يُجَزُّ، وقصبها يهتزّ، وكتَبْتَ كتابي هذا وقد حَصَّلتُه ولحَّصتْهُ وفَصَّلُته ووَصَّلْتُه وترّصته «6» وفَصَّصْته مُحَصَّلاً مُلَحَّصاً مُفَصَّلاً مُوَصَّلاً مُتَرَّصاً مُفصّصا، وبعض يقول ملخصا بالخاء. __________ (1) من مختصر العين (ورقة 67) ، […]
+
+================================================================================================
+ROOT مقر   stratum=mA
+REC ontological_core : The foundational physical act of striking or crushing the neck (دَقُّ العُنُق) with a rod until the bone fractures while the skin remains intact; by extension, the steeping or soaking of salted fish in water or vinegar to draw out its brine.
+REC haqiqah_literal  : The literal, physical sense is the crushing or pounding of the neck with a stick, breaking the bone beneath unbroken skin. A secondary literal sense is the immersion of salted fish in water or vinegar (نَقْع السَّمَك المَالِح) to leach out its salt.
+REC canon_def.ar     : المَقْرُ: دَقُّ العُنُقِ. مَقَرَ عُنُقَهُ يَمْقُرُهَا مَقْراً إِذَا دَقَّهَا وَضَرَبَهَا بِالعَصَا حَتَّى تَكَسَّرَ العَظْمُ وَالجِلْدُ صَحِيحٌ. وَالمَقْرُ: إِنْقَاعُ السَّمَكِ المَالِحِ فِي المَاءِ. وَمَقَرَ السَّمَكَةَ المَالِحَةَ مَقْراً: أَنْقَعَهَا فِي الخَلِّ.
+REC canon_def.en     : Al-Maqr: the crushing of the neck. One says maqara ʿunuqahu yamquruha maqran when he pounded and struck it with a rod until the bone fractured while the skin remained intact. Al-Maqr also denotes the steeping of salted fish in water. And ma […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 68943 hdr=مقر] الميم والقاف والراء كلمة واحدة، هي المقر (1): شبه الصبر. وأمقر الشيء: أمر. واللبن الحامض ممقر. ومن هذا قولهم: سمك ممقور. والمقر: إنقاع (2) السمك المالح في الماء. وقال ابن دريد (3): أمقرت لفلان الشراب: أمررته له.
+SRC Asas [haqiqah_literal]        : " أمر من المقر " وهو الصبر. ومر ممقر، وقد أمقر. قال لبيد: ممقر مر على أعدائه ... وعلى الأذنين حلو كالعسل ولبن ممقر: كاد يمر لقروصه. وسمك ممقور: من مقر عنقه إذا دقها.
+SRC Ayn (al-Khalil)  : [line 21246 hdr=مقر] المَقِرُ شبه الصبر، والمَقْرُ أيضاً، قال: إنما الصبر ككنز بارز ... طلي المر عليه والمَقِرْ «2» والمَقْرُ: إيقاعك السمك المالح في الماء، وتقول: مَقَرْتُه فهو ممقور. __________ (1) الرجز في التهذيب واللسان (لرؤبة) وروايته: ما وَجز معروفِكَ بالرِّماقِ وهو كذلك في الديوان ص 116. (2) لم نهتد إلى القائل. باب القاف واللام والنون معهما ل ق ن، ن ق ل يستعملان فقط
+
+================================================================================================
+ROOT ملع   stratum=mA
+REC ontological_core : Rapid, light-footed motion across the earth — the foundational physical image is that of swift, unencumbered travel or pursuit over terrain, with an emphasis on speed and levity of movement.
+REC haqiqah_literal  : The literal physical meaning is swift, light movement or travel across the ground; it denotes a pace faster than walking but below the gallop (al-khabab), and is applied to a she-camel moving briskly in her gait.
+REC canon_def.ar     : المَلْعُ: الذَّهَابُ في الأَرض، وقيل الطَّلَبُ، وقيل السُّرْعَةُ والخِفَّةُ، وقيل شِدَّةُ السَّيْرِ، وقيل العَدْوُ الشَّدِيدُ، وقيل فوق المشي دون الخَبَبِ، وقيل هو السَّيْرُ السَّرِيعُ الخَفِيفُ، مَلَعَ يَمْلَعُ مَلْعاً ومَلَعَاناً.
+REC canon_def.en     : Al-malʿ: going forth across the earth; also pursuit; also speed and lightness; also intensity of travel; also vigorous running; also a pace above walking but below the gallop; also swift, light travel. The verb is malaʿa, yamlaʿu, malʿan an […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69221 hdr=ملع] الميم واللام والعين أصيل يدل على سرعة وخفة. وملعت الناقة في سيرها وناقة ميلع فيعل منه. والملع: السرعة في المرور والاختطاف. ومن الباب المليع: الأرض لا نبات بها.
+SRC Asas [haqiqah_literal]        : ناقة ميلع: تملع في سيرها ملعا أي تسرع. قال الكميت: عنتريس شملة ذات لوث ... هوجل ميلع كتوم البغام وتقول: طار إلى بعض القلاع، كأنه عقاب ملاع. قال أبو زيد: ملاع اسم أرض ويجوز أن يكون وصفا على تقدير: عقاب قادمة ملاع، أو خفقة ملاع بمعنى مالعة سريعة. قال المسيب: أنت الوفي فما تذم وبعضه
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT مهر   stratum=mA
+REC ontological_core : The root's foundational physical origin centers on the act of giving or assigning a dower (ṣadāq) to a woman, and by extension, the notion of a contractual payment that seals a union; from this concrete transactional sense, the root branches into the idea of skill or mastery, conceived as a 'price' or 'acquisition' of proficiency, and into the concrete noun for a camel's nose-ring (mihār), a device that controls and directs.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the dower given to a woman (mahr al-marʾah: to give her the dower), and the verbal noun denotes the act of assigning or paying that dower; it also literally denotes a nose-ring (mihār) placed in the nose of a camel, and a horse possessing such a ring (faras mumhar).
+REC canon_def.ar     : المَهْرُ: الصَّداق، والجمع مُهور؛ وقد مَهَرَ المرأَةَ يَمْهَرُها ويَمْهُرُها مَهْراً وأَمْهَرَها. والمَاهِرُ: الحاذق بالشيء، وقد مَهَرَ يَمْهَرُ مَهَارَةً. والمِهَارُ: عود في أنف البختي.
+REC canon_def.en     : The mahr is the dower; its plural is muhūr. One says mahara al-marʾah yamharuhā or yamhurhā mahran, and amharahā, meaning he gave her the dower. The māhir is one who is skilled in something; he became skilled (mahara) with skill (mahārah).  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 67113 hdr=مهر] الميم والهاء والراء أصلان يدل أحدهما على أجر في شيء خاص، والآخر شيء من الحيوان. فالأول المهر: مهر المرأة أجرها، تقول: مهرتها بغير ألف، فإذا زوجتها من رجل على مهر قلت: أمهرتها. قال: أمكم ناكحة ضريسا قد أمهروها أعنزا وتيسا وامرأة مهيرة ونساء مهائر. والأصل الآخر الممهر: الفرس ذات المهر. [والمهر (1)]: عظم في زور الفرس، وهذا تشبيه. قال: جافي اليدين عن مشاش المهر (2)
+SRC Asas [haqiqah_literal]        : مهر في الصناعة وتمهر فيها ومهرها ومهر بها، وهو ماهر بين المهارة، وخطيب ماهر، وسابح ماهر، وقوم مهرة، وتمهر فلان: سبح. ومهر المرأة: أعطاها المهر " كالممهورة إحدى خدمتيها " وأمهرها: سمي لها مهرا وتزوجها به. قال: أخذن اغتصابا خطبة عجرفية ... وأمهرن أرماحا من الخط ذبلا وله مهيرة وسرية
+SRC Ayn (al-Khalil)  : [line 14331 hdr=مهر] مَهَرْتُ المرأة: قطعتُ لها مهرا فهي مَمْهورة. قال «4» : أمُّكُمُ ناكحةٌ ضُرَيسا ... مَهَرَها عُنَيِّزاً وتَيْسا فإذا زوّجْتَها رجلاً على مَهْرٍ قلت: أَمْهَرْتُها. وامرأةٌ مَهيرةٌ: غاليةُ المَهْر. [والمهائر: الحرائر، وهنّ ضدّ السَّراري] «5» . __________ (1) التهذيب 6/ 296، اللسان (هرم) . (2) زيادة من مختصر العين [ورقه 96] . (3) التهذيب 6/ 297، واللسان (همر) والصغاني (همر) ونسبه الصغاني إلى (العجاج) ، وليس في ديوانه. ( […]
+
+================================================================================================
+ROOT ميث   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root م-ي-ث is the act of dissolving a solid substance—such as salt, bread, or clay—in water through kneading, rubbing, and maceration until it loses its solid form and becomes fully incorporated into the liquid medium.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is twofold: (1) the softening and leveling of land, as in أرض ميثاء (soft, level ground) and أراض ميث (soft, level lands); and (2) the physical dissolution of a solid in water, as in ماث الخبز والملح والطين في الماء (he dissolved bread, salt, and clay in water) and انماث (it dissolved).
+REC canon_def.ar     : مَاثَ الشيءَ مَيْثاً: مَرَسَه. وماثَ المِلحَ في الماء: أَذابه؛ وكذلك الطين، وقد انماثَ. وكلُّ شيءٍ مَرَسته في الماء فذاب فيه، فقد مِثْته ومُثْته.
+REC canon_def.en     : He macerated the thing with a mays: he rubbed and kneaded it. And he dissolved salt in water: he made it dissolve; likewise clay, and it became dissolved. And anything you rub in water and it dissolves therein, you have macerated and dissol […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 67311 hdr=ميث] الميم والياء والثاء كلمة تدل على سهولة في شيء. يقال مثت الشيء في الماء ميثا، إذا دفته (3). والميثاء: الأرض السهلة.
+SRC Asas [haqiqah_literal]        : أرض ميثاء، وأراض ميث. وماث الخبز والملح والطين في الماء وانماث.
+SRC Asas [bilingual_haqiqah_majaz]        : أرض ميثاء، وأراض ميث. وماث الخبز والملح والطين في الماء وانماث. Metaphorical (Majaz): لبني عذرة قلوب تنماث كما ينماث الملح في الماء، ورجل ميث القلب: لينه. وميث الرجل: ذلله، وتميث: ذل واسترخى.
+SRC Asas [majaz_metaphorical]        : لبني عذرة قلوب تنماث كما ينماث الملح في الماء، ورجل ميث القلب: لينه. وميث الرجل: ذلله، وتميث: ذل واسترخى.
+SRC Ayn (al-Khalil)  : [line 34404 hdr=ميث] ماث يَميثَ ميثا. إذا ذاب المِلْحُ والطِّينُ في الماء، حتى اماث امِّياثاً.. وأَمثْتُهُ فهو مماثٌ [ومَيَّثتُه] ، فهو مُمَيَّثٌ. ومَيَّثتُ الرَّجُلَ: ليّنته. والمَيْثاءُ: الرَّمْلةُ اللَّينةُ، وجَمعُها: مِيثٌ.
+
+================================================================================================
+ROOT نبه   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the abrupt rousing of a dormant or heedless being into wakefulness and attentive presence — the transition from the inertia of sleep or negligence to active consciousness and alertness.
+REC haqiqah_literal  : The literal physical meaning, per Asās al-Balāghah, is awakening from sleep: a person wakes from his sleep (انتبه من نومه), is roused (استنبه، تنبّه), and one rouses him (نبّهه). It also denotes a person of alert, discerning mind (رجل نبيه), and to raise someone's name in renown (نبّهت باسمه: I made his name prominent).
+REC canon_def.ar     : النُّبْهُ: القيامُ والانْتِباهُ من النوم، وقد نَبَّهَهُ وأَنْبَهَهُ من النوم فتَنَبَّهَ وانْتَبَهَ، وانْتَبَهَ من نومه: استَيقَظ.
+REC canon_def.en     : Al-Nubh is rising and awakening from sleep; one rouses him (nabbahahu) or awakens him (anbahahu) from sleep, so he becomes roused (tanabbaha) and wakes (intabaha); he woke from his sleep: he became awake.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 70207 hdr=نبه] النون والباء والهاء أصل صحيح يدل على ارتفاع وسمو. ومنه النبه والانتباه، وهو اليقظة والارتفاع من النوم. ونبهته وأنبهته. ومنه رجل نبيه، أي شريف. وقولهم: إن النبه من الأضداد، يقال للضائع نبه وللموجود نبه، فهو عندنا صحيح؛ لأنه إذا ضاع انتبه له وإذا وجد انتبه له (2). قال أهل اللغة: النبه: الضالة توجد عن غفلة. تقول: وجدت هذا الشيء نبها وأضللته نبها، إذا (3) لم يعلم متى ضل. والقياس في الباب ما ذكرناه. قال: كأنه دملج من فضة نبه في ملعب من عذارى الحى مفصوم (4)
+SRC Asas [bilingual_haqiqah_majaz]        : انتبه من نومه واستنبه وتنبه ونبه نبها. قال: وتبذل لي سلمى إذا نمت حاجتي ... وتلقى خلال النبه وهي منوع وأضلوه نبها: لا يدرون متى ضل حتى انتبه Metaphorical (Majaz): سمعت كلاما فما نبهت له: فما فطنت له. ومالي به نبه ونبه. ونبهته من غفلته، وتنبهت على الأمر: تفطنت له.
+SRC Asas [haqiqah_literal]        : انتبه من نومه واستنبه وتنبه ونبه نبها. قال: وتبذل لي سلمى إذا نمت حاجتي ... وتلقى خلال النبه وهي منوع وأضلوه نبها: لا يدرون متى ضل حتى انتبهوا له. ورجل نبيه، وقد نبه نباهة، ونبهت باسمه: نوهت به.
+SRC Asas [majaz_metaphorical]        : سمعت كلاما فما نبهت له: فما فطنت له. ومالي به نبه ونبه. ونبهته من غفلته، وتنبهت على الأمر: تفطنت له.
+SRC Ayn (al-Khalil)  : [line 14456 hdr=نبه] النَّبَهُ: الضّالَّةُ تُوجَد عن غيرِ طَلَب غَفْلةً، تقول: وَجَدْتُها نَبَهاً عن غير طلب، وأَضْلَلْتُها نَبَهاً، لم تَعْلَمْ متى ضلّ. قال «6» : كأنّه دُمْلُجٌ من فضة نَبَهُ ... في مَلْعبٍ من جواري الحيِّ مَفْصومُ يصف الخِشْفَ. والنُّبْهُُ: الانتباهُ من النّوم. تقول: نَبَّهْتُهُ وأنبهته من النوم، __________ (1) في اللسان (نهب) : والانتهاب: أن يأخذه من شاء، وهو أوضح. (2) التهذيب 6/ 326، ونسب فيه إلى (العجاج) أيضا، وليس  […]
+
+================================================================================================
+ROOT نرب   stratum=mA
+REC ontological_core : The root's foundational physical origin is not attested in Al-Mufradāt; classical lexicography derives it from the quadriliteral noun النَّيْرَب, denoting evil, slander, and malicious gossip, with an underlying sense of corrupt, divisive speech that severs social bonds.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is: 'So-and-so is possessed of nīrab' — that is, he is characterized by evil and slanderous speech; the phrase 'فلان ذو نيرب' is used to describe someone who is a tale-bearer and a source of corruption among people.
+REC canon_def.ar     : النَّيْرَبُ: الشَّرُّ والنَّمِيمَةُ؛ قال الشاعر عَدِيُّ ابن خُزاعِيّ: ولَسْتُ بذي نَيْرَبٍ في الصَّديقِ، ومَنَّاعَ خَيْرٍ، وسَبَّابَها
+REC canon_def.en     : Al-nayrab: evil and slander; the poet ʿAdī ibn Khuzāʿī said: 'I am not one who engages in malicious gossip among friends, nor one who withholds good, nor one who habitually reviles them.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 71092 hdr=نرب] النون والراء والباء لا يأتلفان، وقد يكون بينهما دخيل. فمن ذلك النيرب: النميمة، وهو نيرب أي نمام، كأنه ذو نيرب. والله أعلم بالصواب. ||| باب النون والزاء وما يثلثهما
+SRC Asas [haqiqah_literal]        : فلان ذو نيرب: تمام.
+SRC Ayn (al-Khalil)  : [line 34585 hdr=نرب] النَّيربُ: النَّمِيمةُ. ورجل نَيْرَبٌ: ذو نَيْرَبٍ، أي: نَميمة.. نَيْرَبَ يُنَيْرِب نَيْربةً، وهو خلطُ القَوْل بَعْضِه ببَعْضٍ، كما تُنَيربُ الرِّيحُ التُّرابَ على الأرض فَتَنسُجُه. ولا تُطْرَحُ منه الياءُ، لأَنَّها جُعِلتْ فصلاً بين الرّاء والنُّون. والنَّيربُ: الرَّجل الجَلد.
+
+================================================================================================
+ROOT نشع   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of administering a substance into the mouth or throat, specifically forcing a liquid or medicine into someone's mouth, and by extension, the giving of a fee or bribe to a soothsayer to induce speech.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is: 'نشع الصبي الدواء وأنشعه' — he poured the medicine into the boy's mouth, or made him swallow it; the medicine itself is called 'نشوع', and the act is 'انتشعه'. The instrument is 'منشع الصبي' — the device used to administer medicine to the boy, i.e., a syringe or funnel.
+REC canon_def.ar     : النَّشْعُ: جُعْلُ الكاهِنِ، وقد أَنْشَعَه. ونَشَعَ الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه.
+REC canon_def.en     : Al-Nashʿ: the soothsayer's fee, and he gave it to him. He administered medicine to the boy, or made him swallow it; the medicine is called nashūʿ, and the act is intashʿa. This is the boy's minshaʿ: a syringe or funnel.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 71446 hdr=نشع] النون والشين والعين كلمة واحدة. نشعت الصبى الوجور نشعا فانتشعه، أى جرعه. والمصدر النشوع. قال: نشعت المحد في أنفي نشوعا (2)
+SRC Asas [haqiqah_literal]        : نشع الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه.
+SRC Asas [majaz_metaphorical]        : نشع فلان كذا وبكذا. قال مرار بن منقذ: إليكم يا لئام الناس إني ... نشعت العز في أنفي نشوعا وقال مغلس الربعي: خليلي إن أصعدتما أو مررتما ... على أهل حنفاء الغضا فاذكرانيا وقولا أثيبي يا علي متيما ... أخا الموت منشوعا بذكراك عانيا وقال عبدة بن الطبيب: لا تأمنوا قوما يشب صبيهم ... بي
+SRC Asas [bilingual_haqiqah_majaz]        : نشع الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه. Metaphorical (Majaz): نشع فلان كذا وبكذا. قال مرار بن منقذ: إليكم يا لئام الناس إني ... نشعت العز في أنفي نشوعا وقال مغلس الربعي: خليلي إن أصعدتما أو مررتما ... ع
+SRC Ayn (al-Khalil)  : [line 2921 hdr=نشع] النَّشُوعُ: الوَجُورُ. والنَّشع: إيجارك الصبيّ. قال: «5» فألأم مُرْضَعٍ نُشِعَ المحارا والنَّشْعُ: جُعْل الكاهن يقول: أنشعنا الجارية إنشاعاً. قال: «6» قال الحوازي واستحت أن تنشعا
+
+================================================================================================
+ROOT نضح   stratum=mA
+REC ontological_core : The foundational physical origin of the root نضح is the act of sprinkling or scattering water or a similar fluid in fine, dispersed droplets upon a surface, as opposed to a full, drenching pour. This core image underlies all subsequent literal and figurative applications.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is the sprinkling of water upon something (نضح عليه الماء) or the sprinkling of a house with water (نضح البيت بالماء), which is characterized as رش (rashsh), i.e., a light, scattered sprinkling. It also literally denotes the oozing or exuding of sweat from the skin (نضح جلده بالعرق).
+REC canon_def.ar     : النَّضْحُ: الرَّشُّ. نَضَحَ عَلَيْهِ المَاءَ يَنْضَحُهُ نَضْحًا، وَنَضَحَ البَيْتَ بِالمَاءِ، وَنَضَحَ جِلْدُهُ بِالعَرَقِ.
+REC canon_def.en     : Al-Naḍḥ is sprinkling. One sprinkles water upon something (naḍaḥa ʿalayhi al-māʾa yanḍaḥuhu naḍḥan); one sprinkles the house with water; and one's skin exudes sweat.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 71778 hdr=نضح] النون والضاد والحاء أصل يدل على شيء يندى، وماء يرش. فالنضح: رش الماء. ونضحته. قال أهل اللغة: يقال لكل مارق: نضح. وهذا هو القياس الذي ذكرناه، لأن الرش رقيق. يقال: نضحت البيت بالماء. ونضح جلده بالعرق. والسانية ناضح. ونضحوهم بالنبل، وهذا على جهة التشبيه. ونضح عن نفسه، كأنه رامى عنها بالحجة. وفي الحديث@HAD02 : « انضحوا @HAD06 عنا الخيل لا نؤتى من خلفنا» ، أي ارموهم بالنشاب. والنضيح والنضح: الحوض، لأنه ينضح بالماء. ونضح الغضا: تفطر، وكأن سقوط نوره يشبه بنضح الماء. قال أبو طالب: بورك الميت الغريب كما بو رك نضح الرمان والزيتون (2) قال ابن الأعرابى: سمي الحوض نضيحا لأنه ينضح عطش الإبل، أي يبله. قال الخليل: والرجل يقرف بأ […]
+SRC Asas [majaz_metaphorical]        : قد نضح الشجر: تفطر. ورأيت نضح الرمان وغيره. قال أبو طالب: بورك الميت الغريب كما بو ... رك نضح الرمان والزيتون ونضح غلته بالماء: بلها، ومنه: النضيح والنضح: للحوض لبله عطش الإبل وكذلك البعير الناضح، ونواضح يثرب، ونضح أديم الود بينهم. قال الكميت: نضحت أديم الود بيني وبينهم ... بآصرة
+SRC Asas [bilingual_haqiqah_majaz]        : نضح عليه الماء، ونضح البيت بالماء نضحا وهو الرش. ونضح جلده بالعرق. Metaphorical (Majaz): قد نضح الشجر: تفطر. ورأيت نضح الرمان وغيره. قال أبو طالب: بورك الميت الغريب كما بو ... رك نضح الرمان والزيتون ونضح غلته بالماء: بلها، ومنه:
+SRC Asas [haqiqah_literal]        : نضح عليه الماء، ونضح البيت بالماء نضحا وهو الرش. ونضح جلده بالعرق.
+SRC Ayn (al-Khalil)  : [line 9663 hdr=نضح] النضح: كالنضح رُبَّما اختَلَفا ورُبَّما اتَّفَقا. ويقال: النَّضخ ما بَقِيَ له أَثَرَ، يقال: على ثَوبه نَضْخُ دَمٍ. والعَيْن تَنْضَح بالماء نَضْحاً: أي تفور [وتنضخ] أيضاً. والرجُلُ يعتَرفُ بأمرٍ فيَنْتَضِحُ منه: إذا أظهَرَ البَراءةَ وبَرَّاً نفسَه منه جُهْدَه. والنَضيحُ من الحِياض: ما قرُبُ من البِئر حتّى يكونَ الافِراغ فيه من الدَلْوِ ويكونَ عظيماً، قال: «2» فغَدَونا علَيهِمُ بُكرةَ الورد ... كما تورِدُ النَضيحَ الهِ […]
+
+================================================================================================
+ROOT نظم   stratum=mA
+REC ontological_core : The foundational physical act of threading beads or pearls onto a single cord, thereby gathering discrete, scattered units into a unified, ordered sequence.
+REC haqiqah_literal  : To string pearls or beads onto a thread; to arrange individual items in a linear, connected order.
+REC canon_def.ar     : النَّظْمُ: التَّأْلِيفُ. نَظَمَهُ يَنْظِمُهُ نَظْمًا وَنِظَامًا، وَنَظَّمَهُ فَانْتَظَمَ وَتَنَظَّمَ. وَنَظَمْتُ اللُّؤْلُؤَ أَيْ جَمَعْتُهُ فِي السِّلْكِ.
+REC canon_def.en     : Naẓm is composition. He strung it, he strings it, with naẓm and niẓām; and he organized it, so it became strung and organized. I strung the pearls, that is, I gathered them onto the cord.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 71961 hdr=نظم] النون والظاء والميم: أصل يدل على تأليف شيء وتأليفه (3). ونظمت الخرز نظما، ونظمت الشعر وغيره. والنظام: الخيط يجمع الخرز. والنظامان من الضب: كشيتان من جنبيه، منظومان من أصل الذنب إلى الأذن. وأنظمت الدجاجة: صار في جوفها بيض. ويقال لكواكب الجوزاء: نظم. وجاءنا نظم من جراد: أي كثير.
+SRC Asas [haqiqah_literal]        : نظمت الدر ونظمته، ودر منظوم ومنظم، وقد انتظم وتنظم وتناظم، وله نظم منه ونظام ونظم.
+SRC Asas [bilingual_haqiqah_majaz]        : نظمت الدر ونظمته، ودر منظوم ومنظم، وقد انتظم وتنظم وتناظم، وله نظم منه ونظام ونظم. Metaphorical (Majaz): نظم الكلام. وهذا نظم حسن، وانتظم كلامه وأمره. وليس لأمره نظام إذا لم تستقم طريقته، وتقول: هذه أمور عظام، لو كان لها نظام، ورمى صيدا افنتظمه
+SRC Asas [majaz_metaphorical]        : نظم الكلام. وهذا نظم حسن، وانتظم كلامه وأمره. وليس لأمره نظام إذا لم تستقم طريقته، وتقول: هذه أمور عظام، لو كان لها نظام، ورمى صيدا افنتظمه بسهم. وطعنه فانتظم ساقيه أو جنبيه. قال الأفوه: تخلى الجماجم والأكف سيوفنا ... ورماحنا بالطعن تنتظم الكلى وهذان البيتان ينتظمهما معنى واحد. و
+SRC Ayn (al-Khalil)  : (NO ENTRY)

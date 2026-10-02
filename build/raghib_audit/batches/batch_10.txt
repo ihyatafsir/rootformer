@@ -1,0 +1,265 @@
+====================================================================================================
+ROOT قهقم   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on massive, engulfing bulk — specifically the image of a creature or beast of enormous size that swallows and devours everything, and by extension the towering, raging male camel (al-faḥl al-ḍakhm al-mughtalim). The quadriliteral reduplicative form (القَهْقَمّ) itself iconically reinforces the sense of heaving, repetitive engulfment.
+-- RECORD.haqiqah_literal: The literal physical meaning, per Lisān al-ʿArab, is: a being or beast that swallows everything (al-ladhī yabtaliʿu kulla shayʾ); and a huge, raging stallion-camel (al-faḥl al-ḍakhm al-mughtalim). Abū ʿAmr records القَهْقَبّ and القَهْقَمّ as synonyms for the enormous camel (al-jamal al-ḍakhm).
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah. In scholastic and rhetorical usage, the term may be extended metaphorically (majāz) to denote any person or entity of insatiable, all-consuming appetite or overwhelming, destructive force — e.g., a tyrant, a devouring army, or an intellect that absorbs all knowledge. The reduplicative quadriliteral pattern (فَعْلَلّ) carries an intensifying, hyperbolic force (mubālaghah), making the majāz extension natural in classical Arabic rhetoric.
+-- RECORD.canonical_definition.ar: القِهْقَمُّ: الذي يبتلع كل شيء. والقَهْقَمُ: الفحل الضخم المغتلم. وقال أبو عمرو: القَهْقَبُّ والقَهْقَمُّ: الجمل الضخم.
+-- RECORD.canonical_definition.en: Al-qihqamm: the one who swallows everything. Al-qahqam: the huge, raging stallion-camel. Abū ʿAmr said: al-qahqabb and al-qahqamm: the enormous camel.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كبه   stratum=ma
+-- RECORD.ontological_core: The root ك ب ه (k-b-h) is not attested in the classical lexical tradition as an independent root with a stable physical origin (aṣl al-wadʿ). Its sole documented occurrence is a dialectal phonetic variant in which the initial ج (jīm) of جَبْهة (forehead) is shifted toward the kāf's articulation point, yielding كَبْهة. The root therefore has no autonomous ontological core; it is a phonological reflex of ج ب ه (j-b-h), whose foundational physical referent is the broad, flat frontal surface of the face.
+-- RECORD.haqiqah_literal: The literal physical meaning is the forehead (al-jabha), specifically a broad, wide forehead (ʿarīḍ al-jabha). The form كَبْهة is not an independent lexical item but a dialectal pronunciation of جَبْهة, produced by fronting the jīm from its palatal articulation point toward the kāf's velar articulation point. This substitution is attested among certain Arab tribes and was recorded by Sībawayh alongside six other letters subject to analogous shifts.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extension is attested for this root in the classical sources. The only contextual usage is the Prophetic description of the Dajjāl as a man of broad forehead (ʿarīḍ al-kabha), where the dialectal form كَبْهة substitutes for جَبْهة. The term carries no abstract, ethical, or metaphysical signification; it remains strictly a physiognomic descriptor within an eschatological narrative.
+-- RECORD.canonical_definition.ar: الكَبْهةُ: لغةٌ في الجَبْهةِ، وهي الجبهةُ العريضةُ؛ أَخرجَ الجيمَ بين مَخرجِها ومَخرجِ الكافِ، وهي لغةٌ لقومٍ من العرب، ذكرها سيبويه مع ستةِ أحرفٍ.
+-- RECORD.canonical_definition.en: Al-kabha: a dialectal variant of al-jabha (the forehead), denoting a broad forehead; the jīm is articulated between its own point of articulation and that of the kāf. It is a dialect of certain Arab tribes, recorded by Sībawayh alongside six other letters.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كتب   stratum=MA
+-- RECORD.ontological_core: The foundational physical act of joining one surface to another by stitching or sewing, as in sewing a waterskin or fastening the two lips of a beast with a ring; hence the primary image is that of bringing separate edges together into a single bounded unit.
+-- RECORD.haqiqah_literal: To sew or stitch one piece of leather to another; to join the two edges of a waterskin or the two lips of an animal by a ring; by extension, to join letters to one another in writing, and to set down words in a written line.
+-- RECORD.majaz_scholastic: By established usage, the joining of letters by script; then any joining of words by speech, even without writing. Thus the speech of God is called kitāb though it is not written, and the term kitāb is applied to the revealed scripture, to the sheet containing writing, and to the act of writing itself. The root also yields the sense of prescription, decree, and inscribing upon the self, as in the theological notion of God's writing deeds upon the servant.
+-- RECORD.canonical_definition.ar: الكِتابُ: معروف، والجمع كُتُبٌ وكُتْبٌ. كَتَبَ الشيءَ يَكْتُبه كَتْباً وكِتاباً وكِتابةً، وكَتَّبَه: خَطَّه. وأصل الكتابة: ضم أديم إلى أديم بالخياطة، ثم استعير لضم الحروف بعضها إلى بعض بالخط.
+-- RECORD.canonical_definition.en: Kitāb is a well-known term; its plurals are kutub and kutb. He wrote the thing, writing it with a writing, a book, and a writing. He inscribed it: he traced it. The original sense of writing is the joining of one piece of leather to another by stitching; then it was metaphorically extended to the joining of letters to one another by script.
+-- SOURCE.mufradat @line 28208 hdr=كتب: الكتب: ضم أديم إلى أديم بالخياطة، يقال: كتبت السقاء، وكتبت البغلة: جمعت بين شفريها بحلقة، وفي التعارف ضم الحروف بعضها إلى بعض بالخط، وقد يقال ذلك للمضموم بعضها إلى بعض باللفظ، فالأصل في الكتابة: النظم بالخط لكن يستعار كل واحد للآخر، ولهذا سمي كلام الله- وإن لم يكتب- كتابا كقوله: الم* ذلك الكتاب [البقرة/ 1- 2]، وقوله: قال إني عبد الله آتاني الكتاب [مريم/ 30]. والكتاب في الأصل مصدر، ثم سمي المكتوب فيه كتابا، والكتاب في الأصل اسم للصحيفة مع المكتوب فيه، وفي قوله: يسئلك أهل الكتاب أن تنزل عليهم كتابا من السماء [النساء/ 153] فإنه يعني صحيفة فيها كتابة، ولهذا قال: ولو نزلنا عليك كتابا في قرطاس الآية [الأنعام/ 7]. ويعبر عن الإثبات والتقدير والإيجاب والفرض والعزم بالكتابة، ووجه ذلك أن الشيء يراد، ثم
+-- SOURCE.maqayis @line 63580 hdr=كتب: الكاف والتاء والباء أصل صحيح واحد يدل على جمع شيء إلى شيء. من ذلك الكتاب والكتابة. يقال: كتبت الكتاب أكتبه كتبا. ويقولون: كتبت البغلة، إذا جمعت شفري رحمها بحلقة. قال: لا تأمنن فزاريا حللت به على قلوصك واكتبها بأسيار (4) والكتبة: الخرزة، وإنما سميت بذلك لجمعها المخروز. والكتب: الخرز. قال ذو الرمة: وفراء غرفية أثأى خوارزها مشلشل ضيعته بينها الكتب (5) ومن الباب الكتاب وهو الفرض. قال الله تعالى: كتب @QUR@02 عليكم الصيام ، ويقال للحكم: الكتاب. قال رسول الله (صلى الله عليه وسلم)@HAD04 : «أما لأقضين بينكما بكتاب @HAD02 الله تعالى» ، أراد بحكمه. وقال تعالى: @QUR@04 يتلوا صحفا مطهرة. فيها كتب @QUR@01 قيمة أي أحكام مستقيمة. ويقال للقدر: الكتاب. قال الجعدى: يا ابنة عمي كتاب الله أخرجني عنكم وهل أمنعن ا
+-- SOURCE.asas[haqiqah_literal]: كتب الكتاب يكتبه كتبة وكتابا وكتابة وكتبا، وا
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كحلب   stratum=ma
+-- RECORD.ontological_core: A quadriliteral nominal stem denoting a specific plant or herb; its foundational physical origin is the concrete botanical referent designated by the name, without a productive verbal root in classical usage.
+-- RECORD.haqiqah_literal: The literal physical meaning is the plant or herb named كَحْلَب; it is a concrete botanical entity, not a derived verbal action or abstract quality.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical philological tradition; the term remains a concrete nominal designation for a plant.
+-- RECORD.canonical_definition.ar: كَحْلَبٌ: اسم.
+-- RECORD.canonical_definition.en: Kaḥlab: a noun (name of a plant).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كدا   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the retardation, delay, or sluggishness of a natural process — specifically, the tardiness of the earth in bringing forth its vegetation, such that the soil remains barren or slow to sprout despite its latent fertility.
+-- RECORD.haqiqah_literal: The literal physical meaning, per Lisān al-ʿArab, is the delayed or sluggish emergence of vegetation from the earth: كَدَت الأَرض تَكْدو كَدْواً وكُدُوًّا, فهي كاديةٌ — 'The earth was slow to vegetate, hence it is kādiyah (sluggish/barren in sprouting).' The concrete referent is a tract of land whose herbage is late in appearing.
+-- RECORD.majaz_scholastic: By metaphorical extension (majāz), the root's semantic nucleus of 'sluggishness in bringing forth' is transferred from the soil to any process, faculty, or agent whose productive or cognitive output is retarded. In scholastic and philosophical usage, it may describe the tardiness of a faculty (e.g., a sluggish intellect or a delayed apprehension), the inertia of a substance in actualizing its potential, or the reluctance of an agent to effect its proper operation. The majāz preserves the literal image of a fertile ground that withholds its yield, mapping it onto ontological or epistemological delay.
+-- RECORD.canonical_definition.ar: كَدَت الأَرض تَكْدو كَدْواً وكُدُوًّا، فهي كاديةٌ إِذا أَبطأَ نباتها.
+-- RECORD.canonical_definition.en: The earth was slow to vegetate with a kadw or kudūw, so it is kādiyah when its vegetation is tardy.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كرتح   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the violent bringing-down of a body to the ground, i.e. throwing someone down prostrate, together with a rapid, jolting forward motion in walking; the two senses share the primitive image of abrupt downward or forward displacement of the body.
+-- RECORD.haqiqah_literal: The literal physical meaning is: كَرْتَحَه 'he threw him down, prostrated him, cast him to the ground'; and كَرْتَح في مشيه 'he hastened, moved swiftly in his walking'.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah; no established philosophical or theological majāz is recorded. Any extended use would be secondary and non-canonical, since the root remains confined to the concrete physical senses of throwing down and rapid motion.
+-- RECORD.canonical_definition.ar: كَرْتَحه: صَرَعَه. وكَرْتَح في مشيه: أَسرع.
+-- RECORD.canonical_definition.en: Kartaḥahu: he threw him down, prostrated him. And kartaḥa fī mashyihi: he hastened in his walking.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كسع   stratum=mA
+-- RECORD.ontological_core: The foundational physical act of striking the rear or hindquarters of a person or thing with the hand, foot, or an instrument, driving forward from behind.
+-- RECORD.haqiqah_literal: To strike with the hand or foot, specifically with the front of the foot, upon the posterior of a person or object; to smite the hindquarters.
+-- RECORD.majaz_scholastic: Metaphorical and extended usages include: (1) to pursue and strike the rear of an enemy with a sword, i.e., to attack from behind; (2) to strike a she-camel's udder with cold water to drive milk back to her body, thereby strengthening her; (3) to retort to someone's speech with a painful word, i.e., to strike back verbally; (4) of horses: to tuck their tails between their legs (اكتسع), indicating retreat or submission; (5) proverbial: 'the regret of al-Kasʿī' (ندامة الكسعي), denoting belated and futile remorse.
+-- RECORD.canonical_definition.ar: الكَسْعُ: أَنْ تَضْرِبَ بيدك أَو برجلك بصدر قدمك على دبر إِنسان أَو شيء.
+-- RECORD.canonical_definition.en: Al-Kasʿ: to strike with your hand or foot, using the front of your foot, upon the posterior of a person or thing.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 64126 hdr=كسع: الكاف والسين والعين أصل صحيح يدل على نوع من الضرب. يقال: كسعه، إذا ضرب برجله على مؤخره أو بيده. ويقال: اتبع أدبارهم يكسعهم بسيفه. وكسعت الرجل بما ساءه، إذا تكلمت فى أثره. وكسعت الناقة بغبرها، إذا تركت بقية من اللبن فى خلفها تريد تغزيرها. ومعنى هذا أنه يخليها بعد أن يحلب بعض لبنها ويضرب بيده على مؤخرها لتمضى. قال: لا تكسع الشول بأغبارها إنك لا تدرى من الناتج (1) ومن الباب رجل مكسع بغبره، إذا لم يتزوج، كأن ماءه قد تبقى كما تبقى لبن الشاة المكسعة. قال: والله لا يخرجها من قعره إلا فتى مكسع بغبره (2) والكسعة: الحمير، سميت لأنها تضرب أبدا على مؤخرها في السوق.
+-- SOURCE.asas[haqiqah_literal]: كسعه: ضربه بيده أو برجله على دبره. وكسع الغلام الدوامة بالمكسع. وكسع الناقة بغبرها: ضرب أخلافها بالماء البارد ليتراد اللبن في ظهرها فيكون أشد لها. واتبع آثارهم يكسعهم بالسيف، ويكسع أدبارهم، وكسعت الرجل بما ساءه إذا تكلم فرميته على أثر كلامه بكلمة تسوءه. وكسعت الخيل بأذنابها واكتس
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كمع   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) denotes co-lying, the act of two bodies sharing a single resting-place or bed, and by extension the intimate companion who shares that bed.
+-- RECORD.haqiqah_literal: Literal physical meaning according to Asās al-Balāghah: كَامَعَ المرأَةَ signifies he lay with the woman as a bedfellow; الكِمْع and الكَمِيع denote the bedfellow or consort.
+-- RECORD.majaz_scholastic: Metaphorical and extended usage: the term is applied to the husband as the wife's bedfellow (كَمِيعُها), and by further extension to any intimate companion or close associate. The poet ʿAntarah employs it figuratively for his sword as his constant companion in battle: وسَيْفِي كالعَقِيقة، فهْو كِمْعِي.
+-- RECORD.canonical_definition.ar: كامَعَ المرأَةَ: ضَاجَعَها، والكِمْعُ والكَمِيعُ: الضَّجِيعُ؛ ومنه قيل للزوج: هو كَمِيعُها.
+-- RECORD.canonical_definition.en: He lay with the woman as a bedfellow; الكِمْع and الكَمِيع denote the bedfellow; hence the husband is called her كَمِيع (bedfellow).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 62940 hdr=كمع: الكاف والميم والعين أصل صحيح يدل على اطمئنان وسكون. زعموا أن الكمع: البيت؛ يقال هو في كمعه أي بيته. وسمي كمعا لأنه يسكن. ومن الباب الكميع، وهو الضجيع، يقال كامعها، إذا ضاجعها. والمكامعة التي في الحديث، وقد نهي عنها: أن يضاجع الرجل الرجل لا ستر بينهما (3). وقال في الكميع: وهبت الشمأل البليل وإذ بات كميع الفتاة ملتفعا (4) والكمع: المطمئن من الأرض.
+-- SOURCE.asas[haqiqah_literal]: هو كمعها وكميعها: ضجيعها، وكامعها.
+-- SOURCE.asas[majaz_metaphorical]: بات السيف كميعي.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: هو كمعها وكميعها: ضجيعها، وكامعها. Metaphorical (Majaz): بات السيف كميعي.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT كندش   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the designation of a specific bird, the magpie (Pica pica), a corvid known for its harsh chattering call and its reputation in classical Arabic lore as a creature of ill omen and innate malevolence.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the magpie (العَقْعَق), a black-and-white bird of the crow family, characterized by its noisy, chattering cry and its association with mischief and bad luck.
+-- RECORD.majaz_scholastic: Metaphorical and scholastic usages: The term is employed in proverbial expressions to denote extreme wickedness or malevolence, as in the phrase 'أَخْبَثُ مِنْ كُنْدُشٍ' (more malignant than a magpie). In theological and ethical discourse, it may serve as a parabolic figure for a person of corrupt nature or a harbinger of discord, though such extensions remain rooted in the literal avian referent and are not attested in the major lexicons as independent abstract concepts.
+-- RECORD.canonical_definition.ar: الكُنْدُشُ: العَقْعَقُ. قال ابن الأَعرابي: أَخبرني المفضّل يقال هو أَخبَثُ من كُنْدُشٍ، وهو العَقْقعَق.
+-- RECORD.canonical_definition.en: Al-Kundush: the magpie. Ibn al-Aʿrābī said: Al-Mufaḍḍal informed me that it is said, 'He is more malignant than a kundush,' which is the magpie.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT لحص   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root ل ح ص is the constriction and closure of a narrow aperture, specifically the eye of a needle, such that passage through it is blocked. The root thus denotes the state of being tightly closed, narrow, or impenetrable.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in Asās al-Balāghah, is the closing or sealing of the eye of a needle (خَرْتُ الإبرة), i.e., its becoming blocked and impassable.
+-- RECORD.majaz_scholastic: By extension, the root is applied metaphorically to any confined, narrow, or straitened space, such as a cramped grave or a tight dwelling. In classical usage, the derived forms لَحْص, لَحَص, and لَحِيص all denote constriction and narrowness, whether physical or circumstantial. The theological or philosophical application is minimal; the term remains primarily descriptive of spatial and material confinement.
+-- RECORD.canonical_definition.ar: اللَّحْصُ واللَّحَصُ واللَّحِيصُ: الضَّيِّقُ. والتحص خرت الإبرة: انسد.
+-- RECORD.canonical_definition.en: Al-laḥṣ, al-laḥaṣ, and al-laḥīṣ: the narrow. And the closing of the eye of a needle: it became blocked.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 65865 hdr=لحص: اللام والحاء والصاد كلمة تدل على ضيق في شيء. يقال: لحص يلحص لحصا. قال: قد كنت خراجا ولوجا صيرفا لم تلتحصني حيص بيص لحاص (5) أي لم أنشب فيها. ولحاص فعال منه. ويقال: التحصت الإبرة، إذا انسد سمها.
+-- SOURCE.asas[haqiqah_literal]: التحص خرت الإبرة: انسد.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT لحط   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ل-ح-ط is the act of sprinkling or scattering water upon a surface, specifically a door or wall, as a practical measure of dust suppression, cooling, or ritual cleansing.
+-- RECORD.haqiqah_literal: The literal, physical meaning is to sprinkle water on the door of one's house, as attested in the report that ʿAlī passed by a group who were sprinkling water on the door of their dwelling.
+-- RECORD.majaz_scholastic: No metaphorical or scholastic extensions are attested in the classical lexica; the root remains confined to its concrete physical application of sprinkling water.
+-- RECORD.canonical_definition.ar: اللَّحْطُ: الرَّشُّ. يقال: لَحَطَ بابَ دارِه إِذا رَشَّه بالماء.
+-- RECORD.canonical_definition.en: Al-Laḥṭ is the sprinkling of water. It is said: he sprinkled water on the door of his house.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT لشش   stratum=ma
+-- RECORD.ontological_core: The root لشش denotes lightness, agility, and rapid, unencumbered motion. Its foundational physical origin (Aṣl al-Wadʿ) is the quality of being light in weight or movement, often applied to a person's constitution or gait. It is a rare root in Arabic, with the sequence of ش after ل being uncommon, as noted by classical philologists.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is 'lightness' or 'agility' in a person, as in رجل لَشْلاشٌ (a light, agile man). It also denotes the rapid, repeated movement or trembling associated with lightness, as in اللَّشْلَشَةُ (frequent, quick motion).
+-- RECORD.majaz_scholastic: Metaphorically, the root extends to describe intellectual quickness or fickleness, though such usage is not extensively attested in classical theological or philosophical texts. The primary metaphorical application is to denote a lack of seriousness or stability, derived from the physical sense of lightness.
+-- RECORD.canonical_definition.ar: قال الخليل: ليس في كلام العرب شين بعد لام ولكن كلها قبل اللام. قال الأزهري: وقد وُجِد في كلامهم الشين بعد اللام. قال ابن الأعرابي وغيره: رجل لَشْلاشٌ إذا كان خفيفاً. قال الليث: اللَّشْلَشَةُ كثرةُ الحركة.
+-- RECORD.canonical_definition.en: Al-Khalīl said: There is no shīn after lām in Arabic speech; rather, they all occur before lām. Al-Azharī said: But shīn after lām has been found in their speech. Ibn al-Aʿrābī and others said: A man is lashlāsh when he is light. Al-Layth said: Al-lashlashah is frequent movement.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT لغا   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ل-غ-ا is the emission of unstructured, non-referential sound — specifically the chirping of sparrows and similar birds — which carries no semantic weight, no deliberative intent, and no consequential effect. From this acoustic substrate, the root extends to any utterance or act that is discarded, unaccounted for, and yields no benefit.
+-- RECORD.haqiqah_literal: The literal physical meaning is sound that is mere noise: the twittering of sparrows and other birds, and by extension any speech emitted without reflection or deliberation, falling outside the domain of intentional, meaningful discourse. It is the acoustic residue that carries no informational or practical payload.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root denotes: (1) speech that is vain, idle, or obscene — utterances that are not contracted upon (غير معقود عليه), i.e., not bound to any truth-claim, obligation, or benefit; (2) acts that are null, void, or legally inconsequential, such as an oath uttered without intent (لغو اليمين), which carries no expiation; (3) in theological and philosophical discourse, the accidental or non-essential in speech and action — that which is neither truth nor falsehood, neither virtue nor vice, but mere surplus. The majāz moves from the acoustic to the ethical and juridical: from birdsong to the voiding of moral and legal accountability.
+-- RECORD.canonical_definition.ar: اللَّغْو واللَّغا: السَّقَط وما لا يُعتدّ به من كلام وغيره، ولا يُحصَل منه على فائدة ولا نفع. وقيل: هو ما كان من الكلام غير معقود عليه.
+-- RECORD.canonical_definition.en: Al-laghw and al-laghā: the discarded and the unaccounted-for in speech and otherwise, from which no benefit or utility is obtained. It is also said: that which is of speech not contracted upon.
+-- SOURCE.mufradat @line 30003 hdr=لغا: اللغو من الكلام: ما لا يعتد به، وهو الذي يورد لا عن روية وفكر، فيجري مجرى اللغا، وهو صوت العصافير ونحوها من الطيور، قال أبو عبيدة: لغو ولغا، نحو: عيب وعاب وأنشدهم: 407- عن اللغا ورفث التكلم (5) يقال: لغيت تلغى. نحو: لقيت تلقى، وقد يسمى كل كلام قبيح لغوا. قال: لا يسمعون فيها لغوا ولا كذابا [النبأ/ 35]، وقال: وإذا سمعوا اللغو أعرضوا عنه [القصص/ 55]، لا يسمعون فيها لغوا ولا تأثيما [الواقعة/ 25]، وقال: والذين هم عن اللغو معرضون [المؤمنون/ 3]، وقوله: وإذا مروا باللغو مروا كراما [الفرقان/ 72]، أي: كنوا عن القبيح لم يصرحوا، وقيل: معناه: إذا صادفوا أهل اللغو لم يخوضوا معهم. ويستعمل اللغو فيما لا يعتد به، ومنه اللغو في الأيمان. أي: ما لا عقد عليه، وذلك ما يجري وصلا للكلام بضرب من العادة. قال: لا يؤاخ
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ما   stratum=Ma
+-- RECORD.ontological_core: The root is not a trilateral lexical root but a primitive particle (ḥarf) whose foundational linguistic function is referential indeterminacy: it designates an unspecified entity, quantity, or proposition, and from this core radiate the functions of negation, interrogation, conditionality, relative connection, and generic predication.
+-- RECORD.haqiqah_literal: In its literal, non-metaphorical usage, ما is a particle of negation (ḥarf nafy), as in ما فعل (he did not do); it may also function as a relative pronoun equivalent to الذي (that which), as a conditional particle, as an expression covering all categories of the indefinite (ʿibārah ʿan jamīʿ anwāʿ al-nakirah), as a substitute for مَنْ (who), and as a particle of interrogation (istifhām). In certain dialectal or phonological contexts, the final alif may be replaced by hāʾ, yielding مَهْ.
+-- RECORD.majaz_scholastic: Scholastic and philosophical usage extends ما beyond simple negation or relativization into the domain of logical quantification and ontological predication. In kalām and falsafa, ما functions as a tool of definitional inquiry (mā al-ḥaqīqiyyah) and as a quantifier over quiddities, allowing the theologian or philosopher to ask what a thing is in its essence. In grammar and uṣūl al-fiqh, it is treated as a general particle (ḥarf ʿāmm) whose scope may encompass all indefinite categories, and its conditional usage generates universal propositions. Its interrogative force is also employed in dialectical theology to pose questions of essence and existence, while its negative force is used to deny attributes or propositions without implying a positive counterpart.
+-- RECORD.canonical_definition.ar: ما: حَرْفُ نَفي، وتكون بمعنى الذي، وتكون بمعنى الشَّرط، وتكون عِبَارة عن جميع أَنواع النكرة، وتكون موضُوعة موضع مَنْ، وتكون بمعنى الاسْتِفهام، وتُبْدَل من الأَلف الهاء فيقال مَهْ.
+-- RECORD.canonical_definition.en: Mā: a particle of negation; it may also mean 'that which'; it may denote conditionality; it may express all categories of the indefinite; it may stand in the place of 'who'; it may function as a particle of interrogation; and the alif may be replaced by hāʾ, giving māh.
+-- SOURCE.mufradat @line 31843 hdr=ما: ما في كلامهم عشرة: خمسة أسماء، وخمسة حروف. فإذا كان اسما فيقال للواحد والجمع والمؤنث على حد واحد، ويصح أن يعتبر في الضمير لفظه مفردا، وأن يعتبر معناه للجمع. فالأول من الأسماء بمعنى الذي نحو: ويعبدون من دون الله ما لا يضرهم [يونس/ 18] (4) ثم قال: هؤلاء شفعاؤنا عند الله [يونس/ 18] لما أراد الجمع، وقوله: ويعبدون من دون الله ما لا يملك لهم رزقا ... الآية [النحل/ 73]، فجمع أيضا، وقوله: بئسما يأمركم به إيمانكم [البقرة/ 93]. الثاني: نكرة. نحو: نعما يعظكم به [النساء/ 58] أي: نعم شيئا يعظكم به، وقوله: فنعما هي [البقرة/ 271] فقد أجيز أن يكون ما نكرة في قوله: ما بعوضة فما فوقها [البقرة/ 26]، وقد أجيز أن يكون صلة، فما بعده يكون مفعولا. تقديره: أن يضرب مثلا بعوضة (1). الثالث: الاستفهام، ويسأل به عن جنس ذ
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مدن   stratum=Ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of settling and taking up residence in a place, from which the noun for a settlement or city derives. Ibn Manẓūr notes that the verb مَدَنَ بِالمَكَانِ (madana bi-l-makān) meaning 'to dwell in a place' is a dead verb (فِعْلٌ مُمَات), preserved chiefly in the derived noun المَدِينَة (al-madīnah).
+-- RECORD.haqiqah_literal: The literal physical meaning is a place of residence and settlement, i.e., a city or town. Al-Rāghib al-Iṣfahānī reports that some hold المَدِينَة to be of the pattern فَعِيلَة (faʿīlah), with its plural مَدَن (madan), while others treat the mīm as augmentative, making it مَفْعِلَة (mafʿilah) from دِنْتُ (dintu), meaning 'I was possessed or ruled.' Ibn Manẓūr records its plurals as مَدَائِن (madāʾin), مُدْن (mudn), and مُدُن (mudun).
+-- RECORD.majaz_scholastic: In scholastic and theological usage, المَدِينَة denotes the polity or community settled in a city, not merely its physical structures. The Qurʾānic phrase وَمَنْ أَهْلِ المَدِينَةِ مَرَدُوا عَلَى النِّفَاقِ (Q 9:101) refers to the hypocrites among the city's inhabitants, while وَجَاءَ مِنْ أَقْصَا المَدِينَةِ رَجُلٌ يَسْعَى (Q 36:20) and وَدَخَلَ المَدِينَةَ عَلَى حِينِ غَفْلَةٍ مِنْ أَهْلِهَا (Q 28:15) employ the term for the urban settlement as a social and political entity. The etymological debate over whether the mīm is radical or augmentative reflects a broader lexical ambiguity: if from دِنْتُ, the city is conceptually that which is possessed and governed; if from مَدَنَ, it is that in which one settles.
+-- RECORD.canonical_definition.ar: مَدَنَ بِالمَكَانِ: أَقَامَ بِهِ، فِعْلٌ مُمَات، وَمِنْهُ المَدِينَة، وَهِيَ فَعِيلَة، وَتُجْمَعُ عَلَى مَدَائِنَ وَمُدْنٍ وَمُدُنٍ.
+-- RECORD.canonical_definition.en: مَدَنَ بِالمَكَانِ: he dwelt in the place—a dead verb—and from it derives المَدِينَة (the city), which is of the pattern فَعِيلَة, and its plurals are مَدَائِن, مُدْن, and مُدُن.
+-- SOURCE.mufradat @line 30909 hdr=مدن: المدينة فعيلة عند قوم، وجمعها مدن، وقد مدنت مدينة، وناس يجعلون الميم زائدة، قال تعالى: ومن أهل المدينة مردوا على النفاق [التوبة/ 101] قال: وجاء من أقصا المدينة رجل يسعى [يس/ 20]، ودخل المدينة على حين غفلة من أهلها [القصص/ 15].
+-- SOURCE.maqayis @line 67890 hdr=مدن: الميم والدال والنون ليس فيه إلا مدينة، إن كانت على فعيلة، ويجمعونها مدنا. ومدنت مدينة.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مسط   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root م س ط is the manual insertion of the hand into the reproductive cavity of a she-camel or mare to extract the accumulated seminal fluid (wathr) that has failed to result in conception after repeated copulation. The root thus denotes a concrete veterinary intervention: a tactile, evacuative act performed by the herdsman to cleanse the womb and restore fertility.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in Lisān al-ʿArab, is the act of a man inserting his hand into the vagina of a she-camel to extract the wathr—the retained water of the stallion that has coagulated in the womb due to excessive mounting without conception. The verb مَسَطَ النَّاقَةَ / الفَرَسَ يَمْسُطُهَا مَسْطًا signifies this direct manual extraction.
+-- RECORD.majaz_scholastic: Since the root is not attested in Al-Mufradāt or Asās al-Balāghah, no established metaphorical or scholastic extensions are recorded in the classical philological tradition. Any figurative usage would be an analogical projection from the literal veterinary act—such as the removal of an obstruction or the extraction of a hidden substance—but such extensions lack canonical attestation and remain outside the strict ḥaqīqah–majāz boundary delineated by Al-Zamakhsharī.
+-- RECORD.canonical_definition.ar: المِسْطُ: أَن يُدخِل الرجُل يدَه في حَياء الناقة فيستَخْرِج وَثْرها، وهو ماء الفحل يجتمع في رحمها، وذلك إِذا كثر ضِرابُها ولم تَلْقَح. ومَسَطَ الناقَةَ والفَرَسَ يَمْسُطُها مَسْطاً: أَدخل يدَه في حَيائها فاستخرج وَثْرها.
+-- RECORD.canonical_definition.en: Al-misṭ is the act of a man inserting his hand into the vagina of a she-camel to extract the wathr—the stallion's fluid that accumulates in her womb when she has been repeatedly mounted without conceiving. He masata the she-camel or the mare, yamsuṭuhā masṭan: he inserted his hand into her vagina and extracted the wathr.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 68296 hdr=مسط: الميم والسين والطاء أصل صحيح يدل على خرط شيء رطب (1)، وعلى امتداده من تلقاء نفسه. يقال إن المسيطة (2): ما يبقى في الحوض من الماء بكدورة قليلة. قال الأصمعى بئر ضغيط، وهو الركى إلى جنبه ركى آخر فيحمأ فينتن فيسيل في الماء العذب فلا يشرب، فالبئر ضغيط، وذلك الماء مسيط. قال: يشربن ماء الآجن الضغيط ولا يعفن كدر المسيط (3) ومن الباب المسط: أن تخرط في السقاء من لبن خاثر بأصابعك ليخثر
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مضض   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root م-ض-ض is a sharp, penetrating burning or biting sensation—like the sting of collyrium in the eye or the smart of a wound—that causes acute pain and distress.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is: pain, grief, or words that cause a burning, piercing sensation; to be afflicted by a calamity or speech in a manner that stings and hurts; and the application of kohl to the eye, which causes a biting smart.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root is used to describe the intense, burning effect of anxiety, sorrow, or harsh words upon the heart or soul, signifying emotional or spiritual torment. It is applied to any agent that causes severe distress, whether internal (grief) or external (speech), and conveys the idea of being consumed or scorched by an affliction.
+-- RECORD.canonical_definition.ar: المَضُّ: الحُرْقَةُ. مَضَّني الهَمُّ والحُزْنُ والقول يَمُضُّني مَضّاً ومَضِيضاً وأَمَضَّني: أَحْرَقَني وشقّ عليّ. والهمُّ يَمُضُّ القلبَ أَي يُحْرِقُه.
+-- RECORD.canonical_definition.en: Al-Maḍḍ is burning. Anxiety, sorrow, or speech burns me with a burning and intense pain; and it caused me burning pain: it burned me and was severe upon me. Anxiety burns the heart, i.e., it scorches it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[majaz_metaphorical]: ما مضمضت عيني بالنوم أرقا وما تمضمضت. قال المروح السلمي: لما اتكأن على النمارق مضمضت ... بالنوم أعينهن غير غرار وتمضمض النوم في عينه. قال: يمسح بالكفين وجها أبيضا ... إذا الكرى في عينه تمضمضا
+-- SOURCE.asas[haqiqah_literal]: أمضني الوجع والهم ومضني، وضربه فأمضه ومضه، والكحل يمض عيني، ومضضت من المصيبة ومن كلامك مضيضا بكسر العين.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: أمضني الوجع والهم ومضني، وضربه فأمضه ومضه، والكحل يمض عيني، ومضضت من المصيبة ومن كلامك مضيضا بكسر العين. Metaphorical (Majaz): ما مضمضت عيني بالنوم أرقا وما تمضمضت. قال المروح السلمي: لما اتكأن على النمارق مضمضت ... بالنوم أعينهن غير غرار وتمضمض النوم في عينه. قال: ي
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مقت   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the intense, visceral aversion aroused by the perception of something ugly or morally repugnant; it denotes a hatred that is not merely emotional but is provoked by the apprehension of a blameworthy act or quality.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal meaning is to hate someone intensely because of a vile or repulsive matter; it is a loathing directed at a person due to an ugly deed, and it is used literally in expressions such as 'he hated him with intense hatred' and 'he became hateful to people'.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root is applied to the marriage of a man to his father's wife, termed 'nikāḥ al-maqt' (the marriage of hatred), because it was considered an abominable and detestable practice. Theologically, in the Qur'anic verse 'It was an indecency and a hateful thing and an evil way' (4:22), it denotes a divinely abhorred act. The term 'maqīt' (مقيت) is also used as a divine name meaning 'the Guardian' or 'the Preserver', but this is derived from the root قوت (q-w-t), not from مقت, as clarified by al-Rāghib and Ibn Manẓūr; thus it is a homonymic form, not a semantic extension of the root مقت.
+-- RECORD.canonical_definition.ar: المَقْتُ: أَشَدُّ الإِبْغاضِ. مَقُتَ مَقاتَةً، ومَقَتَه مَقْتاً: أَبْغضه، فهو مَمْقُوتٌ ومَقِيتٌ. والمَقِيتُ: الحافِظُ، والميم فيه مضمومة وليست بأصلية، وهو من القوت.
+-- RECORD.canonical_definition.en: Al-maqt is the most intense form of hatred. He was hateful (maquta) with hatefulness (maqāta), and he hated him (maqatahu) with hatred (maqt), so he is hated (mamqūt) and hateful (maqīt). Al-maqīt means 'the Guardian', and the mīm in it is a prefixed letter, not a root letter, as it derives from al-qūt (sustenance).
+-- SOURCE.mufradat @line 31305 hdr=مقت: المقت: البغض الشديد لمن تراه تعاطى القبيح. يقال: مقت مقاتة فهو مقيت، ومقته فهو مقيت وممقوت. قال تعالى: إنه كان فاحشة ومقتا وساء سبيلا [النساء/ 22] وكان يسمى تزوج الرجل امرأة أبيه نكاح المقت، وأما المقيت فمفعل من القوت، وقد تقدم (1).
+-- SOURCE.maqayis @line 68930 hdr=مقت: الميم والقاف والتاء كلمة واحدة تدل على شناءة وقبح. ومقته مقتا فهو مقيت وممقوت. ونكاح المقت كان في الجاهلية أن يتزوح الرجل امرأة أبيه.
+-- SOURCE.asas[haqiqah_literal]: مقته مقتا وهو بغض عن أمر قبيح. ومنه قيل لنكاح الرجل رابته: نكاح المقت " إنه كان فاحشة ومقتا " ومقت إلى الناس مقاتة، نحو: بغض بغاضة، وهو ممقوت ومقيت، وتمقت إليه: نقيض تحبب إليه. وماقته. وتماقتوا، ومقته إلي: قبح فعله.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مقر   stratum=mA
+-- RECORD.ontological_core: The foundational physical act of striking or crushing the neck (دَقُّ العُنُق) with a rod until the bone fractures while the skin remains intact; by extension, the steeping or soaking of salted fish in water or vinegar to draw out its brine.
+-- RECORD.haqiqah_literal: The literal, physical sense is the crushing or pounding of the neck with a stick, breaking the bone beneath unbroken skin. A secondary literal sense is the immersion of salted fish in water or vinegar (نَقْع السَّمَك المَالِح) to leach out its salt.
+-- RECORD.majaz_scholastic: Metaphorical and derived usages include: (1) bitterness (مَرَارَة) predicated of a person or thing, as in the phrase 'مُمَقَّرٌ مُرٌّ' (intensely bitter), applied to a harsh individual toward his enemies yet sweet as honey to his intimates; (2) milk described as مُمَقَّر when it has nearly turned bitter due to the acidity of the stomach (لِقَرُوصِهِ); (3) fish termed مَمْقُور when its neck has been crushed; (4) the imperative form 'أَمْقِرْ' (from the root) denoting patience or endurance (الصَّبْر), as attested in the command 'مُقِرْ'.
+-- RECORD.canonical_definition.ar: المَقْرُ: دَقُّ العُنُقِ. مَقَرَ عُنُقَهُ يَمْقُرُهَا مَقْراً إِذَا دَقَّهَا وَضَرَبَهَا بِالعَصَا حَتَّى تَكَسَّرَ العَظْمُ وَالجِلْدُ صَحِيحٌ. وَالمَقْرُ: إِنْقَاعُ السَّمَكِ المَالِحِ فِي المَاءِ. وَمَقَرَ السَّمَكَةَ المَالِحَةَ مَقْراً: أَنْقَعَهَا فِي الخَلِّ.
+-- RECORD.canonical_definition.en: Al-Maqr: the crushing of the neck. One says maqara ʿunuqahu yamquruha maqran when he pounded and struck it with a rod until the bone fractured while the skin remained intact. Al-Maqr also denotes the steeping of salted fish in water. And maqara al-samakata al-māliḥata maqran: he steeped it in vinegar.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 68943 hdr=مقر: الميم والقاف والراء كلمة واحدة، هي المقر (1): شبه الصبر. وأمقر الشيء: أمر. واللبن الحامض ممقر. ومن هذا قولهم: سمك ممقور. والمقر: إنقاع (2) السمك المالح في الماء. وقال ابن دريد (3): أمقرت لفلان الشراب: أمررته له.
+-- SOURCE.asas[haqiqah_literal]: " أمر من المقر " وهو الصبر. ومر ممقر، وقد أمقر. قال لبيد: ممقر مر على أعدائه ... وعلى الأذنين حلو كالعسل ولبن ممقر: كاد يمر لقروصه. وسمك ممقور: من مقر عنقه إذا دقها.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مقق   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is extreme elongation combined with extreme thinness — a stretched, attenuated bodily frame, and by extension the act of drawing out or extracting something entirely from its container.
+-- RECORD.haqiqah_literal: In its literal physical sense, مَقَق denotes excessive length conjoined with fineness or slenderness; a man is described as أَمَقّ and a woman as مَقَّاء, and a horse as أَشَقّ أَمَقّ. It also denotes the complete extraction of marrow from a bone (تَمَقَّقْتُ ما في العظم) and the draining of milk from the udder by a young camel (تَمَقَّقَ الفصيل ما في الضرع).
+-- RECORD.majaz_scholastic: By metaphorical extension, the root is applied to a person who speaks from the deepest part of his throat (مُقَامِق), i.e., with an affected, strained, or hollow vocalization. It is also used in the idiomatic imprecation مَقَّ الله عيني, meaning 'May God pluck out my eye,' where the physical act of extraction is transferred to a curse of removal or deprivation. The elongation sense may further shade into a pejorative description of excessive, ungainly tallness.
+-- RECORD.canonical_definition.ar: المَقَقُ: الطول عامة، وقيل: هو الطول الفاحش في دقة. ورجل أمق وامرأة مقاء. وتمققت ما في العظم: استخرجته كله. وفلان مقامق: يتكلم بأقصى حلقه.
+-- RECORD.canonical_definition.en: Al-Maqaq denotes length in general; it is also said to be excessive length combined with slenderness. A man is described as amaqq and a woman as maqqā'. TamAqqaqtu mā fī al-'aẓm means 'I extracted everything within the bone.' Fulān muqāmiq means 'so-and-so speaks from the deepest part of his throat.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[majaz_metaphorical]: بلد أمق، وأرض مقاء: بعيدة الأرجاء. قال الكميت يصف ظالما: تمقق أخلاف المعيشة منهم ... رضاعا وأخلاف المعيشة حفل
+-- SOURCE.asas[haqiqah_literal]: رج أمق، وامرأة مقاء، والمقق: طول في دقة، وفرس أشق أمق، ووصف أعرابي فرسا فقال: شقاء مقاء، طويلة الأنقاء. وتمققت ما في العظم: استخرجته كله. وتمقق الفصيل ما في الضرع. وفلان مقامق: يتهكلم بأقصى حلقه. وعن بعض العرب: مق الله عيني وإلا فلا بلغ الله بي ظلام الليل إن كنت جلست مجلسا إلا ذه
+-- SOURCE.asas[bilingual_haqiqah_majaz]: رج أمق، وامرأة مقاء، والمقق: طول في دقة، وفرس أشق أمق، ووصف أعرابي فرسا فقال: شقاء مقاء، طويلة الأنقاء. وتمققت ما في العظم: استخرجته كله. وت Metaphorical (Majaz): بلد أمق، وأرض مقاء: بعيدة الأرجاء. قال الكميت يصف ظالما: تمقق أخلاف المعيشة منهم ... رضاعا وأخلاف المعيشة حفل
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

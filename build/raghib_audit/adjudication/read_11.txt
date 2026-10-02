@@ -1,0 +1,230 @@
+================================================================================================
+ROOT فوخ   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ف-و-خ is the emission and diffusion of a scent or odor, specifically the rising and spreading of a fragrant or malodorous exhalation through the air, akin to the root ف-و-ح. It denotes the effusion of a volatile substance that fills the surrounding atmosphere and may be perceived by the sense of smell, sometimes with a forceful or overpowering quality.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (as inferred from Lisān al-ʿArab) is: the diffusion and rising of a smell or odor, whether pleasant (like musk) or foul, such that it spreads through the air; also, the emission of wind (flatulence) from a person, and the act of a smell taking away one's breath due to its intensity.
+REC canon_def.ar     : فَاخَ المِسْكُ يَفُوخُ وَيَفِيخُ فَوْخًا وَفَوَخَانًا: سَطَعَ مِثْلَ فَاحَ. وَفَاخَ الرَّجُلُ يَفُوخُ فَوْخًا وَأَفَاخَ يُفِيخُ: خَرَجَتْ مِنْهُ رِيحٌ.
+REC canon_def.en     : Musk diffused and rose like fāḥa. A man emitted wind: he passed wind.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قبا   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ق ب و is the act of gathering, collecting, or picking up a substance with the fingers or hand, specifically the harvesting of saffron and safflower. This concrete manual act of aggregation is the root's primary material sense, from which all subsequent applications derive by extension or restriction.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the direct, manual gathering of a substance—such as saffron (زعفران) or safflower (عصفر)—by the fingers, i.e., picking or harvesting it. It also denotes the physical convergence or closing of the lips (القَبْوة: انضمام ما بين الشفتين).
+REC canon_def.ar     : قَبا الشيءَ قَبْواً: جمعه بأَصابعه. والقَبْوةُ: انضمام ما بين الشفتين. والقَباء، ممدود، من الثياب.
+REC canon_def.en     : He gathered the thing with his fingers. Al-qabwa is the closing of the lips. Al-qabāʾ, with madd, is a type of garment.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 21981 hdr=قبا] القَباءُ ممدود، وثلاثة أَقْبِية، وتَقَبَّى الرجل: لبس قَباءَهُ. وقُبا- مقصور-: قرية بالمدينة. والقباية: المفازة بلغة حمير. قال شاعرهم: «4» وما كان عنز ترتعي بقَبايةٍ وقابياء وقابعاء، يقال ذلك للئام. __________ (1) في النسخ: الارتواء. (2) التاج (عذب) ، غير منسوب أيضا. (3) في النسخ: منقاب بالباء، وما أثبتناه فمن التهذيب 9/ 350 عن العين، والمحكم 6/ 364، واللسان (بوق) . (4) التهذيب 9/ 346، واللسان (قبا) غير منسوب أيضا. و […]
+
+================================================================================================
+ROOT قحذم   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on the act of falling headlong or collapsing downward, and by extension, entering a house or enclosed space. It denotes a sudden, forceful downward motion or penetration into an interior.
+REC haqiqah_literal  : The literal physical meaning is: a man falling down prostrate or headlong; and entering a house. It also denotes the act of falling upon one's head.
+REC canon_def.ar     : تقَحْذَم الرجل: وقع مُنْصَرِعاً. وتقَحْذَم البيتَ: دخَله. والقَحْذَمةُ والتَّقَحْذُم: الهُوِيّ على الرأْس.
+REC canon_def.en     : A man fell prostrate. He entered the house. Al-Qaḥdhamah and al-Taqaḥdhum: falling upon the head.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قرث   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a specific cultivar of date palm fruit (tamr), characterized by its black color and rapid detachment of its skin from its flesh upon ripening (irtibāb).
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is a type of date (tamr) that is black, quick to have its skin peel away from its flesh when it ripens, and is considered the most delicious date in its unripe (busran) stage.
+REC canon_def.ar     : القَرِيثاء: ضَرْبٌ من التمر، وهو أَسْودُ سريعُ النَقْضِ لقِشْرِه عن لِحائه إِذا أَرْطَبَ، وهو أَطيَبُ تمرٍ بُسْراً؛ يُضافُ ويوصَفُ به، ويُثنَّى ويُجْمع.
+REC canon_def.en     : Al-qarīthāʾ: a variety of date (tamr) that is black, rapidly detaches its skin from its flesh when it ripens (irtabā), and is the most delicious date when eaten unripe (busran); it may be used in construct (iḍāfa) and as an adjective, and m […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 20986 hdr=قرث] القَرِيثاءُ: ضرب من التمر أسود سريع النقض لقشره عن لحائه إذا أرطب. وهو أطيب التَّمرْ بُسْراً.
+
+================================================================================================
+ROOT قردحم   stratum=ma
+REC ontological_core : The root denotes a specific, rugged, and remote topographical location—a place-name (موضع) characterized by harsh, broken terrain. Its foundational physical origin is the concrete designation of a desolate, stony ground or a rugged tract of land, from which the abstract sense of scattering and dispersal derives by analogy: to be cast into such broken country is to be dispersed beyond recovery.
+REC haqiqah_literal  : A proper noun (اسم علم) for a specific rugged, stony place or tract of land. In its strict literal usage, it is a toponym, indeclinable (غير مصروف) as a place-name, denoting a harsh, broken terrain. The phrase ذهبوا شَعالِيل بِقِرْدَحْمةٍ means 'they scattered in every direction at Qirdahma,' i.e., they dispersed across a rugged, remote location.
+REC canon_def.ar     : قِرْدَحْمة: موضع. الفراء: ذهبوا شَعالِيل بِقِرْدَحْمةٍ أَي تفرقوا. قال ابن بري: وفي الغريب المصنف بِقِرْدَحْمةَ غير مصروف. وحكى اللحياني في نوادره: ذهب القوم بِقِنْدَحْرةٍ وقِنْدَحْرةٍ وقِدَّحْرة
+REC canon_def.en     : Qirdahma: a place. Al-Farrāʾ said: 'They went off in every direction at Qirdahma,' i.e., they scattered. Ibn Barrī said: In al-Gharīb al-Muṣannaf it appears as 'bi-Qirdahmata' in the indeclinable form. Al-Liḥyānī related in his Nawādir: 'Th […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قرنس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of hooding and sealing a bird of prey — specifically, sewing shut the eyes of a falcon or hawk at the moment of its capture, and the consequent loss or molting of its feathers during the taming process. The quadrilaterals قَرْنَس / قَرْنَص denote this concrete falconry operation, with the س and ص variants reflecting an ancient dialectal alternation on the فَعْلَل […]
+REC haqiqah_literal  : The literal physical meaning is: a falcon (البازي) was hooded and its eyes were stitched shut immediately upon capture, causing its plumage to drop; likewise said of a rooster (الديك) when its eyes are sealed or its feathers fall. The verb is intransitive (لازم) in this usage, describing the bird's condition rather than an agent's action.
+REC canon_def.ar     : قَرْنَسَ البازي: كُرِّزَ، أي سقط ريشه، وخِيطَتْ عيناه أول ما يُصاد؛ فعل لازم. وقَرْنَسَ الديكُ وقَرْنَصَ: إذا كُرِّزَ وسقط ريشه.
+REC canon_def.en     : Qarnasa al-bāzī: it was hooded — that is, its feathers dropped and its eyes were stitched shut at the moment of capture; the verb is intransitive. And qarnasa al-dīk / qarnaṣa: when it was hooded and its feathers fell.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22280 hdr=قرنس] القُرْناس: شبه أنف يتقدم من الجبل. وقَرْنس البازي، فعل له لازم، إذا كرز، وخيطت عيناه أول ما يصاد.
+
+================================================================================================
+ROOT قطا   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ق ط و is the notion of heaviness and slowness in gait — a ponderous, dragging mode of walking. This sensory kernel of weighted movement is the root's primitive semantic nucleus, from which the name of the well-known bird (al-qaṭā) is derived by reason of its sluggish, heavy tread.
+REC haqiqah_literal  : The literal, physical meaning is: to walk heavily and slowly (قَطَا يَقْطُو: ثَقُلَ مَشْيُهُ). The noun al-qaṭā denotes the well-known bird (sandgrouse), so named because of the heaviness of its walking; its singular is qaṭāh, and its plural forms are qaṭawāt and qaṭayāt. Its characteristic manner of walking is termed al-iqṭīṭāʾ, expressed in the verb iqṭawṭat al-qaṭāh (the san […]
+REC canon_def.ar     : قَطَا يَقْطُو: ثَقُلَ مَشْيُهُ. وَالقَطَا: طَائِرٌ مَعْرُوفٌ، سُمِّيَ بِذَلِكَ لِثِقَلِ مَشْيِهِ، وَاحِدَتُهُ قَطَاةٌ، وَالجَمْعُ قَطَوَاتٌ وَقَطَيَاتٌ، وَمَشْيُهَا الاقْطِيطَاءُ.
+REC canon_def.en     : Qaṭā yaqṭū: to walk heavily and slowly. Al-qaṭā is the well-known bird (sandgrouse), so named because of the heaviness of its walking; its singular is qaṭāh, its plurals are qaṭawāt and qaṭayāt, and its manner of walking is al-iqṭīṭāʾ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قلذم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a well or spring of abundant, copious water — a source that gushes forth and never runs dry, denoting plenitude and inexhaustible supply.
+REC haqiqah_literal  : A well (biʾr) that is abundant (ghazīrah) and copious in water (kathīrat al-māʾ); a gushing, overflowing wellspring.
+REC canon_def.ar     : القَلَيْذَمُ: البئر الغزيرة الكثيرة الماء.
+REC canon_def.en     : Al-qalaydham: the well that is abundant and copious in water.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22401 hdr=قلذم] القَلَيْذَمُ: البئر الكثيرة الماء ... قال: «1» إن لنا قَلَيْذَماً قَذُوما
+
+================================================================================================
+ROOT قندع   stratum=ma
+REC ontological_core : The root denotes a man who tolerates or facilitates the illicit sexual conduct of his dependents, specifically a cuckold or procurer (dayyūth); its foundational origin is not pure Arabic but a Syriac loanword, with the variant قنذع (with dhāl) being the more attested form.
+REC haqiqah_literal  : The literal physical meaning is a man who is a cuckold or procurer (dayyūth), i.e., one who does not exhibit protective jealousy (ghīrah) over his wife or female relatives and permits their illicit sexual relations.
+REC canon_def.ar     : القُنْدُعُ والقُنْدُوعُ: الدَّيُّوثُ، سريانية ليست بعربية محضة، وقد يقال بالدال المهملة.
+REC canon_def.en     : Al-qunduʿ and al-qundūʿ: the cuckold or procurer (dayyūth); it is Syriac, not pure Arabic, and may also be pronounced with the unpointed dāl.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قندل   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on elongated extension and unconstrained forward motion, specifically a man walking with loose, unhindered stride, and by extension any entity marked by length or bulk, particularly a large head.
+REC haqiqah_literal  : The literal physical meaning is a man walking in an unconstrained, extended manner (مَشى في استرسال); the root also literally denotes something long or tall (الطويل), and a large-headed, bulky creature among camels and mounts (الضخم الرأس من الإبل والدوابّ), comparable to عَنْدَل.
+REC canon_def.ar     : قَنْدَل الرجلُ: مَشى في استرسال. والقَنْدَل: الطويل. والقَنْدَل والقُنَادِل: الضخم الرأس من الإبل والدوابّ مثل العَنْدَل.
+REC canon_def.en     : A man qandala: he walked with an unconstrained, extended stride. Al-qandal: the long or tall one. Al-qandal and al-qunādil: the large-headed, bulky one among camels and mounts, like al-ʿandal.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22385 hdr=قندل] القَنْدَلُ: الضَّخْمُ والرأس من الإبل والدواب. قال: «1» شذب عن عاناته القنابلا ... أثناءها والربع القنادِلا
+
+================================================================================================
+ROOT قنصل   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in the classical lexical tradition as a productive root; the only recorded form is the nominal قُنْصُل, denoting shortness of stature or a short person, with no established verbal or derivational root family.
+REC haqiqah_literal  : The literal physical meaning according to the classical lexica is 'short, of short stature' (قَصِير), applied to a person or thing lacking height.
+REC canon_def.ar     : قُنْصُل: قَصِير.
+REC canon_def.en     : Qunṣul: short, of short stature.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قنفش   stratum=ma
+REC ontological_core : The foundational physical origin of the root قنفش is the act of contraction, shriveling, or drawing together into a compact, wrinkled mass, coupled with the rapid, forceful gathering of a thing. It denotes a sudden, tight coalescence—whether of a body shrinking upon itself or of objects being swept together swiftly.
+REC haqiqah_literal  : The literal physical meaning is contraction (التقبض) and rapid gathering (الجمع السريع). It describes a person or animal that is shriveled, tightly drawn together, or a thing that has been snatched up and collected in haste. It also denotes a small creeping creature (دويبة), likely so named for its contracted, compact form.
+REC canon_def.ar     : القَنْفَشَةُ: التقبُّضُ. وعجوز قِنْفِشَةٌ: مُتَقبِّضةٌ. وقَنْفَشَ الشيءَ: جمعه سريعاً. والقِنْفِشَةُ: دُوَيْبّة.
+REC canon_def.en     : Al-Qanfashah: contraction. An old woman who is qinfishah: shriveled/contracted. Qanfasha al-shayʾ: he gathered the thing quickly. Al-Qinfishah: a small creeping creature.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22185 hdr=قنفش] [القَنْفَشَةُ: التّقَبُّض] «1» . وعجوز قِنْفِشة: متقبضة «2» . القاف والضاد
+
+================================================================================================
+ROOT قها   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the withdrawal or recession of appetite from food — a turning-away of the desiring faculty from nourishment, whether from satiety, distaste, or a constitutional diminution of hunger, without organic disease.
+REC haqiqah_literal  : The literal physical meaning is the cessation or retreat of the appetite for food, such that one turns away from eating; it is said of a man of little food-intake: qad aqhā wa-qad aqham.
+REC canon_def.ar     : أَقْهى عن الطعام واقْتَهى: ارتدَّت شهوتُه عنه من غير مرض، مثل أَقْهَمَ؛ يقال للرجل القليل الطُّعم: قد أَقْهَى وقد أَقْهَم، وقيل: هو أَن يقدر على الطعام فلا يأَكله وإِن كان مشتهياً له.
+REC canon_def.en     : Aqhā ʿan al-ṭaʿām and iqtahā: his appetite receded from it without disease, like aqham; it is said of a man of little food-intake: qad aqhā wa-qad aqham. It is also said to be that he is able to eat but does not eat it, even though he crave […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قهقم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on massive, engulfing bulk — specifically the image of a creature or beast of enormous size that swallows and devours everything, and by extension the towering, raging male camel (al-faḥl al-ḍakhm al-mughtalim). The quadriliteral reduplicative form (القَهْقَمّ) itself iconically reinforces the sense of heaving, repetitive engulfment.
+REC haqiqah_literal  : The literal physical meaning, per Lisān al-ʿArab, is: a being or beast that swallows everything (al-ladhī yabtaliʿu kulla shayʾ); and a huge, raging stallion-camel (al-faḥl al-ḍakhm al-mughtalim). Abū ʿAmr records القَهْقَبّ and القَهْقَمّ as synonyms for the enormous camel (al-jamal al-ḍakhm).
+REC canon_def.ar     : القِهْقَمُّ: الذي يبتلع كل شيء. والقَهْقَمُ: الفحل الضخم المغتلم. وقال أبو عمرو: القَهْقَبُّ والقَهْقَمُّ: الجمل الضخم.
+REC canon_def.en     : Al-qihqamm: the one who swallows everything. Al-qahqam: the huge, raging stallion-camel. Abū ʿAmr said: al-qahqabb and al-qahqamm: the enormous camel.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT كبه   stratum=ma
+REC ontological_core : The root ك ب ه (k-b-h) is not attested in the classical lexical tradition as an independent root with a stable physical origin (aṣl al-wadʿ). Its sole documented occurrence is a dialectal phonetic variant in which the initial ج (jīm) of جَبْهة (forehead) is shifted toward the kāf's articulation point, yielding كَبْهة. The root therefore has no autonomous ontological core; it is a phonological reflex of ج ب ه (j-b-h), whose fou […]
+REC haqiqah_literal  : The literal physical meaning is the forehead (al-jabha), specifically a broad, wide forehead (ʿarīḍ al-jabha). The form كَبْهة is not an independent lexical item but a dialectal pronunciation of جَبْهة, produced by fronting the jīm from its palatal articulation point toward the kāf's velar articulation point. This substitution is attested among certain Arab tribes and was recor […]
+REC canon_def.ar     : الكَبْهةُ: لغةٌ في الجَبْهةِ، وهي الجبهةُ العريضةُ؛ أَخرجَ الجيمَ بين مَخرجِها ومَخرجِ الكافِ، وهي لغةٌ لقومٍ من العرب، ذكرها سيبويه مع ستةِ أحرفٍ.
+REC canon_def.en     : Al-kabha: a dialectal variant of al-jabha (the forehead), denoting a broad forehead; the jīm is articulated between its own point of articulation and that of the kāf. It is a dialect of certain Arab tribes, recorded by Sībawayh alongside si […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT كحلب   stratum=ma
+REC ontological_core : A quadriliteral nominal stem denoting a specific plant or herb; its foundational physical origin is the concrete botanical referent designated by the name, without a productive verbal root in classical usage.
+REC haqiqah_literal  : The literal physical meaning is the plant or herb named كَحْلَب; it is a concrete botanical entity, not a derived verbal action or abstract quality.
+REC canon_def.ar     : كَحْلَبٌ: اسم.
+REC canon_def.en     : Kaḥlab: a noun (name of a plant).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT كدا   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the retardation, delay, or sluggishness of a natural process — specifically, the tardiness of the earth in bringing forth its vegetation, such that the soil remains barren or slow to sprout despite its latent fertility.
+REC haqiqah_literal  : The literal physical meaning, per Lisān al-ʿArab, is the delayed or sluggish emergence of vegetation from the earth: كَدَت الأَرض تَكْدو كَدْواً وكُدُوًّا, فهي كاديةٌ — 'The earth was slow to vegetate, hence it is kādiyah (sluggish/barren in sprouting).' The concrete referent is a tract of land whose herbage is late in appearing.
+REC canon_def.ar     : كَدَت الأَرض تَكْدو كَدْواً وكُدُوًّا، فهي كاديةٌ إِذا أَبطأَ نباتها.
+REC canon_def.en     : The earth was slow to vegetate with a kadw or kudūw, so it is kādiyah when its vegetation is tardy.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 23862 hdr=كدأ] [يقال: كَدَأَ النبت- بالهمز- من البرد. وكدأ البرد الزرع: رده في __________ (1) تكملة من مختصر العين- الورقة 168. (2) ديوانها ص 139 (صادر) . (3) في الأصول المخطوطة: ملح، وما أثبتناه فمما روي في التهذيب 10/ 325 عن العين، ومن مختصر العين الورقة 168. (4) القائل: (قيس بن الرقيات) ، كما في التهذيب 10/ 325، واللسان (كدا) . الأرض. كدأ يكدأ كدوء] «1» .
+
+================================================================================================
+ROOT كرتح   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the violent bringing-down of a body to the ground, i.e. throwing someone down prostrate, together with a rapid, jolting forward motion in walking; the two senses share the primitive image of abrupt downward or forward displacement of the body.
+REC haqiqah_literal  : The literal physical meaning is: كَرْتَحَه 'he threw him down, prostrated him, cast him to the ground'; and كَرْتَح في مشيه 'he hastened, moved swiftly in his walking'.
+REC canon_def.ar     : كَرْتَحه: صَرَعَه. وكَرْتَح في مشيه: أَسرع.
+REC canon_def.en     : Kartaḥahu: he threw him down, prostrated him. And kartaḥa fī mashyihi: he hastened in his walking.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT كندش   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the designation of a specific bird, the magpie (Pica pica), a corvid known for its harsh chattering call and its reputation in classical Arabic lore as a creature of ill omen and innate malevolence.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the magpie (العَقْعَق), a black-and-white bird of the crow family, characterized by its noisy, chattering cry and its association with mischief and bad luck.
+REC canon_def.ar     : الكُنْدُشُ: العَقْعَقُ. قال ابن الأَعرابي: أَخبرني المفضّل يقال هو أَخبَثُ من كُنْدُشٍ، وهو العَقْقعَق.
+REC canon_def.en     : Al-Kundush: the magpie. Ibn al-Aʿrābī said: Al-Mufaḍḍal informed me that it is said, 'He is more malignant than a kundush,' which is the magpie.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT لحط   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ل-ح-ط is the act of sprinkling or scattering water upon a surface, specifically a door or wall, as a practical measure of dust suppression, cooling, or ritual cleansing.
+REC haqiqah_literal  : The literal, physical meaning is to sprinkle water on the door of one's house, as attested in the report that ʿAlī passed by a group who were sprinkling water on the door of their dwelling.
+REC canon_def.ar     : اللَّحْطُ: الرَّشُّ. يقال: لَحَطَ بابَ دارِه إِذا رَشَّه بالماء.
+REC canon_def.en     : Al-Laḥṭ is the sprinkling of water. It is said: he sprinkled water on the door of his house.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT لشش   stratum=ma
+REC ontological_core : The root لشش denotes lightness, agility, and rapid, unencumbered motion. Its foundational physical origin (Aṣl al-Wadʿ) is the quality of being light in weight or movement, often applied to a person's constitution or gait. It is a rare root in Arabic, with the sequence of ش after ل being uncommon, as noted by classical philologists.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is 'lightness' or 'agility' in a person, as in رجل لَشْلاشٌ (a light, agile man). It also denotes the rapid, repeated movement or trembling associated with lightness, as in اللَّشْلَشَةُ (frequent, quick motion).
+REC canon_def.ar     : قال الخليل: ليس في كلام العرب شين بعد لام ولكن كلها قبل اللام. قال الأزهري: وقد وُجِد في كلامهم الشين بعد اللام. قال ابن الأعرابي وغيره: رجل لَشْلاشٌ إذا كان خفيفاً. قال الليث: اللَّشْلَشَةُ كثرةُ الحركة.
+REC canon_def.en     : Al-Khalīl said: There is no shīn after lām in Arabic speech; rather, they all occur before lām. Al-Azharī said: But shīn after lām has been found in their speech. Ibn al-Aʿrābī and others said: A man is lashlāsh when he is light. Al-Layth s […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

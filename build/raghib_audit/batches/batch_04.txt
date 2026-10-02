@@ -1,0 +1,269 @@
+====================================================================================================
+ROOT دمرغ   stratum=ma
+-- RECORD.ontological_core: The root denotes an extreme, saturated intensity of a color quality — specifically a concentrated, almost overwhelming redness or whiteness — as if the hue has been fully infused and intensified in the object.
+-- RECORD.haqiqah_literal: The literal physical meaning is a man of intense, saturated redness; and, by extension, a stark, intensely white object or person (أبيض دُمَّرِغ), indicating the utmost degree of whiteness.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical lexica; the term remains confined to the concrete sensory domain of color intensity, with no abstract or scholastic extension recorded.
+-- RECORD.canonical_definition.ar: الدُّمَّرِغُ: الرجلُ الشديدُ الحُمْرةِ. وأَبْيَضُ دُمَّرِغٌ: شديدُ البياضِ.
+-- RECORD.canonical_definition.en: Al-Dummarigh: a man of intense redness; and 'abyadu dummarigh': intensely white.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دهن   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root د-ه-ن is the act of moistening, coating, or anointing a surface with a fatty, oily substance, thereby producing a slight, superficial wetness or glaze. This concrete sense of applying oil to the head or body underlies all subsequent literal and figurative extensions.
+-- RECORD.haqiqah_literal: The literal, physical meaning according to Asās al-Balāghah is the application of oil or grease to the head or another surface (دهن رأسه، ودهنه، وادهن، وتدهن), as well as the oil itself (الدُّهْن) and the vessel that contains it (مدهن). It also denotes a tract of sandy ground (الدهناء) and a place where a small amount of water collects (مدهن).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) the residue or dregs of olive oil (دردي الزيت) in the Qur'anic image 'فكانت وردة كالدهان' (Q 55:37); (2) a she-camel with scant milk (الدهين), either because she yields only as much as is needed for anointing (active participle) or because she is metaphorically 'anointed' with milk due to its scarcity (passive participle); (3) rain that moistens the earth lightly (دهن المطر الأرض), akin to oiling the head; (4) a euphemistic or ironic expression for beating with a stick (دهنه بالعصا), comparable to 'مسحته بالسيف' and 'حييته بالرمح'; and (5) the Qur'anic expression 'تنبت بالدهن' (Q 23:20), where the olive tree is described as producing oil, a teleological nuance pointing to its beneficial essence.
+-- RECORD.canonical_definition.ar: الدُّهْن: معروف. دَهَن رأْسه وغيره يَدْهُنه دَهْناً: بلَّه، والاسم الدُّهْن، والجمع أَدْهان ودِهان. والمِدْهَن: ما يجعل فيه الدهن. والدَّهين: الناقة القليلة اللبن. ودهن المطر الأرض: بلها بللاً يسيراً.
+-- RECORD.canonical_definition.en: Oil is well known. To anoint one's head or something else, he oils it with anointing: he moistened it. The noun is oil, and the plural is oils or greases. The oil container is that in which oil is placed. The dahīn is a she-camel with scant milk. Rain anointed the earth: it moistened it with a slight moisture.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 25251 hdr=دهن: الدال والهاء والنون أصل واحد يدل على لين وسهولة وقلة. من ذلك الدهن. ويقال دهنته أدهنه دهنا. والدهان: ما يدهن به. قال الله عز وجل: @QUR@02 فكانت وردة كالدهان. قالوا: هو دردى الزيت. ويقال دهنه بالعصا دهنا، إذا ضربه بها ضربا خفيفا. ومن الباب الإدهان، من المداهنة، وهى المصانعة. داهنت الرجل، إذا واربته وأظهرت له خلاف ما تضمر له (1)، وهو من الباب، كأنه إذا فعل ذلك فهو يدهنه ويسكن منه. وأدهنت إدهانا: غششت، ومنه قوله جل ثناؤه: @QUR@02 ودوا لو تدهن فيدهنون. والمدهن: ما يجعل فيه الدهن، وهو أحد ما جاء على مفعل مما يعتمل وأوله ميم. ومن التشبيه به المدهن: نقرة فى الجبل يستنقع فيها الماء، ومن ذلك حديث النهدى (2)@HAD02 : «نشف المدهن@HAD05 ، ويبس الجعثن». والدهين: الناقة القليلة الدر ودهن المطر الأرض: بلها 
+-- SOURCE.asas[haqiqah_literal]: دهن رأسه، ودهنه، وادهن وتدهن. وكأنها مداهن الفضة، جمع مدهن وهو الذي يجعل فيه الدهن. وبتنا في ميثاء دهناوية. والدهناء: أرض ذات رمال.
+-- SOURCE.asas[majaz_metaphorical]: أدهن في الأمر، وداهن: صانع ولاين. ودهن المطر الأرض: بلها بلا يسيرا. وناقة دهين: قليلة اللبن. وما وردنا إلا المداهن وهي نقر الماء. وفي الحديث " نشف المدهن ويبس الجعثن ". ودهن الأرض: دملها. ودهنه بالعصا، كما تقول: مسحه بالعصا. ومسحه بالسيف: ضربه. وما أدهنت إلا على نفسك أي ما أبقيت
+-- SOURCE.asas[bilingual_haqiqah_majaz]: دهن رأسه، ودهنه، وادهن وتدهن. وكأنها مداهن الفضة، جمع مدهن وهو الذي يجعل فيه الدهن. وبتنا في ميثاء دهناوية. والدهناء: أرض ذات رمال. Metaphorical (Majaz): أدهن في الأمر، وداهن: صانع ولاين. ودهن المطر الأرض: بلها بلا يسيرا. وناقة دهين: قليلة اللبن. وما وردنا إلا المداهن وهي نقر الماء. وفي الحديث
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ذاح   stratum=ma
+-- RECORD.ontological_core: The root ذ-ا-ح is not attested in the classical Arabic lexicographical tradition; no primary physical origin (aṣl al-waḍʿ) can be established from the cited sources.
+-- RECORD.haqiqah_literal: No literal physical meaning is attested in Lisān al-ʿArab, al-Mufradāt, or Asās al-Balāghah; the root is absent from the classical lexical corpus.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are recorded in the classical sources; the root does not appear in the Arabic philological tradition.
+-- RECORD.canonical_definition.ar: ذاح: لم يُذكر في لسان العرب ولا المفردات ولا أساس البلاغة؛ لا أصل له في المعاجم العربية الكلاسيكية.
+-- RECORD.canonical_definition.en: Dhāḥ: Not mentioned in Lisān al-ʿArab, Al-Mufradāt, or Asās al-Balāghah; it has no attested root in the classical Arabic lexicons.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ذرع   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root is the forearm—the limb extending from the elbow to the tip of the middle finger—and, by extension, the act of measuring or spanning with that limb.
+-- RECORD.haqiqah_literal: The literal physical meaning is the forearm as a bodily member, and the act of measuring a thing (such as cloth) by means of the forearm; also, the wooden rod or cubit measure used for such measurement.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) the measured object itself (al-madrūʿ), i.e., that which is measured by the forearm; (2) a chain whose length is measured in cubits, as in the Qurʾānic phrase 'a chain of seventy cubits'; (3) a swift-paced horse or a wide-stepping animal, from the image of extending the forelegs; (4) a person who stretches out the arm in walking or in a transaction (to sell); (5) a woman quick-handed at spinning; (6) a palm tree of the height of a man; (7) camels wading into water with their forelegs; (8) a man seeking help with his hand in his effort; and (9) a bearer of good news gesturing with his hand.
+-- RECORD.canonical_definition.ar: الذِّراعُ: ما بين طرَف المِرْفق إِلى طرَفِ الإِصْبَع الوُسْطى، أُنثى وقد تذكَّر. ويعبر به عن المذروع، أي: الممسوح بالذراع.
+-- RECORD.canonical_definition.en: The forearm: that which lies between the tip of the elbow and the tip of the middle finger; it is feminine, though it may be treated as masculine. It is also used to denote the measured object, that is, that which is measured by the forearm.
+-- SOURCE.mufradat @line 12861 hdr=ذرع: الذراع: العضو المعروف، ويعبر به عن المذروع، أي: الممسوح بالذراع. قال تعالى: في سلسلة ذرعها سبعون ذراعا فاسلكوه [الحاقة/ 32]، يقال: ذراع من الثوب والأرض، وذراع الأسد: نجم، تشبيها بذراع الحيوان، وذراع العامل: صدر القناة (6)، ويقال: هذا على حبل ذراعك (7)، كقولك: هو وأمكنه وقع مردى خشب في كفك، وضاق بكذا ذرعي، نحو: ضاقت به يدي، وذرعته: ضربت ذراعه، وذرعت: مددت الذراع، ومنه: ذرع البعير في سيره، أي: مد ذراعه، وفرس ذريع وذروع: واسع الخطو، ومذرع: أبيض الذراع، وزق ذراع، قيل: هو العظيم، وقيل: هو الصغير، فعلى الأول هو الذي بقي ذراعه، وعلى الثاني هو الذي فصل ذراعه عنه. وذرعه القيء: سبقه. وقولهم: ذرع الفرس، وتذرعت المرأة الخوص (1)، وتذرع في كلامه (2)، تشبيها بذلك، كقولهم: سفسف في كلامه، وأصله من سفيف الخوص
+-- SOURCE.maqayis @line 26437 hdr=ذرع: الذال والراء والعين أصل واحد يدل على امتداد وتحرك إلى قدم، ثم ترجع الفروع إلى هذا الأصل. فالذراع ذراع الإنسان، معروفة. والذرع: مصدر ذرعت الثوب والحائط وغيره. ثم يقال: ضاق بهذا الأمر ذرعا، إذا تكلف أكثر مما يطيق فعجز. ويقال ذرعه القىء: سبقه. ومذارع الدابة: قوائمها، والواحد مذراع. وتذرعت الإبل الماء: خاضت بأذرعها (2). ومذارع الأرض: نواحيها، كأن كل ناحية منها كالذراع. ويقال ذرعت البعير: وطئت على ذراعه ليركب صاحبى. وتذرعت المرأة الخوص، إذا تنقته، وذلك أنها تمره مع ذراعها. قال: تذرع خرصان بأيدى الشواطب (3) والذريعة: ناقة يتسير بها الرامى يرمى الصيد. وذلك أنه يتذرع معها ماشيا. ومن الباب: تذرع الرجل فى كلامه. والإذراع: كثرة الكلام. وفرس ذريع: واسع الخطو بين الذراعة. وقوائم ذرعات: خفيفات. والذراعان:
+-- SOURCE.asas[majaz_metaphorical]: ضاق بالأمر ذرعا وذراعا إذا لم يطقه. وأبطرت ناقتك ذرعها: كلفتها ما لم تطق. واقصد بذرعك، واربع على ظلعك: ارفق بنفسك ومالك علي ذراع أي طاقة. وطفت في مذارع الوادي وهي أضواجه ونواحيه. وقد أذرع في كلامه وهو يذرع فيه إذراعا وهو الإكثار. وفلان ذريعتي إلى فلان. وقد تذرعت به إليه أي توسلت.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: ذرعت الثوب بذراعي وهي من طرف المرفق إلى طرف الوسطى ثم سمي بها العود المقيس بها. وذرع في سيره وباع فيه إذا مد ذراعه وباعه. وناقة ذارعة بائعة. Metaphorical (Majaz): ضاق بالأمر ذرعا وذراعا إذا لم يطقه. وأبطرت ناقتك ذرعها: كلفتها ما لم تطق. واقصد بذرعك، واربع على ظلعك: ارفق بنفسك ومالك علي ذراع أي طاقة. وط
+-- SOURCE.asas[haqiqah_literal]: ذرعت الثوب بذراعي وهي من طرف المرفق إلى طرف الوسطى ثم سمي بها العود المقيس بها. وذرع في سيره وباع فيه إذا مد ذراعه وباعه. وناقة ذارعة بائعة. وتقول: عندي ناقة تاجرة بائعة، وذارعة بائعة؛ وذرعت البعير: وطئت على ذراعه ليركب صاحبي. وبعير قوي المذارع وهي قوائمه. وفرس ذريع: واسع الخطو،
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ذفل   stratum=ma
+-- RECORD.ontological_core: The root denotes a thin, fluid, resinous substance — specifically the light, unthickened stage of tar (qaṭirān) before it congeals into the dense pitch (khaḍkhāḍ). Its foundational physical image is that of a viscous liquid exudate, prior to coagulation.
+-- RECORD.haqiqah_literal: The literal, physical referent is thin tar (al-qaṭirān al-raqīq) — the runny, uncondensed resinous fluid that precedes the thickened pitch known as khaḍkhāḍ.
+-- RECORD.majaz_scholastic: No attested metaphorical, philosophical, or theological extension is recorded in the classical lexica; the root remains confined to its concrete material sense. Any figurative application (e.g., to moral defilement or obscurity) would be an extra-lexical extension not sanctioned by the classical sources.
+-- RECORD.canonical_definition.ar: الذَّفْل والذِّفْل: القَطِران الرقيق الذي قبل الخَضْخاض.
+-- RECORD.canonical_definition.en: Al-dhafl and al-dhifl: the thin tar that exists prior to the thickened pitch (al-khaḍkhāḍ).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 26622 hdr=ذفل: الذال والفاء واللام ليس أصلا. على أنهم يقولون إن الذفل: القطران. وينشدون لابن مقبل: تمشى به الظلمان كالدهم قارفت بزيت الرهاء الجون والذفل طاليا (3) والله أعلم. ||| باب الذال والقاف وما يثلثهما
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ذمر   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ذمر is the act of combining blame or rebuke with urgent incitement—specifically, a leader's sharp censure of his troops to spur them into battle, or a shepherd's tactile stimulation of a newborn camel's neck to rouse it. The root thus denotes a forceful, often harsh, arousal that fuses reproach with motivational propulsion.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is: to incite someone toward a matter by blaming him, so that he exerts himself therein. It is said: the commander yudhammiru (incites) his companions in war—he makes them hear what is disagreeable in order to sharpen them. And they are seen yatadhāmarūn (mutually inciting) in war. A shepherd dhamara the newborn camel: he touched its fahqah (the base of the neck where the head joins the neck) to determine its sex. Hence the term mudhammir is used for the instrument or person who performs this, and for camels it is like a midwife for humans.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) self-reproach combined with self-motivation—one who yatadhammar blames himself for negligence while simultaneously energizing himself to avoid future remissness; (2) tribal or personal honor defended with zeal, as in ḥāmī al-dhimār (protector of the sacred domain), where failure to defend would incur blame and rebuke; (3) courage and valor, as in dhammar min al-adhmār (a brave one among the brave); (4) in the ḥadīth of ʿAlī: 'The Devil has dhammara his party'—i.e., incited and emboldened them, blending censure with encouragement.
+-- RECORD.canonical_definition.ar: الذَّمْرُ: اللَّوْمُ والحَضُّ معاً. ذَمَرَهُ يَذْمُرُهُ ذَمْراً: لامَهُ وحَضَّهُ وحَثَّهُ. وتَذَمَّرَ هو: لامَ نفسَه. وهو ذَمَرٌ من الأَذْمَارِ: شجاع. وذَمَرَ الراعي السَّلِيلَ: مَسَّ فَهْقَتَهُ. والمُذَمِّرُ للإِبل كالقابلة للناس. وهو حامي الذِّمار إِذا حَمَى ما لو لم يَحْمِهِ لِيمَ وعُنِّفَ.
+-- RECORD.canonical_definition.en: Al-dhamr is blame and incitement together. Dhamara-hu yadhmuru-hu dhamran: he blamed him and incited and urged him on. And tadhammara: he blamed himself. He is dhamar among the adhmār: brave. The shepherd dhamara the newborn camel: he touched its fahqah (base of the neck). The mudhammir for camels is like the midwife for humans. He is the protector of the dhimār when he defends what, if he did not defend it, he would be blamed and rebuked for.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 26715 hdr=ذمر: الذال والميم والراء أصل واحد يدل على شدة فى خلق وخلق، من غضب وما أشبهه. فالذمر (1): الرجل الشجاع. وكذلك الذمر الحض. وإذا قيل فلان يتذمر، فكأنه يلوم نفسه (2) ويتغضب. والذمار: كل شىء لزمك حفظه والغضب له. وأما الذى قلناه فى شدة الخلق فالمذمر، هو الكاهل والعنق وما حوله إلى الذفرى، وهو أصل العنق. يقولون: ذمرت السليل، إذا مسست قفاه لتنظر أذكر أم أنثى. قال أحيحة (3): وما تدرى إذا ذمرت سقبا لغيرك أو [يكون] لك الفصيل (4) ويقولون: إذا اشتد الأمر: بلغ المذمر. ويقولون رجل ذمير وذمر: منكر. وتذامر القوم، إذا حث بعضهم بعضا. ومن الباب: ذمر الأسد: إذا زأر، يذمر ذمرة (5).
+-- SOURCE.asas[majaz_metaphorical]: بلغ الأمر المذمر. كقولهم: بلغ المخنق. قال الجعدي: وحي أبي بكر ولا حي مثلهم ... إذا بلغ الأمر العماس المذمرا
+-- SOURCE.asas[haqiqah_literal]: ذمره على الأمر: حضه مع لوم ليجد فيه. يقال: القائد يذمر أصحابه في الحرب: يسمعهم المكروه ليشحذهم، ورأيتهم يتذامرون في الحرب. وأقبل يتذمر: يلوم نفسه على التفريط في فعله وهو ينشطها لئلا تفرط ثانية، وفلان يتذمم ويتذمر، ويرفع أذياله ويتشمر. وهو ذمر من الأذمار: شجاع. وذمر الراعي السليل:
+-- SOURCE.asas[bilingual_haqiqah_majaz]: ذمره على الأمر: حضه مع لوم ليجد فيه. يقال: القائد يذمر أصحابه في الحرب: يسمعهم المكروه ليشحذهم، ورأيتهم يتذامرون في الحرب. وأقبل يتذمر: يلوم Metaphorical (Majaz): بلغ الأمر المذمر. كقولهم: بلغ المخنق. قال الجعدي: وحي أبي بكر ولا حي مثلهم ... إذا بلغ الأمر العماس المذمرا
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ذوب   stratum=mA
+-- RECORD.ontological_core: The foundational physical process of a solid substance losing its rigidity and flowing, i.e., the liquefaction of fat, snow, or any congealed body through the application of heat or an external agent.
+-- RECORD.haqiqah_literal: The literal, sensory meaning: the melting or dissolving of a solid (such as fat, snow, or ice) into a liquid state, and the transitive act of causing such melting.
+-- RECORD.majaz_scholastic: Metaphorical and philosophical extensions: the dissolution or wasting away of bodily strength, the softening of a hard heart, the fading of resolve, or the vanishing of wealth; also used in theological contexts to describe the annihilation of created things before the divine command, and in logic to denote the resolution of a composite into its simple elements.
+-- RECORD.canonical_definition.ar: الذَّوْبُ: ضِدُّ الجُمُودِ. ذَابَ يَذُوبُ ذَوْبًا وذَوَبَانًا: نَقِيضُ جَمَدَ. وأَذَابَهُ غَيْرُهُ، وأَذَبْتُهُ، وذَوَّبْتُهُ، واسْتَذَبْتُهُ: طَلَبْتُ مِنْهُ ذَاكَ.
+-- RECORD.canonical_definition.en: Al-dhawb is the opposite of solidification. Dhāba yadhūbu dhawban wa-dhawabānan: it is the contrary of jamada (to freeze). Another agent may cause it to melt: adhābahu, adhabtuhu, dhawwabtuhu, and istadhabtuhu mean 'I sought that from it.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 26830 hdr=ذوب: الذال والواو والباء أصل واحد، وهو الذوب، ثم يحمل عليه ما قاربه فى المعنى مجازا. يقال ذاب الشىء يذوب ذوبا، وهو ذائب. ثم يقولون مجازا: ذاب لى عليه من المال كذا، أى وجب؛ كأنه لما وجب فقد ذاب عليه، كما يذوب الشىء على الشىء. والإذوابة: الزبد حين يوضع فى البرمة ليذاب. والذوب: العسل الخالص. ثم يقولون للشمس إذا اشتد حرها: ذابت؛ كأنها لما بلغت إلى الأجساد بحرها فقد ذابت عليهم. قال: إذا ذابت الشمس اتقى صقراتها بأفنان مربوع الصريمة معبل (1) ويقولون: أذاب فلان أمره، أى أصلحه. وهو من الباب؛ لأنه كأنه فعل به ما يفعله مذيب السمن وغيره حتى يخلص ويصلح. ومنه قول بشر: وكنتم كذات القدر لم تدر إذ غلت أتنزلها مذمومة أو تذيبها (2) وقال قوم: تذبيها تنهبها؛ والإذابة: النهبة؛ أذبته أنهبته. وهو الباب، كأنه أذابه عليهم
+-- SOURCE.asas[bilingual_haqiqah_majaz]: ذاب الشحم والثلج وغيرهما ذوبا وذوبانا. وأذبته أنا وذوبته. وشحم مذاب ومذوب. Metaphorical (Majaz): ذاب دمعه، وله دموع ذوائب. ونحن لا نجمد في الحق ولا نذوب في الباطل. وهذا الكلام ذوب الروح. وذابت الشمس: اشتد حرها. قال ذو الرمة: إذا ذابت الش
+-- SOURCE.asas[haqiqah_literal]: ذاب الشحم والثلج وغيرهما ذوبا وذوبانا. وأذبته أنا وذوبته. وشحم مذاب ومذوب.
+-- SOURCE.asas[majaz_metaphorical]: ذاب دمعه، وله دموع ذوائب. ونحن لا نجمد في الحق ولا نذوب في الباطل. وهذا الكلام ذوب الروح. وذابت الشمس: اشتد حرها. قال ذو الرمة: إذا ذابت الشمس اتقى صفراتها ... بأفنان مربوع الصريمة معبل وهاجرة ذوابة. قال: وظلماء من جري نوار سريتها ... وهاجرة ذؤابة لا أقيلها وقال الطرماح: فيها ابن
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ذيب   stratum=Ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the well-known predatory canid, the wolf, regarded by al-Rāghib as originally hamzated (ذِئْب), from which derive the senses of wolf-infestation, wolf-like ferocity, and the wolf-shaped wooden saddle-part (ذِئْبَة القَتَب).
+-- RECORD.haqiqah_literal: The literal physical meaning is the wolf as a concrete predatory animal; hence أَرْضٌ مَذْأَبَةٌ (a wolf-infested land), ذُئِبَ فُلَانٌ (a wolf fell upon his flock), and ذَئِبَ (he became wolf-like in viciousness).
+-- RECORD.majaz_scholastic: Metaphorical and derived usages include: تَذَاءَبَتِ الرِّيحُ (the wind came from every direction, as if attacking like a wolf); تَذَاءَبَتْ لِلنَّاقَةِ (she imitated the wolf's posture to trick the she-camel into accepting her calf); الذِّئْبَةُ مِنَ القَتَبِ (the wolf-shaped wooden piece beneath the junction of the saddle-bows); and, in the Lisān material, الأَذْيَبُ as abundant water, terror, or lively energy—though al-Aṣmaʿī suspected this may properly belong to أَزْيَب with zāy.
+-- RECORD.canonical_definition.ar: الذِّئْبُ: الحيوان المعروف، وأصله الهمز؛ قال تعالى: ﴿فَأَكَلَهُ الذِّئْبُ﴾. وأرض مذأبة: كثيرة الذئاب. وذئب فلان: وقع في غنمه الذئب. وذئب: صار كذئب في خبثه. وتذاءبت الريح: أتت من كل جانب مجيء الذئب. والذئبة من القتب: ما تحت ملتقى الحنوين، تشبيهاً بالذئب في الهيئة.
+-- RECORD.canonical_definition.en: The wolf: the well-known animal, originally hamzated; as in the verse 'So the wolf devoured him.' A wolf-infested land is one abounding in wolves. 'A wolf fell upon his flock' means a wolf attacked his sheep. 'He became wolf-like' means he became vicious like a wolf. 'The wind wolfed' means it came from every direction in the manner of a wolf. The 'wolf' of the saddle is the piece beneath the junction of the saddle-bows, likened to the wolf in shape.
+-- SOURCE.mufradat @line 13194 hdr=ذيب: الذيب: الحيوان المعروف، وأصله الهمز، قال تعالى: فأكله الذئب [يوسف/ 17]، وأرض مذأبة: كثيرة الذئاب، وذئب فلان: وقع في غنمه الذئب، وذئب (5): صار كذئب في خبثه، وتذاءبت الريح: أتت من كل جانب ولكن بالمغيب نبئيني مجيء الذئب، وتذاءبت للناقة على تفاعلت: إذا تشبهت لها بالذئب في الهيئة لتظأر على ولدها، والذئبة من القتب: ما تحت ملتقى الحنوين (1)، تشبيها بالذئب في الهيئة.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رخا   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ر-خ-و is softness, pliancy, and lack of rigidity or tension in a physical body or substance. It denotes the quality of being yielding, slack, or porous (هَشّ) in contrast to hardness and tautness.
+-- RECORD.haqiqah_literal: The literal physical meaning is a thing that is soft, slack, or pliant (رِخْو / رَخْو), such as a loose curtain, a slack rope, or a gentle, compliant wind. It is the direct sensory quality of lacking firmness or tension.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends from physical slackness to: (1) a gentle, compliant wind that flows without resistance (رِيح رَخَاء), as in Qurʾān 38:36; (2) the act of letting down or loosening a curtain (إرخاء الستر), which is then metaphorically extended to the veiling of divine secrets, the relaxation of strictness, or the granting of respite; (3) a lax or lenient disposition in a person, indicating a lack of strictness or severity in conduct or judgment.
+-- RECORD.canonical_definition.ar: الرِّخْوُ والرَّخْوُ والرُّخْوُ: الهَشُّ من كلّ شيءٍ، وهو الشيء الذي فيه رَخاوة. وكلامُ العرب الجيّدُ: الرِّخْو، بكسر الراء. والرَّخاء: اللينة. ومنه: أَرْخَيْتُ الستر.
+-- RECORD.canonical_definition.en: Al-Rikhw, al-Rakhw, and al-Rukhw: the porous or soft of anything; it is the thing in which there is slackness. The preferred Arabic usage is al-Rikhw, with a kasrah on the rāʾ. Al-Rakhāʾ: the gentle or pliant. Hence: I let down the curtain.
+-- SOURCE.mufradat @line 13710 hdr=رخا: الرخاء: اللينة. من قولهم: شيء رخو، وقد رخي يرخى (1)، قال تعالى: فسخرنا له الريح تجري بأمره رخاء حيث أصاب [ص/ 36]، ومنه: أرخيت الستر، وعن إرخاء الستر استعير: 183- إرخاء سرحان (2) وقول أبي ذؤيب: 184- وهي رخو تمزع (3) أي: رخو السير كريح الرخاء، وقيل: فرس مرخاء، أي: واسع الجري بعيد الخطو، من خيل مراخ، وقد أرخيته: خليته رخوا.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ردخ   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of crushing, breaking, or violently shattering a solid body, and secondarily on the striking or bruising of a bodily part.
+-- RECORD.haqiqah_literal: The literal physical meaning is the crushing or shattering of something solid (al-shadkh), and the bruise or contusion (al-radakh) produced by a blow upon the body.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical lexica; the root remains confined to its concrete physical sense of crushing and bruising.
+-- RECORD.canonical_definition.ar: المَرْدَخُ: الشَّدْخ. والرَّدَخُ: مثل الرَّدع، عُمانِيَّة.
+-- RECORD.canonical_definition.en: Al-mardakh: crushing or shattering. And al-radakh: like al-radʿ (a bruise or contusion), an Omani usage.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 31119 hdr=ردخ: الراء والدال والخاء ليس بشىء. على أنهم حكوا عن الخليل أن الردخ: الشدخ. ردب (3) الراء والدال والباء ليس بشىء. ويقولون للقرميدة الإردبة. والإردب: مكيال لأهل مصر ضخم ||| باب الراء والذال وما يثلثهما
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رصص   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root رصص is the act of tightly joining, compacting, and aligning solid discrete units—such as stones, bricks, or teeth—into a single cohesive, interlocked structure, eliminating gaps and ensuring firm mutual support.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the construction of a tightly packed, well-aligned building (بنيان مرصوص ومرصص), the compacting of stones (ارتصت الجنادل وترصصت), the close alignment of teeth (في أسنانه رصص), and the act of a hen or ostrich gathering and arranging its eggs with beak and feet (رصت الدجاجة والنعامة بيضها).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root denotes the strict, unbroken alignment of worshippers in prayer (تراصوا في الصلاة وارتصوا), the firm, compact physique of a person (رجل أرص, امرأة رصاء), and the piling of stones upon a grave (رصت على القبر الرصائص). In theological and philosophical discourse, it conveys the concept of a unified, indivisible order—whether of ranks, arguments, or cosmic elements—where each part is perfectly fitted to its neighbor without interstices, reflecting a deliberate, cohesive arrangement.
+-- RECORD.canonical_definition.ar: رَصَّ البُنْيَانَ يَرُصُّهُ رَصًّا، فَهُوَ مَرْصُوصٌ وَرَصِيصٌ، وَرَصَّصَهُ: أَحْكَمَهُ وَجَمَعَهُ وَضَمَّ بَعْضَهُ إِلَى بَعْضٍ. وَكُلُّ مَا أُحْكِمَ وَضُمَّ فَقَدْ رُصَّ.
+-- RECORD.canonical_definition.en: He compacted the building, joining it tightly; it is marṣūṣ and raṣīṣ. He made it tight: he perfected it, gathered it, and joined its parts to one another. Everything that is made firm and joined together is said to be raṣṣed.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[bilingual_haqiqah_majaz]: بنيان مرصوص ومرصص. وقد ارتصت الجنادل وترصصت. وفي أسنانه رصص. ورجل أرص وامرأة رصاء. وتراصوا في الصلاة وارتصوا. ورصت الدجاجة والنعامة بيضها: س Metaphorical (Majaz): إن فلانا لرصاصة إذا كان بخيلا يشبه بالحجر أو بهذا الجوهر كما قيل: رجل فلز.
+-- SOURCE.asas[haqiqah_literal]: بنيان مرصوص ومرصص. وقد ارتصت الجنادل وترصصت. وفي أسنانه رصص. ورجل أرص وامرأة رصاء. وتراصوا في الصلاة وارتصوا. ورصت الدجاجة والنعامة بيضها: سوته بمنقارها ورجليها لتقعد عليه. وبيض رصيص. قال امرؤ القيس: على نقنق هيق له ولعرسه ... بمنعرج الوعساء بيض رصيص وامرأة رصاء الفخذين: خلاف بدا
+-- SOURCE.asas[majaz_metaphorical]: إن فلانا لرصاصة إذا كان بخيلا يشبه بالحجر أو بهذا الجوهر كما قيل: رجل فلز.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رضم   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ر ض م is the act of stacking large, heavy stones one upon another to form a solid, compacted structure or barrier. This core image of piling and compacting heavy solids underlies all subsequent literal and figurative applications.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the placing of stones one above another in building, and the resulting structure of stacked large rocks. It denotes both the action of stacking stones (رضم الحجارة) and the object itself: a wall or building constructed of dry-stone masonry (رضيم), or a heap of large rocks (رضمة). It also literally describes a camel's heavy, slow gait, likened to the slow, deliberate stacking of stones.
+-- RECORD.majaz_scholastic: The metaphorical and scholastic extensions of the root are limited in the classical sources. The physical image of compacted, heavy stones yields the figurative description of a slow, heavy gait (رَضَمَ الشيخُ) as if the person's movement is weighed down like stacked rocks. The term رَضَمان (slow, heavy pace) is used metaphorically for any slow, deliberate action. In the Asās, the root is also used in the context of seeking divine pleasure (رضوان الله) and satisfaction (رضا), but this is a distinct root (رضو) and not a metaphorical extension of رضم; the two roots are homophonous in some forms but semantically separate. Thus, the majāz of رضم remains primarily within the domain of physical heaviness and slowness.
+-- RECORD.canonical_definition.ar: رَضَمَ الشيخُ يَرْضِمُ رَضْماً: ثَقُل عَدْوُه، وكذلك الدابة. والرَّضَمانُ: تَقارُبُ عَدْو الشيخ. والرَّضْمُ: وَضْعُ الحجارة بعضها على بعض. والرَّضِيمُ: البناءُ بالصخر.
+-- RECORD.canonical_definition.en: An elderly man's gait became heavy and slow (رَضَمَ يَرْضِمُ رَضْمًا), and likewise for an animal. رَضَمَان denotes the short, slow steps of an old man. رَضْم is the placing of stones one upon another. رَضِيم is a structure built of large stones.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 27932 hdr=رضم: الراء والضاد والميم قريب من الباب الذى [قبله]، كأنه رمى الحجارة بعضها على بعض. فالرضيم: البناء بالصخر. والرضام: الصخور، واحدتها رضمة. ورضم فلان بيته بالحجارة. وبرذون مرضوم العصب، إذا تشنج عصبه فصار بعضه على بعض. ورضم البعير بنفسه إذا رمى بنفسه.
+-- SOURCE.asas[haqiqah_literal]: رأيت إبلا كالرضام والرضم وهي صخور عظام الواجدة رضمة. وبني داره بالرضام. وبناء رضيم: مبني بالصخر، وبنى بناء قد رضم فيه الحجارة: وضع بعضها فوق بعض. ر ض وفعل ذلك ابتغاء رضوان الله ورضاه ومرضاته، وطلب مراضي الله فيما فعل. ورضيته ورضيت به صاحبا. وهذا شيء رضا: مرضي. وما فعلته إلا عن رض
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رفف   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root رفف is a subtle, rapid, and shimmering motion or vibration—a light quivering or flickering that manifests as a gleam, a flutter, or a delicate oscillation. It denotes the slightest perceptible movement or radiance, such as the shimmer of a polished surface, the quiver of a leaf, or the flutter of a wing, without any substantial displacement.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah centers on: (1) the light, rapid movement of the lips in eating or kissing, as in 'يَرُفُّ شفتيها' (he moves his lips over hers); (2) the eating of herbs or plants by an animal, nibbling them delicately; (3) the shimmering and sparkling of color or teeth; (4) the quivering and swaying of plants in fresh luxuriance; (5) the fluttering of a bird's wings while remaining in place; (6) the flapping of the lower edge or fringe of a tent in the wind; and (7) a thin, delicate garment.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) the act of cherishing, protecting, and showing compassion to someone, as one might delicately handle a beloved child or a tender plant—'يَرُفُّهُ' meaning he embraces and cares for him with tenderness; (2) the state of being in need or lacking a provider, as in 'ماله حافّ ولا رافّ' (he has neither a protector nor a provider); (3) the shimmering of teeth or countenance as a sign of health, joy, or beauty; (4) the fluttering of wings as a metaphor for restless anticipation or hovering; and (5) the delicate, trembling quality of a fresh, verdant meadow or a tree with shimmering leaves.
+-- RECORD.canonical_definition.ar: رَفَّ لونُه يَرِفُّ رَفّاً ورَفيفاً: بَرَقَ وتَلأْلأَ، وكذلك رَفَّتْ أَسنانه. ورَفَّ النباتُ يَرِفُّ: اهتزَّ نضارةً وتلألؤاً. ورَفْرَفَ الطائرُ: حرَّك جناحيه وهو لا يبرح مكانه. وثوبٌ رَفيفٌ: رقيقٌ. وذهب من كان يَحُفُّه ويَرُفُّهُ أَي يضمه ويحبه ويشفق عليه.
+-- RECORD.canonical_definition.en: His color shimmered with a rapid, delicate motion (rafā yarifu raffan wa-rafīfan): it gleamed and sparkled, and likewise his teeth shimmered. The plant quivered with freshness and radiance. The bird fluttered its wings while remaining in place. A thin garment is described as rafīf. And one who used to cherish and protect him—that is, embrace him, love him, and show him compassion—has gone.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[haqiqah_literal]: بات يرف شفتيها: يرشفهما. وفي حديث أبي هريرة " إني لأرف شفتيها وأنا صائم " ورف البقل ونحوه: أكله. قال: والله لولا خشيتي أباك ... ورهبتي من جانب أخاك إذا لرفت شفتاي فاك ... رف الغزال ثمر الأراك وروي ورق. وذهب من كان يحفه ويرفه أي يضمه ويحبه ويشفق عليه شفقة من يرف ولده أو حبيبه. وما
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رفم   stratum=ma
+-- RECORD.ontological_core: The root رفم denotes the foundational physical notion of complete, unbroken ease and plenitude — a state of total well-being and abundance that leaves nothing lacking.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in Lisān al-ʿArab, is 'complete bliss' or 'perfect luxury' (al-naʿīm al-tāmm), indicating a state of unalloyed prosperity and comfort.
+-- RECORD.majaz_scholastic: In scholastic and theological usage, the term may be applied metaphorically to the ultimate felicity of the hereafter or to the perfect contentment of the soul in union with the divine, though such extensions are not explicitly attested in the classical lexicons.
+-- RECORD.canonical_definition.ar: الرَّفَمُ: النَّعِيمُ التَّامُّ
+-- RECORD.canonical_definition.en: Al-rafam: complete bliss, perfect luxury.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رمغ   stratum=ma
+-- RECORD.ontological_core: The foundational physical act of rubbing, kneading, or working a supple material (such as leather) with the hand, involving repeated pressure and friction to soften or manipulate it.
+-- RECORD.haqiqah_literal: To rub or knead something with the hand, as one works a hide or similar material.
+-- RECORD.majaz_scholastic: No established metaphorical or scholastic usage is attested in the classical lexicons; the root remains confined to its literal manual operation.
+-- RECORD.canonical_definition.ar: رَمَغَ الشيءَ يَرْمَغُه رَمْغاً: دَلَكَه بيدِه كما تَدْلُك الأَدِيمَ ونحوَه. ورُماغٌ ورِماغٌ: موضعٌ.
+-- RECORD.canonical_definition.en: He rubbed or kneaded the thing with his hand, as one works a hide or the like. And Rumāgh or Rimāgh: a place name.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 29155 hdr=رمغ: الراء والميم والغين لا أصل له، إلا بعض ما يأتى به ابن دريد، من رمغت الشىء، إذا عركته بيدك، كالأديم وغيره.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رهط   stratum=MA
+-- RECORD.ontological_core: The root denotes a compact, tightly bound group of men — a small, cohesive band whose members are united by kinship, tribal affiliation, or a shared cause. Its foundational physical image is that of a knot or tight cluster of individuals standing together, neither a single person nor a large multitude.
+-- RECORD.haqiqah_literal: A man's immediate kin-group or clan; a small company of men numbering from three up to ten (some say seven to ten). It is the concrete, bounded social unit — the band of close male relatives or associates who stand together as one body.
+-- RECORD.majaz_scholastic: By extension, the term is applied to any small, tightly united faction or party bound by a common purpose, whether in political allegiance, military alliance, or shared guilt. In classical usage it can denote the specific group of individuals implicated in a single act — as in the verse of al-Walīd ibn ʿUqbah, where 'three men' (thalāthat rahṭ) designates the small, named band responsible for a killing and a plunder. The metaphorical force lies in the compression of collective agency into a minimal, identifiable unit: the rahṭ is the smallest social body that can act as a single agent.
+-- RECORD.canonical_definition.ar: الرَّهْطُ: قَوْمُ الرَّجُلِ وَقَبِيلَتُهُ، وَهُمْ عَدَدٌ يَجْمَعُ مِنْ ثَلَاثَةٍ إِلَى عَشَرَةٍ، وَمَا دُونَ السَّبْعَةِ إِلَى الثَّلَاثَةِ نَفَرٌ.
+-- RECORD.canonical_definition.en: Al-rahṭ: a man's people and his tribe; a number gathering from three to ten; what is below seven down to three is termed nafar.
+-- SOURCE.mufradat @line 14547 hdr=رهط: الرهط: العصابة دون العشرة، وقيل: يقال إلى الأربعين، قال: تسعة رهط يفسدون [النمل/ 48]، وقال: ولو لا رهطك لرجمناك [هود/ 91]، يا قوم أرهطي [هود/ 92]. والرهطاء (3): جحر من جحر اليربوع، ويقال لها رهطة، وقول الشاعر: 199- أجعلك رهطا على حيض (4) فقد قيل: أديم تلبسه الحيض من النساء، وقيل: الرهط: خرقة تحشو بها الحائض متاعها عند الحيض، ويقال: هو أذل من الرهط.
+-- SOURCE.maqayis @line 29424 hdr=رهط: الراء والهاء والطاء أصل يدل على تجمع فى الناس وغيرهم. فالرهط: العصابة من ثلاثة إلى عشرة. قال الخليل: ما دون السبعة إلى الثلاثة نفر. وتخفيف الرهط أحسن من تثقيله (2). قال والترهيط: دهورة اللقمة وجمعها (3). قال: يا أيها الآكل ذو الترهيط (4) والراهطاء: جحر من جحرة اليربوع بين النافقاء والقاصعاء، يخبأ فيه أولاده. وقال: والرهاط: أديم يقطع كقدر ما بين الحجزة إلى الركبة، ثم يشقق كأمثار الشرك، تلبسه الجارية. قال: بضرب تسقط الهامات منه وطعن مثل تعطيط الرهاط (5) والواحد رهط (6). وقال: متى ما أشأ غير زهو الملو ك أجعلك رهطا على حيض (7) بضرب فى الجماجم ذى فروغ قال الخليل: والرهاط واحد، والجمع أرهطة. قال: ويجوز فى العشيرة أن تقول هؤلاء رهطك وأرهطك، كل ذلك جميع، وهم رجال عشيرتك. وقال: يا بؤس للحرب التى وضعت
+-- SOURCE.asas[haqiqah_literal]: هؤلاء رهطك وهم من الثلاثة إلى العشرة. قال الوليد بن عقبة أخو عثمان رضي الله تعالى عنه حين قتل وبويع علي كرم الله تعالى وجهه وأمر بقبض ما في الدار من السلاح وغيره: بني هاشم إنا وما كان بيننا ... كصدع الصفا لا يرأب الدهر شاعبه ثلاثة رهط قاتلان وسالب ... سواء علينا قاتلاه وسالبه الق
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT رول   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the emission and flow of moisture from the mouth or body of an animal, specifically saliva, foam, or dripping fluid, as attested in the classical lexical tradition.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is the flowing saliva or foam of a horse or beast, and the act of an animal lowering itself to urinate; also the anointing or moistening of the head with oil and of bread with clarified butter or condiment.
+-- RECORD.majaz_scholastic: Metaphorical and extended usages include: the flowing of saliva into a pouch or container; the emergence of teeth, especially the 'rāwūl' (a tooth that is a companion or adjacent to another tooth); and the phrase 'رُوَالٌ رَائِل' (flowing saliva) modeled on 'شِعْرٌ شَاعِر' for intensification. No philosophical or theological technical senses are attested in the classical sources.
+-- RECORD.canonical_definition.ar: الرُّوَال، على فُعَال بالضم: اللُّعاب. وقيل: الرُّوَال زَبَد الفرس خاصة. والرَّاوُول: لُعاب الدواب. ورَوَّل رأسه من الدهن: رواه. ورَوَّل الخبز بالسمن وبالأدم. ورَوَّل الفرس: أدلى ليبول. وتروَّل في مخلاته: سال فيها رواله. وظهرت أسنانه بالرواويل. وكل سن رديف لسن فهو راوول.
+-- RECORD.canonical_definition.en: Al-Ruwāl, on the pattern fuʿāl with ḍammah: saliva. It is also said: al-ruwāl is specifically the foam of a horse. Al-rāwūl: the saliva of beasts. Rawwala raʾsahu min al-duhn: he moistened his head with oil. Rawwala al-khubz bi-l-samn wa-l-udm: he moistened bread with clarified butter and condiment. Rawwala al-faras: it lowered itself to urinate. Tarawwala fī mikhlaʾatihi: its saliva flowed into its nosebag. And its teeth appeared with the rawāwīl. Every tooth that is a companion to another tooth is a rāwūl.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 29771 hdr=رول: الراء والواو واللام أصل يدل على لطخ شىء بشى. يقال رولت الخبز بالسمن، مثل روغت. والروال: بزاق الدابة. يقال رول [فى] مخلاته (3). وقريب من هذا الباب رول الفرس: أدلى.
+-- SOURCE.asas[haqiqah_literal]: رول رأسه من الدهن: رواه. ورول الخبز بالسمن وبالأدم ورول الفرس: أدلى ليبول. وترول في مخلاته: سال فيها رواله وهو لعابه. وظهرت أسنانه بالرواويل. قال أبو حاتم: كل سن رديف لسن فهو راوول. قال: أسنانها أضعفت في حلقها عددا ... مظهرات جميعا بالرواويل
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT زحح   stratum=Ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the forcible, hasty displacement of a thing from its place—a swift pulling or shoving that removes an entity from its locus.
+-- RECORD.haqiqah_literal: The literal physical meaning is to pull or shove something in haste, thereby removing it from its position; the reduplicated form زُحْزِحَ denotes being moved away and distanced.
+-- RECORD.majaz_scholastic: In theological and eschatological usage, the term is applied metaphorically to being removed from the Fire and distanced from its abode, as in the Qur'anic phrase 'فمن زُحْزِحَ عن النار'—meaning one is displaced from the Fire's resting place and brought far from it, attaining salvation.
+-- RECORD.canonical_definition.ar: زُحْزِحَ أَي نُحِّيَ وبُعِّدَ. وزَحَّ الشيءَ يَزُحُّه زَحّاً: جذبه في عَجَلَة.
+-- RECORD.canonical_definition.en: زُحْزِحَ means he was removed and distanced. And زَحَّ الشيءَ يَزُحُّه زَحّاً: he pulled it in haste.
+-- SOURCE.mufradat @line 15012 hdr=زحح: فمن زحزح عن النار [آل عمران/ 185]، أي: أزيل عن مقره فيها. ومرسل ورسول غير متهم ألا اسلمي ذات الطوق والعاج والدل والنظر المستأنس الساجي
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT زحلف   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin of the root زحلف is the act of sliding or slipping downward, specifically the smooth, frictionless descent over a surface, as exemplified by children sliding from the top of a hill to its bottom. This core image of downward slippage underlies all subsequent literal and figurative applications.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah (delineated from Lisān al-ʿArab) is the trace or track left by children sliding down a hill, and by extension, the act of sliding itself. It denotes a smooth, downward glide, often on a slippery surface, and is synonymous with زحلوقة (zuhlūqah) in the dialect of the ʿĀliyah tribe, while Tamīm pronounces it with a qāf (زحلوقة).
+-- RECORD.majaz_scholastic: While not attested in Asās al-Balāghah, the metaphorical and scholastic extensions of زحلف are derived from its literal sense of sliding. These include: (1) the slippage or deviation from a straight path, whether physical or moral; (2) the rapid, uncontrolled descent into error or sin; (3) in philosophical and theological contexts, the instability of the soul or intellect when it loses its footing on the path of virtue or truth, leading to a fall from grace or a lapse in judgment. The term may also be applied to the slippery nature of worldly affairs and the transience of material existence.
+-- RECORD.canonical_definition.ar: الزُّحْلُوفَةُ: كالزُّحْلُوقَة، وقد تَزَحْلَفَ. وهي آثارُ تَزَلُّجِ الصِّبيان من فوقِ التَّلِّ إلى أَسْفَله، وهي لغة أهل العالية، وتميمٌ تقوله بالقاف، والجمع زحالِفُ وزَحالِيفُ.
+-- RECORD.canonical_definition.en: Al-Zuḥlūfah: like al-zuḥlūqah, and one says tazaḥlafa. It is the traces of children sliding from the top of a hill to its bottom; it is the dialect of the people of al-ʿĀliyah, while Tamīm pronounces it with a qāf; the plural is zaḥālif and zaḥālīf.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT زخا   stratum=ma
+-- RECORD.ontological_core: The root denotes a toponymic designation (a place-name) attested in the poetry of Hudhayl, transmitted as زُخَيّات (a diminutive nominal form); its ontological status is onomastic rather than predicative, lacking a productive physical or eventive Aṣl al-Wadʿ in the classical lexical corpus.
+-- RECORD.haqiqah_literal: A proper place-name (موضع) occurring in Hudhaylī verse in the diminutive form زُخَيّات; the reading الزَّوَاخِي transmitted by some authorities is judged by Ibn Sīdah to be a scribal corruption (تصحيف) of the correct زُخَيّات with zāy and khāʾ.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extension is attested; the root remains confined to onomastic reference, and any scholastic or figurative application would be an unwarranted extrapolation beyond the classical lexical evidence.
+-- RECORD.canonical_definition.ar: الزَّوَاخِي: مواضع. قال ابن سيده: وزعم قوم أَن في شعر هذيل رُحَيّات وفسروه بأَنه موضع، قال: وهذا تصحيف إِنما هو زُخَيّات، بالزاي والخاء.
+-- RECORD.canonical_definition.en: Al-Zawākhī: place-names. Ibn Sīdah said: some authorities claimed that in Hudhaylī poetry there occurs [the form] Ruḥayyāt, which they interpreted as a place-name; he said: this is a scribal corruption—it is in fact Zukhayyāt, with zāy and khāʾ.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

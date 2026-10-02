@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جمعل   stratum=ma
+REC ontological_core : The root ج-م-ع-ل designates a bulky, aged, and physically coarsened entity — a creature or beast whose body has become thick, gnarled, and worn by time. Its foundational physical image is that of a heavy, hoary mass, whether a hyena (a stocky, coarse-haired predator) or an aged she-camel (a large, decrepit beast). The quadriliteral form جُمَعْلِيلَة carries an intensive diminutive-augmentative force, signaling a creature marke […]
+REC haqiqah_literal  : The literal, physical referent is twofold: (1) the hyena (al-ḍabʿ), so named for its bulky, coarse, and ungainly body; and (2) an aged, decrepit she-camel (al-nāqa al-harima), whose frame has grown heavy and whose strength has decayed with advanced age. In both cases, the term denotes a concrete, observable animal whose physical constitution is characterized by mass, coarseness […]
+REC canon_def.ar     : الجُمَعْلِيلة: الضَّبُع، وقيل: الناقة الهَرِمة. قال ابن سيده: الجُمَعْلِيلة الضَّبُع. وقال الأزهري: الجُمَعْليلة الناقة الهَرِمة.
+REC canon_def.en     : Al-jumaʿlīlah: the hyena; or, it is said, the aged and decrepit she-camel. Ibn Sīdah stated: al-jumaʿlīlah is the hyena. Al-Azharī stated: al-jumaʿlīlah is the aged, decrepit she-camel.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

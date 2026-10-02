@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فصعل   stratum=ma
+REC ontological_core : The root denotes a small, lowly, or contemptible entity; its foundational physical origin appears to be the scorpion (العَقْرَب), a creature perceived as base, harmful, and of low status, from which the meaning of meanness and ignobility derives.
+REC haqiqah_literal  : The literal physical meaning is the scorpion (العَقْرَب), as stated by al-Azharī; it also literally denotes a person of low, ignoble, or base character (اللئيم).
+REC canon_def.ar     : الفُصْعُل والفِصْعِل: اللئيم. الأَزهري: الفُصْعُل العَقْرَب.
+REC canon_def.en     : Al-Fuṣʿul and al-Fiṣʿil: the ignoble one. Al-Azharī said: al-Fuṣʿul is the scorpion.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,26 @@
+{
+  "tag": "CTL_step1000_val",
+  "head": "/workspace/root_attn_ctl/ckpt/head_step_1000.pt",
+  "trunk": "/workspace/root_attn_ctl/ckpt/rca_step_1000.pt",
+  "gates": "trained",
+  "result": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.13588425517082214,
+      "acc@5": 0.2596322000026703,
+      "ce_z": 6.472468852996826,
+      "ppl_z": 647.0793002062217,
+      "ce_raw_SCALE_DEPENDENT": 6.351423740386963,
+      "logit_scale": 0.8142285943031311
+    },
+    "NOVEL_only": {
+      "n": 15046,
+      "acc@1": 0.13817626237869263,
+      "acc@5": 0.2634587287902832,
+      "ce_z": 6.457433223724365,
+      "ppl_z": 637.4228331867556,
+      "ce_raw_SCALE_DEPENDENT": 6.335536003112793,
+      "logit_scale": 0.813856303691864
+    }
+  }
+}

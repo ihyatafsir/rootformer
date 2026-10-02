@@ -1,0 +1,261 @@
+====================================================================================================
+ROOT ضغغ   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on a lush, verdant, well-watered meadow (rawḍah) that is fresh, tender, and free of blemish or decay—a self-contained, flourishing garden spot. The underlying sensory image is that of soft, moist, thriving herbage, from which the root's nominal form al-ḍaghīghah is derived.
+-- RECORD.haqiqah_literal: The literal physical meaning, per Lisān al-ʿArab, is a fresh, blooming, unblemished meadow or garden (al-rawḍah al-nāḍirah al-mutakhalliyah), also called al-ḍaghīghah, al-marghadah, al-maghmaghah, al-makhjalah, al-marghah, and al-ḥadīqah. Abū Ḥanīfah reports the idiom: 'They are in a ḍaghīghah of the ḍaghāḍigh'—i.e., in a state of lush, abundant, and pleasant verdure.
+-- RECORD.majaz_scholastic: No attested metaphorical, philosophical, or theological usage is recorded in the classical lexica for this root. The term remains confined to its concrete botanical and topographical sense. Any extended application—such as describing a person or community as being 'in a ḍaghīghah'—is idiomatic and rhetorical, signifying ease, prosperity, or luxuriant well-being, but it does not constitute a formal majāz in the scholastic or theological register.
+-- RECORD.canonical_definition.ar: الضَّغِيغَةُ: الرَّوْضَةُ النَّاضِرَةُ المُتَخَلِّيَةُ. وَيُقَالُ: هُمْ فِي ضَغِيغَةٍ مِنَ الضَّغَاضِغِ إِذَا كَانُوا فِي رِيَاضٍ مُعْشِبَةٍ نَاعِمَةٍ.
+-- RECORD.canonical_definition.en: Al-ḍaghīghah: a fresh, blooming, unblemished meadow. It is said: 'They are in a ḍaghīghah of the ḍaghāḍigh' when they are amid lush, tender, herbaceous gardens.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ضفع   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ض-ف-ع is the emission of excrement or the act of defecation, specifically denoting the expulsion of waste from the body. It is a primary, concrete bodily function, with a variant root فضع carrying the same meaning.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the act of defecating or excreting, as in ضَفَعَ الرجلُ (the man defecated). It also extends to the emission of urine and dung, as in ضَفَعَ بِبَوْلِهِ وَسَلَحَ (he urinated and defecated).
+-- RECORD.majaz_scholastic: While the root is primarily literal and concrete, it may be used metaphorically in scholastic or theological contexts to denote the expulsion of waste or impurity, symbolizing moral or spiritual corruption. However, no attested majāz usage is recorded in the classical sources; the term remains within the domain of physical bodily functions.
+-- RECORD.canonical_definition.ar: ضَفَعَ الرجلُ يَضْفَعُ ضَفْعاً: جَعَسَ وأَحْدَثَ، وقيل: أَبْدَى، وفَضَعَ لغة فيه. ويقال: ضَفَعَ وقَعَ بِبَوْلِه وسَلَحَ. وقال ابن الأَعرابي: نَجْوُ الفيل الضَّفْعُ.
+-- RECORD.canonical_definition.en: A man defecated, he excreted and produced waste; it is also said: he exposed [excrement]. فَضَعَ is a variant dialect form. It is said: he defecated, he urinated and defecated. Ibn al-Aʿrābī said: The dung of the elephant is called al-ḍafʿ.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 41713 hdr=ضفع: الضاد والفاء والعين ليس بشىء. على أن الخليل حكى ضفع: جعس. والسلم (1). ||| باب الضاد والكاف وما يثلثهما
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ضمي   stratum=Ma
+-- RECORD.ontological_core: The root's foundational physical origin is not attested in the classical lexical tradition as an independent primary root; it is identified by Ibn Manẓūr, on the authority of Thaʿlab from Ibn al-Aʿrābī, as a metathesized variant (maqlūb) of the root ضيم / ضام, whose concrete sense is to wrong, oppress, or diminish another's right.
+-- RECORD.haqiqah_literal: The literal physical meaning is not established as an autonomous ḥaqīqah in Asās al-Balāghah; the form ضَمَى is recorded in Lisān al-ʿArab as a dialectal or transposed usage meaning 'he acted unjustly' (ظَلَمَ), standing in place of the standard ضَامَ.
+-- RECORD.majaz_scholastic: No distinct metaphorical or scholastic extension is attested for this root in the classical sources; its only recorded usage is the literal ethical-legal sense of wrongdoing, understood as a metathesis of ضامَ. The parallel cited by Abū Manṣūr, بَضَى as a transposition of بَاضَ, confirms that the phenomenon is phonological rearrangement rather than semantic figuration.
+-- RECORD.canonical_definition.ar: ضَمَى إِذا ظَلَمَ، كأَنَّهُ مَقْلُوبٌ مِنْ ضَامَ.
+-- RECORD.canonical_definition.en: ḍamā means 'he acted unjustly'; it appears to be a metathesized form of ḍāma.
+-- SOURCE.mufradat @line 20558 hdr=ضم: الضم: الجمع بين الشيئين فصاعدا. قال تعالى: واضمم يدك إلى جناحك [طه/ 22]، واضمم إليك جناحك [القصص/ 32]، والإضمامة: جماعة من الناس أو من الكتب أو الريحان أو نحو ذلك (1)، وأسد ضمضم وضماضم: يضم الشيء إلى نفسه. وقيل: بل هو المجتمع الخلق، وفرس سباق الأضاميم: إذا سبق جماعة من الأفراس دفعة واحدة.
+-- SOURCE.maqayis @line 41391 hdr=ضم: الضاد والميم أصل واحد يدل على ملاءمة بين شيئين. يقال ضممت الشىء إلى الشىء فأنا أضمه ضما. وهذه إضمامة من خيل، أى جماعة. وفرس سباق الأضاميم، أى الجماعات. وإضمامة من كتب مثل إضبارة. ومن الباب: أسد ضمضم وضماضم: يضم كل شىء.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ضود   stratum=ma
+-- RECORD.ontological_core: The root ضود is not attested as an independent lexical root in the classical philological tradition; the sequence ض و د appears in Lisān al-ʿArab only as an incidental collocation within the entry for the letter ḍād (ض), where the letter itself is treated as a phonological and orthographic primitive rather than as a semantic root. Its ontological core is therefore the consonantal letter ḍād as a majhūra (voiced) and mustaʿliya (elevated) Arabic phoneme, exclusive to Arabic speech.
+-- RECORD.haqiqah_literal: No literal physical meaning is established for ضود as a root in Asās al-Balāghah or in the classical lexical corpus; the only literal referent attested is the letter ḍād (ض) itself, described as a voiced, elevated Arabic consonant that functions as an aṣl (radical) and never as a badal (substitute) or zāʾid (augment).
+-- RECORD.majaz_scholastic: In scholastic and philological usage, the discussion of ض is metaphorical or metalinguistic rather than semantic: the letter is said to be khāṣṣa li-l-ʿArab (peculiar to the Arabs), absent from non-Arab speech except rarely, and this exclusivity is cited in exegetical and rhetorical commentary, including on the verse of Abū al-Ṭayyib. No theological or philosophical majāz is attested for the sequence ضود as a root.
+-- RECORD.canonical_definition.ar: الضاد حرف هجاء وهو حرف مَجْهُور، وهو أَحد الحروف المُسْتَعْلية، يكون أَصلاً لا بدلاً ولا زائداً، والضاد للعَرَب خاصة ولا توجد في كلام العجم إِلا في القليل.
+-- RECORD.canonical_definition.en: The ḍād is a letter of spelling; it is a voiced consonant and one of the elevated letters; it functions as a radical, not as a substitute or an augment; and the ḍād is peculiar to the Arabs, not occurring in non-Arab speech except rarely.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ضوم   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in the classical lexicographical tradition as an independent radical cluster; Ibn Manẓūr records it only as a dialectal or orthographic variant of ضيم (ḍ-y-m), whose primary physical sense is the exertion of force or pressure upon a thing, resulting in injustice or wrong.
+-- RECORD.haqiqah_literal: The literal physical meaning, as recorded by Ibn Manẓūr, is the act of wronging or oppressing someone: ضُمْتُه, i.e., ظَلَمْتُه ('I wronged him'). This is treated as a variant of ضِمْتُه, with the same concrete sense of imposing an unjust burden or harm.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested for this root in the classical sources. Because the root is not an independent lexical entry in Al-Mufradāt or Asās al-Balāghah, it carries no scholastic extension; any usage remains within the literal domain of injustice and oppression, and the form is best analyzed as a dialectal or orthographic reflex of ضيم.
+-- RECORD.canonical_definition.ar: ضُمْتُه: كضِمْتُه، أَي ظَلَمْتُه.
+-- RECORD.canonical_definition.en: I wronged him: equivalent to ḍimtuhu, meaning I treated him unjustly.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT طبس   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of overlaying, covering, or fitting one thing closely upon another, such that the two correspond and coincide — a concrete operation of physical matching and concealment.
+-- RECORD.haqiqah_literal: The literal physical meaning is التَّطْبِيس (al-taṭbīs), the act of applying or fitting one thing over another (التَّطْبِيق), i.e., bringing two surfaces or entities into close correspondence and covering.
+-- RECORD.majaz_scholastic: By extension, the root is used in toponymic and geographic reference: الطَّبَسَان (al-Ṭabasān) designates two districts (kūratān) in Khurāsān, a usage that shifts from the concrete verbal sense of covering/fitting to a fixed proper name. No attested philosophical or theological metaphorical usage is recorded in the classical lexical sources.
+-- RECORD.canonical_definition.ar: التَّطْبِيسُ: التَّطْبِيقُ. والطَّبَسَان: كُورَتَانِ بِخُرَاسَانَ.
+-- RECORD.canonical_definition.en: Al-taṭbīs is the act of fitting or overlaying (al-taṭbīq). And al-Ṭabasān refers to two districts in Khurāsān.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 43843 hdr=طبس: الطاء والباء والسين ليس بشىء. على أنهم يقولون: الطبسان: كورتان. وهذا وشبهه مما لا معنى لذكره؛ لأنه إذا ذكر ما أشبه كله حمل على كلام العرب ما ليس هو منه. وكذلك قول من قال (2): إن التطبيس: التطبين (3).
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT طحا   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root طحا is the act of spreading something out flat and extending it outward, closely parallel to the root دحو; it denotes the expansive flattening and outward extension of a surface.
+-- RECORD.haqiqah_literal: The literal physical meaning is to spread out, flatten, and extend a thing outward upon a surface, as in the spreading of the earth.
+-- RECORD.majaz_scholastic: In theological and cosmological usage, the root is applied to God's act of spreading out the earth (وَالْأَرْضِ وَمَا طَحَاهَا), signifying divine expansive creation and providential ordering of the terrestrial plane; the active participle الطَّاحِي denotes the one who spreads or extends, and by extension the overwhelming or dominant force that flattens opposition.
+-- RECORD.canonical_definition.ar: الطَّحْوُ كالدَّحْوِ، وهو البَسْطُ، وفيه لغتان: طَحَا يَطْحُو وطَحَى يَطْحَى.
+-- RECORD.canonical_definition.en: Al-ṭaḥw is like al-daḥw: it is the spreading out flat; it has two dialectal forms: ṭaḥā yaṭḥū and ṭaḥā yaṭḥā.
+-- SOURCE.mufradat @line 20733 hdr=طحا: الطحو: كالدحو، وهو بسط الشيء والذهاب به. قال تعالى: والأرض وما طحاها [الشمس/ 6]، قال الشاعر: 298- طحا بك قلب في الحسان طروب (1) أي: ذهب.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT طرخ   stratum=ma
+-- RECORD.ontological_core: A constructed basin or reservoir, wide like a cistern, positioned at the outlet of a water channel, in which water gathers before bursting forth to irrigate a cultivated field.
+-- RECORD.haqiqah_literal: The concrete, physical referent is a wide, basin-like reservoir (mājil) built at the mouth of a canal or qanāt, functioning as a collecting and discharge point for irrigation water before it flows into the farmland.
+-- RECORD.majaz_scholastic: The root is not attested in Al-Mufradāt or Asās al-Balāghah, and no established metaphorical, philosophical, or theological extensions are recorded in the classical lexical tradition. Its usage remains confined to the concrete hydraulic-agricultural domain. Ibn Manẓūr explicitly notes that the word is a loanword (dakhīl), neither purely Persian nor purely Arabic, which further restricts any derivation of abstract or scholastic meanings from an indigenous Arabic root system.
+-- RECORD.canonical_definition.ar: الطَّرْخَة: ماجِلٌ يُتَّخَذُ كالحوض الواسع عند مخرج القناة، يجتمع فيها الماء ثم يتفجر منها إلى المزرعة، وهو دخيل ليست فارسية محضة ولا عربية محضة.
+-- RECORD.canonical_definition.en: Al-ṭarkhah: a wide basin-like reservoir constructed at the outlet of a water channel, in which water gathers and then bursts forth to the cultivated field; it is a loanword, neither purely Persian nor purely Arabic.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT طلس   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root ط ل س is the act of effacing, obliterating, or wiping out written traces from a surface, and the resulting state of a document or hide whose markings have been erased or obscured. From this primary sense of erasure and obscuration, the root extends to denote a dusty, ash-grey, or dusky coloration that obscures the natural brightness of a thing, as in the grey wolf (ذئب أطلس).
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the effacement of writing: طَلَسَ الكتابَ means to erase the book, and طَلَّسَهُ means to efface it thoroughly so as to corrupt its script. When the effacement is complete and the writing is reduced to a blank, superfluous surface, it becomes a طِرْس. The physical instrument of erasure is the طَلَاسَة, a rag or cloth used to wipe the tablet. Literally, it also denotes a dusty, greyish coloration, as in ذئب أطلس, a grey wolf, and ذئاب طلس, grey wolves.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root denotes the obliteration of intellectual or spiritual traces, the obscuring of clear evidence, and the effacement of identity or reputation. The phrase خرج القاضي متقلسا متطلسا describes a judge who goes out wearing a طيلسان (a type of cloak) and covering himself, deriving from the sense of concealment and overlaying. The term طَلْس is used as a variant of طِرْس for a erased or blank sheet, and by extension, for any surface or mind devoid of legible content. The greyness of the wolf (أطلس) metaphorically signifies a dusky, indistinct appearance that conceals the animal's form, paralleling the obscuration of writing.
+-- RECORD.canonical_definition.ar: الطَّلْسُ: لغة في الطِّرْس، وهو المَحْوُ. طَلَسَ الكتابَ طَلْساً وطَلَّسَهُ فَتَطَلَّسَ: كَطَرَّسَهُ. ويقال للصحيفة إذا محيت: طِلْسٌ وطِرْسٌ. والذئب الأطلس: الأغبر.
+-- RECORD.canonical_definition.en: Al-ṭals is a variant of al-ṭirs, and it means effacement. He erased the book with a single act of erasure (ṭalasa) or with intensive erasure (ṭallasa), so it became erased (taṭallasa), just as one says ṭarrasa. A sheet, when it is effaced, is called ṭils and ṭirs. The wolf that is aṭlas is the dusty, ash-grey one.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 43257 hdr=طلس: الطاء واللام والسين أصل صحيح، كأنه يدل على ملاسة. يقال لفخذ البعير إذا تساقط عنه شعره: طلس. ومنه طلست الكتاب (4)، إذا محوته، كأنك قد ملسته (1). فأما الذئب الأطلس فيقولون الأغبر، والقياس يدل على أنه الذى قد تمعط شعره. فإن كان ما يقولونه صحيحا فكأنه من غبرته قد ألبس طيلسانا. والطيلسان بفتح اللام صحيح (2)، وفيه يقول الشاعر: وليل فيه يحسب كل نجم بدالك من خصاصة طيلسان (3)
+-- SOURCE.asas[bilingual_haqiqah_majaz]: ذئب أطلس: أغبر، وذئاب طلس، وذئبة طلساء. وطلست الكتاب طلسا، وطلسته تطليسا وهو أن تمحوه لتفسد خطه، فإذا أعمت محوه وصيرته من الفضول التي يستغنى Metaphorical (Majaz): طلس بصره وطمسه: ذهب به. وشققت طيالس الظلام. قال أبو النجم: كم في لجيم من أغر كأنه ... صبح يشق طيالس الظلماء وتقول العرب: يا ابن الطيلسان: ير
+-- SOURCE.asas[majaz_metaphorical]: طلس بصره وطمسه: ذهب به. وشققت طيالس الظلام. قال أبو النجم: كم في لجيم من أغر كأنه ... صبح يشق طيالس الظلماء وتقول العرب: يا ابن الطيلسان: يريدون يا عجمي.
+-- SOURCE.asas[haqiqah_literal]: ذئب أطلس: أغبر، وذئاب طلس، وذئبة طلساء. وطلست الكتاب طلسا، وطلسته تطليسا وهو أن تمحوه لتفسد خطه، فإذا أعمت محوه وصيرته من الفضول التي يستغنى عنها وصيرته طرسا: فقد طرسته. ومحا اللوح بالطلاسة وهي الخرقة. وجاء البرد والطيالسة. وخرج القاضي متقلسا متطلسا.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT طوغ   stratum=ma
+-- RECORD.ontological_core: The root ط-و-غ denotes transgression, overflow, and exceeding the proper bound — the foundational physical image being that of a torrent or flood that bursts its channel and overruns its limits, hence any entity that oversteps the measure of the created order.
+-- RECORD.haqiqah_literal: In its strict literal (ḥaqīqah) sense, طاغوت designates any object of worship set up alongside or instead of God — idols, the Devil, soothsayers, or human authorities who claim absolute obedience — insofar as each has transgressed (ṭaghā) the bound of creatureliness and usurped a prerogative belonging to the Divine alone.
+-- RECORD.majaz_scholastic: Scholastically and theologically, طاغوت is extended (majāz) to every 'head' or leader in error (raʾs fī al-ḍalāl), every false claimant to authority, and every system of thought or governance that commands allegiance contrary to divine law. The Qurʾānic pairing with al-jibt (يؤمنون بالجبت والطاغوت) marks it as the archetype of false transcendence — the metaphysical counterfeit of the Divine — and in later kalām and uṣūl al-fiqh it functions as a technical term for any authority whose command is obeyed in defiance of the Sharīʿah.
+-- RECORD.canonical_definition.ar: الطَّاغُوتُ: ما عُبِدَ من دون الله عز وجل، وكلُّ رَأْسٍ في الضلالِ طاغوتٌ؛ وقيل: الأَصْنامُ، وقيل: الشيطانُ، وقيل: الكَهَنةُ، وقيل: مَرَدةُ أَهل الكتاب.
+-- RECORD.canonical_definition.en: Al-ṭāghūt: that which is worshipped besides God — Mighty and Majestic — and every leader in error is a ṭāghūt; it is said to be idols, or the Devil, or soothsayers, or the rebellious ones among the People of the Book.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT طول   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is spatial extension in a single dimension — the quality of a body, object, or duration being drawn out in length, standing in direct opposition (نقيض) to shortness (قِصَر). This primary corporeal sense of linear elongation is the root from which all temporal, quantitative, and moral extensions are derived.
+-- RECORD.haqiqah_literal: The literal physical meaning is the contrary of shortness (نقيض القِصَر) in people and other beings, whether animate or inanimate: the state of a thing being extended in length. It applies to concrete entities (aʿyān) such as a body, a rope, or a horse's tether, and to the act of lengthening or letting out (e.g., طَوِّلْ فَرَسَكَ, 'let out your horse's tether').
+-- RECORD.majaz_scholastic: By extension from spatial length, the root is applied metaphorically to temporal duration (الزمان), as in فَطَالَ عَلَيْهِمُ الأَمَدُ ('the term was prolonged for them') and سَبْحًا طَوِيلًا ('a long course of swimming'). It is further transferred to abstract and moral domains: الطَّوْل denotes superabundance, favor, and beneficence (الفضل والمن), as in ذِي الطَّوْلِ ('possessor of bounty'); it signifies wealth and capacity (سعة المال والقدرة), as in أُولُو الطُّولِ ('those of ample means') and مَنْ لَمْ يَسْتَطِعْ مِنْكُمْ طَوْلًا ('those who cannot afford'), a metonymy for what is spent on dower and maintenance. تَطَاوَلَ means to manifest length or to claim superiority, as in فَتَطَاوَلَ عَلَيْهِمُ الْعُمُرُ ('the age was prolonged over them'). طَوَالَ الدَّهْرِ denotes the duration of time.
+-- RECORD.canonical_definition.ar: الطُّولُ: نقيض القِصَر في الناس وغيرهم من الحيوان والمَوات؛ ويقال للشيء الطويل: طالَ يَطُولُ طُولاً، فهو طَويلٌ وطُوالٌ. والطَّوْلُ: الفضل والمن والسعة والقدرة.
+-- RECORD.canonical_definition.en: Al-ṭūl is the contrary of shortness (al-qiṣar) in people and other beings, whether animate or inanimate; a long thing is said to be ṭāla yaṭūlu ṭūlan, and it is ṭawīl or ṭuwāl. Al-ṭawl denotes favor, beneficence, ample means, and capacity.
+-- SOURCE.mufradat @line 21397 hdr=طول: الطول والقصر من الأسماء المتضايفة كما تقدم، ويستعمل في الأعيان والأعراض كالزمان وغيره قال تعالى: فطال عليهم الأمد [الحديد/ 16]، سبحا طويلا [المزمل/ 7]، ويقال: طويل وطوال، وعريض وعراض، وللجمع: طوال، وقيل: طيال، وباعتبار الطول قيل للحبل المرخي على الدابة: طول (3)، وطول فرسك، أي: أرخ طوله، وقيل: طوال الدهر لمدته الطويلة، وتطاول فلان: إذا أظهر الطول، أو الطول. قال تعالى: فتطاول عليهم العمر [القصص/ 45]، والطول خص به الفضل والمن، قال: شديد العقاب ذي الطول [غافر/ 3]، وقوله تعالى: استأذنك أولوا الطول منهم [التوبة/ 86]، ومن لم يستطع منكم طولا [النساء/ 25]، كناية عما يصرف إلى المهر والنفقة. وطالوت اسم علم وهو أعجمي.
+-- SOURCE.maqayis @line 43701 hdr=طول: الطاء والواو واللام أصل صحيح يدل على فضل وامتداد فى الشىء. من ذلك: طال الشىء يطول طولا. قال أحمد بن يحيى ثعلب: الطول: خلاف العرض. ويقال طاولت فلانا فطلته، إذا كنت أطول منه. وطال فلانا فلان، أى إنه أطول منه. قال: إن الفرزدق صخرة ملمومة طالت فليس تنالها الأوعالا (1) وهذا قياس مطرد فى كل ما أشبه ذلك، فيقال للحبل الطول؛ لطوله وامتداده. قال طرفة: لعمرك إن الموت ما أخطأ الفتى لكالطول المرخى وثنياه فى اليد (2) ويقولون: لا أكلمه طوال الدهر. ويقال جمل أطول، إذا طالت شفته العليا. وطاولنى فلان فطلته، أى كنت أطول منه. والطوال: الطويل. والطوال: جمع الطويل. وحكى بعضهم: قلانس طيال (3)، بالياء. وأمر غير طائل، إذا لم يكن فيه غناء. يقال ذلك فى المذكر والمؤنث. قال: وقد كلفونى خطة غير طائل (4) وتطاولت فى قيامى،
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT طيم   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of innate formation and molding—God's original constitution of a creature's nature, as in clay shaped by a potter. This concrete sense of kneading and shaping underlies the abstract notion of inborn disposition.
+-- RECORD.haqiqah_literal: The literal physical meaning is God's creation and formation of a being according to a fixed innate constitution, as expressed in the phrase طامَهُ اللهُ على الخَير (God molded him upon good). The noun الطِّيماء denotes the resulting innate nature or natural disposition, e.g., الشِّعْر مِنْ طِيمائِه (poetry is from his innate disposition).
+-- RECORD.majaz_scholastic: In philosophical and theological usage, the root is applied to the concept of innate disposition (طِيماء) as the God-given, pre-rational constitution of a soul, akin to the scholastic notion of natural inclination or fitrah. It is also used to describe the natural aptitude for poetry as an inborn quality rather than an acquired skill. The verb طامَ is not used metaphorically for human agency in this sense; it remains a divine act of creation.
+-- RECORD.canonical_definition.ar: طامَهُ الله على الخَير يَطِيمُه طَيْماً: جَبَله. والطِّيماءُ: الجِبِلَّةُ والطبيعةُ.
+-- RECORD.canonical_definition.en: God molded him upon good, He forms him innately: He created him with an innate constitution. And الطِّيماء means innate nature and natural disposition.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عدس   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ع-د-س is twofold: (1) the well-known legume (lentil), a small, round, dark seed; and (2) the act of pressing heavily upon the earth, treading forcefully, and striving/laboring (al-kadḥ), from which derives the sense of journeying or departing into the land, and being carried away by fate.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Lisān al-ʿArab: العَدْس (al-ʿads) with a silent dāl (sukūn) denotes severity of treading upon the earth and also striving/laboring. The verb عَدَسَ يَعْدِسُ عَدْسًا وعَدَسَانًا وعُدُوسًا means he went forth into the land; it is said عَدَسَتْ بِهِ المَنِيَّةُ (fate carried him away). The noun العَدَس (al-ʿadas) is the well-known legume (lentil). The noun العَدَسَة (al-ʿadasa) is a pustule or blister resembling a lentil in shape. عَدَسْ is an onomatopoeic interjection used to urge on a mule or similar beast.
+-- RECORD.majaz_scholastic: Metaphorical and extended usages: (1) The lentil (العَدَس) is used literally in the Qurʾānic verse 'and its lentils and its onions' (Q 2:61) as a reference to the Israelites' request for earthly produce. (2) The pustule (العَدَسَة) is a derived nominal metaphor based on resemblance to the lentil's shape. (3) The verb عَدَسَ in the sense of 'to go forth into the land' or 'to be carried away by fate' is a semantic extension from the physical act of treading heavily, implying departure and motion. (4) The interjection عَدَسْ is a conventionalized onomatopoeic imperative for driving beasts, not a lexical metaphor. No strictly scholastic or theological majāz is attested in the provided sources.
+-- RECORD.canonical_definition.ar: العَدْسُ: شدة الوطء على الأرض والكدح. وعَدَسَ الرجلُ يَعْدِسُ عَدْسًا وعَدَسَانًا وعُدُوسًا: ذهب في الأرض. والعَدَسُ: الحب المعروف. والعَدَسَةُ: بثرة على هيئته. وعَدَسْ: زجر للبغل ونحوه.
+-- RECORD.canonical_definition.en: Al-ʿads: severity of treading upon the earth and striving/laboring. ʿAdasa al-rajulu yaʿdisu ʿadsan wa-ʿadasānan wa-ʿudūsan: he went forth into the land. Al-ʿadas: the well-known legume (lentil). Al-ʿadasa: a pustule resembling it in shape. ʿAdas: an interjection to urge on a mule or similar beast.
+-- SOURCE.mufradat @line 22099 hdr=عدس: العدس: الحب المعروف. قال تعالى: وعدسها وبصلها [البقرة/ 61]، والعدسة: بثرة على هيئته، وعدس: زجر للبغل ونحوه، ومنه: عدس في الأرض (3)، وهي عدوس (4).
+-- SOURCE.maqayis @line 51458 hdr=عدس: العين والدال والسين ليس فيه من اللغة شىء، لكنهم يسمون الحب المعروف عدسا. ويقولون: عدس، زجر للبغال. قال: عدس ما لعباد عليك إمارة نجوت وهذا تحملين طليق (2) وقوله: إذا حملت بزتى على عدس (3) فإنه يريد البغلة، سماها «عدس» بزجرها.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عده   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the nominal form عَيْدَه, denoting an ingrained defect of temperament or constitution, specifically ill-nature or vicious disposition in humans and camels.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is the concrete quality of being ill-tempered or vicious, as predicated of a person or a camel.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical sources; the term remains confined to its literal ethological and ethical application.
+-- RECORD.canonical_definition.ar: العَيْدَهُ: السَّيِّءُ الخُلُقِ من الناس والإِبل.
+-- RECORD.canonical_definition.en: Al-ʿaydah: the ill-natured one among people and camels.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عرجل   stratum=ma
+-- RECORD.ontological_core: The root ع-ر-ج-ل denotes a collective body of beings or entities moving on foot or in a compact group, with an underlying physical image of a mass of walkers or a herd gathered together.
+-- RECORD.haqiqah_literal: A group or troop of horses; a group of people, specifically a group of foot-soldiers or pedestrians; a herd of goats.
+-- RECORD.majaz_scholastic: Extended to any collective movement on foot (e.g., 'the people went out as pedestrians'), and by further abstraction, any assembled group or band, without the strict requirement of walking.
+-- RECORD.canonical_definition.ar: العَرْجَلة: القِطْعة من الخيل، وقيل: الجماعة منها. والعَرْجَلة: الجماعة من الناس، وقيل: جماعة الرَّجّالة. وخَرَجَ القومُ عَرَاجِلَةً أَي مُشاةً. والعَرْجَلة: الجماعةُ من المَعَز.
+-- RECORD.canonical_definition.en: Al-ʿarjalah: a troop of horses, or a group thereof. Al-ʿarjalah: a group of people, or a group of foot-soldiers. The people went out as ʿarājilah, i.e., on foot. Al-ʿarjalah: a herd of goats.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عردل   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on hardness, rigidity, and firmness of a physical body or structure — the quality of being solid, unyielding, and resistant to pressure.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is: a solid, hard, and extremely strong entity; something rigid and unyielding in its physical constitution.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root is extended to describe a person of extreme firmness, resolve, or severity — one who is unyielding in character, opinion, or treatment. In theological and philosophical usage, it may denote an entity or argument that is rigorously established, indubitable, and resistant to refutation. The augmented form العَرَنْدَل (with additional nūn) carries the same semantic force of intensified hardness and strength.
+-- RECORD.canonical_definition.ar: العَرْدَلُ: الصُّلْبُ الشَّدِيدُ، والعَرَنْدَلُ مِثْلُهُ، والنون زائدة.
+-- RECORD.canonical_definition.en: Al-ʿardal: the solid, extremely strong; and al-ʿarandal is the same, with the nūn being augmentative.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عرس   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a wedding celebration (ʿurs) and the bride (ʿarūs), from which derive associated meanings of adornment, intimacy, and habitation. A secondary, distinct root sense denotes bewilderment or stupefaction (dahash), as in ʿarisa al-rajul (the man was bewildered).
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is the wedding feast or celebration (ʿurs), and the bride (ʿarūs). It also literally denotes the act of a man endearing himself to his wife (tataʿarrasa li-mraʾatihi), and the lair or den of a lion (ʿirs al-asad) where it resides with its lioness (ʿarīs). Additionally, it refers to a brief stop or encampment (taʿrīsa) likened to a bird's sip.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to expressions of poverty or lack of good (e.g., 'purer than the good of the bride's basin' meaning he has no good), and to the notion of a place of dwelling or intimacy (maʿras). The secondary sense of bewilderment (dahash) is used to describe a person overwhelmed or stupefied, as in the poetry of Abū Dhuʾayb. The term ʿarūs is feminine, and the plural ʿarāʾis is used for camels likened to brides due to their beauty and value.
+-- RECORD.canonical_definition.ar: العَرَسُ، بالتحريك: الدَّهَشُ. وعَرِسَ الرجل وعَرِشَ، بالكسر والسين والشين، عَرَساً، فهو عَرِسٌ: بَطِرَ، وقيل: أَعْيَا ودَهِشَ. والعرس: مؤنثة، وهي حفل الزفاف. والعروس: المرأة في عرسها. والعرس: مأوى الأسد. والتعريس: نزول القوم في آخر الليل للاستراحة.
+-- RECORD.canonical_definition.en: Al-ʿaras (with a vowel on the second radical) means bewilderment. ʿArisa al-rajul (the man was bewildered) and ʿarisha, with kasra and either sīn or shīn, ʿarasan, so he is ʿaris: he was insolent, or it is said he was exhausted and bewildered. Al-ʿurs (wedding) is feminine, and it is the wedding celebration. Al-ʿarūs is the woman in her wedding. Al-ʿirs is the lion's lair. Al-taʿrīs is when people stop at the end of the night to rest.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 51911 hdr=عرس: العين والراء والسين أصل واحد صحيح تعود فروعه إليه (2)، وهو الملازمة. قال الخليل: عرس به، إذا لزمه. فمن فروع هذا الأصل العرس: امرأة الرجل، ولبؤة الأسد. قال امرؤ القيس: كذبت لقد أصبى على [المرء] عرسه وأمنع عرسى أن يزن بها الخالى (3) ويقال إنه يقال للرجل وامرأته عرسان؛ واحتجوا بقول علقمة: أدحى عرسين فيه البيض مركوم (1) ورجل عروس فى رجال عرس، وامرأة عروس فى نسوة عرائس وعرس. وأنشد: جرت بها الهوج أذيالا مظاهرة كما تجر ثياب الفوة العرس (2) وزعم الخليل أن العروس نعت للرجل والمرأة على فعول وقد استويا فيه، ماداما فى تعريسهما أياما إذا عرس أحدهما بالآخر. وأحسن [من] ذلك أن يقال للرجل معرس، أى اتخذ عروسا. والعرب تؤنث العرس (3). قال الراجز: إنا وجدنا عرس الحناط مذمومة لئيمة الحواط (4) وقال فى المعرس: يمشى
+-- SOURCE.asas[haqiqah_literal]: " هو أنقى من الخير من طست العروس " أي لا خير عنده، " ولا مخبأ لعطر بعد عروس ". وشهدنا عرس فلان فيا لها من عرس، ورأينا عرسه فيا لها من عرس، والعرس مؤنثة. قال: إنا وجدنا عرس الخياط ... مذمومة لئيمة الحواط وفلان يتعرس لامرأته أي يتحبب إليها. وهذه عرائس الإبل وعطراتها: لكرامها. وهو أ
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عظط   stratum=ma
+-- RECORD.ontological_core: A marginal, dialectally-attested root denoting the act of exposing or uncovering oneself during intimate congress; its foundational physical origin is the manifest disclosure of the body in the marital act.
+-- RECORD.haqiqah_literal: The literal physical meaning is the act of a man uncovering or exposing himself when he comes to his wife for intercourse.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested; the root remains confined to its concrete physical sense and is treated as a dialectal variant of عذط.
+-- RECORD.canonical_definition.ar: قال الأَزهري في ترجمة عذط: ومنهم من يقول: عِظْيَوْطٌ، بالظاء، وهو الذي إِذا أَتَى أَهلَه أَبْدَى.
+-- RECORD.canonical_definition.en: Al-Azhari, in the entry for ʿadhṭ, reports: some say ʿiẓyawṭ, with ẓāʾ, meaning one who exposes himself when he comes to his wife.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT عقا   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of this root is the open, cleared tract of ground immediately surrounding a dwelling or settlement — the courtyard, precinct, or vacant lot abutting a house or quarter. The root denotes spatial periphery and open circumjacent ground, not the structure itself but the cleared space that encircles and belongs to it.
+-- RECORD.haqiqah_literal: The literal, physical meaning is the courtyard (sāḥah) of a house and the open ground surrounding a dwelling, quarter, or locality; the plural forms are ʿiqāʾ. One says nazala bi-ʿaqwatihi, 'he alighted in its courtyard,' and mā bi-ʿaqwati hādhihi al-dāri mithlu fulān, 'there is no one in the precinct of this house like so-and-so.'
+-- RECORD.majaz_scholastic: By extension from the physical courtyard, the term is applied to the immediate vicinity, environs, or sphere of a place or person — the domain within which someone's presence or influence is felt. The phrase mā yaṭūru aḥadun bi-ʿaqwati hādhā, 'no one flutters about the precinct of this one,' is used figuratively to assert that no one approaches, rivals, or encroaches upon that person's domain. The scholastic usage thus shifts from the concrete cleared ground to the abstract notion of a protected perimeter or exclusive sphere of access.
+-- RECORD.canonical_definition.ar: العَقْوةُ والعَقَاةُ: الساحة وما حَوْلَ الدارِ والمَحَلَّة، وجمعُهما عِقاءٌ. وعَقْوَةُ الدار: ساحَتُها.
+-- RECORD.canonical_definition.en: Al-ʿaqwah and al-ʿaqāh: the courtyard and the area surrounding a house or quarter; their plural is ʿiqāʾ. The ʿaqwah of a house is its courtyard.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT علا   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin of the root is vertical elevation and height above a baseline, conceived as the spatial opposite of lowness (sifl). It denotes the act of rising, ascending, or being positioned above something, whether in physical space or in rank.
+-- RECORD.haqiqah_literal: The literal, physical meaning is height, elevation, or the upper part of a thing. It is used primarily for spatial and corporeal elevation, as in 'he rose above the place' or 'the upper part of the house' (ʿilw al-dār). The verb ʿalā (يَعْلُو) is used for both praiseworthy and blameworthy elevation, whereas ʿaliya (يَعْلَى) is reserved for praiseworthy elevation only.
+-- RECORD.majaz_scholastic: Metaphorically and theologically, the root extends to elevation in rank, status, or power. It can denote arrogance and tyrannical self-exaltation, as in Pharaoh's 'exalting himself in the land' (Q 28:4) and the 'haughty' people (Q 23:46). It also signifies the transcendent elevation of God, and in scholastic contexts, the ontological superiority of causes over effects. The term ʿulw (height) is contrasted with sufl (lowness), and ʿulwī/ suflī designate the celestial and terrestrial realms respectively.
+-- RECORD.canonical_definition.ar: العُلُوُّ: ضِدُّ السُّفْلِ، والارتفاعُ. عَلا يَعْلُو عُلُوًّا فهو عالٍ، وعَلِيَ يَعْلَى عَلَاءً فهو عَلِيٌّ. وعُلْوُ كلِّ شيءٍ وعِلْوُه وعَلْوُه وعُلاوَتُه وعالِيه وعالِيَتُه: أَرْفَعُه.
+-- RECORD.canonical_definition.en: Elevation is the opposite of lowness, and it is rising. He rose, rising, and is high; he was high, being high, and is exalted. The height of anything, its upper part, its summit, and its topmost portion: its highest part.
+-- SOURCE.mufradat @line 23389 hdr=علا: العلو: ضد السفل، والعلوي والسفلي المنسوب إليهما، والعلو: الارتفاع، وقد علا يعلو علوا وهو عال (5)، وعلي يعلى علاء فهو علي (6)، فعلا بالفتح في الأمكنة والأجسام أكثر. قال تعالى: عاليهم ثياب سندس [الإنسان/ 21]. وقيل: إن (علا) يقال في المحمود والمذموم، و(علي) لا يقال إلا في المحمود، قال: إن فرعون علا في الأرض [القصص/ 4]، لعال في الأرض وإنه لمن المسرفين [يونس/ 83]، وقال تعالى: فاستكبروا وكانوا قوما عالين [المؤمنون/ 46]، وقال لإبليس: أستكبرت أم كنت من العالين [ص/ 75]، لا يريدون علوا في الأرض [القصص/ 83]، ولعلا بعضهم على بعض [المؤمنون/ 91]، ولتعلن علوا كبيرا [الإسراء/ 4]، واستيقنتها أنفسهم ظلما وعلوا [النمل/ 14]. والعلي: هو الرفيع القدر من: علي، وإذا وصف الله تعالى به في قوله: أن الله هو العلي الكبي
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

@@ -1,0 +1,12 @@
+================================================================================================
+ROOT وخط   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of striking or piercing from a distance with a pointed instrument (spear, sword), and by extension, the even intermingling or spreading of a quality across a surface, such as the dispersal of grayness (shayb) through the hair.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is to strike or pierce someone from afar with a spear or sword (وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد). It also denotes the wide stride of an ostrich (مر الظليم يخط وخطا وهو سعة خطوه).
+REC canon_def.ar     : الوَخْطُ: الطَّعْنُ من بعيد، ومنه وخْطُ الشيبِ الرأسَ: مخالطته إياه، والوَخْطُ من القَتِير: النَّبْذُ، وقيل: استواء البياض والسواد.
+REC canon_def.en     : Al-Wakhṭ: striking or piercing from a distance; hence the intermingling of gray hair with the head, and al-wakhṭ from dust: dispersal, or the equal balance of whiteness and blackness.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75895 hdr=وخط] الواو والخاء والطاء: كلمتان: إحداهما وخط الشيب (3) فى* رأسه. والأخرى: الوخط: الطعن. ووخطه بالسيف: تناوله من بعيد. وذكروا كلمة ثالثة، قالوا: مر يخط، وهو (4) مشى فوق العنق. فما صار لى فى القسم إلا ثمينها
+SRC Asas [majaz_metaphorical]        : وخطه الشيب. ووخط فلان فهو موخوط، وبها وخط من الوحش ووخز: نبذ منها. قال رجل من بني ذهل: غدونا إلى وخط من الوحش آمن ... فصبحه منا عذاب معجل
+SRC Asas [bilingual_haqiqah_majaz]        : وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد. ومر الظليم يخط وخطا وهو سعة خطوه. Metaphorical (Majaz): وخطه الشيب. ووخط فلان فهو موخوط، وبها وخط من الوحش ووخز: نبذ منها. قال رجل من بني ذهل: غدونا إلى وخط من الوحش آمن ... فصبحه منا عذاب معجل
+SRC Asas [haqiqah_literal]        : وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد. ومر الظليم يخط وخطا وهو سعة خطوه.
+SRC Ayn (al-Khalil)  : [line 17439 hdr=وخط] وَخَطْتُهُ بالسيف وَخْطاً: تناولته من بعيدٍ. والوَخْط: الطعن وقد وُخِطَ فلانٌ يُوخَطُ وَخْطاً «1» . وتقول: وَخَطَني الشَّيْبُ، ووُخِطَ فلانُ أي شابَ رأسُهُ فهو مَوْخُوطٌ. ووَخَطَ في السير يَخِطُ وَخْطاً أي: أسرع. وكذلك وَخَطَ الظليم ونحوه.

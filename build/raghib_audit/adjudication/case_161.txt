@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جلخد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of a body casting itself down and stretching out at full length upon the ground, whether lying on the side or flat on the back, in a state of complete extension and surrender of posture.
+REC haqiqah_literal  : The literal physical meaning, per Asās al-Balāghah's strict ḥaqīqah, is the concrete posture of a person or animal that has thrown itself down and lies stretched out on the ground, either reclining on the side (muḍṭajiʿ) or lying supine (mustalqī) with limbs extended.
+REC canon_def.ar     : المُجْلَخِدُّ: المُضْطَجِعُ، وقيل: المُسْتَلْقِي الذي قد رَمَى بِنَفْسِهِ وامْتَدَّ.
+REC canon_def.en     : Al-Mujlakhidd: the one lying down on his side; also said to be the one lying supine who has thrown himself down and stretched out at full length.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

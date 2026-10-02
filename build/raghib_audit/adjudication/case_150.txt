@@ -1,0 +1,10 @@
+================================================================================================
+ROOT برهم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the compact, clustered bud of a tree or plant — the dense node where leaves, blossoms, and fruit are gathered together in a single tight formation before unfolding.
+REC haqiqah_literal  : The literal physical meaning is the tree's bud (بَرْهَمَة / بُرْعُمَة): the concentrated locus in which its leaves, flowers, and fruit are collectively assembled.
+REC canon_def.ar     : بَرْهَمَةُ الشَّجَرِ: بُرْعُمَتُهُ، وَهُوَ مُجْتَمَعُ وَرَقِهِ وَثَمَرِهِ وَنَوْرِهِ. وَبَرْهَمَ: أَدَامَ النَّظَرَ.
+REC canon_def.en     : The barhama of a tree is its burʿuma: the locus in which its leaves, fruit, and blossoms are gathered together. And barhama means: to sustain and prolong the gaze.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 15467 hdr=برهم] بَرْهَمةُ الشجر: مجمع ورقهِ ونَوْره وثمره. وبَرهَم الرجل إذا فتح عينيه وحدّد النظر قال: «2» يمزجن بالناصع لونا مُسْهَما ... ونَظَراً هَوْنَ الهوينا بَرْهَما

@@ -1,0 +1,80 @@
+{
+  "T0_raw": {
+    "positions": 1248,
+    "reachable": 1248,
+    "coverage": 1.0,
+    "candidates_mean": null,
+    "ppl_restricted": 302.03239740470457,
+    "acc@1_reachable": 0.07532051282051282,
+    "acc@1_overall": 0.07532051282051282,
+    "acc@5_reachable": 0.1858974358974359,
+    "acc@5_overall": 0.1858974358974359,
+    "acc@10_reachable": 0.28125,
+    "acc@10_overall": 0.28125
+  },
+  "T1_khalil": {
+    "positions": 1248,
+    "reachable": 1247,
+    "coverage": 0.999198717948718,
+    "candidates_mean": null,
+    "ppl_restricted": 301.2146870550967,
+    "acc@1_reachable": 0.07538091419406576,
+    "acc@1_overall": 0.07532051282051282,
+    "acc@5_reachable": 0.18604651162790697,
+    "acc@5_overall": 0.1858974358974359,
+    "acc@10_reachable": 0.2814755412991179,
+    "acc@10_overall": 0.28125
+  },
+  "T2_sibawayh": {
+    "positions": 1248,
+    "reachable": 1199,
+    "coverage": 0.9607371794871795,
+    "candidates_mean": null,
+    "ppl_restricted": 297.0867849242766,
+    "acc@1_reachable": 0.07589658048373644,
+    "acc@1_overall": 0.07291666666666667,
+    "acc@5_reachable": 0.18432026688907424,
+    "acc@5_overall": 0.17708333333333334,
+    "acc@10_reachable": 0.27606338615512926,
+    "acc@10_overall": 0.265224358974359
+  },
+  "T3_heritage_top1000": {
+    "positions": 1248,
+    "reachable": 1133,
+    "coverage": 0.9078525641025641,
+    "candidates_mean": null,
+    "ppl_restricted": 216.43470595716403,
+    "acc@1_reachable": 0.08031774051191527,
+    "acc@1_overall": 0.07291666666666667,
+    "acc@5_reachable": 0.19505736981465135,
+    "acc@5_overall": 0.17708333333333334,
+    "acc@10_reachable": 0.2921447484554281,
+    "acc@10_overall": 0.265224358974359
+  },
+  "T3_heritage_top2500": {
+    "positions": 1248,
+    "reachable": 1185,
+    "coverage": 0.9495192307692307,
+    "candidates_mean": null,
+    "ppl_restricted": 270.38448589286224,
+    "acc@1_reachable": 0.07679324894514768,
+    "acc@1_overall": 0.07291666666666667,
+    "acc@5_reachable": 0.18649789029535865,
+    "acc@5_overall": 0.17708333333333334,
+    "acc@10_reachable": 0.27932489451476794,
+    "acc@10_overall": 0.265224358974359
+  },
+  "T3_heritage_top5000": {
+    "positions": 1248,
+    "reachable": 1198,
+    "coverage": 0.9599358974358975,
+    "candidates_mean": null,
+    "ppl_restricted": 294.03395939081156,
+    "acc@1_reachable": 0.07595993322203673,
+    "acc@1_overall": 0.07291666666666667,
+    "acc@5_reachable": 0.18447412353923207,
+    "acc@5_overall": 0.17708333333333334,
+    "acc@10_reachable": 0.27629382303839733,
+    "acc@10_overall": 0.265224358974359
+  }
+}

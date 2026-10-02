@@ -1,0 +1,22 @@
+{
+  "prefix": {
+    "shipped_len": 837575,
+    "rebuilt_len": 837575,
+    "identical": true
+  },
+  "root": {
+    "shipped_len": 837575,
+    "rebuilt_len": 837575,
+    "identical": true
+  },
+  "wazn": {
+    "shipped_len": 837575,
+    "rebuilt_len": 837575,
+    "identical": true
+  },
+  "suffix": {
+    "shipped_len": 837575,
+    "rebuilt_len": 837575,
+    "identical": true
+  }
+}

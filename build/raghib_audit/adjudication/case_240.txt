@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قندل   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on elongated extension and unconstrained forward motion, specifically a man walking with loose, unhindered stride, and by extension any entity marked by length or bulk, particularly a large head.
+REC haqiqah_literal  : The literal physical meaning is a man walking in an unconstrained, extended manner (مَشى في استرسال); the root also literally denotes something long or tall (الطويل), and a large-headed, bulky creature among camels and mounts (الضخم الرأس من الإبل والدوابّ), comparable to عَنْدَل.
+REC canon_def.ar     : قَنْدَل الرجلُ: مَشى في استرسال. والقَنْدَل: الطويل. والقَنْدَل والقُنَادِل: الضخم الرأس من الإبل والدوابّ مثل العَنْدَل.
+REC canon_def.en     : A man qandala: he walked with an unconstrained, extended stride. Al-qandal: the long or tall one. Al-qandal and al-qunādil: the large-headed, bulky one among camels and mounts, like al-ʿandal.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22385 hdr=قندل] القَنْدَلُ: الضَّخْمُ والرأس من الإبل والدواب. قال: «1» شذب عن عاناته القنابلا ... أثناءها والربع القنادِلا

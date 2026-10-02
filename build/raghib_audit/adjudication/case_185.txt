@@ -1,0 +1,10 @@
+================================================================================================
+ROOT زخا   stratum=ma
+REC ontological_core : The root denotes a toponymic designation (a place-name) attested in the poetry of Hudhayl, transmitted as زُخَيّات (a diminutive nominal form); its ontological status is onomastic rather than predicative, lacking a productive physical or eventive Aṣl al-Wadʿ in the classical lexical corpus.
+REC haqiqah_literal  : A proper place-name (موضع) occurring in Hudhaylī verse in the diminutive form زُخَيّات; the reading الزَّوَاخِي transmitted by some authorities is judged by Ibn Sīdah to be a scribal corruption (تصحيف) of the correct زُخَيّات with zāy and khāʾ.
+REC canon_def.ar     : الزَّوَاخِي: مواضع. قال ابن سيده: وزعم قوم أَن في شعر هذيل رُحَيّات وفسروه بأَنه موضع، قال: وهذا تصحيف إِنما هو زُخَيّات، بالزاي والخاء.
+REC canon_def.en     : Al-Zawākhī: place-names. Ibn Sīdah said: some authorities claimed that in Hudhaylī poetry there occurs [the form] Ruḥayyāt, which they interpreted as a place-name; he said: this is a scribal corruption—it is in fact Zukhayyāt, with zāy and  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

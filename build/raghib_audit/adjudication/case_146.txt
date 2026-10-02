@@ -1,0 +1,12 @@
+================================================================================================
+ROOT نقف   stratum=mA
+REC ontological_core : The foundational physical act of striking or breaking open a hard, enclosing shell or cranial structure in order to extract the kernel, marrow, or brain concealed within it.
+REC haqiqah_literal  : The literal breaking of a skull to expose the brain, the cracking of a colocynth to extract its seeds, the piercing of an egg to remove its contents, and the striking of heads with swords in combat.
+REC canon_def.ar     : النَّقْفُ: كَسْرُ الْهَامَةِ عَنِ الدِّمَاغِ وَنَحْوِ ذَلِكَ، كَمَا يَنْقُفُ الظَّلِيمُ الْحَنْظَلَ عَنْ حَبِّهِ. وَالْمُنَاقَفَةُ: الْمُضَارَبَةُ بِالسُّيُوفِ عَلَى الرُّؤُوسِ.
+REC canon_def.en     : Al-Naqf is the breaking of the skull away from the brain and the like, just as the male ostrich cracks open the colocynth to extract its seeds. Al-Munāqafah is mutual striking with swords upon the heads.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : الظليم ينقف الحنظل عن الهبيد. وضرب ينقف الهام عن الدماغ. وبينهم مناقفة ونقاف: مضاربة. ويقال: " اليوم قحاف، وغدا نقاف ". ونقفت البيضة: استخرج Metaphorical (Majaz): رجل نقاف: صاحب تدبير ونظر في الأشياء كأنه ينقف عنها أي يبحث. ويقال للسائل المبرم: نقاف. قال: إذا جاء نقاف يعد عياله ... طويل العصا عديته عن
+SRC Asas [majaz_metaphorical]        : رجل نقاف: صاحب تدبير ونظر في الأشياء كأنه ينقف عنها أي يبحث. ويقال للسائل المبرم: نقاف. قال: إذا جاء نقاف يعد عياله ... طويل العصا عديته عن شياهيا وجذع منقوف ونقيف: مأروض. ورجل منقوف الوجه: ضامره.
+SRC Asas [haqiqah_literal]        : الظليم ينقف الحنظل عن الهبيد. وضرب ينقف الهام عن الدماغ. وبينهم مناقفة ونقاف: مضاربة. ويقال: " اليوم قحاف، وغدا نقاف ". ونقفت البيضة: استخرجت ما فيها. وأنقفتك العظم إذا أعطيته إياه ليستخرج مخه. وأنقف الجراد: رمى ببيضه. وصقل الورق بالمنقاف.
+SRC Ayn (al-Khalil)  : [line 21412 hdr=نقف] النَّقْفُ: كسر الهامة عن الدماغ ونحو ذلك، كما يَنْقُفُ الظليم الحنظل عن حبه. والمُناقَفةُ: المضاربة بالسيوف على الرءوس. والمِنْقاف: عظم دويبة تكون في البحر تصقل به الصحف، له مشق في وسطه. ورجل نَقّافٌ أي صاحب تدبير للأمر ونظر في الأشياء.

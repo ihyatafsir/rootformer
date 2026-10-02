@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عنسل   stratum=ma
+REC ontological_core : The root's foundational physical origin is rapid, forceful, and agile motion, specifically the swift, bounding, or trotting gait characteristic of a wolf (عَسَلان الذئب), from which the quadriliteral root is derived by the addition of the augmentative نون.
+REC haqiqah_literal  : The literal physical meaning is a strong, swift she-camel (الناقة القوية السريعة), characterized by speed and power in her movement.
+REC canon_def.ar     : العَنْسَل: الناقة القوية السريعة، والنون زائدة، مأخوذ من عَسَلان الذئب.
+REC canon_def.en     : Al-ʿansal: the strong, swift she-camel; the nūn is augmentative, derived from the wolf's swift, bounding gait.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 7900 hdr=عنسل] العَنْسَل: الناقةُ السريعةُ الوَثيقةُ الخَلْقِ.

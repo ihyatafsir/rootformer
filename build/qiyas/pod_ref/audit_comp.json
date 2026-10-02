@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "n_roots": 9490,
+    "n_awzan": 142,
+    "n_prefixes": 26,
+    "n_suffixes": 22,
+    "train_words": 25000009,
+    "n_alphabet": 31,
+    "n_sym": 32,
+    "blueprint_md5": "5bd3e828b41fb1a6a6039d47c2f359fc"
+  },
+  "n_hold_roots": 37,
+  "streams": {
+    "train": {
+      "sentences": 2718865,
+      "words": 25000009
+    },
+    "val": {
+      "sentences": 2000,
+      "words": 21163
+    },
+    "test_gen": {
+      "sentences": 4000,
+      "words": 33957
+    },
+    "test_deriv": {
+      "sentences": 3627,
+      "words": 35820
+    }
+  },
+  "leak": {
+    "train": {
+      "sentences": 2718865,
+      "sentences_containing_heldout_root": 0,
+      "heldout_root_occurrences": 0,
+      "total_word_positions": 25000009,
+      "distinct_heldout_roots_present": 0
+    },
+    "val": {
+      "sentences": 2000,
+      "sentences_containing_heldout_root": 0,
+      "heldout_root_occurrences": 0,
+      "total_word_positions": 21163,
+      "distinct_heldout_roots_present": 0
+    },
+    "test_gen": {
+      "sentences": 4000,
+      "sentences_containing_heldout_root": 0,
+      "heldout_root_occurrences": 0,
+      "total_word_positions": 33957,
+      "distinct_heldout_roots_present": 0
+    },
+    "test_deriv": {
+      "sentences": 3627,
+      "sentences_containing_heldout_root": 3627,
+      "heldout_root_occurrences": 3987,
+      "total_word_positions": 35820,
+      "distinct_heldout_roots_present": 37
+    }
+  },
+  "heldout_intersect_special": [],
+  "alphabet": "ءأابتثجحخدذرزسشصضطظعغفقكلمنهوىي",
+  "alphabet_train_chars_missing": [],
+  "inexpressible_content_roots": 2,
+  "heldout_inexpressible": [],
+  "root_letters_roundtrip_bad": 0,
+  "root_len_dist": {
+    "2": 1562,
+    "3": 12450377,
+    "4": 145976
+  },
+  "unigram_bits": {
+    "val": 13.655558575646586,
+    "test_gen": 14.030683184168177,
+    "test_deriv": 16.065808860884292
+  },
+  "unigram_root_acc": {
+    "val": {
+      "all": {
+        "top1": 0.14979630209965528,
+        "top5": 0.24762352449597827,
+        "n": 19146
+      },
+      "real": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "n": 9339
+      },
+      "special": {
+        "top1": 0.29244417252982563,
+        "top5": 0.4834302029162843,
+        "n": 9807
+      },
+      "real_majority_train": {
+        "top1": 0.026983617089624157,
+        "top5": 0.0782739051290288,
+        "n": 9339
+      },
+      "real_majority_slice": {
+        "top1": 0.026983617089624157,
+        "top5": 0.08116500696005996,
+        "n": 9339
+      }
+    },
+    "test_gen": {
+      "all": {
+        "top1": 0.14279989313384986,
+        "top5": 0.22328346246326475,
+        "n": 29944
+      },
+      "real": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "n": 15538
+      },
+      "special": {
+        "top1": 0.29682076912397615,
+        "top5": 0.4641121754824379,
+        "n": 14406
+      },
+      "real_majority_train": {
+        "top1": 0.027094864203887244,
+        "top5": 0.0858540352683743,
+        "n": 15538
+      },
+      "real_majority_slice": {
+        "top1": 0.027094864203887244,
+        "top5": 0.08965117775775518,
+        "n": 15538
+      }
+    },
+    "test_deriv": {
+      "all": {
+        "top1": 0.11796146674953387,
+        "top5": 0.21062771908017403,
+        "n": 32180
+      },
+      "real": {
+        "top1": 0.0,
+        "top5": 0.0,
+        "n": 17658
+      },
+      "special": {
+        "top1": 0.26139650185924806,
+        "top5": 0.46674011844098606,
+        "n": 14522
+      },
+      "real_majority_train": {
+        "top1": 0.02474798957979386,
+        "top5": 0.0654094461433911,
+        "n": 17658
+      },
+      "real_majority_slice": {
+        "top1": 0.02474798957979386,
+        "top5": 0.07322460074753653,
+        "n": 17658
+      }
+    },
+    "_reference_ids": {
+      "unigram_all_top1": 4,
+      "majority_real_train_top1": 283,
+      "majority_real_train_top5": [
+        283,
+        5660,
+        6397,
+        6917,
+        7309
+      ],
+      "majority_real_train_str": "اله"
+    }
+  }
+}

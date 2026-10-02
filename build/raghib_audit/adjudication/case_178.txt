@@ -1,0 +1,10 @@
+================================================================================================
+ROOT دفس   stratum=ma
+REC ontological_core : The root denotes the onset of blackness or dark discoloration upon a surface, specifically the face, without prior cause or illness; its foundational physical image is that of a darkening or staining that overtakes a visage.
+REC haqiqah_literal  : The literal physical meaning is the blackening of the face without any underlying disease or external cause, as attested in the verbal form أَدْفَسَ.
+REC canon_def.ar     : أَدْفَسَ الرجلُ إِذا اسودَّ وجهه من غير علة
+REC canon_def.en     : A man's face turned black without any illness or cause.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

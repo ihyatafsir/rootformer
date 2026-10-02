@@ -1,0 +1,265 @@
+====================================================================================================
+ROOT زخرف   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is gold (al-dhahab), specifically gold as an object of ornamentation and embellishment; from this material substrate the root extends to denote any adornment, and thence to anything artificially beautified or falsified.
+-- RECORD.haqiqah_literal: Gold; then any ornament or embellishment (zīnah); then any embellished, gilded, or artificially beautified thing. The verb زَخْرَفَ denotes the act of adorning, embellishing, and perfecting a thing, as in زَخْرَفَ البيتَ (he adorned and completed the house).
+-- RECORD.majaz_scholastic: Metaphorical and scholastic applications include: (1) embellished speech or discourse (زخرف القول) understood as deceptive, ornamented words that veil falsehood; (2) the gilded or golden chambers of worldly luxury (بيت من زخرف) signifying transient material splendor; (3) the earth's adornment (أخذت الأرض زخرفها) as the flourishing of worldly life that precedes its decay; (4) any falsified or counterfeit presentation (كل مموه مزور) in which surface beauty conceals corrupt reality. In theological and ethical usage, the term denotes the seductive ornamentation of worldly existence and the rhetorical embellishment of falsehood.
+-- RECORD.canonical_definition.ar: الزُّخْرُفُ: الزِّينَةُ، وأَصْلُهُ الذَّهَبُ، ثُمَّ سُمِّيَ كُلُّ زِينَةٍ زُخْرُفاً، ثُمَّ شُبِّهَ كُلُّ مُمَوَّهٍ مُزَوَّرٍ بِهِ. وَزَخْرَفَ البَيْتَ: زَيَّنَهُ وَأَكْمَلَهُ.
+-- RECORD.canonical_definition.en: Al-Zukhruf: ornamentation; its primary origin is gold, then every ornament was named zukhruf, then every falsified or counterfeit thing was likened to it. Zakhrafa al-bayta: he adorned and perfected the house.
+-- SOURCE.mufradat @line 15029 hdr=زخرف: الزخرف: الزينة المزوقة، ومنه قيل للذهب: زخرف، وقال: أخذت الأرض زخرفها [يونس/ 24]، وقال: بيت من زخرف [الإسراء/ 93]، أي: ذهب مزوق، وقال: وزخرفا [الزخرف/ 35]، وقال: زخرف القول غرورا [الأنعام/ 112]، أي: المزوقات من الكلام.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ززم   stratum=ma
+-- RECORD.ontological_core: The root denotes a liminal, brackish state of water — neither purely fresh nor purely saline — situated at the threshold between two opposing qualities. Its reduplicative phonetic structure (ز-ز-م) mirrors this in-between condition, suggesting a substance that partakes of both extremes without fully belonging to either.
+-- RECORD.haqiqah_literal: Water that is neither fully salt nor fully sweet; brackish water occupying the intermediate zone between the saline and the potable.
+-- RECORD.majaz_scholastic: By extension, any entity, quality, or state that is suspended between two contraries, resisting categorical assignment to either pole. In scholastic and theological discourse, it may describe an ambiguous or indeterminate matter that partakes of two opposing natures without being reducible to either — a medial ontological status.
+-- RECORD.canonical_definition.ar: ماء زُوَزِمٌ وزُوازِمٌ: بين المِلْحِ والعَذْبِ.
+-- RECORD.canonical_definition.en: Brackish water: that which lies between the salt and the sweet.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT زلقم   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of swallowing a morsel (لُقْمَة) — specifically, the passage of food through the throat — and by concrete extension, the anatomical throat itself (الحلقوم) and the snout or muzzle of a predatory animal (خُرْطوم الكلب والسبع), the orifice through which such swallowing occurs.
+-- RECORD.haqiqah_literal: The literal physical meaning according to the classical lexicographers is twofold: (1) the throat or gullet (الحلقوم) in certain Arabic dialects, and (2) the snout or muzzle of a dog or beast of prey (خُرْطوم الكلب والسبع). The verbal form زَلْقَمَ denotes the concrete act of swallowing a morsel (بَلَعَ اللُّقْمَةَ).
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical sources. The term remains confined to its concrete anatomical and physiological signification. Any extended application — such as employing الزُّلْقُوم for the throat as the seat of voice or for the beast's snout as an instrument of seizing — remains within the domain of literal anatomical reference rather than true majāz. The scholastic tradition records no abstract or figurative deployment of this root.
+-- RECORD.canonical_definition.ar: الزُّلْقُومُ: الحلقوم في بعض اللغات، وخُرْطومُ الكلب والسبع. وزَلْقَمَ اللُّقْمَةَ: بَلَعَها.
+-- RECORD.canonical_definition.en: Al-Zulqūm: the throat or gullet in certain dialects, and the snout of a dog or beast of prey. And zalqama al-luqma: he swallowed the morsel.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT زلل   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root زلل is the act of slipping, sliding, or losing one's footing upon a surface—whether descending from a rock, sliding in mud, or an arrow glancing off a shield. It denotes a sudden, unintended departure from a stable position or intended trajectory.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal meaning is: slipping from a rock or in mud (زل عن الصخرة وفي الطين زليلا); a place of slipping (مزلة); a man with a slipping foot or speech (سمع أزل); a woman who slips (امرأة زلاء); and God causing the earth to shake (زلزل الله الأرض زلزالا).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) moral or doctrinal lapse—a slip in speech, judgment, or conduct (زل في منطقه); (2) theological usage in زلزال (earthquake) as a divine act of shaking or destabilizing; (3) philosophical application to any deviation from a norm, whether in logic, ethics, or natural motion; (4) the passive أزله (to cause someone to slip) implying external causation of error or downfall.
+-- RECORD.canonical_definition.ar: زَلَّ السَّهْمُ عن الدِّرْع، والإنسانُ عن الصخرة يَزِلُّ ويَزَلُّ زَلاًّ وزَلِيلاً ومَزِلَّة: زَلِقَ. وزَلَلْتَ يا فلان تَزِلُّ زَلِيلاً إذا زَلَّ في طِين أو مَنْطِق.
+-- RECORD.canonical_definition.en: The arrow slipped off the shield, and a person slipped from the rock—he slips, slipping, and a place of slipping: he slid. And you, O so-and-so, slipped with a slipping when you slipped in mud or in speech.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[bilingual_haqiqah_majaz]: زل عن الصخرة وفي الطين زليلا. وهذه مزلة من المزال. وسمع أزل. وامرأة زلاء. وزلزل الله الأرض زلزالا. Metaphorical (Majaz): زل في قوله ورأيه زلة وزللا. وأزله الشيطان عن الحق واستزله. و
+-- SOURCE.asas[majaz_metaphorical]: زل في قوله ورأيه زلة وزللا. وأزله الشيطان عن الحق واستزله. و
+-- SOURCE.asas[haqiqah_literal]: زل عن الصخرة وفي الطين زليلا. وهذه مزلة من المزال. وسمع أزل. وامرأة زلاء. وزلزل الله الأرض زلزالا.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT زهك   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin of the root زهك is the abrasive friction or grinding of one hard surface against another, specifically the action of rubbing or scraping between two stones, producing a harsh, rasping effect. This core image of friction and attrition underlies all subsequent applications.
+-- RECORD.haqiqah_literal: The literal physical meaning is the act of rubbing, scraping, or grinding between two stones (al-jashsh bayna ḥajarayn), and the abrasive action of wind upon a surface, stripping or scouring it away.
+-- RECORD.majaz_scholastic: While the root is not attested in Al-Mufradāt or Asās al-Balāghah, its metaphorical extension in classical usage includes the wind's erosive action, likened to a file or rasp that wears down what it strikes. The scholastic dimension remains minimal, as the root is primarily concrete and sensory, with no developed theological or philosophical abstraction in the classical lexicons.
+-- RECORD.canonical_definition.ar: الزَّهْكُ مِثْلُ السَّهْكِ: وَهُوَ الجَشُّ بَيْنَ حَجَرَيْنِ. وَزَهَكَتْهُ الرِّيحُ تَزْهَكُهُ: كَسَهَكَتْهُ، وَالسِّينُ أَعْلَى.
+-- RECORD.canonical_definition.en: Al-zahk is like al-sahk: it is the rubbing or grinding between two stones. And the wind scoured it (zahakat-hu) — like sahakathu — though the variant with sīn is more authoritative.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 32190 hdr=زهك: الزاء والهاء والكاف ليس فيه شىء إلا أن ابن دريد ذكر أنهم يقولون: زهكت الريح التراب، مثل سهكت. بل من أحس بريمى اللذين هما قلبى وعقلى فعقلى اليوم مزدهف ||| باب الزاء والواو وما يثلثهما
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سبت   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root is 'cutting' or 'severing' — the act of cutting off, whether hair, a journey, or activity. From this primary sense of severance, the root extends to the notion of rest (cessation of labor) and to tanned leather (from which hair has been removed).
+-- RECORD.haqiqah_literal: Literal physical meanings: to cut off, to sever; to shave the head; to cut short a journey; to tan leather by removing its hair; tanned leather itself (especially that tanned with qaraẓ); the seventh day of the week (Saturday), named because God ceased creating on that day; and the state of being in Saturday or resting from work.
+-- RECORD.majaz_scholastic: Metaphorical and theological applications: (1) Sleep as a 'cutting off' of activity, hence 'sabāt' (deep sleep or death) — 'We made your sleep a sabāt' (Q 78:9), meaning a severance from work, akin to the rest of night. (2) The Sabbath as a divinely ordained cessation of labor for the Jews, and their punishment for violating it (Q 7:163, 16:124). (3) 'Mabsūt' (passive participle) meaning dead, as in 'he became mabsūt' (i.e., his activities were cut off). (4) The verbal forms 'sabata' and 'asbata' meaning to observe the Sabbath or to enter upon it.
+-- RECORD.canonical_definition.ar: السِّبْتُ: كُلُّ جِلْدٍ مَدْبُوغٍ، وَقِيلَ: هُوَ المَدْبُوغُ بِالقَرَظِ خَاصَّةً. وَأَصْلُ السَّبْتِ: القَطْعُ. وَسُبَات: النَّوْم، وَهُوَ قَطْعٌ لِلْعَمَلِ.
+-- RECORD.canonical_definition.en: Al-Sibt: any tanned leather; it is said: specifically that tanned with qaraẓ. The root origin of 'sabt' is cutting. 'Subāt' is sleep, which is a cutting off of activity.
+-- SOURCE.mufradat @line 15568 hdr=سبت: أصل السبت: القطع، ومنه سبت السير: قطعه، وسبت شعره: حلقه، وأنفه: اصطلمه، وقيل: سمي يوم السبت، لأن الله تعالى ابتدأ بخلق السموات والأرض يوم الأحد، فخلقها في ستة أيام كما ذكره، فقطع عمله يوم السبت فسمي بذلك، وسبت فلان: صار في السبت وقوله: يوم سبتهم شرعا [الأعراف/ 163]، قيل: يوم قطعهم للعمل، ويوم لا يسبتون [الأعراف/ 163]، قيل: معناه لا يقطعون العمل، وقيل: يوم لا يكونون في السبت، وكلاهما إشارة إلى حالة واحدة، وقوله: إنما جعل السبت [النحل/ 124]، أي: ترك العمل فيه، وجعلنا نومكم سباتا [النبأ/ 9]، أي: قطعا للعمل، وذلك إشارة إلى ما قال في صفة الليل: لتسكنوا فيه* [يونس/ 67].
+-- SOURCE.maqayis @line 34845 hdr=سبت: السين والباء والتاء أصل واحد يدل على راحة وسكون. يقال للسير السهل اللين. سبت. قال: ومطوية الأقراب أما نهارها فسبت وأما ليلها فذميل (2) ثم حمل على ذلك السبت: حلق الرأس. وينشد فى ذلك ما يصحح هذا القياس، وهو قوله: يصبح سكران ويمسى سبتا (3) لأنه يكون فى آخر النهار مخثرا (4) قليل الحركة، فلذلك يقال للمتحير مسبوت. وأما السبت بعد الجمعة، فيقال إنه سمى بذلك لأن الخلق فرغ منه يوم الجمعة وأكمل، فلم يكن اليوم الذى بعد الجمعة يوما خلق فيه شىء. والله أعلم بذلك. هذا بالفتح. فأما السبت فالجلود* المدبوغة بالقرظ، وكأن ذلك سمى سبتا لأنه قد تناهى إصلاحه، كما يقال للرطبة إذا جرى الإرطاب فيها: منسبتة.
+-- SOURCE.asas[haqiqah_literal]: يلبسون النعال السبتية ونعال السبت وهو الأدم، لأن شعره يسقط في الدباغ كأنه سبت أي حلق. وسبت رأسه، ورأس مسبوت. وسبتت اليهود وأسبتت. وجعل الله النوم سباتا: موتا، وأصبح فلان مسبوتا: ميتا.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: يلبسون النعال السبتية ونعال السبت وهو الأدم، لأن شعره يسقط في الدباغ كأنه سبت أي حلق. وسبت رأسه، ورأس مسبوت. وسبتت اليهود وأسبتت. وجعل الله Metaphorical (Majaz): سبت علاوته إذا قطع رأسه. وأروني سبتي. واخلع سبتيك.
+-- SOURCE.asas[majaz_metaphorical]: سبت علاوته إذا قطع رأسه. وأروني سبتي. واخلع سبتيك.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سجست   stratum=ma
+-- RECORD.ontological_core: A quadriliteral (rubāʿī) toponym of Persian provenance denoting a well-known administrative region (kūrah), with no attested Arabic verbal root origin (aṣl al-waḍʿ) in the classical lexical tradition.
+-- RECORD.haqiqah_literal: The literal, extra-lexical referent is the proper place-name Sijistān/Sajistān (Sīstān), a recognized province; the form is a loanword (muʿarrab) and not a native Arabic ḥaqīqah derived from an Arabic root.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological majāz is attested; the term functions strictly as a geographical proper noun and admits no semantic extension in the classical sources.
+-- RECORD.canonical_definition.ar: سِجْسَتانُ وسَجِسْتانُ: كُورَةٌ معروفة، وهي فارسية، ذكره ابن سيده في الرباعي.
+-- RECORD.canonical_definition.en: Sijistān and Sajistān: a well-known province; it is Persian, cited by Ibn Sīdah among the quadriliteral forms.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سحت   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the act of peeling, scraping, or eradicating something down to its core—specifically, stripping away the outer layer (qishr) or fat from flesh, or shaving hair to the root. This concrete sense of total removal and uprooting is the root's primary material meaning.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is: to shave hair completely during a haircut or trimming, to peel fat away from flesh, to scrape the surface of the earth, and in circumcision, to perform the procedure thoroughly and exhaustively until the flesh is worn down.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root denotes anything forbidden, vile, or illicit that strips away a person's religion and moral integrity (murūʾah), such as bribery, unlawful earnings, the price of a dog, wine, or swine. It is used in the Qurʾān to describe those who consume illicit gain (akālūn li-l-suḥt) and in prophetic tradition: 'Every flesh nourished by illicit gain, the Fire is more deserving of it.' The term also extends to earnings that, while not strictly forbidden, compromise one's dignity, such as the cupper's fee, which the Prophet permitted to be used for feeding animals and slaves.
+-- RECORD.canonical_definition.ar: السُّحْتُ والسُّحُتُ: كلُّ حرام قبيح الذِّكر؛ وقيل: هو ما خَبُثَ من المَكاسب وحَرُم فلَزِمَ عنه العارُ، وقَبيحُ الذِّكْر، كَثَمن الكلب والخمر والخنزير.
+-- RECORD.canonical_definition.en: Al-Suḥt and al-suḥut: every forbidden thing of vile repute; it is said to be any foul and unlawful earning that entails disgrace and infamy, such as the price of a dog, wine, or swine.
+-- SOURCE.mufradat @line 15889 hdr=سحت: السحت: القشر الذي يستأصل، قال تعالى: فيسحتكم بعذاب (1). [طه/ 61]، وقرئ: فيسحتكم يقال: سحته وأسحته، ومنه: السحت والسحت للمحظور الذي يلزم صاحبه العار، كأنه يسحت دينه ومروءته، قال تعالى: أكالون للسحت [المائدة/ 42]، أي: لما يسحت دينهم. وقال (عليه السلام): «كل لحم نبت من سحت فالنار أولى به» (2) ، وسمي الرشوة سحتا لذلك، وروي «كسب الحجام سحت» (3) فهذا لكونه ساحتا للمروءة لا للدين، ألا ترى أنه أذن (عليه السلام) في إعلافه الناضح وإطعامه المماليك (4).
+-- SOURCE.maqayis @line 35402 hdr=سحت: السين والحاء والتاء أصل صحيح منقاس. يقال سحت الشىء، إذا استؤصل، وأسحت. يقال سحت الله الكافر بعذاب، إذا استأصله. ومال مسحوت ومسحت فى قول الفرزدق: وعض زمان يا ابن مروان لم يدع من المال إلا مسحتا أو مجلف (1) ومن الباب: رجل مسحوت الجوف، إذا كان لا يشبع، كأن الذى يبلعه يستأصل من جوفه، فلا يبقى. المال السحت: كل حرام يلزم آكله المار؛ وسمى سحتا لأنه لا بقاء له. ويقال أسحت فى تجارته، إذا كسب السحت. وأسحت ماله: أفسده.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: سحت شعره في الحلق أو في الجز استأصله. وسحت الشحم عن اللحم: قشره. وسحت وجه الأرض: سحاه. وسحت في ختان الصبي: بولغ فيه واستقصى حتى نهك. وفلان ي Metaphorical (Majaz): " فيسحتكم بعذاب ": فيجهدكم به. وفلان مسحوت المعدة: شره.
+-- SOURCE.asas[majaz_metaphorical]: " فيسحتكم بعذاب ": فيجهدكم به. وفلان مسحوت المعدة: شره.
+-- SOURCE.asas[haqiqah_literal]: سحت شعره في الحلق أو في الجز استأصله. وسحت الشحم عن اللحم: قشره. وسحت وجه الأرض: سحاه. وسحت في ختان الصبي: بولغ فيه واستقصى حتى نهك. وفلان يأكل السحت، وأسحت في تجارته: كسب السحت.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سحم   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root سحم is the quality of deep, uniform blackness, specifically the saturated darkness exemplified by the raven's plumage and heavy rain-clouds; it denotes a blackness that is intrinsic and total rather than accidental or partial.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is blackness (al-sawād), as in the phrase 'a raven that is asḥam' (ghurāb asḥam), 'black clouds' (saḥāb asḥam), and 'a black cloud-mass' (ghamāma saḥmāʾ); the verbal form saḥamū is used literally for darkening or blackening a face.
+-- RECORD.majaz_scholastic: In scholastic and theological usage, the root is applied metaphorically to denote moral or spiritual blackening, as in the ḥadīth of the malediction (liʿān) where a child born 'asḥam aḥtam' signifies a deep, undeniable blackness that may imply illegitimacy or moral stain; likewise, in the ḥadīth of Abū Dharr, the term describes a person of dark complexion, extending the physical quality to human appearance without metaphorical abstraction. The root is not attested in Al-Mufradāt, so its ontological origin is derived from classical lexical sources.
+-- RECORD.canonical_definition.ar: السَّحَمُ والسُّحَامُ والسُّحْمَةُ: السواد، وكل أسود أسحم.
+-- RECORD.canonical_definition.en: Al-saḥam, al-suḥām, and al-suḥma denote blackness; everything black is asḥam.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 35341 hdr=سحم: السين والحاء والميم* أصل واحد يدل على سواد. فالأسحم: [ذو] السواد، وسواده السحمة. ويقال لليل أسحم. قال الشاعر: رضيعى لبان ثدى أم تقاسما بأسحم داج عوض لا نتفرق (1) والأسحم: السحاب الأسود. قال النابغة: بأسحم دان مزنه متصوب (2) والأسحم: القرن الأسود، فى قول زهير: وتذبيبها عنها بأسحم مذود (3)
+-- SOURCE.asas[haqiqah_literal]: غراب أسحم بين السحمة وهي السواد، وسحاب أسحم، وغمامة سحماء. وسحموا وجهه و
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سربد   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a surface being stripped bare or denuded, specifically of hair, yielding a state of smooth, hairless exposure.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is an eyebrow (ḥājib) that is completely devoid of hair, i.e., a hairless or bald eyebrow.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah; no established metaphorical, philosophical, or theological usages are recorded in the classical lexica. The term remains confined to its literal anatomical description.
+-- RECORD.canonical_definition.ar: حاجب مُسَرْبَدٌ: لا شعر عليه؛ عن كراع.
+-- RECORD.canonical_definition.en: A hairless eyebrow: one upon which there is no hair; reported from Kurāʿ.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سرهج   stratum=ma
+-- RECORD.ontological_core: The root سرهج is a rare quadriliteral (rubāʿī) formation denoting a crafted, ornamental artifact — specifically a manufactured object of variegated inlay or mosaic workmanship (comparable to faysafisāʾ, Byzantine-style tessellated ornament). Its foundational physical origin is the concrete act of fabricating a decorated, multi-colored surface or object through artisanal technique (ṣanʿah).
+-- RECORD.haqiqah_literal: The literal, physical sense is a crafted ornamental object — a thing of artifice resembling mosaic or inlaid work (shayʾ min al-ṣanʿah ka-l-faysafisāʾ). The noun السرنج (al-saranj, on the pattern of samand) designates such an inlaid or tessellated artifact.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological extension is attested in the classical lexica. The term remains confined to the concrete domain of craft and ornamentation; any figurative application would be an ad hoc extension and is not sanctioned by the philological tradition. Al-Zamakhsharī's Asās records no majāz for this root, and Al-Rāghib's Al-Mufradāt does not treat it — indicating the root never entered the abstract or scholastic register.
+-- RECORD.canonical_definition.ar: السَّرْهَجَةُ: ضَرْبٌ مِنَ الصَّنْعَةِ كَالْفَسِيفَسَاءِ؛ وَالسَّرَنْجُ كَسَمَنْدٍ: شَيْءٌ مِنَ الصِّنَاعَةِ الْمُزَخْرَفَةِ.
+-- RECORD.canonical_definition.en: Al-sarhajah: a mode of craftsmanship akin to mosaic (faysafisāʾ); and al-saranj (on the pattern samand): an artifact of ornamental, variegated workmanship.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سعفق   stratum=ma
+-- RECORD.ontological_core: The root denotes a rare, non-productive nominal pattern (fuʿlūl) attested only in the proper name Banū Saʿfūq, a clan or tribal group in al-Yamāma; its foundational origin is onomastic rather than lexical, with no attested verbal or abstract nominal derivation.
+-- RECORD.haqiqah_literal: The literal, concrete referent is the tribal designation Banū Saʿfūq (also vocalized Banū Suʿfūq), a kinship group or client clan (khawal) settled in al-Yamāma; the word functions strictly as a proper noun and carries no physical or sensory meaning beyond this referential use.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extension is attested. The term remains confined to onomastic and genealogical usage; any figurative application would be extra-lexical and unsupported by the classical authorities.
+-- RECORD.canonical_definition.ar: بنو سَعْفوق: خَوَلٌ باليمامة، وبعضهم يقول سُعْفوق بالضم؛ وهو الحرف النادر الذي جاء على فُعْلول بفتح أوله، خلافاً لاطّراد الضم في زُنْبور وبُهْلول وعُمْروس.
+-- RECORD.canonical_definition.en: Banū Saʿfūq: a client clan (khawal) in al-Yamāma; some vocalize it Suʿfūq with ḍammah. It is the anomalous instance of the fuʿlūl pattern with an initial fatḥah, contrary to the regular ḍamm-initial formation seen in zunbūr, buhlūl, and ʿumrūs.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سقعب   stratum=ma
+-- RECORD.ontological_core: The root denotes elongation and extension in bodily stature, with the quadrilateral structure (س-ق-ع-ب) suggesting an emphatic, intensive quality of tallness in the human frame.
+-- RECORD.haqiqah_literal: The literal physical meaning is a tall man, specifically one of pronounced height and extended frame; the root is attested with both س (sīn) and ص (ṣād) as the initial radical.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah; no established metaphorical, philosophical, or theological extensions are recorded in the classical lexical tradition. The term remains confined to its literal physical denotation of human stature.
+-- RECORD.canonical_definition.ar: السَّقْعَبُ: الطَّوِيلُ مِنَ الرِّجَالِ، بِالسِّينِ وَالصَّادِ.
+-- RECORD.canonical_definition.en: Al-saqʿab: the tall one among men, attested with both sīn and ṣād.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سقق   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the emission of excrement by a bird, specifically the act of voiding droppings; it denotes a concrete, low-register physical event before any figurative extension.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah (as delineated from Lisān al-ʿArab) is: a bird's defecation, i.e., the act of a sparrow or bird excreting its droppings.
+-- RECORD.majaz_scholastic: Metaphorical and scholastic usages: The root is extended to human behavior in the form السُّقُق (al-suquq), meaning 'backbiters' or 'slanderers'—those who emit verbal filth analogous to a bird's droppings. This is a majāz based on the resemblance between noxious speech and physical excrement. Theologically, the root is not used for divine attributes; it remains confined to creaturely, base actions.
+-- RECORD.canonical_definition.ar: سَقَّ العصفورُ وسَقْسَقَ الطائرُ: ذَرَقَ. والسُّقُق: المغتابون.
+-- RECORD.canonical_definition.en: The sparrow defecated and the bird voided droppings. And al-suquq: the backbiters.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سلقد   stratum=ma
+-- RECORD.ontological_core: The root denotes the physical state of a body reduced to skin and bone through emaciation, and by extension the deliberate act of subjecting an animal to such wasting in order to condition and slim it.
+-- RECORD.haqiqah_literal: The quadriliteral noun السِّلْقِد designates a person or animal that is lean, wasted, and emaciated; the verb أَسْلْقَدَ denotes the transitive act of rendering a horse lean and thin, i.e. putting it through a conditioning regimen of deliberate emaciation.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical lexica; the term remains confined to its concrete physiological sense of emaciation and deliberate slimming. Any extended application to moral or spiritual attenuation would be an idiosyncratic modern extension, not a classical majāz.
+-- RECORD.canonical_definition.ar: السِّلْقِدُ: الضَّاوِي المَهْزُولُ؛ ومنه: خَرَجْتُ أُسَلْقِدُ فَرَسِي، أَيْ أُضَمِّرُهُ.
+-- RECORD.canonical_definition.en: Al-Silqid: the lean, emaciated one; hence the expression 'I went out to slim my horse,' that is, to put it through a conditioning regimen of deliberate emaciation.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سلهج   stratum=ma
+-- RECORD.ontological_core: The root denotes extension in length and elongation of bodily frame; its foundational physical origin is the quality of being drawn out or stretched in stature.
+-- RECORD.haqiqah_literal: The literal physical meaning is 'tall' or 'long' with respect to bodily stature; it is used of a person or creature whose frame is elongated.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah; no established metaphorical, philosophical, or theological usage is recorded in the classical lexical tradition. The term remains confined to the literal physical description of height.
+-- RECORD.canonical_definition.ar: السَّلْهَجُ: الطويل.
+-- RECORD.canonical_definition.en: Al-salhaj: the tall one.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سمندل   stratum=ma
+-- RECORD.ontological_core: The root denotes a legendary creature—avian or reptilian—endowed with the property of self-renewal through fire: when its generative capacity ceases and it succumbs to senescence, it casts itself into live embers and is restored to youthful vigor, remaining incombustible.
+-- RECORD.haqiqah_literal: A bird (ṭāʾir) that, upon the cessation of its progeny and the onset of decrepitude, throws itself into burning coals and thereby returns to its youthful state; alternatively, a creature (dābba) that enters fire without being consumed by it.
+-- RECORD.majaz_scholastic: By extension, the term is applied to any entity or process characterized by cyclical regeneration through destructive transformation—philosophically, the self-renewing intellect or soul that passes through the fire of material dissolution and emerges rejuvenated; in theological and mystical discourse, it figures the resurrection of the body and the purgative trial by fire that precedes renewal. The creature's incombustibility serves as a topos for essential incorruptibility amid accidental corruption.
+-- RECORD.canonical_definition.ar: السَّمَنْدَلُ: طائرٌ إِذا انقطع نَسْلُهُ وهَرِمَ أَلْقى نفسه في الجَمْر فيعود إِلى شَبابه، وقيل: دابَّةٌ يدخل النار فلا تُحْرِقه.
+-- RECORD.canonical_definition.en: Al-samandal: a bird that, when its progeny ceases and it becomes decrepit, casts itself into live embers and returns to its youth; alternatively, a creature that enters fire and is not burned by it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سنبل   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root س-ن-ب-ل is the emergence of the ear or spike of grain (the seed-bearing head) from the stalk of a cereal plant, marking the plant's transition from vegetative growth to reproductive fruiting.
+-- RECORD.haqiqah_literal: The literal, physical meaning is the ear or spike of grain (سُنْبُل), the compact, seed-bearing head of cereals such as wheat, barley, and maize; its singular unit is سُنْبُلَة (one ear/spike). The verb سَنْبَلَ denotes the plant's act of producing or putting forth its ear.
+-- RECORD.majaz_scholastic: While the root is not attested in Al-Mufradāt or Asās al-Balāghah, later scholastic and poetic usage extends the term metaphorically to any clustered, grain-like arrangement—such as the ear-like clusters of a beard, the beaded tip of a sword, or the ornamental spike of a lamp—by analogy to the compact, aligned, seed-bearing structure of a cereal ear. In theological and philosophical discourse, the term remains strictly botanical and is not employed as a technical concept.
+-- RECORD.canonical_definition.ar: السُّنْبُلُ من الزَّرْعِ واحدته سُنْبُلَةٌ، وقد سَنْبَلَ الزَّرْعُ إِذا خرج سُنْبُلُهُ.
+-- RECORD.canonical_definition.en: The ear of grain (سُنْبُل) is a unit of cereal crops, its singular being سُنْبُلَة; the verb سَنْبَلَ means the crop has produced its ear.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سنن   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root سنن is the tooth (al-sinn) as a hard, projecting, pointed structure—an instrument of cutting, grinding, and piercing—from which derive the senses of sharpening, pointing, flowing smoothly, and establishing a continuous, well-trodden path or normative practice.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah centers on the tooth (al-sinn) and its concrete derivatives: the sharpening of iron (sanna al-ḥadīda), the easy pouring of water (sanna al-māʾa ʿalā wajhihi), the smooth, swift movement of a horse (istanna al-faras), and the clear, beaten track of a road (sunan al-ṭarīq).
+-- RECORD.majaz_scholastic: Metaphorical and scholastic usages include: (1) the establishment of a normative practice or precedent (sanna sunnatan ḥasanatan), (2) following a prophetic or authoritative model (istanna bi-sunnatihi), (3) the pursuit of a course or direction (iltazama sunana al-ṭarīq), (4) the agitated, energetic charging of a horse (istanna al-faras), and (5) the theological and legal concept of Sunna as the divinely guided way, encompassing both prophetic practice and the normative tradition of the community.
+-- RECORD.canonical_definition.ar: السِّنُّ: واحدة الأَسنان، وهي الضِّرْسُ، أُنْثَى. والسُّنَّةُ: الطريقةُ والسيرةُ، حسنةً كانت أو قبيحةً. وسَنَّ الماءَ على وجهه: صبَّه صبًّا سهلاً. وسَنَّ الحديدةَ: حدَّدها.
+-- RECORD.canonical_definition.en: Al-sinn: the singular of teeth, namely a molar tooth, feminine. Al-sunna: a path or mode of conduct, whether good or evil. Sanna al-māʾa ʿalā wajhihi: he poured the water out smoothly. Sanna al-ḥadīda: he sharpened the iron.
+-- SOURCE.mufradat @line 17109 hdr=سنن: السن معروف، وجمعه أسنان. قال: والسن بالسن [المائدة/ 45]، وسان البعير الناقة: عاضها حتى أبركها، والسنون: دواء يعالج به الأسنان، وسن الحديد: إسالته وتحديده، والمسن: ما يسن به، أي: يحدد به، والسنان يختص بما يركب في رأس الرمح، وسننت البعير: صقلته، وضمرته تشبيها بسن الحديد، وباعتبار الإسالة قيل: سننت الماء، أي: أسلته. وتنح عن سنن الطريق، وسننه وسننه، فالسنن: جمع سنة، وسنة الوجه: طريقته، وسنة النبي: طريقته التي كان يتحراها، وسنة الله تعالى: قد تقال لطريقة حكمته، وطريقة طاعته، نحو: سنة الله التي قد خلت من قبل ولن تجد لسنة الله تبديلا [الفتح/ 23]، ولن تجد لسنت الله تحويلا [فاطر/ 43]، فتنبيه أن فروع الشرائع- وإن اختلفت صورها- فالغرض المقصود منها لا يختلف ولا يتبدل، وهو تطهير النفس، وترشيحها للوصول إل
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[haqiqah_literal]: سن سنة حسنة: طرق طريقة حسنة، واستن بسنته، وفلان متسنن: عامل. بالسنة. والزم سنن الطريق: قصده، وتنح عن سنن الخيل، واكتن عن سنن الريح. وجاء من الخيل سنن ما يرد. ورأيت سنن بني فلان: إبلهم المستنة نشاطا. قال: ومنا عصبة أخرى سراع ... زفتها الريح كالسنن الطراب واستن الفرس وهو عدوه إقبال
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT سون   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is not attested as an independent verbal root in the classical lexica; its primary lexical datum is the toponym سُوَان (Suwān), a place-name. A secondary, dialectal usage is التَّسَوُّن (tasuwwun), denoting a slackening or relaxation of the belly, which Ibn Manẓūr and Abū Manṣūr relate to the root س و ل (s-w-l) through the substitution of the final lām with nūn.
+-- RECORD.haqiqah_literal: The literal, physical meaning is twofold: (1) سُوَان, a specific place-name; (2) التَّسَوُّن, the slackening or relaxation of the belly, as transmitted from Ibn al-Aʿrābī.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical sources. The term remains confined to toponymy and a dialectal physiological description; any extended application would be extra-lexical and unsupported by the philological tradition.
+-- RECORD.canonical_definition.ar: سُوَانُ: موضع. والتَّسَوُّنُ: استرخاء البطن، كأَنه من التَّسَوُّل من سَوِلَ يَسْوَلُ إذا استرخى، فأُبدلت اللام نوناً.
+-- RECORD.canonical_definition.en: Suwān: a place-name. Al-tasuwwun: the slackening of the belly, as if derived from al-tasawwul from sawila yaswalu, meaning 'to become slack,' with the lām substituted by nūn.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

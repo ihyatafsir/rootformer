@@ -1,0 +1,267 @@
+====================================================================================================
+ROOT ابز   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is not attested in the classical philological tradition; no primary Arabic lexical root 'ابز' is recognized in the canonical sources.
+-- RECORD.haqiqah_literal: No literal physical meaning is attested in Asās al-Balāghah or the classical lexical corpus.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical sources.
+-- RECORD.canonical_definition.ar: لا يوجد أصل معجمي بهذا الضبط في لسان العرب أو المفردات.
+-- RECORD.canonical_definition.en: No lexical root with this consonantal sequence is attested in Lisān al-ʿArab or Al-Mufradāt.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 2002 hdr=أبز: الهمزة والباء والزاء يدل على القلق والسرعة وقلة الاستقرار. قال الخليل: الإنسان يأبز فى عدوه ويستريح ساعة ويمضى أحيانا (1) قال الفراء: الأبزى والقفزى اسمان من أبز الفرس وقفز. والأبز الوثب. قال أبو عمرو: نجيبة أبوز، أى تصبر صبرا عجيبا، وقد أبزت تأبز أبزا. قال: لقد صبحت حمل بن كوز علالة من وكرى أبور (2) قال الشيبانى: الآبز الذى يأبز بصاحبه، أى يبغى عليه ويعرض به. يقال: أراك تأبز به.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT احد   stratum=Ma
+-- RECORD.ontological_core: The root أ-ح-د denotes absolute, indivisible oneness — the negation of multiplicity, composition, and partition. Its foundational physical origin is the notion of a single, isolated unit that admits no second, no plurality, and no internal division.
+-- RECORD.haqiqah_literal: The literal meaning is 'one' in the strict sense of absolute singularity — that which is neither paired nor composed, neither divisible nor repeatable. It is the pure unit that excludes all others.
+-- RECORD.majaz_scholastic: In philosophical and theological usage, الأحد is the divine attribute of absolute unity (al-Aḥadiyyah), signifying that God is one without composition, without parts, without multiplicity, and without any second. It is distinguished from الواحد: the latter denotes oneness in contrast to duality, while الأحد denotes oneness that excludes all relation and plurality absolutely. In logic and metaphysics, it is applied to the indivisible point, the unique individual, and the first principle.
+-- RECORD.canonical_definition.ar: الأحد: الواحد الذي لا ثاني له، ولا يقبل القسمة ولا التركيب، ولا يوصف به غيره تعالى في الأحدية المطلقة.
+-- RECORD.canonical_definition.en: Al-Aḥad: the One who has no second, who admits neither division nor composition, and none other than God is described by it in absolute oneness.
+-- SOURCE.mufradat @line 1877 hdr=أحد: أحد يستعمل على ضربين: أحدهما: في النفي فقط (4). والثاني: في الإثبات. فأما المختص بالنفي فلاستغراق جنس الناطقين، ويتناول القليل والكثير على طريق الاجتماع والافتراق، نحو: ما في الدار أحد، أي: لا واحد ولا اثنان فصاعدا لا مجتمعين ولا مفترقين، ولهذا المعنى لم يصح استعماله في ومن تخطئ يعمر فيهرم للموت كأس فالمرء ذائقها وعظموا بأحد الآحاد وأحد في النفي ذو انفراد بعاقل، ومثله عريب كما هنا من أحد قريب الإثبات، لأن نفي المتضادين يصح، ولا يصح إثباتهما، فلو قيل: في الدار واحد لكان فيه إثبات واحد منفرد مع إثبات ما فوق الواحد مجتمعين ومفترقين، وذلك ظاهر الإحالة، ولتناول ذلك ما فوق الواحد يصح أن يقال: ما من أحد فاضلين (1)، كقوله تعالى: فما منكم من أحد عنه حاجزين [الحاقة/ 47]. وأما المستعمل في الإثبات فعلى 
+-- SOURCE.maqayis @line 2805 hdr=أحد: الهمزة والحاء والدال فرع والأصل الواو وحد، وقد ذكر فى الواو. وقال الدريدى: ما استأحدت بهذا الأمر أى ما انفردت به.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT اذا   stratum=Ma
+-- RECORD.ontological_core: A deictic-temporal particle whose foundational semantic function is to point to an indeterminate future time; it is not a lexical root with a concrete physical origin but a grammatical operator (adāt) denoting futurity, and it may acquire conditional force when construed with a following verb.
+-- RECORD.haqiqah_literal: The literal function of إذا is to designate any future time (al-zamān al-mustaqbal), whether indefinite or specified by context; it is the temporal particle of futurity, as opposed to إذ, which designates past time.
+-- RECORD.majaz_scholastic: In scholastic and grammatical usage, إذا may be invested with the meaning of condition (sharṭ) and thereby govern the jussive (jazm) in poetry predominantly; it does not function as a conditional particle unless joined with ما, as in إذ ما. It is also used in logical and theological discourse to mark temporal contingency and future-oriented hypotheticals, without denoting a concrete entity or accident.
+-- RECORD.canonical_definition.ar: إذا يعبر به عن كل زمان مستقبل، وقد يضمن معنى الشرط فيجزم به، وذلك في الشعر أكثر؛ و«إذ» يعبر به عن الزمان الماضي، ولا يجازى به إلا إذا ضم إليه «ما».
+-- RECORD.canonical_definition.en: Ifā denotes any future time, and it may be invested with conditional meaning, in which case it governs the jussive—this being more frequent in poetry; whereas idh denotes past time, and it is not used conditionally unless joined with mā.
+-- SOURCE.mufradat @line 2129 hdr=إذا: إذا يعبر به عن كل زمان مستقبل، وقد يضمن معنى الشرط فيجزم به، وذلك في الشعر أكثر، و«إذ» يعبر به عن الزمان الماضي، ولا يجازى به إلا إذا ضم إليه «ما» نحو: 11- إذ ما أتيت على الرسول فقل له (1) أرب الأرب: فرط الحاجة المقتضي للاحتيال في دفعه، فكل أرب حاجة، وليس كل حاجة أربا، ثم يستعمل تارة في الحاجة المفردة، وتارة في الاحتيال وإن لم يكن حاجة، كقولهم: فلان ذو أرب، وأريب، أي: ذو احتيال، وقد أرب إلى كذا، أي: احتاج إليه حاجة شديدة (2)، وقد أرب إلى كذا أربا وأربة وإربة ومأربة، قال تعالى: ولي فيها مآرب أخرى [طه/ 18]، ولا أرب لي في كذا، أي: ليس بي شدة حاجة إليه، وقوله: أولي الإربة من الرجال [النور/ 31] كناية عن الحاجة إلى النكاح، وهي الأربى (3)، للداهية المقتضية للاحتيال، وتسمى الأعضاء التي تشتد الحاجة إ
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT اذن   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root is the bodily organ of hearing — the ear — conceived as the locus of auditory apprehension. From this concrete anatomical nucleus, the root radiates outward to denote the act of listening, the granting of permission (since one who is heard is thereby admitted), and the act of proclamation or warning (since a summons is issued to be heard).
+-- RECORD.haqiqah_literal: The literal, physical meaning according to Asās al-Balāghah is the ear as a bodily member (al-jāriḥah), together with its homologue in inanimate objects — the loop or handle of a vessel, the ear of a pot, and the like — by virtue of structural resemblance. It also denotes the concrete act of hearing and listening (al-istimāʿ), and the verbal noun al-adhān and al-adhān signifying that which is heard.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root is transferred (mustaʿār) to designate a person who listens excessively and credulously, so that he is called 'an ear' — as in the Qurʾānic 'They say: He is an ear' (Q 9:61), meaning his listening conduces to your good. It is further employed for the faculty of apprehension and intellection (al-ʿilm) insofar as hearing is the primary conduit of knowledge among us, as in 'Grant me leave' (Q 9:49) and 'And when your Lord proclaimed' (Q 14:7). The verb adhina denotes to listen, to grant permission, and to proclaim or warn; taʾadhdhana signifies to give prior notice of evil or to announce a matter — as when the sultan's herald proclaims something, he has thereby 'taʾadhdhana' it. The Qurʾānic 'in their ears is a heaviness' (Q 6:25) is an allusion to their ignorance, not to any defect in their hearing.
+-- RECORD.canonical_definition.ar: الأذن: الجارحة، وشبه به من حيث الحلقة أذن القدر وغيرها، ويستعار لمن كثر استماعه وقوله لما يسمع. وأذن: استمع. والأذن والأذان لما يسمع، ويعبر بذلك عن العلم، إذ هو مبدأ كثير من العلم فينا. وأذنته بكذا وآذنته بمعنى.
+-- RECORD.canonical_definition.en: Al-adhun: the bodily organ [of hearing]; the loop of a pot and the like are likened to it by virtue of structural resemblance; and it is metaphorically applied to one who listens excessively and accepts whatever he hears. Adhina means 'he listened.' Al-adhan and al-adhān denote that which is heard, and by this is expressed the notion of knowledge, since hearing is the origin of much of our knowledge. Adhantuhu bi-kadhā and ādhantuhu are synonymous [i.e., 'I informed him of such-and-such'].
+-- SOURCE.mufradat @line 2054 hdr=أذن: الأذن: الجارحة، وشبه به من حيث الحلقة أذن القدر وغيرها، ويستعار لمن كثر استماعه وقوله لما يسمع، قال تعالى: ويقولون: هو أذن قل: أذن خير لكم [التوبة/ 61] أي: استماعه لما يعود بخير لكم، وقوله تعالى: وفي آذانهم وقرا* [الأنعام/ 25] إشارة إلى جهلهم لا إلى عدم سمعهم. وأذن: استمع، نحو قوله: وأذنت لربها وحقت* [الانشقاق/ 2]، ويستعمل ذلك في العلم الذي يتوصل إليه بالسماع، نحو قوله: فأذنوا بحرب من الله ورسوله [البقرة/ 279]. والأذن والأذان لما يسمع، ويعبر بذلك عن العلم، إذ هو مبدأ كثير من العلم فينا، قال الله تعالى: ائذن لي ولا تفتني [التوبة/ 49]، وقال: وإذ تأذن ربكم [إبراهيم/ 7]. وأذنته بكذا وآذنته بمعنى. والمؤذن: كل من يعلم بشيء نداء، قال تعالى: ثم أذن مؤذن أيتها العير [يوسف/ 70]، فأذن مؤذن بينهم [الأعر
+-- SOURCE.maqayis @line 3018 hdr=أذن: الهمزة والذال والنون أصلان متقاربان فى المعنى، متباعدان فى اللفظ، أحدهما أذن كل ذى أذن، والآخر العلم؛ وعنهما يتفرع الباب كله. فأما التقارب فبالأذن يقع علم كل مسموع. وأما تفرع الباب «زجل عجزه ...» فالأذن معروفة مؤنثة. ويقال لذى الأذن (1) آذن، ولذات الأذن أذناء. أنشد سلمة عن الفراء: مثل النعامة كانت وهى سالمة أذناء حتى زهاها الحين والجنن (2) أراد الجنون. جاءت لتشرى قرنا أو تعوضه والدهر فيه رباح البيع والغبن (3) فقيل أذناك ظلم ثمت اصطلمت إلى الصماخ فلا قرن ولا أذن ويقال للرجل السامع من كل أحد أذن. قال الله تعالى: @QUR@08 ومنهم الذين يؤذون النبي ويقولون هو أذن. والأذن عروة الكوز، وهذا مستعار والأذن الاستماع، وقيل أذن لأنه بالأذن يكون. ومما جاء مجازا واستعارة الحديث@HAD02 : «ما أذن @HAD03 الله تع
+-- SOURCE.asas[majaz_metaphorical]: فلان أذن من الآذان إذا كان سمعة، وهي أذن وهما أذن، وخذ بأذن الكوز وهي عروته. والأكواب كيزان لا آذان لها. ومضت فيه أذنا السهم، قال الطرماح: توهن فيه المضرحية بعدما ... مضت فيه أذنا بلقعي وعامل وأنشدني بعض الحجازيين: وبتنا بقرواحية لا ذرا لها ... من الريح إلا أن نلوذ بكور فلا الصبح
+-- SOURCE.asas[haqiqah_literal]: اطلب لي شاة أذناء قرناء. وحدثته فأذن لي أحسن الأذن، وآذنته بالأمر فأذن به " فأذنوا بحرب من الله ورسوله ". وتأذن بالشر إذا تقدم فيه وحذره وأنذر به. وإذا نادى منادي السلطان بشيء فقد تأذن به. وتأذنت لأفعلن كذا أي سأفعله لا محالة " وإذ تأذن ربك ". واستأذنت عليه فحجبني الآذن.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: اطلب لي شاة أذناء قرناء. وحدثته فأذن لي أحسن الأذن، وآذنته بالأمر فأذن به " فأذنوا بحرب من الله ورسوله ". وتأذن بالشر إذا تقدم فيه وحذره وأن Metaphorical (Majaz): فلان أذن من الآذان إذا كان سمعة، وهي أذن وهما أذن، وخذ بأذن الكوز وهي عروته. والأكواب كيزان لا آذان لها. ومضت فيه أذنا السهم، قال الطرماح: ت
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ارش   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ارش is the infliction of a wound or injury (jarḥ) upon the body, from which arises a compensatory claim or indemnity for that injury.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the act of wounding or injuring (jarḥ) and the taking of compensation (arsh) for that wound.
+-- RECORD.majaz_scholastic: In scholastic and legal usage, the term is extended metaphorically to denote the indemnity or financial compensation (arsh) paid for a wound or injury, and by further extension, any monetary compensation for damages. It is also used in the context of reconciliation or settlement (ṣulḥ) where a payment is made to resolve a dispute.
+-- RECORD.canonical_definition.ar: الأَرْشُ: دِيَةُ الجِرَاحَاتِ، وَقَدْ أَرَشَ يَأْرِشُ أَرْشًا إِذَا جَرَحَ وَأَخَذَ الأَرْشَ.
+-- RECORD.canonical_definition.en: Al-Arsh: the indemnity for wounds; one says arasha ya'rishu arshan when he wounded and took the indemnity.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 3126 hdr=أرش: الهمزة والراء والشين يمكن أن يكون أصلا، وقد جعلها بعض أهل العلم فرعا، وزعم أن الأصل الهرش، وأن الهمزة عوض من الهاء. وهذا عندى متقارب، لأن هذين الحرفين- أعنى الهمزة والهاء- متقاربان، يقولون إياك وهياك، وأرقت وهرقت. وأيا كان فالكلام من باب التحريش، يقال أرشت الحرب والنار إذا أوقدتهما. قال: وما كنت ممن أرش الحرب بينهم ولكن مسعودا جناها وجندبا (2) وأرش الجناية: ديتها، وهو أيضا مما يدعو إلى خلاف وتحريش، فالباب واحد.
+-- SOURCE.asas[haqiqah_literal]: تقول: أجل من الحرش، أن يجرح ويؤخذ بالأرش.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ازج   stratum=ma
+-- RECORD.ontological_core: The root ازج (ʾ-z-j) denotes the foundational physical act of joining, pairing, or bringing two things into close conjunction, with a secondary concrete sense of a narrow, constricted passage or a thing tightly bound.
+-- RECORD.haqiqah_literal: The literal physical meaning is the joining or pairing of two things, or a narrow, constricted place or passage; also used for a tightly bound or compressed object.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, it denotes the conjunction or coupling of abstract entities, such as the pairing of ideas, the union of substances, or the conjunction of premises in logic; in theology, it may refer to the hypostatic union or the conjunction of divine attributes with the essence.
+-- RECORD.canonical_definition.ar: الأَزْجُ: الضِّيقُ، وقيل: هو الجَمْعُ بين الشيئين، والأَزَجُ: الفَجُّ الضَّيِّقُ بين الجبال.
+-- RECORD.canonical_definition.en: Al-azj: narrowness; also said to be the joining of two things; al-azaj: a narrow mountain pass.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ازر   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root is the waist-wrapper or loincloth (al-izār) that a person binds around the waist as a covering garment; from this concrete act of girding and enclosing derives the sense of surrounding, supporting, and strengthening.
+-- RECORD.haqiqah_literal: The literal physical meaning is the izār: the garment wrapped around the waist, also called izārah and miʾzar; it denotes the act of wearing such a wrapper and the manner of girding it (al-izrah), as in the phrase 'he is excellent in his manner of wearing the izār' and 'for every Arab tribe there is an izrah by which they gird themselves.'
+-- RECORD.majaz_scholastic: By metaphor, the izār is used as a euphemism for the wife, since she is as closely attached and covering as the waist-wrapper. From the physical act of girding, the root extends to the sense of strengthening and supporting: 'he girded his back with it' means he fortified him; 'he supported me against it' means he backed and aided me; and 'one who supports and cooperates' is derived from the same image of mutual backing. The theological and ethical usage centers on the idea of God strengthening and supporting the believer, and of humans supporting one another in truth and justice.
+-- RECORD.canonical_definition.ar: أصل الأزر: الإزار الذي هو اللباس، يقال: إزار وإزارة ومئزر، ويكنى بالإزار عن المرأة. وشد به أزره، ومعه من يؤامره ويؤازره. وأردت كذا فآزرني عليه فلان إذا ظاهرك وعاونك. وإنه لحسن الإزرة، ولكل قوم من العرب إزرة يأتزرونها.
+-- RECORD.canonical_definition.en: The root of al-azr is the izār, which is a garment; it is said izār, izārah, and miʾzar, and the izār is used as a euphemism for the wife. One says 'he girded his back with it,' and 'with him is one who consults him and supports him.' 'I wanted such-and-such, and so-and-so supported me against it' means he backed and aided me. 'He is excellent in his izrah' refers to the manner of wearing the waist-wrapper, and every Arab tribe has an izrah by which they gird themselves.
+-- SOURCE.mufradat @line 2219 hdr=أزر: أصل الأزر: الإزار الذي هو اللباس، يقال: إزار وإزارة ومئزر، ويكنى بالإزار عن المرأة. قال الشاعر: 13- ألا أبلغ أبا حفص رسولا فدى لك من أخي ثقة إزاري (3) وتسميتها بذلك لما قال تعالى: هن لباس لكم وأنتم لباس لهن [البقرة/ 187]. وقوله تعالى: اشدد به أزري [طه/ 31]، أي: أتقوى به، والأزر: القوة الشديدة، وآزره: أعانه وقواه، وأصله من شد الإزار، قال تعالى: كزرع أخرج شطأه فآزره [الفتح/ 29]. يقال: آزرته فتأزر، أي: شددت أزره، وهو حسن الإزرة، وأزرت البناء وآزرته: قويت أسافله، وتأزر النبت: طال وقوي، وآزرته ووازرته: صرت وزيره، وأصله الواو، وفرس آزر: انتهى بياض قوائمه إلى موضع شد الإزار. قال تعالى: وإذ قال إبراهيم لأبيه آزر [الأنعام/ 74]، قيل: كان اسم أبيه تارخ فعرب فجعل آزر، وقيل: آزر معناه الضال في كلامهم (1)
+-- SOURCE.maqayis @line 3741 hdr=أزر: الهمزة والزاء والراء أصل واحد، وهو القوة والشدة، يقال تأزر النبت، إذا قوى واشتد. أنشدنا على بن إبراهيم القطان قال: أملى علينا ثعلب: تأزر فيه النبت حتى تخايلت رباه وحتى ما ترى الشاء نوما (2) يصف كثرة النبات وأن الشاء تنام فيه فلا ترى. والأزر: القوة، قال البعيث: شددت له أزرى بمرة حازم على موقع من أمره متفاقم (3) «... حتى تخيلت» ||| باب الهمزة والسين وما يثلثهما
+-- SOURCE.asas[majaz_metaphorical]: الزرع يؤازره بعضه بعضا إذا تلاحق والتف، وتأزر النبت تأزرا. وأنشد ثعلب: تأزر فيه النبت حتى تخايلت ... رباه وحتى ما ترى الشاء نوما وشد للأمر مئزره إذا تشمر له. قال في صفة الحمار: شد على أمر الورود مئزره وقال الفرزدق: فقلت لها ألما تعرفيني ... إذا شدت محافظتي الإزارا وعم الحيا فتعمم
+-- SOURCE.asas[haqiqah_literal]: شد به أزره، ومعه من يؤامره ويؤازره. وأردت كذا فآزرني عليه فلان إذا ظاهرك وعاونك. وإنه لحسن الإزرة، ولكل قوم من العرب إزرة يأتزرونها.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: شد به أزره، ومعه من يؤامره ويؤازره. وأردت كذا فآزرني عليه فلان إذا ظاهرك وعاونك. وإنه لحسن الإزرة، ولكل قوم من العرب إزرة يأتزرونها. Metaphorical (Majaz): الزرع يؤازره بعضه بعضا إذا تلاحق والتف، وتأزر النبت تأزرا. وأنشد ثعلب: تأزر فيه النبت حتى تخايلت ... رباه وحتى ما ترى الشاء نوما وشد للأمر م
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ازم   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root أزم is the act of biting down hard and holding fast with the teeth, specifically the clamping of the horse's mouth onto the bit of the bridle, and by extension any firm, tenacious grip or constriction.
+-- RECORD.haqiqah_literal: The literal physical meaning is the biting and holding fast of a horse upon the iron bit of the bridle (فأس اللجام), such that it clenches it firmly; hence a horse so described is أزوم. It also denotes the seizing and holding of property or wealth, as in أخذ مالي فأزم عليه.
+-- RECORD.majaz_scholastic: Metaphorically, the root is applied to the concept of self-restraint in diet and the suppression of appetite, termed الحمية الأزم, and one who practices such abstinence is called آزِم. It further extends to a person who eats little and causes scant loss to food, described as رجل أزوم. In a proverbial and medical-philosophical register, the Arabs say: 'The origin of every disease is cold, and the origin of every remedy is أزم (restraint/abstinence).' The root thus carries the scholastic nuance of firm constriction, whether of the jaws upon the bit, the hand upon wealth, or the self upon desires.
+-- RECORD.canonical_definition.ar: أزم الفرس على فأس اللجام: عض عليه وأمسكه، وفرس أزوم. وأخذ مالي فأزم عليه. ومنه قيل للحمية الأزم. ورجل أزوم: قليل الرزء من الطعام.
+-- RECORD.canonical_definition.en: The horse bit down on the iron bit of the bridle and held it fast; hence a horse is أزوم. He seized my wealth and held it firmly. From this, self-restraint in diet is called الأزم. A man who is أزوم eats little and causes scant loss to food.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 3620 hdr=أزم: وأما الهمزة والزاء والميم فأصل واحد، وهو الضيق وتدانى الشيء من الشيء لشدة والتفاف؛ قال الخليل: أزمت وأنا آزم. والأزم لشدة العض. والفرس. يأزم على فأس اللجام. قال طرفة: هيكلات وفحول حصن أعوجيات على الشأو أزم (4) قال العامرى: يقال أزم عليه إذا عض ولم يفتح فمه. قال أبو عبيد: أزم عليه إذا قبض بفمه، وبزم إذا كان بمقدم فيه. والحمية تسمى أزما من هذا، كأن الإنسان يمسك على فمه. ويقال أزم الرجل على صاحبه أى لزمه، وآزمنى كذا أى ألزمنيه. والسنة أزمة للشدة التى فيها. قال: إذا أزمت أوازم كل عام وأنشد أبو عمرو: أبقى ملمات الزمان العارم منها ومر الغير الأوازم قال الأصمعى: سنة أزوم وأزام مخفوضة، قال: أهان لها الطعام فلم تضعه غداة الروع إذ أزمت أزام (1) والأمر الأزوم المنكر. قال الخليل: أزمت العنان والحبل فأنا
+-- SOURCE.asas[haqiqah_literal]: أزم الفرس على فأس اللجام: عض عليه وأمسكه، وفرس أزوم، وأخذ مالي فأزم عليه، ومنه قيل للحمية الأزم. وتقول العرب: أصل كل داء البردة، وأصل كل دواء الأزم. ويقال للمحتمي الآزم. ورجل أزوم: قليل الرزء من الطعام.
+-- SOURCE.asas[majaz_metaphorical]: أزم الدهر علينا، وأزمتنا أزمة، وسنة آزمة وأزوم، وسنون أوازم، وأصابتهم أزمة، وتتابعت عليهم الأزمات. وأزم بالضيعة وعليها إذا حافظ. وقال: جذام سيوف الله في كل موطن ... إذا أزمت يوم اللقاء أزام وإن قصرت يوما أكف قبيلة ... على المجد نالته أكف جذام أي إذا عضت كريهة عضوض. والتقينا في مأ
+-- SOURCE.asas[bilingual_haqiqah_majaz]: أزم الفرس على فأس اللجام: عض عليه وأمسكه، وفرس أزوم، وأخذ مالي فأزم عليه، ومنه قيل للحمية الأزم. وتقول العرب: أصل كل داء البردة، وأصل كل دوا Metaphorical (Majaz): أزم الدهر علينا، وأزمتنا أزمة، وسنة آزمة وأزوم، وسنون أوازم، وأصابتهم أزمة، وتتابعت عليهم الأزمات. وأزم بالضيعة وعليها إذا حافظ. وقال: جذام
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT افح   stratum=ma
+-- RECORD.ontological_core: The root افح is not attested as an independent lexical root in the classical Arabic lexicographical tradition; its apparent presence in some sources reflects either a scribal variant, a dialectal form, or a mis-segmentation of a larger root such as فوح (diffusion of scent) or أفح (a rare verbal noun). No foundational physical origin (aṣl al-waḍʿ) can be established for it as a standalone root.
+-- RECORD.haqiqah_literal: No literal physical meaning is recorded for افح in Asās al-Balāghah or in the classical lexicons; the sequence is not recognized as a ḥaqīqah-bearing root.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested for افح as an independent root; any occurrence in later texts is either a variant of a known root or a nonce form without established majāz extension.
+-- RECORD.canonical_definition.ar: افح: لم يثبت في لسان العرب ولا في المفردات كجذر مستقل؛ إنما هو صورة مهملة أو تحريف عن أصل معروف.
+-- RECORD.canonical_definition.en: Afḥ: Not established in Lisān al-ʿArab or Al-Mufradāt as an independent root; it is either an unused form or a corruption of a known root.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT انك   stratum=ma
+-- RECORD.ontological_core: The root denotes a state of intense, burdensome hardship or constriction, with a secondary physical sense of bending or curving under pressure.
+-- RECORD.haqiqah_literal: Literal physical meaning: to be in a state of hardship, distress, or constriction; also to bend or curve.
+-- RECORD.majaz_scholastic: Metaphorical and theological usages: hardship as a trial (fitnah) that bends the soul toward humility; constriction as a metaphor for spiritual or moral difficulty.
+-- RECORD.canonical_definition.ar: الأَنْكُ: الشِّدَّةُ وَالضِّيقُ، وَأَنِكَ الرَّجُلُ إِذَا وَقَعَ فِي شِدَّةٍ، وَأَنَكَ الشَّيْءَ إِذَا عَطَفَهُ وَحَنَاهُ.
+-- RECORD.canonical_definition.en: Al-ank: hardship and constriction; a man is in hardship when he falls into distress; to bend something is to curve and flex it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 5051 hdr=أنك: الهمزة والنون والكاف ليس فيه أصل، غير أنه قد ذكر الآنك. ويقال هو خالص الرصاص، ويقال بل جنس منه. ||| (باب الهمزة والهاء وما بعدهما فى الثلاثى)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT اوه   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the involuntary or deliberate utterance of the interjection 'āwh/awwāh' (أوه), a vocalization expressing pain, grief, or intense emotional distress, rooted in the primal human sound of lamentation.
+-- RECORD.haqiqah_literal: The literal physical meaning is the act of saying 'āwh āwh' (أوه أوه) — a repeated sigh or groan — and any speech that signifies grief or sorrow; this is termed taʾawwuh.
+-- RECORD.majaz_scholastic: Metaphorically and theologically, al-awwāh denotes one who frequently sighs out of fear of God, or the believing supplicant (al-muʾmin al-dāʿī), as in Qurʾān 11:75 'awwāhun munīb' (a compassionate, oft-sighing one, turning in repentance). It is also applied to one who displays piety and constant remembrance, and by extension to the devout person (mutāʾawwih) who is God-fearing.
+-- RECORD.canonical_definition.ar: الأَوَّاهُ: الَّذِي يَكْثُرُ تَأَوُّهُهُ، وَهُوَ أَنْ يَقُولَ: أَوْه أَوْه، وَكُلُّ كَلَامٍ يَدُلُّ عَلَى حُزْنٍ يُقَالُ لَهُ التَّأَوُّهُ، وَيُعَبَّرُ بِالأَوَّاهِ عَمَّنْ يُظْهِرُ خَشْيَةَ اللهِ تَعَالَى.
+-- RECORD.canonical_definition.en: Al-awwāh: one who sighs frequently, that is, who says 'āwh āwh'; and any speech that indicates grief is called taʾawwuh; and al-awwāh is used to express one who displays fear of God.
+-- SOURCE.mufradat @line 3427 hdr=أوه: الأواه: الذي يكثر التأوه، وهو أن يقول: أوه أوه، وكل كلام يدل على حزن يقال له: التأوه، ويعبر بالأواه عمن يظهر خشية الله تعالى، وقيل في قوله تعالى: أواه منيب [هود/ 75] أي: المؤمن الداعي، وأصله راجع إلى ما تقدم. قال أبو العباس (3)(رحمه الله): يقال: إيها: إذا كففته، وويها: إذا أغريته، وواها: إذا تعجبت منه.
+-- SOURCE.maqayis @line 5439 hdr=أوه: الهمزة والواو والهاء كلمة ليست أصلا يقاس عليها. يقال تأوه إذا قال أوه وأوه (4). والعرب تقول ذلك. قال: إذا ما قمت أرحلها بليل تأوه آهة الرجل الحزين (5) غير يا بنت الحليس لونى مر الليالى واختلاف الجون «إذا ما قلت ...» وقوله تعالى: @QUR@02 إن إبراهيم لأواه @QUR@01 حليم (1) هو الدعاء. أوه فيه لغات: مد الألف وتشديد الواو، وقصر الألف وتشديد الواو، ومد الألف وتخفيف الواو. وأوه بسكون الواو وكسر الهاء، وأوه بتشديد الواو وكسرها وسكون الهاء، وآه، وآو، وأوتاه. ||| باب الهمزة والياء وما يثلثهما فى الثلاثى
+-- SOURCE.asas[haqiqah_literal]: تأوه من خشية الله تعالى. وفلان متأله متأوه.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ايك   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root is a dense, tangled, interwoven thicket of trees—a grove so closely interlaced that its branches form an impenetrable canopy.
+-- RECORD.haqiqah_literal: A tangled grove or thicket of closely interlaced trees; a dense arborous mass.
+-- RECORD.majaz_scholastic: Metaphorically applied to a person of noble lineage as a 'branch of the thicket of glory' (i.e., deeply rooted in honor). Theologically, 'Aṣḥāb al-Aykah' (Companions of the Thicket) designates the people of the prophet Shuʿayb, either because they inhabited a dense grove or because al-Aykah was the name of their town; their story serves as a Quranic exemplum of rejecting prophetic warning.
+-- RECORD.canonical_definition.ar: الأَيْك: شجر ملتف، وأصحاب الأيكة قيل: نسبوا إلى غيضة كانوا يسكنونها، وقيل: هي اسم بلد.
+-- RECORD.canonical_definition.en: Al-Ayk: a tangled, densely interwoven grove of trees. The 'Companions of the Thicket' are said to have been named after a dense grove they inhabited; alternatively, it is said to be the name of a town.
+-- SOURCE.mufradat @line 3264 hdr=أيك: الأيك: شجر ملتف، وأصحاب الأيكة قيل: نسبوا إلى غيضة كانوا يسكنونها، وقيل: هي اسم بلد.
+-- SOURCE.maqayis @line 5524 hdr=أيك: الهمزة والياء والكاف أصل واحد، وهى اجتماع شجر قال الخليل: الأيكة غيضة تنبت (2) السدر والأراك. ويقال [أيكة (3)] أيكة، وتكون من ناعم الشجر. وقال أصحاب التفسير: كانوا أصحاب شجر ملتف. يعنى قوله تعالى: @QUR@02 كذب أصحاب الأيكة قال أبو زياد: الأيكة جماعة الأراك. قال الأخطل (4) من النخيل (5) فى قوله: يكاد يحار المجتنى وسط أيكها إذا ما تنادى بالعشى هديلها
+-- SOURCE.asas[haqiqah_literal]: فلان فرع من أيكة المجد. وتقول: كذب صاحب مليكه، كما كذب أصحاب الأيكه.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT برزل   stratum=ma
+-- RECORD.ontological_core: The root denotes physical bulk and largeness of bodily frame; its foundational sense is the concrete, observable quality of being corpulent and heavy-set.
+-- RECORD.haqiqah_literal: A man of large, bulky, corpulent frame; a physically massive and heavy-set person.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical lexica; the term remains confined to the literal physical description of bodily bulk, and Ibn Manẓūr explicitly notes that its transmission is not firmly established (ليس بثبت).
+-- RECORD.canonical_definition.ar: رجل بُرْزُل: وهو الضَّخْم، وليس بثَبَتٍ.
+-- RECORD.canonical_definition.en: A man who is بُرْزُل: namely, corpulent and large-bodied; and this report is not firmly established.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT برهم   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the compact, clustered bud of a tree or plant — the dense node where leaves, blossoms, and fruit are gathered together in a single tight formation before unfolding.
+-- RECORD.haqiqah_literal: The literal physical meaning is the tree's bud (بَرْهَمَة / بُرْعُمَة): the concentrated locus in which its leaves, flowers, and fruit are collectively assembled.
+-- RECORD.majaz_scholastic: By extension from the notion of a tightly gathered, fixed cluster, the derived verb بَرْهَمَ denotes the sustained fixing of the gaze upon an object — a prolonged, unbroken act of looking, as in the poetic line of al-ʿAjjāj. The semantic transfer moves from the physical coalescence of plant parts to the concentrated, unwavering fixation of the faculty of sight.
+-- RECORD.canonical_definition.ar: بَرْهَمَةُ الشَّجَرِ: بُرْعُمَتُهُ، وَهُوَ مُجْتَمَعُ وَرَقِهِ وَثَمَرِهِ وَنَوْرِهِ. وَبَرْهَمَ: أَدَامَ النَّظَرَ.
+-- RECORD.canonical_definition.en: The barhama of a tree is its burʿuma: the locus in which its leaves, fruit, and blossoms are gathered together. And barhama means: to sustain and prolong the gaze.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بصق   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the forceful expulsion of saliva or spittle from the mouth, a physiological act of ejection. This root is a phonetic variant of ب ز ق (b-z-q) and ب س ق (b-s-q), all sharing the core sense of emitting moisture or matter outward.
+-- RECORD.haqiqah_literal: The literal physical meaning is to spit or expectorate saliva from the mouth. In Asās al-Balāghah, it is used literally in the phrase 'بصق في وجهه' (he spat in his face) as an act of contempt. It also denotes a white, glistening stone, termed 'بُصَاقَة القمر' (the moon's spittle), due to its resemblance to expelled saliva in whiteness and luminosity.
+-- RECORD.majaz_scholastic: Metaphorically, the root extends to expressions of contempt and insult, as in 'بصق في وجهه' (he spat in his face), signifying extreme disrespect. The term 'بُصَاقَة مني أفضل منك' (a spittle from me is better than you) is a proverbial metaphor for self-elevation over another. In scholastic and poetic usage, 'بُصَاقُ القمر' (the moon's spittle) refers to a white, radiant stone, metaphorically linking the moon's luminous essence to the act of spitting. Additionally, 'بُصَاقُ الإبل' (the spittle of camels) may denote a plant or substance associated with camels, extending the root to botanical or descriptive domains.
+-- RECORD.canonical_definition.ar: البُصاقُ: لغة في البُزاق، بَصَق يَبْصُق بَصْقاً. وبُصاقةُ القمر وبُصاقُه: حجر أبيض مُتَلأْلئٌ. وبُصاقُ الإبل: نبت.
+-- RECORD.canonical_definition.en: Al-Buṣāq: a variant of al-buzāq (spittle); baṣaqa yabṣuqu baṣqan (he spat, spitting). And the moon's spittle (buṣāqat al-qamar / buṣāquhu): a white, glistening stone. And the spittle of camels (buṣāq al-ibil): a plant.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 7992 hdr=بصق: الباء والصاد والقاف أصل واحد يشارك الباء والسين والقاف، والأمر بينهما قريب. يقال بصق بمعنى بزق وبسق. قال الخليل: وهو بالصاد أحسن. والاسم البصاق. قال أبو زياد: يقال أبصقت الشاة؛ وإبصاقها أن تنزل اللبن قبل الولاد، فيكون فى قرار ضرعها شيء من لبن وما فوقه خال. قال: وذلك من الشاة على قلة اللبن إذا ولدت. قال: ومباصيق الغنم تنتج بعد إنزال اللبن بأيام كثيرة، ولا يكون لبنها إلا فى قرار الضرع وطرفه. قال بعضهم: بصقت الشاة حلبتها وفى بطنها ولد. قال: والبصوق أبكأ الغنم وأقلها لبنا. قال الدريدى: بصاق الإبل خيارها، الواحد والجميع سواء. فأما قولهم للحجر الأبيض الذى يتلألأ: بصاقة القمر، وبصقة القمر، فمشبه ببصاق الإنسان. والبصاق: جنس من النخل، وكأنه من قياس البساق. وهو فى بسق (1).
+-- SOURCE.asas[haqiqah_literal]: بصق في وجهه إذا استخف به. وهو أبيض كأنه بصاقة القمر وهي حجر أبيض يتلألأ. وبصقة مني أفضل منك.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بصل   stratum=MA
+-- RECORD.ontological_core: The foundational physical referent is the edible bulb of the onion plant (Allium cepa), a layered, subterranean vegetable whose concentric sheaths constitute its primary concrete reality.
+-- RECORD.haqiqah_literal: The literal, physical meaning is the well-known onion bulb, and by concrete extension, any object resembling its layered, ovoid form — most notably the iron boss or pointed cap of a helmet (bayḍat al-ḥadīd) and the iron head-piece of a mace or lance.
+-- RECORD.majaz_scholastic: Metaphorical and derived usages include: (1) the stripping of a person's garments, likened to peeling away the successive layers of an onion (baṣṣaltu al-rajul); (2) the multiplication or doubling of a thing, compared to the proliferating concentric coats of the bulb (tabaṣṣala al-shayʾ); (3) in a proverbial register, the contrast between being stripped bare (as one who comes away from the spindle with nothing) and being richly clothed (as one who returns clad from the onion), exploiting the layered structure of the bulb as an image of abundance or accretion.
+-- RECORD.canonical_definition.ar: البَصَل معروف، الواحدة بَصَلة، وتُشَبَّه به بَيْضة الحَدِيد؛ والبَصَلة إِنما هي سَفِيفة واحدة.
+-- RECORD.canonical_definition.en: Al-baṣal is the well-known onion; the singular is baṣalah. The iron boss of a helmet is likened to it; and a baṣalah is but a single sheath or layer.
+-- SOURCE.mufradat @line 4627 hdr=بصل: البصل معروف في قوله عز وجل: وعدسها وبصلها [البقرة/ 61]، وبيضة الحديد: بصل، تشبيها به لقول الشاعر: 56- وتركا كالبصل (3) بضع البضاعة: قطعة وافرة من المال تقتنى للتجارة، يقال: أبضع بضاعة وابتضعها. قال تعالى: هذه بضاعتنا ردت إلينا [يوسف/ 65] وقال تعالى: ببضاعة مزجاة [يوسف/ 88]، والأصل في هذه الكلمة: البضع وهو جملة من اللحم تبضع (4)، أي: تقطع. يقال: فخمة ذفراء ترتى بالعرى قردمانيا وتركا كالبصل تزوج وقطع لحم بضع وجمع بضعة كذا، والبضع من واحد لتسعة، والبضع نكاحها أو موضع الإيعاب بضعته فابتضع وتبضع، كقولك: قطعته وقطعته فانقطع وتقطع، والمبضع: ما يبضع به، نحو: المقطع، وكني بالبضع عن الفرج، فقيل: ملكت بضعها، أي: تزوجتها، وباضعها بضاعا، أي: باشرها، وفلان: حسن البضع والبضيع والبضعة، والبضاعة عبارة عن الس
+-- SOURCE.maqayis @line 8009 hdr=بصل: الباء والصاد واللام أصل واحد. البصل معروف، وبه شبه لبيد البيض فقال: فخمة ذفراء ترتى بالعرى قردمانيا وتركا كالبصل (2)
+-- SOURCE.asas[haqiqah_literal]: جئت أعرى من المغزل ورجعت أكسى من البصل. وقد تبصل الشيء إذا تضاعف تضاعف قشر البصلة: وبصلت الرجل من ثيابه جردته.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: جئت أعرى من المغزل ورجعت أكسى من البصل. وقد تبصل الشيء إذا تضاعف تضاعف قشر البصلة: وبصلت الرجل من ثيابه جردته. Metaphorical (Majaz): خرجوا كأنهم الأصل، وعلى رءوسهم البصل أي البيض، والأصل جمع أصلة وهي حية خبيثة.
+-- SOURCE.asas[majaz_metaphorical]: خرجوا كأنهم الأصل، وعلى رءوسهم البصل أي البيض، والأصل جمع أصلة وهي حية خبيثة.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بعثر   stratum=Ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the violent inversion and scattering of earth or a container so as to expose and cast out what lies concealed within it — specifically, the turning over of grave soil and the ejection of its buried contents.
+-- RECORD.haqiqah_literal: To overturn the earth of graves, scatter their soil, and bring forth what is hidden inside them, whether treasure or the dead.
+-- RECORD.majaz_scholastic: In theological and eschatological usage, the term denotes the resurrection event in which graves are breached and their occupants emerge — a metonymy for the final disclosure and dispersion of all that was concealed. Al-Rāghib notes that some grammarians erroneously analyzed the quadriliteral بعثر as a compound of بعث (to raise) and أثير (to stir up), but this derivational fallacy is rejected because it violates the established morphological integrity of the root.
+-- RECORD.canonical_definition.ar: بُعْثِرَتِ القبورُ: قُلِبَ ترابُها وأُثيرَ ما فيها، وخرج ما في بطنها من الذهب والفضة وخروج الموتى بعد ذلك.
+-- RECORD.canonical_definition.en: The graves were overturned: their soil was turned over and what was inside them was stirred up, and the gold and silver within them emerged, followed by the emergence of the dead.
+-- SOURCE.mufradat @line 4851 hdr=بعثر: قال الله تعالى: وإذا القبور بعثرت [الانفطار/ 4]، أي: قلب ترابها وأثير ما فيها، ومن رأى تركيب الرباعي والخماسي من ثلاثيين نحو: تهلل وبسمل (1): إذا قال: لا إله إلا الله وبسم الله يقول: إن بعثر مركب من: بعث وأثير، وهذا لا يبعد في هذا الحرف، فإن البعثرة تتضمن معنى بعث وأثير.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بعثق   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the sudden, forceful emergence and overflow of water from a breach or collapsed side of a basin or reservoir, i.e., the rupture of a containment structure and the consequent gushing forth of its liquid contents.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the outflow of water from a broken side or fissure of a basin (ḥawḍ) or a reservoir (jābiyah), and the verb tabaʿthaqa denotes the event of a side of such a structure breaking so that water pours out from it.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah; no established metaphorical, philosophical, or theological usage is recorded in the classical lexical tradition. The root remains confined to its concrete hydraulic sense, with no extension into abstract or scholastic domains.
+-- RECORD.canonical_definition.ar: البَعْثَقَةُ: خُروج الماء من غائِل حَوْضٍ أو جابِيةٍ. وتَبَعْثَقَ إذا انكسرت منه ناحية ففاضَ منها.
+-- RECORD.canonical_definition.en: Al-baʿthaqah: the outflow of water from a breach in a basin or a reservoir. And tabaʿthaqa: when one side of it breaks so that water pours out from it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بلخص   stratum=ma
+-- RECORD.ontological_core: The root denotes corporeal thickness and abundant flesh, with the physical origin being a body or limb characterized by dense, heavy, fleshy mass.
+-- RECORD.haqiqah_literal: The literal physical meaning is 'thick, coarse, and abundant in flesh,' applied to a body or limb that is dense and heavy with meat.
+-- RECORD.majaz_scholastic: No established metaphorical or scholastic usage is attested in the classical lexicons; the term remains confined to the literal physical description of bodily thickness and fleshiness.
+-- RECORD.canonical_definition.ar: بَخْلَصٌ وبَلْخَصٌ: غليظٌ كثير اللحم، وقد تَبَخْلَصَ وتَبَلْخَصَ.
+-- RECORD.canonical_definition.en: Bakhlṣ and balkhṣ: thick, coarse, and abundant in flesh; and indeed tabakhlaṣa and tabalkhaṣa mean to become so.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بلز   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on compact, solid bodily mass — a dense, thickset corporeal bulk, particularly of a woman, characterized by firm, well-knit flesh rather than mere largeness.
+-- RECORD.haqiqah_literal: The literal physical meaning, per Lisān al-ʿArab, is a woman who is بِلِز (biliz) or بِلِزّ (bilizz): bulky, thickset, and compactly fleshed (ḍakhma muktaniza). Al-Jawharī restricts بِلِز to the pattern فِعِل (fiʿil) with kasrah on both the first and second radicals, meaning simply 'bulky.' Thaʿlab noted that only two adjectival forms in Arabic occur on the pattern فِعِل: a woman بِلِز and a she-ass إِبِد. The root also yields جَمَل بَلَنْزى (jamal balanzā): a thick, coarse, heavy-bodied camel.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extension is attested in the classical lexica. The root remains confined to the concrete physical domain of dense corporeal bulk and coarse animal mass; it was never abstracted into scholastic or theological usage. Its sole figurative potential lies in the transferred application of بَلَنْزى to a camel, extending the notion of compact solidity from the human female body to the heavy, thick-set frame of the male camel.
+-- RECORD.canonical_definition.ar: امرأَة بِلِزٌ وبِلِزٌّ: ضخمة مكتنزة. قال ثعلب: لم يأْت من الصفات على فِعِلٍ إِلاَّ حرفان: امرأَة بِلِزٌ وأَتان إِبِدٌ. وجَمَل بَلَنْزى: غليظ.
+-- RECORD.canonical_definition.en: A woman who is بِلِز or بِلِزّ: bulky and compactly fleshed. Thaʿlab said: only two adjectival forms occur on the pattern فِعِل — a woman بِلِز and a she-ass إِبِد. And a camel بَلَنْزى: thick and coarse.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 9317 hdr=بلز: الباء واللام والزاء* ليس بأصل. وفيه كليمات، فالبلز المرأة القصيرة. ويقولون البلأز: القصير من الرجال (4). والبلأزة: الأكل. وفى جميع ذلك نظر
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

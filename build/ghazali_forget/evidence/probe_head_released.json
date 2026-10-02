@@ -1,0 +1,15 @@
+{
+  "tag": "released",
+  "val_windows": 300,
+  "n_positions": 18869,
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "trunk": "released",
+  "live": {
+    "n": 18869,
+    "acc@1": 0.06640521436929703,
+    "acc@5": 0.12549684941768646,
+    "ce_raw": 7.658056735992432,
+    "ce_z": 8.099766731262207,
+    "logit_scale": 0.651669979095459
+  }
+}

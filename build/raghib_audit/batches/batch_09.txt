@@ -1,0 +1,265 @@
+====================================================================================================
+ROOT فوخ   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ف-و-خ is the emission and diffusion of a scent or odor, specifically the rising and spreading of a fragrant or malodorous exhalation through the air, akin to the root ف-و-ح. It denotes the effusion of a volatile substance that fills the surrounding atmosphere and may be perceived by the sense of smell, sometimes with a forceful or overpowering quality.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah (as inferred from Lisān al-ʿArab) is: the diffusion and rising of a smell or odor, whether pleasant (like musk) or foul, such that it spreads through the air; also, the emission of wind (flatulence) from a person, and the act of a smell taking away one's breath due to its intensity.
+-- RECORD.majaz_scholastic: While not attested in Asās al-Balāghah, the metaphorical and scholastic extensions may include: the diffusion of reputation or news (as a scent spreads), the emanation of spiritual or moral influence, and in theological contexts, the manifestation of divine attributes or the diffusion of sanctity. However, these are not classical attestations and remain speculative; the primary usage is literal sensory.
+-- RECORD.canonical_definition.ar: فَاخَ المِسْكُ يَفُوخُ وَيَفِيخُ فَوْخًا وَفَوَخَانًا: سَطَعَ مِثْلَ فَاحَ. وَفَاخَ الرَّجُلُ يَفُوخُ فَوْخًا وَأَفَاخَ يُفِيخُ: خَرَجَتْ مِنْهُ رِيحٌ.
+-- RECORD.canonical_definition.en: Musk diffused and rose like fāḥa. A man emitted wind: he passed wind.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قبا   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ق ب و is the act of gathering, collecting, or picking up a substance with the fingers or hand, specifically the harvesting of saffron and safflower. This concrete manual act of aggregation is the root's primary material sense, from which all subsequent applications derive by extension or restriction.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the direct, manual gathering of a substance—such as saffron (زعفران) or safflower (عصفر)—by the fingers, i.e., picking or harvesting it. It also denotes the physical convergence or closing of the lips (القَبْوة: انضمام ما بين الشفتين).
+-- RECORD.majaz_scholastic: The metaphorical and scholastic extensions include: (1) The term القابية (al-qābiya) for a woman who gathers saffron, a nominal derivation from the literal act; (2) The garment known as القَباء (al-qabāʾ), a long outer robe or cloak, which is a lexical extension from the root's sense of 'gathering' or 'enclosing' the body, though morphologically distinct (madd). In philosophical and theological usage, the root does not appear in classical scholastic texts for substance or accident; its majāz remains confined to concrete and social domains.
+-- RECORD.canonical_definition.ar: قَبا الشيءَ قَبْواً: جمعه بأَصابعه. والقَبْوةُ: انضمام ما بين الشفتين. والقَباء، ممدود، من الثياب.
+-- RECORD.canonical_definition.en: He gathered the thing with his fingers. Al-qabwa is the closing of the lips. Al-qabāʾ, with madd, is a type of garment.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قبس   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the act of taking or extracting a burning brand or flame from a larger fire—a portion of fire seized from its main mass.
+-- RECORD.haqiqah_literal: A burning brand, flame, or firebrand taken from a larger fire; the act of taking such a flame.
+-- RECORD.majaz_scholastic: Metaphorically extended to the seeking of knowledge, guidance, or illumination, as in the Quranic verse 'Look at us, that we may borrow from your light' (57:13). Also applied to a stallion swift in impregnation, likened to fire in its speed.
+-- RECORD.canonical_definition.ar: القَبَس: الشُّعْلة من النار، واقْتِباسها الأَخذ منها.
+-- RECORD.canonical_definition.en: Al-Qabas: a burning brand from fire; its iqtibās is the taking from it.
+-- SOURCE.mufradat @line 26238 hdr=قبس: القبس: المتناول من الشعلة، قال: أو آتيكم بشهاب قبس [النمل/ 7]، والقبس والاقتباس: طلب ذلك، ثم يستعار لطلب العلم والهداية. قال: انظرونا نقتبس من نوركم [الحديد/ 13]. وأقبسته نارا أو علما: أعطيته، والقبيس: فحل سريع الإلقاح تشبيها بالنار في السرعة.
+-- SOURCE.maqayis @line 60365 hdr=قبس: القاف والباء والسين أصل صحيح يدل على صفة من صفات النار، ثم يستعار. من ذلك القبس: شعلة النار. قال الله تعالى فى قصة موسى (عليه السلام): @QUR@03 لعلي آتيكم منها بقبس. ويقولون: أقبست الرجل علما، وقبسته نارا. قال ابن دريد (2): قبست من فلان نارا، واقتبست منه علما، وأقبسني قبسا. ومن هذا القياس قولهم: فحل قبيس، وذلك إذا كان سريع الإلقاح، كأنه شبه بشعلة النار. قال: فأم لقوة وأب قبيس (3) فأما القبس فيقال إنه الأصل.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قحذم   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin centers on the act of falling headlong or collapsing downward, and by extension, entering a house or enclosed space. It denotes a sudden, forceful downward motion or penetration into an interior.
+-- RECORD.haqiqah_literal: The literal physical meaning is: a man falling down prostrate or headlong; and entering a house. It also denotes the act of falling upon one's head.
+-- RECORD.majaz_scholastic: Metaphorically, it may be used to describe a sudden downfall, a headlong plunge into a situation, or a forceful entry into a matter. In scholastic contexts, it could signify a precipitous decline or an abrupt incursion.
+-- RECORD.canonical_definition.ar: تقَحْذَم الرجل: وقع مُنْصَرِعاً. وتقَحْذَم البيتَ: دخَله. والقَحْذَمةُ والتَّقَحْذُم: الهُوِيّ على الرأْس.
+-- RECORD.canonical_definition.en: A man fell prostrate. He entered the house. Al-Qaḥdhamah and al-Taqaḥdhum: falling upon the head.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قرث   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is a specific cultivar of date palm fruit (tamr), characterized by its black color and rapid detachment of its skin from its flesh upon ripening (irtibāb).
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is a type of date (tamr) that is black, quick to have its skin peel away from its flesh when it ripens, and is considered the most delicious date in its unripe (busran) stage.
+-- RECORD.majaz_scholastic: Not attested in Asās al-Balāghah or Al-Mufradāt for metaphorical, philosophical, or theological usages. The term remains within the domain of concrete botanical and culinary reference, with no evidence of abstract extension in the classical lexicographical tradition.
+-- RECORD.canonical_definition.ar: القَرِيثاء: ضَرْبٌ من التمر، وهو أَسْودُ سريعُ النَقْضِ لقِشْرِه عن لِحائه إِذا أَرْطَبَ، وهو أَطيَبُ تمرٍ بُسْراً؛ يُضافُ ويوصَفُ به، ويُثنَّى ويُجْمع.
+-- RECORD.canonical_definition.en: Al-qarīthāʾ: a variety of date (tamr) that is black, rapidly detaches its skin from its flesh when it ripens (irtabā), and is the most delicious date when eaten unripe (busran); it may be used in construct (iḍāfa) and as an adjective, and may be dualized and pluralized.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قردحم   stratum=ma
+-- RECORD.ontological_core: The root denotes a specific, rugged, and remote topographical location—a place-name (موضع) characterized by harsh, broken terrain. Its foundational physical origin is the concrete designation of a desolate, stony ground or a rugged tract of land, from which the abstract sense of scattering and dispersal derives by analogy: to be cast into such broken country is to be dispersed beyond recovery.
+-- RECORD.haqiqah_literal: A proper noun (اسم علم) for a specific rugged, stony place or tract of land. In its strict literal usage, it is a toponym, indeclinable (غير مصروف) as a place-name, denoting a harsh, broken terrain. The phrase ذهبوا شَعالِيل بِقِرْدَحْمةٍ means 'they scattered in every direction at Qirdahma,' i.e., they dispersed across a rugged, remote location.
+-- RECORD.majaz_scholastic: By metonymic extension (مجاز مرسل), the toponym is used to signify total, irrecoverable dispersal. The scholastic usage is idiomatic: 'they went off to Qirdahma' (ذهبوا بقردحمة) signifies that a group has scattered in all directions, never to regroup. The underlying trope is spatial: a rugged, remote place serves as the emblem of utter dispersion. Al-Liḥyānī records the variant قِنْدَحْرة and قِدَّحْرة in the same idiomatic sense, confirming that the root's semantic core is the notion of scattering into a harsh, broken landscape.
+-- RECORD.canonical_definition.ar: قِرْدَحْمة: موضع. الفراء: ذهبوا شَعالِيل بِقِرْدَحْمةٍ أَي تفرقوا. قال ابن بري: وفي الغريب المصنف بِقِرْدَحْمةَ غير مصروف. وحكى اللحياني في نوادره: ذهب القوم بِقِنْدَحْرةٍ وقِنْدَحْرةٍ وقِدَّحْرة
+-- RECORD.canonical_definition.en: Qirdahma: a place. Al-Farrāʾ said: 'They went off in every direction at Qirdahma,' i.e., they scattered. Ibn Barrī said: In al-Gharīb al-Muṣannaf it appears as 'bi-Qirdahmata' in the indeclinable form. Al-Liḥyānī related in his Nawādir: 'The people went off to Qindahra, Qindahra, and Qiddahra' [in the same sense of dispersal].
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قرطس   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is a thin, flat sheet of writing material — specifically papyrus (bardī) manufactured in Egypt — serving as a surface for inscription.
+-- RECORD.haqiqah_literal: A physical sheet or scroll of papyrus used for writing; also a type of Egyptian striped cloth (burd) and a stretched hide set up as a target for archery.
+-- RECORD.majaz_scholastic: By extension, any written document or scripture (as in Qurʾānic 'kitāb fī qirṭās'); the target-hide (qirṭās) metaphorically denotes the goal or aim (gharaḍ) in archery and, by further abstraction, any object of pursuit or intention.
+-- RECORD.canonical_definition.ar: القِرْطاس: ما يُكتب فيه، معروف يُتَّخذ من بَرْدِيّ يكون بمصر. وكل أَديم يُنْصَب للنِّضال فاسمه قِرْطاس، ويسمَّى الغَرَض قِرْطاساً.
+-- RECORD.canonical_definition.en: Qirṭās: that upon which one writes; a well-known material made from papyrus (bardī) in Egypt. Every hide set up for archery is called a qirṭās, and the target itself is also called a qirṭās.
+-- SOURCE.mufradat @line 26834 hdr=قرطس: القرطاس: ما يكتب فيه. قال الله تعالى: ولو نزلنا عليك كتابا في قرطاس [الأنعام/ 7]، قل من أنزل الكتاب الذي جاء به موسى نورا وهدى للناس تجعلونه قراطيس [الأنعام/ 91].
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قرنس   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of hooding and sealing a bird of prey — specifically, sewing shut the eyes of a falcon or hawk at the moment of its capture, and the consequent loss or molting of its feathers during the taming process. The quadrilaterals قَرْنَس / قَرْنَص denote this concrete falconry operation, with the س and ص variants reflecting an ancient dialectal alternation on the فَعْلَل pattern.
+-- RECORD.haqiqah_literal: The literal physical meaning is: a falcon (البازي) was hooded and its eyes were stitched shut immediately upon capture, causing its plumage to drop; likewise said of a rooster (الديك) when its eyes are sealed or its feathers fall. The verb is intransitive (لازم) in this usage, describing the bird's condition rather than an agent's action.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical lexica. The term remains confined to the concrete domain of falconry and avian husbandry; any extended application (e.g., to a person whose sight or insight is forcibly obstructed) would be an ad hoc rhetorical extension rather than a recognized majāz of the root.
+-- RECORD.canonical_definition.ar: قَرْنَسَ البازي: كُرِّزَ، أي سقط ريشه، وخِيطَتْ عيناه أول ما يُصاد؛ فعل لازم. وقَرْنَسَ الديكُ وقَرْنَصَ: إذا كُرِّزَ وسقط ريشه.
+-- RECORD.canonical_definition.en: Qarnasa al-bāzī: it was hooded — that is, its feathers dropped and its eyes were stitched shut at the moment of capture; the verb is intransitive. And qarnasa al-dīk / qarnaṣa: when it was hooded and its feathers fell.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قسر   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root is the act of overpowering and subduing another by force, compelling them against their will.
+-- RECORD.haqiqah_literal: To overpower, subdue, or compel someone to do something against their will; to coerce or force.
+-- RECORD.majaz_scholastic: Metaphorically, it denotes the exercise of absolute authority or political domination, as in a ruler who subjugates and coerces the populace. Theologically, it may refer to the divine compelling of souls or events, though classical lexicographers primarily emphasize human coercion. The term 'qaswara' (lion) is derived from this root, metaphorically representing the lion's overwhelming predatory force.
+-- RECORD.canonical_definition.ar: القَسْرُ: القَهْرُ على الكُرْه. قَسَرَه يَقْسِرُه قَسْراً واقْتَسَرَه: غَلَبه وقَهَره، وقَسَرَه على الأَمر قَسْراً: أَكرهه عليه.
+-- RECORD.canonical_definition.en: Al-qasr is overpowering by force against one's will. Qasarahu yaqsiruhu qasran and iqtasarahu mean he overpowered and subdued him. Qasarahu 'ala al-amr qasran means he compelled him to do the matter.
+-- SOURCE.mufradat @line 26986 hdr=قسر: القسر: الغلبة والقهر. يقال: قسرته واقتسرته، ومنه: القسورة. قال تعالى: فرت من قسورة [المدثر/ 51] قيل: هو الأسد (1)، وقيل: الرامي، وقيل: الصائد.
+-- SOURCE.maqayis @line 61513 hdr=قسر: القاف والسين والراء يدل على قهر وغلبة بشدة. من ذلك القسر: الغلبة والقهر. يقال: قسرته قسرا، واقتسرته اقتسارا. وبعير قيسري: صلب. والقسورة: الأسد، لقوته وغلبته. ||| باب القاف والشين وما يثلثهما
+-- SOURCE.asas[haqiqah_literal]: قسرته على الأمر واقتسرته، وفعل ذلك قسرا واقتسارا. وهو مقتسر عليه، والوالي يتسخر الناس ويقتسرهم. وهم يخافون ال
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قشر   stratum=mA
+-- RECORD.ontological_core: The foundational physical act of stripping away an outer covering from a thing, thereby exposing what lies beneath; the root denotes the removal of a protective or concealing integument, whether by peeling, flaying, or husking.
+-- RECORD.haqiqah_literal: The literal, physical removal of an outer layer or rind from a thing, such as peeling a fruit or stripping bark from a tree; the integument itself, especially the rind or husk of fruit, the skin of a snake, or the outer covering of a garment.
+-- RECORD.majaz_scholastic: Metaphorical and extended usages include: a thin garment likened to the sloughed skin of a serpent; a snake or tree described as 'qashrāʾ' (peeled/covered only by its integument); and the pistachio termed 'muqashshar' (the peeled one) as a dominant designation. In scholastic and theological contexts, the root may be applied to the stripping away of accidents or veils from a substance to reveal its essential nature, though such usage is analogical rather than primary.
+-- RECORD.canonical_definition.ar: القَشْرُ: سَحْقُك الشيء عن دِيهِ. والقِشْرُ: واحد القُشُور، والقِشْرَة أَخص منه. قَشَرَ الشيءَ يَقْشِرُه ويَقْشُره قَشْراً فانْقَشَر وقَشَّرَهُ.
+-- RECORD.canonical_definition.en: Al-Qashr is the stripping of a thing from its outer covering. Al-Qishr is the singular of al-qushūr (peels/rinds), and al-qishrah is more specific than it. One says: qashara al-shayʾa yaqshiruhu wa yaqshuruhu qashran (he peeled the thing), fa-inqashara (and it became peeled), wa qashsharahu (and he peeled it thoroughly).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 61571 hdr=قشر: القاف والشين والراء أصل صحيح واحد، يدل على تنحية الشيء ويكون الشيء كاللباس ونحوه. من ذلك قولك: قشرت الشيء أقشره. والقشرة: الجلدة المقشورة. [والقشر (5)]: لباس الإنسان. قال الشاعر: [منعت حنيفة واللهازم منكم قشر العراق وما يلذ الحنجر (6)] وفي [حديث (7)] قيلة@HAD09 : «كنت إذا رأيت رجلا ذا رواء وذا قشر @HAD01 طمح @HAD02 بصري إليه» . والمطرة القاشرة: التي تقشر وجه الأرض. وسنة قاشورة: مجدبة تقشر أموال القوم. قال: فابعث عليهم سنة قاشوره تحتلق المال احتلاق النوره (1) ثم سمي كل شيء يفعل ذلك قاشورا، فيقولون للشؤم: قاشور. ويقولون في المثل: «أشأم من قاشر (2)»، وهو فحل له حديث. ولهذا سمي الفسكل (3) من الخيل الذي يجيء في الحلبة آخرها قاشورا. وقولهم إن الأقشر: الشديد الحمرة، وإنما ذلك للشديد حمرة الوجه، الذ
+-- SOURCE.asas[bilingual_haqiqah_majaz]: لوز مقشور ومقشر، وهذه قشارته. وثوب رقيق كقشر الحية: كسلخها. وحية قشراء. وشجرة قشراء. وفلان يتفكه بالمقشر أي بالفستق المقشور: اسم غالب عليه. Metaphorical (Majaz): خرج في قشرتين نظيفتين: في ثوبين. وعليه قشر حسن. ورجل ذو رواء وقشر. وجارية بضة القشر والقشرة وهو البشرة ورجل متقشر: عريان. وجاء بالجواب المقش
+-- SOURCE.asas[haqiqah_literal]: لوز مقشور ومقشر، وهذه قشارته. وثوب رقيق كقشر الحية: كسلخها. وحية قشراء. وشجرة قشراء. وفلان يتفكه بالمقشر أي بالفستق المقشور: اسم غالب عليه.
+-- SOURCE.asas[majaz_metaphorical]: خرج في قشرتين نظيفتين: في ثوبين. وعليه قشر حسن. ورجل ذو رواء وقشر. وجارية بضة القشر والقشرة وهو البشرة ورجل متقشر: عريان. وجاء بالجواب المقشر. وهو أشقر أقشر: شديد الحمرة كأنما قشر جلده. ومطرة قاشرة: شديدة الوقع تقشر وجه الأرض، وسنة قاشرة وقاشورة. قال: فابعث عليهم سنة قاشوره ... ت
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قطا   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ق ط و is the notion of heaviness and slowness in gait — a ponderous, dragging mode of walking. This sensory kernel of weighted movement is the root's primitive semantic nucleus, from which the name of the well-known bird (al-qaṭā) is derived by reason of its sluggish, heavy tread.
+-- RECORD.haqiqah_literal: The literal, physical meaning is: to walk heavily and slowly (قَطَا يَقْطُو: ثَقُلَ مَشْيُهُ). The noun al-qaṭā denotes the well-known bird (sandgrouse), so named because of the heaviness of its walking; its singular is qaṭāh, and its plural forms are qaṭawāt and qaṭayāt. Its characteristic manner of walking is termed al-iqṭīṭāʾ, expressed in the verb iqṭawṭat al-qaṭāh (the sandgrouse walked in its heavy, dragging fashion).
+-- RECORD.majaz_scholastic: No securely attested metaphorical, philosophical, or theological usage is recorded in the classical lexical tradition for this root. The semantic field remains confined to the literal domain of heavy, slow locomotion and the ornithonym derived from it. Any extended or figurative application would be secondary and non-canonical; the root exhibits no established majāz in the scholastic or theological register.
+-- RECORD.canonical_definition.ar: قَطَا يَقْطُو: ثَقُلَ مَشْيُهُ. وَالقَطَا: طَائِرٌ مَعْرُوفٌ، سُمِّيَ بِذَلِكَ لِثِقَلِ مَشْيِهِ، وَاحِدَتُهُ قَطَاةٌ، وَالجَمْعُ قَطَوَاتٌ وَقَطَيَاتٌ، وَمَشْيُهَا الاقْطِيطَاءُ.
+-- RECORD.canonical_definition.en: Qaṭā yaqṭū: to walk heavily and slowly. Al-qaṭā is the well-known bird (sandgrouse), so named because of the heaviness of its walking; its singular is qaṭāh, its plurals are qaṭawāt and qaṭayāt, and its manner of walking is al-iqṭīṭāʾ.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قلذم   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is a well or spring of abundant, copious water — a source that gushes forth and never runs dry, denoting plenitude and inexhaustible supply.
+-- RECORD.haqiqah_literal: A well (biʾr) that is abundant (ghazīrah) and copious in water (kathīrat al-māʾ); a gushing, overflowing wellspring.
+-- RECORD.majaz_scholastic: By extension, the term may be applied metaphorically to any person, source, or entity characterized by inexhaustible generosity, abundant knowledge, or overflowing beneficence — a 'fount' of giving. In scholastic and theological usage, it can denote the divine attribute of infinite provision (al-Razzāq) or the superabundant grace (fayḍ) that never ceases. The root is not attested in Al-Mufradāt or Asās al-Balāghah, so the literal-metaphorical boundary is drawn strictly from Lisān al-ʿArab: the ḥaqīqah is the physical well; the majāz is any analogous plenitude.
+-- RECORD.canonical_definition.ar: القَلَيْذَمُ: البئر الغزيرة الكثيرة الماء.
+-- RECORD.canonical_definition.en: Al-qalaydham: the well that is abundant and copious in water.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قلق   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root قلق is the agitated, unstable motion of a thing that is unsettled from its place—specifically, the restless shifting of a saddle or load upon a camel, or the trembling of a pivot in its socket, indicating a loss of firmness and equilibrium.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is the restlessness and instability of a person, animal, or object: a man is قلق (restless, agitated); a woman is قلقة or مقلاق (restless); a girl whose sash (وشاح) is unsettled; a she-camel whose saddle girth (وضين) is restless; the pivot of a pulley (محور البكرة) trembles; a sick person tosses on his bed; and a camel is made restless by its saddle and gear (أقلق البعير).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root denotes psychological and emotional disquiet: anxiety, unease, and perturbation of the self (الانزعاج). It is used for the agitation caused by grief, fear, or pain (أقلقني الحزن والخوف والرح), and for a state of apprehension and anxiety (به شفق وقلق). In theological and philosophical contexts, it signifies the soul's lack of tranquility and its unsettled movement away from its stable center, often contrasted with سكون (tranquility) and طمأنينة (composure).
+-- RECORD.canonical_definition.ar: القَلَقُ: الانزعاج. يقال: بات قَلِقاً، وأقلَقَهُ غيره.
+-- RECORD.canonical_definition.en: Al-qalaq is agitation/restlessness. It is said: 'He spent the night restless,' and 'someone else made him restless.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 59627 hdr=قلق: القاف واللام والقاف كلمة تدل على الانزعاج. يقال: قلق يقلق قلقا. ||| باب القاف والميم وما يثلثهما
+-- SOURCE.asas[haqiqah_literal]: رجل قلق: نزق. وامرأة قلقة ومقلاق، وجارية قلق وشاحها، وهي مقلاق الوشاح. وناقة مقلاق الوضين، وسيرتها حتى قلق وضينها، وأقلقت إليك وضن الركائب. وقلق محور البكرة. وقلق المريض على فراشه. وأقلقني الحزن والخوف والرح. وبه شفق وقلق. وأقلق البعير: قلق ما عليه من جهازه وهو قتبه وآلته.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قمح   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root قمح is the emergence and maturation of wheat-grain within the ear of corn, specifically from the onset of ripening until the grain is fully formed and compacted. From this concrete agricultural image, the root extends to the physical act of raising the head, particularly in refusal or aversion, as when a camel lifts its head away from water.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is: to take roasted barley or other grain in the palm of the hand and raise it to the mouth; to eat a morsel of such grain; and, of a camel, to raise its head away from water, refusing to drink due to aversion, cold, satiety, or some ailment. A camel doing so is described as قَامِح or مُقَامِح, and the two coldest months of winter are called شَهْرَا قِمَاح because camels lift their heads from the cold water during them.
+-- RECORD.majaz_scholastic: The metaphorical and theological usage is built on the image of raising the head in refusal. In the Qurʾānic verse 'مُقْمَحُونَ' (Q 36:8), it is a simile for those who are stubbornly averse to submitting to the truth, to accepting guidance, and to spending in the way of God. It is also said to allude to their state on the Day of Resurrection, when iron collars and chains will be around their necks (Q 40:71), forcing their heads upward. The root thus signifies obstinate refusal and the inability to lower the head in submission.
+-- RECORD.canonical_definition.ar: القَمْحُ: البُرُّ حين يجري الدقيقُ في السُّنْبُل، وقيل: من لَدُنِ الإِنضاج إِلى الاكتناز. والقَمْحُ: رفع الرأس لسف الشيء، ثم يقال لرفع الرأس كيفما كان: قمح. وقمح البعير: رفع رأسه عن الماء لا يشرب.
+-- RECORD.canonical_definition.en: Al-Qamḥ: wheat when the flour begins to form in the ear, or from the onset of ripening until full compaction. Al-Qamḥ: the raising of the head to take something; then any raising of the head is called qamḥ. A camel's qamḥ is its raising its head away from water, refusing to drink.
+-- SOURCE.mufradat @line 27557 hdr=قمح: قال الخليل (3): القمح: البر إذا جرى في السنبل من لدن الإنضاج إلى حين الاكتناز، ويسمى السويق المتخذ منه قميحة، والقمح: رفع الرأس لسف الشيء، ثم يقال لرفع الرأس كيفما كان: قمح، وقمح البعير: رفع رأسه، وأقمحت البعير: شددت رأسه إلى خلف. وقوله: مقمحون [يس/ 8] تشبيه بذلك، ومثل لهم، وقصد إلى وصفهم بالتأبي عن الانقياد للحق، وعن الإذعان لقبول الرشد، والتأبي عن الإنفاق في سبيل الله، وقيل: إشارة إلى حالهم في القيامة إذ الأغلال في أعناقهم والسلاسل [غافر/ 71].
+-- SOURCE.maqayis @line 59661 hdr=قمح: القاف والميم والحاء أصيل يدل على صفة تكون عند شرب الماء من الشارب، وهو رفعه رأسه. من ذلك القامح، وهو الرافع رأسه من الإبل عند الشرب امتناعا منه. وإبل قماح. قال: ونحن على جوانبها قعود نغض الطرف كالإبل القماح (3) ويقولون: رويت حتى انقمحت، أى تركت الشرب ريا. وشهرا قماح: أشد ما يكون من البرد، وسميا بذلك لأن الإبل إذا وردت آذاها برد الماء فقامحت، أى رفعت رءوسها. ومما شذ عن هذا الأصل القمح، وهو البر. ويقولون- ولعله أن يكون صحيحا: اقتمحت السويق وقمحته، إذا ألقيته فى فمك براحتك. قال ابن دريد (1): القمحة من الماء: ما ملأ فاك منه. والقمحات: الورس، أو الزعفران، أو الذريرة، كل ذلك يقال.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: قمحت السويق وغيره واقتمحته إذا أخذته في راحتك إلى فيك، واقتمحت قمحة من سويق وغيره، كقولك: التقمت لقمة من طعام، ومنه قولهم: قمح البعير عن الم Metaphorical (Majaz): أقمح المغلول فهو مقمح إذا لم يتركه عمود الغل الذي ينخس ذقنه أن يطأطيء رأسه " فهم مقمحون " وقمح صاحبه إذا دفعه بشيء وتح مما يجب له كما يفعل ا
+-- SOURCE.asas[haqiqah_literal]: قمحت السويق وغيره واقتمحته إذا أخذته في راحتك إلى فيك، واقتمحت قمحة من سويق وغيره، كقولك: التقمت لقمة من طعام، ومنه قولهم: قمح البعير عن الماء وقامح إذا رفع رأسه عنه لا يشرب لعيافه أو لبرد الماء أو للري أو لبعض العلل، وبعير قامح ومقامح، ومن ذلك قالوا لشيبان وملحان وهما من أشد أشه
+-- SOURCE.asas[majaz_metaphorical]: أقمح المغلول فهو مقمح إذا لم يتركه عمود الغل الذي ينخس ذقنه أن يطأطيء رأسه " فهم مقمحون " وقمح صاحبه إذا دفعه بشيء وتح مما يجب له كما يفعل الأمراء الظلمة بمن يغزو معهم يرضخونه أدنى شيء ويستأثرون بالغنائم. وما أصابت الإبل إلا قميحة من كلإ: شيئا من اليبس تستفه.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قندع   stratum=ma
+-- RECORD.ontological_core: The root denotes a man who tolerates or facilitates the illicit sexual conduct of his dependents, specifically a cuckold or procurer (dayyūth); its foundational origin is not pure Arabic but a Syriac loanword, with the variant قنذع (with dhāl) being the more attested form.
+-- RECORD.haqiqah_literal: The literal physical meaning is a man who is a cuckold or procurer (dayyūth), i.e., one who does not exhibit protective jealousy (ghīrah) over his wife or female relatives and permits their illicit sexual relations.
+-- RECORD.majaz_scholastic: No established metaphorical or philosophical usage is attested in the classical lexica; the term remains a concrete social-ethical designation. Any extended application to moral laxity or failure of guardianship would be a later rhetorical extension, not a classical majāz.
+-- RECORD.canonical_definition.ar: القُنْدُعُ والقُنْدُوعُ: الدَّيُّوثُ، سريانية ليست بعربية محضة، وقد يقال بالدال المهملة.
+-- RECORD.canonical_definition.en: Al-qunduʿ and al-qundūʿ: the cuckold or procurer (dayyūth); it is Syriac, not pure Arabic, and may also be pronounced with the unpointed dāl.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قندل   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin centers on elongated extension and unconstrained forward motion, specifically a man walking with loose, unhindered stride, and by extension any entity marked by length or bulk, particularly a large head.
+-- RECORD.haqiqah_literal: The literal physical meaning is a man walking in an unconstrained, extended manner (مَشى في استرسال); the root also literally denotes something long or tall (الطويل), and a large-headed, bulky creature among camels and mounts (الضخم الرأس من الإبل والدوابّ), comparable to عَنْدَل.
+-- RECORD.majaz_scholastic: No attested metaphorical, philosophical, or theological usage is recorded in the classical lexical sources; the term remains confined to its literal physical and descriptive applications.
+-- RECORD.canonical_definition.ar: قَنْدَل الرجلُ: مَشى في استرسال. والقَنْدَل: الطويل. والقَنْدَل والقُنَادِل: الضخم الرأس من الإبل والدوابّ مثل العَنْدَل.
+-- RECORD.canonical_definition.en: A man qandala: he walked with an unconstrained, extended stride. Al-qandal: the long or tall one. Al-qandal and al-qunādil: the large-headed, bulky one among camels and mounts, like al-ʿandal.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قنصل   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in the classical lexical tradition as a productive root; the only recorded form is the nominal قُنْصُل, denoting shortness of stature or a short person, with no established verbal or derivational root family.
+-- RECORD.haqiqah_literal: The literal physical meaning according to the classical lexica is 'short, of short stature' (قَصِير), applied to a person or thing lacking height.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical sources; the term remains a restricted descriptive adjective with no scholastic extension.
+-- RECORD.canonical_definition.ar: قُنْصُل: قَصِير.
+-- RECORD.canonical_definition.en: Qunṣul: short, of short stature.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قنع   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of inclining or bending toward something, specifically the lowering or turning of the head or hand toward an object, as when a camel lowers its head to drink or a person extends a hand in supplication. This concrete image of orientation toward a source underlies all subsequent semantic developments.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the act of bending or inclining the head, hand, or a vessel toward something, such as a camel lowering its head to a watering trough, a man extending his hands in prayer, or tilting a container to receive water from a stream. It also denotes the physical posture of a mouth with teeth inclined inward.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root signifies contentment and satisfaction with a modest portion of necessary provisions, as in the phrase 'contentment is a treasure' (al-qanāʿah kanz). It further denotes the act of asking or begging, particularly when done without importunity, as in the Quranic term 'al-qāniʿ' (the petitioner who does not persist). Theologically, it expresses the virtue of being satisfied with what God has apportioned, and the derived form 'aqnaʿa' means 'to cause someone to be content.' The root also extends to the notion of inclining toward people in need or supplication, and to the pastoral image of livestock inclining toward pasture.
+-- RECORD.canonical_definition.ar: قَنِعَ بنفسه قَنَعاً وقَناعةً: رَضِيَ؛ ورجل قانِعٌ من قوم قُنَّعٍ، وقَنِعٌ من قوم قَنِيعِينَ، وقَنِيعٌ من قوم قَنِيعينَ وقُنَعاءَ. والقناعة: الاجتزاء باليسير من الأعراض المحتاج إليها. وقَنَعَ يقنَع قُنُوعاً: إذا سأل.
+-- RECORD.canonical_definition.en: Qaniʿa bi-nafsihi qanaʿan wa-qanāʿatan: he was content. A man is qāniʿ (content) from a people qunnaʿ, qaniʿ from a people qanīʿīn, qanīʿ from a people qanīʿīn and qunaʿāʾ. Al-qanāʿah is sufficiency with a little of the necessary provisions. Qanaʿa yaqnaʿu qunūʿan: he asked or begged.
+-- SOURCE.mufradat @line 27642 hdr=قنع: القناعة: الاجتزاء باليسير من الأعراض المحتاج إليها. يقال: قنع يقنع قناعة وقنعانا: إذا رضي، وقنع يقنع قنوعا: إذا سأل (4). قال تعالى: وأطعموا القانع والمعتر [الحج/ 36]. قال بعضهم (5): القانع هو السائل الذي لا يلح في السؤال، ويرضى بما يأتيه عفوا، قال الشاعر: العبد حر إن قنع والحر عبد إن قنع فاقنع ولا تقنع فما شيء يشين سوى الطمع 372- لمال المرء يصلحه فيغني مفاقره أعف من القنوع (1) وأقنع رأسه: رفعه. قال تعالى: مقنعي رؤسهم [إبراهيم/ 43] وقال بعضهم: أصل هذه الكلمة من القناع، وهو ما يغطى به الرأس، فقنع، أي: لبس القناع ساترا لفقره كقولهم: خفي، أي: لبس الخفاء، وقنع: إذا رفع قناعه كاشفا رأسه بالسؤال نحو خفى إذا رفع الخفاء، ومن القناعة قولهم: رجل مقنع يقنع به، وجمعه: مقانع. قال الشاعر: 373- شهودي على لي
+-- SOURCE.maqayis @line 59910 hdr=قنع: القاف والنون والعين أصلان صحيحان، أحدهما يدل على الإقبال على الشىء، ثم تختلف معانيه مع اتفاق القياس؛ والآخر يدل على استدارة فى شىء. فالأول الإقناع: الإقبال بالوجه على الشىء. يقال: أقنع له يقنع إقناعا. والإقناع: مد اليد عند الدعاء. وسمى بذلك عند إقباله على الجهة التى يمد يده إليها. والإفناع: إمالة الإناء* للماء المنحدر. ومن الباب: قنع الرجل يقنع قنوعا، إذا سأل. قال الله سبحانه: @QUR@02 وأطعموا القانع @QUR@02 والمعتر . فالقانع: السائل؛ وسمى قانعا لإقباله على من يسأله. قال: لمال المرء يصلحه فيغنى مفاقره أعف من القنوع (1) ويقولون: قنع قناعة، إذا رضى. وسميت قناعة لأنه يقبل على الشىء الذى له راضيا. والإقناع: مد البعير رأسه إلى الماء للشرب. قال ابن السكيت: قنعت الإبل والغنم للمرتع، إذا مالت له. وفل
+-- SOURCE.asas[bilingual_haqiqah_majaz]: العز في القناعة والذل في القنوع وهو السؤال. وفلان قنع بالمعيشة وقنيع وقنوع وقانع. أنشد الكسائي: فإن ملكت كفاك قوطا فكن به ... قنيعا فإن المت Metaphorical (Majaz): أقنع صوته: رفعه. قال الراعي: زجل الحداء كأن في حيزومه ... قصبا ومقنعة الحنين عجولا وثكلى رافعة حنينها. وقنعت رأسه بالعصا وبالسوط. وكشف قناعه
+-- SOURCE.asas[haqiqah_literal]: العز في القناعة والذل في القنوع وهو السؤال. وفلان قنع بالمعيشة وقنيع وقنوع وقانع. أنشد الكسائي: فإن ملكت كفاك قوطا فكن به ... قنيعا فإن المتقي الله قانع وقنع بالشيء واقتنع وتقنع. وأقنعك الله بما أعطاك. وفلان حريص ما يقنعه شيء. وقنع إليه: سأله وهو من قنعت الماشية للمرتع: مالت إليه
+-- SOURCE.asas[majaz_metaphorical]: أقنع صوته: رفعه. قال الراعي: زجل الحداء كأن في حيزومه ... قصبا ومقنعة الحنين عجولا وثكلى رافعة حنينها. وقنعت رأسه بالعصا وبالسوط. وكشف قناعه وألقى جلبابه. وقنعته خزية وعارا، وتقنع من الخزية. قال: وإني بحمد الله لا ثوب عاجز ... لبست ولا من خزية أقتنع وتقنعوا في الحديد، وهو مقنع با
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قنفش   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin of the root قنفش is the act of contraction, shriveling, or drawing together into a compact, wrinkled mass, coupled with the rapid, forceful gathering of a thing. It denotes a sudden, tight coalescence—whether of a body shrinking upon itself or of objects being swept together swiftly.
+-- RECORD.haqiqah_literal: The literal physical meaning is contraction (التقبض) and rapid gathering (الجمع السريع). It describes a person or animal that is shriveled, tightly drawn together, or a thing that has been snatched up and collected in haste. It also denotes a small creeping creature (دويبة), likely so named for its contracted, compact form.
+-- RECORD.majaz_scholastic: Metaphorically, it is applied to an old woman (عجوز قنفشة) to describe her as hunched, shriveled, and contracted by age. It is also used in the phrase مُقَنْفِشاً لحيته (with his beard bristling or drawn together), indicating a posture of aggression, defiance, or intense concentration. In scholastic usage, it conveys the idea of a sudden, defensive, or avaricious withdrawal into oneself, or the hasty, disordered accumulation of something.
+-- RECORD.canonical_definition.ar: القَنْفَشَةُ: التقبُّضُ. وعجوز قِنْفِشَةٌ: مُتَقبِّضةٌ. وقَنْفَشَ الشيءَ: جمعه سريعاً. والقِنْفِشَةُ: دُوَيْبّة.
+-- RECORD.canonical_definition.en: Al-Qanfashah: contraction. An old woman who is qinfishah: shriveled/contracted. Qanfasha al-shayʾ: he gathered the thing quickly. Al-Qinfishah: a small creeping creature.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT قها   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the withdrawal or recession of appetite from food — a turning-away of the desiring faculty from nourishment, whether from satiety, distaste, or a constitutional diminution of hunger, without organic disease.
+-- RECORD.haqiqah_literal: The literal physical meaning is the cessation or retreat of the appetite for food, such that one turns away from eating; it is said of a man of little food-intake: qad aqhā wa-qad aqham.
+-- RECORD.majaz_scholastic: In scholastic and ethical usage, the root denotes the deliberate withholding of the appetitive faculty from what is present and desired — the case in which one is able to eat but refrains though still craving it. This is distinguished from the pathological loss of appetite and from the mere absence of hunger; it thus borders on the ethical discipline of restraining the concupiscible appetite (al-shahwah) and is compared to aqham, which carries the additional sense of aversion or loathing.
+-- RECORD.canonical_definition.ar: أَقْهى عن الطعام واقْتَهى: ارتدَّت شهوتُه عنه من غير مرض، مثل أَقْهَمَ؛ يقال للرجل القليل الطُّعم: قد أَقْهَى وقد أَقْهَم، وقيل: هو أَن يقدر على الطعام فلا يأَكله وإِن كان مشتهياً له.
+-- RECORD.canonical_definition.en: Aqhā ʿan al-ṭaʿām and iqtahā: his appetite receded from it without disease, like aqham; it is said of a man of little food-intake: qad aqhā wa-qad aqham. It is also said to be that he is able to eat but does not eat it, even though he craves it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

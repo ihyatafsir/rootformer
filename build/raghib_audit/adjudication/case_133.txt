@@ -1,0 +1,10 @@
+================================================================================================
+ROOT مكد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the notion of fixed, unmoving persistence in a place or state — a thing that stays put and does not shift, flow away, or dissipate. From this concrete sense of stationary continuance, the root extends to denote anything enduring, perpetual, or unceasing, such as water that remains and does not dry up.
+REC haqiqah_literal  : The literal physical meaning is: to remain, stay, abide, or dwell in a place (مَكَدَ بالمكان يَمْكُدُ مُكُوداً: أَقام به). It is synonymous with ثَكَمَ (to stay) and رَكَدَ (to be still, motionless). Applied to water, ماءٌ ماكِدٌ denotes water that is permanent, unfailing, and never ceasing — standing water that persists rather than draining or evaporating.
+REC canon_def.ar     : مَكَدَ بالمكان يَمْكُدُ مُكُوداً: أَقام به؛ وثَكَمَ يَثْكُم مثله، ورَكَدَ رُكوداً. وماءٌ ماكِدٌ: دائمٌ.
+REC canon_def.en     : مَكَدَ in a place, يَمْكُدُ مُكُوداً: he stayed or dwelt there; ثَكَمَ يَثْكُم is the same, and رَكَدَ رُكوداً [is likewise]. And ماءٌ ماكِدٌ means perpetual, unfailing water.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69039 hdr=مكد] الميم والكاف والدال كلمة تدل على ثبات. ومكد بالمكان: أقام. قال أبو عبيد: وهو من قولهم: ناقة مكود، إذا ثبت غزرها. ويقال إن البئر الماكدة: التي ثبت ماؤها على قرن واحد لا يتغير. والقرن قرن القامة.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 23227 hdr=مكد] مكَدَتِ الناقة: نقص لبنها من طول العهد، قال: قد حارد الخور وما تحارد ... حتى الجلاد درهن ماكِدُ «2» ومكَدَتٍ الناقة: دام لبنها فلم ينقطع، فلا أدري أمن الأضداد [هي] أم لا. وقال [بعض العرب] في صفة عجوز: ما ثديها بناهد ولا درها بماكد [ولا فوها ببارد] «3» . __________ (1) لم نهتد إلى الراجز، ولا إلى الرجز في غير الأصول. (2) الرجز في التهذيب 10/ 131، واللسان (مكد) ، غير منسوب أيضا. (3) ما بين القوسين من العين- رواية التهذ […]

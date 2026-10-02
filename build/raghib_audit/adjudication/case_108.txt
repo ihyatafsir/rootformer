@@ -1,0 +1,10 @@
+================================================================================================
+ROOT هذم   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root هذم is the swift, forceful, and total severance or engulfing of a thing—an act of rapid cutting or swallowing that leaves no trace, as in the poet's image of the fiery abyss (al-lihab) consuming the horizons.
+REC haqiqah_literal  : To cut something swiftly and completely; to engulf or obliterate a thing entirely, as a sword (sayf mihdham) that cuts through with speed and finality.
+REC canon_def.ar     : هَذَمَ الشيءَ يَهْذِمه هَذْماً: غيّبه أَجمع؛ وسيف مِهْذَم وهِذَام: سريع القطع.
+REC canon_def.en     : He cut the thing swiftly and completely, engulfing it entirely; and a sword that is mihdham or hidhām is one that cuts with speed and finality.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 74471 hdr=هذم] الهاء والذال والميم: كلمة صحيحة، تدل على قطع لشىء. وهذم السيف: قطعه. وسيف مهذم وهذام وهيذام. ويسمى الشجاع هيذاما، تشبيها له بهذا السيف.
+SRC Asas [haqiqah_literal]        : هذمه: أسرع قطعه. وسيف مخذم ومهذم هذام.
+SRC Ayn (al-Khalil)  : [line 14225 hdr=هذم] الهَذْمُ: الأَكْلُ، والهَذْمُ: القَطْع، كلُّ ذلك في سُرْعة [وقال رؤبة يصف الليل والنّهار «2» : كلاهما في فَلَكٍ يستلحمه ... واللهب لهب الخافقين يَهْذِمُهْ

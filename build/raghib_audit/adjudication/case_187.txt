@@ -1,0 +1,10 @@
+================================================================================================
+ROOT زلقم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of swallowing a morsel (لُقْمَة) — specifically, the passage of food through the throat — and by concrete extension, the anatomical throat itself (الحلقوم) and the snout or muzzle of a predatory animal (خُرْطوم الكلب والسبع), the orifice through which such swallowing occurs.
+REC haqiqah_literal  : The literal physical meaning according to the classical lexicographers is twofold: (1) the throat or gullet (الحلقوم) in certain Arabic dialects, and (2) the snout or muzzle of a dog or beast of prey (خُرْطوم الكلب والسبع). The verbal form زَلْقَمَ denotes the concrete act of swallowing a morsel (بَلَعَ اللُّقْمَةَ).
+REC canon_def.ar     : الزُّلْقُومُ: الحلقوم في بعض اللغات، وخُرْطومُ الكلب والسبع. وزَلْقَمَ اللُّقْمَةَ: بَلَعَها.
+REC canon_def.en     : Al-Zulqūm: the throat or gullet in certain dialects, and the snout of a dog or beast of prey. And zalqama al-luqma: he swallowed the morsel.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

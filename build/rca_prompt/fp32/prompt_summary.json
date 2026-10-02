@@ -1,0 +1,74 @@
+{
+  "n_prompts": 30,
+  "n_target_radical": 19,
+  "RCA_ON_root_top1_correct": 2,
+  "RCA_OFF_root_top1_correct": 0,
+  "RCA_ON_top5_contains_truth": 5,
+  "RCA_OFF_top5_contains_truth": 0,
+  "RCA_ON_distinct_top1_surfaces": 29,
+  "RCA_OFF_distinct_top1_surfaces": 30,
+  "RCA_ON_empty_surface_prompts": 0,
+  "RCA_OFF_empty_surface_prompts": 0,
+  "RCA_OFF_modal_surface": [
+    [
+      "لسن",
+      1
+    ],
+    [
+      "دمع",
+      1
+    ],
+    [
+      "كون",
+      1
+    ]
+  ],
+  "RCA_ON_modal_surface": [
+    [
+      "طرق",
+      2
+    ],
+    [
+      "سبح",
+      1
+    ],
+    [
+      "دمع",
+      1
+    ]
+  ],
+  "RCA_OFF_modal_root": [
+    [
+      "لسن",
+      1
+    ],
+    [
+      "دمع",
+      1
+    ],
+    [
+      "كون",
+      1
+    ]
+  ],
+  "RCA_ON_modal_root": [
+    [
+      "فقل",
+      2
+    ],
+    [
+      "طرق",
+      2
+    ],
+    [
+      "سبح",
+      1
+    ]
+  ],
+  "same_root_prediction_in_both_conditions": 4,
+  "aggregate_self_test": {
+    "RCA_ON_acc@1_pct": 19.582383804123165,
+    "RCA_OFF_acc@1_pct": 2.830038687794796,
+    "majority_marginal_pct": 3.566696698288198
+  }
+}

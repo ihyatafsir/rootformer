@@ -1,0 +1,135 @@
+{
+  "A_wiring": {
+    "calls": 24,
+    "root_ids": 0,
+    "active": 0
+  },
+  "D_id_spaces": {
+    "native_root_embed_rows": 9015,
+    "vocab_num_roots": 9490,
+    "rca_table_shape": [
+      9490,
+      448
+    ],
+    "positions": 256,
+    "nonzero_root_ids": 256,
+    "positions_ge_9015": 32,
+    "distinct_ids": 138,
+    "distinct_ids_ge_9015": 21,
+    "token_stream_max_id": 16,
+    "token_stream_nonzero_roots": 4,
+    "token_stream_frac_nonzero": 0.015625,
+    "same_root_pair_frac": 0.05311288684606552
+  },
+  "B_all_on": {
+    "rms_dh": 0.01379485335201025,
+    "max_dh": 0.25,
+    "rms_rel": 0.01376340556062692,
+    "max_rel": 0.01646090534979424
+  },
+  "B_decomposed": {
+    "score_bias_only": {
+      "rms_dh": 0.007138947490602732,
+      "max_dh": 0.1875,
+      "rms_rel": 0.00712266961717833,
+      "max_rel": 0.012295081967213115
+    },
+    "identical_root_bonus_only": {
+      "rms_dh": 0.012897653505206108,
+      "max_dh": 0.25,
+      "rms_rel": 0.012868364297802692,
+      "max_rel": 0.01646090534979424
+    },
+    "pillar_I_II_only": {
+      "rms_dh": 0.005569745786488056,
+      "max_dh": 0.125,
+      "rms_rel": 0.0055570637743001935,
+      "max_rel": 0.00819672131147541
+    },
+    "root_terms_NO_PILLARS": {
+      "rms_dh": 0.013398556038737297,
+      "max_dh": 0.25,
+      "rms_rel": 0.013367795445860453,
+      "max_rel": 0.01639344262295082
+    },
+    "token_table_root_terms_only": {
+      "rms_dh": 0.003140169195830822,
+      "max_dh": 0.125,
+      "rms_rel": 0.003132997959099689,
+      "max_rel": 0.00819672131147541
+    }
+  },
+  "B_token_table_wiring": {
+    "rms_dh": 0.05645925551652908,
+    "max_dh": 2.125,
+    "rms_rel": 0.0563320140240517,
+    "max_rel": 0.13765182186234817
+  },
+  "B2_nats": {
+    "surface_score_rms": 1.783687949180603,
+    "surface_score_absmax": 5.9761962890625,
+    "root_score_raw_rms": 0.3211970329284668,
+    "root_bias_rms": 0.0802992582321167,
+    "root_bias_absmax": 0.39581480622291565,
+    "bonus_absmax": 0.25,
+    "bias_over_surface_rms": 0.04501866947579304,
+    "note_stream_mix0_scales_surface": 0.75
+  },
+  "C_attn_shift": {
+    "max_abs_delta_attn": 0.09998607635498047,
+    "rms_delta_attn": 0.00216842838563025,
+    "mean_max_attn_off": 0.12437641620635986,
+    "mean_max_attn_on": 0.1263020634651184
+  },
+  "C_reconstruction": {
+    "max_abs_raw_delta": 12.0,
+    "max_abs_residual_after_recon": 1.5,
+    "rel_residual": 0.125,
+    "v_rms": 18.34991455078125
+  },
+  "C_roll_sensitivity": {
+    "max_abs_delta_vs_real_roots": 12.0
+  },
+  "E_tables": {
+    "n": 24,
+    "shape": [
+      9015,
+      64
+    ],
+    "n_identical_to_layer0": 1,
+    "l0_std": 0.993104100227356,
+    "l0_absmax": 3.328125,
+    "l0_mean": 0.0032429255079478025,
+    "l0_row0_norm": 0.16214317083358765,
+    "row_norm_mean": 7.914941310882568,
+    "row_norm_std": 0.6889781355857849,
+    "chi64_expected_mean": 7.968812221998633,
+    "at_default_N01_init": false,
+    "rca_table_shape": [
+      9490,
+      448
+    ],
+    "rca_table_std": 0.9995037913322449,
+    "n_root_ids_never_reachable": 475,
+    "root_q_proj_rms": 0.0723101943731308,
+    "root_k_proj_rms": 0.07281415909528732
+  },
+  "F_scalars": {
+    "stream_mix_distinct": [
+      [
+        0.75,
+        0.25
+      ]
+    ],
+    "gamma_distinct": [
+      0.25
+    ],
+    "coverage_weight_distinct": [
+      2.0
+    ],
+    "governance_strength_distinct": [
+      1.5
+    ]
+  },
+  "checkpoint": "/workspace/hf_v19_2_release/checkpoints/rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors"
+}

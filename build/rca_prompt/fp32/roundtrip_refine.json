@@ -1,0 +1,138 @@
+{
+  "total_word_events": 837574,
+  "target_is_radical": 414298,
+  "roundtrip_exact": 364396,
+  "target_is_control_or_particle": 423276,
+  "target_root_<PARTICLE>": 170808,
+  "roundtrip_fail": 49902,
+  "roundtrip_fail_real": 44794,
+  "roundtrip_fail_punctuation_only": 5108,
+  "target_root_<P:..>_particle": 245515,
+  "target_root_<UNK>": 6953,
+  "target_control_or_particle_pct": 50.53595264418428,
+  "roundtrip_fail_pct_of_radical": 12.044953149665217,
+  "roundtrip_fail_real_pct_of_radical": 10.812024195144557,
+  "roundtrip_fail_punctuation_only_pct_of_failures": 10.236062682858403,
+  "real_failure_samples": [
+    {
+      "corpus": "العلامة،",
+      "realiser": "العلامة",
+      "root": "علم",
+      "wazn": "فِعَال",
+      "prefix": "ال",
+      "suffix": "ة"
+    },
+    {
+      "corpus": "الله",
+      "realiser": "أله",
+      "root": "اله",
+      "wazn": "فَعَلَ",
+      "prefix": "<NONE>",
+      "suffix": "<NONE>"
+    },
+    {
+      "corpus": "أبي)",
+      "realiser": "بيي",
+      "root": "بيي",
+      "wazn": "يَفْعُلُ",
+      "prefix": "<NONE>",
+      "suffix": "<NONE>"
+    },
+    {
+      "corpus": "الله",
+      "realiser": "أله",
+      "root": "اله",
+      "wazn": "فَعَلَ",
+      "prefix": "<NONE>",
+      "suffix": "<NONE>"
+    },
+    {
+      "corpus": "الله",
+      "realiser": "أله",
+      "root": "اله",
+      "wazn": "فَعَلَ",
+      "prefix": "<NONE>",
+      "suffix": "<NONE>"
+    },
+    {
+      "corpus": "كلامنا،",
+      "realiser": "كلامنا",
+      "root": "كلم",
+      "wazn": "فِعَال",
+      "prefix": "<NONE>",
+      "suffix": "نا"
+    },
+    {
+      "corpus": "نستديم",
+      "realiser": "استديم",
+      "root": "ديم",
+      "wazn": "اِسْتَفْعَلَ",
+      "prefix": "<NONE>",
+      "suffix": "<NONE>"
+    },
+    {
+      "corpus": "وإسلامنا،",
+      "realiser": "وإسلامنا",
+      "root": "سلم",
+      "wazn": "إِفْعَال",
+      "prefix": "و",
+      "suffix": "نا"
+    },
+    {
+      "corpus": "واستسلامنا،",
+      "realiser": "واستسلامنا",
+      "root": "سلم",
+      "wazn": "اِسْتِفْعَال",
+      "prefix": "و",
+      "suffix": "نا"
+    },
+    {
+      "corpus": "وأقلامنا،",
+      "realiser": "وأقلامنا",
+      "root": "قلم",
+      "wazn": "أَفْعَال",
+      "prefix": "و",
+      "suffix": "نا"
+    },
+    {
+      "corpus": "يصلي",
+      "realiser": "وصلي",
+      "root": "وصل",
+      "wazn": "<UNK>",
+      "prefix": "<NONE>",
+      "suffix": "ي"
+    },
+    {
+      "corpus": "قلوبنا،",
+      "realiser": "قلوبنا",
+      "root": "قلب",
+      "wazn": "فُعُول",
+      "prefix": "<NONE>",
+      "suffix": "نا"
+    },
+    {
+      "corpus": "بنوره",
+      "realiser": "بوره",
+      "root": "وره",
+      "wazn": "<UNK>",
+      "prefix": "ب",
+      "suffix": "<NONE>"
+    },
+    {
+      "corpus": "أفهامنا،",
+      "realiser": "أفهامنا",
+      "root": "فهم",
+      "wazn": "أَفْعَال",
+      "prefix": "<NONE>",
+      "suffix": "نا"
+    },
+    {
+      "corpus": "عوامنا،",
+      "realiser": "عوامنا",
+      "root": "عمن",
+      "wazn": "فَوَاعِل",
+      "prefix": "<NONE>",
+      "suffix": "ا"
+    }
+  ]
+}

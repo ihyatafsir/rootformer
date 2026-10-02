@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ذاح   stratum=ma
+REC ontological_core : The root ذ-ا-ح is not attested in the classical Arabic lexicographical tradition; no primary physical origin (aṣl al-waḍʿ) can be established from the cited sources.
+REC haqiqah_literal  : No literal physical meaning is attested in Lisān al-ʿArab, al-Mufradāt, or Asās al-Balāghah; the root is absent from the classical lexical corpus.
+REC canon_def.ar     : ذاح: لم يُذكر في لسان العرب ولا المفردات ولا أساس البلاغة؛ لا أصل له في المعاجم العربية الكلاسيكية.
+REC canon_def.en     : Dhāḥ: Not mentioned in Lisān al-ʿArab, Al-Mufradāt, or Asās al-Balāghah; it has no attested root in the classical Arabic lexicons.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

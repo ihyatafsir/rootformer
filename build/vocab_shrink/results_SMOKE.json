@@ -1,0 +1,202 @@
+{
+  "history": [
+    {
+      "step": 20,
+      "ALL_val": {
+        "n": 13802,
+        "acc@1": 0.06491813063621521,
+        "acc@5": 0.13925518095493317,
+        "ce_z": 5.638086795806885,
+        "ppl_z": 280.9247376198017,
+        "ce_raw_SCALE_DEPENDENT": 5.8598713874816895,
+        "logit_scale": 1.5204874277114868,
+        "ppl": 350.67903940508995
+      },
+      "NOVEL_only": {
+        "n": 10988,
+        "acc@1": 0.06334182620048523,
+        "acc@5": 0.1364215463399887,
+        "ce_z": 5.64995002746582,
+        "ppl_z": 284.27725941389605,
+        "ce_raw_SCALE_DEPENDENT": 5.872931003570557,
+        "logit_scale": 1.5225446224212646,
+        "ppl": 355.2888084193976
+      },
+      "wazn": {
+        "n": 38100,
+        "ce": 1.8997544050216675,
+        "ce_z": 3.302665948867798,
+        "logit_scale": 4.394601345062256,
+        "acc@1": 0.49737533926963806
+      },
+      "prefix": {
+        "n": 38100,
+        "ce": 0.8349018096923828,
+        "ce_z": 1.9007363319396973,
+        "logit_scale": 4.139792442321777,
+        "acc@1": 0.7859317660331726
+      },
+      "suffix": {
+        "n": 38100,
+        "ce": 0.8532206416130066,
+        "ce_z": 1.6345067024230957,
+        "logit_scale": 3.116020441055298,
+        "acc@1": 0.8344357013702393
+      },
+      "extra_norm": 1.6879057884216309,
+      "feat_scale": 30.064908981323242,
+      "ngram_gate": 0.0,
+      "ngram_scale": 0.0
+    },
+    {
+      "step": 40,
+      "ALL_val": {
+        "n": 13802,
+        "acc@1": 0.07781480997800827,
+        "acc@5": 0.15881755948066711,
+        "ce_z": 5.563471794128418,
+        "ppl_z": 260.7264554025967,
+        "ce_raw_SCALE_DEPENDENT": 6.009479522705078,
+        "logit_scale": 1.6694763898849487,
+        "ppl": 407.27128964099114
+      },
+      "NOVEL_only": {
+        "n": 10988,
+        "acc@1": 0.07444484531879425,
+        "acc@5": 0.15389515459537506,
+        "ce_z": 5.579435348510742,
+        "ppl_z": 264.92197495787036,
+        "ce_raw_SCALE_DEPENDENT": 6.029320240020752,
+        "logit_scale": 1.6722450256347656,
+        "ppl": 415.43253896595746
+      },
+      "wazn": {
+        "n": 38100,
+        "ce": 1.8435111045837402,
+        "ce_z": 3.3322267532348633,
+        "logit_scale": 4.874067783355713,
+        "acc@1": 0.49236220121383667
+      },
+      "prefix": {
+        "n": 38100,
+        "ce": 0.7984604239463806,
+        "ce_z": 1.9022785425186157,
+        "logit_scale": 4.206599235534668,
+        "acc@1": 0.784934401512146
+      },
+      "suffix": {
+        "n": 38100,
+        "ce": 0.8293526768684387,
+        "ce_z": 1.7708505392074585,
+        "logit_scale": 2.9323601722717285,
+        "acc@1": 0.8344357013702393
+      },
+      "extra_norm": 3.123271942138672,
+      "feat_scale": 30.26715850830078,
+      "ngram_gate": 0.0,
+      "ngram_scale": 0.0
+    },
+    {
+      "step": 60,
+      "ALL_val": {
+        "n": 13802,
+        "acc@1": 0.07759744673967361,
+        "acc@5": 0.15816548466682434,
+        "ce_z": 5.541311740875244,
+        "ppl_z": 255.0122902039538,
+        "ce_raw_SCALE_DEPENDENT": 6.0083112716674805,
+        "logit_scale": 1.6457304954528809,
+        "ppl": 406.79577235015114
+      },
+      "NOVEL_only": {
+        "n": 10988,
+        "acc@1": 0.07362577319145203,
+        "acc@5": 0.152985081076622,
+        "ce_z": 5.558802604675293,
+        "ppl_z": 259.51191186038363,
+        "ce_raw_SCALE_DEPENDENT": 6.030426025390625,
+        "logit_scale": 1.6478040218353271,
+        "ppl": 415.89217227077205
+      },
+      "wazn": {
+        "n": 38100,
+        "ce": 1.8282428979873657,
+        "ce_z": 3.3474769592285156,
+        "logit_scale": 5.024383068084717,
+        "acc@1": 0.4990813732147217
+      },
+      "prefix": {
+        "n": 38100,
+        "ce": 0.7947350740432739,
+        "ce_z": 1.8913192749023438,
+        "logit_scale": 4.284574508666992,
+        "acc@1": 0.7858267426490784
+      },
+      "suffix": {
+        "n": 38100,
+        "ce": 0.8099491000175476,
+        "ce_z": 1.718324065208435,
+        "logit_scale": 2.9854893684387207,
+        "acc@1": 0.8344357013702393
+      },
+      "extra_norm": 3.2967543601989746,
+      "feat_scale": 30.297420501708984,
+      "ngram_gate": 0.0,
+      "ngram_scale": 0.0
+    }
+  ],
+  "args": {
+    "checkpoint": "/workspace/hf_v19_2_release/checkpoints/rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors",
+    "cache": "/workspace/head_fix/nrmp_cache_9490_aligned",
+    "train_windows": 3000,
+    "val_windows": 300,
+    "steps": 60,
+    "batch_size": 8,
+    "lr": 0.001,
+    "ss_prob": 1.0,
+    "ss_start": null,
+    "head_init": "remap",
+    "cond_init": "truncate",
+    "head_checkpoint": null,
+    "seed": -1,
+    "lambda_orbit": 0.0,
+    "orbit_rng_isolate": false,
+    "orbit_grad_probe": false,
+    "margin": -2.0,
+    "margin_ramp": 10,
+    "margin_start": 50.0,
+    "grad_warmup": 10,
+    "grad_warmup_thresh": 50.0,
+    "grad_clip": 1.0,
+    "extra_norm_l2": 0.0,
+    "feat_gate": true,
+    "feat_gate_proj_std": 0.001,
+    "logit_scale": "ln",
+    "hist": 3,
+    "dropout": 0.1,
+    "no_features": false,
+    "ngram_features": "none",
+    "ngram_orders": "1,2,3,4",
+    "ngram_dim": 32,
+    "ngram_bucket_bits": 20,
+    "ngram_emb_std": 0.02,
+    "no_ngram_gate": false,
+    "root_classes": 500,
+    "root_map": "/workspace/vocab_shrink/root_map_top500.pt",
+    "oov": "drop",
+    "tag": "SMOKE",
+    "eval_every": 20,
+    "probe_out": "/workspace/vocab_shrink/trace_SMOKE.jsonl",
+    "out": "/workspace/vocab_shrink/results_SMOKE.json",
+    "save": "/workspace/vocab_shrink/head_SMOKE.pt"
+  },
+  "shrunk": {
+    "root_classes": 500,
+    "root_map": "/workspace/vocab_shrink/root_map_top500.pt",
+    "design": "drop",
+    "marginal_shrunk_eval": 0.04876104912331546,
+    "n_eval_kept": 13802,
+    "n_eval_total": 38100,
+    "forbidden_classes_active": 0
+  }
+}

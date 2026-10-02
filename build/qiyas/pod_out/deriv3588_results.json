@@ -1,0 +1,837 @@
+{
+ "harness": "qiyas_deriv3588.py",
+ "built": "2026-10-02T18:32:51",
+ "gold_source": "/workspace/qiyas/deriv_gold.json",
+ "gold_n": 3588,
+ "gold_histogram_matches_recorded": true,
+ "n_asl": 104549,
+ "n_asl_roots": 5514,
+ "hold_roots": [
+  "بدا",
+  "بدل",
+  "بني",
+  "بوب",
+  "ثان",
+  "جاب",
+  "ختم",
+  "دال",
+  "دبب",
+  "دبر",
+  "دفع",
+  "دول",
+  "ذهن",
+  "زاد",
+  "سعع",
+  "سما",
+  "سير",
+  "شخص",
+  "شرر",
+  "شقق",
+  "صبح",
+  "صرح",
+  "طعع",
+  "عبس",
+  "عرق",
+  "عزل",
+  "عنا",
+  "غفل",
+  "قبح",
+  "قلد",
+  "كرر",
+  "كره",
+  "كلف",
+  "لغا",
+  "مهم",
+  "نفي",
+  "وهم"
+ ],
+ "neural_reference": {
+  "source": "rootformer/build/scratch_comp/RESULTS_COMP.md (comp 6k and comp 24k)",
+  "held_out_root_top1": 0.0,
+  "held_out_root_top5": 0.0,
+  "n_positions": 3588,
+  "note": "context-conditioned root prediction; exact search over all letter sequences, leak-free holdout; 0/3,588 top-1 and top-5"
+ },
+ "task_A_realisation": {
+  "n_positions": 3588,
+  "shipped_default_ok": 2933,
+  "shipped_default_rate": 0.8174470457079153,
+  "qiyas_ok": 3023,
+  "qiyas_rate": 0.842530657748049,
+  "delta_positions": 90,
+  "qiyas_fixes_baseline_failures": 90,
+  "qiyas_breaks_baseline_successes": 0,
+  "no_analogue": 101,
+  "provenance_histogram": {
+   "strict7": 3487
+  },
+  "examples_fixed": [
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "مبتدا",
+    "root": "بدا",
+    "wazn": "مُفْتَعِل",
+    "shipped": "مبتدأ",
+    "qiyas": "مبتدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بالمبتدا",
+    "root": "بدا",
+    "wazn": "مُفْتَعِل",
+    "shipped": "بالمبتدأ",
+    "qiyas": "بالمبتدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "المبتدا",
+    "root": "بدا",
+    "wazn": "مُفْتَعِل",
+    "shipped": "المبتدأ",
+    "qiyas": "المبتدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "فالمبتدا",
+    "root": "بدا",
+    "wazn": "مُفْتَعِل",
+    "shipped": "فالمبتدأ",
+    "qiyas": "فالمبتدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "مبتدا",
+    "root": "بدا",
+    "wazn": "مُفْتَعِل",
+    "shipped": "مبتدأ",
+    "qiyas": "مبتدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "مبتدا",
+    "root": "بدا",
+    "wazn": "مُفْتَعِل",
+    "shipped": "مبتدأ",
+    "qiyas": "مبتدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "مبتدا",
+    "root": "بدا",
+    "wazn": "مُفْتَعِل",
+    "shipped": "مبتدأ",
+    "qiyas": "مبتدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "فبدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "فبدأ",
+    "qiyas": "فبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "بدا",
+    "root": "بدا",
+    "wazn": "فَعَلَ",
+    "shipped": "بدأ",
+    "qiyas": "بدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "مبدا",
+    "root": "بدا",
+    "wazn": "مَفْعَل",
+    "shipped": "مبدأ",
+    "qiyas": "مبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "المبدا",
+    "root": "بدا",
+    "wazn": "مَفْعَل",
+    "shipped": "المبدأ",
+    "qiyas": "المبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "أبدا",
+    "root": "بدا",
+    "wazn": "أَفْعَلَ",
+    "shipped": "أبدأ",
+    "qiyas": "أبدا",
+    "provenance": "strict7:NAQIS"
+   },
+   {
+    "word": "مبدا",
+    "root": "بدا",
+    "wazn": "مَفْعَل",
+    "shipped": "مبدأ",
+    "qiyas": "مبدا",
+    "provenance": "strict7:NAQIS"
+   }
+  ],
+  "examples_broken": [],
+  "baseline_crosscheck": {
+   "overlap_words": 2944,
+   "agree": 2944,
+   "agree_rate": 1.0
+  }
+ },
+ "task_B_identification": {
+  "n_positions": 3588,
+  "n_candidate_roots": 37,
+  "n_awzan_tried": 139,
+  "chance_top1": 0.02702702702702703,
+  "chance_top5": 0.13513513513513514,
+  "qiyas_top1": 3031,
+  "qiyas_top1_rate": 0.8447603121516165,
+  "qiyas_top5": 3032,
+  "qiyas_top5_rate": 0.8450390189520625,
+  "positions_with_no_admissible_candidate": 556,
+  "mean_candidate_instances": 1.1552396878483835,
+  "examples": [
+   {
+    "word": "ومبني",
+    "gold_root": "بني",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بني"
+    ],
+    "top5_wazn": [
+     "مَفْعَل"
+    ]
+   },
+   {
+    "word": "المبني",
+    "gold_root": "بني",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بني"
+    ],
+    "top5_wazn": [
+     "مَفْعَل"
+    ]
+   },
+   {
+    "word": "يبتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "يَفْتَعِلُ"
+    ]
+   },
+   {
+    "word": "أبدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "أَفْعَلَ"
+    ]
+   },
+   {
+    "word": "الأشخاص",
+    "gold_root": "شخص",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "شخص"
+    ],
+    "top5_wazn": [
+     "أَفْعَال"
+    ]
+   },
+   {
+    "word": "صريحة",
+    "gold_root": "صرح",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "صرح"
+    ],
+    "top5_wazn": [
+     "فَعِيل"
+    ]
+   },
+   {
+    "word": "تزاد",
+    "gold_root": "زاد",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "زاد"
+    ],
+    "top5_wazn": [
+     "تَفَعَّلَ"
+    ]
+   },
+   {
+    "word": "النفي",
+    "gold_root": "نفي",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "نفي"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "مبتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "مُفْتَعِل"
+    ]
+   },
+   {
+    "word": "بالمبتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "مُفْتَعِل"
+    ]
+   },
+   {
+    "word": "الابتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "اِفْتَعَلَ"
+    ]
+   },
+   {
+    "word": "ابتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "اِفْتَعَلَ"
+    ]
+   },
+   {
+    "word": "أبدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "أَفْعَلَ"
+    ]
+   },
+   {
+    "word": "جواب",
+    "gold_root": "جاب",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "جاب"
+    ],
+    "top5_wazn": [
+     "فَوْعَل"
+    ]
+   },
+   {
+    "word": "المبتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "مُفْتَعِل"
+    ]
+   },
+   {
+    "word": "أصبحا",
+    "gold_root": "صبح",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "صبح"
+    ],
+    "top5_wazn": [
+     "أَفْعَلَ"
+    ]
+   },
+   {
+    "word": "لنفي",
+    "gold_root": "نفي",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "نفي"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "تزاد",
+    "gold_root": "زاد",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "زاد"
+    ],
+    "top5_wazn": [
+     "تَفَعَّلَ"
+    ]
+   },
+   {
+    "word": "النفي",
+    "gold_root": "نفي",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "نفي"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "ونفي",
+    "gold_root": "نفي",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "نفي"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "ثان",
+    "gold_root": "ثان",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "ثان"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "الابتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "اِفْتَعَلَ"
+    ]
+   },
+   {
+    "word": "سما",
+    "gold_root": "سما",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "سما"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "بدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "نفي",
+    "gold_root": "نفي",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "نفي"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "مكررة",
+    "gold_root": "كرر",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "كرر"
+    ],
+    "top5_wazn": [
+     "مَفْعَل"
+    ]
+   },
+   {
+    "word": "والثان",
+    "gold_root": "ثان",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "ثان"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "لمبني",
+    "gold_root": "بني",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بني"
+    ],
+    "top5_wazn": [
+     "مَفْعَل"
+    ]
+   },
+   {
+    "word": "ابتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "اِفْتَعَلَ"
+    ]
+   },
+   {
+    "word": "الابتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "اِفْتَعَلَ"
+    ]
+   },
+   {
+    "word": "ابتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "اِفْتَعَلَ"
+    ]
+   },
+   {
+    "word": "موهم",
+    "gold_root": "مهم",
+    "rank": 1,
+    "n_candidate_roots": 2,
+    "top5_roots": [
+     "مهم",
+     "وهم"
+    ],
+    "top5_wazn": [
+     "فَوْعَل",
+     "مَفْعَل"
+    ]
+   },
+   {
+    "word": "نفي",
+    "gold_root": "نفي",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "نفي"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "جواب",
+    "gold_root": "جاب",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "جاب"
+    ],
+    "top5_wazn": [
+     "فَوْعَل"
+    ]
+   },
+   {
+    "word": "الثان",
+    "gold_root": "ثان",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "ثان"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "بالابتدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "اِفْتَعَلَ"
+    ]
+   },
+   {
+    "word": "أبدا",
+    "gold_root": "بدا",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدا"
+    ],
+    "top5_wazn": [
+     "أَفْعَلَ"
+    ]
+   },
+   {
+    "word": "تدبرت",
+    "gold_root": "دبر",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "دبر"
+    ],
+    "top5_wazn": [
+     "تَفَعَّلَ"
+    ]
+   },
+   {
+    "word": "سير",
+    "gold_root": "سير",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "سير"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   },
+   {
+    "word": "بدلا",
+    "gold_root": "بدل",
+    "rank": 1,
+    "n_candidate_roots": 1,
+    "top5_roots": [
+     "بدل"
+    ],
+    "top5_wazn": [
+     "فَعَلَ",
+     "فِعَل"
+    ]
+   }
+  ],
+  "control_74_roots": {
+   "n_candidate_roots": 74,
+   "chance_top1": 0.013513513513513514,
+   "chance_top5": 0.06756756756756757,
+   "qiyas_top1": 3031,
+   "qiyas_top1_rate": 0.8447603121516165,
+   "qiyas_top5": 3032,
+   "qiyas_top5_rate": 0.8450390189520625,
+   "positions_with_no_admissible_candidate": 556
+  }
+ }
+}

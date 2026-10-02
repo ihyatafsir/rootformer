@@ -1,0 +1,17 @@
+{
+  "tag": "A5000_trained",
+  "head": "/workspace/root_attn/head_ROOTATTN.pt",
+  "trunk": "/workspace/root_attn/head_ROOTATTN.pt.trunk.pt",
+  "gates": "trained",
+  "result": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.09899836033582687,
+      "acc@5": 0.18750330805778503,
+      "ce_z": 7.7023091316223145,
+      "ppl_z": 2213.453250156531,
+      "ce_raw_SCALE_DEPENDENT": 8.67457389831543,
+      "logit_scale": 1.2815302610397339
+    }
+  }
+}

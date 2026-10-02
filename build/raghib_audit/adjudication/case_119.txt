@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جنز   stratum=ma
+REC ontological_core : The root's foundational physical origin is the act of covering, concealing, or shrouding an object — a concrete operation of overlaying something so as to hide it from view.
+REC haqiqah_literal  : To cover or conceal a thing; to shroud it. The verb جَنَزَ الشيءَ يَجْنِزُه جَنْزاً denotes the literal physical act of draping or wrapping an entity so that it is hidden.
+REC canon_def.ar     : جَنَزَ الشيءَ يَجْنِزُه جَنْزاً: ستره. وذكروا أَن النَّوَار لما احْتُضِرَت أَوْصَت أَن يصلي عليها الحسن، فقيل له في ذلك، فقال: إِذا جَنَزْتُموها فآذِنُوني.
+REC canon_def.en     : He covered or concealed the thing, covering it with a janz. It is related that when al-Nawār was on her deathbed, she stipulated that al-Ḥasan should pray over her; when this was mentioned to him, he said: 'When you have shrouded her, infor […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 14905 hdr=جنز] الجيم والنون والزاء كلمة واحدة. قال ابن دريد: جنزت الشيء أجنزه جنزا، إذا سترته، ومنه اشتقاق الجنازة (2). فأما الخليل فمذهبه غير هذا، قال: الجنازة الميت، [و] الشيء الذى ثقل على القوم واغتموا به هو أيضا جنازة. وقال: وما كنت أخشى أن أكون جنازة عليك ومن يغتر بالحدثان (3) قال: وأما الجنازة فهو خشب الشرجع. قال: ويقول العرب: رمى بجنازته فمات (4). قال: وقد جرى فى أفواه الناس الجنازة، بفتح الجيم، والنحارير ينكرونه.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 24940 hdr=جنز] الجِنَازةُ، بنصب الجيم وجَرّها،: الإنسان الميِّت والشيء الذي ثقل على قومٍ واغتمُّوا به أيضاً جِنَازةٌ، قال: وما كنت أخشى أن أكون جِنَازةً ... عليك ومن يغتر بالحدَثانِ «3» وقوم ينكرون الجنازة للميِّت يقولون: الجِنازةُ بكسر الصَّدر، خَشبة الشَّرجَع، وإذا مات فإن العرب تقول: رُمي في جِنازته. وقد جَرى في أفواه العامّة الجِنازة بنصب الجيم، والنَّحارير ينكرونه. وجُنِزَ الشيء إذا جمع __________ (1) لم نهتد إلى القائل. (2) ل […]

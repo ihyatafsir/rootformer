@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حجحج   stratum=ma
+REC ontological_core : The root's foundational physical origin is the act of recoiling or pulling back from a forward advance—a sudden retreat or withdrawal from an initiated movement, particularly in the context of battle or confrontation.
+REC haqiqah_literal  : The literal physical meaning is to recoil, retreat, or pull back from a charge or advance; to desist from an attack after having engaged.
+REC canon_def.ar     : الحَجْحَجَة: النُّكُوصُ. يقال: حملوا على القوم حملةً ثم حَجْحَجُوا. وحَجْحَجَ الرجلُ: نَكَصَ، وقيل: عجز.
+REC canon_def.en     : Al-Ḥajḥajah: recoiling. It is said: they charged upon the people with a single charge, then they recoiled. And a man ḥajḥaja: he retreated, or it is said: he was incapacitated by weakness.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عده   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the nominal form عَيْدَه, denoting an ingrained defect of temperament or constitution, specifically ill-nature or vicious disposition in humans and camels.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is the concrete quality of being ill-tempered or vicious, as predicated of a person or a camel.
+REC canon_def.ar     : العَيْدَهُ: السَّيِّءُ الخُلُقِ من الناس والإِبل.
+REC canon_def.en     : Al-ʿaydah: the ill-natured one among people and camels.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 773 hdr=عده] يقال: في فلان عَيْدَهيَّةٌ وعَيْدَهَةٌ أيْ كِبْرٌ وسُوُء خُلُقٍ والعَيْدَهُ: السَّيِّءُ الخُلُق من الإبلِ، قال رؤبة: «3» وخافَ صَقْع القارعات الكده ... وخبط صهميم اليَدَيْنِ عَيْدَه أَشْدَقَ يَفْتَرُّ افتِرارَ الأفْوَهِ

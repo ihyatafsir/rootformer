@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قها   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the withdrawal or recession of appetite from food — a turning-away of the desiring faculty from nourishment, whether from satiety, distaste, or a constitutional diminution of hunger, without organic disease.
+REC haqiqah_literal  : The literal physical meaning is the cessation or retreat of the appetite for food, such that one turns away from eating; it is said of a man of little food-intake: qad aqhā wa-qad aqham.
+REC canon_def.ar     : أَقْهى عن الطعام واقْتَهى: ارتدَّت شهوتُه عنه من غير مرض، مثل أَقْهَمَ؛ يقال للرجل القليل الطُّعم: قد أَقْهَى وقد أَقْهَم، وقيل: هو أَن يقدر على الطعام فلا يأَكله وإِن كان مشتهياً له.
+REC canon_def.en     : Aqhā ʿan al-ṭaʿām and iqtahā: his appetite receded from it without disease, like aqham; it is said of a man of little food-intake: qad aqhā wa-qad aqham. It is also said to be that he is able to eat but does not eat it, even though he crave […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

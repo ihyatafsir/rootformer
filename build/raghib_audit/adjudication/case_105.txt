@@ -1,0 +1,10 @@
+================================================================================================
+ROOT نفه   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root نفه is the exhaustion and collapse of vital force, specifically the failure of the animating breath or self (nafs) under strain, and the consequent prostration of a beast of burden from fatigue.
+REC haqiqah_literal  : The literal physical meaning, per Asās al-Balāghah, is the state of being exhausted, wearied, and broken by toil: a man is nāhif or manfūh (exhausted), the self (nafs) is nafihah (wearied and enfeebled), and a camel is nāfih (prostrate from fatigue), with the plural nuffah.
+REC canon_def.ar     : نَفِهَتْ نفسي: أَعْيَتْ وكَلَّتْ. وبعير نافِهٌ: كالٌّ مُعْيٍ، والجمع نُفَّهٌ؛ ونَفَّهَهُ: أَتعبه حتى انقطع.
+REC canon_def.en     : My self became exhausted: it grew weary and enfeebled. A camel that is nāfih is weary and prostrate; the plural is nuffah. And naffahahu means: he exhausted him until he was cut off (utterly spent).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 72309 hdr=نفه] النون والفاء والهاء أصل واحد يدل على إعياء وضعف. منه نفهت النفس: أعيت وكلت: وهو نافه ونفه. قال: بنا حراجيج المهارى النفه (2) وهو منفه ومنفوه: ضعيف جبان.
+SRC Asas [haqiqah_literal]        : رجل نافه ومنفه: معي. ونفهت نفسه. وتقول: كم بين المرفه والمنفه. وركابهم نافهة ونفه.
+SRC Ayn (al-Khalil)  : [line 14439 hdr=نفه] نَفِهَتْ نَفْسي: أَعْيَتْ. والنّافِهُ المُنَفَّهُ: الكالُّ المُعْيِي [من الدَّوابّ] «3» وجَمْعُ النّافِهِ: نُفّهٌ قال «4» : بنا حَراجيجُ المَهارَى النُّفَّهِ والنّافَهةُ: الأنثى. باب الهاء والنون، والباء معهما هـ ن ب، ن هـ ب، ب هـ ن، ن ب هـ مستعملات هـ ب ن، ب ن هـ مهملان

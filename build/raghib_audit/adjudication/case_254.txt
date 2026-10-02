@@ -1,0 +1,10 @@
+================================================================================================
+ROOT موا   stratum=ma
+REC ontological_core : The root م و ا is a secondary, denominative formation from the primary root م و ه / م ي ه (water), denoting the substance of water and, by extension, anything that shares its defining property of limpid transparency and reflective clarity.
+REC haqiqah_literal  : The literal, physical referent of the derived noun مَاوِيَّة is a mirror (مِرْآة), so named because it is fashioned from, or functions as, a polished watery surface: images are seen in it exactly as they are seen in clear, still water. A second literal application is the crystal stone (حَجَر البِلَّوْر), i.e. rock crystal, on account of its water-like translucency.
+REC canon_def.ar     : المَاوِيَّةُ: المِرْآةُ، كأَنَّها نُسِبَت إِلى الماءِ لصَفائها وأَنَّ الصُّورَ تُرى فيها كما تُرى في الماءِ الصافي، والميمُ أَصليةٌ فيها؛ وقيل: المَاوِيَّةُ حَجَرُ البِلَّوْرِ، وثلاثُ مَاوِيَّاتٍ.
+REC canon_def.en     : Al-māwiyyah: the mirror, as though it were attributed to water (al-māʾ) because of its limpidity and because images are seen in it just as they are seen in clear water; the mīm therein is radical. It is also said that al-māwiyyah is rock cr […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

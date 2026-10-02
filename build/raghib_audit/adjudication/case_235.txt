@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قردحم   stratum=ma
+REC ontological_core : The root denotes a specific, rugged, and remote topographical location—a place-name (موضع) characterized by harsh, broken terrain. Its foundational physical origin is the concrete designation of a desolate, stony ground or a rugged tract of land, from which the abstract sense of scattering and dispersal derives by analogy: to be cast into such broken country is to be dispersed beyond recovery.
+REC haqiqah_literal  : A proper noun (اسم علم) for a specific rugged, stony place or tract of land. In its strict literal usage, it is a toponym, indeclinable (غير مصروف) as a place-name, denoting a harsh, broken terrain. The phrase ذهبوا شَعالِيل بِقِرْدَحْمةٍ means 'they scattered in every direction at Qirdahma,' i.e., they dispersed across a rugged, remote location.
+REC canon_def.ar     : قِرْدَحْمة: موضع. الفراء: ذهبوا شَعالِيل بِقِرْدَحْمةٍ أَي تفرقوا. قال ابن بري: وفي الغريب المصنف بِقِرْدَحْمةَ غير مصروف. وحكى اللحياني في نوادره: ذهب القوم بِقِنْدَحْرةٍ وقِنْدَحْرةٍ وقِدَّحْرة
+REC canon_def.en     : Qirdahma: a place. Al-Farrāʾ said: 'They went off in every direction at Qirdahma,' i.e., they scattered. Ibn Barrī said: In al-Gharīb al-Muṣannaf it appears as 'bi-Qirdahmata' in the indeclinable form. Al-Liḥyānī related in his Nawādir: 'Th […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

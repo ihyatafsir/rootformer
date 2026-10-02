@@ -1,0 +1,12 @@
+================================================================================================
+ROOT جيش   stratum=mA
+REC ontological_core : The foundational physical origin of the root ج-ي-ش is the turbulent, surging motion of a liquid boiling and overflowing its vessel, from which the sense of a churning, agitated mass—whether of the self or of armed men—is derived.
+REC haqiqah_literal  : The literal physical meaning is the boiling and overflowing of a pot (جاشت القدر واستجاشت: غلت), and the consequent agitation of the soul (جاشت النفس: فاظت or غثت).
+REC canon_def.ar     : جاشت القدر واستجاشت: غلت. وجاشَت النفسُ تَجِيش جَيْشاً وجُيوشاً وجَيَشاناً: فاظَتْ. وجيش فلان: جمع جيشا.
+REC canon_def.en     : The pot boiled and overflowed. The soul surged with a boiling, overflowing, and agitation. A person mustered an army.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 15345 hdr=جيش] الجيم والياء والشين أصل واحد، وهو الثوران والغليان. يقال جاشت القدر تجيش جيشا وجيشانا. قال: وجاشت بهم يوما إلى الليل قدرنا تصك حرابى الظهور وتدسع (1) ومنه قولهم: جاشت نفسه، كأنها غلت. والجيش معروف، وهو من الباب، لأنها جماعة تجيش.
+SRC Asas [bilingual_haqiqah_majaz]        : جاشت القدر واستجاشت: غلت. وكأن صدره مرجل جياش. وجيش فلان: جمع جيشا. واستجاش الأمير من مكان كذا: طلب الجيوش. Metaphorical (Majaz): جاش البحر بالأمواج. وإن صدره ليجيش علي بالغل. وجاشت إليه نفسه. قال ذو الرمة: تجيش إلي النفس في كل دمنة ... لمى ويرتاح الفؤاد المشوق وجاشت ال
+SRC Asas [haqiqah_literal]        : جاشت القدر واستجاشت: غلت. وكأن صدره مرجل جياش. وجيش فلان: جمع جيشا. واستجاش الأمير من مكان كذا: طلب الجيوش.
+SRC Asas [majaz_metaphorical]        : جاش البحر بالأمواج. وإن صدره ليجيش علي بالغل. وجاشت إليه نفسه. قال ذو الرمة: تجيش إلي النفس في كل دمنة ... لمى ويرتاح الفؤاد المشوق وجاشت الحرب بينهم. قال: تجيش علينا قدرهم فنديمها ... ونهنؤها عنا إذا حميها غلا وفرس جياش العنان. قال حسان: تعادى بنا أفراسنا كل شطبة ... عنود وجياش
+SRC Ayn (al-Khalil)  : [line 25795 hdr=جيش] الجَيشُ: جُند يسيرون لحربٍ ونحوها. والجيشُ: جَيشانُ القِدرِ، (وكل شيءٍ يغلي، فهو يجيشُ، حتى الهمُّ والغُصةُ في الصدر) «2» . والبحرُ يجيش إذا هاجَ ولم يُستطع ركوبه. وجأشُ النَّفسِ: رُواع القلبِ إذا اضطرب عند الفزع، يقال: إنه لواهي الجأشِ، فإذا ثبت، قيل: إنه لرابط الجأش.

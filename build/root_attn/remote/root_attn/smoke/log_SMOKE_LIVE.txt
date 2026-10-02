@@ -1,0 +1,44 @@
+[*] seeded run: torch/numpy/cuda seed = 7
+[Rootformer v12] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v12] Instantiating 24-layer backbone with IshtiqaqAttention...
+[Rootformer v12] Initialized! Total Layers: 24 | Vocab: 10052 on cuda. [OK]
+[*] ARM [SMOKE_LIVE] use_features=True dropout=0.1
+[*] v18fix: feat_gate=True (proj_std 0.001) logit_scale=ln margin_ramp=10 (start 50.0 -> -2.0) grad_warmup=10@thresh50.0 extra_norm_l2=0.0 grad_clip=1.0
+[*] checkpoint rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors: missing=19 (of which nrmt_head new=19) unexpected=8
+[*] new head cond_proj.0.weight target (896, 1344) (d_root=448, d_model=896)
+[*] head warm start [remap/truncate]: applied 8/8 legacy head tensors
+      + cond_proj.0.bias (896,) (exact)
+      + cond_proj.0.weight (896, 1344) (exact)
+      + cond_proj.2.bias (896,) (exact)
+      + cond_proj.2.weight (896, 896) (exact)
+      + prefix_head.weight (26, 896) (exact)
+      + root_head.weight (9490, 896) (exact)
+      + suffix_head.weight (22, 896) (exact)
+      + wazn_head.weight (142, 896) (exact)
+      [info] 11 new head tensors stay at their init (history/operator/morph embeddings, feat_norm)
+[*] extra-conditioning norm at init: 0.534518 (GAUGE -- no logit effect; the real branch magnitude is feat_scale 29.933260)
+[*] Al-Taqalib orbit pairs: 4448
+[*] morph conditioning: gold->model root schedule ss_prob 1.000 -> 1.000 (p = P(use MODEL greedy root); 0 = full teacher forcing)
+[*] root cross-attention attached to trunk layers [20, 21, 22, 23] (9.64M new params, d_root=448, heads=8x112, observe=r_{<=t})
+[*] trainable parameters: 84.69M (head 12.80M @lr 0.001 | rca 9.64M @lr 0.001 layers [20, 21, 22, 23] | trunk 62.25M @lr 0.0001 layers [20, 21, 22, 23])
+[*] TRUNK LIVE: hidden-state cache BYPASSED (extract_backbone is NOT called; the trunk runs in the forward pass every step).  morphemic_embed and final_norm stay frozen.
+[*] RCA init check: gates=[0.0, 0.0, 0.0, 0.0] (exactly 0 => the attached stack is a numerical no-op at step 0)
+[*] train 900 | val 900 root tokens
+    novelty: 889 distinct 12-gram hashes (0s)
+[*] ʿāmil stream: SibawayhGovernor (persistent, al-Kitab 1/421)
+[*] AlKhalilV2: C1==C2 impossible roots=30  leaked=2
+    observed adjacent pairs=721  unobserved=723 of 1444
+    makhraj clashes not attested in inventory=18 (these are the genuinely impossible pairs)
+    bare-alif roots now ALLOWED: 280
+    Al-Khalil verbatim letter-pair violations (qaf+kaf, jim+qaf): 1 -> ['جقق']
+[*] static forbidden roots (impossibility hinge): 34
+[*] training windows: 13 x 127 positions = 1651
+[*] val radical positions: all=1651 novel=0 (0.0%)
+[*] optimizer groups: head n=19 lr=4e-05 | rca n=36 lr=4e-05 | trunk n=92 lr=4e-06
+  [proof] step 1: trunk h for a FIXED batch vs step 1: max|dh|=0.000000e+00 | fp 337971.388441 (step-1 fp 337971.388441) | grad_norm head=1.913e+01 rca=2.769e-05 trunk=4.744e+00
+/workspace/hf_v19_2_release/nrmt_train.py:918: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  _pf.write(json.dumps({'step': step, 'loss': float(loss),
+  [eval @40] ALL_val: acc@1 100.00% acc@5 100.00% CE_z 0.0009 [scale-invariant] | raw PPL 6.0 (SCALE-DEPENDENT, logit_scale 0.39) (n=1651) | wazn: ce 3.6670 ce_z 3.5976 acc@1 37.14% (n=1637) | prefix: ce 2.5777 ce_z 2.4661 acc@1 38.13% (n=1605) | suffix: ce 2.4398 ce_z 2.2873 acc@1 39.06% (n=1554) | ALL_val_RCA_OFF: acc@1 100.00% acc@5 100.00% CE_z 0.0009 [scale-invariant] | raw PPL 6.0 (SCALE-DEPENDENT, logit_scale 0.39) (n=1651) | extra_norm 3.3029 (GAUGE) | feat_scale 30.2381 (real branch RMS x 1.0102) | RCA gates -0.0086,-0.0077,-0.0076,+0.0034 (|mean| 0.0068) | h_drift 6.2188e+00
+
+wrote /workspace/root_attn/smoke/res_SMOKE_LIVE.json and /workspace/root_attn/smoke/head_SMOKE_LIVE.pt

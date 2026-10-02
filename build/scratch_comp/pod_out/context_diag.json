@@ -1,0 +1,32 @@
+{
+  "test_gen": {
+    "target_positions": 29957,
+    "heldout_root_targets": 0,
+    "heldout_targets_with_heldout_root_earlier_in_sentence": 0,
+    "frac_contaminated": 0.0,
+    "heldout_target_len_mix": {}
+  },
+  "test_deriv": {
+    "target_positions": 32193,
+    "heldout_root_targets": 3588,
+    "heldout_targets_with_heldout_root_earlier_in_sentence": 360,
+    "frac_contaminated": 0.10033444816053512,
+    "heldout_target_len_mix": {
+      "3": 3588
+    }
+  },
+  "val": {
+    "target_positions": 19163,
+    "heldout_root_targets": 0,
+    "heldout_targets_with_heldout_root_earlier_in_sentence": 0,
+    "frac_contaminated": 0.0,
+    "heldout_target_len_mix": {}
+  },
+  "train": {
+    "target_positions": 22281144,
+    "heldout_root_targets": 0,
+    "heldout_targets_with_heldout_root_earlier_in_sentence": 0,
+    "frac_contaminated": 0.0,
+    "heldout_target_len_mix": {}
+  }
+}

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ذيب   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the well-known predatory canid, the wolf, regarded by al-Rāghib as originally hamzated (ذِئْب), from which derive the senses of wolf-infestation, wolf-like ferocity, and the wolf-shaped wooden saddle-part (ذِئْبَة القَتَب).
+REC haqiqah_literal  : The literal physical meaning is the wolf as a concrete predatory animal; hence أَرْضٌ مَذْأَبَةٌ (a wolf-infested land), ذُئِبَ فُلَانٌ (a wolf fell upon his flock), and ذَئِبَ (he became wolf-like in viciousness).
+REC canon_def.ar     : الذِّئْبُ: الحيوان المعروف، وأصله الهمز؛ قال تعالى: ﴿فَأَكَلَهُ الذِّئْبُ﴾. وأرض مذأبة: كثيرة الذئاب. وذئب فلان: وقع في غنمه الذئب. وذئب: صار كذئب في خبثه. وتذاءبت الريح: أتت من كل جانب مجيء الذئب. والذئبة من القتب: ما تحت ملتقى الحنوين، تشبيهاً بالذئب في الهيئة.
+REC canon_def.en     : The wolf: the well-known animal, originally hamzated; as in the verse 'So the wolf devoured him.' A wolf-infested land is one abounding in wolves. 'A wolf fell upon his flock' means a wolf attacked his sheep. 'He became wolf-like' means he  […]
+SRC al-Mufradat      : [line 13194 hdr=ذيب] الذيب: الحيوان المعروف، وأصله الهمز، قال تعالى: فأكله الذئب [يوسف/ 17]، وأرض مذأبة: كثيرة الذئاب، وذئب فلان: وقع في غنمه الذئب، وذئب (5): صار كذئب في خبثه، وتذاءبت الريح: أتت من كل جانب ولكن بالمغيب نبئيني مجيء الذئب، وتذاءبت للناقة على تفاعلت: إذا تشبهت لها بالذئب في الهيئة لتظأر على ولدها، والذئبة من القتب: ما تحت ملتقى الحنوين (1)، تشبيها بالذئب في الهيئة.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 33961 hdr=ذيب] والأَذْيَبُ: الماء الكثير.

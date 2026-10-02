@@ -1,0 +1,10 @@
+================================================================================================
+ROOT كحلب   stratum=ma
+REC ontological_core : A quadriliteral nominal stem denoting a specific plant or herb; its foundational physical origin is the concrete botanical referent designated by the name, without a productive verbal root in classical usage.
+REC haqiqah_literal  : The literal physical meaning is the plant or herb named كَحْلَب; it is a concrete botanical entity, not a derived verbal action or abstract quality.
+REC canon_def.ar     : كَحْلَبٌ: اسم.
+REC canon_def.en     : Kaḥlab: a noun (name of a plant).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

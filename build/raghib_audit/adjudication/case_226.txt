@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فحز   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt or Asās al-Balāghah; classical lexicography records only a derived participial form denoting self-magnification and coarseness of conduct, without a recoverable concrete physical prototype.
+REC haqiqah_literal  : Not attested in Asās al-Balāghah; the sole classical datum is the participial adjective مُتَفَحِّز, meaning 'one who magnifies himself and behaves coarsely or obscenely' (mutaʿaẓẓim mutafaḥḥish), as transmitted by al-Jawharī from Ibn al-Sikkīt.
+REC canon_def.ar     : رجل مُتَفَحِّز أَي متعظم متفحش؛ حكاه الجوهري عن ابن السكيت.
+REC canon_def.en     : A man who is مُتَفَحِّز, that is, self-magnifying and coarse or obscene in conduct; al-Jawharī transmitted it from Ibn al-Sikkīt.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

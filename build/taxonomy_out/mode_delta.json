@@ -1,0 +1,666 @@
+{
+ "m0_only_fail_vs_m1": {
+  "types": 55,
+  "occurrences": 53462
+ },
+ "m0_only_pass_vs_m1": {
+  "types": 306,
+  "occurrences": 33126
+ },
+ "m0_examples_only_fail": [
+  {
+   "word": "أنه",
+   "count": 13307,
+   "dec": "أن<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فيه",
+   "count": 11535,
+   "dec": "في<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "عنه",
+   "count": 6783,
+   "dec": "عن<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "منه",
+   "count": 6589,
+   "dec": "من<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لأنه",
+   "count": 4451,
+   "dec": "ل<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فإنه",
+   "count": 3900,
+   "dec": "ف<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "إنه",
+   "count": 1980,
+   "dec": "إن<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "معه",
+   "count": 937,
+   "dec": "مع<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فإنها",
+   "count": 732,
+   "dec": "ف<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فيهما",
+   "count": 461,
+   "dec": "فهما",
+   "root": "<P:هما>",
+   "wazn": "يَفْعَلُ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فيهم",
+   "count": 369,
+   "dec": "فهمم",
+   "root": "همم",
+   "wazn": "يَفْعُلُ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "كأنه",
+   "count": 363,
+   "dec": "كأن<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لغيره",
+   "count": 348,
+   "dec": "لغير",
+   "root": "<P:غير>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "بغيره",
+   "count": 250,
+   "dec": "بغير",
+   "root": "<P:غير>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "وأنت",
+   "count": 244,
+   "dec": "ونتت",
+   "root": "نتت",
+   "wazn": "يَفْعُلُ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فأنت",
+   "count": 236,
+   "dec": "فنتت",
+   "root": "نتت",
+   "wazn": "يَفْعُلُ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "وإنه",
+   "count": 165,
+   "dec": "و<UNK>",
+   "root": "<UNK>",
+   "wazn": "<NONE>",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "أنك",
+   "count": 157,
+   "dec": "نكك",
+   "root": "نكك",
+   "wazn": "يَفْعُلُ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "أمه",
+   "count": 136,
+   "dec": "مهه",
+   "root": "مهه",
+   "wazn": "يَفْعُلُ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لاكن",
+   "count": 66,
+   "dec": "لكن",
+   "root": "<P:لكن>",
+   "wazn": "فَاعِل",
+   "suffix": "<NONE>"
+  }
+ ],
+ "m0_examples_only_pass": [
+  {
+   "word": "ان",
+   "count": 10138,
+   "dec": "ان",
+   "root": "انن",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لهم",
+   "count": 2648,
+   "dec": "لهم",
+   "root": "همم",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "انه",
+   "count": 2392,
+   "dec": "انه",
+   "root": "انه",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فان",
+   "count": 2079,
+   "dec": "فان",
+   "root": "فنن",
+   "wazn": "فَاعِل",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "وان",
+   "count": 1683,
+   "dec": "وان",
+   "root": "وان",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لك",
+   "count": 1133,
+   "dec": "لك",
+   "root": "لكك",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فانه",
+   "count": 833,
+   "dec": "فانه",
+   "root": "فنن",
+   "wazn": "فَاعِل",
+   "suffix": "ه"
+  },
+  {
+   "word": "انها",
+   "count": 569,
+   "dec": "انها",
+   "root": "انن",
+   "wazn": "فَعَلَ",
+   "suffix": "ها"
+  },
+  {
+   "word": "هناك",
+   "count": 564,
+   "dec": "هناك",
+   "root": "هنك",
+   "wazn": "فِعَال",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لهما",
+   "count": 514,
+   "dec": "لهما",
+   "root": "<P:هما>",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لانه",
+   "count": 501,
+   "dec": "لانه",
+   "root": "انه",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "هذين",
+   "count": 483,
+   "dec": "هذين",
+   "root": "هذذ",
+   "wazn": "فَعَلَ",
+   "suffix": "ين"
+  },
+  {
+   "word": "فلك",
+   "count": 481,
+   "dec": "فلك",
+   "root": "فلك",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "وبه",
+   "count": 468,
+   "dec": "وبه",
+   "root": "وبه",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "اذ",
+   "count": 427,
+   "dec": "اذ",
+   "root": "اذذ",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "فهل",
+   "count": 424,
+   "dec": "فهل",
+   "root": "فهل",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "علينا",
+   "count": 382,
+   "dec": "علينا",
+   "root": "علن",
+   "wazn": "فَعِيل",
+   "suffix": "ا"
+  },
+  {
+   "word": "الامام",
+   "count": 323,
+   "dec": "الامام",
+   "root": "امم",
+   "wazn": "فِعَال",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "بهما",
+   "count": 321,
+   "dec": "بهما",
+   "root": "بهم",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "فعليه",
+   "count": 321,
+   "dec": "فعليه",
+   "root": "عله",
+   "wazn": "فَعِيل",
+   "suffix": "<NONE>"
+  }
+ ],
+ "m2_only_fail_vs_m1": {
+  "types": 3338,
+  "occurrences": 89633
+ },
+ "m2_only_pass_vs_m1": {
+  "types": 240,
+  "occurrences": 1665
+ },
+ "m2_examples_only_fail": [
+  {
+   "word": "قال",
+   "count": 22432,
+   "dec": "قول",
+   "root": "قول",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "كانت",
+   "count": 5986,
+   "dec": "كونت",
+   "root": "كون",
+   "wazn": "فَعَلَ",
+   "suffix": "ت"
+  },
+  {
+   "word": "فقال",
+   "count": 4499,
+   "dec": "فقول",
+   "root": "قول",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "رضي",
+   "count": 3512,
+   "dec": "<UNK>",
+   "root": "<UNK>",
+   "wazn": "فَعِلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "قلنا",
+   "count": 2512,
+   "dec": "وقلنا",
+   "root": "وقل",
+   "wazn": "فَعَلَ",
+   "suffix": "نا"
+  },
+  {
+   "word": "الناس",
+   "count": 2482,
+   "dec": "النوس",
+   "root": "نوس",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "علي",
+   "count": 1884,
+   "dec": "<UNK>",
+   "root": "<UNK>",
+   "wazn": "فَعِلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "حال",
+   "count": 1816,
+   "dec": "حول",
+   "root": "حول",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "وجل",
+   "count": 1557,
+   "dec": "<UNK>",
+   "root": "<UNK>",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "النار",
+   "count": 1341,
+   "dec": "النور",
+   "root": "نور",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "المال",
+   "count": 1339,
+   "dec": "المول",
+   "root": "مول",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لان",
+   "count": 1156,
+   "dec": "لا",
+   "root": "<P:لا>",
+   "wazn": "<NONE>",
+   "suffix": "<UNK>"
+  },
+  {
+   "word": "الحال",
+   "count": 1058,
+   "dec": "الحول",
+   "root": "حول",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "صار",
+   "count": 1014,
+   "dec": "<UNK>",
+   "root": "<UNK>",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "مال",
+   "count": 777,
+   "dec": "مول",
+   "root": "مول",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "الدار",
+   "count": 676,
+   "dec": "الدور",
+   "root": "دور",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "درهم",
+   "count": 622,
+   "dec": "دورهم",
+   "root": "دور",
+   "wazn": "فَعَلَ",
+   "suffix": "هم"
+  },
+  {
+   "word": "معناه",
+   "count": 598,
+   "dec": "<UNK>ه",
+   "root": "<UNK>",
+   "wazn": "مَفْعَل",
+   "suffix": "ه"
+  },
+  {
+   "word": "كنت",
+   "count": 556,
+   "dec": "كونت",
+   "root": "كون",
+   "wazn": "فَعَلَ",
+   "suffix": "ت"
+  },
+  {
+   "word": "قل",
+   "count": 543,
+   "dec": "قول",
+   "root": "قول",
+   "wazn": "فَعَلَ",
+   "suffix": "<NONE>"
+  }
+ ],
+ "m2_examples_only_pass": [
+  {
+   "word": "منا",
+   "count": 312,
+   "dec": "منا",
+   "root": "<P:من>",
+   "wazn": "<NONE>",
+   "suffix": "ا"
+  },
+  {
+   "word": "نظرا",
+   "count": 117,
+   "dec": "نظرا",
+   "root": "نظر",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "بصره",
+   "count": 81,
+   "dec": "بصره",
+   "root": "بصر",
+   "wazn": "فَعَلَ",
+   "suffix": "ه"
+  },
+  {
+   "word": "نسخا",
+   "count": 65,
+   "dec": "نسخا",
+   "root": "نسخ",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "نفعا",
+   "count": 60,
+   "dec": "نفعا",
+   "root": "نفع",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "مستحقا",
+   "count": 55,
+   "dec": "مستحقا",
+   "root": "سحق",
+   "wazn": "مُفْتَعِل",
+   "suffix": "ا"
+  },
+  {
+   "word": "بممكن",
+   "count": 49,
+   "dec": "بممكن",
+   "root": "مكن",
+   "wazn": "مَفْعَل",
+   "suffix": "<NONE>"
+  },
+  {
+   "word": "لأجلها",
+   "count": 41,
+   "dec": "لأجلها",
+   "root": "جله",
+   "wazn": "أَفْعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "نهيه",
+   "count": 27,
+   "dec": "نهيه",
+   "root": "نهي",
+   "wazn": "فَعِلَ",
+   "suffix": "ه"
+  },
+  {
+   "word": "مستقلا",
+   "count": 25,
+   "dec": "مستقلا",
+   "root": "سقل",
+   "wazn": "مُفْتَعِل",
+   "suffix": "ا"
+  },
+  {
+   "word": "نقضا",
+   "count": 24,
+   "dec": "نقضا",
+   "root": "نقض",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "أجلها",
+   "count": 24,
+   "dec": "أجلها",
+   "root": "جله",
+   "wazn": "أَفْعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "ونهيه",
+   "count": 23,
+   "dec": "ونهيه",
+   "root": "نهي",
+   "wazn": "فَعِلَ",
+   "suffix": "ه"
+  },
+  {
+   "word": "عضوا",
+   "count": 23,
+   "dec": "عضوا",
+   "root": "عضو",
+   "wazn": "فَعُلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "مستندا",
+   "count": 21,
+   "dec": "مستندا",
+   "root": "سند",
+   "wazn": "مُفْتَعِل",
+   "suffix": "ا"
+  },
+  {
+   "word": "نخلا",
+   "count": 21,
+   "dec": "نخلا",
+   "root": "نخل",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "نفلا",
+   "count": 21,
+   "dec": "نفلا",
+   "root": "نفل",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "نقلا",
+   "count": 18,
+   "dec": "نقلا",
+   "root": "نقل",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "ونصفا",
+   "count": 17,
+   "dec": "ونصفا",
+   "root": "نصف",
+   "wazn": "فَعَلَ",
+   "suffix": "ا"
+  },
+  {
+   "word": "ابنان",
+   "count": 17,
+   "dec": "ابنان",
+   "root": "ابن",
+   "wazn": "فَعَلَ",
+   "suffix": "ان"
+  }
+ ]
+}

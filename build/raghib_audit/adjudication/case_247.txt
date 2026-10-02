@@ -1,0 +1,10 @@
+================================================================================================
+ROOT كدا   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the retardation, delay, or sluggishness of a natural process — specifically, the tardiness of the earth in bringing forth its vegetation, such that the soil remains barren or slow to sprout despite its latent fertility.
+REC haqiqah_literal  : The literal physical meaning, per Lisān al-ʿArab, is the delayed or sluggish emergence of vegetation from the earth: كَدَت الأَرض تَكْدو كَدْواً وكُدُوًّا, فهي كاديةٌ — 'The earth was slow to vegetate, hence it is kādiyah (sluggish/barren in sprouting).' The concrete referent is a tract of land whose herbage is late in appearing.
+REC canon_def.ar     : كَدَت الأَرض تَكْدو كَدْواً وكُدُوًّا، فهي كاديةٌ إِذا أَبطأَ نباتها.
+REC canon_def.en     : The earth was slow to vegetate with a kadw or kudūw, so it is kādiyah when its vegetation is tardy.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 23862 hdr=كدأ] [يقال: كَدَأَ النبت- بالهمز- من البرد. وكدأ البرد الزرع: رده في __________ (1) تكملة من مختصر العين- الورقة 168. (2) ديوانها ص 139 (صادر) . (3) في الأصول المخطوطة: ملح، وما أثبتناه فمما روي في التهذيب 10/ 325 عن العين، ومن مختصر العين الورقة 168. (4) القائل: (قيس بن الرقيات) ، كما في التهذيب 10/ 325، واللسان (كدا) . الأرض. كدأ يكدأ كدوء] «1» .

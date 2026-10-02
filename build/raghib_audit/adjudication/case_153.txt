@@ -1,0 +1,10 @@
+================================================================================================
+ROOT بنط   stratum=ma
+REC ontological_core : The triliteral sequence ب-ن-ط is classified by the classical lexicographers as a root that is 'muhmal' (unused/neglected) in its bare form; its ontological origin is therefore not an independent physical act or entity, but rather a dialectal Yemeni nominal designation for a practitioner of weaving, realized only when the sequence is augmented by an intervening letter.
+REC haqiqah_literal  : The literal physical meaning is restricted to the Yemeni dialectal noun 'al-biyanṭ' (البِيَنْطُ), denoting a weaver (al-nassāj). This is a concrete occupational designation, not a verbal root, and its morphological pattern corresponds to 'al-biyaṭr' (البِيَطْرُ), indicating that the word is a quadriliteral or augmented nominal form rather than a triliteral verb.
+REC canon_def.ar     : قال الأزهري: أَما بنط فهو مهمل، فإِذا فصل بين الباء والنون بياء كان مستعملاً، يقول أَهل اليمن للنّسَّاج البِيَنْطُ، وعلى وزنه البِيَطْرُ.
+REC canon_def.en     : Al-Azhari said: As for 'bnṭ', it is unused (muhmal); but when a yāʾ separates the bāʾ and the nūn, it becomes employed. The people of Yemen call the weaver 'al-biyanṭ', and it follows the pattern of 'al-biyaṭr'.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

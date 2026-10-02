@@ -1,0 +1,15 @@
+{
+  "tag": "EWC_B_A26000_LHEAD",
+  "val_windows": 300,
+  "n_positions": 18869,
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "trunk": "/workspace/ghazali_forget/head_EWC_B_A26000_LHEAD.pt.trunk.pt",
+  "live": {
+    "n": 18869,
+    "acc@1": 0.06672319769859314,
+    "acc@5": 0.12544384598731995,
+    "ce_raw": 7.659358501434326,
+    "ce_z": 8.099841117858887,
+    "logit_scale": 0.6525089740753174
+  }
+}

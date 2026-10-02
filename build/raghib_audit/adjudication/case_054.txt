@@ -1,0 +1,10 @@
+================================================================================================
+ROOT شها   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is the soul's innate inclination and appetitive pull toward what it desires, rooted in the body's need for what sustains it.
+REC haqiqah_literal  : The literal physical meaning is the soul's appetitive inclination toward an object of desire, specifically the bodily need for what is indispensable to health, such as the craving for food when hungry.
+REC canon_def.ar     : أصل الشهوة: نزوع النفس إلى ما تريده، وذلك في الدنيا ضربان: صادقة، وكاذبة، فالصادقة: ما يختل البدن من دونه كشهوة الطعام عند الجوع، والكاذبة: ما لا يختل من دونه.
+REC canon_def.en     : The root of shahwa is the soul's appetitive inclination toward what it desires. In this world it is of two kinds: true and false. The true is what the body would be impaired without, such as the craving for food when hungry; the false is wh […]
+SRC al-Mufradat      : [line 18818 hdr=شها] أصل الشهوة: نزوع النفس إلى ما تريده، وذلك في الدنيا ضربان: صادقة، وكاذبة، فالصادقة: ما يختل البدن من دونه كشهوة الطعام عند الجوع، والكاذبة: ما لا يختل من دونه، وقد يسمى المشتهى شهوة، وقد يقال للقوة التي تشتهي الشيء: شهوة، وقوله تعالى: زين للناس حب الشهوات [آل عمران/ 14]، يحتمل الشهوتين، وقوله: اتبعوا الشهوات [مريم/ 59]، فهذا من الشهوات الكاذبة، ومن المشتهيات المستغنى عنها، وقوله في صفة الجنة: ولكم فيها ما تشتهي أنفسكم [فصلت/ 31]، وقوله: في ما اشتهت أنفسهم [الأنبياء/ 102]، وقيل: رجل شهوان، وشهواني، وشيء شهي.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

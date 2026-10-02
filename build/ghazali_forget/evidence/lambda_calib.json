@@ -1,0 +1,24 @@
+{
+  "layers": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "n_params": 62252824,
+  "sum_F": 3917.0611578298663,
+  "mean_F": 6.292182275666509e-05,
+  "sum_F_theta0_sq": 3.739385011097391,
+  "sum_theta0_sq": 2380881.032178157,
+  "theta0_rms": 0.19556418341891937,
+  "dstar": 0.035,
+  "penalty_per_unit_lambda_at_dstar": 0.004580746638594304,
+  "L_task_step1": 11.093619346618652,
+  "L_task_mean_first200": 8.190528149604797,
+  "trace": "/workspace/root_attn/trace_ROOTATTN.jsonl",
+  "lambda_kappa_0.1": 242.17928259011848,
+  "lambda_kappa_1": 2421.7928259011846,
+  "lambda_kappa_10": 24217.928259011846,
+  "LAMBDA_PRIMARY": 2421.7928259011846,
+  "penalty_value_at_dstar_with_primary_lambda": 11.093619346618652
+}

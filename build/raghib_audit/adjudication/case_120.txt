@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جير   stratum=ma
+REC ontological_core : The root's foundational physical origin is a particle of affirmation and assent, functioning as a vocal gesture of confirmation equivalent to 'yes' or 'indeed'. It is not derived from a concrete physical object but from a primitive linguistic utterance of agreement.
+REC haqiqah_literal  : The literal meaning is the affirmative particle جَيْرِ, used to express assent, confirmation, or agreement, synonymous with أَجَلْ (yes/indeed).
+REC canon_def.ar     : جَيْرِ: بمعنى أَجَلْ
+REC canon_def.en     : Jayri: meaning 'yes' or 'indeed'.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 15316 hdr=جير] الجيم والياء والراء كلمة واحدة. جير بمعنى حقا. قال: وقالت قد أسيت فقلت جير أسى إنه من ذاك إنه (4) فأما الجبار، وهو الصباروج، فكلمة معربة. قال الأعشى: بطين وجيار وكلس وقرمد (5) وأما الجائر فما يجده الإنسان فى صدره من حرارة غيظ أو حزن؛ فهو من باب الواو، وقد مضى ذكره.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 25980 hdr=جير] جَير: يمينٌ للعرب. فقولك: جير لا أفعل ذلك، كقولك: لا أفعل ذلك والله. الجيار: الصاروج. والجيار: حلق الحلق يأخذُ عند أكل السَّمنِ.

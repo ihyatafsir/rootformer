@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حنق   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the constriction and compression of the belly against the spine, as seen in a lean, emaciated horse; from this concrete image of tight inward contraction, the root extends to the psychological constriction of intense inward rage.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the adhesion of the belly to the back in a horse or other animal due to emaciation and leanness, as in the verse of Labīd: 'by a travel-worn steed, whose belly clung to its spine and hump.' It also denotes the compact, gathered head of grain before its awns and kernels emerge.
+REC canon_def.ar     : الحَنَقُ: شِدَّةُ الاغْتِيَاظِ. وأَحْنَقَ الفرسُ وغيرهُ إذا التصقَ بطنهُ بصلبهِ ضُمْرًا.
+REC canon_def.en     : Ḥanaq is intense wrath. Aḥnaqa al-faras or other animal means its belly adhered to its spine due to emaciation.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 19406 hdr=حنق] الحاء والنون والقاف أصل واحد، وهو تضابق الشىء. يقال الضمر محانيق. وإلى هذا يرجع الحنق فى الغيظ، لأنه تضايق فى الخلق من غير ندحة ولا انبساط. قال الشاعر فى قولهم محنق: ما كان ضرك لو مننت وربما من الفتى وهو لغيظ المحنق (2)
+SRC Asas [haqiqah_literal]        : حنق على أخيه حنقا وأحنقته عليه فهو حنق وحنيق ومحنق، ومالك مغيظا محنقا. وأحنق الفرس وغيره إذا التصق بطنه بصلبه ضمرا. قال لبيد: بطليح أسفار تركن بقية ... منها فأحنق صلبها وسنامها وقال أبو النجم: قد قالت الأنساع للبطن الحقي ... قدما فآضت كالفنيق المحنق وخيل محانق ومحانيق. وعن ابن ال
+SRC Ayn (al-Khalil)  : [line 8842 hdr=حنق] الحَنَق: شِدُّةُ الاغتِياظ، حَنِقَ حَنَقاً فهو حَنِق. والاِحناق: لُزُوقُ البَطْنِ بالصُلْب، قال: «1» فأحنَقَ صُلْبُها وسَنامُها باب الحاء والقاف والفاء معهما ح ق ف، ق ح ف، ف ق ح مستعملات

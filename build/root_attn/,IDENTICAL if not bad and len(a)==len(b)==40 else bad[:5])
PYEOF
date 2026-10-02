@@ -1,0 +1,9 @@
+Failed to add the host to the list of known hosts (/home/grem3/.ssh/known_hosts).
+bash: line 7: warning: here-document at line 1 delimited by end-of-file (wanted `PYEOF')
+2bff967a375843a8b661f78183eca2d1  nrmt_train.py
+diff_lines=394
+rc=0
+  File "<stdin>", line 3
+    a=load(/workspace/root_attn/smoke/trace_SMOKE_ORIG.jsonl); b=load(/workspace/root_attn/smoke/trace_SMOKE_DEF.jsonl)
+           ^
+SyntaxError: invalid syntax

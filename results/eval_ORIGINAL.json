@@ -1,0 +1,108 @@
+{
+  "load_fidelity": {
+    "checkpoint_tensors": 568,
+    "model_tensors": 568,
+    "nrmp_tensors_in_ckpt": 12,
+    "nrmp_tensors_loaded": 12,
+    "nrmp_shape_mismatch": [],
+    "nrmp_absent_from_model": [],
+    "missing_keys_total": 0,
+    "unexpected_keys_total": 0
+  },
+  "evaluation": {
+    "corpus1": {
+      "corpus": "/workspace/andalusian_canon_sanitized",
+      "n_sentences": 150,
+      "examples": [
+        "العباس احمد بن عبد الرحمن بن مضاء اللخمي، أدام الله بركته، ونور بنور",
+        "الإيمان خلده، وفسح أجله، ونفعه بالعلم الذي حمله:",
+        "والصلاة على نبيه الداعي إلى دار الرضوان، وعلى اله وصحبه والتابعين له"
+      ],
+      "real_context": {
+        "positions": 1542,
+        "radical_positions": 805,
+        "radical_acc_top1": 0.018633540372670808,
+        "radical_acc_top5": 0.07701863354037267,
+        "radical_ce": 6.978260869565218,
+        "radical_ppl": 1073.0506591796875,
+        "root_acc_top1": 0.17315175097276264,
+        "root_acc_top5": 0.3404669260700389,
+        "root_ce": 5.249189364461738,
+        "root_ppl": 190.41184997558594,
+        "baseline_uniform_top1": 0.00010972130787798991,
+        "baseline_oracle_unigram_top1": 0.03354037267080745,
+        "distinct_target_roots": 412,
+        "shuffled_context": false,
+        "radical_baseline_unigram_top1": 0.03354037267080745,
+        "radical_baseline_bigram_top1": 0.38633540372670805,
+        "unigram_most_common_root": "اله"
+      },
+      "shuffled_context_control": {
+        "positions": 1542,
+        "radical_positions": 816,
+        "radical_acc_top1": 0.0,
+        "radical_acc_top5": 0.01715686274509804,
+        "radical_ce": 7.473766850490196,
+        "radical_ppl": 1761.2283935546875,
+        "root_acc_top1": 0.14721141374837873,
+        "root_acc_top5": 0.2607003891050584,
+        "root_ce": 5.776629377431907,
+        "root_ppl": 322.6697692871094,
+        "baseline_uniform_top1": 0.00010972130787798991,
+        "baseline_oracle_unigram_top1": 0.031862745098039214,
+        "distinct_target_roots": 417,
+        "shuffled_context": true,
+        "radical_baseline_unigram_top1": 0.031862745098039214,
+        "radical_baseline_bigram_top1": 0.3737745098039216,
+        "unigram_most_common_root": "اله"
+      }
+    },
+    "corpus2": {
+      "corpus": "/workspace/scholastic_sanitized",
+      "n_sentences": 150,
+      "examples": [
+        "الجنيد بن محمد الجنيد ومنهم المربي بفنون العلم المؤيد بعيون الحلم المنور بخالص الإيقان وثابت الإيمان العالم بمودع الكتاب والعامل بحلم الخطاب، الموافق فيه للبيان والصواب أبو القاسم الجنيد بن محمد الجنيد: كان كلامه بالنصوص مربوطا وبيانه بالأدلة مبسوطا،",
+        "فاق أشكاله بالبيان الشافي واعتناقه للمنهج الكافي ولزومه للعمل الوافي",
+        "سمعت أبا الحسن علي بن هارون بن محمد، وأبا بكر محمد بن أحمد المفيد"
+      ],
+      "real_context": {
+        "positions": 1764,
+        "radical_positions": 1048,
+        "radical_acc_top1": 0.011450381679389313,
+        "radical_acc_top5": 0.06202290076335878,
+        "radical_ce": 7.052987833969466,
+        "radical_ppl": 1156.3087158203125,
+        "root_acc_top1": 0.14909297052154194,
+        "root_acc_top5": 0.30952380952380953,
+        "root_ce": 5.508361678004535,
+        "root_ppl": 246.74658203125,
+        "baseline_uniform_top1": 0.00010972130787798991,
+        "baseline_oracle_unigram_top1": 0.030534351145038167,
+        "distinct_target_roots": 451,
+        "shuffled_context": false,
+        "radical_baseline_unigram_top1": 0.030534351145038167,
+        "radical_baseline_bigram_top1": 0.3950381679389313,
+        "unigram_most_common_root": "عرف"
+      },
+      "shuffled_context_control": {
+        "positions": 1764,
+        "radical_positions": 1071,
+        "radical_acc_top1": 0.003734827264239029,
+        "radical_acc_top5": 0.025210084033613446,
+        "radical_ce": 7.370915032679738,
+        "radical_ppl": 1589.0870361328125,
+        "root_acc_top1": 0.1320861678004535,
+        "root_acc_top5": 0.23866213151927437,
+        "root_ce": 5.913548752834467,
+        "root_ppl": 370.0169982910156,
+        "baseline_uniform_top1": 0.00010972130787798991,
+        "baseline_oracle_unigram_top1": 0.03361344537815126,
+        "distinct_target_roots": 453,
+        "shuffled_context": true,
+        "radical_baseline_unigram_top1": 0.03361344537815126,
+        "radical_baseline_bigram_top1": 0.34360410830999066,
+        "unigram_most_common_root": "قول"
+      }
+    }
+  }
+}

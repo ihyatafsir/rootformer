@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قرطس   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is a thin, flat sheet of writing material — specifically papyrus (bardī) manufactured in Egypt — serving as a surface for inscription.
+REC haqiqah_literal  : A physical sheet or scroll of papyrus used for writing; also a type of Egyptian striped cloth (burd) and a stretched hide set up as a target for archery.
+REC canon_def.ar     : القِرْطاس: ما يُكتب فيه، معروف يُتَّخذ من بَرْدِيّ يكون بمصر. وكل أَديم يُنْصَب للنِّضال فاسمه قِرْطاس، ويسمَّى الغَرَض قِرْطاساً.
+REC canon_def.en     : Qirṭās: that upon which one writes; a well-known material made from papyrus (bardī) in Egypt. Every hide set up for archery is called a qirṭās, and the target itself is also called a qirṭās.
+SRC al-Mufradat      : [line 26834 hdr=قرطس] القرطاس: ما يكتب فيه. قال الله تعالى: ولو نزلنا عليك كتابا في قرطاس [الأنعام/ 7]، قل من أنزل الكتاب الذي جاء به موسى نورا وهدى للناس تجعلونه قراطيس [الأنعام/ 91].
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22252 hdr=قرطس] القِرْطاس [معروف] ، يتخذ من بردي مصر. وكل أديم ينصب للنضال فاسمه: قِرطاس. [يقال] : قَرْطَسَ الرامي إذا أصاب [الأديم] . وجرمز إذا أخطأ، والرمية التي تصيبها اسمها: المُقَرْطَسَة.

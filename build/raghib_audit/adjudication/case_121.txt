@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حثر   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ح-ث-ر is a granular, rough, or crusted condition affecting a surface, specifically the eye, arising from accreted discharge or eruptive pustules.
+REC haqiqah_literal  : The literal physical meaning is a roughness or granulation experienced in the eye due to rheum (ramas), or the emergence of a red pustule or blister (bathr) on the eyelids, accompanied by a scaly or crusted texture.
+REC canon_def.ar     : الحَثَرُ: خُشُونَةٌ يَجِدُهَا الرَّجُلُ فِي عَيْنِهِ مِنَ الرَّمَصِ، وَقِيلَ: هُوَ أَنْ يَخْرُجَ فِيهَا حَبٌّ أَحْمَرُ، وَهُوَ بَثْرٌ يَخْرُجُ فِي الأَجْفَانِ، وَقَدْ حَثِرَتْ عَيْنُهُ. وَالحَثَرَةُ: انْسِلاقُ العَيْنِ، وَتَصْغِيرُهَا حُثَيْرَةٌ.
+REC canon_def.en     : Al-Ḥathar: a roughness that a person experiences in his eye due to rheum; it is also said to be the emergence of a red grain-like eruption, which is a pustule that appears on the eyelids, and his eye has become affected. Al-Ḥatharah: a scal […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 20165 hdr=حثر] الحاء والثاء والراء أصل واحد، يدل على تحبب فى الشىء وغلظ. ويقال حثرت عين الرجل حثرا، إذا غلظت أجفانها من بكاء (3) أو رمد. وحثر العسل، إذا تحبب. والحوثرة: بعض أعضاء* الرجل (4). وليس من قياس الباب. والحواثر: قوم من عبد القيس. وحثارة التبن: حطامه. [حثوى] الحاء والثاء والحرف المعتل يدل على ذرو الشىء الخفيف السبيح (1). من ذلك الحثا، وهو دقاق التبن. قال: وأغبر مسحول التراب ترى له حثا طردته الريح من كل مطرد وقال الراجز: كأنه غرارة ملأى حثا (2) ويقال حثا التراب يحثوه. قال: الحصن أدنى لو تريدينه من حثوك الترب على الراكب (3) ويقال حثى يحثي حثيا. وهو أفصح. قال: أحثي على ديسم من جعد الثرى (4) ويقال أرض حثواء: كثيرة التراب.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

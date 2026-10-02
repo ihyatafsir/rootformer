@@ -1,0 +1,12 @@
+================================================================================================
+ROOT خفش   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root خ ف ش is a congenital or acquired defect in the eye characterized by smallness, narrowness, and weakness of vision, without pain or ulceration.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is the smallness of the eyes and weakness of sight; a man is described as أَخْفَش (akhfash) and the condition is خَفَش (khafash). The verb خَفِشَتْ عَيْنُهُ (khafishat ʿaynu-hu) means his eye became weak or small.
+REC canon_def.ar     : الخَفَشُ: ضعف في البصر وضيق في العين، وقيل: صغرٌ في العين خلقةً، وقيل: هو فساد في جفن العين واحمرار تضيق له العيون من غير وجع ولا قُرْحٍ، خَفِش خَفَشاً، فهو خَفِشٌ وأَخْفَشُ.
+REC canon_def.en     : Al-Khafash: weakness of vision and narrowness of the eye; it is said to be a congenital smallness of the eye; or it is a corruption in the eyelid and a redness that causes the eyes to narrow, without pain or ulceration. One says khafisha kh […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : رجل أخفش، وبه خفش وهو صغر العينين وضعف البصر، وقد خفشت عينه. خ قال: ض خفض الشيء ورفعه فانخفض. وهو في حال رفعة وحال خفضة. وختن الغلام، وخفضت Metaphorical (Majaz): خفض صوته ورفعه. وكلام مخفوض و
+SRC Asas [majaz_metaphorical]        : خفض صوته ورفعه. وكلام مخفوض و
+SRC Asas [haqiqah_literal]        : رجل أخفش، وبه خفش وهو صغر العينين وضعف البصر، وقد خفشت عينه. خ قال: ض خفض الشيء ورفعه فانخفض. وهو في حال رفعة وحال خفضة. وختن الغلام، وخفضت الجارية. وفلانة خافضة. ونعمت الخافضة! وخفض رأس البعير إلى الأرض. قال: يكاد يستعصي على مخفضه
+SRC Ayn (al-Khalil)  : [line 16002 hdr=خفش] الخَفَشُ: فسادٌ في الجفون تضيق له العيون من غير وجعٍ ولا قرحٍ. رجلٌ أَخْفَشُ.

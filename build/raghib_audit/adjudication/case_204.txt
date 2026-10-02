@@ -1,0 +1,10 @@
+================================================================================================
+ROOT صلخد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the robust, mature, and powerful male camel, specifically denoting a stallion distinguished by advanced age, formidable strength, and imposing length; it is a quadriliteral root (rubāʿī) with no triliteral derivation, and its primary semantic nucleus is the concrete image of a mighty, seasoned beast of burden.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (inferred from Lisān al-ʿArab) is: a mature, strong, and tall male camel; a stallion of advanced age and great power; also used for a strong stallion, with the feminine form denoting a she-camel of similar qualities.
+REC canon_def.ar     : الصَّلْخَدُ والصِّلَخْدُ والصِّلْخَدُّ والصُّلَاخِدُ والصِّلْخَادُ والصَّلَخْدَى كله: الجمل المُسِنُّ الشَّديدُ الطَّويلُ، وقيل: هو الماضي من الإِبل، وقيل للفحْل الشديد صَلَخْدًى، بالتنوين، والأُنثى صَلَخْدَاةٌ.
+REC canon_def.en     : Al-ṣalkhad, al-ṣilakhd, al-ṣilkhadd, al-ṣulākhid, al-ṣilkhād, and al-ṣalakhdā all denote: a mature, strong, and tall male camel; it is also said to be a camel of advanced age and vigor; a strong stallion is called ṣalakhdā with tanwīn, and  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

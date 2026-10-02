@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قرنس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of hooding and sealing a bird of prey — specifically, sewing shut the eyes of a falcon or hawk at the moment of its capture, and the consequent loss or molting of its feathers during the taming process. The quadrilaterals قَرْنَس / قَرْنَص denote this concrete falconry operation, with the س and ص variants reflecting an ancient dialectal alternation on the فَعْلَل […]
+REC haqiqah_literal  : The literal physical meaning is: a falcon (البازي) was hooded and its eyes were stitched shut immediately upon capture, causing its plumage to drop; likewise said of a rooster (الديك) when its eyes are sealed or its feathers fall. The verb is intransitive (لازم) in this usage, describing the bird's condition rather than an agent's action.
+REC canon_def.ar     : قَرْنَسَ البازي: كُرِّزَ، أي سقط ريشه، وخِيطَتْ عيناه أول ما يُصاد؛ فعل لازم. وقَرْنَسَ الديكُ وقَرْنَصَ: إذا كُرِّزَ وسقط ريشه.
+REC canon_def.en     : Qarnasa al-bāzī: it was hooded — that is, its feathers dropped and its eyes were stitched shut at the moment of capture; the verb is intransitive. And qarnasa al-dīk / qarnaṣa: when it was hooded and its feathers fell.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22280 hdr=قرنس] القُرْناس: شبه أنف يتقدم من الجبل. وقَرْنس البازي، فعل له لازم، إذا كرز، وخيطت عيناه أول ما يصاد.

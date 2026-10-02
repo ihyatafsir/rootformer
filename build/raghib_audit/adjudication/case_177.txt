@@ -1,0 +1,10 @@
+================================================================================================
+ROOT دجا   stratum=ma
+REC ontological_core : The foundational physical origin of the root د ج و is the state of night when darkness is compounded by cloud cover, such that neither star nor moon is visible—an enveloping obscurity that cloaks all things, distinct from mere absence of light.
+REC haqiqah_literal  : The literal physical meaning is the blackness of night accompanied by clouds, preventing sight of any star or moon; it is the condition of a night that has enveloped everything in dense, overcast darkness.
+REC canon_def.ar     : الدُّجى: سَوادُ اللَّيلِ مَعَ غَيْمٍ، وأَنْ لا تَرى نَجْمًا ولا قَمَرًا، وقيل: هو إذا أَلْبَسَ كُلَّ شَيْءٍ ولَيْس هو من الظُّلْمَةِ، وقالوا: لَيْلَةٌ دُجًى ولَيالٍ دُجًى، لا يُجْمَعُ لأَنَّهُ مَصْدَرٌ وُصِفَ بِهِ، وقد دَجَا.
+REC canon_def.en     : Al-Dujā is the blackness of night together with cloud cover, such that you see neither star nor moon. It is also said to be when it envelops everything, and it is not merely from [ordinary] darkness. They say: 'a night of dujā' and 'nights  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

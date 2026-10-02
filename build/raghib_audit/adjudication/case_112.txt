@@ -1,0 +1,12 @@
+================================================================================================
+ROOT وثب   stratum=mA
+REC ontological_core : The foundational physical act of springing or leaping off the ground with force, a sudden upward or forward propulsion of the body from a surface.
+REC haqiqah_literal  : To leap or spring from one place to another; to bound or vault; to pounce upon (with ilā or ʿalā); to assault or attack suddenly (with ilā); to compete in leaping (with one another).
+REC canon_def.ar     : الوَثْبُ: الطَّفْرُ. وَثَبَ يَثِبُ وَثْباً، ووَثَبَاناً، ووُثُوباً، ووِثَاباً، ووَثِيباً: طَفَرَ.
+REC canon_def.en     : Al-wathb is leaping. Wathaba yathibu wathban, wathabānan, wuthūban, withāban, and wathīban: he leaped.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75644 hdr=وثب] الواو والثاء والباء يدل فى لغة العرب على الظفر، إلا فى لغات من لغات حمير فإنه بخلاف هذا. ووثب من مكانه: طفر. وفى لغة حمير يقولون لمن قعد: قد وثب. وإذا أمروا بالقعود فالواثب. ويقولون للملك إذا قعد ولم يغز: الموثبان (1). ويقولون: وثبه وسادة: ألقاها له ليقعد عليها. ||| باب الواو والجيم وما يثلثهما
+SRC Asas [majaz_metaphorical]        : توثب على منزلته، وتوثب على أخيه في أرضه: استولى عليها ظلما. وقد وثب إلى الشرف وثبة. قال الكميت: ووثبة لك في الأحساب بالغة ... كذاك إنك في المعروف ذو وثب كنوبة ونوب. وفرس وثابة: سريعة.
+SRC Asas [bilingual_haqiqah_majaz]        : وثب من مكان إلى مكان وثبا ووثوبا ووثيبا، ووثب إليه، وواثبه، وتواثبوا. وظبي وثاب. Metaphorical (Majaz): توثب على منزلته، وتوثب على أخيه في أرضه: استولى عليها ظلما. وقد وثب إلى الشرف وثبة. قال الكميت: ووثبة لك في الأحساب بالغة ... كذاك إنك في ال
+SRC Asas [haqiqah_literal]        : وثب من مكان إلى مكان وثبا ووثوبا ووثيبا، ووثب إليه، وواثبه، وتواثبوا. وظبي وثاب.
+SRC Ayn (al-Khalil)  : [line 34384 hdr=وثب] يُقال: وَثَبَ وَثْباً ووُثوباً ووِثاباً ووثيباً، والمرّةُ الواحدة: وَثْبة. وفي لغة حمير: ثِب معناه: اقعد. والوِثاب: الفِراشُ بلغتهم. والمَوْثِبُ: المكان الذي تثب منه. والثِّبةُ: اسمٌ موضوعٌ من الوثب. __________ (82) القائل: (معروف بن عبد الرحمن) اللسان (ثوب) مع اختلاف في الرواية.

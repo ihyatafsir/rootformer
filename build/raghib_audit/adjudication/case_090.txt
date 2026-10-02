@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فطن   stratum=mA
+REC ontological_core : The root's foundational physical origin centers on a sharp, penetrating cognitive grasp — an acute mental alertness that seizes upon a matter swiftly and thoroughly, as opposed to dullness or obtuseness (ghabāwah). It is the mind's capacity to apprehend subtle distinctions and respond with precision.
+REC haqiqah_literal  : To be acutely aware of, to grasp a matter with mental sharpness, to perceive something with alert intelligence; said of a person who is keenly attentive and quick to understand (فَطِنٌ), and of the act of making someone else attentive or sharpening their understanding (تفطين).
+REC canon_def.ar     : الفِطْنَةُ: كالفهم، وهي ضد الغباوة. ورجل فَطِنٌ بَيِّنُ الفِطْنَة والفَطَن، وقد فَطَنَ لهذا الأمر يَفْطُنُ فِطْنَةً، وفَطُنَ.
+REC canon_def.en     : Fiṭnah is akin to understanding (fahm), and it is the opposite of dullness (ghabāwah). A man who is faṭin is one in whom acute intelligence and mental alertness are manifest; he has grasped this matter with keen perception, and he is sharp- […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 58901 hdr=فطن] الفاء والطاء والنون كلمة واحدة تدل على ذكاء وعلم بشىء. يقال: رجل فطن وفطن، وهى الفطنة والفطانة (1).
+SRC Asas [haqiqah_literal]        : مررت به فما فطن لي، وإذا حدثتك بشيء فافطن له، وتفطن لما أقول لك، وفاطن صاحبه مفاطنة، وهو فطن، وقد فطن وفطن فطانة، وفطنته للأمر، وفطنه المعلم: رده فطنا بتأديبه وتثقيفه. قال رؤبة: وقد أعاصي في الشباب الميال ... موعظة الأدنى وتفطين الوال
+SRC Ayn (al-Khalil)  : [line 31637 hdr=فطن] رَجُلٌ فَطِنٌ بَيِّنُ الفِطُنةِ والفَطَنِ. وقد فَطَنَ لهذا الشَّيْء يَفْطُنُ فِطْنةً فهو فاطن. وأمّا الفَطِنُ فذو فطنة بين الفطنة. ولا يمتنع كل فِعْلٍ من النُّعُوتِ من أن يُقالَ: قد فَعُلَ، وفَطُنَ، أي: صار فَطِناً إلاّ القليل. وفَطَّنْتُهُ لهذا الأمرِ تفطيناً ففَطِنَ، قال رؤبة «72» : وقد أُعاصي في الشَّباب الميّالْ ... موعظةَ الأَدْنَى وتَفْطينَ الوال يعني بالتفطين: تأديبه إيّاه، وبيانه له الشّرّ.

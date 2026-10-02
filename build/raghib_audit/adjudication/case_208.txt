@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ضغغ   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on a lush, verdant, well-watered meadow (rawḍah) that is fresh, tender, and free of blemish or decay—a self-contained, flourishing garden spot. The underlying sensory image is that of soft, moist, thriving herbage, from which the root's nominal form al-ḍaghīghah is derived.
+REC haqiqah_literal  : The literal physical meaning, per Lisān al-ʿArab, is a fresh, blooming, unblemished meadow or garden (al-rawḍah al-nāḍirah al-mutakhalliyah), also called al-ḍaghīghah, al-marghadah, al-maghmaghah, al-makhjalah, al-marghah, and al-ḥadīqah. Abū Ḥanīfah reports the idiom: 'They are in a ḍaghīghah of the ḍaghāḍigh'—i.e., in a state of lush, abundant, and pleasant verdure.
+REC canon_def.ar     : الضَّغِيغَةُ: الرَّوْضَةُ النَّاضِرَةُ المُتَخَلِّيَةُ. وَيُقَالُ: هُمْ فِي ضَغِيغَةٍ مِنَ الضَّغَاضِغِ إِذَا كَانُوا فِي رِيَاضٍ مُعْشِبَةٍ نَاعِمَةٍ.
+REC canon_def.en     : Al-ḍaghīghah: a fresh, blooming, unblemished meadow. It is said: 'They are in a ḍaghīghah of the ḍaghāḍigh' when they are amid lush, tender, herbaceous gardens.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

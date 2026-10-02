@@ -1,0 +1,10 @@
+================================================================================================
+ROOT اذا   stratum=Ma
+REC ontological_core : A deictic-temporal particle whose foundational semantic function is to point to an indeterminate future time; it is not a lexical root with a concrete physical origin but a grammatical operator (adāt) denoting futurity, and it may acquire conditional force when construed with a following verb.
+REC haqiqah_literal  : The literal function of إذا is to designate any future time (al-zamān al-mustaqbal), whether indefinite or specified by context; it is the temporal particle of futurity, as opposed to إذ, which designates past time.
+REC canon_def.ar     : إذا يعبر به عن كل زمان مستقبل، وقد يضمن معنى الشرط فيجزم به، وذلك في الشعر أكثر؛ و«إذ» يعبر به عن الزمان الماضي، ولا يجازى به إلا إذا ضم إليه «ما».
+REC canon_def.en     : Ifā denotes any future time, and it may be invested with conditional meaning, in which case it governs the jussive—this being more frequent in poetry; whereas idh denotes past time, and it is not used conditionally unless joined with mā.
+SRC al-Mufradat      : [line 2129 hdr=إذا] إذا يعبر به عن كل زمان مستقبل، وقد يضمن معنى الشرط فيجزم به، وذلك في الشعر أكثر، و«إذ» يعبر به عن الزمان الماضي، ولا يجازى به إلا إذا ضم إليه «ما» نحو: 11- إذ ما أتيت على الرسول فقل له (1) أرب الأرب: فرط الحاجة المقتضي للاحتيال في دفعه، فكل أرب حاجة، وليس كل حاجة أربا، ثم يستعمل تارة في الحاجة المفردة، وتارة في الاحتيال وإن لم يكن حاجة، كقولهم: فلان ذو أرب، وأريب، أي: ذو احتيال، وقد أرب إلى كذا، أي: احتاج إليه حاجة شديدة (2)، وقد أرب إلى كذا أربا وأربة وإربة ومأربة، قال تعالى: ولي فيها مآرب أخرى [طه/ 18]، ولا أرب لي في كذا، أي: ليس بي شدة حاجة إليه، وقوله: أولي الإربة من الرجال [النور/ 31] كناية عن الحاجة إلى الن […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

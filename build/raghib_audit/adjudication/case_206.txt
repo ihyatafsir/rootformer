@@ -1,0 +1,10 @@
+================================================================================================
+ROOT صهك   stratum=ma
+REC ontological_core : The root denotes blackness or deep darkness, specifically the blackness of complexion; its foundational physical origin is the dark, lustrous hue of the female slaves (al-jawārī al-sūd) attested by Abū ʿAmr.
+REC haqiqah_literal  : The literal physical meaning is the black female slaves (al-jawārī al-sūd), i.e., women of dark complexion.
+REC canon_def.ar     : الصُّهْكُ: الجواري السُّودُ.
+REC canon_def.en     : Al-ṣuhk: the black female slaves.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

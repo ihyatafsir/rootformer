@@ -1,0 +1,10 @@
+================================================================================================
+ROOT صكا   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on firm adherence, cleaving, or persistent attachment to a thing, such that the subject remains bound or fastened to it.
+REC haqiqah_literal  : To cling to, adhere to, or persistently attach oneself to a thing; to remain fastened to it.
+REC canon_def.ar     : صَكا إذا لزِمَ الشيءَ.
+REC canon_def.en     : He clung to the thing, adhered to it, or remained persistently attached to it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

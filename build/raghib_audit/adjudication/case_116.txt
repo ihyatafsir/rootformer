@@ -1,0 +1,10 @@
+================================================================================================
+ROOT انك   stratum=ma
+REC ontological_core : The root denotes a state of intense, burdensome hardship or constriction, with a secondary physical sense of bending or curving under pressure.
+REC haqiqah_literal  : Literal physical meaning: to be in a state of hardship, distress, or constriction; also to bend or curve.
+REC canon_def.ar     : الأَنْكُ: الشِّدَّةُ وَالضِّيقُ، وَأَنِكَ الرَّجُلُ إِذَا وَقَعَ فِي شِدَّةٍ، وَأَنَكَ الشَّيْءَ إِذَا عَطَفَهُ وَحَنَاهُ.
+REC canon_def.en     : Al-ank: hardship and constriction; a man is in hardship when he falls into distress; to bend something is to curve and flex it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 5051 hdr=أنك] الهمزة والنون والكاف ليس فيه أصل، غير أنه قد ذكر الآنك. ويقال هو خالص الرصاص، ويقال بل جنس منه. ||| (باب الهمزة والهاء وما بعدهما فى الثلاثى)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 24033 hdr=أنك] الآنُكُ: الأسرب «4» ، والقطعة: آنكة. باب الكاف والفاء و (وا يء) معهما ك وف، وك ف، ك ف ي، ك ي ف، ك فء، ء ك ف، ء ف ك مستعملات

@@ -1,0 +1,86 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "name": "shipped ishtiqaq_attention_v12.py md5",
+      "ok": true,
+      "detail": "d192ac9f3514f2a7f831a5ff03fe93b8"
+    },
+    {
+      "name": "gate 0 == shipped(root_ids=None), bitwise, all layers",
+      "ok": true,
+      "detail": "24/24, worst|d|=0.000e+00"
+    },
+    {
+      "name": "gate 1 + native source == shipped(root_ids=R), bitwise, all layers",
+      "ok": true,
+      "detail": "24/24, worst|d|=0.000e+00"
+    },
+    {
+      "name": "whole model: gates 0 + no root ids == un-swapped trunk, bitwise",
+      "ok": true,
+      "detail": "max|d|=0.000e+00"
+    },
+    {
+      "name": "whole model: gate 1 is LIVE",
+      "ok": true,
+      "detail": "max|dh|=2.500000e-01, RMS-rel=1.3542 %"
+    },
+    {
+      "name": "whole model: gate 1 output DEPENDS on the root sequence",
+      "ok": true,
+      "detail": "max|dh|=2.500000e-01 over 125 rolled positions"
+    },
+    {
+      "name": "whole model: gate 0 output is INVARIANT to the root sequence",
+      "ok": true,
+      "detail": "max|dh|=0.000e+00"
+    },
+    {
+      "name": "shared source: gate 0 == un-swapped trunk, bitwise",
+      "ok": true,
+      "detail": "max|d|=0.000e+00"
+    },
+    {
+      "name": "shared source: gate 1 is LIVE",
+      "ok": true,
+      "detail": "max|dh|=2.500000e-01"
+    },
+    {
+      "name": "delta == o_proj((attn_on - attn_off) @ v)",
+      "ok": false,
+      "detail": "rel residual 8.333e-02, max|d attn| 9.532e-02"
+    }
+  ],
+  "per_layer": {
+    "n_equal_gate0": 24,
+    "n_equal_gate1": 24,
+    "n": 24,
+    "worst_abs_gate0": 0.0,
+    "worst_abs_gate1": 0.0
+  },
+  "whole_model": {
+    "max_abs_dh_gate1_vs_gate0": 0.25,
+    "rms_rel": 0.013542395430265001,
+    "gate": 1.0,
+    "pillar_gate": 0.0,
+    "max_abs_h": 13.75
+  },
+  "roll": {
+    "max_abs_dh_gate1_rolled": 0.25,
+    "max_abs_dh_gate0_rolled": 0.0,
+    "n_positions_differing": 125
+  },
+  "shared_source": {
+    "n_trainable_params_total": 11010096,
+    "n_trainable_params_per_layer": 458754,
+    "max_abs_dh_gate1_vs_gate0": 0.25,
+    "rms_rel": 0.013084618207807446
+  },
+  "reconstruction": {
+    "max_abs_raw_delta": 12.0,
+    "rel_residual": 0.0833333358168602,
+    "max_abs_delta_attn": 0.09531942009925842
+  },
+  "native_params_all_layers": 15419952
+}

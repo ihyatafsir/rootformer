@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فلقس   stratum=ma
+REC ontological_core : The root's foundational physical origin is not attested in Al-Mufradāt; however, the Lisān material points to a quadriradical (or quasi-quadriradical) cluster denoting meanness, lowliness, and mixed/base descent, with the physical origin likely rooted in the notion of paucity, stinginess, and social inferiority.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān, the literal sense is 'a stingy, base person' and 'a person of mixed descent, especially one whose father is a client (mawlā) and whose mother is a client (mawlā).'
+REC canon_def.ar     : الفَلْقَسُ والفَلَنْقَس: البخيل اللئيم. والفَلَنْقَس: الهَجِين من قِبَل أَبَوَيْه الذي أَبُوه مَوْلًى وأُمّه مَوْلاة.
+REC canon_def.en     : Al-falqas and al-falanqas: the stingy, base person. And al-falanqas: the person of mixed descent on both parental sides, whose father is a client (mawlā) and whose mother is a client (mawlā).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

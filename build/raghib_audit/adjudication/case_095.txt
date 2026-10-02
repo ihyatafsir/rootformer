@@ -1,0 +1,10 @@
+================================================================================================
+ROOT لحص   stratum=mA
+REC ontological_core : The foundational physical origin of the root ل ح ص is the constriction and closure of a narrow aperture, specifically the eye of a needle, such that passage through it is blocked. The root thus denotes the state of being tightly closed, narrow, or impenetrable.
+REC haqiqah_literal  : The literal physical meaning, as attested in Asās al-Balāghah, is the closing or sealing of the eye of a needle (خَرْتُ الإبرة), i.e., its becoming blocked and impassable.
+REC canon_def.ar     : اللَّحْصُ واللَّحَصُ واللَّحِيصُ: الضَّيِّقُ. والتحص خرت الإبرة: انسد.
+REC canon_def.en     : Al-laḥṣ, al-laḥaṣ, and al-laḥīṣ: the narrow. And the closing of the eye of a needle: it became blocked.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 65865 hdr=لحص] اللام والحاء والصاد كلمة تدل على ضيق في شيء. يقال: لحص يلحص لحصا. قال: قد كنت خراجا ولوجا صيرفا لم تلتحصني حيص بيص لحاص (5) أي لم أنشب فيها. ولحاص فعال منه. ويقال: التحصت الإبرة، إذا انسد سمها.
+SRC Asas [haqiqah_literal]        : التحص خرت الإبرة: انسد.
+SRC Ayn (al-Khalil)  : [line 9841 hdr=لحص] اللَّحْصُ والتَلحيصُ: استقصاء خَبَر الشيء وبيانه، لَحَصَ لي فلان خَبَرك وأمْرَكَ أي بَيَّنَه شَيئاً شَيئاً. وقال «4» في بعض الوصف: أَمْرُ مَناقِع النّزّ ومواقع الرّزّ، حبُّها لا يُجَزُّ، وقصبها يهتزّ، وكتَبْتَ كتابي هذا وقد حَصَّلتُه ولحَّصتْهُ وفَصَّلُته ووَصَّلْتُه وترّصته «6» وفَصَّصْته مُحَصَّلاً مُلَحَّصاً مُفَصَّلاً مُوَصَّلاً مُتَرَّصاً مُفصّصا، وبعض يقول ملخصا بالخاء. __________ (1) من مختصر العين (ورقة 67) ، […]

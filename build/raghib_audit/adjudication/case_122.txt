@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حظل   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of restraining, hindering, or preventing a being from acting or moving — a privative condition imposed upon a subject, conceived as a blockage or confinement of its capacity for free disposal and locomotion.
+REC haqiqah_literal  : The literal physical meaning is the prevention or hindrance of a person or animal from acting, moving, or disposing of affairs freely; it denotes a state of being held back, confined, or rendered incapable of motion or independent action.
+REC canon_def.ar     : الحَظْل: المَنْع من التصرّف والحركةِ، حَظَل يَحْظِل ويَحْظُل حَظْلاً وحِظْلاناً وحَظَلاناً.
+REC canon_def.en     : Al-Ḥaẓl: prevention from free disposal and movement; ḥaẓala (yaḥẓil, yaḥẓul) — ḥaẓlan, ḥiẓlān, and ḥaẓalān.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 18446 hdr=حظل] الحاء والظاء واللام أصل واجد، وهو قريب من الذى قبله فالحظل: الغيرة ومنع المرأة من التصرف والحركة [قال (2)]: فيحظل أو يغار (3) قال أبو عبيد: حظلت عليه مثل حظرت ويقال فى قوله «فيحظل أو يغار» إنه التقتير. وأحر أن يكون هذا أصح، لأنه قال «أو يغار». والتقتير يرجع إلى الذى ذكرناه من المنع. والدليل على ذلك قولهم حظلان وحظلان. قال: تعيرنى الحظلان أم مخلس فقلت لها لم تقذفينى بدائيا (4) ||| باب الحاء والفاء وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 10971 hdr=حظل] الحَظِلُ: المُقَتِّرُ، قال: «3» فما يُخْطِئْكِ لا يُخْطِئْكِ منه ... طَبانِيَةٌ فَيْحْظِلُ أو يَغارُ وبعيرٌ حَظِل إذا كان يأكُلُ الحَنْظَل، يحذِفُون النون، ويقال: هي زائدة، ويقال: هي أصلية، والبناء رُباعيّ ولكنّها أحقُّ بالطَّرْح، لأنّها أخَفُّ الحروف، وهم الذين يقولون: قد أسبَلَ الزَّرْع، بطرح النون، من السُّنْبُل، ولغة أخرى: سَنْبَلَ الزَّرْع. والحاظل: الذي يَمشي في شِقِّة «4» من شَكاة، [تقولُ: مَرَّ بنا يَحْظِلُ ظ […]

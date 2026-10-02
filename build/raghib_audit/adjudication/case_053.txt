@@ -1,0 +1,10 @@
+================================================================================================
+ROOT شكا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is the opening of a small water-skin (shakwah) to expose its contents; this concrete image of revealing what is contained within a vessel underlies all subsequent usage.
+REC haqiqah_literal  : To disclose or expose one's inner distress or grievance; literally, to open a small water-skin and reveal what it holds.
+REC canon_def.ar     : الشَّكْوُ والشَّكَايَةُ والشَّكَاةُ والشَّكْوَى: إظهارُ البَثِّ. وأصلُ الشَّكْوِ: فَتْحُ الشَّكْوَةِ وإظهارُ ما فيها، وهي سِقاءٌ صغيرٌ يُجعل فيه الماءُ. والمِشْكَاةُ: كُوَّةٌ غيرُ نافذةٍ.
+REC canon_def.en     : Complaint, grievance, and lamentation: the disclosure of inner distress. The root origin of complaint is the opening of a small water-skin and the exposure of its contents; it is a small vessel used for water. The mishkāt is a non-piercing  […]
+SRC al-Mufradat      : [line 18571 hdr=شكا] الشكو والشكاية والشكاة والشكوى: إظهار البث، يقال: شكوت واشتكيت (3)، قال تعالى: إنما أشكوا بثي وحزني إلى الله [يوسف/ 86]، وقال: وتشتكي إلى الله [المجادلة/ 1]، وأشكاه أي: يجعل له شكوى، نحو: أمرضه، ويقال: أشكاه أي: أزال شكايته، وروي: «شكونا إلى رسول الله (صلى الله عليه وسلم آله) حر الرمضاء في جباهنا وأكفنا فلم يشكنا» (4) . وأصل الشكو فتح الشكوة وإظهار ما فيه، وهي: سقاء صغير يجعل فيه الماء، وكأنه في الأصل استعارة، كقولهم: بثثت له ما في وعائي، ونفضت ما في جرابي (5): إذا أظهرت ما في قلبك. والمشكاة: كوة غير نافذة. قال تعالى: كمشكاة فيها مصباح [النور/ 35]، وذلك مثل القلب، والمصباح مثل نور الله فيه.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

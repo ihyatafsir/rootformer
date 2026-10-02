@@ -1,0 +1,10 @@
+================================================================================================
+ROOT احد   stratum=Ma
+REC ontological_core : The root أ-ح-د denotes absolute, indivisible oneness — the negation of multiplicity, composition, and partition. Its foundational physical origin is the notion of a single, isolated unit that admits no second, no plurality, and no internal division.
+REC haqiqah_literal  : The literal meaning is 'one' in the strict sense of absolute singularity — that which is neither paired nor composed, neither divisible nor repeatable. It is the pure unit that excludes all others.
+REC canon_def.ar     : الأحد: الواحد الذي لا ثاني له، ولا يقبل القسمة ولا التركيب، ولا يوصف به غيره تعالى في الأحدية المطلقة.
+REC canon_def.en     : Al-Aḥad: the One who has no second, who admits neither division nor composition, and none other than God is described by it in absolute oneness.
+SRC al-Mufradat      : [line 1877 hdr=أحد] أحد يستعمل على ضربين: أحدهما: في النفي فقط (4). والثاني: في الإثبات. فأما المختص بالنفي فلاستغراق جنس الناطقين، ويتناول القليل والكثير على طريق الاجتماع والافتراق، نحو: ما في الدار أحد، أي: لا واحد ولا اثنان فصاعدا لا مجتمعين ولا مفترقين، ولهذا المعنى لم يصح استعماله في ومن تخطئ يعمر فيهرم للموت كأس فالمرء ذائقها وعظموا بأحد الآحاد وأحد في النفي ذو انفراد بعاقل، ومثله عريب كما هنا من أحد قريب الإثبات، لأن نفي المتضادين يصح، ولا يصح إثباتهما، فلو قيل: في الدار واحد لكان فيه إثبات واحد منفرد مع إثبات ما فوق الواحد مجتمعين ومفترقين، وذلك ظاهر الإحالة، ولتناول ذلك ما فوق الواحد يصح أن يقال: ما من أحد فاضلين (1)، كقول […]
+SRC Maqayis (IbnFaris): [line 2805 hdr=أحد] الهمزة والحاء والدال فرع والأصل الواو وحد، وقد ذكر فى الواو. وقال الدريدى: ما استأحدت بهذا الأمر أى ما انفردت به.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

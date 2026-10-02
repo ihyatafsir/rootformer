@@ -1,0 +1,18 @@
+{
+  "rel_disp": 0.03615265280811501,
+  "retained": {
+    "F_weighted_disp": 0.12520544585583798,
+    "F_weighted_isotropic_at_same_norm": 0.004887429701646591,
+    "rho": 25.617850997152114
+  },
+  "synthesis": {
+    "F_weighted_disp": 0.1328084434758151,
+    "F_weighted_isotropic_at_same_norm": 0.005165775893230062,
+    "rho": 25.70929250915926
+  },
+  "head": {
+    "F_weighted_disp": 0.00016636169290840886,
+    "F_weighted_isotropic_at_same_norm": 1.24172831306218e-05,
+    "rho": 13.397591981948972
+  }
+}

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عنه   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a specific desert plant or herb, termed العِنْه, characterized by its growth in arid environments; this botanical entity serves as the concrete substrate from which all derived meanings emanate.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the plant known as العِنْه (al-ʿinh), a singular unit being عِنْهَة (ʿinhah), which is a type of herbage or vegetation.
+REC canon_def.ar     : العِنْهُ نَبْتٌ، واحدتُه عِنْهَةٌ
+REC canon_def.en     : Al-ʿinh is a plant; its singular unit is ʿinhah.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

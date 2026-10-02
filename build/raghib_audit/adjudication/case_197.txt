@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سنبل   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root س-ن-ب-ل is the emergence of the ear or spike of grain (the seed-bearing head) from the stalk of a cereal plant, marking the plant's transition from vegetative growth to reproductive fruiting.
+REC haqiqah_literal  : The literal, physical meaning is the ear or spike of grain (سُنْبُل), the compact, seed-bearing head of cereals such as wheat, barley, and maize; its singular unit is سُنْبُلَة (one ear/spike). The verb سَنْبَلَ denotes the plant's act of producing or putting forth its ear.
+REC canon_def.ar     : السُّنْبُلُ من الزَّرْعِ واحدته سُنْبُلَةٌ، وقد سَنْبَلَ الزَّرْعُ إِذا خرج سُنْبُلُهُ.
+REC canon_def.en     : The ear of grain (سُنْبُل) is a unit of cereal crops, its singular being سُنْبُلَة; the verb سَنْبَلَ means the crop has produced its ear.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,90 @@
+--- /dev/fd/59	2026-10-02 16:56:40.392097130 +0200
++++ /dev/fd/49	2026-10-02 16:56:40.392097130 +0200
+@@ -1,19 +1,14 @@
+ set -u
+ cd /workspace/hf_v19_2_release || exit 90
+-OUT=/workspace/root_attn; mkdir -p $OUT
++OUT=/workspace/root_attn_ctl; mkdir -p $OUT $OUT/ckpt
+ CK=checkpoints/rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors
+ PY=/workspace/venvs/rootformer/bin/python
+ CACHE=/workspace/head_fix/nrmp_cache_9490_aligned
+-TAG=${TAG:-ROOTATTN}
++TAG=${TAG:-RCA_FROZEN_CTL}
+ RCA=${RCA:-top4}
+-UF=${UF:-4}
+-TRUNK_LR=${TRUNK_LR:-0.1}
+-if [ "$(pgrep -f 'nrmt_train[.]py --checkpoint' | wc -l)" -ne 0 ]; then
+-  echo "[rootattn] ABORT: another nrmt_train.py is already running"; exit 91
+-fi
+-echo "[rootattn] tag=$TAG rca=$RCA unfreeze_last=$UF trunk_lr_scale=$TRUNK_LR"
+-echo "[rootattn] cache=$CACHE"
+-echo "[rootattn] starts=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
++echo "[frozen-ctl] tag=$TAG rca=$RCA unfreeze_last=0 trunk=FROZEN rca_lr_scale=1.0 out_norm=off dropout=0"
++echo "[frozen-ctl] cache=$CACHE"
++echo "[frozen-ctl] starts=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+ T0=$(date +%s)
+ ( M=0; while true; do
+     V=$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits 2>/dev/null | head -1)
+@@ -22,29 +17,46 @@
+     sleep 1
+   done ) &
+ SP=$!
++( L=""
++  while true; do
++    S=$(grep -oE '\[eval @[0-9]+' $OUT/train_${TAG}.log 2>/dev/null | tail -1 | grep -oE '[0-9]+$')
++    if [ -n "${S:-}" ] && [ "$S" != "$L" ]; then
++      for i in $(seq 1 40); do
++        a=$(stat -c %s $OUT/head_${TAG}.pt.trunk.pt 2>/dev/null || echo 0)
++        sleep 1
++        b=$(stat -c %s $OUT/head_${TAG}.pt.trunk.pt 2>/dev/null || echo 0)
++        [ "$a" = "$b" ] && [ "$a" != "0" ] && break
++      done
++      cp -f $OUT/head_${TAG}.pt.trunk.pt $OUT/ckpt/rca_step_${S}.pt 2>/dev/null
++      L=$S
++    fi
++    sleep 5
++  done ) &
++SS=$!
+ setsid nohup $PY nrmt_train.py --checkpoint $CK --cache $CACHE --head-init remap \
+     --steps 20000 --batch-size 32 --eval-every 1000 --tag $TAG \
+     --probe-out $OUT/trace_${TAG}.jsonl --out $OUT/results_${TAG}.json \
+     --save $OUT/head_${TAG}.pt --feat-gate --margin-ramp 10 --grad-warmup 10 --logit-scale ln \
+-    --root-cross-attn $RCA --unfreeze-last $UF \
+-    --trunk-lr-scale $TRUNK_LR --rca-lr-scale 1.0 --rca-ablate-eval --h-drift-probe 500 \
++    --root-cross-attn $RCA --unfreeze-last 0 \
++    --trunk-lr-scale 0.1 --rca-lr-scale 1.0 --rca-ablate-eval --h-drift-probe 500 \
+     > $OUT/train_${TAG}.log 2>&1 < /dev/null &
+ P=$!
+-echo "[rootattn] REMOTE_PID=$P"
++echo "[frozen-ctl] REMOTE_PID=$P"
+ while kill -0 $P 2>/dev/null; do
+   sleep 60
+   L=$(grep -E "^  \[eval|^  step|^  \[proof" $OUT/train_${TAG}.log | tail -1)
+-  echo "[rootattn $(date -u +%H:%M:%S)] ${L:0:230}"
++  echo "[frozen-ctl $(date -u +%H:%M:%S)] ${L:0:200}"
+ done
+ wait $P; RC=$?
+-kill $SP 2>/dev/null; wait $SP 2>/dev/null
++kill $SP $SS 2>/dev/null; wait $SP $SS 2>/dev/null
+ T1=$(date +%s)
+ PEAK=$(cat $OUT/vram_${TAG}.txt 2>/dev/null)
+-echo "[rootattn] rc=$RC wall_s=$((T1-T0)) peak_vram_mib=$PEAK"
+-echo "[rootattn] $(grep -E 'trainable parameters|TRUNK LIVE|optimizer groups|RCA init' $OUT/train_${TAG}.log | tr '\n' ' ')"
+-echo "[rootattn] nan/inf lines: $(grep -ciE 'nan|inf' $OUT/trace_${TAG}.jsonl 2>/dev/null)"
+-tail -8 $OUT/train_${TAG}.log
+-echo "[rootattn] RESULTS:"
++echo "[frozen-ctl] rc=$RC wall_s=$((T1-T0)) peak_vram_mib=$PEAK"
++echo "[frozen-ctl] $(grep -E 'trainable parameters|TRUNK LIVE|optimizer groups|RCA init' $OUT/train_${TAG}.log | tr '\n' ' ')"
++echo "[frozen-ctl] nan/inf lines in trace: $(grep -ciE 'nan|inf' $OUT/trace_${TAG}.jsonl 2>/dev/null)"
++grep -cE 'WARN' $OUT/train_${TAG}.log | sed 's/^/[frozen-ctl] WARN lines: /'
++tail -4 $OUT/train_${TAG}.log
++echo "[frozen-ctl] RESULTS:"
+ $PY -c "
+ import json
+ h=json.load(open('$OUT/results_${TAG}.json'))['history'][-1]
+@@ -54,4 +66,4 @@
+         v=h[k]; print(f\"  {k}: acc@1 {100*v['acc@1']:.2f}% acc@5 {100*v['acc@5']:.2f}% CE_z {v['ce_z']:.4f} (n={v['n']})\")
+ print(' rca gates', h.get('rca_gate'), 'h_drift', h.get('h_drift'))
+ " 2>&1 | tail -8
+-echo ROOTATTN_DONE
++echo FROZEN_CTL_DONE

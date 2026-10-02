@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ضمي   stratum=Ma
+REC ontological_core : The root's foundational physical origin is not attested in the classical lexical tradition as an independent primary root; it is identified by Ibn Manẓūr, on the authority of Thaʿlab from Ibn al-Aʿrābī, as a metathesized variant (maqlūb) of the root ضيم / ضام, whose concrete sense is to wrong, oppress, or diminish another's right.
+REC haqiqah_literal  : The literal physical meaning is not established as an autonomous ḥaqīqah in Asās al-Balāghah; the form ضَمَى is recorded in Lisān al-ʿArab as a dialectal or transposed usage meaning 'he acted unjustly' (ظَلَمَ), standing in place of the standard ضَامَ.
+REC canon_def.ar     : ضَمَى إِذا ظَلَمَ، كأَنَّهُ مَقْلُوبٌ مِنْ ضَامَ.
+REC canon_def.en     : ḍamā means 'he acted unjustly'; it appears to be a metathesized form of ḍāma.
+SRC al-Mufradat      : [line 20558 hdr=ضم] الضم: الجمع بين الشيئين فصاعدا. قال تعالى: واضمم يدك إلى جناحك [طه/ 22]، واضمم إليك جناحك [القصص/ 32]، والإضمامة: جماعة من الناس أو من الكتب أو الريحان أو نحو ذلك (1)، وأسد ضمضم وضماضم: يضم الشيء إلى نفسه. وقيل: بل هو المجتمع الخلق، وفرس سباق الأضاميم: إذا سبق جماعة من الأفراس دفعة واحدة.
+SRC Maqayis (IbnFaris): [line 41391 hdr=ضم] الضاد والميم أصل واحد يدل على ملاءمة بين شيئين. يقال ضممت الشىء إلى الشىء فأنا أضمه ضما. وهذه إضمامة من خيل، أى جماعة. وفرس سباق الأضاميم، أى الجماعات. وإضمامة من كتب مثل إضبارة. ومن الباب: أسد ضمضم وضماضم: يضم كل شىء.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 27500 hdr=ضم] الضَمُّ: ضمك الشيء إلى الشيء، وضامَمْتُ فلاناً أي قُمتُ معه في أمرٍ واحد. والضِّمامُ: كلُّ شيءٍ يُضَمُّ به شيءٌ الى شيءٍ. والإضمامةُ: الجماعة من الناس، ليس أصلُهم واحداً ولكنهم لفيف، وتُجمَع على أَضاميم، قال: والحُقْبُ تَرفَضُّ منهُنَّ الأضاميمُ «43» والضُّماضِمُ: الأسَدُ، والضِّمامُ أيضا «44» ، وضمضمته: صوته. __________ (40) ما بين القوسين من س ولم نجدها في ص وط. (41) زيادة من التهذيب مما أخذه الأزهري من العين. (42) […]

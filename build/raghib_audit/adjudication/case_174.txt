@@ -1,0 +1,10 @@
+================================================================================================
+ROOT خسج   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the weaving of a coarse garment or tent-structure from the ṭalīf (the thick, tough hide of a sheep's neck), a material prized for its extreme durability and resistance to wear.
+REC haqiqah_literal  : A cloak (kisāʾ) or tent (khibāʾ) woven specifically from the neck-hide of a sheep, which, according to traditional report, scarcely ever wears out.
+REC canon_def.ar     : الخَسِيجُ والخَسِيُّ، على البدل: كِساءٌ أَو خِباءٌ ينسج من ظَلِيفِ عُنُقِ الشاةِ فلا يكادُ، زَعَمُوا، يَبْلى.
+REC canon_def.en     : Al-khisīj and al-khasiyy (the latter by consonantal substitution): a cloak or tent woven from the neck-hide of a sheep, which, it is asserted, scarcely ever wears out.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

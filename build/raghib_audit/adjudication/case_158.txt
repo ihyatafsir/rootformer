@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جحدر   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on compact, low-set corporeal form and the act of bringing a body down to the ground — a stocky, short-statured physique and the forcible casting of an opponent to the earth.
+REC haqiqah_literal  : The literal physical meaning is a man who is short and compact (jaʿd qaṣīr), with the feminine form جَحْدَرَةٌ; the verbal noun الجَحْدَرَةُ denotes this quality of shortness and compactness. The verb جَحْدَرَ صَاحِبَهُ means he threw his companion down to the ground, prostrated him.
+REC canon_def.ar     : الجَحْدَرُ: الرجل الجَعْدُ القَصِيرُ، والأُنثى جَحْدَرَةٌ، والاسم الجَحْدَرَةُ. ويقال: جَحْدَرَ صاحبَه وجَحْدَلَهُ إِذا صرعه. وجَحْدَرٌ: اسم رجل.
+REC canon_def.en     : Al-Jaḥdar: a short, compact man; the feminine is jaḥdarah, and the abstract noun is al-jaḥdarah. It is said: jaḥdara ṣāḥibahu wa-jaḥdalahu, meaning he threw his companion down to the ground. And Jaḥdar is a man's name.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

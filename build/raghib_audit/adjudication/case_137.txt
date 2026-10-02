@@ -1,0 +1,12 @@
+================================================================================================
+ROOT خبب   stratum=mA
+REC ontological_core : The foundational physical origin of the root خبب is rapid, oscillating locomotion—specifically, a gait in which a mount moves its right limbs together and then its left limbs together, or alternately swings forelegs and hindlegs, producing a swift, rocking, uneven motion. From this kinetic core radiate secondary physical senses: a long strip or fold of cloth (خُبَّة/خَبِيبة), and a cutaneous disease or mange (خَبَب/جَرَب) that […]
+REC haqiqah_literal  : In its strict literal sense, خَبَب denotes a specific mode of running: the horse's simultaneous movement of all right limbs then all left limbs, or the alternating swing of forelegs and hindlegs; it is also used for the camel. Hence خَبَّت الدَّابَّةُ تَخُبُّ خَبّاً وخَبَباً وخَبِيباً: the mount moved with this gait. Literally, خُبَّة and خَبِيبة denote a long, extended strip o […]
+REC canon_def.ar     : الخَبَبُ: ضَرْبٌ من العَدْوِ، وقيل: هو مِثْلُ الرَّمَلِ، وقيل: هو أَن يَنْقُل الفَرَسُ أَيامِنَه جميعاً وأَياسِرَه جميعاً، وقيل: هو أَن يُراوِحَ بين يديهِ ورجليهِ، وكذلك البعير؛ وقيل: الخَبَب السُّرْعَة. والخُبَّةُ والخَبِيبةُ: شِبْهُ طِيَّةٍ من الثوب مستطيلة. والخَبُّ: الجَرَبُ.
+REC canon_def.en     : Al-Khabab is a mode of running; it is said to resemble the ramal; it is said to be the horse's simultaneous movement of all its right limbs and then all its left limbs; it is said to be the alternating swing between its forelegs and hindleg […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [majaz_metaphorical]        : خب البحر. وأصابهم الخب إذا التوت عليهم الرياح واضطربت الأمواج، فلجؤوا إلى الشط، وألقوا الأنجر. وخب النبات: طال وارتفع. واعترضتنا خبة من الرمل وخبيبة أي طريقة. وقطع لي خبة من اللحم وخبيبة.
+SRC Asas [bilingual_haqiqah_majaz]        : اعصب يدك بالخبة والخبيبة وهي شبه طية من الثوب مستطيلة، وثوب خبائب مثل شبارق. ورجل خب بين الخب وهو الجربزة، وامرأة خبة، وقد خب يخب. وفي حديث Metaphorical (Majaz): خب البحر. وأصابهم الخب إذا التوت عليهم الرياح واضطربت الأمواج، فلجؤوا إلى الشط، وألقوا الأنجر. وخب النبات: طال وارتفع. واعترضتنا خبة من الرم
+SRC Asas [haqiqah_literal]        : اعصب يدك بالخبة والخبيبة وهي شبه طية من الثوب مستطيلة، وثوب خبائب مثل شبارق. ورجل خب بين الخب وهو الجربزة، وامرأة خبة، وقد خب يخب. وفي حديث عمر رضي الله عنه: ما تكلم أحد بالفارسية إلا خب، وما خب إلا ذهبت مروءته. وخبب عليه عبده وأمته وامرأته: أفسد. وخب الفرس خببا وخبيبا، وجاؤا تخب
+SRC Ayn (al-Khalil)  : (NO ENTRY)

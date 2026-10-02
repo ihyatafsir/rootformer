@@ -1,0 +1,10 @@
+================================================================================================
+ROOT كبه   stratum=ma
+REC ontological_core : The root ك ب ه (k-b-h) is not attested in the classical lexical tradition as an independent root with a stable physical origin (aṣl al-wadʿ). Its sole documented occurrence is a dialectal phonetic variant in which the initial ج (jīm) of جَبْهة (forehead) is shifted toward the kāf's articulation point, yielding كَبْهة. The root therefore has no autonomous ontological core; it is a phonological reflex of ج ب ه (j-b-h), whose fou […]
+REC haqiqah_literal  : The literal physical meaning is the forehead (al-jabha), specifically a broad, wide forehead (ʿarīḍ al-jabha). The form كَبْهة is not an independent lexical item but a dialectal pronunciation of جَبْهة, produced by fronting the jīm from its palatal articulation point toward the kāf's velar articulation point. This substitution is attested among certain Arab tribes and was recor […]
+REC canon_def.ar     : الكَبْهةُ: لغةٌ في الجَبْهةِ، وهي الجبهةُ العريضةُ؛ أَخرجَ الجيمَ بين مَخرجِها ومَخرجِ الكافِ، وهي لغةٌ لقومٍ من العرب، ذكرها سيبويه مع ستةِ أحرفٍ.
+REC canon_def.en     : Al-kabha: a dialectal variant of al-jabha (the forehead), denoting a broad forehead; the jīm is articulated between its own point of articulation and that of the kāf. It is a dialect of certain Arab tribes, recorded by Sībawayh alongside si […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

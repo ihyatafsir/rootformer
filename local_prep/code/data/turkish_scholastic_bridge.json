@@ -1,0 +1,1155 @@
+[
+  {
+    "arabic": "وجود",
+    "root": "وج-د",
+    "turkish": "vucûd",
+    "english": "existence",
+    "category": 1,
+    "concept_ids": [
+      194
+    ]
+  },
+  {
+    "arabic": "واجب الوجود",
+    "root": "وج-د",
+    "turkish": "vâcibü'l-vucûd",
+    "english": "necessary existent",
+    "category": 1,
+    "concept_ids": [
+      467,
+      603
+    ]
+  },
+  {
+    "arabic": "ممكن الوجود",
+    "root": "مك-ن",
+    "turkish": "mümkinü'l-vucûd",
+    "english": "contingent existent",
+    "category": 1,
+    "concept_ids": [
+      1998,
+      603
+    ]
+  },
+  {
+    "arabic": "ممتنع الوجود",
+    "root": "من-ع",
+    "turkish": "mümteniü'l-vucûd",
+    "english": "impossible existent",
+    "category": 1,
+    "concept_ids": [
+      341,
+      603
+    ]
+  },
+  {
+    "arabic": "ماهية",
+    "root": "ما-ه",
+    "turkish": "mâhiyet",
+    "english": "quiddity",
+    "category": 1,
+    "concept_ids": [
+      1179
+    ]
+  },
+  {
+    "arabic": "حقيقة",
+    "root": "حق-ق",
+    "turkish": "hakîkat",
+    "english": "reality",
+    "category": 1,
+    "concept_ids": [
+      363
+    ]
+  },
+  {
+    "arabic": "جوهر",
+    "root": "جه-ر",
+    "turkish": "cevher",
+    "english": "substance",
+    "category": 1,
+    "concept_ids": [
+      213
+    ]
+  },
+  {
+    "arabic": "عرض",
+    "root": "عر-ض",
+    "turkish": "araz",
+    "english": "accident",
+    "category": 1,
+    "concept_ids": [
+      3030
+    ]
+  },
+  {
+    "arabic": "جسم",
+    "root": "جس-م",
+    "turkish": "cisim",
+    "english": "corporeal body",
+    "category": 1,
+    "concept_ids": [
+      652,
+      111
+    ]
+  },
+  {
+    "arabic": "هيولى",
+    "root": "هي-ل",
+    "turkish": "heyûlâ",
+    "english": "prime matter",
+    "category": 1,
+    "concept_ids": [
+      3444,
+      167
+    ]
+  },
+  {
+    "arabic": "صورة",
+    "root": "صو-ر",
+    "turkish": "sûret",
+    "english": "form",
+    "category": 1,
+    "concept_ids": [
+      95
+    ]
+  },
+  {
+    "arabic": "علة",
+    "root": "عل-ل",
+    "turkish": "illet",
+    "english": "cause",
+    "category": 1,
+    "concept_ids": [
+      173
+    ]
+  },
+  {
+    "arabic": "معلول",
+    "root": "عل-ل",
+    "turkish": "ma'lûl",
+    "english": "effect",
+    "category": 1,
+    "concept_ids": [
+      546
+    ]
+  },
+  {
+    "arabic": "علة فاعلية",
+    "root": "فع-ل",
+    "turkish": "illet-i fâiliyye",
+    "english": "efficient cause",
+    "category": 1,
+    "concept_ids": [
+      3952,
+      173
+    ]
+  },
+  {
+    "arabic": "علة غائية",
+    "root": "غي-ي",
+    "turkish": "illet-i gâiyye",
+    "english": "final cause",
+    "category": 1,
+    "concept_ids": [
+      1144,
+      173
+    ]
+  },
+  {
+    "arabic": "علة مادية",
+    "root": "مد-د",
+    "turkish": "illet-i mâddiyye",
+    "english": "material cause",
+    "category": 1,
+    "concept_ids": [
+      382,
+      173
+    ]
+  },
+  {
+    "arabic": "علة صورية",
+    "root": "صو-ر",
+    "turkish": "illet-i sûriyye",
+    "english": "formal cause",
+    "category": 1,
+    "concept_ids": [
+      10162,
+      173
+    ]
+  },
+  {
+    "arabic": "قدم",
+    "root": "قد-م",
+    "turkish": "kıdem",
+    "english": "eternity",
+    "category": 1,
+    "concept_ids": [
+      1531
+    ]
+  },
+  {
+    "arabic": "حدوث",
+    "root": "حد-ث",
+    "turkish": "hudûs",
+    "english": "temporal origination",
+    "category": 1,
+    "concept_ids": [
+      1271,
+      1443
+    ]
+  },
+  {
+    "arabic": "حادث",
+    "root": "حد-ث",
+    "turkish": "hâdis",
+    "english": "originated entity",
+    "category": 1,
+    "concept_ids": [
+      1083,
+      415
+    ]
+  },
+  {
+    "arabic": "قديم",
+    "root": "قد-م",
+    "turkish": "kadîm",
+    "english": "eternal",
+    "category": 4,
+    "concept_ids": [
+      1236
+    ]
+  },
+  {
+    "arabic": "أزل",
+    "root": "از-ل",
+    "turkish": "ezel",
+    "english": "pre-eternity",
+    "category": 1,
+    "concept_ids": [
+      6476
+    ]
+  },
+  {
+    "arabic": "أبد",
+    "root": "اب-د",
+    "turkish": "ebed",
+    "english": "post-eternity",
+    "category": 1,
+    "concept_ids": []
+  },
+  {
+    "arabic": "عدم",
+    "root": "عد-م",
+    "turkish": "adem",
+    "english": "non-existence",
+    "category": 1,
+    "concept_ids": [
+      906
+    ]
+  },
+  {
+    "arabic": "فناء",
+    "root": "فن-ي",
+    "turkish": "fenâ",
+    "english": "annihilation",
+    "category": 1,
+    "concept_ids": [
+      3908
+    ]
+  },
+  {
+    "arabic": "بقاء",
+    "root": "بق-ي",
+    "turkish": "bekâ",
+    "english": "subsistence",
+    "category": 1,
+    "concept_ids": [
+      4158
+    ]
+  },
+  {
+    "arabic": "تسلسل",
+    "root": "سل-ل",
+    "turkish": "teselsül",
+    "english": "infinite regress",
+    "category": 1,
+    "concept_ids": [
+      2639,
+      7451
+    ]
+  },
+  {
+    "arabic": "دور",
+    "root": "دو-ر",
+    "turkish": "devr",
+    "english": "vicious circle",
+    "category": 1,
+    "concept_ids": [
+      4909,
+      3090
+    ]
+  },
+  {
+    "arabic": "علم",
+    "root": "عل-م",
+    "turkish": "ilm",
+    "english": "knowledge",
+    "category": 1,
+    "concept_ids": [
+      113
+    ]
+  },
+  {
+    "arabic": "جهل",
+    "root": "جه-ل",
+    "turkish": "cehl",
+    "english": "ignorance",
+    "category": 1,
+    "concept_ids": [
+      957
+    ]
+  },
+  {
+    "arabic": "عقل",
+    "root": "عق-ل",
+    "turkish": "akıl",
+    "english": "intellect",
+    "category": 1,
+    "concept_ids": [
+      299
+    ]
+  },
+  {
+    "arabic": "معقول",
+    "root": "عق-ل",
+    "turkish": "ma'kûl",
+    "english": "intelligible",
+    "category": 1,
+    "concept_ids": [
+      2277
+    ]
+  },
+  {
+    "arabic": "محسوس",
+    "root": "حس-س",
+    "turkish": "mahsûs",
+    "english": "sensible",
+    "category": 1,
+    "concept_ids": [
+      4656
+    ]
+  },
+  {
+    "arabic": "تصور",
+    "root": "صو-ر",
+    "turkish": "tasavvur",
+    "english": "conception",
+    "category": 1,
+    "concept_ids": [
+      3060
+    ]
+  },
+  {
+    "arabic": "تصديق",
+    "root": "صد-ق",
+    "turkish": "tasdîk",
+    "english": "assent",
+    "category": 1,
+    "concept_ids": [
+      4391
+    ]
+  },
+  {
+    "arabic": "برهان",
+    "root": "بر-ه",
+    "turkish": "bürhân",
+    "english": "demonstrative proof",
+    "category": 1,
+    "concept_ids": [
+      3340,
+      232
+    ]
+  },
+  {
+    "arabic": "دليل",
+    "root": "دل-ل",
+    "turkish": "delîl",
+    "english": "evidence",
+    "category": 1,
+    "concept_ids": [
+      780
+    ]
+  },
+  {
+    "arabic": "حجة",
+    "root": "حج-ج",
+    "turkish": "hüccet",
+    "english": "argument",
+    "category": 1,
+    "concept_ids": [
+      1090
+    ]
+  },
+  {
+    "arabic": "قياس",
+    "root": "قي-س",
+    "turkish": "kıyas",
+    "english": "syllogism",
+    "category": 1,
+    "concept_ids": [
+      6032
+    ]
+  },
+  {
+    "arabic": "مقدمة",
+    "root": "قد-م",
+    "turkish": "mukaddime",
+    "english": "premise",
+    "category": 1,
+    "concept_ids": [
+      1773
+    ]
+  },
+  {
+    "arabic": "نتيجة",
+    "root": "نت-ج",
+    "turkish": "netîce",
+    "english": "conclusion",
+    "category": 1,
+    "concept_ids": [
+      1919
+    ]
+  },
+  {
+    "arabic": "حد",
+    "root": "حد-د",
+    "turkish": "hadd",
+    "english": "definition",
+    "category": 1,
+    "concept_ids": [
+      1496
+    ]
+  },
+  {
+    "arabic": "رسم",
+    "root": "رس-م",
+    "turkish": "resim",
+    "english": "description",
+    "category": 1,
+    "concept_ids": [
+      949
+    ]
+  },
+  {
+    "arabic": "يقين",
+    "root": "يق-ن",
+    "turkish": "yakîn",
+    "english": "certainty",
+    "category": 1,
+    "concept_ids": [
+      1023
+    ]
+  },
+  {
+    "arabic": "ظن",
+    "root": "ظن-ن",
+    "turkish": "zann",
+    "english": "probable opinion",
+    "category": 1,
+    "concept_ids": [
+      5631,
+      648
+    ]
+  },
+  {
+    "arabic": "شك",
+    "root": "شك-ك",
+    "turkish": "şekk",
+    "english": "doubt",
+    "category": 1,
+    "concept_ids": [
+      574
+    ]
+  },
+  {
+    "arabic": "وهم",
+    "root": "وه-م",
+    "turkish": "vehim",
+    "english": "delusion",
+    "category": 1,
+    "concept_ids": [
+      7740
+    ]
+  },
+  {
+    "arabic": "تناقض",
+    "root": "نق-ض",
+    "turkish": "tenâkuz",
+    "english": "contradiction",
+    "category": 1,
+    "concept_ids": [
+      3751
+    ]
+  },
+  {
+    "arabic": "تضاد",
+    "root": "ضد-د",
+    "turkish": "tezâd",
+    "english": "contrariety",
+    "category": 1,
+    "concept_ids": [
+      12051
+    ]
+  },
+  {
+    "arabic": "استدلال",
+    "root": "دل-ل",
+    "turkish": "istidlâl",
+    "english": "inference",
+    "category": 1,
+    "concept_ids": [
+      3785
+    ]
+  },
+  {
+    "arabic": "استقراء",
+    "root": "قر-ا",
+    "turkish": "istikrâ",
+    "english": "induction",
+    "category": 1,
+    "concept_ids": [
+      11279
+    ]
+  },
+  {
+    "arabic": "حكم",
+    "root": "حك-م",
+    "turkish": "hüküm",
+    "english": "legal ruling",
+    "category": 1,
+    "concept_ids": [
+      1069,
+      304
+    ]
+  },
+  {
+    "arabic": "شارع",
+    "root": "شر-ع",
+    "turkish": "şâri",
+    "english": "lawgiver",
+    "category": 1,
+    "concept_ids": [
+      3553
+    ]
+  },
+  {
+    "arabic": "مكلف",
+    "root": "كل-ف",
+    "turkish": "mükellef",
+    "english": "accountable person",
+    "category": 1,
+    "concept_ids": [
+      11493,
+      89
+    ]
+  },
+  {
+    "arabic": "تكليف",
+    "root": "كل-ف",
+    "turkish": "teklîf",
+    "english": "moral obligation",
+    "category": 1,
+    "concept_ids": [
+      1192,
+      547
+    ]
+  },
+  {
+    "arabic": "واجب",
+    "root": "وج-ب",
+    "turkish": "vâcip",
+    "english": "obligatory",
+    "category": 4,
+    "concept_ids": [
+      298
+    ]
+  },
+  {
+    "arabic": "مندوب",
+    "root": "ند-ب",
+    "turkish": "mendûb",
+    "english": "recommended",
+    "category": 4,
+    "concept_ids": [
+      1708
+    ]
+  },
+  {
+    "arabic": "مباح",
+    "root": "بو-ح",
+    "turkish": "mübâh",
+    "english": "permissible",
+    "category": 4,
+    "concept_ids": [
+      261
+    ]
+  },
+  {
+    "arabic": "مكروه",
+    "root": "كر-ه",
+    "turkish": "mekrûh",
+    "english": "disapproved",
+    "category": 4,
+    "concept_ids": [
+      4868
+    ]
+  },
+  {
+    "arabic": "حرام",
+    "root": "حر-م",
+    "turkish": "harâm",
+    "english": "prohibited",
+    "category": 4,
+    "concept_ids": [
+      1450
+    ]
+  },
+  {
+    "arabic": "صحيح",
+    "root": "صح-ح",
+    "turkish": "sahîh",
+    "english": "valid",
+    "category": 4,
+    "concept_ids": [
+      618
+    ]
+  },
+  {
+    "arabic": "فاسد",
+    "root": "فس-د",
+    "turkish": "fâsid",
+    "english": "vitiated",
+    "category": 4,
+    "concept_ids": []
+  },
+  {
+    "arabic": "باطل",
+    "root": "بط-ل",
+    "turkish": "bâtıl",
+    "english": "void",
+    "category": 4,
+    "concept_ids": [
+      1362
+    ]
+  },
+  {
+    "arabic": "سبب",
+    "root": "سب-ب",
+    "turkish": "sebeb",
+    "english": "legal cause",
+    "category": 1,
+    "concept_ids": [
+      1069,
+      173
+    ]
+  },
+  {
+    "arabic": "شرط",
+    "root": "شر-ط",
+    "turkish": "şart",
+    "english": "condition",
+    "category": 1,
+    "concept_ids": [
+      247
+    ]
+  },
+  {
+    "arabic": "مانع",
+    "root": "من-ع",
+    "turkish": "mâni",
+    "english": "impediment",
+    "category": 1,
+    "concept_ids": [
+      3092
+    ]
+  },
+  {
+    "arabic": "عزيمة",
+    "root": "عز-م",
+    "turkish": "azîmet",
+    "english": "strict rule",
+    "category": 1,
+    "concept_ids": [
+      1958,
+      3506
+    ]
+  },
+  {
+    "arabic": "رخصة",
+    "root": "رخ-ص",
+    "turkish": "ruhsat",
+    "english": "dispensation",
+    "category": 1,
+    "concept_ids": []
+  },
+  {
+    "arabic": "مصلحة",
+    "root": "صل-ح",
+    "turkish": "maslahat",
+    "english": "benefit",
+    "category": 1,
+    "concept_ids": [
+      490
+    ]
+  },
+  {
+    "arabic": "مفسدة",
+    "root": "فس-د",
+    "turkish": "mefsedet",
+    "english": "harm",
+    "category": 1,
+    "concept_ids": [
+      510
+    ]
+  },
+  {
+    "arabic": "ضرورة",
+    "root": "ضر-ر",
+    "turkish": "zarûret",
+    "english": "necessity",
+    "category": 1,
+    "concept_ids": [
+      897
+    ]
+  },
+  {
+    "arabic": "حاجة",
+    "root": "حو-ج",
+    "turkish": "hâcet",
+    "english": "need",
+    "category": 1,
+    "concept_ids": [
+      404
+    ]
+  },
+  {
+    "arabic": "اجتهاد",
+    "root": "جه-د",
+    "turkish": "ictihâd",
+    "english": "independent jurisprudence",
+    "category": 1,
+    "concept_ids": [
+      570,
+      1789
+    ]
+  },
+  {
+    "arabic": "تقليد",
+    "root": "قل-د",
+    "turkish": "taklîd",
+    "english": "conformity",
+    "category": 1,
+    "concept_ids": [
+      7151
+    ]
+  },
+  {
+    "arabic": "إجماع",
+    "root": "جم-ع",
+    "turkish": "icmâ",
+    "english": "consensus",
+    "category": 1,
+    "concept_ids": [
+      848
+    ]
+  },
+  {
+    "arabic": "استحسان",
+    "root": "حس-ن",
+    "turkish": "istihsân",
+    "english": "juristic preference",
+    "category": 1,
+    "concept_ids": [
+      6721,
+      4911
+    ]
+  },
+  {
+    "arabic": "عرف",
+    "root": "عر-ف",
+    "turkish": "örf",
+    "english": "customary law",
+    "category": 1,
+    "concept_ids": [
+      3458,
+      505
+    ]
+  },
+  {
+    "arabic": "قاعدة",
+    "root": "قع-د",
+    "turkish": "kâide",
+    "english": "legal maxim",
+    "category": 1,
+    "concept_ids": [
+      1069
+    ]
+  },
+  {
+    "arabic": "عامل",
+    "root": "عم-ل",
+    "turkish": "âmil",
+    "english": "governing agent",
+    "category": 1,
+    "concept_ids": [
+      7326,
+      665
+    ]
+  },
+  {
+    "arabic": "معمول",
+    "root": "عم-ل",
+    "turkish": "ma'mûl",
+    "english": "governed argument",
+    "category": 1,
+    "concept_ids": [
+      7028,
+      1090
+    ]
+  },
+  {
+    "arabic": "عمل",
+    "root": "عم-ل",
+    "turkish": "amel",
+    "english": "syntactic governance",
+    "category": 1,
+    "concept_ids": [
+      2959
+    ]
+  },
+  {
+    "arabic": "إعراب",
+    "root": "عر-ب",
+    "turkish": "i'râb",
+    "english": "desinential inflection",
+    "category": 1,
+    "concept_ids": [
+      9086
+    ]
+  },
+  {
+    "arabic": "بناء",
+    "root": "بن-ي",
+    "turkish": "binâ",
+    "english": "uninflected rigidity",
+    "category": 1,
+    "concept_ids": [
+      2613
+    ]
+  },
+  {
+    "arabic": "رفع",
+    "root": "رف-ع",
+    "turkish": "ref",
+    "english": "nominative case",
+    "category": 1,
+    "concept_ids": [
+      9334,
+      445
+    ]
+  },
+  {
+    "arabic": "نصب",
+    "root": "نص-ب",
+    "turkish": "nasb",
+    "english": "accusative case",
+    "category": 1,
+    "concept_ids": [
+      3813,
+      445
+    ]
+  },
+  {
+    "arabic": "جر",
+    "root": "جر-ر",
+    "turkish": "cerr",
+    "english": "genitive case",
+    "category": 1,
+    "concept_ids": [
+      7931,
+      445
+    ]
+  },
+  {
+    "arabic": "جزم",
+    "root": "جز-م",
+    "turkish": "cezm",
+    "english": "jussive mood",
+    "category": 1,
+    "concept_ids": []
+  },
+  {
+    "arabic": "مبتدأ",
+    "root": "بد-ا",
+    "turkish": "mübtedâ",
+    "english": "inchoative topic",
+    "category": 1,
+    "concept_ids": [
+      13228
+    ]
+  },
+  {
+    "arabic": "خبر",
+    "root": "خب-ر",
+    "turkish": "haber",
+    "english": "enunciative predicate",
+    "category": 1,
+    "concept_ids": [
+      3892
+    ]
+  },
+  {
+    "arabic": "فاعل",
+    "root": "فع-ل",
+    "turkish": "fâil",
+    "english": "grammatical agent",
+    "category": 1,
+    "concept_ids": [
+      5074,
+      665
+    ]
+  },
+  {
+    "arabic": "مفعول",
+    "root": "فع-ل",
+    "turkish": "mef'ûl",
+    "english": "grammatical object",
+    "category": 1,
+    "concept_ids": [
+      5074,
+      200
+    ]
+  },
+  {
+    "arabic": "إضافة",
+    "root": "ضي-ف",
+    "turkish": "izâfet",
+    "english": "genitival construct",
+    "category": 1,
+    "concept_ids": [
+      6325
+    ]
+  },
+  {
+    "arabic": "صفة",
+    "root": "وص-ف",
+    "turkish": "sıfat",
+    "english": "qualifying adjective",
+    "category": 1,
+    "concept_ids": [
+      575
+    ]
+  },
+  {
+    "arabic": "توكيد",
+    "root": "وك-د",
+    "turkish": "te'kîd",
+    "english": "corroboration",
+    "category": 1,
+    "concept_ids": []
+  },
+  {
+    "arabic": "بدل",
+    "root": "بد-ل",
+    "turkish": "bedel",
+    "english": "appositive substitute",
+    "category": 1,
+    "concept_ids": [
+      1612
+    ]
+  },
+  {
+    "arabic": "عطف",
+    "root": "عط-ف",
+    "turkish": "atf",
+    "english": "coordination",
+    "category": 1,
+    "concept_ids": []
+  },
+  {
+    "arabic": "حذف",
+    "root": "حذ-ف",
+    "turkish": "hazf",
+    "english": "ellipsis",
+    "category": 1,
+    "concept_ids": []
+  },
+  {
+    "arabic": "تقدير",
+    "root": "قد-ر",
+    "turkish": "takdîr",
+    "english": "implied reconstruction",
+    "category": 1,
+    "concept_ids": [
+      5015
+    ]
+  },
+  {
+    "arabic": "إضمار",
+    "root": "ضم-ر",
+    "turkish": "izmâr",
+    "english": "pronominal suppression",
+    "category": 1,
+    "concept_ids": [
+      9773,
+      5675
+    ]
+  },
+  {
+    "arabic": "أوجب",
+    "root": "وج-ب",
+    "turkish": "îcâb etmek",
+    "english": "necessitate",
+    "category": 2,
+    "concept_ids": [
+      1617
+    ]
+  },
+  {
+    "arabic": "اقتضى",
+    "root": "قض-ي",
+    "turkish": "iktizâ etmek",
+    "english": "require",
+    "category": 2,
+    "concept_ids": [
+      3383
+    ]
+  },
+  {
+    "arabic": "استلزم",
+    "root": "لز-م",
+    "turkish": "istilzâm etmek",
+    "english": "entail",
+    "category": 2,
+    "concept_ids": [
+      4035
+    ]
+  },
+  {
+    "arabic": "دل",
+    "root": "دل-ل",
+    "turkish": "delâlet etmek",
+    "english": "signify",
+    "category": 2,
+    "concept_ids": [
+      10089
+    ]
+  },
+  {
+    "arabic": "أفاد",
+    "root": "في-د",
+    "turkish": "ifâde etmek",
+    "english": "convey",
+    "category": 2,
+    "concept_ids": [
+      3663
+    ]
+  },
+  {
+    "arabic": "أبطل",
+    "root": "بط-ل",
+    "turkish": "ibtal etmek",
+    "english": "invalidate",
+    "category": 2,
+    "concept_ids": [
+      8556
+    ]
+  },
+  {
+    "arabic": "أثبت",
+    "root": "ثب-ت",
+    "turkish": "isbât etmek",
+    "english": "demonstrate",
+    "category": 2,
+    "concept_ids": [
+      4628
+    ]
+  },
+  {
+    "arabic": "حرم",
+    "root": "حر-م",
+    "turkish": "tahrîm etmek",
+    "english": "prohibit",
+    "category": 2,
+    "concept_ids": [
+      8483
+    ]
+  },
+  {
+    "arabic": "أجاز",
+    "root": "جو-ز",
+    "turkish": "cevâz vermek",
+    "english": "permit",
+    "category": 2,
+    "concept_ids": [
+      3472
+    ]
+  },
+  {
+    "arabic": "علل",
+    "root": "عل-ل",
+    "turkish": "ta'lîl etmek",
+    "english": "rationalize",
+    "category": 2,
+    "concept_ids": []
+  },
+  {
+    "arabic": "استنبط",
+    "root": "نب-ط",
+    "turkish": "istinbât etmek",
+    "english": "derive",
+    "category": 2,
+    "concept_ids": [
+      1367
+    ]
+  },
+  {
+    "arabic": "نسخ",
+    "root": "نس-خ",
+    "turkish": "nesh etmek",
+    "english": "abrogate",
+    "category": 2,
+    "concept_ids": [
+      8538
+    ]
+  },
+  {
+    "arabic": "حكم",
+    "root": "حك-م",
+    "turkish": "hükmetmek",
+    "english": "adjudicate",
+    "category": 2,
+    "concept_ids": [
+      11877
+    ]
+  },
+  {
+    "arabic": "فسر",
+    "root": "فس-ر",
+    "turkish": "tefsîr etmek",
+    "english": "explicate",
+    "category": 2,
+    "concept_ids": []
+  },
+  {
+    "arabic": "أول",
+    "root": "او-ل",
+    "turkish": "te'vîl etmek",
+    "english": "interpret",
+    "category": 2,
+    "concept_ids": [
+      6670
+    ]
+  }
+]

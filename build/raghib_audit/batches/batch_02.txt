@@ -1,0 +1,265 @@
+====================================================================================================
+ROOT جنبذ   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is a raised, rounded protuberance of a thing or of the earth, shaped like a dome or hemispherical mound.
+-- RECORD.haqiqah_literal: A raised, circular elevation of a thing or of the ground, resembling a dome; a domed mound or rounded protuberance.
+-- RECORD.majaz_scholastic: By extension, any domed or hemispherical structure or swelling; a place characterized by such rounded elevations (makān mujanbadh). The root is not attested in Al-Mufradāt or Asās al-Balāghah, so no philosophical or theological metaphorical usages are classically established; the term remains within the domain of physical topography and shape.
+-- RECORD.canonical_definition.ar: الجُنْبُذَةُ، بالضم: ما ارتفع من الشيء واستدار كالقبة. والجُنْبُذَة: ما علا من الأَرض واستدار. ومكان مُجَنْبَذ: ذو جنابذ.
+-- RECORD.canonical_definition.en: Al-Junbudhah, with ḍammah: that which is raised from a thing and is round like a dome. And al-junbudhah: that which is elevated from the ground and is round. And a place mujanbadh: possessing junbudhah-like elevations.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جنز   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is the act of covering, concealing, or shrouding an object — a concrete operation of overlaying something so as to hide it from view.
+-- RECORD.haqiqah_literal: To cover or conceal a thing; to shroud it. The verb جَنَزَ الشيءَ يَجْنِزُه جَنْزاً denotes the literal physical act of draping or wrapping an entity so that it is hidden.
+-- RECORD.majaz_scholastic: In scholastic and theological usage, the root extends metaphorically to the shrouding of the dead — the ritual wrapping of a corpse in a burial shroud (تكفين) and the accompanying funeral prayer. The imperative form in the narration 'إِذا جَنَزْتُموها فآذِنُوني' ('when you have shrouded her, inform me') illustrates this transferred sense: the literal act of covering becomes the ritual preparation of the deceased for burial, and by further extension, the funeral procession itself. The root thus bridges the physical act of concealment and the theological domain of death, ritual purity, and eschatological transition.
+-- RECORD.canonical_definition.ar: جَنَزَ الشيءَ يَجْنِزُه جَنْزاً: ستره. وذكروا أَن النَّوَار لما احْتُضِرَت أَوْصَت أَن يصلي عليها الحسن، فقيل له في ذلك، فقال: إِذا جَنَزْتُموها فآذِنُوني.
+-- RECORD.canonical_definition.en: He covered or concealed the thing, covering it with a janz. It is related that when al-Nawār was on her deathbed, she stipulated that al-Ḥasan should pray over her; when this was mentioned to him, he said: 'When you have shrouded her, inform me.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 14905 hdr=جنز: الجيم والنون والزاء كلمة واحدة. قال ابن دريد: جنزت الشيء أجنزه جنزا، إذا سترته، ومنه اشتقاق الجنازة (2). فأما الخليل فمذهبه غير هذا، قال: الجنازة الميت، [و] الشيء الذى ثقل على القوم واغتموا به هو أيضا جنازة. وقال: وما كنت أخشى أن أكون جنازة عليك ومن يغتر بالحدثان (3) قال: وأما الجنازة فهو خشب الشرجع. قال: ويقول العرب: رمى بجنازته فمات (4). قال: وقد جرى فى أفواه الناس الجنازة، بفتح الجيم، والنحارير ينكرونه.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جير   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is a particle of affirmation and assent, functioning as a vocal gesture of confirmation equivalent to 'yes' or 'indeed'. It is not derived from a concrete physical object but from a primitive linguistic utterance of agreement.
+-- RECORD.haqiqah_literal: The literal meaning is the affirmative particle جَيْرِ, used to express assent, confirmation, or agreement, synonymous with أَجَلْ (yes/indeed).
+-- RECORD.majaz_scholastic: No metaphorical or scholastic extensions are attested in the classical sources; the root remains confined to its literal affirmative function.
+-- RECORD.canonical_definition.ar: جَيْرِ: بمعنى أَجَلْ
+-- RECORD.canonical_definition.en: Jayri: meaning 'yes' or 'indeed'.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 15316 hdr=جير: الجيم والياء والراء كلمة واحدة. جير بمعنى حقا. قال: وقالت قد أسيت فقلت جير أسى إنه من ذاك إنه (4) فأما الجبار، وهو الصباروج، فكلمة معربة. قال الأعشى: بطين وجيار وكلس وقرمد (5) وأما الجائر فما يجده الإنسان فى صدره من حرارة غيظ أو حزن؛ فهو من باب الواو، وقد مضى ذكره.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جيش   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root ج-ي-ش is the turbulent, surging motion of a liquid boiling and overflowing its vessel, from which the sense of a churning, agitated mass—whether of the self or of armed men—is derived.
+-- RECORD.haqiqah_literal: The literal physical meaning is the boiling and overflowing of a pot (جاشت القدر واستجاشت: غلت), and the consequent agitation of the soul (جاشت النفس: فاظت or غثت).
+-- RECORD.majaz_scholastic: By metaphorical extension, the root denotes the mustering of an army (جيش فلان: جمع جيشا) and the solicitation of troops from a place (استجاش الأمير من مكان كذا: طلب الجيوش). The image of a boiling pot (صدره مرجل جياش) is applied to a person whose chest is seething with emotion or thought.
+-- RECORD.canonical_definition.ar: جاشت القدر واستجاشت: غلت. وجاشَت النفسُ تَجِيش جَيْشاً وجُيوشاً وجَيَشاناً: فاظَتْ. وجيش فلان: جمع جيشا.
+-- RECORD.canonical_definition.en: The pot boiled and overflowed. The soul surged with a boiling, overflowing, and agitation. A person mustered an army.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 15345 hdr=جيش: الجيم والياء والشين أصل واحد، وهو الثوران والغليان. يقال جاشت القدر تجيش جيشا وجيشانا. قال: وجاشت بهم يوما إلى الليل قدرنا تصك حرابى الظهور وتدسع (1) ومنه قولهم: جاشت نفسه، كأنها غلت. والجيش معروف، وهو من الباب، لأنها جماعة تجيش.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: جاشت القدر واستجاشت: غلت. وكأن صدره مرجل جياش. وجيش فلان: جمع جيشا. واستجاش الأمير من مكان كذا: طلب الجيوش. Metaphorical (Majaz): جاش البحر بالأمواج. وإن صدره ليجيش علي بالغل. وجاشت إليه نفسه. قال ذو الرمة: تجيش إلي النفس في كل دمنة ... لمى ويرتاح الفؤاد المشوق وجاشت ال
+-- SOURCE.asas[haqiqah_literal]: جاشت القدر واستجاشت: غلت. وكأن صدره مرجل جياش. وجيش فلان: جمع جيشا. واستجاش الأمير من مكان كذا: طلب الجيوش.
+-- SOURCE.asas[majaz_metaphorical]: جاش البحر بالأمواج. وإن صدره ليجيش علي بالغل. وجاشت إليه نفسه. قال ذو الرمة: تجيش إلي النفس في كل دمنة ... لمى ويرتاح الفؤاد المشوق وجاشت الحرب بينهم. قال: تجيش علينا قدرهم فنديمها ... ونهنؤها عنا إذا حميها غلا وفرس جياش العنان. قال حسان: تعادى بنا أفراسنا كل شطبة ... عنود وجياش
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حثر   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ح-ث-ر is a granular, rough, or crusted condition affecting a surface, specifically the eye, arising from accreted discharge or eruptive pustules.
+-- RECORD.haqiqah_literal: The literal physical meaning is a roughness or granulation experienced in the eye due to rheum (ramas), or the emergence of a red pustule or blister (bathr) on the eyelids, accompanied by a scaly or crusted texture.
+-- RECORD.majaz_scholastic: Not attested in the classical philological sources as a metaphorical or scholastic term; the root remains confined to its literal medical-physical domain.
+-- RECORD.canonical_definition.ar: الحَثَرُ: خُشُونَةٌ يَجِدُهَا الرَّجُلُ فِي عَيْنِهِ مِنَ الرَّمَصِ، وَقِيلَ: هُوَ أَنْ يَخْرُجَ فِيهَا حَبٌّ أَحْمَرُ، وَهُوَ بَثْرٌ يَخْرُجُ فِي الأَجْفَانِ، وَقَدْ حَثِرَتْ عَيْنُهُ. وَالحَثَرَةُ: انْسِلاقُ العَيْنِ، وَتَصْغِيرُهَا حُثَيْرَةٌ.
+-- RECORD.canonical_definition.en: Al-Ḥathar: a roughness that a person experiences in his eye due to rheum; it is also said to be the emergence of a red grain-like eruption, which is a pustule that appears on the eyelids, and his eye has become affected. Al-Ḥatharah: a scaly condition of the eye, and its diminutive is ḥuthayrah.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 20165 hdr=حثر: الحاء والثاء والراء أصل واحد، يدل على تحبب فى الشىء وغلظ. ويقال حثرت عين الرجل حثرا، إذا غلظت أجفانها من بكاء (3) أو رمد. وحثر العسل، إذا تحبب. والحوثرة: بعض أعضاء* الرجل (4). وليس من قياس الباب. والحواثر: قوم من عبد القيس. وحثارة التبن: حطامه. [حثوى] الحاء والثاء والحرف المعتل يدل على ذرو الشىء الخفيف السبيح (1). من ذلك الحثا، وهو دقاق التبن. قال: وأغبر مسحول التراب ترى له حثا طردته الريح من كل مطرد وقال الراجز: كأنه غرارة ملأى حثا (2) ويقال حثا التراب يحثوه. قال: الحصن أدنى لو تريدينه من حثوك الترب على الراكب (3) ويقال حثى يحثي حثيا. وهو أفصح. قال: أحثي على ديسم من جعد الثرى (4) ويقال أرض حثواء: كثيرة التراب.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حجحج   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is the act of recoiling or pulling back from a forward advance—a sudden retreat or withdrawal from an initiated movement, particularly in the context of battle or confrontation.
+-- RECORD.haqiqah_literal: The literal physical meaning is to recoil, retreat, or pull back from a charge or advance; to desist from an attack after having engaged.
+-- RECORD.majaz_scholastic: Metaphorically, it denotes a failure of resolve or courage—to be incapacitated by weakness or inability, to shrink back from a task or confrontation out of impotence or fear. In scholastic usage, it can signify the soul's retreat from intellectual or moral exertion.
+-- RECORD.canonical_definition.ar: الحَجْحَجَة: النُّكُوصُ. يقال: حملوا على القوم حملةً ثم حَجْحَجُوا. وحَجْحَجَ الرجلُ: نَكَصَ، وقيل: عجز.
+-- RECORD.canonical_definition.en: Al-Ḥajḥajah: recoiling. It is said: they charged upon the people with a single charge, then they recoiled. And a man ḥajḥaja: he retreated, or it is said: he was incapacitated by weakness.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حرج   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the convergence or meeting-point of two things, from which the notion of constriction or narrowness between them is derived; hence the root denotes tightness, confinement, and the resultant moral or psychological constriction.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the narrowing or constriction of a space or the chest, as in 'ḥaraja ṣadruhu ḥarajan' (his chest became constricted), and the act of driving or forcing someone into a narrow place, as in 'aḥrajahu ilā kadhā' (he forced him into such a situation) and 'aḥraja al-sabʿ ilā maḍīq' (he drove the beast of prey into a narrow passage).
+-- RECORD.majaz_scholastic: Metaphorically and theologically, the root signifies sin or moral impediment (al-ithm), as in 'al-ḥaraj' and 'al-ḥirj'; it also denotes the state of being constrained or inhibited from sin (al-mutaḥarrij), and in Qurʾānic usage it expresses the absence of constriction in religion (mā jaʿala ʿalaykum fī al-dīn min ḥaraj), the constriction of the heart due to disbelief (ḍayyiqan ḥarajan), and the psychological unease or doubt regarding revelation (ḥaraj minhu).
+-- RECORD.canonical_definition.ar: الحِرْجُ والحَرَجُ: الإِثمُ. والحَرَجُ والحَرِجُ والمُتَحَرِّجُ: الكافُّ عن الإِثم. وأصل الحرج مجتمع الشيئين، وتصور منه ضيق ما بينهما، فقيل للضيق: حرج، وللإثم حرج.
+-- RECORD.canonical_definition.en: Al-ḥirj and al-ḥaraj mean sin. Al-ḥaraj, al-ḥarij, and al-mutaḥarrij denote one who refrains from sin. The root origin of ḥaraj is the convergence of two things, from which the narrowness between them is conceptualized; thus constriction is called ḥaraj, and sin is called ḥaraj.
+-- SOURCE.mufradat @line 8724 hdr=حرج: أصل الحرج والحراج مجتمع الشيئين، وتصور منه ضيق ما بينهما، فقيل للضيق: حرج، وللإثم حرج، قال تعالى: ثم لا يجدوا في أنفسهم حرجا [النساء/ 65]، وقال عز وجل: وما جعل عليكم في الدين من حرج [الحج/ 78]، وقد حرج صدره، قال تعالى: يجعل صدره ضيقا حرجا [الأنعام/ 125]، وقرئ حرجا (1)، أي: ضيقا بكفره، لأن الكفر لا يكاد تسكن إليه النفس لكونه اعتقادا عن ظن، وقيل: ضيق بالإسلام كما قال تعالى: ختم الله على قلوبهم [البقرة/ 7]، وقوله تعالى: فلا يكن في صدرك حرج منه [الأعراف/ 2]، قيل: هو نهي، وقيل: هو دعاء، وقيل: هو حكم منه، نحو: ألم نشرح لك صدرك [الشرح/ 1]، والمتحرج والمتحوب: المتجنب من الحرج والحوب.
+-- SOURCE.maqayis @line 17560 hdr=حرج: الحاء والراء والجيم أصل واحد، وهو معظم الباب وإليه مرجع فروعه، وذلك تجمع الشىء وضيقه. فمنه الحرج جمع حرجة، وهى مجتمع شجر. ويقال فى الجمع حرجات. قال: أيا حرجات الحى حين تحملوا بذى سلم لا جادكن ربيع (1) ويقال حراج أيضا. قال: عاين حيا كالحراج نعمه (2) ومن ذلك الحرج الإثم، والحرج الضيق. قال الله تعالى: @QUR@08 ومن يرد أن يضله يجعل صدره ضيقا حرجا. ويقال حرجت العين تحرج، أى تحار. وتقول: حرج على ظلمك، أى حرم. ويقال أحرجها بتطليقة، أى حرمها. ويقولون: أكسعها بالمحرجات، يريدون بثلاث تطليقات. والحرج: السرير الذى تحمل عليه الموتى. والمحفة حرج. قال: فاما ترينى فى رحالة جابر على حرج كالقر تخفق أكفانى (3) وناقة حرج وحرجوج: ضامرة، وذلك تداخل عظلمها ولحمها. ومنه الحرج الرجل الذى لا يكاد يبرح القتال. ومما شذ 
+-- SOURCE.asas[bilingual_haqiqah_majaz]: حرج صدره حرجا، وصدر حرج وحرج. وأحرجني إلى كذا: ألجأني فحرجت إليه، وأحرج السبع إلى مضيق حتى أخذه. وأحرج كلبك فإنه أدعى له إلى الصيد أي أسهم ل Metaphorical (Majaz): وقع في الحرج وهو ضيق المأثم. وحدث عن بني إسرائيل ولا حرج. وأحرجني فلان: أوقعني في الحرج. وحرجت الصلاة على الحائض، والسحور على الصائم لما أصب
+-- SOURCE.asas[haqiqah_literal]: حرج صدره حرجا، وصدر حرج وحرج. وأحرجني إلى كذا: ألجأني فحرجت إليه، وأحرج السبع إلى مضيق حتى أخذه. وأحرج كلبك فإنه أدعى له إلى الصيد أي أسهم له من الصيد، وأطعمه حرجه منه أي نصيبه. قال الطرماح: يبتدرن الأحراج كالثول والحر ... ج لرب الضراء يصطفده يدخره: من الصفد، أي يطعمها أحراجها وي
+-- SOURCE.asas[majaz_metaphorical]: وقع في الحرج وهو ضيق المأثم. وحدث عن بني إسرائيل ولا حرج. وأحرجني فلان: أوقعني في الحرج. وحرجت الصلاة على الحائض، والسحور على الصائم لما أصبح أي حرما وضاق أمرهما. وظلمك علي حرج أي حرام مضيقز وتحرج من كذا: تأثم. وحلف فلان بالمحرجات وهي الأيمان التي تضيق مجال الحلاف، وكسعها بالمحرج
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حرذن   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is a small, low-creeping creature — a lizard (ʿaẓāʾah) — and, by extension, a beast of burden ridden to the point of total exhaustion, i.e., a quadruped reduced to its last remnant of strength.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah (as delineated from Lisān al-ʿArab) is: a small lizard (ʿaẓāʾah), specifically the ḥirzaw n, a creeping reptile; and, in the domain of camels, a riding camel that is mounted continuously until no strength remains in it.
+-- RECORD.majaz_scholastic: Metaphorical, philosophical, and theological usages: The term is not attested in Al-Mufradāt or Asās al-Balāghah as a technical philosophical or theological concept. Its majāz potential lies in the extended image of the ridden camel: a being or faculty worn down to its last remainder (baqiyyah), i.e., reduced to utter exhaustion or depletion. In scholastic Arabic, it could be applied figuratively to a person or faculty that has been overworked until no residual capacity (baqiyyah) remains, but this is an analogical extension, not a canonical technical usage.
+-- RECORD.canonical_definition.ar: الحِرْذَوْنُ: العَظَاءَةُ، مَثَّلَ به سيبويه وفسره السيرافي عن ثعلب. والحِرْذَوْنُ من الإبل: الذي يُرْكَبُ حتى لا تَبقى فيه بقيَّة. الجوهري: الحِرْذَوْنُ دُوَيْبَّة.
+-- RECORD.canonical_definition.en: Al-ḥirzaw n: the lizard (ʿaẓāʾah), cited as an example by Sībawayh and explained by al-Sīrāfī on the authority of Thaʿlab. And al-ḥirzaw n among camels: the one that is ridden until no remnant of strength remains in it. Al-Jawharī: al-ḥirzaw n is a small creature.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حرفض   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; based on classical lexical evidence, it denotes a specific physical condition of she-camels, either noble, high-bred (karīmah) or emaciated, lean (mahāzīl ḍawāmir), with the quadriliteral form suggesting a descriptive, onomatopoeic or intensifying function rather than a primary verbal root.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a she-camel that is either noble and high-bred (al-nāqah al-karīmah) or emaciated and lean (al-ibil al-mahāzīl al-ḍawāmir), with the plural form ḥarāfiḍ.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical sources; the term remains confined to the concrete zoological domain of camel description, with no extension into abstract or scholastic registers.
+-- RECORD.canonical_definition.ar: الحِرْفِضةُ: الناقة الكريمة، عن ابن دريد؛ وقيل: إِبل حَرافِضُ مهازِيلُ ضوامر.
+-- RECORD.canonical_definition.en: Al-ḥirfiḍah: the noble, high-bred she-camel, according to Ibn Durayd; it is also said: emaciated, lean she-camels.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حظل   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of restraining, hindering, or preventing a being from acting or moving — a privative condition imposed upon a subject, conceived as a blockage or confinement of its capacity for free disposal and locomotion.
+-- RECORD.haqiqah_literal: The literal physical meaning is the prevention or hindrance of a person or animal from acting, moving, or disposing of affairs freely; it denotes a state of being held back, confined, or rendered incapable of motion or independent action.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root extends to any impediment — whether physical, moral, or circumstantial — that obstructs the actualization of a faculty or the execution of an intention. It may denote the inhibition of the soul's appetitive or irascible powers, the blockage of a process, or the privation of a perfection due to an external or internal obstacle. Theologically, it can signify the withholding of divine assistance or the imposition of a trial that restricts the servant's capacity, though such usage remains analogical and must not be conflated with the literal root sense of physical restraint.
+-- RECORD.canonical_definition.ar: الحَظْل: المَنْع من التصرّف والحركةِ، حَظَل يَحْظِل ويَحْظُل حَظْلاً وحِظْلاناً وحَظَلاناً.
+-- RECORD.canonical_definition.en: Al-Ḥaẓl: prevention from free disposal and movement; ḥaẓala (yaḥẓil, yaḥẓul) — ḥaẓlan, ḥiẓlān, and ḥaẓalān.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 18446 hdr=حظل: الحاء والظاء واللام أصل واجد، وهو قريب من الذى قبله فالحظل: الغيرة ومنع المرأة من التصرف والحركة [قال (2)]: فيحظل أو يغار (3) قال أبو عبيد: حظلت عليه مثل حظرت ويقال فى قوله «فيحظل أو يغار» إنه التقتير. وأحر أن يكون هذا أصح، لأنه قال «أو يغار». والتقتير يرجع إلى الذى ذكرناه من المنع. والدليل على ذلك قولهم حظلان وحظلان. قال: تعيرنى الحظلان أم مخلس فقلت لها لم تقذفينى بدائيا (4) ||| باب الحاء والفاء وما يثلثهما
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حفرد   stratum=ma
+-- RECORD.ontological_core: A rare quadriliteral nominal root denoting a small, hard, granular substance — specifically the seed or kernel of a precious stone (ḥabb al-jawhar) and, by extension, a certain plant or herb.
+-- RECORD.haqiqah_literal: The literal physical referent is a concrete, tangible object: the seed-like kernel or grain associated with a gemstone, and a specific herbaceous plant (nabt).
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extensions are attested in the classical lexica; the term remains confined to its concrete nominal sense.
+-- RECORD.canonical_definition.ar: الحِفْرِدُ: حب الجوهر؛ عن كراع. والحِفْرِدُ: نبت.
+-- RECORD.canonical_definition.en: Al-ḥifrid: the seed of a gemstone, according to Kurāʿ; and al-ḥifrid: a plant.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حفص   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of gathering, collecting, or bringing together a thing into a compact mass; a secondary, less authoritative strand denotes casting or throwing something from the hand, though the classical lexicographers explicitly judge the cognate root with ḍād (حفض) as the superior form for that latter sense.
+-- RECORD.haqiqah_literal: The literal physical meaning is the gathering and collecting of a thing (حَفَصَ الشيءَ: جَمَعَه), and the resulting substance so gathered is termed الحُفَاصة. A marginal literal usage denotes casting a thing away (حَفَصَ الشيءَ: أَلْقَاه), but Ibn Sīdah and Ibn Barrī both affirm that the variant with ḍād (حفض) is the higher and more correct form for the sense of throwing down.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological application is attested in the classical philological corpus. The root remains confined to its concrete physical signification of gathering/collecting, with the throwing sense treated as a dialectal or orthographic variant subordinate to the ḍād form. Consequently, no majāz extension into abstract, scholastic, or theological domains is warranted by the classical sources.
+-- RECORD.canonical_definition.ar: حَفَصَ الشيءَ يَحْفِصُه حَفْصاً: جَمَعَه. والحُفَاصةُ: اسمُ ما حُفِصَ. وحَفَصَ الشيءَ: أَلْقَاه، قال ابن سيده: والضاد أَعْلى.
+-- RECORD.canonical_definition.en: Ḥafaṣa al-shayʾa yaḥfiṣuhu ḥafṣan: he gathered it together. Al-ḥufāṣah: the noun denoting that which has been gathered. And ḥafaṣa al-shayʾa: he cast it away; Ibn Sīdah said: the ḍād variant is the higher and more correct form.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 18626 hdr=حفص: الحاء والفاء والصاد ليس أصلا، ولا فيه لغة تنقاس. يقال للزبيل من جلود حفص. ويقال للدجاجة أم حفصة. ويقال إن ولد الأسد حفص. وفى كل ذلك نظر.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حكر   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root حكر is the act of withholding, confining, or hoarding a commodity—specifically foodstuffs—by collecting and retaining it in expectation of scarcity and price inflation. It denotes a deliberate, self-serving retention that restricts circulation and access.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal meaning is the hoarding of food (احتكار الطعام), i.e., its retention and confinement for the purpose of selling at a higher price during times of scarcity. It also literally denotes a person who monopolizes something and acts exclusively with it (المحتجن للشيء المستبد به), and can describe difficulty, crookedness, or harshness in social interaction (عسر والتواء وسوء معاشرة).
+-- RECORD.majaz_scholastic: Metaphorically and in scholastic usage, the root extends to any monopolistic or exclusive appropriation (استبداد) by which an individual controls a good or resource to the exclusion of others. It can also denote contentious disputation (مماراة) and hostile argumentation (مناكرة ومحاكرة). In economic and ethical theology, it signifies the sin of hoarding (احتكار) as a violation of communal welfare and trust.
+-- RECORD.canonical_definition.ar: الحَكْرُ: ادِّخارُ الطعام للتَّرَبُّصِ، وصاحبُه مُحْتَكِرٌ. والاحْتِكارُ: جمع الطعام ونحوه مما يؤكل واحتباسُه انتظارَ وقتِ الغَلاءِ به.
+-- RECORD.canonical_definition.en: Al-ḥakr is the storing of food in anticipation [of scarcity]; one who does so is a muḥtakir. Al-iḥtikār is the gathering of food and similar edible goods and retaining them in expectation of a time of high prices.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 18828 hdr=حكر: الحاء والكاف والراء أصل واحد، وهو الحبس. والحكرة: حبس الطعام منتظرا لعلائه، وهو الحكره وأصله فى كلام العرب الحكر، وهو الماء المجتمع، كأنه احتكر لقلته.
+-- SOURCE.asas[haqiqah_literal]: فلان حصر حكر وهو المحتجن للشيء المستبد به. وفيه حكر أي عسر والتواء وسوء معاشرة. وفيه مناكرة ومحاكرة أي مماراة. واحتكر الطعام: احتبسه للغلاء. وفلان حرفته الحكرة وهي الاحتكار.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حلبس   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the semantic field of clinging, tenacious adherence and unyielding persistence, from which the meaning of courage and steadfastness is extrapolated.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a person who clings firmly to something and does not let go, and by extension a brave, steadfast individual.
+-- RECORD.majaz_scholastic: The metaphorical and scholastic usage applies the root to denote moral courage and resoluteness, where the physical act of clinging is transferred to the soul's firm adherence to valor and endurance; the term may also be used for a persistent, inseparable companion or quality.
+-- RECORD.canonical_definition.ar: الحَلْبَسُ والحَبَلْبَسُ والحُلابِسُ: الشجاع. والحَلْبَسُ: الحريض الملازم للشيء لا يفارقه.
+-- RECORD.canonical_definition.en: Al-ḥalbas, al-ḥabalbās, and al-ḥulābis: the brave one. And al-ḥalbas: the eager one who clings to something and does not leave it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حندق   stratum=ma
+-- RECORD.ontological_core: The root denotes a succulent, fleshy herbaceous plant of the class of soft-stemmed pot-herbs (baql), specifically a variety resembling fresh, tender leek or rush (al-fathth al-ratb), of Nabataean (Aramaic) provenance subsequently Arabicized.
+-- RECORD.haqiqah_literal: A literal, concrete botanical referent: a green, edible herb or pasture-plant (baqlah aw ḥashīshah) characterized by softness and succulence, akin to fresh leek, known in Arabic as al-dhuraq.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological extension is attested in the classical lexicographical tradition; the term remains confined to its concrete botanical designation, with the sole lexical note being its status as a Nabataean loanword (muʿarrab) naturalized into Arabic.
+-- RECORD.canonical_definition.ar: الحَنْدَقوقَى والحَنْدَقُوقُ والحِنْدَقُوقُ: بقلة أَو حَشِيشة كالفَثِّ الرَّطْب، نَبَطِيَّة مُعرَّبة، ويقال لها بالعربية الذُّرَقُ.
+-- RECORD.canonical_definition.en: Al-ḥandaqūqā, al-ḥandaqūq, and al-ḥindaqūq: a pot-herb or pasture-plant resembling fresh leek, of Nabataean origin and Arabicized; in Arabic it is called al-dhuraq.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حنق   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the constriction and compression of the belly against the spine, as seen in a lean, emaciated horse; from this concrete image of tight inward contraction, the root extends to the psychological constriction of intense inward rage.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the adhesion of the belly to the back in a horse or other animal due to emaciation and leanness, as in the verse of Labīd: 'by a travel-worn steed, whose belly clung to its spine and hump.' It also denotes the compact, gathered head of grain before its awns and kernels emerge.
+-- RECORD.majaz_scholastic: The metaphorical and theological usage denotes intense anger and wrath (shiddat al-ightiyāẓ), conceived as a constriction of the self analogous to the physical contraction of the belly to the spine. The verb forms ḥaniqa (to be enraged), aḥnaqa (to enrage), and the intensive ḥanīq and muḥnaq (one filled with rage) are used for the psychological state. In scholastic contexts, it signifies the soul's violent inward compression caused by perceived injury, without implying any corporeal change in God; when attributed to God, it is understood as His just displeasure and punitive will, not as an emotion or accident.
+-- RECORD.canonical_definition.ar: الحَنَقُ: شِدَّةُ الاغْتِيَاظِ. وأَحْنَقَ الفرسُ وغيرهُ إذا التصقَ بطنهُ بصلبهِ ضُمْرًا.
+-- RECORD.canonical_definition.en: Ḥanaq is intense wrath. Aḥnaqa al-faras or other animal means its belly adhered to its spine due to emaciation.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 19406 hdr=حنق: الحاء والنون والقاف أصل واحد، وهو تضابق الشىء. يقال الضمر محانيق. وإلى هذا يرجع الحنق فى الغيظ، لأنه تضايق فى الخلق من غير ندحة ولا انبساط. قال الشاعر فى قولهم محنق: ما كان ضرك لو مننت وربما من الفتى وهو لغيظ المحنق (2)
+-- SOURCE.asas[haqiqah_literal]: حنق على أخيه حنقا وأحنقته عليه فهو حنق وحنيق ومحنق، ومالك مغيظا محنقا. وأحنق الفرس وغيره إذا التصق بطنه بصلبه ضمرا. قال لبيد: بطليح أسفار تركن بقية ... منها فأحنق صلبها وسنامها وقال أبو النجم: قد قالت الأنساع للبطن الحقي ... قدما فآضت كالفنيق المحنق وخيل محانق ومحانيق. وعن ابن ال
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حوب   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the sharp cry or call used to restrain and drive back camels (ḥawb as a deterrent cry), from which the root's semantic nucleus of restraint, prohibition, and consequent moral liability is derived.
+-- RECORD.haqiqah_literal: The literal physical meaning is the act of crying out to camels to restrain them (ḥāba ḥawban), and by extension, the state of being restrained or held back from something; also, the concrete kinship obligation or right (ḥawbah) that binds one to protect and provide for weak dependents, and the physical need or destitution (ḥawbah) that drives one to transgression.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, it denotes sin, moral offense, and the burden of guilt (ithm); the act of scrupulously avoiding sin (taḥawwub); the sacred inviolable right or sanctity (ḥurmah) of a person that, if neglected, incurs sin; and the soul (ḥawbāʾ) as the locus of moral accountability, specifically the soul that incites to evil (al-nafs al-ammārah bi-l-sūʾ).
+-- RECORD.canonical_definition.ar: الحَوْبُ: الإِثْمُ. والحَوْبَةُ: الحاجَةُ والمَسْكَنَةُ، والحُرْمَةُ والحَقُّ، والقَرابَةُ من قِبَلِ الأُمِّ. والحَوْباءُ: النَّفْسُ. والأَصْلُ فيه حَوْبٌ لِزَجْرِ الإِبِلِ.
+-- RECORD.canonical_definition.en: Ḥawb is sin. Ḥawbah is need and destitution, an inviolable right and obligation, and maternal kinship. Ḥawbāʾ is the soul. Its origin is the cry 'ḥawb' used to restrain camels.
+-- SOURCE.mufradat @line 10137 hdr=حوب: الحوب: الإثم، قال عز وجل: إنه كان حوبا كبيرا [النساء/ 2]، والحوب المصدر منه، وروي: (طلاق أم أيوب حوب) (4) ، وتسميته بذلك لكونه مزجورا عنه، من قولهم: حاب حوبا وحوبا وحيابة، والأصل فيه حوب لزجر الإبل، وفلان يتحوب من كذا، أي: يتأثم، وقولهم: ألحق الله به الحوبة (5)، أي: المسكنة والحاجة. وحقيقتها: هي الحاجة التي تحمل صاحبها على ارتكاب الإثم، وقيل: بات فلان بحيبة سوء (6). والحوباء قيل هي النفس (7)، وحقيقتها هي النفس المرتكبة للحوب، وهي الموصوفة بقوله تعالى: إن النفس لأمارة بالسوء [يوسف/ 53].
+-- SOURCE.maqayis @line 19452 hdr=حوب: الحاء والواو والباء أصل واحد يتشعب إلى إثم، أو حاجة أو مسكنة، وكلها متقاربة. فالحوب والحوب: الإثم. قال الله تعالى: @QUR@02 إنه كان حوبا @QUR@01 كبيرا وحوبا كبيرا (1). والحوبة: ما يأثم الإنسان فى عقوقه، كالأم ونحوها. وفلان يتحوب من كذا، أى يتأثم. وفى الحديث@HAD06 : «رب تقبل توبتى، واغفر حوبتى@HAD01 » . ويقال التحوب التوجع. قال طفيل: فذوقوا كما ذقنا غداة محجر من الغيظ فى أكبادنا والتحوب (2) ويقال: ألحق [الله (3)] به الحوبة، وهى الحاجة والمسكنة. فإن قيل: فما قياس الحوباء، وهى النفس؟ قيل له: هى الأصل بعينه؛ لأن إشفاق (4) الإنسان على نفسه أغلب وأكثر. فأما قولهم فى زجر الإبل حوب، فقد قلنا إن هذه الأصوات والحكايات ليست مأخوذة من أصل. وكل ذى لسان عربى فقد يمكنه اختراع مثل ذلك، ثم يكثر على ألسنة النا
+-- SOURCE.asas[haqiqah_literal]: فيه حوب كبير، واللهم اغفر لي حوبتي. وهو يتحوب من القبيح: يتحرج منه. وحرس الله حوباك. وفعلت كذا لحوبة فلان أي لحرمته وحقه وما يأثم الرجل إن لم يراعه. قال الفرزدق: فهب لي خنيسا واتخذ فيه منة ... لحوبة أم ما يسوغ شرابها
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT حيث   stratum=Ma
+-- RECORD.ontological_core: An indeterminate locative particle (ẓarf mubham) denoting an unspecified place, whose precise reference is disambiguated only by the clause that follows it.
+-- RECORD.haqiqah_literal: A literal, indeterminate adverb of place (ẓarf makān mubham) governing the spatial sense of 'where' or 'in the place that', whose referent is specified by the subsequent clause.
+-- RECORD.majaz_scholastic: Extended in scholastic and philosophical usage to denote an indeterminate locus of condition, state, or logical circumstance (e.g., 'in the respect that', 'insofar as'), functioning as a conjunctive particle introducing causal, conditional, or circumstantial clauses rather than strictly spatial ones.
+-- RECORD.canonical_definition.ar: حَيْثُ: ظَرْفٌ مُبْهَمٌ مِنَ الأَمْكِنَةِ، مَضْمُومٌ، وَبَعْضُ العَرَبِ يَفْتَحُهُ، وَزَعَمُوا أَنَّ أَصْلَهَا الوَاوُ؛ وَإِنَّمَا قُلِبَتِ الوَاوُ يَاءً طَلَبَ الخِفَّةِ.
+-- RECORD.canonical_definition.en: Ḥaythu is an indeterminate locative adverb of place, pronounced with a ḍammah, though some Arab speakers pronounce it with a fatḥah; it is claimed that its original root was wāw, which was changed to yāʾ for the sake of phonetic lightness.
+-- SOURCE.mufradat @line 10167 hdr=حيث: حيث عبارة عن مكان مبهم يشرح بالجملة التي بعده، نحو قوله تعالى: وحيث ما كنتم* [البقرة/ 144]، ومن حيث خرجت* [البقرة/ 149].
+-- SOURCE.maqayis @line 19745 hdr=حيث: الحاء والياء والثاء ليست أصلا؛ لأنها كلمة موضوعة لكل مكان، وهى مبهمة، تقول اقعد حيث شئت، وتكون مضمومة. وحكى الكسائى فيها الفتح أيضا.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خبا   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin centers on concealment, hiding, and the act of rendering something invisible or sheltered from view. It encompasses both the physical act of covering or storing something away and the structural notion of a shelter (خِباء) that veils its occupants.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the act of hiding, concealing, or storing something away (خبأ), and the physical structure of a tent made of wool or hair (خِباء) that provides concealment. It also includes the literal sense of a young woman kept secluded (مخبأة) and the vessel for storing vinegar (خابية).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to the theological domain: 'God brings forth the hidden' (والله يخرج الخبء), referring to His bringing forth rain from the sky and vegetation from the earth as hidden treasures. It also encompasses the psychological act of concealing one's thoughts or intentions (اختبأت له خبيأ), and the strategic concealment of one's opinion (خابأتك أي حاجبتك). The term خِباء is used metaphorically for any sheltering structure, and خبأة describes a woman who conceals herself after being seen.
+-- RECORD.canonical_definition.ar: الخِباءُ من الأَبنية: واحد الأَخْبية، وهو ما كان من وَبَر أَو صوف ولا يكون من شَعَر، وهو على عمودين أَو ثلاثة، وما فوقَ ذلك فهو بَيْت. والخبء: ما خفي، ومنه: والله يخرج الخبء.
+-- RECORD.canonical_definition.en: Al-Khibāʾ is a type of structure: the singular of al-akhbiya (tents), and it is made of camel hair or wool, not of hair, and it is supported by two or three poles; anything larger is called a bayt (house). Al-Khabʾ means that which is hidden, and from it comes the phrase: 'And God brings forth the hidden.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 23325 hdr=خبأ: الخاء والباء والحرف المعتل والهمزة يدل على ستر الشىء. فمن ذلك خبأت الشىء أخبؤه خبأ. والخبأة: الجارية تخبأ. ومن الباب الخباء؛ تقول أخبيت إخباء، وخبيت، وتخبيت، كل ذلك إذا اتخذت خباء. ||| باب الخاء والتاء وما يثلثهما
+-- SOURCE.asas[haqiqah_literal]: له خبيئة خبأها ليوم حاجته، وله خبايا. " لا مخبأ لعطر بعد عروس " ولفلان مخابيء ومخازن " والله يخرج الخبء " وأخرج خبء السماء خبء الأرض أي المطر النبات. وخبأت الجارية، وجارية مخبأة، ونساء مخبآت ومخبآت، وامرأة خبأة تخنس بعد الاطلاع. واختبأت من فلان: استترت منه، واختبأت له خبيأ إذا عم
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خبب   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root خبب is rapid, oscillating locomotion—specifically, a gait in which a mount moves its right limbs together and then its left limbs together, or alternately swings forelegs and hindlegs, producing a swift, rocking, uneven motion. From this kinetic core radiate secondary physical senses: a long strip or fold of cloth (خُبَّة/خَبِيبة), and a cutaneous disease or mange (خَبَب/جَرَب) that spreads irregularly over the body.
+-- RECORD.haqiqah_literal: In its strict literal sense, خَبَب denotes a specific mode of running: the horse's simultaneous movement of all right limbs then all left limbs, or the alternating swing of forelegs and hindlegs; it is also used for the camel. Hence خَبَّت الدَّابَّةُ تَخُبُّ خَبّاً وخَبَباً وخَبِيباً: the mount moved with this gait. Literally, خُبَّة and خَبِيبة denote a long, extended strip or fold of cloth, and a garment described as خَبائب is one with such strips. Literally, خَبّ as a noun denotes mange or scabies (الجَرَب), and a man or woman afflicted is described as خَبٌّ or خَبَّة.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, خبب extends from physical gait to moral and social domains. In the ḥadīth of ʿUmar, 'no one spoke Persian except he خَبَّ'—i.e., became corrupt or afflicted with a moral disease—and 'he did not خَبَّ except that his manliness departed.' Thus خَبَّ عليه عبده وأمته وامرأته means he corrupted or ruined them (أفسد). The verbal form أَخَبَّ فَرَسَهُ means he urged his horse into a swift gait; مَرُّوا مُخِبِّينَ describes travelers moving rapidly with their mounts. The root also yields خَبْخَبَة (a rustling or confused sound) and تَخَبْخَبَ (to become agitated or mixed), extending the oscillatory core to acoustic and psychological perturbation.
+-- RECORD.canonical_definition.ar: الخَبَبُ: ضَرْبٌ من العَدْوِ، وقيل: هو مِثْلُ الرَّمَلِ، وقيل: هو أَن يَنْقُل الفَرَسُ أَيامِنَه جميعاً وأَياسِرَه جميعاً، وقيل: هو أَن يُراوِحَ بين يديهِ ورجليهِ، وكذلك البعير؛ وقيل: الخَبَب السُّرْعَة. والخُبَّةُ والخَبِيبةُ: شِبْهُ طِيَّةٍ من الثوب مستطيلة. والخَبُّ: الجَرَبُ.
+-- RECORD.canonical_definition.en: Al-Khabab is a mode of running; it is said to resemble the ramal; it is said to be the horse's simultaneous movement of all its right limbs and then all its left limbs; it is said to be the alternating swing between its forelegs and hindlegs, and likewise for the camel; it is also said that al-khabab is speed. Al-khubba and al-khabība denote a long, extended fold or strip of cloth. Al-khabb denotes mange.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[majaz_metaphorical]: خب البحر. وأصابهم الخب إذا التوت عليهم الرياح واضطربت الأمواج، فلجؤوا إلى الشط، وألقوا الأنجر. وخب النبات: طال وارتفع. واعترضتنا خبة من الرمل وخبيبة أي طريقة. وقطع لي خبة من اللحم وخبيبة.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: اعصب يدك بالخبة والخبيبة وهي شبه طية من الثوب مستطيلة، وثوب خبائب مثل شبارق. ورجل خب بين الخب وهو الجربزة، وامرأة خبة، وقد خب يخب. وفي حديث Metaphorical (Majaz): خب البحر. وأصابهم الخب إذا التوت عليهم الرياح واضطربت الأمواج، فلجؤوا إلى الشط، وألقوا الأنجر. وخب النبات: طال وارتفع. واعترضتنا خبة من الرم
+-- SOURCE.asas[haqiqah_literal]: اعصب يدك بالخبة والخبيبة وهي شبه طية من الثوب مستطيلة، وثوب خبائب مثل شبارق. ورجل خب بين الخب وهو الجربزة، وامرأة خبة، وقد خب يخب. وفي حديث عمر رضي الله عنه: ما تكلم أحد بالفارسية إلا خب، وما خب إلا ذهبت مروءته. وخبب عليه عبده وأمته وامرأته: أفسد. وخب الفرس خببا وخبيبا، وجاؤا تخب
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

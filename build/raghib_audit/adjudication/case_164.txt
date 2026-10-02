@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جنبذ   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a raised, rounded protuberance of a thing or of the earth, shaped like a dome or hemispherical mound.
+REC haqiqah_literal  : A raised, circular elevation of a thing or of the ground, resembling a dome; a domed mound or rounded protuberance.
+REC canon_def.ar     : الجُنْبُذَةُ، بالضم: ما ارتفع من الشيء واستدار كالقبة. والجُنْبُذَة: ما علا من الأَرض واستدار. ومكان مُجَنْبَذ: ذو جنابذ.
+REC canon_def.en     : Al-Junbudhah, with ḍammah: that which is raised from a thing and is round like a dome. And al-junbudhah: that which is elevated from the ground and is round. And a place mujanbadh: possessing junbudhah-like elevations.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

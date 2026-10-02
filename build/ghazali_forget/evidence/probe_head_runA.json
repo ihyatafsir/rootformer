@@ -1,0 +1,15 @@
+{
+  "tag": "runA_damaged",
+  "val_windows": 300,
+  "n_positions": 18869,
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "trunk": "/workspace/root_attn/head_ROOTATTN.pt.trunk.pt",
+  "live": {
+    "n": 18869,
+    "acc@1": 0.02432561293244362,
+    "acc@5": 0.05257300287485123,
+    "ce_raw": 11.190171241760254,
+    "ce_z": 9.587803840637207,
+    "logit_scale": 1.3034353256225586
+  }
+}

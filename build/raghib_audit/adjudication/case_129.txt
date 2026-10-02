@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ضفع   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ض-ف-ع is the emission of excrement or the act of defecation, specifically denoting the expulsion of waste from the body. It is a primary, concrete bodily function, with a variant root فضع carrying the same meaning.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the act of defecating or excreting, as in ضَفَعَ الرجلُ (the man defecated). It also extends to the emission of urine and dung, as in ضَفَعَ بِبَوْلِهِ وَسَلَحَ (he urinated and defecated).
+REC canon_def.ar     : ضَفَعَ الرجلُ يَضْفَعُ ضَفْعاً: جَعَسَ وأَحْدَثَ، وقيل: أَبْدَى، وفَضَعَ لغة فيه. ويقال: ضَفَعَ وقَعَ بِبَوْلِه وسَلَحَ. وقال ابن الأَعرابي: نَجْوُ الفيل الضَّفْعُ.
+REC canon_def.en     : A man defecated, he excreted and produced waste; it is also said: he exposed [excrement]. فَضَعَ is a variant dialect form. It is said: he defecated, he urinated and defecated. Ibn al-Aʿrābī said: The dung of the elephant is called al-ḍafʿ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 41713 hdr=ضفع] الضاد والفاء والعين ليس بشىء. على أن الخليل حكى ضفع: جعس. والسلم (1). ||| باب الضاد والكاف وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عرجل   stratum=ma
+REC ontological_core : The root ع-ر-ج-ل denotes a collective body of beings or entities moving on foot or in a compact group, with an underlying physical image of a mass of walkers or a herd gathered together.
+REC haqiqah_literal  : A group or troop of horses; a group of people, specifically a group of foot-soldiers or pedestrians; a herd of goats.
+REC canon_def.ar     : العَرْجَلة: القِطْعة من الخيل، وقيل: الجماعة منها. والعَرْجَلة: الجماعة من الناس، وقيل: جماعة الرَّجّالة. وخَرَجَ القومُ عَرَاجِلَةً أَي مُشاةً. والعَرْجَلة: الجماعةُ من المَعَز.
+REC canon_def.en     : Al-ʿarjalah: a troop of horses, or a group thereof. Al-ʿarjalah: a group of people, or a group of foot-soldiers. The people went out as ʿarājilah, i.e., on foot. Al-ʿarjalah: a herd of goats.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 7751 hdr=عرجل] العَرْجَلَةُ: القطيعُ من الخيل. وهي بلغة تميم الحَرْجلة.

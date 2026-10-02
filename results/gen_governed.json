@@ -1,0 +1,379 @@
+[
+  {
+    "prompt": "العلم نور يضيء العقل ويهدي إلى الحق",
+    "text": "أن يعلم ذلك جهل على إقلاب هو كنه أو وجد في عولم ما دلل",
+    "text_raw": "أن يعلم ذلك جهل على إقلاب هو كنه أو وجد في عولم ما دلل",
+    "words": [
+      "أن",
+      "يعلم",
+      "ذلك",
+      "جهل",
+      "على",
+      "إقلاب",
+      "هو",
+      "كنه",
+      "أو",
+      "وجد",
+      "في",
+      "عولم",
+      "ما",
+      "دلل"
+    ],
+    "num_words": 14,
+    "latency_ms": 1247.2204314544797,
+    "ms_per_word": 89.08717367531997,
+    "forward_passes": 14,
+    "grammar_events": {
+      "op_NONE": 10,
+      "op_HARF_NASB": 1,
+      "ibn_malik_wazn": 2,
+      "sibawayh_suffix_mask": 7,
+      "pos_blocked_2->2": 2,
+      "op_HARF_JARR": 2,
+      "pos_blocked_3->4": 11,
+      "op_HARF_JAZM": 1
+    },
+    "distinct_roots": 13,
+    "max_root_repeat": 2,
+    "stutter_rate": 0.07142857142857142,
+    "max_root_bigram_repeat": 1,
+    "literal_token_leak": 0,
+    "tuples": [
+      {
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "علم",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:ذلك>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "جهل",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:على>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "قلب",
+        "wazn": "إِفْعَال",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:هو>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "كنه",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:أو>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "وجد",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:في>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "علم",
+        "wazn": "فَوْعَل",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:ما>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "دلل",
+        "wazn": "يَفْعُلُ",
+        "suffix": "<NONE>"
+      }
+    ]
+  },
+  {
+    "prompt": "الأصل في الأشياء الإباحة حتى يقوم دليل على التحريم",
+    "text": "أن يعلم ها غير مذات عقل لا نظر بين التضدين بل وجد في افتعال",
+    "text_raw": "أن يعلم ها غير مذات عقل لا نظر بين التضدين بل وجد في افتعال",
+    "words": [
+      "أن",
+      "يعلم",
+      "ها",
+      "غير",
+      "مذات",
+      "عقل",
+      "لا",
+      "نظر",
+      "بين",
+      "التضدين",
+      "بل",
+      "وجد",
+      "في",
+      "افتعال"
+    ],
+    "num_words": 14,
+    "latency_ms": 520.4688934609294,
+    "ms_per_word": 37.17634953292353,
+    "forward_passes": 14,
+    "grammar_events": {
+      "op_NONE": 11,
+      "op_HARF_NASB": 1,
+      "ibn_malik_wazn": 2,
+      "sibawayh_suffix_mask": 4,
+      "op_HARF_JAZM": 1,
+      "pos_blocked_3->4": 10,
+      "op_HARF_JARR": 1
+    },
+    "distinct_roots": 14,
+    "max_root_repeat": 1,
+    "stutter_rate": 0.0,
+    "max_root_bigram_repeat": 1,
+    "literal_token_leak": 0,
+    "tuples": [
+      {
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "علم",
+        "wazn": "يَفْعَلُ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "ها",
+        "wazn": "إِفْعَال",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:غير>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "ذات",
+        "wazn": "مَفْعَل",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "عقل",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:لا>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "نظر",
+        "wazn": "يَفْعُلُ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:بين>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "ال",
+        "root": "ضدن",
+        "wazn": "تَفْعِيل",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:بل>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "وجد",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:في>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "فعل",
+        "wazn": "اِفْتِعَال",
+        "suffix": "<NONE>"
+      }
+    ]
+  },
+  {
+    "prompt": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى",
+    "text": "في مفعل أو نها أن كون غير نهي إلى التذايت إن كلل عولم ما",
+    "text_raw": "في مفعل أو نها أن كون غير نهي إلى التذايت إن كلل عولم ما",
+    "words": [
+      "في",
+      "مفعل",
+      "أو",
+      "نها",
+      "أن",
+      "كون",
+      "غير",
+      "نهي",
+      "إلى",
+      "التذايت",
+      "إن",
+      "كلل",
+      "عولم",
+      "ما"
+    ],
+    "num_words": 14,
+    "latency_ms": 512.4608343467116,
+    "ms_per_word": 36.6043453104794,
+    "forward_passes": 14,
+    "grammar_events": {
+      "op_NONE": 10,
+      "op_HARF_JARR": 2,
+      "pos_blocked_3->4": 11,
+      "sibawayh_suffix_mask": 4,
+      "op_HARF_NASB": 1,
+      "ibn_malik_wazn": 2,
+      "op_HARF_JAZM": 1,
+      "pos_blocked_2->4": 1
+    },
+    "distinct_roots": 14,
+    "max_root_repeat": 1,
+    "stutter_rate": 0.0,
+    "max_root_bigram_repeat": 1,
+    "literal_token_leak": 0,
+    "tuples": [
+      {
+        "prefix": "<NONE>",
+        "root": "<P:في>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "فعل",
+        "wazn": "مَفْعَل",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:أو>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "نها",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:أن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "كون",
+        "wazn": "يَفْعُلُ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:غير>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "نهي",
+        "wazn": "فَعَلَ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:إلى>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "ال",
+        "root": "ذات",
+        "wazn": "تَفْعِيل",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:إن>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "كلل",
+        "wazn": "يَفْعُلُ",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "علم",
+        "wazn": "فَوْعَل",
+        "suffix": "<NONE>"
+      },
+      {
+        "prefix": "<NONE>",
+        "root": "<P:ما>",
+        "wazn": "<NONE>",
+        "suffix": "<NONE>"
+      }
+    ]
+  }
+]

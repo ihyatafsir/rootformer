@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قلذم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a well or spring of abundant, copious water — a source that gushes forth and never runs dry, denoting plenitude and inexhaustible supply.
+REC haqiqah_literal  : A well (biʾr) that is abundant (ghazīrah) and copious in water (kathīrat al-māʾ); a gushing, overflowing wellspring.
+REC canon_def.ar     : القَلَيْذَمُ: البئر الغزيرة الكثيرة الماء.
+REC canon_def.en     : Al-qalaydham: the well that is abundant and copious in water.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22401 hdr=قلذم] القَلَيْذَمُ: البئر الكثيرة الماء ... قال: «1» إن لنا قَلَيْذَماً قَذُوما

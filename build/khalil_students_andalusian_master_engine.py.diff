@@ -1,0 +1,48 @@
+--- khalil_students_andalusian_master_engine.py.origin	2026-10-01 15:47:45.518366147 +0200
++++ khalil_students_andalusian_master_engine.py	2026-10-01 16:05:16.222804289 +0200
+@@ -191,18 +191,36 @@
+     """
+     Al-Maqāṣid al-Shāfiyah:
+     Differentiates between:
+-    - Waw al-ʿAṭf (Conjunction -> English 'and')
+-    - Waw al-Isti'nāf (Discourse Resumption -> Sentence continuation without 'and')
++    - Waw al-ʿAṭf       «لأن واو العطف شركت بينهما في العامل»
++    - Waw al-Ḥāl        «جملة حالية مصدرة بواو الحال»
++    - Waw al-Isti'nāf   «لأنه إما للتشريك، ولا إشكال، وإما للاستئناف»
++    - Waw al-Qasam      «الواو القسمية والعاطفة»
++
++    WIRED (2024): the classifier now lives in `andalusian_realizer.AndalusianRealizer`,
++    the single Andalusian realisation entry point, and this method delegates to it.  The
++    old body compared the caller's labels against 'ISM'/'SIFAH'/'FIL' while
++    `MasterSovereignTransmuter.transmute_proposition` passes Arabic 'اسم'/'فعل', so every
++    waw collapsed to ISTINAF -- the failure recorded by test_grammar_impl.py.  The
++    three-argument signature is preserved; `is_oath` (waw al-qasam) and `maa_fits` (Ibn
++    Malik's «مع» substitution test) are optional additions.  The old logic is kept verbatim
++    in the `except` branch so this module keeps working if the realisation layer is absent.
+     """
+     @staticmethod
+-    def classify_waw(prev_pos: str, next_pos: str, is_sentence_start: bool) -> str:
+-        if is_sentence_start:
++    def classify_waw(prev_pos: str, next_pos: str, is_sentence_start: bool,
++                     is_oath: bool = False, maa_fits: bool = None) -> str:
++        try:
++            from andalusian_realizer import AndalusianRealizer
++            return AndalusianRealizer.waw_function(
++                prev_pos, next_pos, start_of_clause=is_sentence_start, oath=is_oath,
++                maa_fits=maa_fits)
++        except Exception:
++            if is_sentence_start:
++                return "ISTINAF"
++            if prev_pos in {'ISM', 'SIFAH'} and next_pos in {'ISM', 'SIFAH'}:
++                return "ATF"
++            if prev_pos == 'FIL' and next_pos == 'FIL':
++                return "ATF"
+             return "ISTINAF"
+-        if prev_pos in {'ISM', 'SIFAH'} and next_pos in {'ISM', 'SIFAH'}:
+-            return "ATF"
+-        if prev_pos == 'FIL' and next_pos == 'FIL':
+-            return "ATF"
+-        return "ISTINAF"
+ 
+ 
+ # ==============================================================================

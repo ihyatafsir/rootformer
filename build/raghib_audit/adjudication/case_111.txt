@@ -1,0 +1,10 @@
+================================================================================================
+ROOT واب   stratum=mA
+REC ontological_core : The root's foundational physical origin centers on the somatic and affective response of shame or shyness—a visceral recoil or bashfulness that manifests in the body and demeanor, particularly in the context of social exposure or moral transgression.
+REC haqiqah_literal  : To feel shame, to be shy, to be bashful; the literal physical manifestation of shame as a recoiling or shrinking away from exposure.
+REC canon_def.ar     : الوَبْءُ: الحَيَاءُ والاسْتِحْيَاءُ. وَبِئَ يَوْبَأُ وَبْئًا ووَبَاءً: اسْتَحْيَا. وَمَا بِكَ فِي هَذَا إِبَةٌ أَيْ مَا بِكَ حَيَاءٌ. وَطَعَامٌ لَا تُؤْبَةَ فِيهِ أَيْ لَا يُسْتَحْيَا مِنْ أَكْلِهِ.
+REC canon_def.en     : Al-wabʾ is shame and shyness. Wabiʾa yawbaʾu wabʾan wa-wabāʾan: he felt shame. 'What is there in this for you of shame?' means 'you have no shame in this.' And 'food in which there is no shame' means 'food that is not shameful to eat.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75405 hdr=وأب] الواو والهمزة والباء: كلمتان تدل إحداهما على تقعير شىء، والأخرى على غضب. فالأولى: الحافر الوأب: المقعب. والوأبة: نقيرة (1) فى صخرة تمسك الماء. والكلمة الأخرى أوأبت فلانا: أغضبته. ويقال إن الإبة منه (2)
+SRC Asas [haqiqah_literal]        : أتأب: استحيا. قال الكميت: وصرت عم الفتاة تتئب ال ... عاتق من رؤيتي وأتئب وما بك في هذا إبة. قال ذو الرمة: إذا المرئي شب له بنات ... عقدن برأسه إبة وعارا وما طعامك بطعام تؤبة أي لا يستحيا من أكله.
+SRC Ayn (al-Khalil)  : [line 36143 hdr=وأب] وَأَبَ الحافر يَئِبُ وَأْباً، إذا انضمّت سنابكه.. تقول: إِنّه لَوَأْبُ الحافِر. وحافِرٌ وَأْبٌ، أي: شديدٌ. وتقول: لم يتَّئِبْ فلانٌ أن يفعل كذا، أي: لم ينقبض ... والذِّمِّيُّ لا يتَّئِبُ أن يكفّر لمسلم مهيب ونحوه، قال «21» : إذا دعاها أَقْبَلَتْ لا تَتَّئِبْ

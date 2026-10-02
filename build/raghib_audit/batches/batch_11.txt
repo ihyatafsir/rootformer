@@ -1,0 +1,273 @@
+====================================================================================================
+ROOT مكت   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on fixedness and settled persistence in a place, with a secondary concrete sense of a boil or pustule reaching full maturation and becoming engorged with pus.
+-- RECORD.haqiqah_literal: To remain, stay, or abide in a place; to settle firmly. In the concrete medical sense: a boil or pustule (al-ʿudd) becoming fully engorged with pus, and its incision or rupture.
+-- RECORD.majaz_scholastic: By extension from physical residence, the root denotes any state of persistent fixation or immovable adherence. The medical usage is extended metaphorically to describe any condition reaching a point of critical fullness or maturation requiring release, though classical lexicographers treat the boil-sense as a distinct concrete application rather than a purely figurative one.
+-- RECORD.canonical_definition.ar: مَكَتَ بالمكان: أَقام، كمَكَدَ. واسْتَمْكَتَ العُدُّ: امتلأَ قيحاً.
+-- RECORD.canonical_definition.en: He remained in the place: he stayed, like makada. And the boil became fully engorged: it filled with pus.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مكد   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the notion of fixed, unmoving persistence in a place or state — a thing that stays put and does not shift, flow away, or dissipate. From this concrete sense of stationary continuance, the root extends to denote anything enduring, perpetual, or unceasing, such as water that remains and does not dry up.
+-- RECORD.haqiqah_literal: The literal physical meaning is: to remain, stay, abide, or dwell in a place (مَكَدَ بالمكان يَمْكُدُ مُكُوداً: أَقام به). It is synonymous with ثَكَمَ (to stay) and رَكَدَ (to be still, motionless). Applied to water, ماءٌ ماكِدٌ denotes water that is permanent, unfailing, and never ceasing — standing water that persists rather than draining or evaporating.
+-- RECORD.majaz_scholastic: By extension from the literal sense of stationary persistence, the root is applied metaphorically to anything characterized by uninterrupted continuance: enduring states, perpetual conditions, and unceasing phenomena. The participle ماكِد thus describes not merely what is physically still, but what is constant and everlasting — e.g., water that is دائم (perpetual), and by analogy any quality, blessing, or condition that abides without interruption. The scholastic usage preserves the core image of something that does not move away or come to an end.
+-- RECORD.canonical_definition.ar: مَكَدَ بالمكان يَمْكُدُ مُكُوداً: أَقام به؛ وثَكَمَ يَثْكُم مثله، ورَكَدَ رُكوداً. وماءٌ ماكِدٌ: دائمٌ.
+-- RECORD.canonical_definition.en: مَكَدَ in a place, يَمْكُدُ مُكُوداً: he stayed or dwelt there; ثَكَمَ يَثْكُم is the same, and رَكَدَ رُكوداً [is likewise]. And ماءٌ ماكِدٌ means perpetual, unfailing water.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 69039 hdr=مكد: الميم والكاف والدال كلمة تدل على ثبات. ومكد بالمكان: أقام. قال أبو عبيد: وهو من قولهم: ناقة مكود، إذا ثبت غزرها. ويقال إن البئر الماكدة: التي ثبت ماؤها على قرن واحد لا يتغير. والقرن قرن القامة.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ملز   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root م-ل-ز is the act of slipping away, escaping, or quietly departing from a place, grasp, or state. It denotes a subtle, often elusive motion of withdrawal or release, frequently paired with its phonetic sibling م-ل-س (malasa), which carries the same semantic field of slipping out or slipping away.
+-- RECORD.haqiqah_literal: The literal physical meaning is: a thing slipped away from me, departed, or went off (مَلَزَ الشيءُ عَنِّي); and one escaped or got free from a matter (امَّلَزَ من الأمر), or extracted oneself from it (تَمَلَّزَ من الأمر). The transitive form مَلَّزْتُه means: I caused it to slip away or made it depart.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root is applied to the subtle evasion of an obligation, the quiet withdrawal from a commitment, or the eluding of a grasp—whether physical, legal, or moral. It conveys a stealthy disentanglement rather than a forceful escape, and in theological or ethical discourse it may describe the soul's slipping away from a virtuous state or the intellect's evasion of a conclusive proof. The paired root م-ل-س is used interchangeably in classical texts for the same range of literal and figurative slipping.
+-- RECORD.canonical_definition.ar: مَلَزَ الشيءُ عَنِّي مَلْزاً وامَّلَزَ ومَلَّزَ: ذهب. وتَمَلَّزَ من الأَمر تَمَلُّزاً وتَمَلَّسَ تَمَلُّساً: خرج منه. وامَّلَزَ من الأَمر وامَّلَسَ إِذا انفلت. وقد مَلَّزْتُه ومَلَّسْتُه إِذا فعلت به ذلك.
+-- RECORD.canonical_definition.en: The thing slipped away from me (malaza), and it escaped (immallaza) and slipped away (mallaza): it departed. And he extracted himself from the matter (tamallaza) and slipped out (tamallasa): he exited from it. And he escaped from the matter (immallaza) and slipped free (immallasa) when he got loose. And I caused it to slip away (mallaztuhu) and made it slip free (mallastuhu) when I did that to it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ملع   stratum=mA
+-- RECORD.ontological_core: Rapid, light-footed motion across the earth — the foundational physical image is that of swift, unencumbered travel or pursuit over terrain, with an emphasis on speed and levity of movement.
+-- RECORD.haqiqah_literal: The literal physical meaning is swift, light movement or travel across the ground; it denotes a pace faster than walking but below the gallop (al-khabab), and is applied to a she-camel moving briskly in her gait.
+-- RECORD.majaz_scholastic: By metaphorical extension, the root is applied to a swift bird of prey — specifically an eagle or falcon described as milāʿ (swift in flight) — and to a person of exceptional quickness or lightness of hand, as in the idiom 'you are lighter of hand than the wing of a swift eagle.' The term milāʿ is also attested as a proper name for a tract of land, likely named for the swiftness required to traverse it.
+-- RECORD.canonical_definition.ar: المَلْعُ: الذَّهَابُ في الأَرض، وقيل الطَّلَبُ، وقيل السُّرْعَةُ والخِفَّةُ، وقيل شِدَّةُ السَّيْرِ، وقيل العَدْوُ الشَّدِيدُ، وقيل فوق المشي دون الخَبَبِ، وقيل هو السَّيْرُ السَّرِيعُ الخَفِيفُ، مَلَعَ يَمْلَعُ مَلْعاً ومَلَعَاناً.
+-- RECORD.canonical_definition.en: Al-malʿ: going forth across the earth; also pursuit; also speed and lightness; also intensity of travel; also vigorous running; also a pace above walking but below the gallop; also swift, light travel. The verb is malaʿa, yamlaʿu, malʿan and malaʿānan.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 69221 hdr=ملع: الميم واللام والعين أصيل يدل على سرعة وخفة. وملعت الناقة في سيرها وناقة ميلع فيعل منه. والملع: السرعة في المرور والاختطاف. ومن الباب المليع: الأرض لا نبات بها.
+-- SOURCE.asas[haqiqah_literal]: ناقة ميلع: تملع في سيرها ملعا أي تسرع. قال الكميت: عنتريس شملة ذات لوث ... هوجل ميلع كتوم البغام وتقول: طار إلى بعض القلاع، كأنه عقاب ملاع. قال أبو زيد: ملاع اسم أرض ويجوز أن يكون وصفا على تقدير: عقاب قادمة ملاع، أو خفقة ملاع بمعنى مالعة سريعة. قال المسيب: أنت الوفي فما تذم وبعضه
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT منن   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of cutting or severing a rope or cord, and the consequent state of a rope that is worn, frayed, and weakened to the point of breaking. From this concrete sense of physical debilitation and severance, the root branches into two major semantic streams: (1) the bestowal of a heavy favor or benefit that 'cuts' or burdens the recipient with obligation, and (2) the notion of a weak, severed, or depleted thing, whether a rope, a person's strength, or a garment's fabric.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is a rope (ḥabl) that is weak, worn out, and severed (manīn), and the act of cutting (mann) a rope. It also denotes the physical act of a person being weakened or depleted, as in 'manat-hu al-manūn' (the fates cut him off) and 'manat-hu al-safar' (travel weakened him). The literal sense also includes the physical burden of a heavy favor, as in 'manna fulānun ʿalā fulān' (a person burdened another with a favor).
+-- RECORD.majaz_scholastic: Metaphorically and theologically, the root is used to denote the bestowal of a favor or blessing (niʿmah), especially from God to His servants, as in 'God conferred a favor upon the believers' (Q 3:164). This usage is considered majāz because the favor is not a physical rope but is likened to a heavy burden that 'cuts' or obligates the recipient. The term 'mannān' (the Ever-Bestowing) is a divine attribute. It also metaphorically signifies the psychological burden of a favor that is reminded of repeatedly, which is condemned in Islamic ethics. Additionally, 'manīn' is used metaphorically for a weak person or a worn-out garment, and 'manūn' (fate) is personified as that which cuts off life.
+-- RECORD.canonical_definition.ar: مَنَّهُ يَمُنُّهُ مَنّاً: قطعه. والمَنِينُ: الحبل الضعيف. وحبل مَنينٌ: مقطوع. والمنة: النعمة الثقيلة. والمنان: الكثير المنن. والمنون: القطع، والمنية: الموت.
+-- RECORD.canonical_definition.en: Mannahu yamunnuhu mannan: he cut it. Al-manīn: the weak rope. A rope that is manīn: severed. Al-minnah: the heavy favor. Al-mannān: the one who bestows many favors. Al-manūn: cutting, and al-maniyyah: death.
+-- SOURCE.mufradat @line 31525 hdr=منن: المن: ما يوزن به، يقال: من، ومنان، وأمنان، وربما أبدل من إحدى النونين ألف فقيل: منا وأمناء، ويقال لما يقدر: ممنون كما يقال: موزون، والمنة: النعمة الثقيلة، ويقال ذلك على وجهين: أحدهما: أن يكون ذلك بالفعل، فيقال: من فلان على فلان: إذا أثقله بالنعمة، وعلى ذلك قوله: لقد من الله على المؤمنين [آل عمران/ 164]، كذلك كنتم من قبل فمن الله عليكم [النساء/ 94]، ولقد مننا على موسى وهارون [الصافات/ 114]، يمن على من يشاء [إبراهيم/ 11]، ونريد أن نمن على الذين استضعفوا [القصص/ 5]، وذلك على الحقيقة لا يكون إلا لله تعالى. والثاني: أن يكون ذلك بالقول، وذلك مستقبح فيما بين الناس إلا عند كفران النعمة، ولقبح ذلك قيل: المنة تهدم الصنيعة (4)، ولحسن ذكرها عند الكفران قيل: إذا كفرت النعمة حسنت المنة. وقوله: يمنون عليك 
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[haqiqah_literal]: من الله تعالى على عباده، وهو المنان، وله علي منة ومنن، ومن علي بما صنع، وامتن، وإنه لمنونة، وامتننت منك بما فعلت منة جسيمة أي احتملت منة. وهو ضعيف المنة، وليس لقلبه منة أي قوة، وهم ضعاف المنن، ومنة السفر: أضعفه وذهب بمنته. قال ابن ميادة: منناهن بالإدلاج حتى ... كأن متونهن عصي ضال
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT مهر   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin centers on the act of giving or assigning a dower (ṣadāq) to a woman, and by extension, the notion of a contractual payment that seals a union; from this concrete transactional sense, the root branches into the idea of skill or mastery, conceived as a 'price' or 'acquisition' of proficiency, and into the concrete noun for a camel's nose-ring (mihār), a device that controls and directs.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the dower given to a woman (mahr al-marʾah: to give her the dower), and the verbal noun denotes the act of assigning or paying that dower; it also literally denotes a nose-ring (mihār) placed in the nose of a camel, and a horse possessing such a ring (faras mumhar).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root is used for skill and mastery in a craft or activity: māhir means 'skilled, expert' (e.g., a skilled orator, a skilled swimmer), and tamahhara means 'to become proficient' or 'to swim well.' The dower is also metaphorically extended to any gift or compensation that seals a contract, and the nose-ring is metaphorically applied to any controlling or directing device. Theologically, the dower is a legal obligation in marriage, and the root's semantic shift to 'skill' is understood as a metaphorical 'price' paid for excellence.
+-- RECORD.canonical_definition.ar: المَهْرُ: الصَّداق، والجمع مُهور؛ وقد مَهَرَ المرأَةَ يَمْهَرُها ويَمْهُرُها مَهْراً وأَمْهَرَها. والمَاهِرُ: الحاذق بالشيء، وقد مَهَرَ يَمْهَرُ مَهَارَةً. والمِهَارُ: عود في أنف البختي.
+-- RECORD.canonical_definition.en: The mahr is the dower; its plural is muhūr. One says mahara al-marʾah yamharuhā or yamhurhā mahran, and amharahā, meaning he gave her the dower. The māhir is one who is skilled in something; he became skilled (mahara) with skill (mahārah). The mihār is a stick placed in the nose of a camel.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 67113 hdr=مهر: الميم والهاء والراء أصلان يدل أحدهما على أجر في شيء خاص، والآخر شيء من الحيوان. فالأول المهر: مهر المرأة أجرها، تقول: مهرتها بغير ألف، فإذا زوجتها من رجل على مهر قلت: أمهرتها. قال: أمكم ناكحة ضريسا قد أمهروها أعنزا وتيسا وامرأة مهيرة ونساء مهائر. والأصل الآخر الممهر: الفرس ذات المهر. [والمهر (1)]: عظم في زور الفرس، وهذا تشبيه. قال: جافي اليدين عن مشاش المهر (2)
+-- SOURCE.asas[haqiqah_literal]: مهر في الصناعة وتمهر فيها ومهرها ومهر بها، وهو ماهر بين المهارة، وخطيب ماهر، وسابح ماهر، وقوم مهرة، وتمهر فلان: سبح. ومهر المرأة: أعطاها المهر " كالممهورة إحدى خدمتيها " وأمهرها: سمي لها مهرا وتزوجها به. قال: أخذن اغتصابا خطبة عجرفية ... وأمهرن أرماحا من الخط ذبلا وله مهيرة وسرية
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT موا   stratum=ma
+-- RECORD.ontological_core: The root م و ا is a secondary, denominative formation from the primary root م و ه / م ي ه (water), denoting the substance of water and, by extension, anything that shares its defining property of limpid transparency and reflective clarity.
+-- RECORD.haqiqah_literal: The literal, physical referent of the derived noun مَاوِيَّة is a mirror (مِرْآة), so named because it is fashioned from, or functions as, a polished watery surface: images are seen in it exactly as they are seen in clear, still water. A second literal application is the crystal stone (حَجَر البِلَّوْر), i.e. rock crystal, on account of its water-like translucency.
+-- RECORD.majaz_scholastic: The scholastic and figurative extension rests on the transferred attribute of صَفَاء (limpidity) and انعكاس الصورة (image-reflection): any polished, transparent, or specular medium may be termed مَاوِيَّة by assimilation to the reflective surface of water. The lexicographers explicitly ground this majāz in the resemblance (تشبيه) of the mirror's function to that of still water, and they affirm that the medial mīm is radical (أصلية), not an augment, thereby anchoring the word in the water-root rather than treating it as a mere instrumental noun of رؤية.
+-- RECORD.canonical_definition.ar: المَاوِيَّةُ: المِرْآةُ، كأَنَّها نُسِبَت إِلى الماءِ لصَفائها وأَنَّ الصُّورَ تُرى فيها كما تُرى في الماءِ الصافي، والميمُ أَصليةٌ فيها؛ وقيل: المَاوِيَّةُ حَجَرُ البِلَّوْرِ، وثلاثُ مَاوِيَّاتٍ.
+-- RECORD.canonical_definition.en: Al-māwiyyah: the mirror, as though it were attributed to water (al-māʾ) because of its limpidity and because images are seen in it just as they are seen in clear water; the mīm therein is radical. It is also said that al-māwiyyah is rock crystal; the plural is three māwiyyāt.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ميث   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root م-ي-ث is the act of dissolving a solid substance—such as salt, bread, or clay—in water through kneading, rubbing, and maceration until it loses its solid form and becomes fully incorporated into the liquid medium.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is twofold: (1) the softening and leveling of land, as in أرض ميثاء (soft, level ground) and أراض ميث (soft, level lands); and (2) the physical dissolution of a solid in water, as in ماث الخبز والملح والطين في الماء (he dissolved bread, salt, and clay in water) and انماث (it dissolved).
+-- RECORD.majaz_scholastic: The metaphorical and scholastic extensions of the root derive from the physical process of dissolution. In theological and philosophical discourse, the root is used to describe the annihilation of a thing's distinct essence or form through its complete absorption into another medium, akin to the dissolution of salt in water. This serves as a metaphor for the obliteration of individual identity, the merging of substances, or the total assimilation of one entity into another, often with connotations of loss of distinct existence or the subsuming of the particular into the universal.
+-- RECORD.canonical_definition.ar: مَاثَ الشيءَ مَيْثاً: مَرَسَه. وماثَ المِلحَ في الماء: أَذابه؛ وكذلك الطين، وقد انماثَ. وكلُّ شيءٍ مَرَسته في الماء فذاب فيه، فقد مِثْته ومُثْته.
+-- RECORD.canonical_definition.en: He macerated the thing with a mays: he rubbed and kneaded it. And he dissolved salt in water: he made it dissolve; likewise clay, and it became dissolved. And anything you rub in water and it dissolves therein, you have macerated and dissolved it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 67311 hdr=ميث: الميم والياء والثاء كلمة تدل على سهولة في شيء. يقال مثت الشيء في الماء ميثا، إذا دفته (3). والميثاء: الأرض السهلة.
+-- SOURCE.asas[haqiqah_literal]: أرض ميثاء، وأراض ميث. وماث الخبز والملح والطين في الماء وانماث.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: أرض ميثاء، وأراض ميث. وماث الخبز والملح والطين في الماء وانماث. Metaphorical (Majaz): لبني عذرة قلوب تنماث كما ينماث الملح في الماء، ورجل ميث القلب: لينه. وميث الرجل: ذلله، وتميث: ذل واسترخى.
+-- SOURCE.asas[majaz_metaphorical]: لبني عذرة قلوب تنماث كما ينماث الملح في الماء، ورجل ميث القلب: لينه. وميث الرجل: ذلله، وتميث: ذل واسترخى.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ناث   stratum=ma
+-- RECORD.ontological_core: The root ن-و-ث (n-w-th) denotes the fundamental act of agitating, shaking, or loosening a thing from its compacted or settled state, and by extension, the scattering or dispersing of its constituent parts.
+-- RECORD.haqiqah_literal: To shake or agitate something so as to loosen it, or to scatter and disperse it; said of a thing that is stirred up and broken apart.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root appears in the form ناث (nātha) meaning to scatter or disperse, as in the dispersal of people or the scattering of leaves by the wind. It is also used in the sense of extracting or eliciting something, such as drawing out a secret or a hidden matter. Theologically, it may be applied to the dispersal of created beings on the Day of Judgment, though this is not a primary Qur'anic usage.
+-- RECORD.canonical_definition.ar: نَاثَ الشَّيْءَ يَنِيثُهُ نَيْثًا: حَرَّكَهُ وَفَرَّقَهُ. وَالنَّيْثُ: التَّحْرِيكُ وَالتَّفْرِيقُ.
+-- RECORD.canonical_definition.en: He shook the thing and dispersed it; al-nayth is the act of shaking and dispersing.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نبه   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the abrupt rousing of a dormant or heedless being into wakefulness and attentive presence — the transition from the inertia of sleep or negligence to active consciousness and alertness.
+-- RECORD.haqiqah_literal: The literal physical meaning, per Asās al-Balāghah, is awakening from sleep: a person wakes from his sleep (انتبه من نومه), is roused (استنبه، تنبّه), and one rouses him (نبّهه). It also denotes a person of alert, discerning mind (رجل نبيه), and to raise someone's name in renown (نبّهت باسمه: I made his name prominent).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends from sensory waking to intellectual and moral awakening: to become mindful of what one had overlooked (أضلّوه نبهاً: they lost it without realizing when, until they became attentive to it); to be distinguished by nobility of intellect and character (نباهة, نبيه); and to elevate someone's reputation through public mention (تنبيه الاسم, tanwīh). In theological and philosophical usage, it denotes the rousing of the rational soul from heedlessness (ghaflah) to apprehension and intellection, and the divine or prophetic summons that awakens the intellect to its obligations.
+-- RECORD.canonical_definition.ar: النُّبْهُ: القيامُ والانْتِباهُ من النوم، وقد نَبَّهَهُ وأَنْبَهَهُ من النوم فتَنَبَّهَ وانْتَبَهَ، وانْتَبَهَ من نومه: استَيقَظ.
+-- RECORD.canonical_definition.en: Al-Nubh is rising and awakening from sleep; one rouses him (nabbahahu) or awakens him (anbahahu) from sleep, so he becomes roused (tanabbaha) and wakes (intabaha); he woke from his sleep: he became awake.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 70207 hdr=نبه: النون والباء والهاء أصل صحيح يدل على ارتفاع وسمو. ومنه النبه والانتباه، وهو اليقظة والارتفاع من النوم. ونبهته وأنبهته. ومنه رجل نبيه، أي شريف. وقولهم: إن النبه من الأضداد، يقال للضائع نبه وللموجود نبه، فهو عندنا صحيح؛ لأنه إذا ضاع انتبه له وإذا وجد انتبه له (2). قال أهل اللغة: النبه: الضالة توجد عن غفلة. تقول: وجدت هذا الشيء نبها وأضللته نبها، إذا (3) لم يعلم متى ضل. والقياس في الباب ما ذكرناه. قال: كأنه دملج من فضة نبه في ملعب من عذارى الحى مفصوم (4)
+-- SOURCE.asas[bilingual_haqiqah_majaz]: انتبه من نومه واستنبه وتنبه ونبه نبها. قال: وتبذل لي سلمى إذا نمت حاجتي ... وتلقى خلال النبه وهي منوع وأضلوه نبها: لا يدرون متى ضل حتى انتبه Metaphorical (Majaz): سمعت كلاما فما نبهت له: فما فطنت له. ومالي به نبه ونبه. ونبهته من غفلته، وتنبهت على الأمر: تفطنت له.
+-- SOURCE.asas[haqiqah_literal]: انتبه من نومه واستنبه وتنبه ونبه نبها. قال: وتبذل لي سلمى إذا نمت حاجتي ... وتلقى خلال النبه وهي منوع وأضلوه نبها: لا يدرون متى ضل حتى انتبهوا له. ورجل نبيه، وقد نبه نباهة، ونبهت باسمه: نوهت به.
+-- SOURCE.asas[majaz_metaphorical]: سمعت كلاما فما نبهت له: فما فطنت له. ومالي به نبه ونبه. ونبهته من غفلته، وتنبهت على الأمر: تفطنت له.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نتش   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ن-ت-ش is the act of extracting or pulling out a foreign, embedded object—such as a thorn, splinter, or hair—from within a substance, typically flesh or skin, by means of a specialized grasping instrument. This core sense of forcible removal from a state of penetration or attachment is the root's primary ontological anchor.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in Asās al-Balāghah, is the extraction of a thorn with a pair of extractors (مِنْتَاش), or the removal of a thorn with a pair of tweezers (مِنْقَاش). It also denotes the act of taking or seizing something from someone, as in the phrase 'I did not extract anything from him' (ما نتشت منه شيئا), meaning 'I did not take anything from him.'
+-- RECORD.majaz_scholastic: The metaphorical and scholastic applications of the root extend from the physical act of extraction to intellectual and epistemic domains. Al-Zamakhsharī notes the expression 'he extracts from every science and plucks from it' (ينتش من كل علم وينتف منه), signifying the acquisition of knowledge by selectively drawing out or extracting elements from various disciplines. In this majāz, the intellect is likened to a hand that plucks or extracts insights from the body of knowledge, mirroring the literal act of removing a thorn from flesh. Additionally, Ibn Manẓūr records a distinct nominal usage: النَّتَش (al-natash) refers to the whiteness that appears at the base of the fingernail, a physical phenomenon that may be considered a secondary literal or observational extension of the root's semantic field.
+-- RECORD.canonical_definition.ar: النَّتْشُ: النَّتْفُ للحم ونحوه، وإخراجُ الشوك بالمِنْتَاش وهو المِنْقاش. والنَّتَشُ: البياضُ الذي يظهر في أصل الظفر.
+-- RECORD.canonical_definition.en: Al-Natsh: the plucking of flesh and the like, and the extraction of a thorn with the mintāsh, which is the minqāsh. Al-Natash: the whiteness that appears at the base of the fingernail.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[haqiqah_literal]: نتش الشوكة بالمنتاش، ونقشها بالمنقاش. وما نتشت منه شيئا: ما أخذت، وهو ينتش من كل علم وينتف منه.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نرب   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin is not attested in Al-Mufradāt; classical lexicography derives it from the quadriliteral noun النَّيْرَب, denoting evil, slander, and malicious gossip, with an underlying sense of corrupt, divisive speech that severs social bonds.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal meaning is: 'So-and-so is possessed of nīrab' — that is, he is characterized by evil and slanderous speech; the phrase 'فلان ذو نيرب' is used to describe someone who is a tale-bearer and a source of corruption among people.
+-- RECORD.majaz_scholastic: In scholastic and ethical usage, النَّيْرَب is extended from the physical act of slander to denote the moral vice of calumny and the deliberate sowing of discord; it is applied to a person who habitually engages in malicious gossip (نميمة) and whose speech is a vehicle for evil, thereby corrupting friendships and social cohesion. The term is not used in philosophical or theological contexts for substance or accident, but remains within the domain of ethical censure.
+-- RECORD.canonical_definition.ar: النَّيْرَبُ: الشَّرُّ والنَّمِيمَةُ؛ قال الشاعر عَدِيُّ ابن خُزاعِيّ: ولَسْتُ بذي نَيْرَبٍ في الصَّديقِ، ومَنَّاعَ خَيْرٍ، وسَبَّابَها
+-- RECORD.canonical_definition.en: Al-nayrab: evil and slander; the poet ʿAdī ibn Khuzāʿī said: 'I am not one who engages in malicious gossip among friends, nor one who withholds good, nor one who habitually reviles them.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 71092 hdr=نرب: النون والراء والباء لا يأتلفان، وقد يكون بينهما دخيل. فمن ذلك النيرب: النميمة، وهو نيرب أي نمام، كأنه ذو نيرب. والله أعلم بالصواب. ||| باب النون والزاء وما يثلثهما
+-- SOURCE.asas[haqiqah_literal]: فلان ذو نيرب: تمام.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نزف   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the exhaustive drawing-off of a well's water, ladle by ladle, until the source is completely depleted; hence the root denotes total evacuation of a contained substance, whether water, blood, tears, or, by extension, the rational faculties.
+-- RECORD.haqiqah_literal: The literal physical meaning is to drain a well completely by drawing its water out gradually, or for a well to become so drained; it is used transitively (nazafa al-bīra) and intransitively (nazafat al-bīru), and in the passive (nuzifat). It also applies literally to the complete extraction of blood (nazafa damahu) or tears (nazafa damʿahu).
+-- RECORD.majaz_scholastic: Metaphorical and scholastic usages include: (1) the depletion of intellect or understanding by intoxication, hence 'sakrān nazīf' (a drunkard whose reason has been drained) and the Qurʾānic 'lā yuṣaddaʿūna ʿanhā wa-lā yunzafūn' (they will neither suffer headache from it nor lose their minds), with the variant 'yunzafūn' derived from 'anzafū' meaning their drink is exhausted or their minds are removed; (2) the exhaustion of one's argument in disputation, as in 'nazafa al-rajulu fī al-khuṣūmah' (the man's proof was cut off); (3) the proverbial 'ajbanu min al-manzūfi ḍarṭan' (more cowardly than one whose flatulence has been drained), referring to extreme fear.
+-- RECORD.canonical_definition.ar: نَزَفْت ماء البئر نَزْفاً إذا نزحْته كله، ونزَفَت هي، يتعدّى ولا يتعدّى، ونُزِفت أَيضاً على ما لم يسم فاعله. ونزف دمه أو دمعه أي نزع كله. ومنه قيل: سكران نزيف: نزف فهمه بسكره.
+-- RECORD.canonical_definition.en: I drained the well's water completely (nazaftu māʾa al-biʾri nazfan) when I drew it all out; and the well itself became drained (nazafat), being both transitive and intransitive; and it may also be put in the passive (nuzifat). His blood or tears were drained, meaning they were entirely removed. Hence it is said: 'a drunkard is nazīf'—his understanding was drained by his intoxication.
+-- SOURCE.mufradat @line 32412 hdr=نزف: نزف الماء: نزحه كله من البئر شيئا بعد شيء، وبئر نزوف: نزف ماؤه، والنزفة: الغرفة، والجمع النزف، ونزف دمه، أو دمعه. أي: نزع كله، ومنه قيل: سكران نزيف: نزف فهمه بسكره. قال تعالى: لا يصدعون عنها ولا ينزفون [الواقعة/ 19] (1) وقرئ: ينزفون (2) من قولهم: أنزفوا: إذا نزف شرابهم، أو نزعت عقولهم. وأصله من قولهم: أنزفوا. أي: نزف ماء بئرهم، وأنزفت الشيء: أبلغ من نزفته، ونزف الرجل في الخصومة: انقطعت حجته، وفي مثل: هو أجبن من المنزوف ضرطا (3).
+-- SOURCE.maqayis @line 71127 hdr=نزف: النون والزاء والفاء أصل يدل على نفاد شيء وانقطاع. ونزف دمه: خرج كله. والسكران* نزيف، أي نزف عقله. قال: وإذ هي تمشي كمشي النزي ف يصرعه بالكثيب البهر (1) والنزف: نزح الماء من البئر شيئا بعد شيء. وأنزفوا: ذهب ماء بئرهم. وأنزفوا: انقطع شرابهم. قال الله سبحانه: @QUR@05 لا يصدعون عنها ولا ينزفون (2). والنزفة: الغرفة. وهو بحر لا ينزف. ونزف الرجل في الخصومة: انقطعت حجته.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نسل   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root is the act of something separating, detaching, or falling away from a larger body or surface—such as hair, fur, or feathers shedding from an animal, or a garment slipping off a person. This core image of detachment and outward emission underlies all subsequent derivations.
+-- RECORD.haqiqah_literal: The literal, physical meaning is the falling or shedding of hair, fur, or feathers from an animal, or the slipping off of a garment from a person. It denotes a concrete, observable separation of a part from its whole.
+-- RECORD.majaz_scholastic: By metaphorical extension, the root denotes progeny, offspring, and lineage—the 'shedding' of descendants from a progenitor, as if they were particles detached from the parent. It also encompasses the act of reproduction and multiplication of a family or tribe. In philosophical and theological usage, it can refer to the causal generation of one thing from another, and the perpetuation of a species through successive generations.
+-- RECORD.canonical_definition.ar: النَّسْل: الخَلْق، والوَلَد والذُّرِّيَّة، والجمع أَنْسَال. ونَسَلَ الوَبَرُ عن البعير: سقط. وتَنَاسَلُوا: وَلَدَ بعضُهم بعضاً.
+-- RECORD.canonical_definition.en: Al-Nasl: creation, offspring, and progeny; plural: ansāl. The fur shed from a camel: it fell off. They reproduced: some of them begot others.
+-- SOURCE.mufradat @line 32568 hdr=نسل: النسل: الانفصال عن الشيء. يقال: نسل الوبر عن البعير، والقميص عن الإنسان، قال الشاعر: 437- فسلي ثيابي عن ثيابك تنسلي (4) والنسالة: ما سقط من الشعر، وما يتحات من وإن كنت قد ساءتك مني خليقة الريش، وقد أنسلت الإبل: حان أن ينسل وبرها، ومنه: نسل: إذا عدا، ينسل نسلانا: إذا أسرع. قال تعالى: وهم من كل حدب ينسلون [الأنبياء/ 96]. والنسل: الولد، لكونه ناسلا عن أبيه. قال تعالى: ويهلك الحرث والنسل [البقرة/ 205] وتناسلوا: توالدوا، ويقال أيضا إذا طلبت فضل إنسان: فخذ ما نسل لك منه عفوا.
+-- SOURCE.maqayis @line 71273 hdr=نسل: النون والسين واللام أصل صحيح يدل على سل شيء وانسلاله. والنسل: الولد. لأنه ينسل من والدته. وتناسلوا: ولد بعضهم من بعض (3). ومنه النسلان: مشية الذئب إذا أعنق وأسرع. والماشي ينسل، إذا أسرع. قال الله عز وعلا: @QUR@05 وهم من كل حدب ينسلون. والنسالة: شعر الدابة إذا سقط عن جسده قطعا. ونسال الطير: ما تحات من أرياشها. قال: وتجلو سبيخ جفال النسال (1) وقد أنسلت الإبل: حان لها أن تنسل وبرها. ونسل الثوب عن الرجل: سقط. ويقولون: النسيل: العسل إذا ذاب، كأنه نسل عن شمعه وفارقه. وأنسلت القوم: تقدمتهم.
+-- SOURCE.asas[haqiqah_literal]: نسل الريش والشعر: سقط نسولا، وأنسله الطائر والدابة. وهذا نسال الطائر، ونسيل الدابة ونسالتها. قال الراعي: أطار نسيله الشتوي عنه ... تتبعه المذانب والقرارا
+-- SOURCE.asas[majaz_metaphorical]: نسل الولد ينسل إذا ولد لأنه يسقط من بطن أمه إلى الأرض. ونسلت الناقة بولد كثير. وأنسل الرجل نسلا كثيرا. وتوالدوا وتناسلوا. وهو من نسل طيب ونسل خبيث. وما لفلان نسولة. كقولك: حلوبة وركوبة وهي ما يتخذ للنسل من الإبل والغنم. ونسل الذئب إذا أسرع بإعناق، كما يقال: انسل في عدوه وهو الخرو
+-- SOURCE.asas[bilingual_haqiqah_majaz]: نسل الريش والشعر: سقط نسولا، وأنسله الطائر والدابة. وهذا نسال الطائر، ونسيل الدابة ونسالتها. قال الراعي: أطار نسيله الشتوي عنه ... تتبعه الم Metaphorical (Majaz): نسل الولد ينسل إذا ولد لأنه يسقط من بطن أمه إلى الأرض. ونسلت الناقة بولد كثير. وأنسل الرجل نسلا كثيرا. وتوالدوا وتناسلوا. وهو من نسل طيب ونس
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نشع   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of administering a substance into the mouth or throat, specifically forcing a liquid or medicine into someone's mouth, and by extension, the giving of a fee or bribe to a soothsayer to induce speech.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is: 'نشع الصبي الدواء وأنشعه' — he poured the medicine into the boy's mouth, or made him swallow it; the medicine itself is called 'نشوع', and the act is 'انتشعه'. The instrument is 'منشع الصبي' — the device used to administer medicine to the boy, i.e., a syringe or funnel.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to the soothsayer's fee (جُعْل الكاهن), as in Lisān al-ʿArab: 'النَّشْعُ: جُعْلُ الكاهِنِ، وقد أَنْشَعَه' — the soothsayer's payment, and he gave it to him. This usage is metaphorical because the fee is like medicine forced into the soothsayer's mouth to make him speak or prophesy. The verse by Ru'bah: 'قال الحَوازي، وأَبَى أَن يُنْشَعا' — the diviners spoke, but he refused to be given the fee (or to be made to speak). Thus, the root denotes both the physical act of administering medicine and the transactional act of paying a soothsayer, with the latter being a metaphorical extension.
+-- RECORD.canonical_definition.ar: النَّشْعُ: جُعْلُ الكاهِنِ، وقد أَنْشَعَه. ونَشَعَ الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه.
+-- RECORD.canonical_definition.en: Al-Nashʿ: the soothsayer's fee, and he gave it to him. He administered medicine to the boy, or made him swallow it; the medicine is called nashūʿ, and the act is intashʿa. This is the boy's minshaʿ: a syringe or funnel.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 71446 hdr=نشع: النون والشين والعين كلمة واحدة. نشعت الصبى الوجور نشعا فانتشعه، أى جرعه. والمصدر النشوع. قال: نشعت المحد في أنفي نشوعا (2)
+-- SOURCE.asas[haqiqah_literal]: نشع الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه.
+-- SOURCE.asas[majaz_metaphorical]: نشع فلان كذا وبكذا. قال مرار بن منقذ: إليكم يا لئام الناس إني ... نشعت العز في أنفي نشوعا وقال مغلس الربعي: خليلي إن أصعدتما أو مررتما ... على أهل حنفاء الغضا فاذكرانيا وقولا أثيبي يا علي متيما ... أخا الموت منشوعا بذكراك عانيا وقال عبدة بن الطبيب: لا تأمنوا قوما يشب صبيهم ... بي
+-- SOURCE.asas[bilingual_haqiqah_majaz]: نشع الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه. Metaphorical (Majaz): نشع فلان كذا وبكذا. قال مرار بن منقذ: إليكم يا لئام الناس إني ... نشعت العز في أنفي نشوعا وقال مغلس الربعي: خليلي إن أصعدتما أو مررتما ... ع
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نضح   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root نضح is the act of sprinkling or scattering water or a similar fluid in fine, dispersed droplets upon a surface, as opposed to a full, drenching pour. This core image underlies all subsequent literal and figurative applications.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal meaning is the sprinkling of water upon something (نضح عليه الماء) or the sprinkling of a house with water (نضح البيت بالماء), which is characterized as رش (rashsh), i.e., a light, scattered sprinkling. It also literally denotes the oozing or exuding of sweat from the skin (نضح جلده بالعرق).
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root extends to any subtle, non-violent diffusion or emanation, such as the gentle spread of moisture, the exudation of perspiration as a sign of bodily function, or the sprinkling of a liquid as a symbolic act of purification or blessing. It may also be applied to the diffuse radiation of light or the soft dissemination of knowledge, always retaining the nuance of fine, dispersed particles rather than a concentrated flow.
+-- RECORD.canonical_definition.ar: النَّضْحُ: الرَّشُّ. نَضَحَ عَلَيْهِ المَاءَ يَنْضَحُهُ نَضْحًا، وَنَضَحَ البَيْتَ بِالمَاءِ، وَنَضَحَ جِلْدُهُ بِالعَرَقِ.
+-- RECORD.canonical_definition.en: Al-Naḍḥ is sprinkling. One sprinkles water upon something (naḍaḥa ʿalayhi al-māʾa yanḍaḥuhu naḍḥan); one sprinkles the house with water; and one's skin exudes sweat.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 71778 hdr=نضح: النون والضاد والحاء أصل يدل على شيء يندى، وماء يرش. فالنضح: رش الماء. ونضحته. قال أهل اللغة: يقال لكل مارق: نضح. وهذا هو القياس الذي ذكرناه، لأن الرش رقيق. يقال: نضحت البيت بالماء. ونضح جلده بالعرق. والسانية ناضح. ونضحوهم بالنبل، وهذا على جهة التشبيه. ونضح عن نفسه، كأنه رامى عنها بالحجة. وفي الحديث@HAD02 : « انضحوا @HAD06 عنا الخيل لا نؤتى من خلفنا» ، أي ارموهم بالنشاب. والنضيح والنضح: الحوض، لأنه ينضح بالماء. ونضح الغضا: تفطر، وكأن سقوط نوره يشبه بنضح الماء. قال أبو طالب: بورك الميت الغريب كما بو رك نضح الرمان والزيتون (2) قال ابن الأعرابى: سمي الحوض نضيحا لأنه ينضح عطش الإبل، أي يبله. قال الخليل: والرجل يقرف بأمر فينتضح منه، إذا أظهر البراءة وبرأ نفسه منه جهده.
+-- SOURCE.asas[majaz_metaphorical]: قد نضح الشجر: تفطر. ورأيت نضح الرمان وغيره. قال أبو طالب: بورك الميت الغريب كما بو ... رك نضح الرمان والزيتون ونضح غلته بالماء: بلها، ومنه: النضيح والنضح: للحوض لبله عطش الإبل وكذلك البعير الناضح، ونواضح يثرب، ونضح أديم الود بينهم. قال الكميت: نضحت أديم الود بيني وبينهم ... بآصرة
+-- SOURCE.asas[bilingual_haqiqah_majaz]: نضح عليه الماء، ونضح البيت بالماء نضحا وهو الرش. ونضح جلده بالعرق. Metaphorical (Majaz): قد نضح الشجر: تفطر. ورأيت نضح الرمان وغيره. قال أبو طالب: بورك الميت الغريب كما بو ... رك نضح الرمان والزيتون ونضح غلته بالماء: بلها، ومنه:
+-- SOURCE.asas[haqiqah_literal]: نضح عليه الماء، ونضح البيت بالماء نضحا وهو الرش. ونضح جلده بالعرق.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نظم   stratum=mA
+-- RECORD.ontological_core: The foundational physical act of threading beads or pearls onto a single cord, thereby gathering discrete, scattered units into a unified, ordered sequence.
+-- RECORD.haqiqah_literal: To string pearls or beads onto a thread; to arrange individual items in a linear, connected order.
+-- RECORD.majaz_scholastic: The composition of poetry (نَظْمُ الشِّعْر) as a verbal threading of words; the ordering of affairs or arguments upon a coherent model (نَظَمَ الأَمْرَ عَلَى الْمِثَال); and in scholastic theology, the rational coherence and providential ordering of created things (نِظَام).
+-- RECORD.canonical_definition.ar: النَّظْمُ: التَّأْلِيفُ. نَظَمَهُ يَنْظِمُهُ نَظْمًا وَنِظَامًا، وَنَظَّمَهُ فَانْتَظَمَ وَتَنَظَّمَ. وَنَظَمْتُ اللُّؤْلُؤَ أَيْ جَمَعْتُهُ فِي السِّلْكِ.
+-- RECORD.canonical_definition.en: Naẓm is composition. He strung it, he strings it, with naẓm and niẓām; and he organized it, so it became strung and organized. I strung the pearls, that is, I gathered them onto the cord.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 71961 hdr=نظم: النون والظاء والميم: أصل يدل على تأليف شيء وتأليفه (3). ونظمت الخرز نظما، ونظمت الشعر وغيره. والنظام: الخيط يجمع الخرز. والنظامان من الضب: كشيتان من جنبيه، منظومان من أصل الذنب إلى الأذن. وأنظمت الدجاجة: صار في جوفها بيض. ويقال لكواكب الجوزاء: نظم. وجاءنا نظم من جراد: أي كثير.
+-- SOURCE.asas[haqiqah_literal]: نظمت الدر ونظمته، ودر منظوم ومنظم، وقد انتظم وتنظم وتناظم، وله نظم منه ونظام ونظم.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: نظمت الدر ونظمته، ودر منظوم ومنظم، وقد انتظم وتنظم وتناظم، وله نظم منه ونظام ونظم. Metaphorical (Majaz): نظم الكلام. وهذا نظم حسن، وانتظم كلامه وأمره. وليس لأمره نظام إذا لم تستقم طريقته، وتقول: هذه أمور عظام، لو كان لها نظام، ورمى صيدا افنتظمه
+-- SOURCE.asas[majaz_metaphorical]: نظم الكلام. وهذا نظم حسن، وانتظم كلامه وأمره. وليس لأمره نظام إذا لم تستقم طريقته، وتقول: هذه أمور عظام، لو كان لها نظام، ورمى صيدا افنتظمه بسهم. وطعنه فانتظم ساقيه أو جنبيه. قال الأفوه: تخلى الجماجم والأكف سيوفنا ... ورماحنا بالطعن تنتظم الكلى وهذان البيتان ينتظمهما معنى واحد. و
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نفح   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is a sudden, forceful emission or gust — whether of wind, scent, or a striking limb — characterized by a single, discrete impulse rather than sustained duration.
+-- RECORD.haqiqah_literal: The literal physical meaning is the blowing or wafting of wind or fragrance in a single gust (nafḥah), and the striking or kicking of an animal with its hoof or a person with a sword.
+-- RECORD.majaz_scholastic: Metaphorically and theologically, it denotes a fleeting touch or visitation of good or evil, as in the Qurʾānic phrase 'a nafḥah of your Lord's punishment' (Q 21:46), indicating a slight but perceptible impact. It is also applied to a she-camel whose milk flows without milking, a bow with far-reaching shot, and the rennet (infiḥah) used to coagulate milk — all extensions of the root's core sense of a sudden, forceful emission.
+-- RECORD.canonical_definition.ar: النَّفْحَةُ دُفْعَةُ الرِّيحِ، طَيِّبَةً كَانَتْ أَوْ خَبِيثَةً؛ وَلَهُ نَفْحَةٌ طَيِّبَةٌ. وَنَفَحَتِ الرِّيحُ: هَبَّتْ.
+-- RECORD.canonical_definition.en: A nafḥah is a gust of wind, whether pleasant or foul; and it may be said that something has a pleasant nafḥah. The wind nafaḥa means it blew.
+-- SOURCE.mufradat @line 33181 hdr=نفح: نفح الريح ينفح نفحا، وله نفحة طيبة. أي: هبوب من الخير، وقد يستعار ذلك للشر. قال تعالى: ولئن مستهم نفحة من عذاب ربك [الأنبياء/ 46] ونفحت الدابة: رمت بحافرها، ونفحه بالسيف: ضربه به، والنفوح من النوق: التي يخرج لبنها من غير حلب، وقوس نفوح: بعيدة الدفع للسهم، وأنفحة الجدي معروفة.
+-- SOURCE.maqayis @line 72368 hdr=نفح: النون والفاء والحاء: أصل يدل على اندفاع الشيء أو رفعه. ونفحت رائحة الطيب نفحا: انتشرت واندفعت. ولهذا الطيب نفحة طيبة. ثم قيس عليه فقيل: نفح بالمال نفحا، كأنه أرسله من يده إرسالا. ولا تزال لفلان نفحات من معروف. ونفحت الريح: هبت. وقوس نفوح: بعيدة الدفع للسهم. ونفحت الدابة: رمت بحافرها فضربت به. وكذلك نفحه بالسيف: تناوله به. والنفوح من النوق: ما يخرج لبنها من أحاليها من غير حلب.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: نفح الطيب نفحا، وله نفحة ونفحات طيبة، ونافجة نافحة، ونوافج نوافح، وجبن اللبن بالإنفحة. قال: كم قد تمششت من قص وإنفحة ... جاءت بذاك إليك الأض Metaphorical (Majaz): لا تزال له نفحات من المعروف. والله النفاح بالخيرات. قال: والله نفاح اليدين بالخير ورجل نفاع نفاح. ونفحه بالمال. ونفحه بالسيف: ضربه ضربة خفيف
+-- SOURCE.asas[haqiqah_literal]: نفح الطيب نفحا، وله نفحة ونفحات طيبة، ونافجة نافحة، ونوافج نوافح، وجبن اللبن بالإنفحة. قال: كم قد تمششت من قص وإنفحة ... جاءت بذاك إليك الأضؤن السود وقال الشماخ: وإني من القوم الذين علمتهم ... إذا ألوموا لم يولموا بالأنافح
+-- SOURCE.asas[majaz_metaphorical]: لا تزال له نفحات من المعروف. والله النفاح بالخيرات. قال: والله نفاح اليدين بالخير ورجل نفاع نفاح. ونفحه بالمال. ونفحه بالسيف: ضربه ضربة خفيفة، ومنه: نفحت عن فلان ونافحت عنه: دافعت. وكان حسان رضي الله تعالى عنه ينافح عن رسل الله صلى الله عليه وسلم. وقال: وكم مشهد نافحت عنك خصومه .
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نفخ   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the expulsion of a current of air from the mouth or a bellows into a receptive object, producing inflation, agitation, or combustion.
+-- RECORD.haqiqah_literal: The literal physical act of blowing air from the mouth or a bellows into something, such as blowing into a vessel, a fire, or a horn, causing it to swell, kindle, or sound.
+-- RECORD.majaz_scholastic: Metaphorical and scholastic applications include: the divine insufflation of the spirit into the human form (nafkh al-rūḥ); the eschatological blowing of the horn (al-Ṣūr) to signal resurrection; the swelling of the belly from food or drink; the rising of the day (intifākh al-nahār); the blossoming of spring (nafkhah al-rabīʿ); a corpulent man (rajul manfūkh); and the puffing of the cheeks as a gesture of arrogance (nafkh shidqayhi).
+-- RECORD.canonical_definition.ar: النَّفْخُ: إِخْرَاجُ الرِّيحِ مِنَ الفَمِ أَوِ المِنْفَاخِ إِلَى الشَّيْءِ، فَيَنْتَفِخُ أَوْ يَشْتَعِلُ أَوْ يَصْدَحُ؛ وَمِنْهُ نَفْخُ الرُّوحِ، وَنَفْخُ الصُّورِ، وَانْتِفَاخُ البَطْنِ، وَانْتِفَاخُ النَّهَارِ، وَنَفْخَةُ الرَّبِيعِ، وَرَجُلٌ مَنْفُوخٌ أَيْ سَمِينٌ.
+-- RECORD.canonical_definition.en: Al-Nafkh: the expulsion of air from the mouth or a bellows into an object, causing it to inflate, ignite, or resound; hence the insufflation of the spirit, the blowing of the horn, the swelling of the belly, the rising of the day, the blossoming of spring, and a corpulent man.
+-- SOURCE.mufradat @line 33193 hdr=نفخ: النفخ: نفخ الريح في الشيء. قال تعالى: يوم ينفخ في الصور* [طه/ 102]، ونفخ في الصور* [الكهف/ 99]، ثم نفخ فيه أخرى [الزمر/ 68]، وذلك نحو قوله: فإذا نقر في الناقور [المدثر/ 8] ومنه نفخ الروح في النشأة الأولى، قال: ونفخت فيه من روحي* [الحجر/ 29] يقال: انتفخ بطنه، ومنه استعير: انتفخ النهار: إذا ارتفع، ونفخة الربيع حين أعشب، ورجل منفوخ. أي: سمين.
+-- SOURCE.maqayis @line 72378 hdr=نفخ: النون والفاء والخاء: أصل صحيح يدل على انتفاخ وعلو. منه انتفخ الشيء انتفاخا. ويقال انتفخ النهار: علا. ونفخة الربيع: إعشابه (1)؛ لأن الأرض تربو فيه وتنتفخ. والمنفوخ: الرجل السمين. والنفخاء من الأرض مثل النبخاء؛ وقد مضى.
+-- SOURCE.asas[haqiqah_literal]: " نفخ في الصور ". وكم بين النفختين. ونفخ في النار. ونفخ النار بالمنفاخ وهو الكير. ونصبوا على النار المنافيخ. ونفخت في الزق فانتفخ، ونفخت فيه فتنفخ. وهو يجد نفخة في بطنه ونفخة: انتفاخا من طعام وغيره. وعلى الماء والشراب نفاخات. ومن المجاز: انتفخ النهار: علا. ورجل منفوخ: سمين. ونفخ
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نفه   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root نفه is the exhaustion and collapse of vital force, specifically the failure of the animating breath or self (nafs) under strain, and the consequent prostration of a beast of burden from fatigue.
+-- RECORD.haqiqah_literal: The literal physical meaning, per Asās al-Balāghah, is the state of being exhausted, wearied, and broken by toil: a man is nāhif or manfūh (exhausted), the self (nafs) is nafihah (wearied and enfeebled), and a camel is nāfih (prostrate from fatigue), with the plural nuffah.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root denotes the depletion of the rational or animal soul (nafs) through intellectual or physical exertion, the extinguishing of vigor, and the reduction of a person to a state of utter incapacity; it is contrasted with tarafuh (luxurious ease) as the antithesis of refinement and vitality.
+-- RECORD.canonical_definition.ar: نَفِهَتْ نفسي: أَعْيَتْ وكَلَّتْ. وبعير نافِهٌ: كالٌّ مُعْيٍ، والجمع نُفَّهٌ؛ ونَفَّهَهُ: أَتعبه حتى انقطع.
+-- RECORD.canonical_definition.en: My self became exhausted: it grew weary and enfeebled. A camel that is nāfih is weary and prostrate; the plural is nuffah. And naffahahu means: he exhausted him until he was cut off (utterly spent).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 72309 hdr=نفه: النون والفاء والهاء أصل واحد يدل على إعياء وضعف. منه نفهت النفس: أعيت وكلت: وهو نافه ونفه. قال: بنا حراجيج المهارى النفه (2) وهو منفه ومنفوه: ضعيف جبان.
+-- SOURCE.asas[haqiqah_literal]: رجل نافه ومنفه: معي. ونفهت نفسه. وتقول: كم بين المرفه والمنفه. وركابهم نافهة ونفه.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

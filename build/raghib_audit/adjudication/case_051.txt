@@ -1,0 +1,10 @@
+================================================================================================
+ROOT زحح   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the forcible, hasty displacement of a thing from its place—a swift pulling or shoving that removes an entity from its locus.
+REC haqiqah_literal  : The literal physical meaning is to pull or shove something in haste, thereby removing it from its position; the reduplicated form زُحْزِحَ denotes being moved away and distanced.
+REC canon_def.ar     : زُحْزِحَ أَي نُحِّيَ وبُعِّدَ. وزَحَّ الشيءَ يَزُحُّه زَحّاً: جذبه في عَجَلَة.
+REC canon_def.en     : زُحْزِحَ means he was removed and distanced. And زَحَّ الشيءَ يَزُحُّه زَحّاً: he pulled it in haste.
+SRC al-Mufradat      : [line 15012 hdr=زحح] فمن زحزح عن النار [آل عمران/ 185]، أي: أزيل عن مقره فيها. ومرسل ورسول غير متهم ألا اسلمي ذات الطوق والعاج والدل والنظر المستأنس الساجي
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

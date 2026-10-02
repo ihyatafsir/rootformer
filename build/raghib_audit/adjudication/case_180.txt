@@ -1,0 +1,10 @@
+================================================================================================
+ROOT دلهث   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the notion of forward-rushing propulsion and bold advance, derived—per Abū Manṣūr al-Azharī—from the root د-ل-ث (al-indilāth), meaning to surge forward, with the هـ (hāʾ) augmented as an intensifying infix; hence the quadriliteral/quintiliteral cluster denotes a being characterized by swift, fearless, forward-charging momentum.
+REC haqiqah_literal  : The literal physical meaning is a swift, bold, forward-rushing person or camel—one who charges ahead without hesitation; the lion (al-dilhāth) is the paradigm instance of this literal predatory forward-rush.
+REC canon_def.ar     : الدَّلْهَثُ والدُّلَاهِثُ والدِّلْهَاثُ: كلُّه السريعُ الجريءُ المُقْدِمُ من الناس والإِبل. والدِّلْهَاثُ: الأَسَدُ. قال أَبو منصور: كأَنَّ أَصله من الاندلاث، وهو التَّقَدُّم، فزيدت الهاء.
+REC canon_def.en     : Al-dalhath, al-dulāthith, and al-dilhāth all denote the swift, bold, forward-charging one among people and camels. Al-dilhāth also denotes the lion. Abū Manṣūr said: it is as though its origin is from al-indilāth, which is forward advance,  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 15428 hdr=دلهث] الدَّلهاثُ: السريعُ المتقدمُ.

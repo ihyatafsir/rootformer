@@ -1,0 +1,10 @@
+================================================================================================
+ROOT خوط   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root خوط is the tender, supple, freshly grown branch or shoot of a tree—specifically the pliant young twig that emerges in a single growing season, characterized by its softness, flexibility, and slender form.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal (ḥaqīqah) meaning of خوط is the soft, tender branch (al-ghuṣn al-nāʿim). It is used concretely to denote a pliant young shoot or twig, as in the phrase 'qad kāla-khūṭ' (it curved like a tender branch), and in the plural khīṭān, as in the poetic image of slender figures behind walls 'like tender branches' (qadūd ka-l-khīṭān).
+REC canon_def.ar     : الخُوطُ: الغُصْنُ الناعِمُ، وقيل: الغُصن لِسَنةٍ، وقيل: هو كلُّ قَضِيبٍ ما كان؛ والجمع خِيطانٌ.
+REC canon_def.en     : Al-khūṭ: the tender branch; it is said to be a branch of one year's growth; and it is said to be any twig whatsoever; the plural is khīṭān.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 22897 hdr=خوط] الخاء والواو والطاء أصيل يدل على تشعب أغصان فالخوط الغصن، وجمعه خيطان. قال: على قلاص مثل خيطان السلم (4)
+SRC Asas [haqiqah_literal]        : قد كالخوط وهو الغصن الناعم. وتقول: كم وراء هذه اعلحيطان، من قدود كالخيطان.
+SRC Ayn (al-Khalil)  : [line 17438 hdr=خوط] الخُوْطُ: الغصن الناعمُ لسنتهِ.

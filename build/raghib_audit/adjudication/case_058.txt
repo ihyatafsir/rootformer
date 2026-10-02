@@ -1,0 +1,10 @@
+================================================================================================
+ROOT غرا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is glue or adhesive substance (al-ghirāʾ), derived from fish, used to bind and attach one thing to another; hence the primary sense of sticking, adhering, and cleaving.
+REC haqiqah_literal  : The literal physical meaning is the act of gluing or pasting, as in غَرَوْتُ الجِلْدَ (I glued the hide), and the substance itself, الغِراء (glue), which causes one thing to adhere to another.
+REC canon_def.ar     : الغِراءُ: الذي يُلْصَقُ به الشيءُ، يكونُ من السَّمَكِ. وغَرَا الجِلْدَ: أَلْصَقَهُ بالغِراءِ. وغَرِيَ بكذا: لَهِجَ به ولَصِقَ. وأَغْرَيْتُ فلاناً بكذا: أَلْهَجْتُهُ به.
+REC canon_def.en     : Al-ghirāʾ is that with which a thing is glued, made from fish. He glued the hide: he attached it with glue. He became devoted to something: he became passionately attached and clung to it. I incited someone to something: I made him cling to […]
+SRC al-Mufradat      : [line 24290 hdr=غرا] غري بكذا (2)، أي: لهج به ولصق، وأصل ذلك من الغراء، وهو ما يلصق به، وقد أغريت فلانا بكذا، نحو: ألهجت به. قال تعالى: فأغرينا بينهم العداوة والبغضاء [المائدة/ 14]، لنغرينك بهم [الأحزاب/ 60].
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

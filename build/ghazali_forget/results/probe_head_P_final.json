@@ -1,0 +1,15 @@
+{
+  "tag": "P_final",
+  "val_windows": 300,
+  "n_positions": 18869,
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "trunk": "/workspace/ghazali_forget/snapshot_P_final.trunk.pt",
+  "live": {
+    "n": 18869,
+    "acc@1": 0.026763474568724632,
+    "acc@5": 0.0598335899412632,
+    "ce_raw": 9.646866798400879,
+    "ce_z": 9.38820743560791,
+    "logit_scale": 1.018165111541748
+  }
+}

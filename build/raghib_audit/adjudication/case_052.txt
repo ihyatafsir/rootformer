@@ -1,0 +1,10 @@
+================================================================================================
+ROOT زخرف   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is gold (al-dhahab), specifically gold as an object of ornamentation and embellishment; from this material substrate the root extends to denote any adornment, and thence to anything artificially beautified or falsified.
+REC haqiqah_literal  : Gold; then any ornament or embellishment (zīnah); then any embellished, gilded, or artificially beautified thing. The verb زَخْرَفَ denotes the act of adorning, embellishing, and perfecting a thing, as in زَخْرَفَ البيتَ (he adorned and completed the house).
+REC canon_def.ar     : الزُّخْرُفُ: الزِّينَةُ، وأَصْلُهُ الذَّهَبُ، ثُمَّ سُمِّيَ كُلُّ زِينَةٍ زُخْرُفاً، ثُمَّ شُبِّهَ كُلُّ مُمَوَّهٍ مُزَوَّرٍ بِهِ. وَزَخْرَفَ البَيْتَ: زَيَّنَهُ وَأَكْمَلَهُ.
+REC canon_def.en     : Al-Zukhruf: ornamentation; its primary origin is gold, then every ornament was named zukhruf, then every falsified or counterfeit thing was likened to it. Zakhrafa al-bayta: he adorned and perfected the house.
+SRC al-Mufradat      : [line 15029 hdr=زخرف] الزخرف: الزينة المزوقة، ومنه قيل للذهب: زخرف، وقال: أخذت الأرض زخرفها [يونس/ 24]، وقال: بيت من زخرف [الإسراء/ 93]، أي: ذهب مزوق، وقال: وزخرفا [الزخرف/ 35]، وقال: زخرف القول غرورا [الأنعام/ 112]، أي: المزوقات من الكلام.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 18016 hdr=زخرف] الزُّخْرُفُ: الزينة، وبيت مُزَخْرَفٌ. وتَزَخْرَفَ الرجل: تزين. والزَّخْرُفُ: الذهب. والزَّخارِفُ: ما يُزَخْرَفُ من السفن. والزَّخارِفُ: دويبات تطير على الماء ذوات أربع مثل الذباب.

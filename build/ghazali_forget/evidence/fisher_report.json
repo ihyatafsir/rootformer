@@ -1,0 +1,29 @@
+{
+  "layers": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "n_batches": 48,
+  "batch": 4,
+  "seq": 128,
+  "checkpoint": "/workspace/hf_v19_2_release/checkpoints/rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors",
+  "path_check": {
+    "fast": 16.08775520324707,
+    "shipped": 16.08775520324707,
+    "absdiff": 0.0
+  },
+  "retained": {
+    "mean_ce": 15.98763656616211,
+    "n_batches": 48,
+    "sum_F": 3917.0611578298663,
+    "n_params": 62252824
+  },
+  "synthesis": {
+    "mean_ce": 16.2286878824234,
+    "n_batches": 48,
+    "sum_F": 4134.90632788416,
+    "n_params": 62252824
+  }
+}

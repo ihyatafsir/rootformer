@@ -1,0 +1,12 @@
+================================================================================================
+ROOT مقق   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is extreme elongation combined with extreme thinness — a stretched, attenuated bodily frame, and by extension the act of drawing out or extracting something entirely from its container.
+REC haqiqah_literal  : In its literal physical sense, مَقَق denotes excessive length conjoined with fineness or slenderness; a man is described as أَمَقّ and a woman as مَقَّاء, and a horse as أَشَقّ أَمَقّ. It also denotes the complete extraction of marrow from a bone (تَمَقَّقْتُ ما في العظم) and the draining of milk from the udder by a young camel (تَمَقَّقَ الفصيل ما في الضرع).
+REC canon_def.ar     : المَقَقُ: الطول عامة، وقيل: هو الطول الفاحش في دقة. ورجل أمق وامرأة مقاء. وتمققت ما في العظم: استخرجته كله. وفلان مقامق: يتكلم بأقصى حلقه.
+REC canon_def.en     : Al-Maqaq denotes length in general; it is also said to be excessive length combined with slenderness. A man is described as amaqq and a woman as maqqā'. TamAqqaqtu mā fī al-'aẓm means 'I extracted everything within the bone.' Fulān muqāmiq  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [majaz_metaphorical]        : بلد أمق، وأرض مقاء: بعيدة الأرجاء. قال الكميت يصف ظالما: تمقق أخلاف المعيشة منهم ... رضاعا وأخلاف المعيشة حفل
+SRC Asas [haqiqah_literal]        : رج أمق، وامرأة مقاء، والمقق: طول في دقة، وفرس أشق أمق، ووصف أعرابي فرسا فقال: شقاء مقاء، طويلة الأنقاء. وتمققت ما في العظم: استخرجته كله. وتمقق الفصيل ما في الضرع. وفلان مقامق: يتهكلم بأقصى حلقه. وعن بعض العرب: مق الله عيني وإلا فلا بلغ الله بي ظلام الليل إن كنت جلست مجلسا إلا ذه
+SRC Asas [bilingual_haqiqah_majaz]        : رج أمق، وامرأة مقاء، والمقق: طول في دقة، وفرس أشق أمق، ووصف أعرابي فرسا فقال: شقاء مقاء، طويلة الأنقاء. وتمققت ما في العظم: استخرجته كله. وت Metaphorical (Majaz): بلد أمق، وأرض مقاء: بعيدة الأرجاء. قال الكميت يصف ظالما: تمقق أخلاف المعيشة منهم ... رضاعا وأخلاف المعيشة حفل
+SRC Ayn (al-Khalil)  : (NO ENTRY)

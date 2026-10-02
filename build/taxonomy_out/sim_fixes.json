@@ -1,0 +1,195 @@
+{
+ "per_fix": {
+  "F1_contraction_D3_D4": {
+   "types": 13,
+   "occurrences": 29958
+  },
+  "F2_allah_E13": {
+   "types": 31,
+   "occurrences": 35282
+  },
+  "F3_person_prefix_E12": {
+   "types": 620,
+   "occurrences": 4058
+  },
+  "F4_unknown_suffix_E10": {
+   "types": 99,
+   "occurrences": 254
+  },
+  "F5_closed_particle_list_E2": {
+   "types": 65,
+   "occurrences": 79440
+  },
+  "F6_hamza_alif_E6": {
+   "types": 1897,
+   "occurrences": 10291
+  },
+  "F7_gemination_truncation": {
+   "types": 672,
+   "occurrences": 5148
+  },
+  "F8_wazn_branches_D1": {
+   "types": 2017,
+   "occurrences": 21667
+  },
+  "F9_span_canonical_E4_E7_D6": {
+   "types": 1,
+   "occurrences": 4
+  },
+  "F10_realize_direct_E7": {
+   "types": 1136,
+   "occurrences": 17759
+  },
+  "F11_clitic_restore_E4": {
+   "types": 970,
+   "occurrences": 7189
+  },
+  "F12_realizer_generate_D2_E6": {
+   "types": 435,
+   "occurrences": 3310
+  },
+  "F13_wazn_search_E5": {
+   "types": 191,
+   "occurrences": 8581
+  }
+ },
+ "cumulative": [
+  {
+   "fix": "F1_contraction_D3_D4",
+   "new_types": 13,
+   "new_occ": 29958,
+   "cum_types": 13,
+   "cum_occ": 29958
+  },
+  {
+   "fix": "F2_allah_E13",
+   "new_types": 31,
+   "new_occ": 35282,
+   "cum_types": 44,
+   "cum_occ": 65240
+  },
+  {
+   "fix": "F3_person_prefix_E12",
+   "new_types": 620,
+   "new_occ": 4058,
+   "cum_types": 664,
+   "cum_occ": 69298
+  },
+  {
+   "fix": "F4_unknown_suffix_E10",
+   "new_types": 99,
+   "new_occ": 254,
+   "cum_types": 763,
+   "cum_occ": 69552
+  },
+  {
+   "fix": "F5_closed_particle_list_E2",
+   "new_types": 65,
+   "new_occ": 79440,
+   "cum_types": 828,
+   "cum_occ": 148992
+  },
+  {
+   "fix": "F6_hamza_alif_E6",
+   "new_types": 1897,
+   "new_occ": 10291,
+   "cum_types": 2725,
+   "cum_occ": 159283
+  },
+  {
+   "fix": "F7_gemination_truncation",
+   "new_types": 672,
+   "new_occ": 5148,
+   "cum_types": 3397,
+   "cum_occ": 164431
+  },
+  {
+   "fix": "F8_wazn_branches_D1",
+   "new_types": 2017,
+   "new_occ": 21667,
+   "cum_types": 5414,
+   "cum_occ": 186098
+  },
+  {
+   "fix": "F9_span_canonical_E4_E7_D6",
+   "new_types": 1,
+   "new_occ": 4,
+   "cum_types": 5415,
+   "cum_occ": 186102
+  },
+  {
+   "fix": "F10_realize_direct_E7",
+   "new_types": 1136,
+   "new_occ": 17759,
+   "cum_types": 6551,
+   "cum_occ": 203861
+  },
+  {
+   "fix": "F11_clitic_restore_E4",
+   "new_types": 969,
+   "new_occ": 7185,
+   "cum_types": 7520,
+   "cum_occ": 211046
+  },
+  {
+   "fix": "F12_realizer_generate_D2_E6",
+   "new_types": 393,
+   "new_occ": 2806,
+   "cum_types": 7913,
+   "cum_occ": 213852
+  },
+  {
+   "fix": "F13_wazn_search_E5",
+   "new_types": 191,
+   "new_occ": 8581,
+   "cum_types": 8104,
+   "cum_occ": 222433
+  }
+ ],
+ "unfixable": {
+  "types": 75007,
+  "occurrences": 639725,
+  "by_cause": {
+   "E2_unk_echo_unknown_root": {
+    "types": 302,
+    "occurrences": 38772
+   },
+   "E1_particle_echo_no_analysis": {
+    "types": 70109,
+    "occurrences": 547717
+   },
+   "E6_analysis_inconsistent_generates_false": {
+    "types": 1022,
+    "occurrences": 5881
+   },
+   "D1_wazn_unimplemented_fallthrough": {
+    "types": 2580,
+    "occurrences": 39913
+   },
+   "E5_no_wazn_assigned_bare_root": {
+    "types": 834,
+    "occurrences": 6182
+   },
+   "E7_particle_root_substituted_for_longer_word": {
+    "types": 117,
+    "occurrences": 695
+   },
+   "D6_realizer_emits_clitic_not_in_surface": {
+    "types": 25,
+    "occurrences": 546
+   },
+   "D2_realizer_mismatch_generates_true": {
+    "types": 17,
+    "occurrences": 18
+   },
+   "S1_surface_diacritic_loss": {
+    "types": 1,
+    "occurrences": 1
+   }
+  }
+ },
+ "fixable_total": {
+  "types": 8104,
+  "occurrences": 222433
+ }
+}

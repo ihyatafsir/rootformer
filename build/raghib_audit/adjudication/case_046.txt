@@ -1,0 +1,10 @@
+================================================================================================
+ROOT بعثر   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the violent inversion and scattering of earth or a container so as to expose and cast out what lies concealed within it — specifically, the turning over of grave soil and the ejection of its buried contents.
+REC haqiqah_literal  : To overturn the earth of graves, scatter their soil, and bring forth what is hidden inside them, whether treasure or the dead.
+REC canon_def.ar     : بُعْثِرَتِ القبورُ: قُلِبَ ترابُها وأُثيرَ ما فيها، وخرج ما في بطنها من الذهب والفضة وخروج الموتى بعد ذلك.
+REC canon_def.en     : The graves were overturned: their soil was turned over and what was inside them was stirred up, and the gold and silver within them emerged, followed by the emergence of the dead.
+SRC al-Mufradat      : [line 4851 hdr=بعثر] قال الله تعالى: وإذا القبور بعثرت [الانفطار/ 4]، أي: قلب ترابها وأثير ما فيها، ومن رأى تركيب الرباعي والخماسي من ثلاثيين نحو: تهلل وبسمل (1): إذا قال: لا إله إلا الله وبسم الله يقول: إن بعثر مركب من: بعث وأثير، وهذا لا يبعد في هذا الحرف، فإن البعثرة تتضمن معنى بعث وأثير.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 8020 hdr=بعثر] يقال بَعْثَرَه بَعْثَرَةً: إذا قَلَبَ الترابَ عنه.

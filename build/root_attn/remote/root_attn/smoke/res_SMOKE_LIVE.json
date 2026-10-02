@@ -1,0 +1,121 @@
+{
+  "history": [
+    {
+      "step": 40,
+      "ALL_val": {
+        "n": 1651,
+        "acc@1": 1.0,
+        "acc@5": 1.0,
+        "ce_z": 0.0009461367735639215,
+        "ppl_z": 1.0009465845021541,
+        "ce_raw_SCALE_DEPENDENT": 1.7989133596420288,
+        "logit_scale": 0.3900326192378998,
+        "ppl": 6.04307724370661
+      },
+      "wazn": {
+        "n": 1637,
+        "ce": 3.6670114994049072,
+        "ce_z": 3.5976345539093018,
+        "logit_scale": 0.9701693058013916,
+        "acc@1": 0.37141111493110657
+      },
+      "prefix": {
+        "n": 1605,
+        "ce": 2.5777153968811035,
+        "ce_z": 2.466149091720581,
+        "logit_scale": 0.8117868900299072,
+        "acc@1": 0.3813084065914154
+      },
+      "suffix": {
+        "n": 1554,
+        "ce": 2.4398348331451416,
+        "ce_z": 2.287334680557251,
+        "logit_scale": 0.7481501698493958,
+        "acc@1": 0.3906048834323883
+      },
+      "ALL_val_RCA_OFF": {
+        "n": 1651,
+        "acc@1": 1.0,
+        "acc@5": 1.0,
+        "ce_z": 0.0009463003370910883,
+        "ppl_z": 1.0009467482205214,
+        "ce_raw_SCALE_DEPENDENT": 1.7989212274551392,
+        "logit_scale": 0.3900311589241028,
+        "ppl": 6.043124789696016
+      },
+      "extra_norm": 3.3029122352600098,
+      "feat_scale": 30.238122940063477,
+      "ngram_gate": 0.0,
+      "ngram_scale": 0.0,
+      "h_drift": 6.21875,
+      "nan_steps": 0,
+      "rca_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "rca_gate": [
+        -0.008624711073935032,
+        -0.0077482727356255054,
+        -0.007551038637757301,
+        0.0033529659267514944
+      ],
+      "rca_gate_absmean": 0.006819247093517333,
+      "rca_calls": 204,
+      "rca_calls_with_root_ids": 204
+    }
+  ],
+  "args": {
+    "checkpoint": "checkpoints/rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors",
+    "cache": "/workspace/discrete_path/smoke_cache",
+    "train_windows": 13,
+    "val_windows": 13,
+    "steps": 40,
+    "batch_size": 8,
+    "lr": 0.001,
+    "ss_prob": 1.0,
+    "ss_start": null,
+    "head_init": "remap",
+    "cond_init": "truncate",
+    "head_checkpoint": null,
+    "seed": 7,
+    "lambda_orbit": 0.0,
+    "orbit_rng_isolate": false,
+    "orbit_grad_probe": false,
+    "margin": -2.0,
+    "margin_ramp": 10,
+    "margin_start": 50.0,
+    "grad_warmup": 10,
+    "grad_warmup_thresh": 50.0,
+    "grad_clip": 1.0,
+    "extra_norm_l2": 0.0,
+    "feat_gate": true,
+    "feat_gate_proj_std": 0.001,
+    "logit_scale": "ln",
+    "hist": 3,
+    "dropout": 0.1,
+    "no_features": false,
+    "ngram_features": "none",
+    "ngram_orders": "1,2,3,4",
+    "ngram_dim": 32,
+    "ngram_bucket_bits": 20,
+    "ngram_emb_std": 0.02,
+    "no_ngram_gate": false,
+    "root_cross_attn": "top4",
+    "rca_heads": 8,
+    "rca_dropout": 0.0,
+    "rca_out_std": 0.001,
+    "rca_exclude_current": false,
+    "rca_ablate_eval": true,
+    "unfreeze_last": 4,
+    "trunk_lr_scale": 0.1,
+    "rca_lr_scale": 1.0,
+    "h_drift_probe": 5,
+    "tag": "SMOKE_LIVE",
+    "eval_every": 40,
+    "probe_out": "/workspace/root_attn/smoke/trace_SMOKE_LIVE.jsonl",
+    "out": "/workspace/root_attn/smoke/res_SMOKE_LIVE.json",
+    "save": "/workspace/root_attn/smoke/head_SMOKE_LIVE.pt"
+  }
+}

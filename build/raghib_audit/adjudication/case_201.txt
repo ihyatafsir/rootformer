@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ششا   stratum=ma
+REC ontological_core : A marginal, quasi-nominal root attested only through the lexicographical report of Thaʿlab from Ibn al-Aʿrābī; its foundational physical referent is the shīṣ, the dry, hard, unpalatable date that remains on the palm cluster after the choice fruit has been taken.
+REC haqiqah_literal  : The concrete, literal sense is the شِيص: the inferior, dried, inedible dates left behind on the raceme, i.e., the residual fruit of poor quality.
+REC canon_def.ar     : الشَّشا: الشِّيصُ.
+REC canon_def.en     : Al-shashā: the shīṣ, i.e., the dry, inferior dates remaining on the raceme.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

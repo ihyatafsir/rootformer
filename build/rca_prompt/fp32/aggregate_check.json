@@ -1,0 +1,65 @@
+{
+  "RCA_ON": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.19582383804123166,
+      "acc@5": 0.3663151200381578,
+      "ce_z": 8.218960762023926,
+      "ppl_z": 3710.6441357387034
+    },
+    "NOVEL_only": {
+      "n": 15046,
+      "acc@1": 0.19932207895786255,
+      "acc@5": 0.3755815499135983,
+      "ce_z": 8.174847602844238,
+      "ppl_z": 3550.5137945078277
+    }
+  },
+  "RCA_OFF": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.028300386877947958,
+      "acc@5": 0.052678997297154063,
+      "ce_z": 9.64303207397461,
+      "ppl_z": 15414.00936611449
+    },
+    "NOVEL_only": {
+      "n": 15046,
+      "acc@1": 0.026718064601887546,
+      "acc@5": 0.04991359829855111,
+      "ce_z": 9.673996925354004,
+      "ppl_z": 15898.768388319022
+    }
+  },
+  "majority_class_marginal_ALL_val": 0.03566696698288198,
+  "published_in_trainer_log": {
+    "RCA_ON": {
+      "ALL_val_acc@1": 0.19529,
+      "acc@5": 0.36414
+    },
+    "RCA_OFF": {
+      "ALL_val_acc@1": 0.02825,
+      "acc@5": 0.05273
+    }
+  },
+  "repro_eval_published": {
+    "RCA_ON": {
+      "ALL_val_acc@1": 0.1114,
+      "acc@5": 0.1937
+    },
+    "RCA_OFF": {
+      "ALL_val_acc@1": 0.014362,
+      "acc@5": 0.037893
+    }
+  },
+  "head_dtype": "fp32",
+  "feat_gate_built": true,
+  "feat_gate_value": 0.21979446709156036,
+  "rca_gates_loaded": [
+    -1.8359375,
+    1.859375,
+    1.890625,
+    -1.9296875
+  ],
+  "note": "repro_eval.py builds the head with feat_gate=False, which DROPS the trained feat_gate scalar and makes the linear conditioning branch ~4.5x too strong; that is the likely cause of its 11.14%/1.44% instead of 19.53%/2.83%."
+}

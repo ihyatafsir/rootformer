@@ -1,0 +1,230 @@
+================================================================================================
+ROOT نزف   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is the exhaustive drawing-off of a well's water, ladle by ladle, until the source is completely depleted; hence the root denotes total evacuation of a contained substance, whether water, blood, tears, or, by extension, the rational faculties.
+REC haqiqah_literal  : The literal physical meaning is to drain a well completely by drawing its water out gradually, or for a well to become so drained; it is used transitively (nazafa al-bīra) and intransitively (nazafat al-bīru), and in the passive (nuzifat). It also applies literally to the complete extraction of blood (nazafa damahu) or tears (nazafa damʿahu).
+REC canon_def.ar     : نَزَفْت ماء البئر نَزْفاً إذا نزحْته كله، ونزَفَت هي، يتعدّى ولا يتعدّى، ونُزِفت أَيضاً على ما لم يسم فاعله. ونزف دمه أو دمعه أي نزع كله. ومنه قيل: سكران نزيف: نزف فهمه بسكره.
+REC canon_def.en     : I drained the well's water completely (nazaftu māʾa al-biʾri nazfan) when I drew it all out; and the well itself became drained (nazafat), being both transitive and intransitive; and it may also be put in the passive (nuzifat). His blood or […]
+SRC al-Mufradat      : [line 32412 hdr=نزف] نزف الماء: نزحه كله من البئر شيئا بعد شيء، وبئر نزوف: نزف ماؤه، والنزفة: الغرفة، والجمع النزف، ونزف دمه، أو دمعه. أي: نزع كله، ومنه قيل: سكران نزيف: نزف فهمه بسكره. قال تعالى: لا يصدعون عنها ولا ينزفون [الواقعة/ 19] (1) وقرئ: ينزفون (2) من قولهم: أنزفوا: إذا نزف شرابهم، أو نزعت عقولهم. وأصله من قولهم: أنزفوا. أي: نزف ماء بئرهم، وأنزفت الشيء: أبلغ من نزفته، ونزف الرجل في الخصومة: انقطعت حجته، وفي مثل: هو أجبن من المنزوف ضرطا (3).
+SRC Maqayis (IbnFaris): [line 71127 hdr=نزف] النون والزاء والفاء أصل يدل على نفاد شيء وانقطاع. ونزف دمه: خرج كله. والسكران* نزيف، أي نزف عقله. قال: وإذ هي تمشي كمشي النزي ف يصرعه بالكثيب البهر (1) والنزف: نزح الماء من البئر شيئا بعد شيء. وأنزفوا: ذهب ماء بئرهم. وأنزفوا: انقطع شرابهم. قال الله سبحانه: @QUR@05 لا يصدعون عنها ولا ينزفون (2). والنزفة: الغرفة. وهو بحر لا ينزف. ونزف الرجل في الخصومة: انقطعت حجته.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 31026 hdr=نزف] نُزِفَ دَمُ [فلان] فهو نزيف منزوف، أي: انقطع عنه، قال الله عز وجل: وَلا هُمْ عَنْها يُنْزَفُونَ «55» ، أي: لا تَنزِف الخَمْر عقولهم. والسَّكْرانُ نزيف، أي: منزوفٌ عَقْلُه. والنَّزْفُ: نَزْحُ الماءِ من البئر أو النّهر شيئاً بعد شيء. والفعل: يَنْزِفُ، والقليل منه: نَزْفة. وأَنْزَفَ القَوْمُ: نُزِفَ ماءُ بئرهم. والنَّزفُ: الدّمع. ويقال للرجل الذّي عَطِشَ حتى يَبِسَتْ عُرُوقُه وجفّ لسانُه: نَزيفٌ، قال: شُرْبَ النزيف ببرد […]
+
+================================================================================================
+ROOT سنن   stratum=MA
+REC ontological_core : The foundational physical origin of the root سنن is the tooth (al-sinn) as a hard, projecting, pointed structure—an instrument of cutting, grinding, and piercing—from which derive the senses of sharpening, pointing, flowing smoothly, and establishing a continuous, well-trodden path or normative practice.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah centers on the tooth (al-sinn) and its concrete derivatives: the sharpening of iron (sanna al-ḥadīda), the easy pouring of water (sanna al-māʾa ʿalā wajhihi), the smooth, swift movement of a horse (istanna al-faras), and the clear, beaten track of a road (sunan al-ṭarīq).
+REC canon_def.ar     : السِّنُّ: واحدة الأَسنان، وهي الضِّرْسُ، أُنْثَى. والسُّنَّةُ: الطريقةُ والسيرةُ، حسنةً كانت أو قبيحةً. وسَنَّ الماءَ على وجهه: صبَّه صبًّا سهلاً. وسَنَّ الحديدةَ: حدَّدها.
+REC canon_def.en     : Al-sinn: the singular of teeth, namely a molar tooth, feminine. Al-sunna: a path or mode of conduct, whether good or evil. Sanna al-māʾa ʿalā wajhihi: he poured the water out smoothly. Sanna al-ḥadīda: he sharpened the iron.
+SRC al-Mufradat      : [line 17109 hdr=سنن] السن معروف، وجمعه أسنان. قال: والسن بالسن [المائدة/ 45]، وسان البعير الناقة: عاضها حتى أبركها، والسنون: دواء يعالج به الأسنان، وسن الحديد: إسالته وتحديده، والمسن: ما يسن به، أي: يحدد به، والسنان يختص بما يركب في رأس الرمح، وسننت البعير: صقلته، وضمرته تشبيها بسن الحديد، وباعتبار الإسالة قيل: سننت الماء، أي: أسلته. وتنح عن سنن الطريق، وسننه وسننه، فالسنن: جمع سنة، وسنة الوجه: طريقته، وسنة النبي: طريقته التي كان يتحراها، وسنة الله تعالى: قد تقال لطريقة حكمته، وطريقة طاعته، نحو: سنة الله التي قد خلت من قبل ولن تجد لسنة الله تبديلا [الفتح/ 23]، ولن تجد لسنت الله تحويلا [فاطر/ 43]، فتنبيه أن فروع الشرائع- وإن اختلفت صو […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : سن سنة حسنة: طرق طريقة حسنة، واستن بسنته، وفلان متسنن: عامل. بالسنة. والزم سنن الطريق: قصده، وتنح عن سنن الخيل، واكتن عن سنن الريح. وجاء من الخيل سنن ما يرد. ورأيت سنن بني فلان: إبلهم المستنة نشاطا. قال: ومنا عصبة أخرى سراع ... زفتها الريح كالسنن الطراب واستن الفرس وهو عدوه إقبال
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT منن   stratum=MA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of cutting or severing a rope or cord, and the consequent state of a rope that is worn, frayed, and weakened to the point of breaking. From this concrete sense of physical debilitation and severance, the root branches into two major semantic streams: (1) the bestowal of a heavy favor or benefit that 'cuts' or burdens the recipient with obligation, and (2) the not […]
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is a rope (ḥabl) that is weak, worn out, and severed (manīn), and the act of cutting (mann) a rope. It also denotes the physical act of a person being weakened or depleted, as in 'manat-hu al-manūn' (the fates cut him off) and 'manat-hu al-safar' (travel weakened him). The literal sense also includes the physical burde […]
+REC canon_def.ar     : مَنَّهُ يَمُنُّهُ مَنّاً: قطعه. والمَنِينُ: الحبل الضعيف. وحبل مَنينٌ: مقطوع. والمنة: النعمة الثقيلة. والمنان: الكثير المنن. والمنون: القطع، والمنية: الموت.
+REC canon_def.en     : Mannahu yamunnuhu mannan: he cut it. Al-manīn: the weak rope. A rope that is manīn: severed. Al-minnah: the heavy favor. Al-mannān: the one who bestows many favors. Al-manūn: cutting, and al-maniyyah: death.
+SRC al-Mufradat      : [line 31525 hdr=منن] المن: ما يوزن به، يقال: من، ومنان، وأمنان، وربما أبدل من إحدى النونين ألف فقيل: منا وأمناء، ويقال لما يقدر: ممنون كما يقال: موزون، والمنة: النعمة الثقيلة، ويقال ذلك على وجهين: أحدهما: أن يكون ذلك بالفعل، فيقال: من فلان على فلان: إذا أثقله بالنعمة، وعلى ذلك قوله: لقد من الله على المؤمنين [آل عمران/ 164]، كذلك كنتم من قبل فمن الله عليكم [النساء/ 94]، ولقد مننا على موسى وهارون [الصافات/ 114]، يمن على من يشاء [إبراهيم/ 11]، ونريد أن نمن على الذين استضعفوا [القصص/ 5]، وذلك على الحقيقة لا يكون إلا لله تعالى. والثاني: أن يكون ذلك بالقول، وذلك مستقبح فيما بين الناس إلا عند كفران النعمة، ولقبح ذلك قيل: المنة تهدم الصنيعة  […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : من الله تعالى على عباده، وهو المنان، وله علي منة ومنن، ومن علي بما صنع، وامتن، وإنه لمنونة، وامتننت منك بما فعلت منة جسيمة أي احتملت منة. وهو ضعيف المنة، وليس لقلبه منة أي قوة، وهم ضعاف المنن، ومنة السفر: أضعفه وذهب بمنته. قال ابن ميادة: منناهن بالإدلاج حتى ... كأن متونهن عصي ضال
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT اذا   stratum=Ma
+REC ontological_core : A deictic-temporal particle whose foundational semantic function is to point to an indeterminate future time; it is not a lexical root with a concrete physical origin but a grammatical operator (adāt) denoting futurity, and it may acquire conditional force when construed with a following verb.
+REC haqiqah_literal  : The literal function of إذا is to designate any future time (al-zamān al-mustaqbal), whether indefinite or specified by context; it is the temporal particle of futurity, as opposed to إذ, which designates past time.
+REC canon_def.ar     : إذا يعبر به عن كل زمان مستقبل، وقد يضمن معنى الشرط فيجزم به، وذلك في الشعر أكثر؛ و«إذ» يعبر به عن الزمان الماضي، ولا يجازى به إلا إذا ضم إليه «ما».
+REC canon_def.en     : Ifā denotes any future time, and it may be invested with conditional meaning, in which case it governs the jussive—this being more frequent in poetry; whereas idh denotes past time, and it is not used conditionally unless joined with mā.
+SRC al-Mufradat      : [line 2129 hdr=إذا] إذا يعبر به عن كل زمان مستقبل، وقد يضمن معنى الشرط فيجزم به، وذلك في الشعر أكثر، و«إذ» يعبر به عن الزمان الماضي، ولا يجازى به إلا إذا ضم إليه «ما» نحو: 11- إذ ما أتيت على الرسول فقل له (1) أرب الأرب: فرط الحاجة المقتضي للاحتيال في دفعه، فكل أرب حاجة، وليس كل حاجة أربا، ثم يستعمل تارة في الحاجة المفردة، وتارة في الاحتيال وإن لم يكن حاجة، كقولهم: فلان ذو أرب، وأريب، أي: ذو احتيال، وقد أرب إلى كذا، أي: احتاج إليه حاجة شديدة (2)، وقد أرب إلى كذا أربا وأربة وإربة ومأربة، قال تعالى: ولي فيها مآرب أخرى [طه/ 18]، ولا أرب لي في كذا، أي: ليس بي شدة حاجة إليه، وقوله: أولي الإربة من الرجال [النور/ 31] كناية عن الحاجة إلى الن […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT بعثر   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the violent inversion and scattering of earth or a container so as to expose and cast out what lies concealed within it — specifically, the turning over of grave soil and the ejection of its buried contents.
+REC haqiqah_literal  : To overturn the earth of graves, scatter their soil, and bring forth what is hidden inside them, whether treasure or the dead.
+REC canon_def.ar     : بُعْثِرَتِ القبورُ: قُلِبَ ترابُها وأُثيرَ ما فيها، وخرج ما في بطنها من الذهب والفضة وخروج الموتى بعد ذلك.
+REC canon_def.en     : The graves were overturned: their soil was turned over and what was inside them was stirred up, and the gold and silver within them emerged, followed by the emergence of the dead.
+SRC al-Mufradat      : [line 4851 hdr=بعثر] قال الله تعالى: وإذا القبور بعثرت [الانفطار/ 4]، أي: قلب ترابها وأثير ما فيها، ومن رأى تركيب الرباعي والخماسي من ثلاثيين نحو: تهلل وبسمل (1): إذا قال: لا إله إلا الله وبسم الله يقول: إن بعثر مركب من: بعث وأثير، وهذا لا يبعد في هذا الحرف، فإن البعثرة تتضمن معنى بعث وأثير.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 8020 hdr=بعثر] يقال بَعْثَرَه بَعْثَرَةً: إذا قَلَبَ الترابَ عنه.
+
+================================================================================================
+ROOT خلا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is spatial and temporal emptiness: a place or thing devoid of any occupant, structure, or content, hence 'to be empty, vacant, unoccupied.'
+REC haqiqah_literal  : The literal physical meaning is the state of a place or thing being empty and devoid of any being or object, as in 'خلا المكان' (the place became empty) and 'الخلاء' (the open, unsheltered void).
+REC canon_def.ar     : خَلا المكانُ والشيءُ يَخْلُو خُلُوّاً وخَلاءً وأَخْلَى إِذا لم يكن فيه أَحد ولا شيء فيه، وهو خالٍ. والخَلاءُ من الأَرض: قَرارٌ خالٍ. واسْتَخْلَى: كخَلا.
+REC canon_def.en     : A place or thing becomes empty (خلا) with the verbal noun خُلُوّ and خَلاء, and one may say أَخْلَى when there is no one and nothing in it; it is then خالٍ (empty). الخَلاء from the earth is a vacant, level tract. اِسْتَخْلَى is synonymous  […]
+SRC al-Mufradat      : [line 11642 hdr=خلا] الخلاء: المكان الذي لا ساتر فيه من بناء ومساكن وغيرهما، والخلو يستعمل في الزمان والمكان، لكن لما تصور في الزمان المضي فسر أهل اللغة: خلا الزمان، بقولهم: مضى الزمان وذهب، قال تعالى: وما محمد إلا رسول قد خلت من قبله الرسل [آل عمران/ 144]، وقد خلت من قبلهم المثلات [الرعد/ 6]، تلك أمة قد خلت* [البقرة/ 141]، قد خلت من قبلكم سنن [آل عمران/ 137]، إلا خلا فيها نذير [فاطر/ 24]، مثل الذين خلوا من قبلكم [البقرة/ 214]، وإذا خلوا عضوا عليكم الأنامل من الغيظ [آل عمران/ 119]، وقوله: يخل لكم وجه أبيكم [يوسف/ 9]، أي: تحصل لكم مودة أبيكم وإقباله عليكم. وخلا الإنسان: صار خاليا، وخلا فلان بفلان: صار معه في خلاء، وخلا إليه: انتهى إلي […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT درهم   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of falling or dropping down, specifically from extreme old age, yielding a state of decrepitude and collapse.
+REC haqiqah_literal  : The literal physical meaning according to Lisān al-ʿArab is the falling or dropping of a person due to extreme old age; the adjective al-mudrahimm denotes one who has collapsed from senility, i.e., the very aged.
+REC canon_def.ar     : المُدْرَهِمُّ: الساقطُ من الكِبَرِ، وقيل: هو الكبيرُ السِّنِّ أَيّاً كان. وقد ادْرَهَمَّ يَدْرَهِمُّ ادْرِهْمَاماً أَي سقط من الكبر.
+REC canon_def.en     : Al-mudrahimm: one who has fallen from extreme old age; it is also said: he is the very aged, whoever he may be. And he has adrahamma, yadrahimmu, idrihmāman, meaning he fell from old age.
+SRC al-Mufradat      : [line 12267 hdr=درهم] قال تعالى: وشروه بثمن بخس دراهم معدودة [يوسف/ 20]، الدرهم: الفضة المطبوعة المتعامل بها.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 15413 hdr=درهم] الدَّرهمُ والدِّرْهِمُ لغتان. ورجل مُدَرْهَمٌ: كثير الدّراهم، أدْرَهَمَّ الشَّيخ أدرِهْماماً، أي كَبرِ. قال «6» : والله لا أسأمُ حتّى تَسأمُوا ... أو أَدْرَهِمَّ هَرَماً أو تهرموا __________ (1) من التهذيب 6/ 526 عن العين. (2) من التهذيب 6/ 526 عن العين. (3) (عمر بن لجأ التيمي) - شعره 161. (4) (عمر بن لجأ التيمي) - شعره 161. (5) في (ص، ط) : جرم. وفي (س) : جرهم. (6) (القلاخ) اللسان (درهم) والرواية فيه: أقسمت لا أسأم ح […]
+
+================================================================================================
+ROOT ذيب   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the well-known predatory canid, the wolf, regarded by al-Rāghib as originally hamzated (ذِئْب), from which derive the senses of wolf-infestation, wolf-like ferocity, and the wolf-shaped wooden saddle-part (ذِئْبَة القَتَب).
+REC haqiqah_literal  : The literal physical meaning is the wolf as a concrete predatory animal; hence أَرْضٌ مَذْأَبَةٌ (a wolf-infested land), ذُئِبَ فُلَانٌ (a wolf fell upon his flock), and ذَئِبَ (he became wolf-like in viciousness).
+REC canon_def.ar     : الذِّئْبُ: الحيوان المعروف، وأصله الهمز؛ قال تعالى: ﴿فَأَكَلَهُ الذِّئْبُ﴾. وأرض مذأبة: كثيرة الذئاب. وذئب فلان: وقع في غنمه الذئب. وذئب: صار كذئب في خبثه. وتذاءبت الريح: أتت من كل جانب مجيء الذئب. والذئبة من القتب: ما تحت ملتقى الحنوين، تشبيهاً بالذئب في الهيئة.
+REC canon_def.en     : The wolf: the well-known animal, originally hamzated; as in the verse 'So the wolf devoured him.' A wolf-infested land is one abounding in wolves. 'A wolf fell upon his flock' means a wolf attacked his sheep. 'He became wolf-like' means he  […]
+SRC al-Mufradat      : [line 13194 hdr=ذيب] الذيب: الحيوان المعروف، وأصله الهمز، قال تعالى: فأكله الذئب [يوسف/ 17]، وأرض مذأبة: كثيرة الذئاب، وذئب فلان: وقع في غنمه الذئب، وذئب (5): صار كذئب في خبثه، وتذاءبت الريح: أتت من كل جانب ولكن بالمغيب نبئيني مجيء الذئب، وتذاءبت للناقة على تفاعلت: إذا تشبهت لها بالذئب في الهيئة لتظأر على ولدها، والذئبة من القتب: ما تحت ملتقى الحنوين (1)، تشبيها بالذئب في الهيئة.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 33961 hdr=ذيب] والأَذْيَبُ: الماء الكثير.
+
+================================================================================================
+ROOT رخا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ر-خ-و is softness, pliancy, and lack of rigidity or tension in a physical body or substance. It denotes the quality of being yielding, slack, or porous (هَشّ) in contrast to hardness and tautness.
+REC haqiqah_literal  : The literal physical meaning is a thing that is soft, slack, or pliant (رِخْو / رَخْو), such as a loose curtain, a slack rope, or a gentle, compliant wind. It is the direct sensory quality of lacking firmness or tension.
+REC canon_def.ar     : الرِّخْوُ والرَّخْوُ والرُّخْوُ: الهَشُّ من كلّ شيءٍ، وهو الشيء الذي فيه رَخاوة. وكلامُ العرب الجيّدُ: الرِّخْو، بكسر الراء. والرَّخاء: اللينة. ومنه: أَرْخَيْتُ الستر.
+REC canon_def.en     : Al-Rikhw, al-Rakhw, and al-Rukhw: the porous or soft of anything; it is the thing in which there is slackness. The preferred Arabic usage is al-Rikhw, with a kasrah on the rāʾ. Al-Rakhāʾ: the gentle or pliant. Hence: I let down the curtain.
+SRC al-Mufradat      : [line 13710 hdr=رخا] الرخاء: اللينة. من قولهم: شيء رخو، وقد رخي يرخى (1)، قال تعالى: فسخرنا له الريح تجري بأمره رخاء حيث أصاب [ص/ 36]، ومنه: أرخيت الستر، وعن إرخاء الستر استعير: 183- إرخاء سرحان (2) وقول أبي ذؤيب: 184- وهي رخو تمزع (3) أي: رخو السير كريح الرخاء، وقيل: فرس مرخاء، أي: واسع الجري بعيد الخطو، من خيل مراخ، وقد أرخيته: خليته رخوا.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT زحح   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the forcible, hasty displacement of a thing from its place—a swift pulling or shoving that removes an entity from its locus.
+REC haqiqah_literal  : The literal physical meaning is to pull or shove something in haste, thereby removing it from its position; the reduplicated form زُحْزِحَ denotes being moved away and distanced.
+REC canon_def.ar     : زُحْزِحَ أَي نُحِّيَ وبُعِّدَ. وزَحَّ الشيءَ يَزُحُّه زَحّاً: جذبه في عَجَلَة.
+REC canon_def.en     : زُحْزِحَ means he was removed and distanced. And زَحَّ الشيءَ يَزُحُّه زَحّاً: he pulled it in haste.
+SRC al-Mufradat      : [line 15012 hdr=زحح] فمن زحزح عن النار [آل عمران/ 185]، أي: أزيل عن مقره فيها. ومرسل ورسول غير متهم ألا اسلمي ذات الطوق والعاج والدل والنظر المستأنس الساجي
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT زخرف   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is gold (al-dhahab), specifically gold as an object of ornamentation and embellishment; from this material substrate the root extends to denote any adornment, and thence to anything artificially beautified or falsified.
+REC haqiqah_literal  : Gold; then any ornament or embellishment (zīnah); then any embellished, gilded, or artificially beautified thing. The verb زَخْرَفَ denotes the act of adorning, embellishing, and perfecting a thing, as in زَخْرَفَ البيتَ (he adorned and completed the house).
+REC canon_def.ar     : الزُّخْرُفُ: الزِّينَةُ، وأَصْلُهُ الذَّهَبُ، ثُمَّ سُمِّيَ كُلُّ زِينَةٍ زُخْرُفاً، ثُمَّ شُبِّهَ كُلُّ مُمَوَّهٍ مُزَوَّرٍ بِهِ. وَزَخْرَفَ البَيْتَ: زَيَّنَهُ وَأَكْمَلَهُ.
+REC canon_def.en     : Al-Zukhruf: ornamentation; its primary origin is gold, then every ornament was named zukhruf, then every falsified or counterfeit thing was likened to it. Zakhrafa al-bayta: he adorned and perfected the house.
+SRC al-Mufradat      : [line 15029 hdr=زخرف] الزخرف: الزينة المزوقة، ومنه قيل للذهب: زخرف، وقال: أخذت الأرض زخرفها [يونس/ 24]، وقال: بيت من زخرف [الإسراء/ 93]، أي: ذهب مزوق، وقال: وزخرفا [الزخرف/ 35]، وقال: زخرف القول غرورا [الأنعام/ 112]، أي: المزوقات من الكلام.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 18016 hdr=زخرف] الزُّخْرُفُ: الزينة، وبيت مُزَخْرَفٌ. وتَزَخْرَفَ الرجل: تزين. والزَّخْرُفُ: الذهب. والزَّخارِفُ: ما يُزَخْرَفُ من السفن. والزَّخارِفُ: دويبات تطير على الماء ذوات أربع مثل الذباب.
+
+================================================================================================
+ROOT شكا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is the opening of a small water-skin (shakwah) to expose its contents; this concrete image of revealing what is contained within a vessel underlies all subsequent usage.
+REC haqiqah_literal  : To disclose or expose one's inner distress or grievance; literally, to open a small water-skin and reveal what it holds.
+REC canon_def.ar     : الشَّكْوُ والشَّكَايَةُ والشَّكَاةُ والشَّكْوَى: إظهارُ البَثِّ. وأصلُ الشَّكْوِ: فَتْحُ الشَّكْوَةِ وإظهارُ ما فيها، وهي سِقاءٌ صغيرٌ يُجعل فيه الماءُ. والمِشْكَاةُ: كُوَّةٌ غيرُ نافذةٍ.
+REC canon_def.en     : Complaint, grievance, and lamentation: the disclosure of inner distress. The root origin of complaint is the opening of a small water-skin and the exposure of its contents; it is a small vessel used for water. The mishkāt is a non-piercing  […]
+SRC al-Mufradat      : [line 18571 hdr=شكا] الشكو والشكاية والشكاة والشكوى: إظهار البث، يقال: شكوت واشتكيت (3)، قال تعالى: إنما أشكوا بثي وحزني إلى الله [يوسف/ 86]، وقال: وتشتكي إلى الله [المجادلة/ 1]، وأشكاه أي: يجعل له شكوى، نحو: أمرضه، ويقال: أشكاه أي: أزال شكايته، وروي: «شكونا إلى رسول الله (صلى الله عليه وسلم آله) حر الرمضاء في جباهنا وأكفنا فلم يشكنا» (4) . وأصل الشكو فتح الشكوة وإظهار ما فيه، وهي: سقاء صغير يجعل فيه الماء، وكأنه في الأصل استعارة، كقولهم: بثثت له ما في وعائي، ونفضت ما في جرابي (5): إذا أظهرت ما في قلبك. والمشكاة: كوة غير نافذة. قال تعالى: كمشكاة فيها مصباح [النور/ 35]، وذلك مثل القلب، والمصباح مثل نور الله فيه.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT شها   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is the soul's innate inclination and appetitive pull toward what it desires, rooted in the body's need for what sustains it.
+REC haqiqah_literal  : The literal physical meaning is the soul's appetitive inclination toward an object of desire, specifically the bodily need for what is indispensable to health, such as the craving for food when hungry.
+REC canon_def.ar     : أصل الشهوة: نزوع النفس إلى ما تريده، وذلك في الدنيا ضربان: صادقة، وكاذبة، فالصادقة: ما يختل البدن من دونه كشهوة الطعام عند الجوع، والكاذبة: ما لا يختل من دونه.
+REC canon_def.en     : The root of shahwa is the soul's appetitive inclination toward what it desires. In this world it is of two kinds: true and false. The true is what the body would be impaired without, such as the craving for food when hungry; the false is wh […]
+SRC al-Mufradat      : [line 18818 hdr=شها] أصل الشهوة: نزوع النفس إلى ما تريده، وذلك في الدنيا ضربان: صادقة، وكاذبة، فالصادقة: ما يختل البدن من دونه كشهوة الطعام عند الجوع، والكاذبة: ما لا يختل من دونه، وقد يسمى المشتهى شهوة، وقد يقال للقوة التي تشتهي الشيء: شهوة، وقوله تعالى: زين للناس حب الشهوات [آل عمران/ 14]، يحتمل الشهوتين، وقوله: اتبعوا الشهوات [مريم/ 59]، فهذا من الشهوات الكاذبة، ومن المشتهيات المستغنى عنها، وقوله في صفة الجنة: ولكم فيها ما تشتهي أنفسكم [فصلت/ 31]، وقوله: في ما اشتهت أنفسهم [الأنبياء/ 102]، وقيل: رجل شهوان، وشهواني، وشيء شهي.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT صيص   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a hard, protective, or defensive structure — a fortified enclosure, a horn, a spur, or a hardened date-pit — that serves as a means of defense or resistance.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (as delineated via Lisān al-ʿArab) is: a fortress or stronghold; anything by which one fortifies oneself; specifically, the horn of a bull or the spur of a rooster; and in the dialect of Balḥārith ibn Kaʿb, the hardened, dry date-pit (ḥashaf).
+REC canon_def.ar     : الصِّيصُ: الحَشَفُ من التمر، والصِّيصَةُ: الحصن، وكل ما يُتحصَّن به؛ وقيل لقرن البقر: صِيصَة، وللشوكة التي يقاتل بها الديك: صِيصَة.
+REC canon_def.en     : Ṣīṣ: the hardened, dry date-pit; ṣīṣah: a fortress, and anything by which one fortifies oneself; the horn of a bull is called ṣīṣah, and the spur with which a rooster fights is called ṣīṣah.
+SRC al-Mufradat      : [line 20129 hdr=صيص] قوله تعالى: وأنزل الذين ظاهروهم من أهل الكتاب من صياصيهم [الأحزاب/ 26]، أي: حصونهم، وكل ما يتحصن به يقال له: صيصة، وبهذا النظر قيل لقرن البقر: صيصة، وللشوكة التي يقاتل بها الديك: صيصة، والله أعلم بمراده وأسرار كتابه. تم كتاب الصاد بتوفيق الله تعالى تحت العجاج وأخرى تعلك اللجما ||| كتاب الضاد بسم الله الرحمن الرحيم*، نستعين بالله تعالى، وهو خير معين، الحمد لله حق حمده، والصلاة على خير خلقه، ومظهر حقه محمد وآله وصحبه (1).
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 29089 hdr=صيص] والصِّيصِيةُ: ما كان حِصْناً لكلِّ شيءٍ مثلَ صِيصِيةِ الثَّور وهو قَرْنه، وصِيْصِيَةُ الديك كأنّها مِخلَب في ساقِه. وصِيصِيَة القوم: قلعَتُهم التي يتَحصَّنُون فيها كقِلاع اليهود من قُرَيْظةَ حيثُ أنزَلَهم اللهُ من صَياصيهم. والصَّياصي: شَوْكُ النَّسّاجين، قال دُرَيْد: «299» كوقع الصَّياصي في النَّسيج المُمَدَّدِ «300»
+
+================================================================================================
+ROOT طحا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root طحا is the act of spreading something out flat and extending it outward, closely parallel to the root دحو; it denotes the expansive flattening and outward extension of a surface.
+REC haqiqah_literal  : The literal physical meaning is to spread out, flatten, and extend a thing outward upon a surface, as in the spreading of the earth.
+REC canon_def.ar     : الطَّحْوُ كالدَّحْوِ، وهو البَسْطُ، وفيه لغتان: طَحَا يَطْحُو وطَحَى يَطْحَى.
+REC canon_def.en     : Al-ṭaḥw is like al-daḥw: it is the spreading out flat; it has two dialectal forms: ṭaḥā yaṭḥū and ṭaḥā yaṭḥā.
+SRC al-Mufradat      : [line 20733 hdr=طحا] الطحو: كالدحو، وهو بسط الشيء والذهاب به. قال تعالى: والأرض وما طحاها [الشمس/ 6]، قال الشاعر: 298- طحا بك قلب في الحسان طروب (1) أي: ذهب.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT علا   stratum=Ma
+REC ontological_core : The foundational physical origin of the root is vertical elevation and height above a baseline, conceived as the spatial opposite of lowness (sifl). It denotes the act of rising, ascending, or being positioned above something, whether in physical space or in rank.
+REC haqiqah_literal  : The literal, physical meaning is height, elevation, or the upper part of a thing. It is used primarily for spatial and corporeal elevation, as in 'he rose above the place' or 'the upper part of the house' (ʿilw al-dār). The verb ʿalā (يَعْلُو) is used for both praiseworthy and blameworthy elevation, whereas ʿaliya (يَعْلَى) is reserved for praiseworthy elevation only.
+REC canon_def.ar     : العُلُوُّ: ضِدُّ السُّفْلِ، والارتفاعُ. عَلا يَعْلُو عُلُوًّا فهو عالٍ، وعَلِيَ يَعْلَى عَلَاءً فهو عَلِيٌّ. وعُلْوُ كلِّ شيءٍ وعِلْوُه وعَلْوُه وعُلاوَتُه وعالِيه وعالِيَتُه: أَرْفَعُه.
+REC canon_def.en     : Elevation is the opposite of lowness, and it is rising. He rose, rising, and is high; he was high, being high, and is exalted. The height of anything, its upper part, its summit, and its topmost portion: its highest part.
+SRC al-Mufradat      : [line 23389 hdr=علا] العلو: ضد السفل، والعلوي والسفلي المنسوب إليهما، والعلو: الارتفاع، وقد علا يعلو علوا وهو عال (5)، وعلي يعلى علاء فهو علي (6)، فعلا بالفتح في الأمكنة والأجسام أكثر. قال تعالى: عاليهم ثياب سندس [الإنسان/ 21]. وقيل: إن (علا) يقال في المحمود والمذموم، و(علي) لا يقال إلا في المحمود، قال: إن فرعون علا في الأرض [القصص/ 4]، لعال في الأرض وإنه لمن المسرفين [يونس/ 83]، وقال تعالى: فاستكبروا وكانوا قوما عالين [المؤمنون/ 46]، وقال لإبليس: أستكبرت أم كنت من العالين [ص/ 75]، لا يريدون علوا في الأرض [القصص/ 83]، ولعلا بعضهم على بعض [المؤمنون/ 91]، ولتعلن علوا كبيرا [الإسراء/ 4]، واستيقنتها أنفسهم ظلما وعلوا [النمل/ 14]. والعلي: […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT غرا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is glue or adhesive substance (al-ghirāʾ), derived from fish, used to bind and attach one thing to another; hence the primary sense of sticking, adhering, and cleaving.
+REC haqiqah_literal  : The literal physical meaning is the act of gluing or pasting, as in غَرَوْتُ الجِلْدَ (I glued the hide), and the substance itself, الغِراء (glue), which causes one thing to adhere to another.
+REC canon_def.ar     : الغِراءُ: الذي يُلْصَقُ به الشيءُ، يكونُ من السَّمَكِ. وغَرَا الجِلْدَ: أَلْصَقَهُ بالغِراءِ. وغَرِيَ بكذا: لَهِجَ به ولَصِقَ. وأَغْرَيْتُ فلاناً بكذا: أَلْهَجْتُهُ به.
+REC canon_def.en     : Al-ghirāʾ is that with which a thing is glued, made from fish. He glued the hide: he attached it with glue. He became devoted to something: he became passionately attached and clung to it. I incited someone to something: I made him cling to […]
+SRC al-Mufradat      : [line 24290 hdr=غرا] غري بكذا (2)، أي: لهج به ولصق، وأصل ذلك من الغراء، وهو ما يلصق به، وقد أغريت فلانا بكذا، نحو: ألهجت به. قال تعالى: فأغرينا بينهم العداوة والبغضاء [المائدة/ 14]، لنغرينك بهم [الأحزاب/ 60].
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT قرطس   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is a thin, flat sheet of writing material — specifically papyrus (bardī) manufactured in Egypt — serving as a surface for inscription.
+REC haqiqah_literal  : A physical sheet or scroll of papyrus used for writing; also a type of Egyptian striped cloth (burd) and a stretched hide set up as a target for archery.
+REC canon_def.ar     : القِرْطاس: ما يُكتب فيه، معروف يُتَّخذ من بَرْدِيّ يكون بمصر. وكل أَديم يُنْصَب للنِّضال فاسمه قِرْطاس، ويسمَّى الغَرَض قِرْطاساً.
+REC canon_def.en     : Qirṭās: that upon which one writes; a well-known material made from papyrus (bardī) in Egypt. Every hide set up for archery is called a qirṭās, and the target itself is also called a qirṭās.
+SRC al-Mufradat      : [line 26834 hdr=قرطس] القرطاس: ما يكتب فيه. قال الله تعالى: ولو نزلنا عليك كتابا في قرطاس [الأنعام/ 7]، قل من أنزل الكتاب الذي جاء به موسى نورا وهدى للناس تجعلونه قراطيس [الأنعام/ 91].
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 22252 hdr=قرطس] القِرْطاس [معروف] ، يتخذ من بردي مصر. وكل أديم ينصب للنضال فاسمه: قِرطاس. [يقال] : قَرْطَسَ الرامي إذا أصاب [الأديم] . وجرمز إذا أخطأ، والرمية التي تصيبها اسمها: المُقَرْطَسَة.
+
+================================================================================================
+ROOT لغا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ل-غ-ا is the emission of unstructured, non-referential sound — specifically the chirping of sparrows and similar birds — which carries no semantic weight, no deliberative intent, and no consequential effect. From this acoustic substrate, the root extends to any utterance or act that is discarded, unaccounted for, and yields no benefit.
+REC haqiqah_literal  : The literal physical meaning is sound that is mere noise: the twittering of sparrows and other birds, and by extension any speech emitted without reflection or deliberation, falling outside the domain of intentional, meaningful discourse. It is the acoustic residue that carries no informational or practical payload.
+REC canon_def.ar     : اللَّغْو واللَّغا: السَّقَط وما لا يُعتدّ به من كلام وغيره، ولا يُحصَل منه على فائدة ولا نفع. وقيل: هو ما كان من الكلام غير معقود عليه.
+REC canon_def.en     : Al-laghw and al-laghā: the discarded and the unaccounted-for in speech and otherwise, from which no benefit or utility is obtained. It is also said: that which is of speech not contracted upon.
+SRC al-Mufradat      : [line 30003 hdr=لغا] اللغو من الكلام: ما لا يعتد به، وهو الذي يورد لا عن روية وفكر، فيجري مجرى اللغا، وهو صوت العصافير ونحوها من الطيور، قال أبو عبيدة: لغو ولغا، نحو: عيب وعاب وأنشدهم: 407- عن اللغا ورفث التكلم (5) يقال: لغيت تلغى. نحو: لقيت تلقى، وقد يسمى كل كلام قبيح لغوا. قال: لا يسمعون فيها لغوا ولا كذابا [النبأ/ 35]، وقال: وإذا سمعوا اللغو أعرضوا عنه [القصص/ 55]، لا يسمعون فيها لغوا ولا تأثيما [الواقعة/ 25]، وقال: والذين هم عن اللغو معرضون [المؤمنون/ 3]، وقوله: وإذا مروا باللغو مروا كراما [الفرقان/ 72]، أي: كنوا عن القبيح لم يصرحوا، وقيل: معناه: إذا صادفوا أهل اللغو لم يخوضوا معهم. ويستعمل اللغو فيما لا يعتد به، ومنه اللغو في ال […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ما   stratum=Ma
+REC ontological_core : The root is not a trilateral lexical root but a primitive particle (ḥarf) whose foundational linguistic function is referential indeterminacy: it designates an unspecified entity, quantity, or proposition, and from this core radiate the functions of negation, interrogation, conditionality, relative connection, and generic predication.
+REC haqiqah_literal  : In its literal, non-metaphorical usage, ما is a particle of negation (ḥarf nafy), as in ما فعل (he did not do); it may also function as a relative pronoun equivalent to الذي (that which), as a conditional particle, as an expression covering all categories of the indefinite (ʿibārah ʿan jamīʿ anwāʿ al-nakirah), as a substitute for مَنْ (who), and as a particle of interrogation ( […]
+REC canon_def.ar     : ما: حَرْفُ نَفي، وتكون بمعنى الذي، وتكون بمعنى الشَّرط، وتكون عِبَارة عن جميع أَنواع النكرة، وتكون موضُوعة موضع مَنْ، وتكون بمعنى الاسْتِفهام، وتُبْدَل من الأَلف الهاء فيقال مَهْ.
+REC canon_def.en     : Mā: a particle of negation; it may also mean 'that which'; it may denote conditionality; it may express all categories of the indefinite; it may stand in the place of 'who'; it may function as a particle of interrogation; and the alif may b […]
+SRC al-Mufradat      : [line 31843 hdr=ما] ما في كلامهم عشرة: خمسة أسماء، وخمسة حروف. فإذا كان اسما فيقال للواحد والجمع والمؤنث على حد واحد، ويصح أن يعتبر في الضمير لفظه مفردا، وأن يعتبر معناه للجمع. فالأول من الأسماء بمعنى الذي نحو: ويعبدون من دون الله ما لا يضرهم [يونس/ 18] (4) ثم قال: هؤلاء شفعاؤنا عند الله [يونس/ 18] لما أراد الجمع، وقوله: ويعبدون من دون الله ما لا يملك لهم رزقا ... الآية [النحل/ 73]، فجمع أيضا، وقوله: بئسما يأمركم به إيمانكم [البقرة/ 93]. الثاني: نكرة. نحو: نعما يعظكم به [النساء/ 58] أي: نعم شيئا يعظكم به، وقوله: فنعما هي [البقرة/ 271] فقد أجيز أن يكون ما نكرة في قوله: ما بعوضة فما فوقها [البقرة/ 26]، وقد أجيز أن يكون صلة، فما بعده ي […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 36304 hdr=ما] ما: حرفٌ يكونُ جحداً [كقوله تعالى: ما فَعَلُوهُ إِلَّا قَلِيلٌ مِنْهُمْ «39» . ويكون جزماً [كقوله تعالى: ما يَفْتَحِ اللَّهُ لِلنَّاسِ مِنْ رَحْمَةٍ فَلا مُمْسِكَ لَها، وَما يُمْسِكْ فَلا مُرْسِلَ لَهُ «40» . ويكون صلةً كقوله تعالى: فَبِما نَقْضِهِمْ مِيثاقَهُمْ* «41» ، أي: بنقضهم ميثاقهم. ويكون اسماً يجرى في غير الآدميين. __________ (37) التهذيب 15/ 630 بدون عزو. (38) ديوانه ص 116. (39) سورة النساء 66. (40) سورة فاط […]
+
+================================================================================================
+ROOT وسوس   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root is a faint, concealed sound: the whispering jingle of ornaments and the stealthy murmur of a hunter luring game. From this acoustic substrate, the root's primary sense extends to any hidden, low-voiced utterance that steals into the mind.
+REC haqiqah_literal  : The literal, sensory meaning is the faint sound of jewelry (ḥalī) and the concealed whisper (hams khafī) of a hunter; hence the verb denotes the act of producing such a low, hidden sound.
+REC canon_def.ar     : الوَسْوَسَةُ: الخَطْرَةُ الرَّدِيئَةُ، وأَصْلُهُ مِنَ الوَسْوَاسِ، وهو صَوْتُ الحَلْيِ، والهَمْسُ الخَفِيُّ.
+REC canon_def.en     : Al-Waswasah: the evil thought; its origin is from al-Waswās, which is the sound of ornaments and the concealed whisper.
+SRC al-Mufradat      : [line 35425 hdr=وسوس] الوسوسة: الخطرة الرديئة، وأصله من الوسواس، وهو صوت الحلي، والهمس الخفي. قال الله تعالى: فوسوس إليه الشيطان [طه/ 120]، وقال: من شر الوسواس [الناس/ 4] ويقال لهمس الصائد وسواس.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 30642 hdr=وسوس] الوسوسة: حديث النّفس. والوسواس: الصوت الخفي من ريحٍ تهزّ قصباً ونحوه، وبه يُشَبّه صوتُ الحلي، قال الأعشى «423» : تسمع للحلي وسواسا إذا انصرفت ... كما استعان بريحٍ عِشْرِقٌ زَجِلُ

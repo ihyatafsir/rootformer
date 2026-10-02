@@ -1,0 +1,71 @@
+# Secrets — NEVER COMMIT
+.secrets/
+*.pem
+*.key
+id_ed25519*
+rclone.conf
+*.token
+
+# Large binaries — on Google Drive, not in git
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.npy
+*.npz
+*.gguf
+*.onnx
+
+# Data blobs
+*.jsonl.bz2
+*.parquet
+*.arrow
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+venvs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter / HF
+.ipynb_checkpoints/
+.hf_home/
+.cache/
+
+# Logs and transient output
+*.log
+*.out
+nohup.out
+*.pid
+pid_*.txt
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Corpus mirrors over ~50 MB — pushed to Drive separately
+corpus/**/*.txt
+!corpus/**/README.md
+
+# Training data — lives on Google Drive, never in git (GitHub caps files at 100 MB)
+local_prep/data/
+local_corpus/
+*.jsonl
+*.jsonl.gz
+*_train.json
+*_translated.json
+*.mARkdown
+*.Shamela*
+corpus/*.txt
+build/lisan_fetch/
+build/asas_fetch/
+build/head_fix/
+scratch_pod/

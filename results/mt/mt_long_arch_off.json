@@ -1,0 +1,41 @@
+{
+  "arm": "arch_off",
+  "base": "/workspace/mt_subword_model",
+  "steps": 6000,
+  "n_train": 40000,
+  "n_test": 1500,
+  "test_chrf++": 45.79019983773208,
+  "test_bleu": 25.314474949456105,
+  "samples": [
+    {
+      "src": "ومثاله علة تقتضي الزكاة في الخضراوات وأخرى تنفي الزكاة، وعلة توجب الربا في الأرز وأخرى تنفي.",
+      "ref": "An example is a cause that necessitates alms-tax (zakāh) on vegetables, and another cause that negates alms-tax; and a cause that renders usury (ribā) applicable to rice, and another that negates it.",
+      "hyp": "Its example is a cause that necessitates zakat in al-khirrāt, and another that negates zakāh, and a cause that necessitates usury in rice and another that negates."
+    },
+    {
+      "src": "فلأجل هذا بدأت به؛ لآن المرء إذا هب من نومه فكأنه مقبل من عالم الغيب إلى عالم الشهادة» والنفس مبالة إلى مقتضى عالم الشهادة؛",
+      "ref": "For when a man stirs from his sleep, it is as if he is coming from the world of the unseen (ʿālam al-ghayb) to the world of witness (ʿālam al-shahādah), and the soul is inclined toward the demands of ",
+      "hyp": "For this reason, I began with it; because when a man gives from his sleep, it is as though he is facing from the world of the unseen to the world of testimony.\" And the soul is inclined toward the req"
+    },
+    {
+      "src": "في ذكر الكتاب وآدابهم قالت العلماء ليس شيء أفضل من القلم لأنه به يمكن اعادة السالف والماضي.",
+      "ref": "On the Mention of the Scribe and Their Etiquettes The scholars have said: There is nothing more excellent than the pen, for through it the past and the bygone can be restored and made present anew.",
+      "hyp": "In mentioning the Book and their etiquettes, the scholars said: Nothing is more excellent than the pen, because by it it is possible to restore the preceding and the past."
+    },
+    {
+      "src": "فتلطفت بلطائف الحيل في الخروج من بغداد على عزم أن لا أعاودها أبدا.",
+      "ref": "So I resorted to subtle ruses to leave Baghdad, with the firm resolve never to return to it again.",
+      "hyp": "So I was graciously contrived with the subtleties of tricks in exiting Baghdad, intending not to return them at all."
+    },
+    {
+      "src": "إذ لا يقدر الإنسان على ابتلاعه إلا أن ينزلق باللعاب،",
+      "ref": "For a person cannot swallow except that it slides down with saliva.",
+      "hyp": "For a person cannot swallow it unless he slips through the saliva."
+    },
+    {
+      "src": "ولو أوجب الشرع بأكل الخبز لكنا نقول اللحم والفاكهة والماء في معنى الخبز، إذ اختلاف آلات الإفطار لا ينبغي أن يكون لها مدخل في الكفارة وحذف موجب الإزهاق،",
+      "ref": "And had the Law made expiation obligatory by eating bread, we would say: meat, fruit (fākihah), and water (māʾ) are within the meaning of bread, for the difference of the instruments of breaking the f",
+      "hyp": "And if the Sacred Law were to necessitate eating bread, then we would say: meat, fruit, and water are in the sense of bread, since the variation of the instruments of the Fever should not have an entr"
+    }
+  ]
+}

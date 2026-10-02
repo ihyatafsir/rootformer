@@ -1,0 +1,15 @@
+{
+  "tag": "Q_step1000",
+  "val_windows": 300,
+  "n_positions": 18869,
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "trunk": "/workspace/ghazali_forget/snapshot_Q_step1000.trunk.pt",
+  "live": {
+    "n": 18869,
+    "acc@1": 0.06656420230865479,
+    "acc@5": 0.12565584480762482,
+    "ce_raw": 7.666498184204102,
+    "ce_z": 8.103699684143066,
+    "logit_scale": 0.6538338661193848
+  }
+}

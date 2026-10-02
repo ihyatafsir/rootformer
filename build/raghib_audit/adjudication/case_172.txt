@@ -1,0 +1,10 @@
+================================================================================================
+ROOT خرعب   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on the notion of a fresh, supple, and elevated offshoot—specifically a tender, sap-rich branch or shoot that rises prominently from a tree, and by extension, a freshly cut slice or segment of a moist, fleshy vegetable or fat.
+REC haqiqah_literal  : The literal physical meaning according to the classical lexicographers is: a piece or slice of a gourd, cucumber, or fat; and a tender, succulent, elevated branch or twig of a tree, especially one of the current year's growth.
+REC canon_def.ar     : الخُرْعُوبةُ: القِطْعةُ من القَرْعةِ والقِثَّاءِ والشَّحْمِ. والخَرْعَبُ والخُرْعُوبُ والخُرْعُوبةُ: الغُصْنُ لسَنَتِه، وقيل: هو القَضِيبُ السامِقُ الغَضُّ، وقيل: هو القَضِيبُ الناعِمُ الحديثُ.
+REC canon_def.en     : Al-Khurʿūbah: a piece of gourd, cucumber, or fat. Al-Kharʿab, al-Khurʿūb, and al-Khurʿūbah: a branch of the current year's growth; it is also said to be a tall, fresh twig; and it is said to be a tender, new branch.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 7241 hdr=خرعب] الخُرْعُوبة «42» : القطعةُ من القَرْعة والقِثّاء والشَّحْم. الخَرْعَبَةُ: الشَّابةُ الحسَنةُ القوام، وكأنَّها خُرعُوبةٌ من خَراعيب الأغصان من بَنات سَنَنها. ويقال: جَمَل خُرْعُوب أيْ طويلٌ في حُسْن خلق. __________ (40) التهذيب 3/ 269 ونسب فيه إلى غيلان. (41) في التهذيب 3/ 273 العلهم بكسر فسكون ففتح فتشديد الضخم العظيم من الإبل، وأنشد: لقد غدوت طاردا وقانصا ... أقود علهما أشق شاخصا (42) كذا في الأصول المخطوطة واللسان  […]

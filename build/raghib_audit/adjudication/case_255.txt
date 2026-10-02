@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ناث   stratum=ma
+REC ontological_core : The root ن-و-ث (n-w-th) denotes the fundamental act of agitating, shaking, or loosening a thing from its compacted or settled state, and by extension, the scattering or dispersing of its constituent parts.
+REC haqiqah_literal  : To shake or agitate something so as to loosen it, or to scatter and disperse it; said of a thing that is stirred up and broken apart.
+REC canon_def.ar     : نَاثَ الشَّيْءَ يَنِيثُهُ نَيْثًا: حَرَّكَهُ وَفَرَّقَهُ. وَالنَّيْثُ: التَّحْرِيكُ وَالتَّفْرِيقُ.
+REC canon_def.en     : He shook the thing and dispersed it; al-nayth is the act of shaking and dispersing.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

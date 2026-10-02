@@ -1,0 +1,244 @@
+================================================================================================
+ROOT رمغ   stratum=ma
+REC ontological_core : The foundational physical act of rubbing, kneading, or working a supple material (such as leather) with the hand, involving repeated pressure and friction to soften or manipulate it.
+REC haqiqah_literal  : To rub or knead something with the hand, as one works a hide or similar material.
+REC canon_def.ar     : رَمَغَ الشيءَ يَرْمَغُه رَمْغاً: دَلَكَه بيدِه كما تَدْلُك الأَدِيمَ ونحوَه. ورُماغٌ ورِماغٌ: موضعٌ.
+REC canon_def.en     : He rubbed or kneaded the thing with his hand, as one works a hide or the like. And Rumāgh or Rimāgh: a place name.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 29155 hdr=رمغ] الراء والميم والغين لا أصل له، إلا بعض ما يأتى به ابن دريد، من رمغت الشىء، إذا عركته بيدك، كالأديم وغيره.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT زهك   stratum=ma
+REC ontological_core : The foundational physical origin of the root زهك is the abrasive friction or grinding of one hard surface against another, specifically the action of rubbing or scraping between two stones, producing a harsh, rasping effect. This core image of friction and attrition underlies all subsequent applications.
+REC haqiqah_literal  : The literal physical meaning is the act of rubbing, scraping, or grinding between two stones (al-jashsh bayna ḥajarayn), and the abrasive action of wind upon a surface, stripping or scouring it away.
+REC canon_def.ar     : الزَّهْكُ مِثْلُ السَّهْكِ: وَهُوَ الجَشُّ بَيْنَ حَجَرَيْنِ. وَزَهَكَتْهُ الرِّيحُ تَزْهَكُهُ: كَسَهَكَتْهُ، وَالسِّينُ أَعْلَى.
+REC canon_def.en     : Al-zahk is like al-sahk: it is the rubbing or grinding between two stones. And the wind scoured it (zahakat-hu) — like sahakathu — though the variant with sīn is more authoritative.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 32190 hdr=زهك] الزاء والهاء والكاف ليس فيه شىء إلا أن ابن دريد ذكر أنهم يقولون: زهكت الريح التراب، مثل سهكت. بل من أحس بريمى اللذين هما قلبى وعقلى فعقلى اليوم مزدهف ||| باب الزاء والواو وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT شوع   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root شوع is the dispersal, scattering, and unruly spreading of hair, such that individual strands separate and stand apart in a manner resembling thorns (شَوْك) — a condition of disheveled, bristling separation rather than smooth cohesion.
+REC haqiqah_literal  : The literal physical meaning is the spreading and dispersion of hair (انتشار الشعر وتفرقه), where the hair becomes disheveled and separates into distinct, thorn-like strands, particularly as manifest on the cheeks (خدّين) of a woman, producing a rough, unkempt texture.
+REC canon_def.ar     : الشَّوَعُ: انْتِشارُ الشَّعر وتَفَرُّقُه كأَنَّه شَوْك
+REC canon_def.en     : Al-Shawaʿ: the spreading and dispersion of hair such that it resembles thorns.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 37725 hdr=شوع] الشين والواو والعين أصل يدل على انتشار وتفرق. من ذلك: الشوع، وهو انتشار الشعر وتفرقه. والشوع: شجر (1) ولعله متفرق النبت.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ضفع   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ض-ف-ع is the emission of excrement or the act of defecation, specifically denoting the expulsion of waste from the body. It is a primary, concrete bodily function, with a variant root فضع carrying the same meaning.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the act of defecating or excreting, as in ضَفَعَ الرجلُ (the man defecated). It also extends to the emission of urine and dung, as in ضَفَعَ بِبَوْلِهِ وَسَلَحَ (he urinated and defecated).
+REC canon_def.ar     : ضَفَعَ الرجلُ يَضْفَعُ ضَفْعاً: جَعَسَ وأَحْدَثَ، وقيل: أَبْدَى، وفَضَعَ لغة فيه. ويقال: ضَفَعَ وقَعَ بِبَوْلِه وسَلَحَ. وقال ابن الأَعرابي: نَجْوُ الفيل الضَّفْعُ.
+REC canon_def.en     : A man defecated, he excreted and produced waste; it is also said: he exposed [excrement]. فَضَعَ is a variant dialect form. It is said: he defecated, he urinated and defecated. Ibn al-Aʿrābī said: The dung of the elephant is called al-ḍafʿ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 41713 hdr=ضفع] الضاد والفاء والعين ليس بشىء. على أن الخليل حكى ضفع: جعس. والسلم (1). ||| باب الضاد والكاف وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT طبس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of overlaying, covering, or fitting one thing closely upon another, such that the two correspond and coincide — a concrete operation of physical matching and concealment.
+REC haqiqah_literal  : The literal physical meaning is التَّطْبِيس (al-taṭbīs), the act of applying or fitting one thing over another (التَّطْبِيق), i.e., bringing two surfaces or entities into close correspondence and covering.
+REC canon_def.ar     : التَّطْبِيسُ: التَّطْبِيقُ. والطَّبَسَان: كُورَتَانِ بِخُرَاسَانَ.
+REC canon_def.en     : Al-taṭbīs is the act of fitting or overlaying (al-taṭbīq). And al-Ṭabasān refers to two districts in Khurāsān.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 43843 hdr=طبس] الطاء والباء والسين ليس بشىء. على أنهم يقولون: الطبسان: كورتان. وهذا وشبهه مما لا معنى لذكره؛ لأنه إذا ذكر ما أشبه كله حمل على كلام العرب ما ليس هو منه. وكذلك قول من قال (2): إن التطبيس: التطبين (3).
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 29548 hdr=طبس] التَّطبيسُ والتطبين واحدٌ. والطَّبَسانِ: كُورتانِ من كُوَرِ خراسان «130» . باب السين والطاء والميم معهما م س ط، س ط م، ط س م، ط م س، م ط س، س م ط مستعملات
+
+================================================================================================
+ROOT فجس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; however, the Lisān material points to a core sense of swelling, rising, and towering—a physical expansion upward that manifests as haughtiness and self-magnification.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is not explicitly attested; based on Lisān al-ʿArab, the ḥaqīqah is the act of swelling, rising, and towering physically, as in the swelling of a she-camel's hump or the rising of a structure.
+REC canon_def.ar     : الفَجْسُ والتَفَجُّس: عَظَمة وتَكَبّر وتطاوُل.
+REC canon_def.en     : Al-fajs and al-tafajjus: greatness, pride, and self-elevation.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 57900 hdr=فجس] الفاء والجيم والسين كلمة إن صحت. يقولون: الفجس: التكبر والتعظم. يقال منه: تفجس.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 24808 hdr=فجس] الفَجسُ من التَّفجُّسِ وهو العظمة والتَّطاول، قال العجّاج: خليفة ساس بغير فجس «1» والفعل على تفعل، قال الأعشى: يكاد يصرعها لولا تَفَجُّسها ... إذا تقومُ إلى جاراتها، الكسلُ «2» باب الجيم والسين والباء معهما ج ب س، ب ج س، س ب ج مستعملات
+
+================================================================================================
+ROOT مسط   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root م س ط is the manual insertion of the hand into the reproductive cavity of a she-camel or mare to extract the accumulated seminal fluid (wathr) that has failed to result in conception after repeated copulation. The root thus denotes a concrete veterinary intervention: a tactile, evacuative act performed by the herdsman to cleanse the womb and restore fertility.
+REC haqiqah_literal  : The literal physical meaning, as attested in Lisān al-ʿArab, is the act of a man inserting his hand into the vagina of a she-camel to extract the wathr—the retained water of the stallion that has coagulated in the womb due to excessive mounting without conception. The verb مَسَطَ النَّاقَةَ / الفَرَسَ يَمْسُطُهَا مَسْطًا signifies this direct manual extraction.
+REC canon_def.ar     : المِسْطُ: أَن يُدخِل الرجُل يدَه في حَياء الناقة فيستَخْرِج وَثْرها، وهو ماء الفحل يجتمع في رحمها، وذلك إِذا كثر ضِرابُها ولم تَلْقَح. ومَسَطَ الناقَةَ والفَرَسَ يَمْسُطُها مَسْطاً: أَدخل يدَه في حَيائها فاستخرج وَثْرها.
+REC canon_def.en     : Al-misṭ is the act of a man inserting his hand into the vagina of a she-camel to extract the wathr—the stallion's fluid that accumulates in her womb when she has been repeatedly mounted without conceiving. He masata the she-camel or the mar […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 68296 hdr=مسط] الميم والسين والطاء أصل صحيح يدل على خرط شيء رطب (1)، وعلى امتداده من تلقاء نفسه. يقال إن المسيطة (2): ما يبقى في الحوض من الماء بكدورة قليلة. قال الأصمعى بئر ضغيط، وهو الركى إلى جنبه ركى آخر فيحمأ فينتن فيسيل في الماء العذب فلا يشرب، فالبئر ضغيط، وذلك الماء مسيط. قال: يشربن ماء الآجن الضغيط ولا يعفن كدر المسيط (3) ومن الباب المسط: أن تخرط في السقاء من لبن خاثر بأصابعك ليخثر
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 29551 hdr=مسط] ومَسَطَ يَمسُط مسطاً، وهو خَرْطُكَ ما في المِعَى باِصبَعِكَ ونحوُه لتُخرجَ ما فيه. واذا نَزا على الفَرَسِ الكريمة فحل لئيم أدخل رجل يَدَه فخَرَط ماءه من رَحِمِها، يقال: مَسَطَها ومَصَتَها ومَساها (يَمسي ويمسُو) ، وكأنَّهم عاقبوا بين التاء والطاء في هذه الكلمة. __________ (129) البيت في اللسان (للمتنخل) ، وفي التهذيب إشارة إليه فأثبت المحقق أنه (المنخل) (كذا) ، والبيت في ديوان الهذليين 2/ 29. وجاء بعد البيت في الأصول  […]
+
+================================================================================================
+ROOT مكد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the notion of fixed, unmoving persistence in a place or state — a thing that stays put and does not shift, flow away, or dissipate. From this concrete sense of stationary continuance, the root extends to denote anything enduring, perpetual, or unceasing, such as water that remains and does not dry up.
+REC haqiqah_literal  : The literal physical meaning is: to remain, stay, abide, or dwell in a place (مَكَدَ بالمكان يَمْكُدُ مُكُوداً: أَقام به). It is synonymous with ثَكَمَ (to stay) and رَكَدَ (to be still, motionless). Applied to water, ماءٌ ماكِدٌ denotes water that is permanent, unfailing, and never ceasing — standing water that persists rather than draining or evaporating.
+REC canon_def.ar     : مَكَدَ بالمكان يَمْكُدُ مُكُوداً: أَقام به؛ وثَكَمَ يَثْكُم مثله، ورَكَدَ رُكوداً. وماءٌ ماكِدٌ: دائمٌ.
+REC canon_def.en     : مَكَدَ in a place, يَمْكُدُ مُكُوداً: he stayed or dwelt there; ثَكَمَ يَثْكُم is the same, and رَكَدَ رُكوداً [is likewise]. And ماءٌ ماكِدٌ means perpetual, unfailing water.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69039 hdr=مكد] الميم والكاف والدال كلمة تدل على ثبات. ومكد بالمكان: أقام. قال أبو عبيد: وهو من قولهم: ناقة مكود، إذا ثبت غزرها. ويقال إن البئر الماكدة: التي ثبت ماؤها على قرن واحد لا يتغير. والقرن قرن القامة.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 23227 hdr=مكد] مكَدَتِ الناقة: نقص لبنها من طول العهد، قال: قد حارد الخور وما تحارد ... حتى الجلاد درهن ماكِدُ «2» ومكَدَتٍ الناقة: دام لبنها فلم ينقطع، فلا أدري أمن الأضداد [هي] أم لا. وقال [بعض العرب] في صفة عجوز: ما ثديها بناهد ولا درها بماكد [ولا فوها ببارد] «3» . __________ (1) لم نهتد إلى الراجز، ولا إلى الرجز في غير الأصول. (2) الرجز في التهذيب 10/ 131، واللسان (مكد) ، غير منسوب أيضا. (3) ما بين القوسين من العين- رواية التهذ […]
+
+================================================================================================
+ROOT نهط   stratum=ma
+REC ontological_core : The foundational physical act of piercing or thrusting a sharp implement—specifically a spear—into a body, constituting a violent, penetrative impact.
+REC haqiqah_literal  : To pierce or stab someone with a spear (ramḥ), a direct, physical act of penetration.
+REC canon_def.ar     : نَهَطَه بالرُّمْح نَهْطاً: طعنَه به.
+REC canon_def.en     : He pierced him with the spear with a thrust.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69595 hdr=نهط] النون والهاء والطاء زعم ابن دريد (3) النهط الطعن. ونهطه بالرمح: طعنه به
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT هكر   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the state of being overwhelmed by astonishment — a cognitive-affective rupture in which the mind is seized by an object or event that exceeds its ordinary categories of expectation and comprehension.
+REC haqiqah_literal  : The literal, non-figurative meaning is intense wonder or astonishment (al-ʿajab al-shadīd); the verbal noun denotes the sheer magnitude of amazement, and the derived verb describes a person whose astonishment has become acute and overpowering.
+REC canon_def.ar     : الهَكْرُ: العَجَبُ، وقيل: الهَكْرُ أَشدُّ العجبِ. هَكِرَ يَهْكَرُ هَكَراً وهِكْراً، فهو هَكِرٌ: اشتدَّ عَجَبُه.
+REC canon_def.en     : Al-hakr is astonishment; it is also said that al-hakr is the most intense form of astonishment. He was astonished, being astonished with astonishment and intense wonder, so he is wonder-struck: his astonishment became acute.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 74891 hdr=هكر] الهاء والكاف والراء كلمتان: الهكر: العجب. قال: فاعجب لذلك ريب دهر واهكر (3) قال الخليل: تقول هكرا لك. والكلمة الأخرى:* اعتراء النعاس. قال: وهكر الرجل: اعتراه نعاس وكل، واسترخت عظامه ومفاصله. إذا هرق المهقوع بالمرء أنعظت حليلته وازداد حرا عجانها فقد الشباب أبوك إلا ذكره
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جاز   stratum=mA
+REC ontological_core : The foundational physical origin of the root جاز is the act of traversing, passing through, or crossing over a boundary, barrier, or medium—whether a road, a valley, a river, or a choking obstruction in the throat—such that the traverser moves from one side, state, or condition to another.
+REC haqiqah_literal  : The literal physical meaning is to pass or cross over something, as in crossing a road (جاز الطريق), traversing a valley (جاز الوادي), or passing through water (جاز الماء). It also denotes the physical act of a choking morsel or obstruction passing down the throat, as in the expression 'يا ماء إن أجأزت فكم أجزت من غصة' (O water, if you pass, how many a choking morsel have you p […]
+REC canon_def.ar     : جاز: أصلٌ يدلُّ على النُّفُوذ والمُضِيِّ في الشيء، يقال: جاز الطريقَ، وجاز الماءَ، وجازت الغُصَّةُ في الحلق. ثم استُعير للجواز بمعنى الإباحة والإمضاء، وللجائز في المنطق والكلام بمعنى الممكن الذي لا يمتنع وجوده ولا عدمه.
+REC canon_def.en     : Jāza: The root signifies penetration and passage through a thing. One says: he crossed the road, he passed through the water, and the choking morsel passed down the throat. It is then metaphorically extended to permissibility in the sense o […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : فلان جئز شئز أي شرق قلق. وتقول: يا ماء إن أجأزت، فكم أجزت، من أجاز الغصة.
+SRC Ayn (al-Khalil)  : [line 25865 hdr=جأز] الجأزُ: كهيئة الغصص، يأخذ في الصَّدر عِند الغيظ.. جئز يجأزُ جأزاً فهو جَئِزٌ. قال «1» : يسقي العدى غيظاً طويل الجأزِ
+
+================================================================================================
+ROOT خبب   stratum=mA
+REC ontological_core : The foundational physical origin of the root خبب is rapid, oscillating locomotion—specifically, a gait in which a mount moves its right limbs together and then its left limbs together, or alternately swings forelegs and hindlegs, producing a swift, rocking, uneven motion. From this kinetic core radiate secondary physical senses: a long strip or fold of cloth (خُبَّة/خَبِيبة), and a cutaneous disease or mange (خَبَب/جَرَب) that […]
+REC haqiqah_literal  : In its strict literal sense, خَبَب denotes a specific mode of running: the horse's simultaneous movement of all right limbs then all left limbs, or the alternating swing of forelegs and hindlegs; it is also used for the camel. Hence خَبَّت الدَّابَّةُ تَخُبُّ خَبّاً وخَبَباً وخَبِيباً: the mount moved with this gait. Literally, خُبَّة and خَبِيبة denote a long, extended strip o […]
+REC canon_def.ar     : الخَبَبُ: ضَرْبٌ من العَدْوِ، وقيل: هو مِثْلُ الرَّمَلِ، وقيل: هو أَن يَنْقُل الفَرَسُ أَيامِنَه جميعاً وأَياسِرَه جميعاً، وقيل: هو أَن يُراوِحَ بين يديهِ ورجليهِ، وكذلك البعير؛ وقيل: الخَبَب السُّرْعَة. والخُبَّةُ والخَبِيبةُ: شِبْهُ طِيَّةٍ من الثوب مستطيلة. والخَبُّ: الجَرَبُ.
+REC canon_def.en     : Al-Khabab is a mode of running; it is said to resemble the ramal; it is said to be the horse's simultaneous movement of all its right limbs and then all its left limbs; it is said to be the alternating swing between its forelegs and hindleg […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [majaz_metaphorical]        : خب البحر. وأصابهم الخب إذا التوت عليهم الرياح واضطربت الأمواج، فلجؤوا إلى الشط، وألقوا الأنجر. وخب النبات: طال وارتفع. واعترضتنا خبة من الرمل وخبيبة أي طريقة. وقطع لي خبة من اللحم وخبيبة.
+SRC Asas [bilingual_haqiqah_majaz]        : اعصب يدك بالخبة والخبيبة وهي شبه طية من الثوب مستطيلة، وثوب خبائب مثل شبارق. ورجل خب بين الخب وهو الجربزة، وامرأة خبة، وقد خب يخب. وفي حديث Metaphorical (Majaz): خب البحر. وأصابهم الخب إذا التوت عليهم الرياح واضطربت الأمواج، فلجؤوا إلى الشط، وألقوا الأنجر. وخب النبات: طال وارتفع. واعترضتنا خبة من الرم
+SRC Asas [haqiqah_literal]        : اعصب يدك بالخبة والخبيبة وهي شبه طية من الثوب مستطيلة، وثوب خبائب مثل شبارق. ورجل خب بين الخب وهو الجربزة، وامرأة خبة، وقد خب يخب. وفي حديث عمر رضي الله عنه: ما تكلم أحد بالفارسية إلا خب، وما خب إلا ذهبت مروءته. وخبب عليه عبده وأمته وامرأته: أفسد. وخب الفرس خببا وخبيبا، وجاؤا تخب
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT خفش   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root خ ف ش is a congenital or acquired defect in the eye characterized by smallness, narrowness, and weakness of vision, without pain or ulceration.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is the smallness of the eyes and weakness of sight; a man is described as أَخْفَش (akhfash) and the condition is خَفَش (khafash). The verb خَفِشَتْ عَيْنُهُ (khafishat ʿaynu-hu) means his eye became weak or small.
+REC canon_def.ar     : الخَفَشُ: ضعف في البصر وضيق في العين، وقيل: صغرٌ في العين خلقةً، وقيل: هو فساد في جفن العين واحمرار تضيق له العيون من غير وجع ولا قُرْحٍ، خَفِش خَفَشاً، فهو خَفِشٌ وأَخْفَشُ.
+REC canon_def.en     : Al-Khafash: weakness of vision and narrowness of the eye; it is said to be a congenital smallness of the eye; or it is a corruption in the eyelid and a redness that causes the eyes to narrow, without pain or ulceration. One says khafisha kh […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : رجل أخفش، وبه خفش وهو صغر العينين وضعف البصر، وقد خفشت عينه. خ قال: ض خفض الشيء ورفعه فانخفض. وهو في حال رفعة وحال خفضة. وختن الغلام، وخفضت Metaphorical (Majaz): خفض صوته ورفعه. وكلام مخفوض و
+SRC Asas [majaz_metaphorical]        : خفض صوته ورفعه. وكلام مخفوض و
+SRC Asas [haqiqah_literal]        : رجل أخفش، وبه خفش وهو صغر العينين وضعف البصر، وقد خفشت عينه. خ قال: ض خفض الشيء ورفعه فانخفض. وهو في حال رفعة وحال خفضة. وختن الغلام، وخفضت الجارية. وفلانة خافضة. ونعمت الخافضة! وخفض رأس البعير إلى الأرض. قال: يكاد يستعصي على مخفضه
+SRC Ayn (al-Khalil)  : [line 16002 hdr=خفش] الخَفَشُ: فسادٌ في الجفون تضيق له العيون من غير وجعٍ ولا قرحٍ. رجلٌ أَخْفَشُ.
+
+================================================================================================
+ROOT دقن   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root دقن centers on the striking or jabbing of the chin/jaw with the collected palm or fist, and by extension the chin itself as the bodily locus of such a blow; from this concrete somatic action the root also branches into the small stones that support a cooking pot (أثافي القدر), likely by analogy of their compact, chin-like protrusion or their being struck into place.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is to strike or jab someone on the chin/jaw with the collected palm or fist (دقن في حليه إذا لكزه لكزة بجمع كفه); the chin/jaw itself (اللحية/اللحي) is then named by this action, as in the Baghdadi expression في دقنك, meaning 'on your chin/beard.'
+REC canon_def.ar     : الدَّقْنُ: الضَّرْبُ بِجُمْعِ الكَفِّ عَلَى اللَّحْيِ؛ وَالدِّقْدَانُ وَالدِّيقَانُ: أَثَافِي القِدْرِ.
+REC canon_def.en     : Al-Daqn: striking with the collected palm on the jaw/chin; al-diqdān and al-dīqān: the stones that support a cooking pot.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : دقن في حليه إذا لكزه لكزة بجمع كفه، ثم قالوا للمحروم دقن في لحيه. ويقول أهل بغداد: في دقنك أي في لحيتك.
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT رصص   stratum=mA
+REC ontological_core : The foundational physical origin of the root رصص is the act of tightly joining, compacting, and aligning solid discrete units—such as stones, bricks, or teeth—into a single cohesive, interlocked structure, eliminating gaps and ensuring firm mutual support.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the construction of a tightly packed, well-aligned building (بنيان مرصوص ومرصص), the compacting of stones (ارتصت الجنادل وترصصت), the close alignment of teeth (في أسنانه رصص), and the act of a hen or ostrich gathering and arranging its eggs with beak and feet (رصت الدجاجة والنعامة بيضها).
+REC canon_def.ar     : رَصَّ البُنْيَانَ يَرُصُّهُ رَصًّا، فَهُوَ مَرْصُوصٌ وَرَصِيصٌ، وَرَصَّصَهُ: أَحْكَمَهُ وَجَمَعَهُ وَضَمَّ بَعْضَهُ إِلَى بَعْضٍ. وَكُلُّ مَا أُحْكِمَ وَضُمَّ فَقَدْ رُصَّ.
+REC canon_def.en     : He compacted the building, joining it tightly; it is marṣūṣ and raṣīṣ. He made it tight: he perfected it, gathered it, and joined its parts to one another. Everything that is made firm and joined together is said to be raṣṣed.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : بنيان مرصوص ومرصص. وقد ارتصت الجنادل وترصصت. وفي أسنانه رصص. ورجل أرص وامرأة رصاء. وتراصوا في الصلاة وارتصوا. ورصت الدجاجة والنعامة بيضها: س Metaphorical (Majaz): إن فلانا لرصاصة إذا كان بخيلا يشبه بالحجر أو بهذا الجوهر كما قيل: رجل فلز.
+SRC Asas [haqiqah_literal]        : بنيان مرصوص ومرصص. وقد ارتصت الجنادل وترصصت. وفي أسنانه رصص. ورجل أرص وامرأة رصاء. وتراصوا في الصلاة وارتصوا. ورصت الدجاجة والنعامة بيضها: سوته بمنقارها ورجليها لتقعد عليه. وبيض رصيص. قال امرؤ القيس: على نقنق هيق له ولعرسه ... بمنعرج الوعساء بيض رصيص وامرأة رصاء الفخذين: خلاف بدا
+SRC Asas [majaz_metaphorical]        : إن فلانا لرصاصة إذا كان بخيلا يشبه بالحجر أو بهذا الجوهر كما قيل: رجل فلز.
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT رفف   stratum=mA
+REC ontological_core : The foundational physical origin of the root رفف is a subtle, rapid, and shimmering motion or vibration—a light quivering or flickering that manifests as a gleam, a flutter, or a delicate oscillation. It denotes the slightest perceptible movement or radiance, such as the shimmer of a polished surface, the quiver of a leaf, or the flutter of a wing, without any substantial displacement.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah centers on: (1) the light, rapid movement of the lips in eating or kissing, as in 'يَرُفُّ شفتيها' (he moves his lips over hers); (2) the eating of herbs or plants by an animal, nibbling them delicately; (3) the shimmering and sparkling of color or teeth; (4) the quivering and swaying of plants in fresh luxuriance; (5)  […]
+REC canon_def.ar     : رَفَّ لونُه يَرِفُّ رَفّاً ورَفيفاً: بَرَقَ وتَلأْلأَ، وكذلك رَفَّتْ أَسنانه. ورَفَّ النباتُ يَرِفُّ: اهتزَّ نضارةً وتلألؤاً. ورَفْرَفَ الطائرُ: حرَّك جناحيه وهو لا يبرح مكانه. وثوبٌ رَفيفٌ: رقيقٌ. وذهب من كان يَحُفُّه ويَرُفُّهُ أَي يضمه ويحبه ويشفق عليه.
+REC canon_def.en     : His color shimmered with a rapid, delicate motion (rafā yarifu raffan wa-rafīfan): it gleamed and sparkled, and likewise his teeth shimmered. The plant quivered with freshness and radiance. The bird fluttered its wings while remaining in pl […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : بات يرف شفتيها: يرشفهما. وفي حديث أبي هريرة " إني لأرف شفتيها وأنا صائم " ورف البقل ونحوه: أكله. قال: والله لولا خشيتي أباك ... ورهبتي من جانب أخاك إذا لرفت شفتاي فاك ... رف الغزال ثمر الأراك وروي ورق. وذهب من كان يحفه ويرفه أي يضمه ويحبه ويشفق عليه شفقة من يرف ولده أو حبيبه. وما
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT زلل   stratum=mA
+REC ontological_core : The foundational physical origin of the root زلل is the act of slipping, sliding, or losing one's footing upon a surface—whether descending from a rock, sliding in mud, or an arrow glancing off a shield. It denotes a sudden, unintended departure from a stable position or intended trajectory.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is: slipping from a rock or in mud (زل عن الصخرة وفي الطين زليلا); a place of slipping (مزلة); a man with a slipping foot or speech (سمع أزل); a woman who slips (امرأة زلاء); and God causing the earth to shake (زلزل الله الأرض زلزالا).
+REC canon_def.ar     : زَلَّ السَّهْمُ عن الدِّرْع، والإنسانُ عن الصخرة يَزِلُّ ويَزَلُّ زَلاًّ وزَلِيلاً ومَزِلَّة: زَلِقَ. وزَلَلْتَ يا فلان تَزِلُّ زَلِيلاً إذا زَلَّ في طِين أو مَنْطِق.
+REC canon_def.en     : The arrow slipped off the shield, and a person slipped from the rock—he slips, slipping, and a place of slipping: he slid. And you, O so-and-so, slipped with a slipping when you slipped in mud or in speech.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : زل عن الصخرة وفي الطين زليلا. وهذه مزلة من المزال. وسمع أزل. وامرأة زلاء. وزلزل الله الأرض زلزالا. Metaphorical (Majaz): زل في قوله ورأيه زلة وزللا. وأزله الشيطان عن الحق واستزله. و
+SRC Asas [majaz_metaphorical]        : زل في قوله ورأيه زلة وزللا. وأزله الشيطان عن الحق واستزله. و
+SRC Asas [haqiqah_literal]        : زل عن الصخرة وفي الطين زليلا. وهذه مزلة من المزال. وسمع أزل. وامرأة زلاء. وزلزل الله الأرض زلزالا.
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT مضض   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root م-ض-ض is a sharp, penetrating burning or biting sensation—like the sting of collyrium in the eye or the smart of a wound—that causes acute pain and distress.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is: pain, grief, or words that cause a burning, piercing sensation; to be afflicted by a calamity or speech in a manner that stings and hurts; and the application of kohl to the eye, which causes a biting smart.
+REC canon_def.ar     : المَضُّ: الحُرْقَةُ. مَضَّني الهَمُّ والحُزْنُ والقول يَمُضُّني مَضّاً ومَضِيضاً وأَمَضَّني: أَحْرَقَني وشقّ عليّ. والهمُّ يَمُضُّ القلبَ أَي يُحْرِقُه.
+REC canon_def.en     : Al-Maḍḍ is burning. Anxiety, sorrow, or speech burns me with a burning and intense pain; and it caused me burning pain: it burned me and was severe upon me. Anxiety burns the heart, i.e., it scorches it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [majaz_metaphorical]        : ما مضمضت عيني بالنوم أرقا وما تمضمضت. قال المروح السلمي: لما اتكأن على النمارق مضمضت ... بالنوم أعينهن غير غرار وتمضمض النوم في عينه. قال: يمسح بالكفين وجها أبيضا ... إذا الكرى في عينه تمضمضا
+SRC Asas [haqiqah_literal]        : أمضني الوجع والهم ومضني، وضربه فأمضه ومضه، والكحل يمض عيني، ومضضت من المصيبة ومن كلامك مضيضا بكسر العين.
+SRC Asas [bilingual_haqiqah_majaz]        : أمضني الوجع والهم ومضني، وضربه فأمضه ومضه، والكحل يمض عيني، ومضضت من المصيبة ومن كلامك مضيضا بكسر العين. Metaphorical (Majaz): ما مضمضت عيني بالنوم أرقا وما تمضمضت. قال المروح السلمي: لما اتكأن على النمارق مضمضت ... بالنوم أعينهن غير غرار وتمضمض النوم في عينه. قال: ي
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT مقق   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is extreme elongation combined with extreme thinness — a stretched, attenuated bodily frame, and by extension the act of drawing out or extracting something entirely from its container.
+REC haqiqah_literal  : In its literal physical sense, مَقَق denotes excessive length conjoined with fineness or slenderness; a man is described as أَمَقّ and a woman as مَقَّاء, and a horse as أَشَقّ أَمَقّ. It also denotes the complete extraction of marrow from a bone (تَمَقَّقْتُ ما في العظم) and the draining of milk from the udder by a young camel (تَمَقَّقَ الفصيل ما في الضرع).
+REC canon_def.ar     : المَقَقُ: الطول عامة، وقيل: هو الطول الفاحش في دقة. ورجل أمق وامرأة مقاء. وتمققت ما في العظم: استخرجته كله. وفلان مقامق: يتكلم بأقصى حلقه.
+REC canon_def.en     : Al-Maqaq denotes length in general; it is also said to be excessive length combined with slenderness. A man is described as amaqq and a woman as maqqā'. TamAqqaqtu mā fī al-'aẓm means 'I extracted everything within the bone.' Fulān muqāmiq  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [majaz_metaphorical]        : بلد أمق، وأرض مقاء: بعيدة الأرجاء. قال الكميت يصف ظالما: تمقق أخلاف المعيشة منهم ... رضاعا وأخلاف المعيشة حفل
+SRC Asas [haqiqah_literal]        : رج أمق، وامرأة مقاء، والمقق: طول في دقة، وفرس أشق أمق، ووصف أعرابي فرسا فقال: شقاء مقاء، طويلة الأنقاء. وتمققت ما في العظم: استخرجته كله. وتمقق الفصيل ما في الضرع. وفلان مقامق: يتهكلم بأقصى حلقه. وعن بعض العرب: مق الله عيني وإلا فلا بلغ الله بي ظلام الليل إن كنت جلست مجلسا إلا ذه
+SRC Asas [bilingual_haqiqah_majaz]        : رج أمق، وامرأة مقاء، والمقق: طول في دقة، وفرس أشق أمق، ووصف أعرابي فرسا فقال: شقاء مقاء، طويلة الأنقاء. وتمققت ما في العظم: استخرجته كله. وت Metaphorical (Majaz): بلد أمق، وأرض مقاء: بعيدة الأرجاء. قال الكميت يصف ظالما: تمقق أخلاف المعيشة منهم ... رضاعا وأخلاف المعيشة حفل
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT نتش   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ن-ت-ش is the act of extracting or pulling out a foreign, embedded object—such as a thorn, splinter, or hair—from within a substance, typically flesh or skin, by means of a specialized grasping instrument. This core sense of forcible removal from a state of penetration or attachment is the root's primary ontological anchor.
+REC haqiqah_literal  : The literal physical meaning, as attested in Asās al-Balāghah, is the extraction of a thorn with a pair of extractors (مِنْتَاش), or the removal of a thorn with a pair of tweezers (مِنْقَاش). It also denotes the act of taking or seizing something from someone, as in the phrase 'I did not extract anything from him' (ما نتشت منه شيئا), meaning 'I did not take anything from him.'
+REC canon_def.ar     : النَّتْشُ: النَّتْفُ للحم ونحوه، وإخراجُ الشوك بالمِنْتَاش وهو المِنْقاش. والنَّتَشُ: البياضُ الذي يظهر في أصل الظفر.
+REC canon_def.en     : Al-Natsh: the plucking of flesh and the like, and the extraction of a thorn with the mintāsh, which is the minqāsh. Al-Natash: the whiteness that appears at the base of the fingernail.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : نتش الشوكة بالمنتاش، ونقشها بالمنقاش. وما نتشت منه شيئا: ما أخذت، وهو ينتش من كل علم وينتف منه.
+SRC Ayn (al-Khalil)  : [line 26777 hdr=نتش] النَّتشُ: إخراج الشوك بالمنتاش. والمنتاش: تسمِّية العامّة من الناس المِنقاش، وهو الذي ينتف به الشَّعر. والنَّتشُ: جذبُ اللَّحم ونحوه قرصاً ونهشاً. وأنتش النباتُ: خرج رأسه من الأرض قبل أن يُعرف وأنتش الحبُّ، إذا ابتلَّ فضرب نتشهُ في الأرض، أي: ما يبدو منه أوَّل ما ينبت من أسفل أو من فوق، وذلك النباتُ اسمه: النَّتشُ. باب الشين والتاء والفاء معهما ف ت ش مستعمل فقط
+
+================================================================================================
+ROOT نقف   stratum=mA
+REC ontological_core : The foundational physical act of striking or breaking open a hard, enclosing shell or cranial structure in order to extract the kernel, marrow, or brain concealed within it.
+REC haqiqah_literal  : The literal breaking of a skull to expose the brain, the cracking of a colocynth to extract its seeds, the piercing of an egg to remove its contents, and the striking of heads with swords in combat.
+REC canon_def.ar     : النَّقْفُ: كَسْرُ الْهَامَةِ عَنِ الدِّمَاغِ وَنَحْوِ ذَلِكَ، كَمَا يَنْقُفُ الظَّلِيمُ الْحَنْظَلَ عَنْ حَبِّهِ. وَالْمُنَاقَفَةُ: الْمُضَارَبَةُ بِالسُّيُوفِ عَلَى الرُّؤُوسِ.
+REC canon_def.en     : Al-Naqf is the breaking of the skull away from the brain and the like, just as the male ostrich cracks open the colocynth to extract its seeds. Al-Munāqafah is mutual striking with swords upon the heads.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : الظليم ينقف الحنظل عن الهبيد. وضرب ينقف الهام عن الدماغ. وبينهم مناقفة ونقاف: مضاربة. ويقال: " اليوم قحاف، وغدا نقاف ". ونقفت البيضة: استخرج Metaphorical (Majaz): رجل نقاف: صاحب تدبير ونظر في الأشياء كأنه ينقف عنها أي يبحث. ويقال للسائل المبرم: نقاف. قال: إذا جاء نقاف يعد عياله ... طويل العصا عديته عن
+SRC Asas [majaz_metaphorical]        : رجل نقاف: صاحب تدبير ونظر في الأشياء كأنه ينقف عنها أي يبحث. ويقال للسائل المبرم: نقاف. قال: إذا جاء نقاف يعد عياله ... طويل العصا عديته عن شياهيا وجذع منقوف ونقيف: مأروض. ورجل منقوف الوجه: ضامره.
+SRC Asas [haqiqah_literal]        : الظليم ينقف الحنظل عن الهبيد. وضرب ينقف الهام عن الدماغ. وبينهم مناقفة ونقاف: مضاربة. ويقال: " اليوم قحاف، وغدا نقاف ". ونقفت البيضة: استخرجت ما فيها. وأنقفتك العظم إذا أعطيته إياه ليستخرج مخه. وأنقف الجراد: رمى ببيضه. وصقل الورق بالمنقاف.
+SRC Ayn (al-Khalil)  : [line 21412 hdr=نقف] النَّقْفُ: كسر الهامة عن الدماغ ونحو ذلك، كما يَنْقُفُ الظليم الحنظل عن حبه. والمُناقَفةُ: المضاربة بالسيوف على الرءوس. والمِنْقاف: عظم دويبة تكون في البحر تصقل به الصحف، له مشق في وسطه. ورجل نَقّافٌ أي صاحب تدبير للأمر ونظر في الأشياء.

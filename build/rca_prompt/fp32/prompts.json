@@ -1,0 +1,5942 @@
+[
+  {
+    "i": 1,
+    "window_start": 19264,
+    "target_stream_index": 19329,
+    "source_file": "02_Suhayli_Nataij_al_Fikr.txt",
+    "sentence_ord_in_file": 1582,
+    "context_words": [
+      "الأحوال،",
+      "لا",
+      "يخص",
+      "مضيا",
+      "من",
+      "استقبال",
+      "#",
+      "ومثله:",
+      "(وما",
+      "كان",
+      "ربك",
+      "مهلك",
+      "القرى)",
+      "#",
+      "ثم",
+      "قال",
+      "عز",
+      "وجل:",
+      "(وما",
+      "كنا",
+      "مهلكي",
+      "القرى)",
+      "،",
+      "فالحظ"
+    ],
+    "truth_surface": "هذه",
+    "truth_root": "<P:هذه>",
+    "truth_root_id": 35,
+    "truth_tuple": [
+      1,
+      35,
+      1,
+      1
+    ],
+    "truth_realised": "هذه",
+    "truth_root_freq_rank": 84,
+    "truth_root_train_count": 11957,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "سبح",
+      "root_id": 3660,
+      "root_freq_rank": 505,
+      "tuple": [
+        1,
+        3660,
+        1,
+        1
+      ],
+      "surface": "سبح",
+      "correct": false,
+      "top5": [
+        {
+          "root": "سبح",
+          "root_id": 3660,
+          "tuple": [
+            1,
+            3660,
+            1,
+            1
+          ],
+          "surface": "سبح",
+          "logit": 4.155802249908447
+        },
+        {
+          "root": "علق",
+          "root_id": 5652,
+          "tuple": [
+            1,
+            5652,
+            1,
+            1
+          ],
+          "surface": "علق",
+          "logit": 3.9939234256744385
+        },
+        {
+          "root": "ويل",
+          "root_id": 9107,
+          "tuple": [
+            1,
+            9107,
+            1,
+            1
+          ],
+          "surface": "ويل",
+          "logit": 3.50923490524292
+        },
+        {
+          "root": "صيغ",
+          "root_id": 4745,
+          "tuple": [
+            1,
+            4745,
+            1,
+            1
+          ],
+          "surface": "صيغ",
+          "logit": 2.948122501373291
+        },
+        {
+          "root": "ورد",
+          "root_id": 8871,
+          "tuple": [
+            1,
+            8871,
+            1,
+            1
+          ],
+          "surface": "ورد",
+          "logit": 2.8043415546417236
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "لسن",
+      "root_id": 7440,
+      "root_freq_rank": 516,
+      "tuple": [
+        1,
+        7440,
+        1,
+        1
+      ],
+      "surface": "لسن",
+      "correct": false,
+      "top5": [
+        {
+          "root": "لسن",
+          "root_id": 7440,
+          "tuple": [
+            1,
+            7440,
+            1,
+            1
+          ],
+          "surface": "لسن",
+          "logit": 0.7042993903160095
+        },
+        {
+          "root": "تيس",
+          "root_id": 1004,
+          "tuple": [
+            1,
+            1004,
+            1,
+            1
+          ],
+          "surface": "تيس",
+          "logit": 0.4001694619655609
+        },
+        {
+          "root": "اله",
+          "root_id": 283,
+          "tuple": [
+            1,
+            283,
+            1,
+            1
+          ],
+          "surface": "اله",
+          "logit": 0.03100747987627983
+        },
+        {
+          "root": "ورد",
+          "root_id": 8871,
+          "tuple": [
+            1,
+            8871,
+            1,
+            1
+          ],
+          "surface": "ورد",
+          "logit": -0.04360874742269516
+        },
+        {
+          "root": "سوا",
+          "root_id": 4051,
+          "tuple": [
+            1,
+            4051,
+            1,
+            1
+          ],
+          "surface": "سوا",
+          "logit": -0.30290764570236206
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 2,
+    "window_start": 49216,
+    "target_stream_index": 49281,
+    "source_file": "02_Suhayli_Nataij_al_Fikr.txt",
+    "sentence_ord_in_file": 4154,
+    "context_words": [
+      "هذه",
+      "المسألة",
+      "أن",
+      "يسأل",
+      "عن",
+      "المعنى",
+      "الذي",
+      "من",
+      "أجله",
+      "قال:",
+      "#",
+      "(ولتصنع",
+      "على",
+      "عيني)",
+      "بحرف",
+      "\"",
+      "على",
+      "\"",
+      "#",
+      "وقال",
+      "في",
+      "موضع",
+      "آخر:",
+      "(تجري"
+    ],
+    "truth_surface": "بأعيننا)",
+    "truth_root": "عين",
+    "truth_root_id": 5819,
+    "truth_tuple": [
+      8,
+      5819,
+      8,
+      11
+    ],
+    "truth_realised": "بأعيننا",
+    "truth_root_freq_rank": 66,
+    "truth_root_train_count": 14554,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "دمع",
+      "root_id": 2756,
+      "root_freq_rank": 1300,
+      "tuple": [
+        1,
+        2756,
+        1,
+        1
+      ],
+      "surface": "دمع",
+      "correct": false,
+      "top5": [
+        {
+          "root": "دمع",
+          "root_id": 2756,
+          "tuple": [
+            1,
+            2756,
+            1,
+            1
+          ],
+          "surface": "دمع",
+          "logit": 6.181324005126953
+        },
+        {
+          "root": "أمر",
+          "root_id": 77,
+          "tuple": [
+            1,
+            77,
+            1,
+            1
+          ],
+          "surface": "أمر",
+          "logit": 5.512234210968018
+        },
+        {
+          "root": "لفظ",
+          "root_id": 7506,
+          "tuple": [
+            1,
+            7506,
+            1,
+            1
+          ],
+          "surface": "لفظ",
+          "logit": 4.885499000549316
+        },
+        {
+          "root": "نيب",
+          "root_id": 8360,
+          "tuple": [
+            1,
+            8360,
+            1,
+            1
+          ],
+          "surface": "نيب",
+          "logit": 3.7246298789978027
+        },
+        {
+          "root": "سرر",
+          "root_id": 3783,
+          "tuple": [
+            1,
+            3783,
+            1,
+            1
+          ],
+          "surface": "سرر",
+          "logit": 3.3437561988830566
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "دمع",
+      "root_id": 2756,
+      "root_freq_rank": 1300,
+      "tuple": [
+        1,
+        2756,
+        1,
+        1
+      ],
+      "surface": "دمع",
+      "correct": false,
+      "top5": [
+        {
+          "root": "دمع",
+          "root_id": 2756,
+          "tuple": [
+            1,
+            2756,
+            1,
+            1
+          ],
+          "surface": "دمع",
+          "logit": 2.2789013385772705
+        },
+        {
+          "root": "نيب",
+          "root_id": 8360,
+          "tuple": [
+            1,
+            8360,
+            1,
+            1
+          ],
+          "surface": "نيب",
+          "logit": 1.2215825319290161
+        },
+        {
+          "root": "ندي",
+          "root_id": 8087,
+          "tuple": [
+            1,
+            8087,
+            1,
+            1
+          ],
+          "surface": "ندي",
+          "logit": -0.683987557888031
+        },
+        {
+          "root": "شبه",
+          "root_id": 4114,
+          "tuple": [
+            1,
+            4114,
+            1,
+            1
+          ],
+          "surface": "شبه",
+          "logit": -0.8961681127548218
+        },
+        {
+          "root": "عقر",
+          "root_id": 5579,
+          "tuple": [
+            1,
+            5579,
+            45,
+            1
+          ],
+          "surface": "عقر",
+          "logit": -0.9913920164108276
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": true
+  },
+  {
+    "i": 3,
+    "window_start": 85120,
+    "target_stream_index": 85185,
+    "source_file": "Mustafa_Sabri_Mawqif_al_Aql_vol2.txt",
+    "sentence_ord_in_file": 623,
+    "context_words": [
+      "دلبل",
+      "على",
+      "وحود",
+      "الأنبياء",
+      "غير",
+      "ماجاء",
+      "وإن",
+      "قال",
+      "إن",
+      "نبوءتهم",
+      "ثبتت",
+      "بالممجزات",
+      "الى",
+      "ظورت",
+      "على",
+      "أيدمهم»",
+      "قلنا",
+      "لا",
+      "معجزة",
+      "عندك",
+      "والمقل",
+      "لا",
+      "يقءلها",
+      "ولا"
+    ],
+    "truth_surface": "دايل",
+    "truth_root": "ديل",
+    "truth_root_id": 2869,
+    "truth_tuple": [
+      1,
+      2869,
+      42,
+      1
+    ],
+    "truth_realised": "دايل",
+    "truth_root_freq_rank": 3373,
+    "truth_root_train_count": 71,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "قال",
+      "root_id": 6397,
+      "root_freq_rank": 5,
+      "tuple": [
+        1,
+        6397,
+        1,
+        1
+      ],
+      "surface": "قال",
+      "correct": false,
+      "top5": [
+        {
+          "root": "قال",
+          "root_id": 6397,
+          "tuple": [
+            1,
+            6397,
+            1,
+            1
+          ],
+          "surface": "قال",
+          "logit": 8.043920516967773
+        },
+        {
+          "root": "دلل",
+          "root_id": 2730,
+          "tuple": [
+            1,
+            2730,
+            1,
+            1
+          ],
+          "surface": "دلل",
+          "logit": 5.8421478271484375
+        },
+        {
+          "root": "كون",
+          "root_id": 7309,
+          "tuple": [
+            1,
+            7309,
+            1,
+            1
+          ],
+          "surface": "كون",
+          "logit": 3.3230645656585693
+        },
+        {
+          "root": "وقل",
+          "root_id": 9016,
+          "tuple": [
+            1,
+            9016,
+            1,
+            1
+          ],
+          "surface": "وقل",
+          "logit": 1.5719218254089355
+        },
+        {
+          "root": "ابن",
+          "root_id": 95,
+          "tuple": [
+            1,
+            95,
+            1,
+            1
+          ],
+          "surface": "ابن",
+          "logit": -0.10014387220144272
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "كون",
+      "root_id": 7309,
+      "root_freq_rank": 16,
+      "tuple": [
+        1,
+        7309,
+        1,
+        1
+      ],
+      "surface": "كون",
+      "correct": false,
+      "top5": [
+        {
+          "root": "كون",
+          "root_id": 7309,
+          "tuple": [
+            1,
+            7309,
+            1,
+            1
+          ],
+          "surface": "كون",
+          "logit": -2.466582775115967
+        },
+        {
+          "root": "سيم",
+          "root_id": 4080,
+          "tuple": [
+            1,
+            4080,
+            1,
+            1
+          ],
+          "surface": "سيم",
+          "logit": -2.7603113651275635
+        },
+        {
+          "root": "مرد",
+          "root_id": 7727,
+          "tuple": [
+            1,
+            7727,
+            45,
+            1
+          ],
+          "surface": "مرد",
+          "logit": -2.796790599822998
+        },
+        {
+          "root": "حبب",
+          "root_id": 1596,
+          "tuple": [
+            1,
+            1596,
+            45,
+            1
+          ],
+          "surface": "حب",
+          "logit": -2.900592803955078
+        },
+        {
+          "root": "خلف",
+          "root_id": 2303,
+          "tuple": [
+            1,
+            2303,
+            1,
+            1
+          ],
+          "surface": "خلف",
+          "logit": -3.02116322517395
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 4,
+    "window_start": 99328,
+    "target_stream_index": 99393,
+    "source_file": "Mustafa_Sabri_Mawqif_al_Aql_vol2.txt",
+    "sentence_ord_in_file": 1874,
+    "context_words": [
+      "الثالطة",
+      "من",
+      "مقالة",
+      "كاتب",
+      "نحو",
+      "النو",
+      "راو",
+      "قد",
+      "أضيفة",
+      "التشيلة",
+      "ف",
+      "تلك",
+      "المقالات",
+      "من",
+      "عحائب",
+      "الأحوال",
+      "أن",
+      "تلك",
+      "الغلطة",
+      "الفظيمة",
+      "الشائعة",
+      "بمصر",
+      "الإسلامية»",
+      "لم"
+    ],
+    "truth_surface": "ست",
+    "truth_root": "ستت",
+    "truth_root_id": 3688,
+    "truth_tuple": [
+      1,
+      3688,
+      45,
+      1
+    ],
+    "truth_realised": "ست",
+    "truth_root_freq_rank": 697,
+    "truth_root_train_count": 1161,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "نشر",
+      "root_id": 8136,
+      "root_freq_rank": 901,
+      "tuple": [
+        1,
+        8136,
+        1,
+        1
+      ],
+      "surface": "نشر",
+      "correct": false,
+      "top5": [
+        {
+          "root": "نشر",
+          "root_id": 8136,
+          "tuple": [
+            1,
+            8136,
+            1,
+            1
+          ],
+          "surface": "نشر",
+          "logit": 0.6649028062820435
+        },
+        {
+          "root": "بعث",
+          "root_id": 617,
+          "tuple": [
+            1,
+            617,
+            118,
+            1
+          ],
+          "surface": "يبعث",
+          "logit": 0.4881291389465332
+        },
+        {
+          "root": "لدن",
+          "root_id": 7415,
+          "tuple": [
+            1,
+            7415,
+            117,
+            1
+          ],
+          "surface": "يلتدن",
+          "logit": 0.3550848662853241
+        },
+        {
+          "root": "صرع",
+          "root_id": 4555,
+          "tuple": [
+            1,
+            4555,
+            2,
+            1
+          ],
+          "surface": "صرع",
+          "logit": 0.12726154923439026
+        },
+        {
+          "root": "شعر",
+          "root_id": 4272,
+          "tuple": [
+            1,
+            4272,
+            1,
+            1
+          ],
+          "surface": "شعر",
+          "logit": -0.11168549209833145
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "شذذ",
+      "root_id": 4184,
+      "root_freq_rank": 896,
+      "tuple": [
+        1,
+        4184,
+        120,
+        1
+      ],
+      "surface": "شذذ",
+      "correct": false,
+      "top5": [
+        {
+          "root": "شذذ",
+          "root_id": 4184,
+          "tuple": [
+            1,
+            4184,
+            120,
+            1
+          ],
+          "surface": "شذذ",
+          "logit": -0.936707615852356
+        },
+        {
+          "root": "سبن",
+          "root_id": 3683,
+          "tuple": [
+            1,
+            3683,
+            33,
+            1
+          ],
+          "surface": "تسبن",
+          "logit": -1.0253684520721436
+        },
+        {
+          "root": "شكل",
+          "root_id": 4344,
+          "tuple": [
+            1,
+            4344,
+            118,
+            1
+          ],
+          "surface": "يشكل",
+          "logit": -1.2129634618759155
+        },
+        {
+          "root": "وما",
+          "root_id": 9055,
+          "tuple": [
+            1,
+            9055,
+            45,
+            1
+          ],
+          "surface": "وما",
+          "logit": -1.2895876169204712
+        },
+        {
+          "root": "وسف",
+          "root_id": 8907,
+          "tuple": [
+            1,
+            8907,
+            1,
+            1
+          ],
+          "surface": "وسف",
+          "logit": -1.3159286975860596
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 5,
+    "window_start": 124800,
+    "target_stream_index": 124865,
+    "source_file": "Mustafa_Sabri_Mawqif_al_Aql_vol2.txt",
+    "sentence_ord_in_file": 4124,
+    "context_words": [
+      "تعالى",
+      "اللامتناهية",
+      "كأاسبق",
+      "ذكره",
+      "الجزء",
+      "الأول",
+      "وأسيفو",
+      "افى",
+      "الكلام",
+      "إسهاب",
+      "يمل",
+      "قارى",
+      "هذا",
+      "الزمان",
+      "للكنى",
+      "أذ",
+      "كر",
+      "له",
+      "طريقا",
+      "موجزة",
+      "منهلة",
+      "التناول",
+      "فأقول:",
+      "لو"
+    ],
+    "truth_surface": "وُجد",
+    "truth_root": "وجد",
+    "truth_root_id": 8807,
+    "truth_tuple": [
+      1,
+      8807,
+      45,
+      1
+    ],
+    "truth_realised": "وجد",
+    "truth_root_freq_rank": 46,
+    "truth_root_train_count": 18268,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "قدر",
+      "root_id": 6471,
+      "root_freq_rank": 65,
+      "tuple": [
+        1,
+        6471,
+        1,
+        1
+      ],
+      "surface": "قدر",
+      "correct": false,
+      "top5": [
+        {
+          "root": "قدر",
+          "root_id": 6471,
+          "tuple": [
+            1,
+            6471,
+            1,
+            1
+          ],
+          "surface": "قدر",
+          "logit": 5.211325168609619
+        },
+        {
+          "root": "نقص",
+          "root_id": 8261,
+          "tuple": [
+            1,
+            8261,
+            1,
+            1
+          ],
+          "surface": "نقص",
+          "logit": 1.2822705507278442
+        },
+        {
+          "root": "اهه",
+          "root_id": 327,
+          "tuple": [
+            1,
+            327,
+            45,
+            1
+          ],
+          "surface": "اه",
+          "logit": 1.2814788818359375
+        },
+        {
+          "root": "خرج",
+          "root_id": 2144,
+          "tuple": [
+            1,
+            2144,
+            1,
+            1
+          ],
+          "surface": "خرج",
+          "logit": 0.5951878428459167
+        },
+        {
+          "root": "رجل",
+          "root_id": 3060,
+          "tuple": [
+            1,
+            3060,
+            45,
+            1
+          ],
+          "surface": "رجل",
+          "logit": 0.3156181573867798
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "قال",
+      "root_id": 6397,
+      "root_freq_rank": 5,
+      "tuple": [
+        1,
+        6397,
+        45,
+        1
+      ],
+      "surface": "قال",
+      "correct": false,
+      "top5": [
+        {
+          "root": "قال",
+          "root_id": 6397,
+          "tuple": [
+            1,
+            6397,
+            45,
+            1
+          ],
+          "surface": "قال",
+          "logit": -1.4506484270095825
+        },
+        {
+          "root": "اني",
+          "root_id": 320,
+          "tuple": [
+            1,
+            320,
+            1,
+            1
+          ],
+          "surface": "اني",
+          "logit": -1.8571279048919678
+        },
+        {
+          "root": "دعت",
+          "root_id": 2613,
+          "tuple": [
+            1,
+            2613,
+            1,
+            1
+          ],
+          "surface": "دعت",
+          "logit": -1.8602938652038574
+        },
+        {
+          "root": "كده",
+          "root_id": 7015,
+          "tuple": [
+            1,
+            7015,
+            1,
+            1
+          ],
+          "surface": "كده",
+          "logit": -1.9040162563323975
+        },
+        {
+          "root": "رجل",
+          "root_id": 3060,
+          "tuple": [
+            1,
+            3060,
+            45,
+            1
+          ],
+          "surface": "رجل",
+          "logit": -2.172960042953491
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 6,
+    "window_start": 137408,
+    "target_stream_index": 137473,
+    "source_file": "Mustafa_Sabri_Mawqif_al_Aql_vol2.txt",
+    "sentence_ord_in_file": 5247,
+    "context_words": [
+      "فى",
+      "عل",
+      "الله",
+      "والذى",
+      "هو",
+      "امام",
+      "المجدوس",
+      "الهارحى",
+      "بالئسية",
+      "إلينا",
+      "ولما",
+      "كانت",
+      "الصفة",
+      "أقرب",
+      "إلى",
+      "الموصوف",
+      "من",
+      "الأثر",
+      "إلى",
+      "المؤائر",
+      "اعتير",
+      "استيقان",
+      "و",
+      "ود"
+    ],
+    "truth_surface": "الله",
+    "truth_root": "اله",
+    "truth_root_id": 283,
+    "truth_tuple": [
+      1,
+      283,
+      45,
+      1
+    ],
+    "truth_realised": "أله",
+    "truth_root_freq_rank": 7,
+    "truth_root_train_count": 63768,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "شبث",
+      "root_id": 4094,
+      "root_freq_rank": 3347,
+      "tuple": [
+        1,
+        4094,
+        1,
+        1
+      ],
+      "surface": "شبث",
+      "correct": false,
+      "top5": [
+        {
+          "root": "شبث",
+          "root_id": 4094,
+          "tuple": [
+            1,
+            4094,
+            1,
+            1
+          ],
+          "surface": "شبث",
+          "logit": 3.718886137008667
+        },
+        {
+          "root": "نسس",
+          "root_id": 8121,
+          "tuple": [
+            3,
+            8121,
+            1,
+            1
+          ],
+          "surface": "النسس",
+          "logit": 3.406581163406372
+        },
+        {
+          "root": "كتب",
+          "root_id": 6959,
+          "tuple": [
+            1,
+            6959,
+            1,
+            1
+          ],
+          "surface": "كتب",
+          "logit": 1.8643449544906616
+        },
+        {
+          "root": "مرخ",
+          "root_id": 7725,
+          "tuple": [
+            1,
+            7725,
+            1,
+            1
+          ],
+          "surface": "مرخ",
+          "logit": 1.5574052333831787
+        },
+        {
+          "root": "اذا",
+          "root_id": 148,
+          "tuple": [
+            1,
+            148,
+            1,
+            1
+          ],
+          "surface": "اذا",
+          "logit": 1.5204371213912964
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "شبث",
+      "root_id": 4094,
+      "root_freq_rank": 3347,
+      "tuple": [
+        1,
+        4094,
+        1,
+        1
+      ],
+      "surface": "شبث",
+      "correct": false,
+      "top5": [
+        {
+          "root": "شبث",
+          "root_id": 4094,
+          "tuple": [
+            1,
+            4094,
+            1,
+            1
+          ],
+          "surface": "شبث",
+          "logit": 2.0003230571746826
+        },
+        {
+          "root": "ورب",
+          "root_id": 8868,
+          "tuple": [
+            1,
+            8868,
+            1,
+            1
+          ],
+          "surface": "ورب",
+          "logit": 0.6263529062271118
+        },
+        {
+          "root": "مرخ",
+          "root_id": 7725,
+          "tuple": [
+            1,
+            7725,
+            1,
+            1
+          ],
+          "surface": "مرخ",
+          "logit": -0.4489871561527252
+        },
+        {
+          "root": "علم",
+          "root_id": 5660,
+          "tuple": [
+            1,
+            5660,
+            1,
+            1
+          ],
+          "surface": "علم",
+          "logit": -0.45071840286254883
+        },
+        {
+          "root": "اذا",
+          "root_id": 148,
+          "tuple": [
+            1,
+            148,
+            1,
+            1
+          ],
+          "surface": "اذا",
+          "logit": -0.6165632605552673
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": true
+  },
+  {
+    "i": 7,
+    "window_start": 146176,
+    "target_stream_index": 146241,
+    "source_file": "Mustafa_Sabri_Mawqif_al_Aql_vol2.txt",
+    "sentence_ord_in_file": 6004,
+    "context_words": [
+      "تعريض",
+      "بأ",
+      "اماديين",
+      "للروح",
+      "فما",
+      "نه",
+      "من",
+      "غير",
+      "الماديات؛",
+      "وهما",
+      "حدر",
+      "باللغت",
+      "أنه",
+      "اختار",
+      "الدليل",
+      "المقلى",
+      "فى",
+      "بات",
+      "وجو",
+      "د",
+      "اروح",
+      "وهو",
+      "شمو",
+      "ركل"
+    ],
+    "truth_surface": "ذى",
+    "truth_root": "<PARTICLE>",
+    "truth_root_id": 4,
+    "truth_tuple": [
+      1,
+      4,
+      1,
+      1
+    ],
+    "truth_realised": "",
+    "truth_root_freq_rank": 1,
+    "truth_root_train_count": 1571716,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "صمعد",
+      "root_id": 4671,
+      "root_freq_rank": 7036,
+      "tuple": [
+        1,
+        4671,
+        1,
+        1
+      ],
+      "surface": "صمعد",
+      "correct": false,
+      "top5": [
+        {
+          "root": "صمعد",
+          "root_id": 4671,
+          "tuple": [
+            1,
+            4671,
+            1,
+            1
+          ],
+          "surface": "صمعد",
+          "logit": 5.708227157592773
+        },
+        {
+          "root": "بلغ",
+          "root_id": 710,
+          "tuple": [
+            1,
+            710,
+            1,
+            1
+          ],
+          "surface": "بلغ",
+          "logit": 4.99444055557251
+        },
+        {
+          "root": "كلم",
+          "root_id": 7202,
+          "tuple": [
+            1,
+            7202,
+            1,
+            1
+          ],
+          "surface": "كلم",
+          "logit": 3.555708408355713
+        },
+        {
+          "root": "ابب",
+          "root_id": 80,
+          "tuple": [
+            1,
+            80,
+            45,
+            1
+          ],
+          "surface": "اب",
+          "logit": 2.91160249710083
+        },
+        {
+          "root": "قطا",
+          "root_id": 6655,
+          "tuple": [
+            1,
+            6655,
+            1,
+            1
+          ],
+          "surface": "قطا",
+          "logit": 2.5823299884796143
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "صمعد",
+      "root_id": 4671,
+      "root_freq_rank": 7036,
+      "tuple": [
+        1,
+        4671,
+        1,
+        1
+      ],
+      "surface": "صمعد",
+      "correct": false,
+      "top5": [
+        {
+          "root": "صمعد",
+          "root_id": 4671,
+          "tuple": [
+            1,
+            4671,
+            1,
+            1
+          ],
+          "surface": "صمعد",
+          "logit": 2.714740514755249
+        },
+        {
+          "root": "اله",
+          "root_id": 283,
+          "tuple": [
+            1,
+            283,
+            1,
+            1
+          ],
+          "surface": "اله",
+          "logit": 0.45599716901779175
+        },
+        {
+          "root": "حلل",
+          "root_id": 1917,
+          "tuple": [
+            3,
+            1917,
+            120,
+            1
+          ],
+          "surface": "الحلل",
+          "logit": -0.21654945611953735
+        },
+        {
+          "root": "لزم",
+          "root_id": 7431,
+          "tuple": [
+            3,
+            7431,
+            1,
+            1
+          ],
+          "surface": "اللزم",
+          "logit": -0.4993467330932617
+        },
+        {
+          "root": "صبح",
+          "root_id": 4503,
+          "tuple": [
+            1,
+            4503,
+            1,
+            1
+          ],
+          "surface": "صبح",
+          "logit": -0.8821231722831726
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": true
+  },
+  {
+    "i": 8,
+    "window_start": 179584,
+    "target_stream_index": 179649,
+    "source_file": "Mustafa_Sabri_Mawqif_al_Aql_vol2.txt",
+    "sentence_ord_in_file": 8951,
+    "context_words": [
+      "الفاسفية",
+      "فماب",
+      "على",
+      "الفلسفة",
+      "ااثبتة",
+      "عدم",
+      "مراعتها",
+      "لمعلومة",
+      "اللامتناهى",
+      "التى",
+      "هى",
+      "أثم",
+      "المماومات",
+      "المثبتة",
+      "أى",
+      "عاب",
+      "على",
+      "هذه",
+      "الفلسفة",
+      "عدم",
+      "تقديرها",
+      "له",
+      "ذه",
+      "الملومة"
+    ],
+    "truth_surface": "وعى",
+    "truth_root": "<PARTICLE>",
+    "truth_root_id": 4,
+    "truth_tuple": [
+      1,
+      4,
+      1,
+      1
+    ],
+    "truth_realised": "",
+    "truth_root_freq_rank": 1,
+    "truth_root_train_count": 1571716,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "ندد",
+      "root_id": 9409,
+      "root_freq_rank": 1405,
+      "tuple": [
+        1,
+        9409,
+        1,
+        1
+      ],
+      "surface": "ندد",
+      "correct": false,
+      "top5": [
+        {
+          "root": "ندد",
+          "root_id": 9409,
+          "tuple": [
+            1,
+            9409,
+            1,
+            1
+          ],
+          "surface": "ندد",
+          "logit": 2.503298282623291
+        },
+        {
+          "root": "ارف",
+          "root_id": 168,
+          "tuple": [
+            1,
+            168,
+            1,
+            1
+          ],
+          "surface": "ارف",
+          "logit": 1.7606455087661743
+        },
+        {
+          "root": "قلم",
+          "root_id": 6774,
+          "tuple": [
+            1,
+            6774,
+            1,
+            1
+          ],
+          "surface": "قلم",
+          "logit": 0.6050177216529846
+        },
+        {
+          "root": "حمز",
+          "root_id": 1928,
+          "tuple": [
+            1,
+            1928,
+            1,
+            1
+          ],
+          "surface": "حمز",
+          "logit": 0.3685360550880432
+        },
+        {
+          "root": "فرد",
+          "root_id": 6140,
+          "tuple": [
+            1,
+            6140,
+            1,
+            1
+          ],
+          "surface": "فرد",
+          "logit": 0.013192517682909966
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "ارف",
+      "root_id": 168,
+      "root_freq_rank": 4538,
+      "tuple": [
+        5,
+        168,
+        74,
+        20
+      ],
+      "surface": "والاروفة",
+      "correct": false,
+      "top5": [
+        {
+          "root": "ارف",
+          "root_id": 168,
+          "tuple": [
+            5,
+            168,
+            74,
+            20
+          ],
+          "surface": "والاروفة",
+          "logit": -0.3308849632740021
+        },
+        {
+          "root": "حمز",
+          "root_id": 1928,
+          "tuple": [
+            1,
+            1928,
+            1,
+            1
+          ],
+          "surface": "حمز",
+          "logit": -1.5820852518081665
+        },
+        {
+          "root": "ندد",
+          "root_id": 9409,
+          "tuple": [
+            1,
+            9409,
+            1,
+            1
+          ],
+          "surface": "ندد",
+          "logit": -1.6781824827194214
+        },
+        {
+          "root": "وغر",
+          "root_id": 8982,
+          "tuple": [
+            1,
+            8982,
+            1,
+            1
+          ],
+          "surface": "وغر",
+          "logit": -1.7356847524642944
+        },
+        {
+          "root": "شكل",
+          "root_id": 4344,
+          "tuple": [
+            1,
+            4344,
+            1,
+            1
+          ],
+          "surface": "شكل",
+          "logit": -1.7861225605010986
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 9,
+    "window_start": 183616,
+    "target_stream_index": 183681,
+    "source_file": "Mustafa_Sabri_Mawqif_al_Aql_vol2.txt",
+    "sentence_ord_in_file": 9295,
+    "context_words": [
+      "ما",
+      "يدهش",
+      "ولا",
+      "بحصى",
+      "من",
+      "عحائب",
+      "عام",
+      "الحياة",
+      "يرونها",
+      "منهية",
+      "إلى",
+      "سران",
+      "عظمين",
+      "أحدها",
+      "عقل",
+      "الإننان",
+      "بكل",
+      "ما",
+      "فيه",
+      "من",
+      "قوة",
+      "واستعداد",
+      "المجيرة",
+      "بكل"
+    ],
+    "truth_surface": "قواها",
+    "truth_root": "قها",
+    "truth_root_id": 6881,
+    "truth_tuple": [
+      1,
+      6881,
+      133,
+      1
+    ],
+    "truth_realised": "قواها",
+    "truth_root_freq_rank": 3023,
+    "truth_root_train_count": 90,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "شكل",
+      "root_id": 4344,
+      "root_freq_rank": 461,
+      "tuple": [
+        1,
+        4344,
+        45,
+        1
+      ],
+      "surface": "شكل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "شكل",
+          "root_id": 4344,
+          "tuple": [
+            1,
+            4344,
+            45,
+            1
+          ],
+          "surface": "شكل",
+          "logit": 2.3997068405151367
+        },
+        {
+          "root": "دكن",
+          "root_id": 2701,
+          "tuple": [
+            1,
+            2701,
+            1,
+            1
+          ],
+          "surface": "دكن",
+          "logit": 2.355717420578003
+        },
+        {
+          "root": "ملث",
+          "root_id": 7867,
+          "tuple": [
+            1,
+            7867,
+            130,
+            1
+          ],
+          "surface": "ملائث",
+          "logit": 2.1501147747039795
+        },
+        {
+          "root": "كمت",
+          "root_id": 7207,
+          "tuple": [
+            1,
+            7207,
+            1,
+            1
+          ],
+          "surface": "كمت",
+          "logit": 1.7906923294067383
+        },
+        {
+          "root": "عبد",
+          "root_id": 5236,
+          "tuple": [
+            1,
+            5236,
+            99,
+            1
+          ],
+          "surface": "متعبد",
+          "logit": 1.4535672664642334
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "دكن",
+      "root_id": 2701,
+      "root_freq_rank": 2955,
+      "tuple": [
+        1,
+        2701,
+        1,
+        1
+      ],
+      "surface": "دكن",
+      "correct": false,
+      "top5": [
+        {
+          "root": "دكن",
+          "root_id": 2701,
+          "tuple": [
+            1,
+            2701,
+            1,
+            1
+          ],
+          "surface": "دكن",
+          "logit": 1.4982569217681885
+        },
+        {
+          "root": "ملث",
+          "root_id": 7867,
+          "tuple": [
+            1,
+            7867,
+            1,
+            1
+          ],
+          "surface": "ملث",
+          "logit": 1.1064602136611938
+        },
+        {
+          "root": "كمت",
+          "root_id": 7207,
+          "tuple": [
+            1,
+            7207,
+            1,
+            1
+          ],
+          "surface": "كمت",
+          "logit": 0.9087315797805786
+        },
+        {
+          "root": "حيل",
+          "root_id": 9330,
+          "tuple": [
+            1,
+            9330,
+            1,
+            1
+          ],
+          "surface": "حيل",
+          "logit": -0.4518963396549225
+        },
+        {
+          "root": "مدر",
+          "root_id": 7693,
+          "tuple": [
+            1,
+            7693,
+            45,
+            19
+          ],
+          "surface": "مدرات",
+          "logit": -0.5835995078086853
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 10,
+    "window_start": 215360,
+    "target_stream_index": 215425,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 1934,
+    "context_words": [
+      "به",
+      "طلب",
+      "الأسانيد",
+      "العالية",
+      "~~أو",
+      "طلب",
+      "الحديث",
+      "الذي",
+      "لا",
+      "يحتاج",
+      "إليه",
+      "في",
+      "طلب",
+      "الآخرة",
+      "وقال",
+      "عيسى",
+      "عليه",
+      "السلام",
+      "كيف",
+      "~~يكون",
+      "من",
+      "أهل",
+      "العلم",
+      "من"
+    ],
+    "truth_surface": "مسيره",
+    "truth_root": "مسر",
+    "truth_root_id": 7762,
+    "truth_tuple": [
+      1,
+      7762,
+      55,
+      3
+    ],
+    "truth_realised": "مسيره",
+    "truth_root_freq_rank": 1204,
+    "truth_root_train_count": 490,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "دنا",
+      "root_id": 2772,
+      "root_freq_rank": 233,
+      "tuple": [
+        1,
+        2772,
+        45,
+        1
+      ],
+      "surface": "دنا",
+      "correct": false,
+      "top5": [
+        {
+          "root": "دنا",
+          "root_id": 2772,
+          "tuple": [
+            1,
+            2772,
+            45,
+            1
+          ],
+          "surface": "دنا",
+          "logit": -1.0271530151367188
+        },
+        {
+          "root": "كلم",
+          "root_id": 7202,
+          "tuple": [
+            1,
+            7202,
+            1,
+            3
+          ],
+          "surface": "كلمه",
+          "logit": -1.129736065864563
+        },
+        {
+          "root": "طرق",
+          "root_id": 5026,
+          "tuple": [
+            1,
+            5026,
+            45,
+            1
+          ],
+          "surface": "طرق",
+          "logit": -1.2622812986373901
+        },
+        {
+          "root": "فجر",
+          "root_id": 6075,
+          "tuple": [
+            3,
+            6075,
+            1,
+            1
+          ],
+          "surface": "الفجر",
+          "logit": -1.6404728889465332
+        },
+        {
+          "root": "درك",
+          "root_id": 2570,
+          "tuple": [
+            1,
+            2570,
+            1,
+            1
+          ],
+          "surface": "درك",
+          "logit": -1.6708624362945557
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "وحد",
+      "root_id": 8819,
+      "root_freq_rank": 37,
+      "tuple": [
+        3,
+        8819,
+        1,
+        1
+      ],
+      "surface": "الوحد",
+      "correct": false,
+      "top5": [
+        {
+          "root": "وحد",
+          "root_id": 8819,
+          "tuple": [
+            3,
+            8819,
+            1,
+            1
+          ],
+          "surface": "الوحد",
+          "logit": -4.002618312835693
+        },
+        {
+          "root": "غدد",
+          "root_id": 5846,
+          "tuple": [
+            3,
+            5846,
+            45,
+            1
+          ],
+          "surface": "الغد",
+          "logit": -4.035118579864502
+        },
+        {
+          "root": "صدق",
+          "root_id": 4539,
+          "tuple": [
+            1,
+            4539,
+            1,
+            1
+          ],
+          "surface": "صدق",
+          "logit": -4.064189910888672
+        },
+        {
+          "root": "ترك",
+          "root_id": 883,
+          "tuple": [
+            1,
+            883,
+            1,
+            1
+          ],
+          "surface": "ترك",
+          "logit": -4.06827974319458
+        },
+        {
+          "root": "ضرر",
+          "root_id": 4810,
+          "tuple": [
+            1,
+            4810,
+            1,
+            1
+          ],
+          "surface": "ضرر",
+          "logit": -4.087825775146484
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 11,
+    "window_start": 231232,
+    "target_stream_index": 231297,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 3215,
+    "context_words": [
+      "يحتمل",
+      "~~والهداية",
+      "التي",
+      "تنفع",
+      "الناس",
+      "تمكث",
+      "~~وغيرهما",
+      "وهو",
+      "بدعة",
+      "إذ",
+      "لم",
+      "ينقل",
+      "ذلك",
+      "بطريق",
+      "الرواية",
+      "وإجراؤه",
+      "على",
+      "الظاهر",
+      "غير",
+      "~~محال",
+      "فيجب",
+      "إجراؤه",
+      "على",
+      "الظاهر"
+    ],
+    "truth_surface": "~~والذوق",
+    "truth_root": "<PARTICLE>",
+    "truth_root_id": 4,
+    "truth_tuple": [
+      1,
+      4,
+      1,
+      1
+    ],
+    "truth_realised": "",
+    "truth_root_freq_rank": 1,
+    "truth_root_train_count": 1571716,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "ثني",
+      "root_id": 1140,
+      "root_freq_rank": 243,
+      "tuple": [
+        1,
+        1140,
+        1,
+        1
+      ],
+      "surface": "ثني",
+      "correct": false,
+      "top5": [
+        {
+          "root": "ثني",
+          "root_id": 1140,
+          "tuple": [
+            1,
+            1140,
+            1,
+            1
+          ],
+          "surface": "ثني",
+          "logit": 6.2813005447387695
+        },
+        {
+          "root": "كمل",
+          "root_id": 7221,
+          "tuple": [
+            1,
+            7221,
+            1,
+            1
+          ],
+          "surface": "كمل",
+          "logit": 3.8207998275756836
+        },
+        {
+          "root": "زيل",
+          "root_id": 3642,
+          "tuple": [
+            1,
+            3642,
+            1,
+            1
+          ],
+          "surface": "زيل",
+          "logit": 2.5527305603027344
+        },
+        {
+          "root": "كني",
+          "root_id": 7275,
+          "tuple": [
+            1,
+            7275,
+            1,
+            1
+          ],
+          "surface": "كني",
+          "logit": 1.906501054763794
+        },
+        {
+          "root": "ملق",
+          "root_id": 7880,
+          "tuple": [
+            1,
+            7880,
+            45,
+            1
+          ],
+          "surface": "ملق",
+          "logit": 1.761625051498413
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "زيل",
+      "root_id": 3642,
+      "root_freq_rank": 1751,
+      "tuple": [
+        1,
+        3642,
+        1,
+        1
+      ],
+      "surface": "زيل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "زيل",
+          "root_id": 3642,
+          "tuple": [
+            1,
+            3642,
+            1,
+            1
+          ],
+          "surface": "زيل",
+          "logit": -0.6144424676895142
+        },
+        {
+          "root": "نفه",
+          "root_id": 8245,
+          "tuple": [
+            4,
+            8245,
+            1,
+            1
+          ],
+          "surface": "ونفه",
+          "logit": -0.9057949781417847
+        },
+        {
+          "root": "بتت",
+          "root_id": 376,
+          "tuple": [
+            1,
+            376,
+            1,
+            1
+          ],
+          "surface": "بتت",
+          "logit": -0.9355145692825317
+        },
+        {
+          "root": "سغن",
+          "root_id": 3847,
+          "tuple": [
+            1,
+            3847,
+            19,
+            1
+          ],
+          "surface": "استغن",
+          "logit": -1.0979608297348022
+        },
+        {
+          "root": "كني",
+          "root_id": 7275,
+          "tuple": [
+            1,
+            7275,
+            1,
+            1
+          ],
+          "surface": "كني",
+          "logit": -1.1287636756896973
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 12,
+    "window_start": 275648,
+    "target_stream_index": 275713,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 6795,
+    "context_words": [
+      "يا",
+      "ملائكتي",
+      "إلى",
+      "عبدي",
+      "ترك",
+      "شهوته",
+      "ولذته",
+      "وطعامه",
+      "وشرابه",
+      "من",
+      "أجلي",
+      "(10)",
+      "~~وقيل",
+      "في",
+      "قوله",
+      "تعالى",
+      "{فلا",
+      "تعلم",
+      "نفس",
+      "ما",
+      "أخفي",
+      "لهم",
+      "من",
+      "قرة"
+    ],
+    "truth_surface": "أعين",
+    "truth_root": "عين",
+    "truth_root_id": 5819,
+    "truth_tuple": [
+      1,
+      5819,
+      8,
+      1
+    ],
+    "truth_realised": "أعين",
+    "truth_root_freq_rank": 66,
+    "truth_root_train_count": 14554,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "نفس",
+      "root_id": 8232,
+      "root_freq_rank": 59,
+      "tuple": [
+        1,
+        8232,
+        45,
+        1
+      ],
+      "surface": "نفس",
+      "correct": false,
+      "top5": [
+        {
+          "root": "نفس",
+          "root_id": 8232,
+          "tuple": [
+            1,
+            8232,
+            45,
+            1
+          ],
+          "surface": "نفس",
+          "logit": 8.406083106994629
+        },
+        {
+          "root": "عين",
+          "root_id": 5819,
+          "tuple": [
+            1,
+            5819,
+            45,
+            1
+          ],
+          "surface": "عين",
+          "logit": 4.824617385864258
+        },
+        {
+          "root": "بون",
+          "root_id": 802,
+          "tuple": [
+            1,
+            802,
+            45,
+            1
+          ],
+          "surface": "بون",
+          "logit": 2.1998097896575928
+        },
+        {
+          "root": "عمل",
+          "root_id": 5692,
+          "tuple": [
+            1,
+            5692,
+            6,
+            1
+          ],
+          "surface": "أعمال",
+          "logit": 1.7074378728866577
+        },
+        {
+          "root": "ارق",
+          "root_id": 169,
+          "tuple": [
+            1,
+            169,
+            45,
+            1
+          ],
+          "surface": "ارق",
+          "logit": 1.6886940002441406
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "بون",
+      "root_id": 802,
+      "root_freq_rank": 3192,
+      "tuple": [
+        1,
+        802,
+        45,
+        1
+      ],
+      "surface": "بون",
+      "correct": false,
+      "top5": [
+        {
+          "root": "بون",
+          "root_id": 802,
+          "tuple": [
+            1,
+            802,
+            45,
+            1
+          ],
+          "surface": "بون",
+          "logit": 0.5667849779129028
+        },
+        {
+          "root": "ارق",
+          "root_id": 169,
+          "tuple": [
+            1,
+            169,
+            45,
+            1
+          ],
+          "surface": "ارق",
+          "logit": -0.24376653134822845
+        },
+        {
+          "root": "شام",
+          "root_id": 4088,
+          "tuple": [
+            1,
+            4088,
+            45,
+            1
+          ],
+          "surface": "شام",
+          "logit": -0.25631746649742126
+        },
+        {
+          "root": "خفق",
+          "root_id": 2283,
+          "tuple": [
+            4,
+            2283,
+            1,
+            1
+          ],
+          "surface": "وخفق",
+          "logit": -0.638700544834137
+        },
+        {
+          "root": "فرع",
+          "root_id": 6170,
+          "tuple": [
+            1,
+            6170,
+            1,
+            3
+          ],
+          "surface": "فرعه",
+          "logit": -1.1174768209457397
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 13,
+    "window_start": 348480,
+    "target_stream_index": 348545,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 12609,
+    "context_words": [
+      "السوق",
+      "لآخرته",
+      "فيلازم",
+      "المسجد",
+      "ويواظب",
+      "~~إلا",
+      "الصبيان",
+      "وأهل",
+      "الذمة",
+      "لأنهم",
+      "كانوا",
+      "في",
+      "المساجد",
+      "بعد",
+      "~~آخره",
+      "ذكر",
+      "الله",
+      "وخير",
+      "كفر",
+      "الله",
+      "عنهما",
+      "ما",
+      "بينهما",
+      "من"
+    ],
+    "truth_surface": "سيئ",
+    "truth_root": "<PARTICLE>",
+    "truth_root_id": 4,
+    "truth_tuple": [
+      1,
+      4,
+      1,
+      1
+    ],
+    "truth_realised": "",
+    "truth_root_freq_rank": 1,
+    "truth_root_train_count": 1571716,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "قول",
+      "root_id": 6917,
+      "root_freq_rank": 23,
+      "tuple": [
+        1,
+        6917,
+        1,
+        1
+      ],
+      "surface": "قول",
+      "correct": false,
+      "top5": [
+        {
+          "root": "قول",
+          "root_id": 6917,
+          "tuple": [
+            1,
+            6917,
+            1,
+            1
+          ],
+          "surface": "قول",
+          "logit": -0.7749781608581543
+        },
+        {
+          "root": "فوت",
+          "root_id": 6363,
+          "tuple": [
+            1,
+            6363,
+            1,
+            1
+          ],
+          "surface": "فوت",
+          "logit": -1.447861671447754
+        },
+        {
+          "root": "ترك",
+          "root_id": 883,
+          "tuple": [
+            1,
+            883,
+            1,
+            1
+          ],
+          "surface": "ترك",
+          "logit": -1.7315754890441895
+        },
+        {
+          "root": "جمع",
+          "root_id": 1488,
+          "tuple": [
+            1,
+            1488,
+            1,
+            1
+          ],
+          "surface": "جمع",
+          "logit": -1.8480536937713623
+        },
+        {
+          "root": "وقت",
+          "root_id": 9002,
+          "tuple": [
+            1,
+            9002,
+            1,
+            1
+          ],
+          "surface": "وقت",
+          "logit": -2.2656872272491455
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "وذل",
+      "root_id": 8863,
+      "root_freq_rank": 140,
+      "tuple": [
+        1,
+        8863,
+        45,
+        1
+      ],
+      "surface": "وذل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "وذل",
+          "root_id": 8863,
+          "tuple": [
+            1,
+            8863,
+            45,
+            1
+          ],
+          "surface": "وذل",
+          "logit": -3.0210747718811035
+        },
+        {
+          "root": "علل",
+          "root_id": 5659,
+          "tuple": [
+            1,
+            5659,
+            1,
+            1
+          ],
+          "surface": "علل",
+          "logit": -3.7858407497406006
+        },
+        {
+          "root": "اتا",
+          "root_id": 98,
+          "tuple": [
+            1,
+            98,
+            45,
+            1
+          ],
+          "surface": "اتا",
+          "logit": -3.942911386489868
+        },
+        {
+          "root": "بصر",
+          "root_id": 585,
+          "tuple": [
+            1,
+            585,
+            1,
+            1
+          ],
+          "surface": "بصر",
+          "logit": -3.9870123863220215
+        },
+        {
+          "root": "منع",
+          "root_id": 7894,
+          "tuple": [
+            1,
+            7894,
+            1,
+            1
+          ],
+          "surface": "منع",
+          "logit": -4.018974781036377
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 14,
+    "window_start": 472128,
+    "target_stream_index": 472193,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 22609,
+    "context_words": [
+      "الله",
+      "الذي",
+      "~~خلقك",
+      "فقلت",
+      "كيف",
+      "أذكره",
+      "قال",
+      "قل",
+      "بقلبك",
+      "عند",
+      "تقلبك",
+      "في",
+      "ثيابك",
+      "ثلاث",
+      "مرات",
+      "من",
+      "غير",
+      "أن",
+      "~~تحرك",
+      "به",
+      "لسانك",
+      "الله",
+      "معي",
+      "الله"
+    ],
+    "truth_surface": "ناظر",
+    "truth_root": "نظر",
+    "truth_root_id": 8183,
+    "truth_tuple": [
+      1,
+      8183,
+      42,
+      1
+    ],
+    "truth_realised": "ناظر",
+    "truth_root_freq_rank": 113,
+    "truth_root_train_count": 9358,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "زلل",
+      "root_id": 3535,
+      "root_freq_rank": 679,
+      "tuple": [
+        1,
+        3535,
+        1,
+        1
+      ],
+      "surface": "زلل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "زلل",
+          "root_id": 3535,
+          "tuple": [
+            1,
+            3535,
+            1,
+            1
+          ],
+          "surface": "زلل",
+          "logit": 3.547450542449951
+        },
+        {
+          "root": "فقل",
+          "root_id": 6276,
+          "tuple": [
+            1,
+            6276,
+            1,
+            1
+          ],
+          "surface": "فقل",
+          "logit": 2.6296305656433105
+        },
+        {
+          "root": "شهد",
+          "root_id": 4443,
+          "tuple": [
+            1,
+            4443,
+            1,
+            1
+          ],
+          "surface": "شهد",
+          "logit": 0.4724396765232086
+        },
+        {
+          "root": "ذلل",
+          "root_id": 2951,
+          "tuple": [
+            1,
+            2951,
+            1,
+            1
+          ],
+          "surface": "ذلل",
+          "logit": 0.2493346482515335
+        },
+        {
+          "root": "قلل",
+          "root_id": 6773,
+          "tuple": [
+            1,
+            6773,
+            1,
+            1
+          ],
+          "surface": "قلل",
+          "logit": 0.23240183293819427
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "مقت",
+      "root_id": 7845,
+      "root_freq_rank": 1832,
+      "tuple": [
+        1,
+        7845,
+        1,
+        1
+      ],
+      "surface": "مقت",
+      "correct": false,
+      "top5": [
+        {
+          "root": "مقت",
+          "root_id": 7845,
+          "tuple": [
+            1,
+            7845,
+            1,
+            1
+          ],
+          "surface": "مقت",
+          "logit": -2.4072110652923584
+        },
+        {
+          "root": "خلف",
+          "root_id": 2303,
+          "tuple": [
+            1,
+            2303,
+            1,
+            1
+          ],
+          "surface": "خلف",
+          "logit": -2.7011423110961914
+        },
+        {
+          "root": "جمع",
+          "root_id": 1488,
+          "tuple": [
+            1,
+            1488,
+            1,
+            1
+          ],
+          "surface": "جمع",
+          "logit": -2.7698848247528076
+        },
+        {
+          "root": "وفي",
+          "root_id": 9000,
+          "tuple": [
+            1,
+            9000,
+            1,
+            1
+          ],
+          "surface": "وفي",
+          "logit": -2.7738900184631348
+        },
+        {
+          "root": "حقق",
+          "root_id": 1878,
+          "tuple": [
+            1,
+            1878,
+            1,
+            1
+          ],
+          "surface": "حقق",
+          "logit": -2.822814702987671
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 15,
+    "window_start": 476544,
+    "target_stream_index": 476609,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 22943,
+    "context_words": [
+      "كان",
+      "أعذب",
+      "للتلاوة",
+      "وأدوم",
+      "للقيام",
+      "وأقل",
+      "للمنام",
+      "وقال",
+      "~~أبو",
+      "بكر",
+      "بن",
+      "عبد",
+      "الله",
+      "المزني",
+      "ثلاثة",
+      "يحبهم",
+      "الله",
+      "تعالى",
+      "رجل",
+      "قليل",
+      "النوم",
+      "قليل",
+      "~~الأكل",
+      "قليل"
+    ],
+    "truth_surface": "الراحة",
+    "truth_root": "رحح",
+    "truth_root_id": 3066,
+    "truth_tuple": [
+      3,
+      3066,
+      42,
+      20
+    ],
+    "truth_realised": "الراحة",
+    "truth_root_freq_rank": 1338,
+    "truth_root_train_count": 413,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "فقل",
+      "root_id": 6276,
+      "root_freq_rank": 75,
+      "tuple": [
+        1,
+        6276,
+        1,
+        1
+      ],
+      "surface": "فقل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "فقل",
+          "root_id": 6276,
+          "tuple": [
+            1,
+            6276,
+            1,
+            1
+          ],
+          "surface": "فقل",
+          "logit": 5.518707275390625
+        },
+        {
+          "root": "حال",
+          "root_id": 1594,
+          "tuple": [
+            1,
+            1594,
+            1,
+            1
+          ],
+          "surface": "حال",
+          "logit": 2.4137136936187744
+        },
+        {
+          "root": "لبث",
+          "root_id": 9391,
+          "tuple": [
+            3,
+            9391,
+            45,
+            1
+          ],
+          "surface": "اللبث",
+          "logit": 1.0103209018707275
+        },
+        {
+          "root": "جبا",
+          "root_id": 1172,
+          "tuple": [
+            1,
+            1172,
+            1,
+            1
+          ],
+          "surface": "جبا",
+          "logit": 0.4255848228931427
+        },
+        {
+          "root": "لذع",
+          "root_id": 7421,
+          "tuple": [
+            3,
+            7421,
+            1,
+            1
+          ],
+          "surface": "اللذع",
+          "logit": 0.022543855011463165
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "كثر",
+      "root_id": 6977,
+      "root_freq_rank": 69,
+      "tuple": [
+        1,
+        6977,
+        55,
+        1
+      ],
+      "surface": "كثير",
+      "correct": false,
+      "top5": [
+        {
+          "root": "كثر",
+          "root_id": 6977,
+          "tuple": [
+            1,
+            6977,
+            55,
+            1
+          ],
+          "surface": "كثير",
+          "logit": -0.9716994166374207
+        },
+        {
+          "root": "خرب",
+          "root_id": 2135,
+          "tuple": [
+            3,
+            2135,
+            45,
+            1
+          ],
+          "surface": "الخرب",
+          "logit": -1.0701384544372559
+        },
+        {
+          "root": "جبا",
+          "root_id": 1172,
+          "tuple": [
+            1,
+            1172,
+            1,
+            1
+          ],
+          "surface": "جبا",
+          "logit": -1.0786995887756348
+        },
+        {
+          "root": "خير",
+          "root_id": 2419,
+          "tuple": [
+            3,
+            2419,
+            45,
+            1
+          ],
+          "surface": "الخير",
+          "logit": -1.1425061225891113
+        },
+        {
+          "root": "قفش",
+          "root_id": 6720,
+          "tuple": [
+            3,
+            6720,
+            45,
+            1
+          ],
+          "surface": "القفش",
+          "logit": -1.2003055810928345
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 16,
+    "window_start": 493376,
+    "target_stream_index": 493441,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 24218,
+    "context_words": [
+      "يقال",
+      "يؤتى",
+      "بالفاحش",
+      "المتفحش",
+      "يوم",
+      "القيامة",
+      "في",
+      "صورة",
+      "كلب",
+      "أو",
+      "في",
+      "~~جوف",
+      "كلب",
+      "وقال",
+      "الأحنف",
+      "بن",
+      "قيس",
+      "ألا",
+      "أخبركم",
+      "بأدوإ",
+      "الداء",
+      "اللسان",
+      "البذي",
+      "والخلق"
+    ],
+    "truth_surface": "~~بالعبارات",
+    "truth_root": "<PARTICLE>",
+    "truth_root_id": 4,
+    "truth_tuple": [
+      1,
+      4,
+      1,
+      1
+    ],
+    "truth_realised": "",
+    "truth_root_freq_rank": 1,
+    "truth_root_train_count": 1571716,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "عدد",
+      "root_id": 5318,
+      "root_freq_rank": 143,
+      "tuple": [
+        1,
+        5318,
+        1,
+        1
+      ],
+      "surface": "عدد",
+      "correct": false,
+      "top5": [
+        {
+          "root": "عدد",
+          "root_id": 5318,
+          "tuple": [
+            1,
+            5318,
+            1,
+            1
+          ],
+          "surface": "عدد",
+          "logit": 2.2129733562469482
+        },
+        {
+          "root": "فيل",
+          "root_id": 6393,
+          "tuple": [
+            1,
+            6393,
+            1,
+            1
+          ],
+          "surface": "فيل",
+          "logit": 1.2582716941833496
+        },
+        {
+          "root": "وذم",
+          "root_id": 8864,
+          "tuple": [
+            1,
+            8864,
+            1,
+            1
+          ],
+          "surface": "وذم",
+          "logit": 1.2435328960418701
+        },
+        {
+          "root": "وتت",
+          "root_id": 8776,
+          "tuple": [
+            1,
+            8776,
+            1,
+            1
+          ],
+          "surface": "وتت",
+          "logit": 1.0901511907577515
+        },
+        {
+          "root": "غطم",
+          "root_id": 5938,
+          "tuple": [
+            1,
+            5938,
+            1,
+            1
+          ],
+          "surface": "غطم",
+          "logit": 1.0014607906341553
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "غفل",
+      "root_id": 5947,
+      "root_freq_rank": 716,
+      "tuple": [
+        1,
+        5947,
+        1,
+        1
+      ],
+      "surface": "غفل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "غفل",
+          "root_id": 5947,
+          "tuple": [
+            1,
+            5947,
+            1,
+            1
+          ],
+          "surface": "غفل",
+          "logit": -1.1890716552734375
+        },
+        {
+          "root": "حمل",
+          "root_id": 1938,
+          "tuple": [
+            1,
+            1938,
+            1,
+            1
+          ],
+          "surface": "حمل",
+          "logit": -1.2949833869934082
+        },
+        {
+          "root": "وذم",
+          "root_id": 8864,
+          "tuple": [
+            1,
+            8864,
+            1,
+            1
+          ],
+          "surface": "وذم",
+          "logit": -1.3537514209747314
+        },
+        {
+          "root": "عدد",
+          "root_id": 5318,
+          "tuple": [
+            1,
+            5318,
+            1,
+            1
+          ],
+          "surface": "عدد",
+          "logit": -1.5416507720947266
+        },
+        {
+          "root": "غطم",
+          "root_id": 5938,
+          "tuple": [
+            1,
+            5938,
+            1,
+            1
+          ],
+          "surface": "غطم",
+          "logit": -1.600961446762085
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 17,
+    "window_start": 503872,
+    "target_stream_index": 503937,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 25013,
+    "context_words": [
+      "الناس",
+      "لكثرة",
+      "الاعتياد",
+      "تساهلوا",
+      "في",
+      "أمر",
+      "~~الغيبة",
+      "ولم",
+      "يكترثوا",
+      "بتناول",
+      "أعراض",
+      "الخلق",
+      "ومهما",
+      "خطر",
+      "لك",
+      "خاطر",
+      "بسوء",
+      "على",
+      "مسلم",
+      "~~فينبغي",
+      "أن",
+      "تزيد",
+      "في",
+      "مراعاته"
+    ],
+    "truth_surface": "وتدعو",
+    "truth_root": "<PARTICLE>",
+    "truth_root_id": 4,
+    "truth_tuple": [
+      1,
+      4,
+      1,
+      1
+    ],
+    "truth_realised": "",
+    "truth_root_freq_rank": 1,
+    "truth_root_train_count": 1571716,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "غيظ",
+      "root_id": 6037,
+      "root_freq_rank": 1598,
+      "tuple": [
+        1,
+        6037,
+        1,
+        1
+      ],
+      "surface": "غيظ",
+      "correct": false,
+      "top5": [
+        {
+          "root": "غيظ",
+          "root_id": 6037,
+          "tuple": [
+            1,
+            6037,
+            1,
+            1
+          ],
+          "surface": "غيظ",
+          "logit": 2.099661111831665
+        },
+        {
+          "root": "حزن",
+          "root_id": 1771,
+          "tuple": [
+            1,
+            1771,
+            45,
+            1
+          ],
+          "surface": "حزن",
+          "logit": 1.5024383068084717
+        },
+        {
+          "root": "نتت",
+          "root_id": 7993,
+          "tuple": [
+            1,
+            7993,
+            1,
+            1
+          ],
+          "surface": "نتت",
+          "logit": 0.015791140496730804
+        },
+        {
+          "root": "نظر",
+          "root_id": 8183,
+          "tuple": [
+            1,
+            8183,
+            1,
+            1
+          ],
+          "surface": "نظر",
+          "logit": -0.21590319275856018
+        },
+        {
+          "root": "ولي",
+          "root_id": 9420,
+          "tuple": [
+            1,
+            9420,
+            1,
+            1
+          ],
+          "surface": "ولي",
+          "logit": -0.27581271529197693
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "ويل",
+      "root_id": 9107,
+      "root_freq_rank": 1633,
+      "tuple": [
+        1,
+        9107,
+        1,
+        1
+      ],
+      "surface": "ويل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "ويل",
+          "root_id": 9107,
+          "tuple": [
+            1,
+            9107,
+            1,
+            1
+          ],
+          "surface": "ويل",
+          "logit": -3.297667980194092
+        },
+        {
+          "root": "نسب",
+          "root_id": 8115,
+          "tuple": [
+            1,
+            8115,
+            1,
+            1
+          ],
+          "surface": "نسب",
+          "logit": -3.5712223052978516
+        },
+        {
+          "root": "حذف",
+          "root_id": 1694,
+          "tuple": [
+            1,
+            1694,
+            45,
+            1
+          ],
+          "surface": "حذف",
+          "logit": -3.5848186016082764
+        },
+        {
+          "root": "ولي",
+          "root_id": 9420,
+          "tuple": [
+            1,
+            9420,
+            1,
+            1
+          ],
+          "surface": "ولي",
+          "logit": -3.6156582832336426
+        },
+        {
+          "root": "ركب",
+          "root_id": 3239,
+          "tuple": [
+            1,
+            3239,
+            1,
+            1
+          ],
+          "surface": "ركب",
+          "logit": -3.6420516967773438
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 18,
+    "window_start": 564224,
+    "target_stream_index": 564289,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 29730,
+    "context_words": [
+      "مهما",
+      "مضى",
+      "~~ركن",
+      "من",
+      "أركانها",
+      "على",
+      "هذا",
+      "الوجه",
+      "لأنا",
+      "نكتفي",
+      "بالنية",
+      "السابقة",
+      "عند",
+      "الإحرام",
+      "بشرط",
+      "~~أن",
+      "لا",
+      "يطرأ",
+      "عليها",
+      "ما",
+      "يغلبها",
+      "ويغمرها",
+      "ويحتمل",
+      "أن"
+    ],
+    "truth_surface": "يقال",
+    "truth_root": "قال",
+    "truth_root_id": 6397,
+    "truth_tuple": [
+      1,
+      6397,
+      118,
+      1
+    ],
+    "truth_realised": "يقال",
+    "truth_root_freq_rank": 5,
+    "truth_root_train_count": 79815,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "عقد",
+      "root_id": 5577,
+      "root_freq_rank": 271,
+      "tuple": [
+        1,
+        5577,
+        1,
+        1
+      ],
+      "surface": "عقد",
+      "correct": false,
+      "top5": [
+        {
+          "root": "عقد",
+          "root_id": 5577,
+          "tuple": [
+            1,
+            5577,
+            1,
+            1
+          ],
+          "surface": "عقد",
+          "logit": 1.603180170059204
+        },
+        {
+          "root": "فسد",
+          "root_id": 6205,
+          "tuple": [
+            1,
+            6205,
+            118,
+            1
+          ],
+          "surface": "يفسد",
+          "logit": 0.898536205291748
+        },
+        {
+          "root": "غلب",
+          "root_id": 5952,
+          "tuple": [
+            1,
+            5952,
+            118,
+            1
+          ],
+          "surface": "يغلب",
+          "logit": 0.6238465309143066
+        },
+        {
+          "root": "كلم",
+          "root_id": 7202,
+          "tuple": [
+            1,
+            7202,
+            1,
+            1
+          ],
+          "surface": "كلم",
+          "logit": 0.06613251566886902
+        },
+        {
+          "root": "وفي",
+          "root_id": 9000,
+          "tuple": [
+            1,
+            9000,
+            1,
+            1
+          ],
+          "surface": "وفي",
+          "logit": -0.535024881362915
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "فهم",
+      "root_id": 6360,
+      "root_freq_rank": 232,
+      "tuple": [
+        1,
+        6360,
+        118,
+        1
+      ],
+      "surface": "يفهم",
+      "correct": false,
+      "top5": [
+        {
+          "root": "فهم",
+          "root_id": 6360,
+          "tuple": [
+            1,
+            6360,
+            118,
+            1
+          ],
+          "surface": "يفهم",
+          "logit": -0.9781918525695801
+        },
+        {
+          "root": "كون",
+          "root_id": 7309,
+          "tuple": [
+            1,
+            7309,
+            1,
+            1
+          ],
+          "surface": "كون",
+          "logit": -1.4815244674682617
+        },
+        {
+          "root": "وقل",
+          "root_id": 9016,
+          "tuple": [
+            1,
+            9016,
+            1,
+            1
+          ],
+          "surface": "وقل",
+          "logit": -1.5797497034072876
+        },
+        {
+          "root": "ريد",
+          "root_id": 3337,
+          "tuple": [
+            1,
+            3337,
+            1,
+            1
+          ],
+          "surface": "ريد",
+          "logit": -1.8227064609527588
+        },
+        {
+          "root": "عقب",
+          "root_id": 5574,
+          "tuple": [
+            1,
+            5574,
+            118,
+            1
+          ],
+          "surface": "يعقب",
+          "logit": -1.9459071159362793
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 19,
+    "window_start": 572032,
+    "target_stream_index": 572097,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 30356,
+    "context_words": [
+      "أما",
+      "إنا",
+      "~~على",
+      "ذلك",
+      "لانتهم",
+      "نصيحتك",
+      "فأقصر",
+      "عليك",
+      "من",
+      "لسانك",
+      "قال",
+      "فدفعه",
+      "الله",
+      "عني",
+      "~~يتبعونه",
+      "فوقف",
+      "فقال",
+      "هل",
+      "لكم",
+      "من",
+      "حاجة",
+      "أو",
+      "تسألون",
+      "عن"
+    ],
+    "truth_surface": "شيء",
+    "truth_root": "شيء",
+    "truth_root_id": 4477,
+    "truth_tuple": [
+      1,
+      4477,
+      45,
+      1
+    ],
+    "truth_realised": "شيء",
+    "truth_root_freq_rank": 47,
+    "truth_root_train_count": 18217,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "وصل",
+      "root_id": 8938,
+      "root_freq_rank": 355,
+      "tuple": [
+        1,
+        8938,
+        1,
+        1
+      ],
+      "surface": "وصل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "وصل",
+          "root_id": 8938,
+          "tuple": [
+            1,
+            8938,
+            1,
+            1
+          ],
+          "surface": "وصل",
+          "logit": -0.24593032896518707
+        },
+        {
+          "root": "دنا",
+          "root_id": 2772,
+          "tuple": [
+            1,
+            2772,
+            1,
+            1
+          ],
+          "surface": "دنا",
+          "logit": -0.9098262190818787
+        },
+        {
+          "root": "قوم",
+          "root_id": 6918,
+          "tuple": [
+            1,
+            6918,
+            1,
+            1
+          ],
+          "surface": "قوم",
+          "logit": -1.1010401248931885
+        },
+        {
+          "root": "بيت",
+          "root_id": 805,
+          "tuple": [
+            1,
+            805,
+            1,
+            1
+          ],
+          "surface": "بيت",
+          "logit": -1.893480658531189
+        },
+        {
+          "root": "عبد",
+          "root_id": 5236,
+          "tuple": [
+            1,
+            5236,
+            1,
+            1
+          ],
+          "surface": "عبد",
+          "logit": -2.376263380050659
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "حوض",
+      "root_id": 2015,
+      "root_freq_rank": 1276,
+      "tuple": [
+        1,
+        2015,
+        1,
+        1
+      ],
+      "surface": "حوض",
+      "correct": false,
+      "top5": [
+        {
+          "root": "حوض",
+          "root_id": 2015,
+          "tuple": [
+            1,
+            2015,
+            1,
+            1
+          ],
+          "surface": "حوض",
+          "logit": -4.1834397315979
+        },
+        {
+          "root": "أصل",
+          "root_id": 75,
+          "tuple": [
+            1,
+            75,
+            1,
+            1
+          ],
+          "surface": "أصل",
+          "logit": -4.184515953063965
+        },
+        {
+          "root": "ابن",
+          "root_id": 95,
+          "tuple": [
+            1,
+            95,
+            1,
+            1
+          ],
+          "surface": "ابن",
+          "logit": -4.191603660583496
+        },
+        {
+          "root": "كرم",
+          "root_id": 7072,
+          "tuple": [
+            1,
+            7072,
+            1,
+            1
+          ],
+          "surface": "كرم",
+          "logit": -4.292662143707275
+        },
+        {
+          "root": "دير",
+          "root_id": 2864,
+          "tuple": [
+            1,
+            2864,
+            84,
+            5
+          ],
+          "surface": "ديارهم",
+          "logit": -4.292931079864502
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 20,
+    "window_start": 588800,
+    "target_stream_index": 588865,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 31668,
+    "context_words": [
+      "بعمله",
+      "أو",
+      "يدل",
+      "به",
+      "ولا",
+      "يخاف",
+      "على",
+      "~~نفسه",
+      "فإذن",
+      "هذا",
+      "هو",
+      "العلاج",
+      "القامع",
+      "لمادة",
+      "العجب",
+      "من",
+      "القلب",
+      "~~ينظر",
+      "إلى",
+      "الكفار",
+      "والفساق",
+      "وقد",
+      "سلبوا",
+      "نعمة"
+    ],
+    "truth_surface": "الإيمان",
+    "truth_root": "يمن",
+    "truth_root_id": 9113,
+    "truth_tuple": [
+      3,
+      9113,
+      13,
+      1
+    ],
+    "truth_realised": "الإيمان",
+    "truth_root_freq_rank": 219,
+    "truth_root_train_count": 5303,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "ربت",
+      "root_id": 3009,
+      "root_freq_rank": 1961,
+      "tuple": [
+        1,
+        3009,
+        1,
+        1
+      ],
+      "surface": "ربت",
+      "correct": false,
+      "top5": [
+        {
+          "root": "ربت",
+          "root_id": 3009,
+          "tuple": [
+            1,
+            3009,
+            1,
+            1
+          ],
+          "surface": "ربت",
+          "logit": 3.3173019886016846
+        },
+        {
+          "root": "تمن",
+          "root_id": 962,
+          "tuple": [
+            1,
+            962,
+            1,
+            1
+          ],
+          "surface": "تمن",
+          "logit": 2.5407731533050537
+        },
+        {
+          "root": "مطق",
+          "root_id": 7810,
+          "tuple": [
+            4,
+            7810,
+            117,
+            18
+          ],
+          "surface": "ويمتطقان",
+          "logit": 2.221536159515381
+        },
+        {
+          "root": "محج",
+          "root_id": 7665,
+          "tuple": [
+            1,
+            7665,
+            1,
+            20
+          ],
+          "surface": "محجة",
+          "logit": 2.1033952236175537
+        },
+        {
+          "root": "جنا",
+          "root_id": 1498,
+          "tuple": [
+            1,
+            1498,
+            115,
+            15
+          ],
+          "surface": "يتجناا",
+          "logit": 1.7015950679779053
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "تمن",
+      "root_id": 962,
+      "root_freq_rank": 2581,
+      "tuple": [
+        1,
+        962,
+        1,
+        1
+      ],
+      "surface": "تمن",
+      "correct": false,
+      "top5": [
+        {
+          "root": "تمن",
+          "root_id": 962,
+          "tuple": [
+            1,
+            962,
+            1,
+            1
+          ],
+          "surface": "تمن",
+          "logit": 0.20850606262683868
+        },
+        {
+          "root": "ربت",
+          "root_id": 3009,
+          "tuple": [
+            1,
+            3009,
+            1,
+            1
+          ],
+          "surface": "ربت",
+          "logit": 0.15936420857906342
+        },
+        {
+          "root": "مطق",
+          "root_id": 7810,
+          "tuple": [
+            1,
+            7810,
+            117,
+            18
+          ],
+          "surface": "يمتطقان",
+          "logit": -0.271348237991333
+        },
+        {
+          "root": "محج",
+          "root_id": 7665,
+          "tuple": [
+            1,
+            7665,
+            1,
+            20
+          ],
+          "surface": "محجة",
+          "logit": -0.7165617346763611
+        },
+        {
+          "root": "نقت",
+          "root_id": 8249,
+          "tuple": [
+            1,
+            8249,
+            1,
+            1
+          ],
+          "surface": "نقت",
+          "logit": -0.9003173112869263
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 21,
+    "window_start": 607552,
+    "target_stream_index": 607617,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 33149,
+    "context_words": [
+      "وقال",
+      "الذي",
+      "لمس",
+      "الناب",
+      "ليس",
+      "كما",
+      "يقول",
+      "بل",
+      "هو",
+      "صلب",
+      "لا",
+      "~~لين",
+      "فيه",
+      "وأملس",
+      "لا",
+      "خشونة",
+      "فيه",
+      "وليس",
+      "في",
+      "غلظ",
+      "الأسطوانة",
+      "أصلا",
+      "بل",
+      "هو"
+    ],
+    "truth_surface": "مثل",
+    "truth_root": "مثل",
+    "truth_root_id": 7649,
+    "truth_tuple": [
+      1,
+      7649,
+      45,
+      1
+    ],
+    "truth_realised": "مثل",
+    "truth_root_freq_rank": 45,
+    "truth_root_train_count": 18352,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "جلد",
+      "root_id": 1435,
+      "root_freq_rank": 538,
+      "tuple": [
+        1,
+        1435,
+        45,
+        1
+      ],
+      "surface": "جلد",
+      "correct": false,
+      "top5": [
+        {
+          "root": "جلد",
+          "root_id": 1435,
+          "tuple": [
+            1,
+            1435,
+            45,
+            1
+          ],
+          "surface": "جلد",
+          "logit": 2.363992929458618
+        },
+        {
+          "root": "عمد",
+          "root_id": 5680,
+          "tuple": [
+            1,
+            5680,
+            92,
+            1
+          ],
+          "surface": "معمد",
+          "logit": 0.8597843647003174
+        },
+        {
+          "root": "صدق",
+          "root_id": 4539,
+          "tuple": [
+            1,
+            4539,
+            1,
+            1
+          ],
+          "surface": "صدق",
+          "logit": 0.49424633383750916
+        },
+        {
+          "root": "مثل",
+          "root_id": 7649,
+          "tuple": [
+            1,
+            7649,
+            1,
+            1
+          ],
+          "surface": "مثل",
+          "logit": 0.3650047183036804
+        },
+        {
+          "root": "ظهر",
+          "root_id": 5218,
+          "tuple": [
+            1,
+            5218,
+            42,
+            1
+          ],
+          "surface": "ظاهر",
+          "logit": -0.3031842112541199
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "يبر",
+      "root_id": 9428,
+      "root_freq_rank": 3954,
+      "tuple": [
+        1,
+        9428,
+        74,
+        1
+      ],
+      "surface": "يبور",
+      "correct": false,
+      "top5": [
+        {
+          "root": "يبر",
+          "root_id": 9428,
+          "tuple": [
+            1,
+            9428,
+            74,
+            1
+          ],
+          "surface": "يبور",
+          "logit": -2.235280752182007
+        },
+        {
+          "root": "حرف",
+          "root_id": 1734,
+          "tuple": [
+            1,
+            1734,
+            1,
+            1
+          ],
+          "surface": "حرف",
+          "logit": -2.599564790725708
+        },
+        {
+          "root": "قيد",
+          "root_id": 6923,
+          "tuple": [
+            1,
+            6923,
+            1,
+            1
+          ],
+          "surface": "قيد",
+          "logit": -2.7048447132110596
+        },
+        {
+          "root": "دنفش",
+          "root_id": 2786,
+          "tuple": [
+            1,
+            2786,
+            92,
+            1
+          ],
+          "surface": "دنفش",
+          "logit": -2.7254114151000977
+        },
+        {
+          "root": "بلغ",
+          "root_id": 710,
+          "tuple": [
+            1,
+            710,
+            42,
+            1
+          ],
+          "surface": "بالغ",
+          "logit": -2.8106689453125
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 22,
+    "window_start": 614528,
+    "target_stream_index": 614593,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 33681,
+    "context_words": [
+      "إلى",
+      "أن",
+      "هذه",
+      "~~الأمور",
+      "من",
+      "الكبائر",
+      "وقال",
+      "الشافعي",
+      "رضي",
+      "الله",
+      "عنه",
+      "إذا",
+      "شرب",
+      "الحنفي",
+      "النبيذ",
+      "حددته",
+      "~~ولم",
+      "أرد",
+      "شهادته",
+      "فقد",
+      "جعله",
+      "كبيرة",
+      "بإيجاب",
+      "الحد"
+    ],
+    "truth_surface": "ولم",
+    "truth_root": "<P:ولم>",
+    "truth_root_id": 9306,
+    "truth_tuple": [
+      1,
+      9306,
+      1,
+      1
+    ],
+    "truth_realised": "ولم",
+    "truth_root_freq_rank": 163,
+    "truth_root_train_count": 6980,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "شبه",
+      "root_id": 4114,
+      "root_freq_rank": 169,
+      "tuple": [
+        1,
+        4114,
+        45,
+        1
+      ],
+      "surface": "شبه",
+      "correct": false,
+      "top5": [
+        {
+          "root": "شبه",
+          "root_id": 4114,
+          "tuple": [
+            1,
+            4114,
+            45,
+            1
+          ],
+          "surface": "شبه",
+          "logit": 4.153565406799316
+        },
+        {
+          "root": "عرف",
+          "root_id": 5386,
+          "tuple": [
+            1,
+            5386,
+            1,
+            1
+          ],
+          "surface": "عرف",
+          "logit": 1.6952028274536133
+        },
+        {
+          "root": "خير",
+          "root_id": 2419,
+          "tuple": [
+            1,
+            2419,
+            1,
+            1
+          ],
+          "surface": "خير",
+          "logit": 0.8456835746765137
+        },
+        {
+          "root": "ورد",
+          "root_id": 8871,
+          "tuple": [
+            1,
+            8871,
+            130,
+            20
+          ],
+          "surface": "ورائدة",
+          "logit": 0.7406805753707886
+        },
+        {
+          "root": "وجد",
+          "root_id": 8807,
+          "tuple": [
+            6,
+            8807,
+            1,
+            1
+          ],
+          "surface": "فوجد",
+          "logit": 0.6065366864204407
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "همل",
+      "root_id": 8662,
+      "root_freq_rank": 810,
+      "tuple": [
+        4,
+        8662,
+        1,
+        1
+      ],
+      "surface": "وهمل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "همل",
+          "root_id": 8662,
+          "tuple": [
+            4,
+            8662,
+            1,
+            1
+          ],
+          "surface": "وهمل",
+          "logit": -1.2659573554992676
+        },
+        {
+          "root": "خير",
+          "root_id": 2419,
+          "tuple": [
+            1,
+            2419,
+            1,
+            1
+          ],
+          "surface": "خير",
+          "logit": -1.2978965044021606
+        },
+        {
+          "root": "كذا",
+          "root_id": 7016,
+          "tuple": [
+            1,
+            7016,
+            45,
+            1
+          ],
+          "surface": "كذا",
+          "logit": -1.3301900625228882
+        },
+        {
+          "root": "لعم",
+          "root_id": 7483,
+          "tuple": [
+            1,
+            7483,
+            1,
+            1
+          ],
+          "surface": "لعم",
+          "logit": -1.4595537185668945
+        },
+        {
+          "root": "عضب",
+          "root_id": 5493,
+          "tuple": [
+            1,
+            5493,
+            45,
+            1
+          ],
+          "surface": "عضب",
+          "logit": -1.4813685417175293
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 23,
+    "window_start": 712512,
+    "target_stream_index": 712577,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 41211,
+    "context_words": [
+      "ولكنه",
+      "ينبه",
+      "في",
+      "الجملة",
+      "على",
+      "كيفية",
+      "مصير",
+      "~~الكثرة",
+      "في",
+      "حكم",
+      "المشاهدة",
+      "واحدا",
+      "ويستبين",
+      "بهذا",
+      "الكلام",
+      "ترك",
+      "الإنكار",
+      "والجحود",
+      "~~لمقام",
+      "لم",
+      "تبلغه",
+      "وتؤمن",
+      "به",
+      "إيمان"
+    ],
+    "truth_surface": "تصديق",
+    "truth_root": "صدق",
+    "truth_root_id": 4539,
+    "truth_tuple": [
+      1,
+      4539,
+      37,
+      1
+    ],
+    "truth_realised": "تصديق",
+    "truth_root_freq_rank": 158,
+    "truth_root_train_count": 7109,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "صدف",
+      "root_id": 4538,
+      "root_freq_rank": 1889,
+      "tuple": [
+        1,
+        4538,
+        1,
+        1
+      ],
+      "surface": "صدف",
+      "correct": false,
+      "top5": [
+        {
+          "root": "صدف",
+          "root_id": 4538,
+          "tuple": [
+            1,
+            4538,
+            1,
+            1
+          ],
+          "surface": "صدف",
+          "logit": 2.5510993003845215
+        },
+        {
+          "root": "قام",
+          "root_id": 6398,
+          "tuple": [
+            1,
+            6398,
+            1,
+            1
+          ],
+          "surface": "قام",
+          "logit": 1.8053717613220215
+        },
+        {
+          "root": "نتق",
+          "root_id": 8004,
+          "tuple": [
+            1,
+            8004,
+            1,
+            1
+          ],
+          "surface": "نتق",
+          "logit": 1.6745131015777588
+        },
+        {
+          "root": "تقق",
+          "root_id": 931,
+          "tuple": [
+            1,
+            931,
+            1,
+            1
+          ],
+          "surface": "تقق",
+          "logit": 1.4936884641647339
+        },
+        {
+          "root": "كفر",
+          "root_id": 7169,
+          "tuple": [
+            1,
+            7169,
+            1,
+            1
+          ],
+          "surface": "كفر",
+          "logit": 1.4733301401138306
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "كفر",
+      "root_id": 7169,
+      "root_freq_rank": 226,
+      "tuple": [
+        1,
+        7169,
+        1,
+        1
+      ],
+      "surface": "كفر",
+      "correct": false,
+      "top5": [
+        {
+          "root": "كفر",
+          "root_id": 7169,
+          "tuple": [
+            1,
+            7169,
+            1,
+            1
+          ],
+          "surface": "كفر",
+          "logit": -0.7766404151916504
+        },
+        {
+          "root": "يزن",
+          "root_id": 9447,
+          "tuple": [
+            1,
+            9447,
+            45,
+            1
+          ],
+          "surface": "يزن",
+          "logit": -0.8991342186927795
+        },
+        {
+          "root": "صدف",
+          "root_id": 4538,
+          "tuple": [
+            1,
+            4538,
+            1,
+            1
+          ],
+          "surface": "صدف",
+          "logit": -1.0344750881195068
+        },
+        {
+          "root": "ثقق",
+          "root_id": 1104,
+          "tuple": [
+            4,
+            1104,
+            1,
+            1
+          ],
+          "surface": "وثقق",
+          "logit": -1.2111419439315796
+        },
+        {
+          "root": "سعع",
+          "root_id": 3834,
+          "tuple": [
+            1,
+            3834,
+            1,
+            1
+          ],
+          "surface": "سعع",
+          "logit": -1.237339735031128
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 24,
+    "window_start": 718976,
+    "target_stream_index": 719041,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 41702,
+    "context_words": [
+      "فيكون",
+      "باعثا",
+      "له",
+      "على",
+      "بذل",
+      "كل",
+      "ما",
+      "يقدر",
+      "~~يهمه",
+      "أمره",
+      "ولا",
+      "يبالي",
+      "به",
+      "ظفر",
+      "خصمه",
+      "أو",
+      "لم",
+      "يظفر",
+      "هلك",
+      "به",
+      "حقه",
+      "أو",
+      "لم",
+      "يهلك"
+    ],
+    "truth_surface": "فإن",
+    "truth_root": "<P:فإن>",
+    "truth_root_id": 9217,
+    "truth_tuple": [
+      1,
+      9217,
+      1,
+      1
+    ],
+    "truth_realised": "فإن",
+    "truth_root_freq_rank": 56,
+    "truth_root_train_count": 16610,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": false,
+    "rca_on": {
+      "root": "فوت",
+      "root_id": 6363,
+      "root_freq_rank": 745,
+      "tuple": [
+        1,
+        6363,
+        1,
+        1
+      ],
+      "surface": "فوت",
+      "correct": false,
+      "top5": [
+        {
+          "root": "فوت",
+          "root_id": 6363,
+          "tuple": [
+            1,
+            6363,
+            1,
+            1
+          ],
+          "surface": "فوت",
+          "logit": 4.123878479003906
+        },
+        {
+          "root": "هلك",
+          "root_id": 8638,
+          "tuple": [
+            1,
+            8638,
+            1,
+            1
+          ],
+          "surface": "هلك",
+          "logit": 3.4729316234588623
+        },
+        {
+          "root": "فكن",
+          "root_id": 6283,
+          "tuple": [
+            1,
+            6283,
+            1,
+            1
+          ],
+          "surface": "فكن",
+          "logit": 2.737673282623291
+        },
+        {
+          "root": "هزل",
+          "root_id": 8542,
+          "tuple": [
+            1,
+            8542,
+            1,
+            1
+          ],
+          "surface": "هزل",
+          "logit": 1.5675172805786133
+        },
+        {
+          "root": "هان",
+          "root_id": 8376,
+          "tuple": [
+            1,
+            8376,
+            1,
+            1
+          ],
+          "surface": "هان",
+          "logit": 1.4161908626556396
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "نطع",
+      "root_id": 8176,
+      "root_freq_rank": 2709,
+      "tuple": [
+        1,
+        8176,
+        1,
+        1
+      ],
+      "surface": "نطع",
+      "correct": false,
+      "top5": [
+        {
+          "root": "نطع",
+          "root_id": 8176,
+          "tuple": [
+            1,
+            8176,
+            1,
+            1
+          ],
+          "surface": "نطع",
+          "logit": -0.5186652541160583
+        },
+        {
+          "root": "هزل",
+          "root_id": 8542,
+          "tuple": [
+            1,
+            8542,
+            1,
+            1
+          ],
+          "surface": "هزل",
+          "logit": -0.6934924125671387
+        },
+        {
+          "root": "فكن",
+          "root_id": 6283,
+          "tuple": [
+            1,
+            6283,
+            1,
+            1
+          ],
+          "surface": "فكن",
+          "logit": -0.908268392086029
+        },
+        {
+          "root": "هلك",
+          "root_id": 8638,
+          "tuple": [
+            1,
+            8638,
+            1,
+            1
+          ],
+          "surface": "هلك",
+          "logit": -0.9699233770370483
+        },
+        {
+          "root": "لهس",
+          "root_id": 7569,
+          "tuple": [
+            8,
+            7569,
+            1,
+            1
+          ],
+          "surface": "بلهس",
+          "logit": -1.1073358058929443
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 25,
+    "window_start": 722112,
+    "target_stream_index": 722177,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 41938,
+    "context_words": [
+      "قدرتك",
+      "وربما",
+      "~~يطرأ",
+      "عليك",
+      "في",
+      "الحال",
+      "ما",
+      "يزيل",
+      "عقلك",
+      "ويبطل",
+      "قوة",
+      "حركتك",
+      "وكيف",
+      "تعول",
+      "على",
+      "حضور",
+      "~~الطعام",
+      "وربما",
+      "يسلط",
+      "الله",
+      "تعالى",
+      "~~احتمل",
+      "أمثال",
+      "ذلك"
+    ],
+    "truth_surface": "ولم",
+    "truth_root": "<P:ولم>",
+    "truth_root_id": 9306,
+    "truth_tuple": [
+      1,
+      9306,
+      1,
+      1
+    ],
+    "truth_realised": "ولم",
+    "truth_root_freq_rank": 163,
+    "truth_root_train_count": 6980,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "طرق",
+      "root_id": 5026,
+      "root_freq_rank": 194,
+      "tuple": [
+        1,
+        5026,
+        1,
+        1
+      ],
+      "surface": "طرق",
+      "correct": false,
+      "top5": [
+        {
+          "root": "طرق",
+          "root_id": 5026,
+          "tuple": [
+            1,
+            5026,
+            1,
+            1
+          ],
+          "surface": "طرق",
+          "logit": 0.956113874912262
+        },
+        {
+          "root": "حرف",
+          "root_id": 1734,
+          "tuple": [
+            1,
+            1734,
+            1,
+            1
+          ],
+          "surface": "حرف",
+          "logit": 0.07226862013339996
+        },
+        {
+          "root": "عله",
+          "root_id": 5667,
+          "tuple": [
+            1,
+            5667,
+            1,
+            1
+          ],
+          "surface": "عله",
+          "logit": -0.15023383498191833
+        },
+        {
+          "root": "كذب",
+          "root_id": 7018,
+          "tuple": [
+            1,
+            7018,
+            1,
+            1
+          ],
+          "surface": "كذب",
+          "logit": -0.46722185611724854
+        },
+        {
+          "root": "يقن",
+          "root_id": 9112,
+          "tuple": [
+            1,
+            9112,
+            1,
+            1
+          ],
+          "surface": "يقن",
+          "logit": -0.5445758104324341
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "حرف",
+      "root_id": 1734,
+      "root_freq_rank": 253,
+      "tuple": [
+        1,
+        1734,
+        1,
+        1
+      ],
+      "surface": "حرف",
+      "correct": false,
+      "top5": [
+        {
+          "root": "حرف",
+          "root_id": 1734,
+          "tuple": [
+            1,
+            1734,
+            1,
+            1
+          ],
+          "surface": "حرف",
+          "logit": -2.3706133365631104
+        },
+        {
+          "root": "ذهن",
+          "root_id": 2969,
+          "tuple": [
+            1,
+            2969,
+            1,
+            1
+          ],
+          "surface": "ذهن",
+          "logit": -3.014910936355591
+        },
+        {
+          "root": "وكف",
+          "root_id": 9032,
+          "tuple": [
+            1,
+            9032,
+            1,
+            1
+          ],
+          "surface": "وكف",
+          "logit": -3.0394489765167236
+        },
+        {
+          "root": "كذب",
+          "root_id": 7018,
+          "tuple": [
+            1,
+            7018,
+            84,
+            1
+          ],
+          "surface": "كذاب",
+          "logit": -3.086602210998535
+        },
+        {
+          "root": "شفع",
+          "root_id": 4308,
+          "tuple": [
+            1,
+            4308,
+            1,
+            1
+          ],
+          "surface": "شفع",
+          "logit": -3.188610315322876
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 26,
+    "window_start": 739008,
+    "target_stream_index": 739073,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 43205,
+    "context_words": [
+      "معرفة",
+      "الله",
+      "تعالى",
+      "وكذلك",
+      "ما",
+      "يقاربه",
+      "~~ويختص",
+      "به",
+      "فشرفه",
+      "على",
+      "قدر",
+      "تعلقه",
+      "به",
+      "~~أحدها",
+      "علمهم",
+      "بالله",
+      "وملائكته",
+      "وكتبه",
+      "ورسله",
+      "وشرائع",
+      "أنبيائه",
+      "والثاني",
+      "قدرتهم",
+      "على"
+    ],
+    "truth_surface": "~~إصلاح",
+    "truth_root": "<PARTICLE>",
+    "truth_root_id": 4,
+    "truth_tuple": [
+      1,
+      4,
+      1,
+      1
+    ],
+    "truth_realised": "",
+    "truth_root_freq_rank": 1,
+    "truth_root_train_count": 1571716,
+    "truth_is_radical_not_counted_by_metric": true,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "طرق",
+      "root_id": 5026,
+      "root_freq_rank": 194,
+      "tuple": [
+        1,
+        5026,
+        1,
+        1
+      ],
+      "surface": "طرق",
+      "correct": false,
+      "top5": [
+        {
+          "root": "طرق",
+          "root_id": 5026,
+          "tuple": [
+            1,
+            5026,
+            1,
+            1
+          ],
+          "surface": "طرق",
+          "logit": -0.7667480707168579
+        },
+        {
+          "root": "هلل",
+          "root_id": 8640,
+          "tuple": [
+            1,
+            8640,
+            1,
+            1
+          ],
+          "surface": "هلل",
+          "logit": -1.4611424207687378
+        },
+        {
+          "root": "نفس",
+          "root_id": 8232,
+          "tuple": [
+            1,
+            8232,
+            1,
+            1
+          ],
+          "surface": "نفس",
+          "logit": -2.9838244915008545
+        },
+        {
+          "root": "قلل",
+          "root_id": 6773,
+          "tuple": [
+            1,
+            6773,
+            1,
+            1
+          ],
+          "surface": "قلل",
+          "logit": -3.0942163467407227
+        },
+        {
+          "root": "ذرر",
+          "root_id": 2908,
+          "tuple": [
+            1,
+            2908,
+            1,
+            1
+          ],
+          "surface": "ذرر",
+          "logit": -3.1884562969207764
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "عيب",
+      "root_id": 5803,
+      "root_freq_rank": 880,
+      "tuple": [
+        1,
+        5803,
+        1,
+        1
+      ],
+      "surface": "عيب",
+      "correct": false,
+      "top5": [
+        {
+          "root": "عيب",
+          "root_id": 5803,
+          "tuple": [
+            1,
+            5803,
+            1,
+            1
+          ],
+          "surface": "عيب",
+          "logit": -4.726062774658203
+        },
+        {
+          "root": "قبح",
+          "root_id": 6407,
+          "tuple": [
+            1,
+            6407,
+            1,
+            1
+          ],
+          "surface": "قبح",
+          "logit": -4.8664350509643555
+        },
+        {
+          "root": "سند",
+          "root_id": 4012,
+          "tuple": [
+            1,
+            4012,
+            1,
+            1
+          ],
+          "surface": "سند",
+          "logit": -4.903104305267334
+        },
+        {
+          "root": "ظهر",
+          "root_id": 5218,
+          "tuple": [
+            1,
+            5218,
+            1,
+            3
+          ],
+          "surface": "ظهره",
+          "logit": -4.9668474197387695
+        },
+        {
+          "root": "كتب",
+          "root_id": 6959,
+          "tuple": [
+            1,
+            6959,
+            1,
+            1
+          ],
+          "surface": "كتب",
+          "logit": -4.975754261016846
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 27,
+    "window_start": 742656,
+    "target_stream_index": 742721,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 43492,
+    "context_words": [
+      "موافقة",
+      "للمتخيلة",
+      "وإنما",
+      "الافتراق",
+      "~~بمزيد",
+      "الوضوح",
+      "والكشف",
+      "فإن",
+      "صورة",
+      "المرئي",
+      "صارت",
+      "بالرؤية",
+      "أتم",
+      "انكشافا",
+      "ووضوحا",
+      "وهو",
+      "~~كشخص",
+      "يرى",
+      "في",
+      "وقت",
+      "الإسفار",
+      "قبل",
+      "انتشار",
+      "ضوء"
+    ],
+    "truth_surface": "النهار",
+    "truth_root": "نهر",
+    "truth_root_id": 8318,
+    "truth_tuple": [
+      3,
+      8318,
+      84,
+      1
+    ],
+    "truth_realised": "النهار",
+    "truth_root_freq_rank": 307,
+    "truth_root_train_count": 3655,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "خيل",
+      "root_id": 2426,
+      "root_freq_rank": 448,
+      "tuple": [
+        1,
+        2426,
+        1,
+        1
+      ],
+      "surface": "خيل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "خيل",
+          "root_id": 2426,
+          "tuple": [
+            1,
+            2426,
+            1,
+            1
+          ],
+          "surface": "خيل",
+          "logit": 1.7762954235076904
+        },
+        {
+          "root": "درك",
+          "root_id": 2570,
+          "tuple": [
+            1,
+            2570,
+            1,
+            1
+          ],
+          "surface": "درك",
+          "logit": 0.9106877446174622
+        },
+        {
+          "root": "وسم",
+          "root_id": 8910,
+          "tuple": [
+            1,
+            8910,
+            42,
+            1
+          ],
+          "surface": "واسم",
+          "logit": 0.0038504800759255886
+        },
+        {
+          "root": "صدر",
+          "root_id": 4534,
+          "tuple": [
+            1,
+            4534,
+            1,
+            1
+          ],
+          "surface": "صدر",
+          "logit": -0.0015119792660698295
+        },
+        {
+          "root": "سحق",
+          "root_id": 3726,
+          "tuple": [
+            1,
+            3726,
+            13,
+            1
+          ],
+          "surface": "إسحاق",
+          "logit": -0.21642528474330902
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "وجه",
+      "root_id": 8816,
+      "root_freq_rank": 127,
+      "tuple": [
+        1,
+        8816,
+        1,
+        1
+      ],
+      "surface": "وجه",
+      "correct": false,
+      "top5": [
+        {
+          "root": "وجه",
+          "root_id": 8816,
+          "tuple": [
+            1,
+            8816,
+            1,
+            1
+          ],
+          "surface": "وجه",
+          "logit": -2.551297903060913
+        },
+        {
+          "root": "رجع",
+          "root_id": 3057,
+          "tuple": [
+            1,
+            3057,
+            45,
+            1
+          ],
+          "surface": "رجع",
+          "logit": -3.2128076553344727
+        },
+        {
+          "root": "ريد",
+          "root_id": 3337,
+          "tuple": [
+            1,
+            3337,
+            1,
+            1
+          ],
+          "surface": "ريد",
+          "logit": -3.336052656173706
+        },
+        {
+          "root": "خرج",
+          "root_id": 2144,
+          "tuple": [
+            1,
+            2144,
+            1,
+            1
+          ],
+          "surface": "خرج",
+          "logit": -3.3418068885803223
+        },
+        {
+          "root": "عبر",
+          "root_id": 5237,
+          "tuple": [
+            1,
+            5237,
+            1,
+            1
+          ],
+          "surface": "عبر",
+          "logit": -3.351468086242676
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 28,
+    "window_start": 748480,
+    "target_stream_index": 748545,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 43958,
+    "context_words": [
+      "وألقوا",
+      "أسماعهم",
+      "نحو",
+      "~~قوله",
+      "وألقوا",
+      "أبصارهم",
+      "إلى",
+      "الأرض",
+      "فقال",
+      "داود",
+      "إني",
+      "رسول",
+      "الله",
+      "إليكم",
+      "يقرئكم",
+      "~~السلام",
+      "ويقول",
+      "لكم",
+      "ألا",
+      "تسألون",
+      "حاجة",
+      "ألا",
+      "تنادوني",
+      "أسمع"
+    ],
+    "truth_surface": "صوتكم",
+    "truth_root": "صوت",
+    "truth_root_id": 4723,
+    "truth_tuple": [
+      1,
+      4723,
+      45,
+      9
+    ],
+    "truth_realised": "صوتكم",
+    "truth_root_freq_rank": 424,
+    "truth_root_train_count": 2463,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "صوت",
+      "root_id": 4723,
+      "root_freq_rank": 424,
+      "tuple": [
+        1,
+        4723,
+        1,
+        1
+      ],
+      "surface": "صوت",
+      "correct": true,
+      "top5": [
+        {
+          "root": "صوت",
+          "root_id": 4723,
+          "tuple": [
+            1,
+            4723,
+            1,
+            1
+          ],
+          "surface": "صوت",
+          "logit": 8.034721374511719
+        },
+        {
+          "root": "عمر",
+          "root_id": 5681,
+          "tuple": [
+            1,
+            5681,
+            1,
+            1
+          ],
+          "surface": "عمر",
+          "logit": 1.6980748176574707
+        },
+        {
+          "root": "كلم",
+          "root_id": 7202,
+          "tuple": [
+            1,
+            7202,
+            1,
+            1
+          ],
+          "surface": "كلم",
+          "logit": 1.6238311529159546
+        },
+        {
+          "root": "قال",
+          "root_id": 6397,
+          "tuple": [
+            1,
+            6397,
+            1,
+            1
+          ],
+          "surface": "قال",
+          "logit": 0.9580181241035461
+        },
+        {
+          "root": "غيث",
+          "root_id": 6031,
+          "tuple": [
+            1,
+            6031,
+            1,
+            1
+          ],
+          "surface": "غيث",
+          "logit": 0.1764933168888092
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "قذع",
+      "root_id": 6483,
+      "root_freq_rank": 3803,
+      "tuple": [
+        1,
+        6483,
+        1,
+        1
+      ],
+      "surface": "قذع",
+      "correct": false,
+      "top5": [
+        {
+          "root": "قذع",
+          "root_id": 6483,
+          "tuple": [
+            1,
+            6483,
+            1,
+            1
+          ],
+          "surface": "قذع",
+          "logit": -0.9027820229530334
+        },
+        {
+          "root": "غيث",
+          "root_id": 6031,
+          "tuple": [
+            1,
+            6031,
+            1,
+            1
+          ],
+          "surface": "غيث",
+          "logit": -1.0395885705947876
+        },
+        {
+          "root": "قلد",
+          "root_id": 6751,
+          "tuple": [
+            1,
+            6751,
+            1,
+            1
+          ],
+          "surface": "قلد",
+          "logit": -1.1443246603012085
+        },
+        {
+          "root": "ولخ",
+          "root_id": 9043,
+          "tuple": [
+            1,
+            9043,
+            1,
+            1
+          ],
+          "surface": "ولخ",
+          "logit": -1.3247450590133667
+        },
+        {
+          "root": "غوي",
+          "root_id": 6028,
+          "tuple": [
+            1,
+            6028,
+            1,
+            1
+          ],
+          "surface": "غوي",
+          "logit": -1.3498033285140991
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 29,
+    "window_start": 784832,
+    "target_stream_index": 784897,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 46812,
+    "context_words": [
+      "والأحمق",
+      "من",
+      "أتبع",
+      "نفسههواها",
+      "وتمنى",
+      "على",
+      "الله",
+      "الأماني",
+      "~~فانظرى",
+      "لنفسك",
+      "فما",
+      "أمرك",
+      "بمهم",
+      "لغيرك",
+      "ولا",
+      "تضيعى",
+      "أوقاتك",
+      "فالأنفاس",
+      "معدودة",
+      "فإذا",
+      "~~مضى",
+      "منك",
+      "نفس",
+      "فقد"
+    ],
+    "truth_surface": "ذهب",
+    "truth_root": "ذهب",
+    "truth_root_id": 2965,
+    "truth_tuple": [
+      1,
+      2965,
+      45,
+      1
+    ],
+    "truth_realised": "ذهب",
+    "truth_root_freq_rank": 128,
+    "truth_root_train_count": 8393,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": false,
+    "rca_on": {
+      "root": "ذهب",
+      "root_id": 2965,
+      "root_freq_rank": 128,
+      "tuple": [
+        1,
+        2965,
+        1,
+        1
+      ],
+      "surface": "ذهب",
+      "correct": true,
+      "top5": [
+        {
+          "root": "ذهب",
+          "root_id": 2965,
+          "tuple": [
+            1,
+            2965,
+            1,
+            1
+          ],
+          "surface": "ذهب",
+          "logit": 5.5959625244140625
+        },
+        {
+          "root": "وجب",
+          "root_id": 8804,
+          "tuple": [
+            1,
+            8804,
+            1,
+            1
+          ],
+          "surface": "وجب",
+          "logit": 2.4843227863311768
+        },
+        {
+          "root": "صحح",
+          "root_id": 4517,
+          "tuple": [
+            1,
+            4517,
+            1,
+            1
+          ],
+          "surface": "صحح",
+          "logit": 1.7272005081176758
+        },
+        {
+          "root": "قال",
+          "root_id": 6397,
+          "tuple": [
+            1,
+            6397,
+            1,
+            1
+          ],
+          "surface": "قال",
+          "logit": 1.4438940286636353
+        },
+        {
+          "root": "فعل",
+          "root_id": 6260,
+          "tuple": [
+            1,
+            6260,
+            1,
+            1
+          ],
+          "surface": "فعل",
+          "logit": 1.4323410987854004
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "وجب",
+      "root_id": 8804,
+      "root_freq_rank": 70,
+      "tuple": [
+        1,
+        8804,
+        1,
+        1
+      ],
+      "surface": "وجب",
+      "correct": false,
+      "top5": [
+        {
+          "root": "وجب",
+          "root_id": 8804,
+          "tuple": [
+            1,
+            8804,
+            1,
+            1
+          ],
+          "surface": "وجب",
+          "logit": 0.20076575875282288
+        },
+        {
+          "root": "كذب",
+          "root_id": 7018,
+          "tuple": [
+            1,
+            7018,
+            45,
+            1
+          ],
+          "surface": "كذب",
+          "logit": -0.05490519106388092
+        },
+        {
+          "root": "دبب",
+          "root_id": 2439,
+          "tuple": [
+            1,
+            2439,
+            120,
+            1
+          ],
+          "surface": "دبب",
+          "logit": -0.1073654294013977
+        },
+        {
+          "root": "سبط",
+          "root_id": 3672,
+          "tuple": [
+            1,
+            3672,
+            1,
+            1
+          ],
+          "surface": "سبط",
+          "logit": -0.18953979015350342
+        },
+        {
+          "root": "ظفر",
+          "root_id": 5205,
+          "tuple": [
+            1,
+            5205,
+            1,
+            1
+          ],
+          "surface": "ظفر",
+          "logit": -0.19466151297092438
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": false
+  },
+  {
+    "i": 30,
+    "window_start": 820160,
+    "target_stream_index": 820225,
+    "source_file": "Ghazali_Ihya_Ulum_al_Din.txt",
+    "sentence_ord_in_file": 49543,
+    "context_words": [
+      "من",
+      "أحب",
+      "قال",
+      "بلى",
+      "قلت",
+      "يا",
+      "رسول",
+      "الله",
+      "فإني",
+      "أحبك",
+      "وأحب",
+      "هؤلاء",
+      "الفقراء",
+      "~~فقال",
+      "صلى",
+      "الله",
+      "عليه",
+      "وسلم",
+      "صب",
+      "على",
+      "يده",
+      "فإنه",
+      "منهم",
+      "وقال"
+    ],
+    "truth_surface": "الجنيد",
+    "truth_root": "جند",
+    "truth_root_id": 1512,
+    "truth_tuple": [
+      3,
+      1512,
+      55,
+      1
+    ],
+    "truth_realised": "الجنيد",
+    "truth_root_freq_rank": 897,
+    "truth_root_train_count": 772,
+    "truth_is_radical_not_counted_by_metric": false,
+    "truth_is_novel_12gram_context": true,
+    "rca_on": {
+      "root": "فقل",
+      "root_id": 6276,
+      "root_freq_rank": 75,
+      "tuple": [
+        1,
+        6276,
+        84,
+        1
+      ],
+      "surface": "فقال",
+      "correct": false,
+      "top5": [
+        {
+          "root": "فقل",
+          "root_id": 6276,
+          "tuple": [
+            1,
+            6276,
+            84,
+            1
+          ],
+          "surface": "فقال",
+          "logit": 1.5683261156082153
+        },
+        {
+          "root": "جند",
+          "root_id": 1512,
+          "tuple": [
+            3,
+            1512,
+            1,
+            1
+          ],
+          "surface": "الجند",
+          "logit": -0.47189009189605713
+        },
+        {
+          "root": "مهر",
+          "root_id": 7900,
+          "tuple": [
+            1,
+            7900,
+            84,
+            1
+          ],
+          "surface": "مهار",
+          "logit": -1.7566945552825928
+        },
+        {
+          "root": "رجل",
+          "root_id": 3060,
+          "tuple": [
+            1,
+            3060,
+            1,
+            1
+          ],
+          "surface": "رجل",
+          "logit": -1.7732291221618652
+        },
+        {
+          "root": "قسم",
+          "root_id": 6613,
+          "tuple": [
+            1,
+            6613,
+            1,
+            1
+          ],
+          "surface": "قسم",
+          "logit": -1.8609378337860107
+        }
+      ]
+    },
+    "rca_off": {
+      "root": "فقل",
+      "root_id": 6276,
+      "root_freq_rank": 75,
+      "tuple": [
+        1,
+        6276,
+        45,
+        1
+      ],
+      "surface": "فقل",
+      "correct": false,
+      "top5": [
+        {
+          "root": "فقل",
+          "root_id": 6276,
+          "tuple": [
+            1,
+            6276,
+            45,
+            1
+          ],
+          "surface": "فقل",
+          "logit": -2.7273988723754883
+        },
+        {
+          "root": "صحب",
+          "root_id": 4516,
+          "tuple": [
+            1,
+            4516,
+            42,
+            1
+          ],
+          "surface": "صاحب",
+          "logit": -2.7442145347595215
+        },
+        {
+          "root": "خفش",
+          "root_id": 2278,
+          "tuple": [
+            3,
+            2278,
+            1,
+            1
+          ],
+          "surface": "الخفش",
+          "logit": -2.870209217071533
+        },
+        {
+          "root": "اله",
+          "root_id": 283,
+          "tuple": [
+            1,
+            283,
+            45,
+            1
+          ],
+          "surface": "أله",
+          "logit": -3.03045916557312
+        },
+        {
+          "root": "صهب",
+          "root_id": 4710,
+          "tuple": [
+            1,
+            4710,
+            45,
+            1
+          ],
+          "surface": "صهب",
+          "logit": -3.1496148109436035
+        }
+      ]
+    },
+    "same_root_prediction_in_both_conditions": true
+  }
+]

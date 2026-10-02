@@ -1,0 +1,10 @@
+================================================================================================
+ROOT علا   stratum=Ma
+REC ontological_core : The foundational physical origin of the root is vertical elevation and height above a baseline, conceived as the spatial opposite of lowness (sifl). It denotes the act of rising, ascending, or being positioned above something, whether in physical space or in rank.
+REC haqiqah_literal  : The literal, physical meaning is height, elevation, or the upper part of a thing. It is used primarily for spatial and corporeal elevation, as in 'he rose above the place' or 'the upper part of the house' (ʿilw al-dār). The verb ʿalā (يَعْلُو) is used for both praiseworthy and blameworthy elevation, whereas ʿaliya (يَعْلَى) is reserved for praiseworthy elevation only.
+REC canon_def.ar     : العُلُوُّ: ضِدُّ السُّفْلِ، والارتفاعُ. عَلا يَعْلُو عُلُوًّا فهو عالٍ، وعَلِيَ يَعْلَى عَلَاءً فهو عَلِيٌّ. وعُلْوُ كلِّ شيءٍ وعِلْوُه وعَلْوُه وعُلاوَتُه وعالِيه وعالِيَتُه: أَرْفَعُه.
+REC canon_def.en     : Elevation is the opposite of lowness, and it is rising. He rose, rising, and is high; he was high, being high, and is exalted. The height of anything, its upper part, its summit, and its topmost portion: its highest part.
+SRC al-Mufradat      : [line 23389 hdr=علا] العلو: ضد السفل، والعلوي والسفلي المنسوب إليهما، والعلو: الارتفاع، وقد علا يعلو علوا وهو عال (5)، وعلي يعلى علاء فهو علي (6)، فعلا بالفتح في الأمكنة والأجسام أكثر. قال تعالى: عاليهم ثياب سندس [الإنسان/ 21]. وقيل: إن (علا) يقال في المحمود والمذموم، و(علي) لا يقال إلا في المحمود، قال: إن فرعون علا في الأرض [القصص/ 4]، لعال في الأرض وإنه لمن المسرفين [يونس/ 83]، وقال تعالى: فاستكبروا وكانوا قوما عالين [المؤمنون/ 46]، وقال لإبليس: أستكبرت أم كنت من العالين [ص/ 75]، لا يريدون علوا في الأرض [القصص/ 83]، ولعلا بعضهم على بعض [المؤمنون/ 91]، ولتعلن علوا كبيرا [الإسراء/ 4]، واستيقنتها أنفسهم ظلما وعلوا [النمل/ 14]. والعلي: […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

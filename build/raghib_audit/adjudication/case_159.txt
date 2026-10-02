@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جردحل   stratum=ma
+REC ontological_core : The root denotes massive, coarse, and rugged corporeal bulk — a thick, heavy, and solid physical constitution, whether of a camel, a person, or a valley.
+REC haqiqah_literal  : A huge, thick, and coarse she-camel; a bulky, thick-bodied man; a rugged, broad valley.
+REC canon_def.ar     : الجِرْدَحْل من الإِبل: الضَّخْم. ناقة جِرْدَحْل: ضَخْمة غليظة. ورَجُل جِرْدَحْل: الغليظ الضَّخْم. والجِرْدَحْل: الوادي.
+REC canon_def.en     : Al-Jirdaḥl among camels: the massive one. A she-camel that is jirdaḥl: huge and coarse. A man who is jirdaḥl: thick and massive. And al-jirdaḥl: the valley.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

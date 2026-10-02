@@ -1,0 +1,267 @@
+====================================================================================================
+ROOT ختت   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of piercing or thrusting with spears in rapid, successive, overlapping strikes — a concentrated, repeated penetration that overwhelms the target.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is: thrusting or piercing with spears in a rapid, successive manner (al-ṭaʿn bi-l-rimāḥ mudārakan).
+-- RECORD.majaz_scholastic: Metaphorical and derived usages include: (1) a feeling of languor, weakness, or slackness that a person experiences in the body (al-khataṭ: futūr yajiduhu al-insān fī badanihi); (2) a man's becoming shy and silent (akhatta al-rajul: istaḥyā wa-sakata), denoting a retreat into reticence and bashfulness.
+-- RECORD.canonical_definition.ar: الخَتُّ: الطَّعْنُ بالرماح مُدارَكاً. والخَتَتُ: فُتُور يَجِدُه الإِنسان في بدنه. وأَخَتَّ الرجلُ: اسْتَحْيا وسَكَتَ.
+-- RECORD.canonical_definition.en: Al-khatt: thrusting with spears in rapid succession. Al-khatat: a languor or weakness that a person feels in his body. Akhatta al-rajul: he became shy and silent.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خرعب   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin centers on the notion of a fresh, supple, and elevated offshoot—specifically a tender, sap-rich branch or shoot that rises prominently from a tree, and by extension, a freshly cut slice or segment of a moist, fleshy vegetable or fat.
+-- RECORD.haqiqah_literal: The literal physical meaning according to the classical lexicographers is: a piece or slice of a gourd, cucumber, or fat; and a tender, succulent, elevated branch or twig of a tree, especially one of the current year's growth.
+-- RECORD.majaz_scholastic: While the root is not attested in Al-Mufradāt or Asās al-Balāghah, its metaphorical and scholastic extensions are implicit in the classical material: the term may be applied to a young, slender, and graceful person (likened to a tender branch), or to any fresh, moist, and easily broken substance. In theological or philosophical discourse, it could serve as a concrete image for accidental qualities that are ephemeral and rooted in material substance, though no formal scholastic usage is recorded.
+-- RECORD.canonical_definition.ar: الخُرْعُوبةُ: القِطْعةُ من القَرْعةِ والقِثَّاءِ والشَّحْمِ. والخَرْعَبُ والخُرْعُوبُ والخُرْعُوبةُ: الغُصْنُ لسَنَتِه، وقيل: هو القَضِيبُ السامِقُ الغَضُّ، وقيل: هو القَضِيبُ الناعِمُ الحديثُ.
+-- RECORD.canonical_definition.en: Al-Khurʿūbah: a piece of gourd, cucumber, or fat. Al-Kharʿab, al-Khurʿūb, and al-Khurʿūbah: a branch of the current year's growth; it is also said to be a tall, fresh twig; and it is said to be a tender, new branch.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خرفش   stratum=ma
+-- RECORD.ontological_core: The root denotes a marked, delimited tract of ground — a place-name or topographical locus set apart within the landscape.
+-- RECORD.haqiqah_literal: A named locality or place (خِرْفاشٌ: موضع); the literal sense is purely toponymic, referring to a specific site on the ground.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extension is attested; the root remains confined to toponymic reference, with no abstract or scholastic usage recorded in the classical lexica.
+-- RECORD.canonical_definition.ar: خِرْفاشٌ: موضع.
+-- RECORD.canonical_definition.en: Khirfāsh: a place; a named locality.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خسج   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the weaving of a coarse garment or tent-structure from the ṭalīf (the thick, tough hide of a sheep's neck), a material prized for its extreme durability and resistance to wear.
+-- RECORD.haqiqah_literal: A cloak (kisāʾ) or tent (khibāʾ) woven specifically from the neck-hide of a sheep, which, according to traditional report, scarcely ever wears out.
+-- RECORD.majaz_scholastic: No metaphorical or scholastic extensions are attested in the classical lexica; the term remains confined to its literal material and textile reference. The variant khasiyy is a phonological substitution (badal) of khisīj, not a semantic transfer.
+-- RECORD.canonical_definition.ar: الخَسِيجُ والخَسِيُّ، على البدل: كِساءٌ أَو خِباءٌ ينسج من ظَلِيفِ عُنُقِ الشاةِ فلا يكادُ، زَعَمُوا، يَبْلى.
+-- RECORD.canonical_definition.en: Al-khisīj and al-khasiyy (the latter by consonantal substitution): a cloak or tent woven from the neck-hide of a sheep, which, it is asserted, scarcely ever wears out.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خشم   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root خ ش م centers on the nasal cavity and its internal structures—specifically the bony and cartilaginous passages, vessels, and membranes situated between the nostrils and the brain. This anatomical locus is the seat of olfactory perception and the point at which the sense of smell is either enabled or obstructed. From this concrete physical referent, the root's primary semantic charge is the obstruction, alteration, or loss of olfactory function, and by extension, the alteration of odors themselves.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the nasal passage and its internal anatomy (al-khayāshīm), and the condition of a man who is akhsham—one who cannot detect odors due to a blockage or defect in his nasal passages. The wind or odor is said to penetrate (tasawwara) into the khayāshīm, i.e., the olfactory recesses of the nose.
+-- RECORD.majaz_scholastic: Metaphorical and extended usages include: (1) the alteration or putrefaction of meat (khashima al-laḥm / akhshama), where the change in odor is conceptualized as a kind of nasal obstruction or corruption affecting the meat itself; (2) the theological and philosophical notion of olfactory privation (khasham) as a defect in the faculty of smell, analogous to blindness in the eye or deafness in the ear—a privation of a natural power, not merely a negation; (3) in scholastic physiology, the khayāshīm are described as the fine vessels or membranes at the extremity of the nose, connecting to the brain, serving as the instrument of the olfactory spirit (rūḥ al-shamm); (4) by extension, any blockage or obstruction in a channel of perception or communication may be termed khasham, though this remains a secondary, analogical usage.
+-- RECORD.canonical_definition.ar: خَشِمَ اللحمُ خَشَماً وأَخْشَمَ: تغيرت رائحته. والخَيْشُوم من الأَنف: ما فوق نُخْرَتِهِ من القَصَبة وما تحتها من خَشارِمِ رأْسه، وقيل: الخَياشِيمُ غَراضيف في أَقصى الأَنف بينه وبين الدماغ، وقيل: هي عُروق.
+-- RECORD.canonical_definition.en: Khashima al-laḥm khashaman wa-akhshama: its odor became altered. Al-khayshūm of the nose: that which is above the nostril from the bridge and below it from the cartilaginous parts of its head. It is said: al-khayāshīm are the fine membranes at the extremity of the nose between it and the brain; and it is said: they are veins.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 21552 hdr=خشم: الخاء والشين والميم أصل واحد يدل على ارتفاع. فالخيشوم: الأنف. والخشم: داء يعتريه. والرجل الغليظ الأنف خشام. والمخشم: الذى ثار (1) الشراب فى خيشومه فسكر. وخياشيم الجبال: أنوفها. وشذت عن الباب كلمة إن كانت صحيحة. قالوا: خشم اللحم تغير.
+-- SOURCE.asas[majaz_metaphorical]: أشرفت خياشيم الجبال وهي أنوفها.
+-- SOURCE.asas[haqiqah_literal]: إن ريحه تسور في الخياشيم. ورجل أخشم، وبه خشم وهو الذي لا يجد الروائح لسدة في خياشيمه.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: إن ريحه تسور في الخياشيم. ورجل أخشم، وبه خشم وهو الذي لا يجد الروائح لسدة في خياشيمه. Metaphorical (Majaz): أشرفت خياشيم الجبال وهي أنوفها.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خضب   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root خ-ض-ب is the act of dyeing or staining a surface—specifically human hair or skin—with a coloring substance such as henna (ḥinnāʾ) or katam, thereby altering its visible hue toward red, yellow, or another color. The root's primary semantic nucleus is the material application of pigment to a corporeal substrate, producing a perceptible chromatic change.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal (ḥaqīqah) meaning is the direct, physical application of dye (khiḍāb) to hair or hand, as in 'khaḍaba shaʿrahu wa yadahu bi-l-khiḍāb' (he dyed his hair and hand with dye), yielding 'kaffin khaḍīb' (a dyed palm) and 'banānun mukhaḍḍab' (dyed fingertips). It also denotes the vessel used for dyeing, 'al-mikhḍab' (the dyeing tub or basin), and the cloths employed in the process, 'makhāḍib' (dye rags). The verb forms include 'khaḍaba' (he dyed), 'ikhtaḍaba' (he dyed himself), and 'takhaḍḍaba' (he applied dye repeatedly or intensively).
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root extends beyond literal dyeing to signify any alteration of color or appearance, even by non-dye substances, as when Lisān al-ʿArab notes 'ghayyara lawnahu bi-ḥumratin aw ṣufratin aw ghayrihimā' (he changed its color to red, yellow, or otherwise). The active participle 'khaḍīb' is applied metaphorically to a star or celestial body, as in 'ṭalaʿat al-kaff al-khaḍīb wa hiya najm' (the dyed palm rose, which is a star), where the reddish hue of the star is likened to a henna-dyed hand. The intensive nominal form 'khaḍiba' describes a woman who dyes herself frequently, indicating habitual action. The root thus acquires a secondary semantic layer of transformative coloration, whether literal or analogical, without losing its concrete material basis.
+-- RECORD.canonical_definition.ar: الخِضابُ: ما يُخْضَبُ به مِن حِنَّاءٍ وكَتَمٍ ونحوه؛ وخَضَبَ الشيءَ يَخْضِبُهُ خَضْباً وخَضَّبَهُ: غيَّرَ لَوْنَه بحُمْرَةٍ أو صُفْرَةٍ أو غيرِهما.
+-- RECORD.canonical_definition.en: Al-khiḍāb is that with which one dyes, such as henna, katam, and the like; khaḍaba al-shayʾa yakḥḍibuhu khaḍban and khaḍḍabahu mean he changed its color to red, yellow, or another hue.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 21852 hdr=خضب: الخاء والضاد والباء أصل واحد، وهو خضب الشىء يقال خضبت اليد وغيرها أخضب. ويقال للظليم خاضب، وذلك إذا أكل الربيع فاحمر ظنبوباه أو اصفرا. قال أبو دواد: له ساقا ظليم خا ضب فوجئ بالرعب (1) ولا يقال إلا للظليم، دون النعامة. يقال: امرأة خضبة: كثيرة الاختضاب ويقال [خضب] النخل، إذا اخضر طلعه. وقال بعضهم: خضب الشجر يخضب (2) إذا اخضر؛ واخضوضب. والكف الخضيب: نجم؛ وهذا على التشبيه. وأما الإجانة وتسميتهم إياها المخضب فهو فى هذا؛ لأن الذى يخضب به يكون فيها (3)
+-- SOURCE.asas[majaz_metaphorical]: ظليم خاضب: أكل الربيع فاحمرت ساقاه وقوادمه: وخضبت العضاه: ا
+-- SOURCE.asas[bilingual_haqiqah_majaz]: خضب شعره ويده بالخضاب، وكف خضيب، وبنان مخضب. وطلعت الكف الخضيب وهي نجم. واختضب الرجل وتخضب. وامرأة خضبة: كثيرة الاختضاب، وقد خضبت تخضب. وأعط Metaphorical (Majaz): ظليم خاضب: أكل الربيع فاحمرت ساقاه وقوادمه: وخضبت العضاه: ا
+-- SOURCE.asas[haqiqah_literal]: خضب شعره ويده بالخضاب، وكف خضيب، وبنان مخضب. وطلعت الكف الخضيب وهي نجم. واختضب الرجل وتخضب. وامرأة خضبة: كثيرة الاختضاب، وقد خضبت تخضب. وأعطني من مخاضب حنائك وهي خرق الخضاب. وغسلت ثيابها في المخضب وهي الإجانة.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خفش   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root خ ف ش is a congenital or acquired defect in the eye characterized by smallness, narrowness, and weakness of vision, without pain or ulceration.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal meaning is the smallness of the eyes and weakness of sight; a man is described as أَخْفَش (akhfash) and the condition is خَفَش (khafash). The verb خَفِشَتْ عَيْنُهُ (khafishat ʿaynu-hu) means his eye became weak or small.
+-- RECORD.majaz_scholastic: While the root is not attested in Al-Mufradāt, later lexicographers and scholars extended its use metaphorically to denote any diminution or impairment of perceptive faculties, including intellectual or spiritual insight. The term أَخْفَش was also used as a nickname for several grammarians, possibly indicating a physical trait or a metaphorical reference to a subtle defect in their analytical vision. In theological contexts, it may symbolize a deficiency in apprehension (idrāk) of divine realities, though this is not a primary Quranic usage.
+-- RECORD.canonical_definition.ar: الخَفَشُ: ضعف في البصر وضيق في العين، وقيل: صغرٌ في العين خلقةً، وقيل: هو فساد في جفن العين واحمرار تضيق له العيون من غير وجع ولا قُرْحٍ، خَفِش خَفَشاً، فهو خَفِشٌ وأَخْفَشُ.
+-- RECORD.canonical_definition.en: Al-Khafash: weakness of vision and narrowness of the eye; it is said to be a congenital smallness of the eye; or it is a corruption in the eyelid and a redness that causes the eyes to narrow, without pain or ulceration. One says khafisha khafashan, so he is khafish or akhfish.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[bilingual_haqiqah_majaz]: رجل أخفش، وبه خفش وهو صغر العينين وضعف البصر، وقد خفشت عينه. خ قال: ض خفض الشيء ورفعه فانخفض. وهو في حال رفعة وحال خفضة. وختن الغلام، وخفضت Metaphorical (Majaz): خفض صوته ورفعه. وكلام مخفوض و
+-- SOURCE.asas[majaz_metaphorical]: خفض صوته ورفعه. وكلام مخفوض و
+-- SOURCE.asas[haqiqah_literal]: رجل أخفش، وبه خفش وهو صغر العينين وضعف البصر، وقد خفشت عينه. خ قال: ض خفض الشيء ورفعه فانخفض. وهو في حال رفعة وحال خفضة. وختن الغلام، وخفضت الجارية. وفلانة خافضة. ونعمت الخافضة! وخفض رأس البعير إلى الأرض. قال: يكاد يستعصي على مخفضه
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خلا   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is spatial and temporal emptiness: a place or thing devoid of any occupant, structure, or content, hence 'to be empty, vacant, unoccupied.'
+-- RECORD.haqiqah_literal: The literal physical meaning is the state of a place or thing being empty and devoid of any being or object, as in 'خلا المكان' (the place became empty) and 'الخلاء' (the open, unsheltered void).
+-- RECORD.majaz_scholastic: Metaphorical and scholastic applications extend to temporal passage (خلا الزمان: time elapsed and departed), to the absence of precedent or peer (خلت من قبله الرسل: messengers have passed away before him), and to moral or communal vacancy (خلت من قبلهم المثلات: exemplary punishments occurred before them). The root also yields the theological notion of divine solitude (الخلوة) and the philosophical concept of privation (الخلاء) as the absence of substance in a locus.
+-- RECORD.canonical_definition.ar: خَلا المكانُ والشيءُ يَخْلُو خُلُوّاً وخَلاءً وأَخْلَى إِذا لم يكن فيه أَحد ولا شيء فيه، وهو خالٍ. والخَلاءُ من الأَرض: قَرارٌ خالٍ. واسْتَخْلَى: كخَلا.
+-- RECORD.canonical_definition.en: A place or thing becomes empty (خلا) with the verbal noun خُلُوّ and خَلاء, and one may say أَخْلَى when there is no one and nothing in it; it is then خالٍ (empty). الخَلاء from the earth is a vacant, level tract. اِسْتَخْلَى is synonymous with خلا.
+-- SOURCE.mufradat @line 11642 hdr=خلا: الخلاء: المكان الذي لا ساتر فيه من بناء ومساكن وغيرهما، والخلو يستعمل في الزمان والمكان، لكن لما تصور في الزمان المضي فسر أهل اللغة: خلا الزمان، بقولهم: مضى الزمان وذهب، قال تعالى: وما محمد إلا رسول قد خلت من قبله الرسل [آل عمران/ 144]، وقد خلت من قبلهم المثلات [الرعد/ 6]، تلك أمة قد خلت* [البقرة/ 141]، قد خلت من قبلكم سنن [آل عمران/ 137]، إلا خلا فيها نذير [فاطر/ 24]، مثل الذين خلوا من قبلكم [البقرة/ 214]، وإذا خلوا عضوا عليكم الأنامل من الغيظ [آل عمران/ 119]، وقوله: يخل لكم وجه أبيكم [يوسف/ 9]، أي: تحصل لكم مودة أبيكم وإقباله عليكم. وخلا الإنسان: صار خاليا، وخلا فلان بفلان: صار معه في خلاء، وخلا إليه: انتهى إليه في خلوة، قال تعالى: وإذا خلوا إلى شياطينهم [البقرة/ 14]، وخليت فلانا: تركته في
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خنبت   stratum=ma
+-- RECORD.ontological_core: The root denotes shortness and compactness of bodily stature in a man, with a secondary physical image of a thick, stunted, or truncated form.
+-- RECORD.haqiqah_literal: الخُنْبُتُ: القصير من الرجال — the short man; a man of compact, stunted stature.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah as a productive root with metaphorical extension. In the classical lexical tradition it remains a concrete descriptive epithet (نعت) for physical shortness, without established philosophical or theological majāz usage.
+-- RECORD.canonical_definition.ar: الخُنْبُتُ: القصير من الرجال.
+-- RECORD.canonical_definition.en: Al-khunbut: the short man; a man of compact, stunted stature.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT خوط   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root خوط is the tender, supple, freshly grown branch or shoot of a tree—specifically the pliant young twig that emerges in a single growing season, characterized by its softness, flexibility, and slender form.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal (ḥaqīqah) meaning of خوط is the soft, tender branch (al-ghuṣn al-nāʿim). It is used concretely to denote a pliant young shoot or twig, as in the phrase 'qad kāla-khūṭ' (it curved like a tender branch), and in the plural khīṭān, as in the poetic image of slender figures behind walls 'like tender branches' (qadūd ka-l-khīṭān).
+-- RECORD.majaz_scholastic: In metaphorical (majāz) and scholastic usage, خوط is extended to denote any slender, graceful, and flexible form, particularly the elegant stature or figure of a person. The imagery of the tender branch serves as a simile for youthful beauty, supple movement, and graceful bearing. In theological and philosophical discourse, the term may be employed to illustrate the concept of innate disposition (fiṭrah) or natural growth, where the tender shoot symbolizes the initial, unspoiled state of created beings before external influences shape them. It also appears in literary and rhetorical contexts to evoke the idea of delicate, nascent potentiality.
+-- RECORD.canonical_definition.ar: الخُوطُ: الغُصْنُ الناعِمُ، وقيل: الغُصن لِسَنةٍ، وقيل: هو كلُّ قَضِيبٍ ما كان؛ والجمع خِيطانٌ.
+-- RECORD.canonical_definition.en: Al-khūṭ: the tender branch; it is said to be a branch of one year's growth; and it is said to be any twig whatsoever; the plural is khīṭān.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 22897 hdr=خوط: الخاء والواو والطاء أصيل يدل على تشعب أغصان فالخوط الغصن، وجمعه خيطان. قال: على قلاص مثل خيطان السلم (4)
+-- SOURCE.asas[haqiqah_literal]: قد كالخوط وهو الغصن الناعم. وتقول: كم وراء هذه اعلحيطان، من قدود كالخيطان.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT داف   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is the act of walking or moving with a swaying, oscillating, or side-to-side motion, often likened to the undulating gait of a camel or a ship tossing on waves.
+-- RECORD.haqiqah_literal: To walk with a swinging or swaying motion; to move unsteadily or with a rolling gait.
+-- RECORD.majaz_scholastic: In philosophical and theological contexts, it may metaphorically denote the vacillation or instability of the soul or intellect, or the oscillation of opinion; however, such usage is rare and not attested in the classical lexicons.
+-- RECORD.canonical_definition.ar: دَافَ يَدُوفُ دَوْفًا: تَمَايَلَ فِي مَشْيِهِ وَتَرَجَّحَ.
+-- RECORD.canonical_definition.en: Dāfa yadūfu dawfan: to sway in one's walk and oscillate.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دثر   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root is the act of covering or being covered by an outer garment (dithār) that is worn over the inner garment (shīʿār), thereby concealing what lies beneath. From this primary sense of overlaying and concealment, the root extends to the notion of something being overlaid by time, dust, or neglect, leading to its effacement and decay.
+-- RECORD.haqiqah_literal: The literal physical meaning is to wear the dithār, i.e., the outer garment or covering, over the shīʿār (inner garment). It also denotes the act of covering someone or something with such a garment, as in 'daththarahu' (he covered him). The passive participle 'mudaththir' (one who is covered) is used for the one wrapped in his cloak. Additionally, it is used literally for a stallion mounting a she-camel, or a man leaping onto a horse, due to the covering and mounting action.
+-- RECORD.majaz_scholastic: Metaphorically, the root is used for a person who is obscure, inactive, or of low repute (dathūr), as if covered by obscurity. It is applied to a sword that is 'dāthir' (rusty and neglected), meaning it has been long since polished, as if covered by rust. It is also used for an abode that has become 'dāthir' (effaced), i.e., its traces have been obliterated by time, and for a person who is 'dathūr' of wealth, meaning he is an excellent manager of it, as if he covers and protects it. Theologically, the term 'al-mudaththir' (the enwrapped one) is a title of the Prophet Muhammad (peace be upon him) in the Qur'an, referring to his state of being wrapped in his cloak at the onset of revelation.
+-- RECORD.canonical_definition.ar: الدُّثُورُ: الدُّرُوسُ. وقد دَثَرَ الرَّسْمُ وتَدَاثَرَ ودَثَرَ الشَّيْءُ يَدْثُرُ دُثُوراً وانْدَثَرَ: قَدُمَ ودَرَسَ. والدِّثَارُ: ما يُتَدَثَّرُ به، وهو المُتَدَرِّعُ دِثَارَهُ. يقال: دَثَّرْتُهُ فَتَدَثَّرَ.
+-- RECORD.canonical_definition.en: Duthūr means effacement. The trace has become effaced and worn out; the thing has become old and effaced. The dithār is that with which one wraps oneself; it is the one who wears his dithār. It is said: I covered him, so he wrapped himself.
+-- SOURCE.mufradat @line 12072 hdr=دثر: قال الله تعالى: يا أيها المدثر (2) أصله المتدثر فأدغم، وهو المتدرع دثاره، يقال: دثرته فتدثر، والدثار: ما يتدثر به، وقد تدثر الفحل الناقة: تسنمها، والرجل الفرس: وثب عليه فركبه، ورجل دثور: خامل مستتر، وسيف داثر: بعيد العهد بالصقال، ومنه قيل للمنزل الدارس: داثر، لزوال أعلامه، وفلان دثر مال، أي: حسن القيام به.
+-- SOURCE.maqayis @line 25831 hdr=دثر: الدال والثاء والراء أصل واحد منقاس مطرد. وهو تضاعف شىء وتناضده بعضه على بعض. فالدثر: المال الكثير. والدثار: ما تدثر به الإنسان، وهو فوق الشعار. فأما قول القائل (2): والعكر الدثر (3) فإنه أراد الدثر فحرك الثاء، وهو الكثير: ومن الباب تدثر الفحل الناقة، إذا تسنمها، كأنه صار دثارا لها. وتدثر الرجل فرسه، إذا وثب عليه فركبه. والدثور: الرجل النؤوم (4). وسمى لأنه يتدثر وينام. فأما قولهم رسم داثر، فهو من هذا، وذلك أنه يكون ظاهرا حتى تهب عليه الرياح وتأتيه الروامس، فتصير له كالدثار فتغطيه.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: لبس الدثار فوق الشعار، وهو متدثر بالكساء ومدثر به، ودثره صاحبه، وفلان دثور الضحى: يتدثر فينام. قال الكميت: ولم ألقه بدثور الضحى ... أمال الس Metaphorical (Majaz): تدثر الفحل الناقة: تسنمها. وتدثر الرجل فرسه وتجلله إذا وثب عليه فركبه. وقال ابن مقبل: أصاخت له فدر اليمامة بعدما ... تدثرها من وبله ما تدثرا
+-- SOURCE.asas[haqiqah_literal]: لبس الدثار فوق الشعار، وهو متدثر بالكساء ومدثر به، ودثره صاحبه، وفلان دثور الضحى: يتدثر فينام. قال الكميت: ولم ألقه بدثور الضحى ... أمال السبات عليه الدثارا ودثر المنزل، وهو دراس داثر. وتقول: فلان جده عاثر، ورسمه داثر.
+-- SOURCE.asas[majaz_metaphorical]: تدثر الفحل الناقة: تسنمها. وتدثر الرجل فرسه وتجلله إذا وثب عليه فركبه. وقال ابن مقبل: أصاخت له فدر اليمامة بعدما ... تدثرها من وبله ما تدثرا أي ركبها المطر وعلاها والفدر الأوعال. ورجل دثور: خامل. وفلان دثاري: كسلان ساكن لا يتصرف. وهو يتدثر بالمال: للمتمول. وماله دثر. وذهب أهل الد
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دجا   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin of the root د ج و is the state of night when darkness is compounded by cloud cover, such that neither star nor moon is visible—an enveloping obscurity that cloaks all things, distinct from mere absence of light.
+-- RECORD.haqiqah_literal: The literal physical meaning is the blackness of night accompanied by clouds, preventing sight of any star or moon; it is the condition of a night that has enveloped everything in dense, overcast darkness.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root is extended to any overwhelming obscurity, confusion, or error that veils the intellect and obscures truth, as well as to the blinding darkness of ignorance and misguidance. It may also denote the veiling of spiritual insight by passion or heedlessness.
+-- RECORD.canonical_definition.ar: الدُّجى: سَوادُ اللَّيلِ مَعَ غَيْمٍ، وأَنْ لا تَرى نَجْمًا ولا قَمَرًا، وقيل: هو إذا أَلْبَسَ كُلَّ شَيْءٍ ولَيْس هو من الظُّلْمَةِ، وقالوا: لَيْلَةٌ دُجًى ولَيالٍ دُجًى، لا يُجْمَعُ لأَنَّهُ مَصْدَرٌ وُصِفَ بِهِ، وقد دَجَا.
+-- RECORD.canonical_definition.en: Al-Dujā is the blackness of night together with cloud cover, such that you see neither star nor moon. It is also said to be when it envelops everything, and it is not merely from [ordinary] darkness. They say: 'a night of dujā' and 'nights of dujā'—it is not pluralized because it is an infinitive used descriptively. And the night has indeed become dark and overcast (dajā).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دخل   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root is the act of entering or penetrating into an interior space, conceived as the direct antonym of exiting (خروج). It denotes the crossing of a boundary from outside to inside, whether spatial, temporal, or functional.
+-- RECORD.haqiqah_literal: The literal, physical meaning according to Asās al-Balāghah is the act of entering a place, as in 'he entered such-and-such a place.' It also concretely denotes the inner lining of a garment that touches the body (داخلة الإزار), the interlocking joints of armor (حلق الدرع مداخل), and the inner, hidden reality of a person's affairs (دخلة الأمر).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) moral or logical defect, fault, or corruption (دخل, مدخول), as in 'food that is tainted' or 'a commodity that is defective'; (2) social affiliation without genuine belonging, as in 'a dakhīl among a tribe' (one who attaches himself to a lineage not his own); (3) theological and eschatological entry into divine mercy, paradise, or hell, as in the Qur'anic 'Enter the Garden' (ادخلوا الجنة) and 'He admits whom He wills into His mercy' (يدخل من يشاء في رحمته); (4) the causative admission by God into a state of satisfaction (مدخل صدق, مدخلا كريما); and (5) the interpenetration of substances or ideas (تداخل, مداخلة).
+-- RECORD.canonical_definition.ar: الدُّخُول: نقيض الخروج، دَخَل يَدْخُل دُخُولاً وتَدَخَّل ودَخَل به. ويستعمل في المكان والزمان والأعمال. والدَّخِيل: الذي يداخلك في أمورك، أو الذي ينتسب إلى قوم وليس منهم. والدَّخَل: العيب.
+-- RECORD.canonical_definition.en: Entry is the antonym of exit; one says 'he entered' (dakhala yadkhulu dukhūlan) and 'he caused to enter' (dakhala bihi). It is used in relation to place, time, and actions. A dakhīl is one who insinuates himself into your affairs, or one who affiliates with a people though not of them. Dakhāl denotes a defect or fault.
+-- SOURCE.mufradat @line 12122 hdr=دخل: الدخول: نقيض الخروج، ويستعمل ذلك في المكان، والزمان، والأعمال، يقال: دخل مكان كذا، قال تعالى: ادخلوا هذه القرية [البقرة/ 58]، ادخلوا الجنة بما كنتم تعملون [النحل/ 32]، ادخلوا أبواب جهنم خالدين فيها* [الزمر/ 72]، ويدخلهم جنات تجري من تحتها الأنهار [المجادلة/ 22]، وقال: يدخل من يشاء في رحمته* [الإنسان/ 31]، وقل: رب أدخلني مدخل صدق [الإسراء/ 80]، فمدخل من دخل يدخل، ومدخل من أدخل، ليدخلنهم مدخلا يرضونه [الحج/ 59]، وقوله: مدخلا كريما [النساء/ 31]، قرئ بالوجهين (1)، وقال أبو علي الفسوي (2): من قرأ: «مدخلا» بالفتح فكأنه إشارة إلى أنهم يقصدونه، ولم يكونوا كمن ذكرهم في قوله: الذين يحشرون على وجوههم إلى جهنم [الفرقان/ 34]، وقوله: إذ الأغلال في أعناقهم والسلاسل [غافر/ 71]، ومن قرأ «مدخلا» فكقوله: ليدخل
+-- SOURCE.maqayis @line 26033 hdr=دخل: الدال والخاء واللام أصل مطرد منقاس، وهو الولوج. يقال دخل يدخل دخولا. والدخلة: باطن أمر الرجل. تقول: أنا عالم بدخلته. والدخل: العيب فى الحسب، وكأنه قد دخل عليه شىء عابه. والدخل كالدغل، وهو من الباب؛ لأن الدغل هذا قياسه أيضا. ويقال إن المدخول: المهزول؛ وهو الصحيح، لأن لحمه كأنه قد دخل. ودخيلك: الذى يداخلك فى أمورك. والدخال فى الورد: أن تشرب الإبل ثم ترد إلى الحوض ليشرب منها ما عساه لم يكن شرب. قال الهذلى (1): وتوفى الدفوف بشرب دخال (2) ويقال إن كل لحمة مجتمعة دخلة، وبذلك سمى هذا الطائر دخلا. ويقال دخل فلان، وهو مدخول، إذا كان فى عقله دخل. وبنو فلان فى بنى فلان دخيل (3)، إذا انتسبوا معهم. ونخلة مدخولة: عفنة الجوف. والدخلل: الذى يداخلك فى أمورك. والدخل من ريش الطائر: ما بين الظهران والبطنان، وهو
+-- SOURCE.asas[haqiqah_literal]: هو دخيل فلان. وهو الذي يداخله في أموره كلها. وهو دخيل في بني فلان إذا انتسب معهم وليس منهم، وهم دخلاء فيهم ومفاصله مداخلة. وحلق الدرع مداخل وهو المدمج المحكم، ودوخل بعضه في بعض. وسقى إبله دخالا وهو أن يدخل بعيرا قد شرب بين بعيرين ناهلين. واغسل داخلة إزارك وهو مايلي جسده. وإنه لخب
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT درهم   stratum=Ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of falling or dropping down, specifically from extreme old age, yielding a state of decrepitude and collapse.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Lisān al-ʿArab is the falling or dropping of a person due to extreme old age; the adjective al-mudrahimm denotes one who has collapsed from senility, i.e., the very aged.
+-- RECORD.majaz_scholastic: Al-Rāghib al-Iṣfahānī cites the verse 'wa-sharawhu bi-thamanin bakhsin' (and they sold him for a paltry price) in connection with this root, though the lexical link is not explicitly elaborated; the scholastic usage may extend to any abrupt moral or social decline, but no attested metaphorical application is recorded in Asās al-Balāghah. The root remains largely confined to its literal physical sense of senile collapse.
+-- RECORD.canonical_definition.ar: المُدْرَهِمُّ: الساقطُ من الكِبَرِ، وقيل: هو الكبيرُ السِّنِّ أَيّاً كان. وقد ادْرَهَمَّ يَدْرَهِمُّ ادْرِهْمَاماً أَي سقط من الكبر.
+-- RECORD.canonical_definition.en: Al-mudrahimm: one who has fallen from extreme old age; it is also said: he is the very aged, whoever he may be. And he has adrahamma, yadrahimmu, idrihmāman, meaning he fell from old age.
+-- SOURCE.mufradat @line 12267 hdr=درهم: قال تعالى: وشروه بثمن بخس دراهم معدودة [يوسف/ 20]، الدرهم: الفضة المطبوعة المتعامل بها.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دعص   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root د ع ص is a compact, aggregated mound of sand—a small, clustered hillock of loose terrain that accumulates into a distinct elevation, smaller in scale than a large dune (ḥiqf).
+-- RECORD.haqiqah_literal: A literal, physical mound or hillock of sand gathered together; a small sand-hill formed by the aggregation of loose grains, less in magnitude than a ḥiqf (large dune). The singular portion or unit of such a mound is termed a diʿṣah.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the term is applied to any compact, rounded protuberance or swelling resembling a sand-mound—such as the rounded haunch of a horse (kidʿṣ al-naqā) or a woman's rounded buttock—by way of analogical extension from the physical image of a clustered sand-hill. It may also denote a group of people gathered in one place, by analogy to the aggregation of sand.
+-- RECORD.canonical_definition.ar: الدِّعْصُ: قُورٌ مِنَ الرَّمْلِ مُجْتَمِعٌ، وَالْجَمْعُ أَدْعَاصٌ وَدِعَصَةٌ، وَهُوَ أَقَلُّ مِنَ الْحِقْفِ، وَالطَّائِفَةُ مِنْهُ دِعْصَةٌ.
+-- RECORD.canonical_definition.en: Al-diʿṣ: a compact mound of sand gathered together; the plural is adʿāṣ and diʿaṣah. It is smaller than a ḥiqf (large dune), and a single portion of it is a diʿṣah.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 24474 hdr=دعص: الدال والعين والصاد أصل يدل على دقة ولين. فالدعص: ما قل ودق من الرمل. والدعصاء: الأرض السهلة. ومن الباب: تدعص اللحم، إذا بالغ فى النضج. ويقولون أدعصه الحر، إذا قتله، كأنه أنضجه فقتله.
+-- SOURCE.asas[haqiqah_literal]: لها كفل كدعص النقا، ونزلوا بالأدعاص وهي قيران من الرمل مجتمعة.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دفس   stratum=ma
+-- RECORD.ontological_core: The root denotes the onset of blackness or dark discoloration upon a surface, specifically the face, without prior cause or illness; its foundational physical image is that of a darkening or staining that overtakes a visage.
+-- RECORD.haqiqah_literal: The literal physical meaning is the blackening of the face without any underlying disease or external cause, as attested in the verbal form أَدْفَسَ.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah; no established metaphorical, philosophical, or theological usage is recorded. The root remains confined to its literal physical sense in the classical lexica.
+-- RECORD.canonical_definition.ar: أَدْفَسَ الرجلُ إِذا اسودَّ وجهه من غير علة
+-- RECORD.canonical_definition.en: A man's face turned black without any illness or cause.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دقن   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root دقن centers on the striking or jabbing of the chin/jaw with the collected palm or fist, and by extension the chin itself as the bodily locus of such a blow; from this concrete somatic action the root also branches into the small stones that support a cooking pot (أثافي القدر), likely by analogy of their compact, chin-like protrusion or their being struck into place.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is to strike or jab someone on the chin/jaw with the collected palm or fist (دقن في حليه إذا لكزه لكزة بجمع كفه); the chin/jaw itself (اللحية/اللحي) is then named by this action, as in the Baghdadi expression في دقنك, meaning 'on your chin/beard.'
+-- RECORD.majaz_scholastic: The metaphorical and scholastic usage extends from the physical blow to the chin to the condition of being deprived or thwarted: the phrase دُقِنَ في لَحْيِه ('he was struck on the jaw') was applied to the deprived or unfortunate one (المحروم), since a blow to the jaw signifies humiliation, defeat, or the loss of one's share. The root also yields الدِّقْدَان and الدِّيقَان for the stones supporting a cooking pot (أثافي القدر), a concrete nominal extension rather than a strictly theological metaphor.
+-- RECORD.canonical_definition.ar: الدَّقْنُ: الضَّرْبُ بِجُمْعِ الكَفِّ عَلَى اللَّحْيِ؛ وَالدِّقْدَانُ وَالدِّيقَانُ: أَثَافِي القِدْرِ.
+-- RECORD.canonical_definition.en: Al-Daqn: striking with the collected palm on the jaw/chin; al-diqdān and al-dīqān: the stones that support a cooking pot.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[haqiqah_literal]: دقن في حليه إذا لكزه لكزة بجمع كفه، ثم قالوا للمحروم دقن في لحيه. ويقول أهل بغداد: في دقنك أي في لحيتك.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دلبث   stratum=ma
+-- RECORD.ontological_core: The root denotes a specific desert/bulbous plant (al-dalabūth) whose physical origin lies in a saffron-like aerial habit (leaf and stem) anchored by a fibrous-coated bulb, the edible part being the bulb cooked in milk.
+-- RECORD.haqiqah_literal: A concrete botanical entity: a plant resembling saffron in stem and leaf, possessing a bulb enclosed in fibers (līfah), which is boiled in milk and eaten.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extensions are attested; the term remains strictly botanical and culinary in the classical lexica.
+-- RECORD.canonical_definition.ar: الدَّلَبُوثُ: نبت، أَصله وورقُه مثلُ نبات الزعفران سواء، وبَصَلَتُه في لِيفةٍ، وهي تُطْبخُ باللبن وتؤْكل.
+-- RECORD.canonical_definition.en: Al-dalabūth: a plant whose stem and leaves are exactly like those of saffron, with a bulb enclosed in fibers; it is cooked in milk and eaten.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT دلهث   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the notion of forward-rushing propulsion and bold advance, derived—per Abū Manṣūr al-Azharī—from the root د-ل-ث (al-indilāth), meaning to surge forward, with the هـ (hāʾ) augmented as an intensifying infix; hence the quadriliteral/quintiliteral cluster denotes a being characterized by swift, fearless, forward-charging momentum.
+-- RECORD.haqiqah_literal: The literal physical meaning is a swift, bold, forward-rushing person or camel—one who charges ahead without hesitation; the lion (al-dilhāth) is the paradigm instance of this literal predatory forward-rush.
+-- RECORD.majaz_scholastic: By metaphorical extension (majāz), the term is applied to any entity—human, animal, or figurative—marked by audacious initiative and unhesitating advance; the lion is the archetypal instantiation, and the semantic core of 'charging forward' is transferred from physical motion to the quality of dauntless boldness. No theological or philosophical technical usage is attested in the classical lexica.
+-- RECORD.canonical_definition.ar: الدَّلْهَثُ والدُّلَاهِثُ والدِّلْهَاثُ: كلُّه السريعُ الجريءُ المُقْدِمُ من الناس والإِبل. والدِّلْهَاثُ: الأَسَدُ. قال أَبو منصور: كأَنَّ أَصله من الاندلاث، وهو التَّقَدُّم، فزيدت الهاء.
+-- RECORD.canonical_definition.en: Al-dalhath, al-dulāthith, and al-dilhāth all denote the swift, bold, forward-charging one among people and camels. Al-dilhāth also denotes the lion. Abū Manṣūr said: it is as though its origin is from al-indilāth, which is forward advance, with the hāʾ augmented.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

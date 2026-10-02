@@ -1,0 +1,10 @@
+================================================================================================
+ROOT لشش   stratum=ma
+REC ontological_core : The root لشش denotes lightness, agility, and rapid, unencumbered motion. Its foundational physical origin (Aṣl al-Wadʿ) is the quality of being light in weight or movement, often applied to a person's constitution or gait. It is a rare root in Arabic, with the sequence of ش after ل being uncommon, as noted by classical philologists.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is 'lightness' or 'agility' in a person, as in رجل لَشْلاشٌ (a light, agile man). It also denotes the rapid, repeated movement or trembling associated with lightness, as in اللَّشْلَشَةُ (frequent, quick motion).
+REC canon_def.ar     : قال الخليل: ليس في كلام العرب شين بعد لام ولكن كلها قبل اللام. قال الأزهري: وقد وُجِد في كلامهم الشين بعد اللام. قال ابن الأعرابي وغيره: رجل لَشْلاشٌ إذا كان خفيفاً. قال الليث: اللَّشْلَشَةُ كثرةُ الحركة.
+REC canon_def.en     : Al-Khalīl said: There is no shīn after lām in Arabic speech; rather, they all occur before lām. Al-Azharī said: But shīn after lām has been found in their speech. Ibn al-Aʿrābī and others said: A man is lashlāsh when he is light. Al-Layth s […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

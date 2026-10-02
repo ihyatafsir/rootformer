@@ -1,0 +1,340 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+nmt_eval.py -- honest Arabic->English evaluation of root-aware (Farahidian) LLM translation.
+
+Thesis under test
+-----------------
+Rootformer's claim is that conditioning translation on the *radical root* of each Arabic word
+improves English output. The shipped v19.2.1 system does exactly this: it extracts
+(concept, root) pairs and feeds them to a pretrained LLM as a "Root Concepts:" line, then asks
+for the translation. Its published "100% success rate" is a crash/degeneracy metric, not a
+translation-quality metric -- there is no BLEU/chrF anywhere.
+
+This harness measures translation quality properly, with an ablation over the SAME model and the
+SAME few-shot prompt, varying only the concept line:
+
+  A) no-concepts   : plain zero/few-shot LLM translation
+  B) real-concepts : + the actual Farahidian (concept, root) pairs for that sentence   [v19.2.1]
+  C) shuf-concepts : + concept pairs taken from a DIFFERENT sentence (null control)
+
+If B > A, root conditioning helps. If B ~= C, the gain does not come from the concepts being correct.
+Concept strings are built from the morphological analyzer + the 9015-root Farahidian lexicon, NOT
+from the hand-curated maps, so the evaluation is not leaked by a phrase table.
+
+Usage:
+  python nmt_eval.py --model Qwen/Qwen2.5-Coder-1.5B-Instruct --n 200
+  python nmt_eval.py --model Qwen/Qwen2.5-7B-Instruct --n 200
+  python nmt_eval.py --flores                      # also score on human FLORES devtest
+"""
+import argparse
+import json
+import os
+import random
+import re
+import statistics
+import sys
+import time
+from pathlib import Path
+
+import torch
+
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR))
+sys.path.insert(0, str(ROOT_DIR / 'models'))
+
+V18_DATA = Path('/workspace/rootformer_v12/v18_next_root_morph/data')
+LEXICON = V18_DATA / 'farahidian_3pillar_lexicon_clean.json'
+
+AR_RE = re.compile(r'[\u0600-\u06FF]')
+DIAC = re.compile(r'[\u064b-\u0652\u0670\u0640]')
+
+FEWSHOT = [
+    ("العِلْمُ نُورٌ يُضِيءُ العَقْلَ",
+     "knowledge (علم), light (نور), illuminate (ضوء), intellect (عقل)",
+     "Knowledge is a light that illuminates the intellect."),
+    ("العَدْلُ أَسَاسُ المُلْكِ وَمِيزَانُ الحَقِّ",
+     "justice (عدل), foundation (أسس), sovereignty (ملك), balance (وزن), truth (حق)",
+     "Justice is the foundation of sovereignty and the scale of truth."),
+]
+
+CONCEPT_CORPUS = [
+    'pure_gold_bilingual_val.jsonl',
+    'sovereign_classical_transmute_corpus.jsonl',
+    'unified_basran_andalusian_val.jsonl',
+]
+
+
+# --------------------------------------------------------------------------------------
+# Farahidian concept extraction (analyzer + root lexicon, no hand maps)
+# --------------------------------------------------------------------------------------
+class ConceptExtractor:
+    def __init__(self):
+        import nrmp_vocab as nv
+        cls = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+        self.vocab = cls(str(ROOT_DIR / 'data/rootformer_v12_arabic_blueprint.json'))
+        with open(LEXICON, encoding='utf-8') as f:
+            self.lex = json.load(f)
+        self.hits = 0
+        self.misses = 0
+
+    def gloss(self, root, wazn):
+        e = self.lex.get(root)
+        if not e:
+            return None
+        by = e.get('by_wazn') or {}
+        g = by.get(wazn)
+        if not g:
+            g = e.get('default_verb') or e.get('default_noun') or e.get('default_adj')
+        if not g or g == root or len(str(g)) > 60:
+            g = e.get('default_noun') or e.get('default_verb')
+        if not g or g == root:
+            return None
+        return str(g).split(',')[0].strip()
+
+    def concepts(self, text, max_items=40):
+        out = []
+        for w in text.split():
+            cw = DIAC.sub('', re.sub(r'[^\u0600-\u06FF]', '', w))
+            if not cw:
+                continue
+            try:
+                p, r, wz, s = self.vocab.base_tok.decompose_arabic_word(cw)
+            except Exception:
+                continue
+            if not r or r.startswith('<'):
+                continue
+            g = self.gloss(r, wz or '')
+            if g:
+                self.hits += 1
+                out.append((g, r))
+            else:
+                self.misses += 1
+        # de-duplicate while preserving order
+        seen, uniq = set(), []
+        for g, r in out:
+            if (g, r) in seen:
+                continue
+            seen.add((g, r))
+            uniq.append((g, r))
+        return uniq[:max_items]
+
+
+def concepts_to_str(pairs):
+    return ', '.join(f'{g} ({r})' for g, r in pairs)
+
+
+# --------------------------------------------------------------------------------------
+# Data
+# --------------------------------------------------------------------------------------
+def load_pairs(n, seed=0, min_ar=4, max_ar=40, max_en=60, exclude_exact=()):
+    rows = []
+    per_file_cap = max(n, 2000)
+    for fn in CONCEPT_CORPUS:
+        p = V18_DATA / fn
+        if not p.exists():
+            continue
+        before = len(rows)
+        with open(p, encoding='utf-8', errors='ignore') as fh:
+            for line in fh:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    d = json.loads(line)
+                except Exception:
+                    continue
+                a = (d.get('arabic') or '').strip()
+                e = (d.get('english') or '').strip()
+                if not a or not e:
+                    continue
+                if AR_RE.search(e):          # untranslated Arabic quoted in the English
+                    continue
+                wa, we = len(a.split()), len(e.split())
+                if not (min_ar <= wa <= max_ar and 3 <= we <= max_en):
+                    continue
+                if a in exclude_exact:
+                    continue
+                rows.append((a, e))
+                if len(rows) >= per_file_cap:
+                    break
+        if len(rows) >= per_file_cap:
+            break
+    seen, uniq = set(), []
+    for a, e in rows:
+        if a in seen:
+            continue
+        seen.add(a)
+        uniq.append((a, e))
+    random.Random(seed).shuffle(uniq)
+    return uniq[:n]
+
+
+def load_flores(n=None, seed=0):
+    """Human-translated FLORES-200 devtest ar->en, if reachable."""
+    try:
+        from datasets import load_dataset
+    except Exception as e:
+        print(f'[warn] datasets unavailable: {e}')
+        return []
+    for name, cfg in (('Muennighoff/flores200', 'eng_Latn-arb_Arab'),
+                      ('facebook/flores', 'eng_Latn-arb_Arab')):
+        try:
+            ds = load_dataset(name, cfg, split='devtest')
+            en = [r['sentence_eng_Latn'] for r in ds]
+            ar = [r['sentence_arb_Arab'] for r in ds]
+            pairs = list(zip(ar, en))
+            print(f'[ok] loaded {len(pairs)} human FLORES devtest pairs from {name}')
+            if n:
+                random.Random(seed).shuffle(pairs)
+                pairs = pairs[:n]
+            return pairs
+        except Exception as e:
+            print(f'[warn] {name}/{cfg} failed: {type(e).__name__}: {str(e)[:140]}')
+    return []
+
+
+# --------------------------------------------------------------------------------------
+# Generation
+# --------------------------------------------------------------------------------------
+def build_prompt(tok, ar_text, concepts_str, use_concepts):
+    blocks = []
+    for ar, cs, en in FEWSHOT:
+        if use_concepts:
+            blocks.append(f'Arabic: {ar}\nRoot Concepts: {cs}\nTranslation: {en}')
+        else:
+            blocks.append(f'Arabic: {ar}\nTranslation: {en}')
+    if use_concepts:
+        tail = f'Arabic: {ar_text}\nRoot Concepts: {concepts_str}\nTranslation:'
+    else:
+        tail = f'Arabic: {ar_text}\nTranslation:'
+    body = '\n\n'.join(blocks + [tail])
+    system = ('You are a master classical Arabic-to-English translator and grammarian. '
+              'Output ONLY the final, fluent scholastic English translation with zero '
+              'explanation or conversational filler.')
+    messages = [{'role': 'system', 'content': system}, {'role': 'user', 'content': body}]
+    return tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
+
+@torch.no_grad()
+def translate_all(model, tok, prompts, device, batch_size=16, max_new_tokens=110):
+    tok.padding_side = 'left'
+    outs = []
+    for i in range(0, len(prompts), batch_size):
+        batch = prompts[i:i + batch_size]
+        enc = tok(batch, return_tensors='pt', padding=True, truncation=True,
+                  max_length=1024).to(device)
+        gen = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False,
+                             pad_token_id=tok.pad_token_id or tok.eos_token_id)
+        for j in range(len(batch)):
+            txt = tok.decode(gen[j][enc.input_ids.shape[1]:], skip_special_tokens=True)
+            outs.append(txt.strip().split('\n')[0].strip().strip('"\''))
+    return outs
+
+
+def clean_out(s):
+    s = re.sub(r'^(Translation|English)\s*:\s*', '', s, flags=re.I)
+    return ' '.join(s.split())
+
+
+def score(hyps, refs):
+    from sacrebleu.metrics import BLEU, CHRF
+    chrf = CHRF(word_order=2)
+    bleu = BLEU(tokenize='13a')
+    return {
+        'chrf++': chrf.corpus_score(hyps, [refs]).score,
+        'bleu': bleu.corpus_score(hyps, [refs]).score,
+        'len_ratio': statistics.mean(len(h.split()) / max(len(r.split()), 1)
+                                     for h, r in zip(hyps, refs)),
+    }
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--model', default='Qwen/Qwen2.5-Coder-1.5B-Instruct')
+    ap.add_argument('--n', type=int, default=200)
+    ap.add_argument('--batch-size', type=int, default=16)
+    ap.add_argument('--seed', type=int, default=0)
+    ap.add_argument('--flores', action='store_true', help='also evaluate on human FLORES devtest')
+    ap.add_argument('--out', default=None)
+    args = ap.parse_args()
+
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print(f'[*] device={device} model={args.model}', flush=True)
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+    tok = AutoTokenizer.from_pretrained(args.model)
+    model = AutoModelForCausalLM.from_pretrained(args.model, dtype=torch.bfloat16).to(device).eval()
+
+    print('[*] building Farahidian concept extractor...', flush=True)
+    ce = ConceptExtractor()
+
+    results = {'model': args.model, 'n': args.n, 'sets': {}}
+
+    eval_sets = {'classical_val': load_pairs(args.n, args.seed)}
+    if args.flores:
+        f = load_flores(args.n, args.seed)
+        if f:
+            eval_sets['flores_devtest'] = f
+
+    for set_name, pairs in eval_sets.items():
+        if len(pairs) < 5:
+            print(f'[{set_name}] too few pairs, skipping')
+            continue
+        ar = [p[0] for p in pairs]
+        refs = [p[1] for p in pairs]
+
+        print(f'\n[{set_name}] {len(pairs)} pairs -- extracting concepts...', flush=True)
+        t0 = time.time()
+        real_concepts = [ce.concepts(a) for a in ar]
+        coverage = sum(1 for c in real_concepts if c) / len(real_concepts)
+        print(f'  concept coverage: {100*coverage:.1f}% of sentences; '
+              f'lexicon hits={ce.hits} misses={ce.misses} ({time.time()-t0:.0f}s)', flush=True)
+
+        order = list(range(len(ar)))
+        random.Random(args.seed + 7).shuffle(order)
+        shuf_concepts = [real_concepts[order[i]] for i in range(len(ar))]
+
+        conds = {
+            'A_no_concepts': ([build_prompt(tok, a, '', False) for a in ar], None),
+            'B_real_concepts': ([build_prompt(tok, a, concepts_to_str(c), True)
+                                 for a, c in zip(ar, real_concepts)], real_concepts),
+            'C_shuffled_concepts': ([build_prompt(tok, a, concepts_to_str(c), True)
+                                     for a, c in zip(ar, shuf_concepts)], shuf_concepts),
+        }
+
+        set_res = {'n_pairs': len(pairs), 'concept_coverage': coverage}
+        hyps_by_cond = {}
+        for name, (prompts, _c) in conds.items():
+            t0 = time.time()
+            hyps = [clean_out(o) for o in translate_all(model, tok, prompts, device, args.batch_size)]
+            sc = score(hyps, refs)
+            sc['seconds'] = time.time() - t0
+            set_res[name] = sc
+            hyps_by_cond[name] = hyps
+            print(f'  {name:<22} chrF++ {sc["chrf++"]:6.2f}  BLEU {sc["bleu"]:6.2f}  '
+                  f'len-ratio {sc["len_ratio"]:.2f}  ({sc["seconds"]:.0f}s)', flush=True)
+
+        b, a_, c = (set_res['B_real_concepts'], set_res['A_no_concepts'],
+                    set_res['C_shuffled_concepts'])
+        set_res['delta_B_minus_A_chrf'] = b['chrf++'] - a_['chrf++']
+        set_res['delta_B_minus_C_chrf'] = b['chrf++'] - c['chrf++']
+        print(f'  => root concepts vs no concepts : {set_res["delta_B_minus_A_chrf"]:+.2f} chrF++')
+        print(f'  => real concepts vs shuffled    : {set_res["delta_B_minus_C_chrf"]:+.2f} chrF++')
+
+        set_res['examples'] = [
+            {'ar': ar[i][:160], 'ref': refs[i][:200],
+             'A': hyps_by_cond['A_no_concepts'][i][:200],
+             'B': hyps_by_cond['B_real_concepts'][i][:200],
+             'C': hyps_by_cond['C_shuffled_concepts'][i][:200],
+             'concepts': concepts_to_str(real_concepts[i])[:220]}
+            for i in range(min(5, len(ar)))
+        ]
+        results['sets'][set_name] = set_res
+
+    out = args.out or f'/workspace/nmt_eval_{args.model.split("/")[-1]}.json'
+    json.dump(results, open(out, 'w'), ensure_ascii=False, indent=2)
+    print(f'\nwrote {out}')
+
+
+if __name__ == '__main__':
+    main()

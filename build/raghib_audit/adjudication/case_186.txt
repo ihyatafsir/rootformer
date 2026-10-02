@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ززم   stratum=ma
+REC ontological_core : The root denotes a liminal, brackish state of water — neither purely fresh nor purely saline — situated at the threshold between two opposing qualities. Its reduplicative phonetic structure (ز-ز-م) mirrors this in-between condition, suggesting a substance that partakes of both extremes without fully belonging to either.
+REC haqiqah_literal  : Water that is neither fully salt nor fully sweet; brackish water occupying the intermediate zone between the saline and the potable.
+REC canon_def.ar     : ماء زُوَزِمٌ وزُوازِمٌ: بين المِلْحِ والعَذْبِ.
+REC canon_def.en     : Brackish water: that which lies between the salt and the sweet.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عقا   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of this root is the open, cleared tract of ground immediately surrounding a dwelling or settlement — the courtyard, precinct, or vacant lot abutting a house or quarter. The root denotes spatial periphery and open circumjacent ground, not the structure itself but the cleared space that encircles and belongs to it.
+REC haqiqah_literal  : The literal, physical meaning is the courtyard (sāḥah) of a house and the open ground surrounding a dwelling, quarter, or locality; the plural forms are ʿiqāʾ. One says nazala bi-ʿaqwatihi, 'he alighted in its courtyard,' and mā bi-ʿaqwati hādhihi al-dāri mithlu fulān, 'there is no one in the precinct of this house like so-and-so.'
+REC canon_def.ar     : العَقْوةُ والعَقَاةُ: الساحة وما حَوْلَ الدارِ والمَحَلَّة، وجمعُهما عِقاءٌ. وعَقْوَةُ الدار: ساحَتُها.
+REC canon_def.en     : Al-ʿaqwah and al-ʿaqāh: the courtyard and the area surrounding a house or quarter; their plural is ʿiqāʾ. The ʿaqwah of a house is its courtyard.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

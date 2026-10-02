@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قرث   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a specific cultivar of date palm fruit (tamr), characterized by its black color and rapid detachment of its skin from its flesh upon ripening (irtibāb).
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is a type of date (tamr) that is black, quick to have its skin peel away from its flesh when it ripens, and is considered the most delicious date in its unripe (busran) stage.
+REC canon_def.ar     : القَرِيثاء: ضَرْبٌ من التمر، وهو أَسْودُ سريعُ النَقْضِ لقِشْرِه عن لِحائه إِذا أَرْطَبَ، وهو أَطيَبُ تمرٍ بُسْراً؛ يُضافُ ويوصَفُ به، ويُثنَّى ويُجْمع.
+REC canon_def.en     : Al-qarīthāʾ: a variety of date (tamr) that is black, rapidly detaches its skin from its flesh when it ripens (irtabā), and is the most delicious date when eaten unripe (busran); it may be used in construct (iḍāfa) and as an adjective, and m […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 20986 hdr=قرث] القَرِيثاءُ: ضرب من التمر أسود سريع النقض لقشره عن لحائه إذا أرطب. وهو أطيب التَّمرْ بُسْراً.

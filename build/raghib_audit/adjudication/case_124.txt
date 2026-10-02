@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ذفل   stratum=ma
+REC ontological_core : The root denotes a thin, fluid, resinous substance — specifically the light, unthickened stage of tar (qaṭirān) before it congeals into the dense pitch (khaḍkhāḍ). Its foundational physical image is that of a viscous liquid exudate, prior to coagulation.
+REC haqiqah_literal  : The literal, physical referent is thin tar (al-qaṭirān al-raqīq) — the runny, uncondensed resinous fluid that precedes the thickened pitch known as khaḍkhāḍ.
+REC canon_def.ar     : الذَّفْل والذِّفْل: القَطِران الرقيق الذي قبل الخَضْخاض.
+REC canon_def.en     : Al-dhafl and al-dhifl: the thin tar that exists prior to the thickened pitch (al-khaḍkhāḍ).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 26622 hdr=ذفل] الذال والفاء واللام ليس أصلا. على أنهم يقولون إن الذفل: القطران. وينشدون لابن مقبل: تمشى به الظلمان كالدهم قارفت بزيت الرهاء الجون والذفل طاليا (3) والله أعلم. ||| باب الذال والقاف وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

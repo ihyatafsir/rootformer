@@ -1,0 +1,10 @@
+================================================================================================
+ROOT همي   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root همي is the free, downward, and continuous flow of a liquid—specifically tears, rain, or blood—from a source, and by extension, the swift, unresisted departure or movement of a being or object.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the pouring forth and flowing of tears from the eye, rain from the sky, or blood from the mouth of a horse; also, the going away or departing of camels upon their faces.
+REC canon_def.ar     : هَمَتْ عينُه هَمْياً وهُمِيًّا وهَمَياناً: صَبَّتْ دمعها، وقيل: سالَ دَمْعُها، وكذلك كلُّ سائل من مطر وغيره. وليس هذا من الهائم في شيء.
+REC canon_def.en     : His eye flowed with tears: it poured forth its tears; it was also said: its tears streamed. The same applies to any flowing liquid such as rain and the like. This is not related to the wandering lover (al-hāʾim) in any way.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75023 hdr=همى] الهاء والميم والحرف المعتل يدل على ذهاب شىء على وجهه وهمى الماء: سال. وهمت الماشية تهمى: ذهبت على وجهها لرعى أو غيره وفى الحديث@HAD03 : «إنا نصيب هوامى @HAD01 الإبل» : الضوال. وإذا همز (1)* تغير المعنى. تقول: تهمأ الثوب: بلى.
+SRC Asas [haqiqah_literal]        : همي القطر والدمع يهمى، وهمت العين. ورأيت الخيل تهمي أفواهها دما. وهذا من هوامي الإبل، وهمت على وجوهها: ذهبت. وله هميان أعجر وهمايين عجر.
+SRC Ayn (al-Khalil)  : [line 15060 hdr=همي] هَمَتِ النّاقةُ تَهْمِي إذا نَدَّتْ للرّعي وغيره. وفي الحديث: إنّا نُصيب هَوامي الإِبِل «2» وهي المهملة التي لا حافظ لها. يقال: ناقةٌ هاميةٌ، وبعيرٌ هامٍ، وقد هَمَي يَهْمي هَمْياً. والخَيْلُ تهمي أفواهها دماً، أي: تسيل دماؤها . هيم: الهَيْمانُ: العَطْشانُ. والهائم: المُتَحَيِّر، هامَ يَهِيمُ. والهَيامُ من الرّمل: ما كان دُقاقاً يابساً. والهُيامُ: كالجُنونِ من العِشْق، وهو مَهْيُومٌ. قال «3» : ظلّ كأنّ الهُيامَ خالَطَ […]

@@ -1,0 +1,15 @@
+{
+  "tag": "P_step2000",
+  "val_windows": 300,
+  "n_positions": 18869,
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "trunk": "/workspace/ghazali_forget/snapshot_P_step2000.trunk.pt",
+  "live": {
+    "n": 18869,
+    "acc@1": 0.02856537140905857,
+    "acc@5": 0.061529491096735,
+    "ce_raw": 9.569391250610352,
+    "ce_z": 9.344403266906738,
+    "logit_scale": 1.005632996559143
+  }
+}

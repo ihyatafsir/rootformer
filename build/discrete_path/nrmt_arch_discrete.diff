@@ -1,0 +1,314 @@
+--- nrmt_arch_pod.py	2026-10-02 02:10:38.060948275 +0200
++++ nrmt_arch_discrete.py	2026-10-02 02:39:16.487048784 +0200
+@@ -42,6 +42,7 @@
+ from pathlib import Path
+ from typing import Any, Dict, List, Optional, Tuple
+ 
++import numpy as np
+ import torch
+ import torch.nn as nn
+ import torch.nn.functional as F
+@@ -84,6 +85,187 @@
+     return table
+ 
+ 
++DEFAULT_NGRAM_ORDERS = (1, 2, 3, 4)
++_NGRAM_HASH_MOD = (1 << 40) - 1        # every product below stays < 2**63: no int64 overflow
++_NGRAM_HASH_A = 1000003
++
++
++class DiscreteNgramFeatures(nn.Module):
++    """Discrete (lookup) root-history pathway: order-k root n-gram id -> learnable embedding.
++
++    WHY THIS EXISTS
++    ---------------
++    `NRMTHead.build_features` historically concatenates the *embeddings* of r_{t-1..t-3} and puts
++    them through ONE `Linear(320->896)`.  That map is additive in the per-root embeddings, i.e. a
++    LINEAR function of the root ids, and a linear function cannot express an order-k n-gram
++    LOOKUP.  MEASURED (head_fix report §2.1) on the same 18,869 val radical positions: a
++    closed-form linear readout of exactly that content = 1.41-1.81 %, while an order-4 n-gram
++    lookup = 53.13 %.  The limiter is the inductive bias of the FORM, not the parameter count.
++
++    This module makes the context DISCRETE.  Every distinct order-k context owns its own learnable
++    row, so the composition
++        context -> row id -> E[id] -> Linear -> LayerNorm -> root_head
++    is a lookup table over contexts that is differentiable end to end.  It can express the lookup
++    because (a) each context owns a free d_ng-dimensional vector and (b) the shared readout only
++    has to place one point per context inside its target class's argmax cone -- a generic affine
++    d_ng-dimensional family with d_ng >= 2 intersects every such cone (see expressibility_proof.py).
++
++    MODES
++    -----
++    'vocab' : exact.  The distinct order-k codes of the TRAIN root stream get compact ids
++              1..N_k; id 0 is the single OOV/null row.  No hash collisions.  Needs `order_vocabs`
++              (one sorted-unique int64 code array per order, built from the train stream by the
++              caller).  The arrays are non-persistent buffers, so they never enter a state_dict
++              and cannot silently go stale inside a checkpoint.
++    'hash'  : the brief's hashed variant: bucket = mix(code) % 2**bucket_bits, id 0 = null.
++              Collisions cost capacity; `measure_ngrams.py` reports the measured collision rate.
++
++    GATING
++    ------
++    `gate` starts at exactly 0, so the arm's OUTPUT is 0 at init (no warm-up slam -- the v18fix
++    `feat_gate` measurement).  `proj` is deliberately NOT zero-initialised, so d(loss)/d(gate) is
++    non-zero and the arm has a gradient to fade in from; zeroing both is the measured DEAD SADDLE.
++    """
++
++    def __init__(self, num_roots: int, d_model: int, orders=DEFAULT_NGRAM_ORDERS,
++                 d_ng: int = 32, mode: str = 'vocab', bucket_bits: int = 20,
++                 order_vocabs=None, gated: bool = True,
++                 emb_init_std: float = 0.02, proj_init_std: float = 1e-3, norm: bool = True):
++        super().__init__()
++        if mode not in ('vocab', 'hash'):
++            raise ValueError(f'ngram mode {mode!r} (expected vocab|hash)')
++        self.num_roots = int(num_roots)
++        self.orders = tuple(int(k) for k in orders)
++        if not self.orders or min(self.orders) < 1:
++            raise ValueError(f'orders must be positive ints, got {self.orders}')
++        self.d_ng, self.mode, self.bucket_bits = int(d_ng), mode, int(bucket_bits)
++        self.gated, self.use_norm = bool(gated), bool(norm)
++
++        if mode == 'vocab':
++            if order_vocabs is None or len(order_vocabs) != len(self.orders):
++                raise ValueError('vocab mode needs one sorted-unique code array per order')
++            # rows: 0 = OOV (context never seen in train -- ZERO and never trained, which is what
++            # makes the shorter orders take over = exact backoff), 1 = null (t < k, no context),
++            # 2.. = the distinct train contexts.
++            sizes = [int(len(v)) + 2 for v in order_vocabs]
++            for k, v in zip(self.orders, order_vocabs):
++                self.register_buffer(f'vocab_{k}',
++                                     torch.as_tensor(np.asarray(v), dtype=torch.int64),
++                                     persistent=False)
++        else:
++            sizes = [(1 << self.bucket_bits) + 1] * len(self.orders)   # row 0 = null/OOV
++
++        self.embs = nn.ModuleList([nn.Embedding(s, self.d_ng) for s in sizes])
++        for e in self.embs:
++            nn.init.normal_(e.weight, std=emb_init_std)
++        # The OOV row stays at exactly 0: no TRAIN position ever maps to it (the vocab was built
++        # from the train stream), so it receives no gradient and Adam/AdamW cannot move it.  A
++        # val context that was never seen therefore contributes exactly nothing at its own order
++        # and the shorter orders decide -- the backoff, by construction.
++        with torch.no_grad():
++            for e in self.embs:
++                e.weight[0].zero_()
++                if mode == 'vocab':
++                    e.weight[1].zero_()
++        self.proj = nn.Linear(len(self.orders) * self.d_ng, d_model, bias=False)
++        nn.init.normal_(self.proj.weight, std=proj_init_std)
++        self.norm = nn.LayerNorm(d_model) if norm else nn.Identity()
++        if self.gated:
++            self.gate = nn.Parameter(torch.zeros(()))
++
++    # ------------------------------------------------------------------ context -> code
++    def _codes(self, root_ids: torch.Tensor, k: int) -> torch.Tensor:
++        """[B,T] int64 code of the k roots ENDING at each position, i.e. r_{t-k+1..t}.
++
++        This is the context for predicting root t+1, and it is EXACTLY the block that
++        `ngram_order_vocabs` and the measured order-k lookup use (r_t is a legitimate input: the
++        target is r_{t+1}).  The historical linear branch rolls by 1..hist and therefore omits
++        r_t; that is a deliberate complement to h_t, not a constraint on a discrete pathway.
++
++        `num_roots ** k` is EXACT in int64 for the orders used here (9490**4 = 8.11e15 < 2**63),
++        so `vocab` mode is collision-free.  Any order for which that is not true is folded modulo
++        `_NGRAM_HASH_MOD` at every step, which keeps every multiply below 2**63 on CPU and CUDA.
++        """
++        exact = (self.num_roots ** k) < (1 << 62)
++        code = torch.zeros_like(root_ids)
++        for j in range(k - 1, -1, -1):          # oldest first: forward block order
++            sh = torch.roll(root_ids, shifts=j, dims=1)
++            if j:
++                sh[:, :j] = 0
++            code = code * self.num_roots + sh
++            if not exact:
++                code = code % _NGRAM_HASH_MOD
++        return code
++
++    def _ids(self, codes: torch.Tensor, k: int, valid: torch.Tensor) -> torch.Tensor:
++        """Map codes to embedding rows.
++
++        vocab mode: row 0 = OOV (unseen context), row 1 = null (t < k), row pos+2 = context.
++        hash mode : row 0 = null (t < k), row bucket+1 otherwise.
++        """
++        if self.mode == 'hash':
++            h = codes % _NGRAM_HASH_MOD
++            h = ((h ^ (h >> 21)) * _NGRAM_HASH_A) % _NGRAM_HASH_MOD
++            h = ((h ^ (h >> 17)) * _NGRAM_HASH_A) % _NGRAM_HASH_MOD
++            ids = (h % (1 << self.bucket_bits)) + 1
++        else:
++            vocab = getattr(self, f'vocab_{k}')
++            flat = codes.reshape(-1)
++            pos = torch.searchsorted(vocab, flat).clamp_(max=len(vocab) - 1)
++            ids = torch.where(vocab[pos] == flat, pos + 2, torch.zeros_like(pos))
++            ids = ids.reshape(codes.shape)
++            return torch.where(valid, ids, torch.ones_like(ids))
++        return torch.where(valid, ids, torch.zeros_like(ids))
++
++    def build(self, root_ids: torch.Tensor) -> torch.Tensor:
++        """[B,T,d_model] additive conditioning from the root history (exactly 0 if gate == 0).
++
++        Dropout is applied ONCE by the owning head, to the sum of this branch and the linear
++        branch, so the historical one-dropout behaviour is preserved exactly when this is off.
++        """
++        T = root_ids.shape[1]
++        tpos = torch.arange(T, device=root_ids.device)
++        parts = [self.embs[i](self._ids(self._codes(root_ids, k), k, tpos >= (k - 1)))
++                 for i, k in enumerate(self.orders)]
++        out = self.norm(self.proj(torch.cat(parts, dim=-1)))
++        if self.gated:
++            out = out * self.gate
++        return out
++
++    # ------------------------------------------------------------------ diagnostics
++    def gate_value(self) -> float:
++        return float(self.gate.detach()) if self.gated else 1.0
++
++    def branch_scale(self) -> float:
++        """RMS multiplier of the arm: ||norm.weight|| / sqrt(d_model) * |gate|."""
++        n = getattr(self.norm, 'weight', None)
++        w = float(n.detach().float().norm()) if n is not None else math.sqrt(self.proj.out_features)
++        return w / math.sqrt(self.proj.out_features) * abs(self.gate_value())
++
++    def table_stats(self) -> Dict[str, Any]:
++        return {f'k{k}': {'rows': int(e.num_embeddings), 'd_ng': int(e.embedding_dim),
++                          'params': int(e.num_embeddings * e.embedding_dim)}
++                for k, e in zip(self.orders, self.embs)}
++
++
++def ngram_order_vocabs(stream, num_roots: int, orders=DEFAULT_NGRAM_ORDERS):
++    """Sorted-unique exact order-k codes of a root stream, for `DiscreteNgramFeatures(vocab)`.
++
++    Built from the TRAIN stream only.  `stream` is a numpy array / list of root ids.
++    """
++    a = np.asarray(stream, dtype=np.int64)
++    out = []
++    for k in orders:
++        if k > 62 or (num_roots ** k) >= (1 << 62):
++            raise ValueError(f'order {k} does not fit int64 exactly; use hash mode')
++        L = len(a) - k + 1
++        code = np.zeros(max(L, 0), dtype=np.int64)
++        for j in range(k):
++            code = code * num_roots + a[j:j + L]
++        out.append(np.unique(code))
++    return out
++
++
+ class NRMTHead(nn.Module):
+     """Operator- and history-conditioned, factorised next-root-morph head."""
+ 
+@@ -91,11 +273,15 @@
+                  num_suffixes: int, d_root: int, hist: int = 3, d_hist: int = 64,
+                  n_ops: int = len(OP_STATES), d_op: int = 32, d_morph: int = 32,
+                  dropout: float = 0.1, use_features: bool = True,
+-                 feat_gate: bool = False, feat_gate_proj_std: float = 1e-3):
++                 feat_gate: bool = False, feat_gate_proj_std: float = 1e-3,
++                 ngram_mode: str = 'none', ngram_orders=DEFAULT_NGRAM_ORDERS, d_ng: int = 32,
++                 ngram_bucket_bits: int = 20, ngram_vocabs=None, ngram_gate: bool = True,
++                 ngram_emb_init_std: float = 0.02):
+         super().__init__()
+         self.d_model, self.d_root, self.hist = d_model, d_root, hist
+         self.num_roots = num_roots
+         self.use_features = use_features
++        self.ngram_mode = ngram_mode
+         # MEASURED (v18fix, see `feat_gate` below): `feat_norm` is a LayerNorm, so the branch
+         # output is EXACTLY invariant to the scale of `feat_proj.weight` once that weight is
+         # more than ~1e-2 in norm.  The zero-init of feat_proj therefore buys NO warm start:
+@@ -147,14 +333,36 @@
+         else:
+             nn.init.zeros_(self.feat_proj.weight)
+ 
++        # ---- DISCRETE root-history pathway (off by default: `ngram_mode == 'none'` is the
++        # historical, byte-for-byte path).  It is ADDED to the linear branch's output, so
++        # --no-features --ngram-features vocab gives the discrete-only arm.
++        if ngram_mode != 'none':
++            self.ngram_feat = DiscreteNgramFeatures(
++                num_roots=num_roots, d_model=d_model, orders=ngram_orders, d_ng=d_ng,
++                mode=ngram_mode, bucket_bits=ngram_bucket_bits, order_vocabs=ngram_vocabs,
++                gated=ngram_gate, emb_init_std=ngram_emb_init_std)
++
+     # ------------------------------------------------------------------ features
+     def build_features(self, root_ids, op_ids, w_ids, p_ids, s_ids) -> torch.Tensor:
+         """Roll the history and the PREVIOUS morph tuple internally, so callers cannot
+         accidentally pass the current position's tuple (a bug that silently fed the head the
+-        wrong word's morphology). With use_features=False this is the h-only CONTROL."""
+-        if not self.use_features:
++        wrong word's morphology). With use_features=False this is the h-only CONTROL.
++
++        The DISCRETE n-gram pathway (when enabled) is added to this output; it is a separate
++        branch with its own zero-initialised gate, so enabling it changes nothing at step 0.
++        """
++        if not self.use_features and self.ngram_mode == 'none':
+             return torch.zeros(*root_ids.shape, self.d_model,
+                                device=root_ids.device, dtype=self.feat_proj.weight.dtype)
++        out = None
++        if self.use_features:
++            out = self._linear_features(root_ids, op_ids, w_ids, p_ids, s_ids)
++        if self.ngram_mode != 'none':
++            ng = self.ngram_feat.build(root_ids)
++            out = ng if out is None else out + ng
++        return self.drop(out)
++
++    def _linear_features(self, root_ids, op_ids, w_ids, p_ids, s_ids) -> torch.Tensor:
+         parts = []
+         for k in range(1, self.hist + 1):
+             sh = torch.roll(root_ids, shifts=k, dims=1)
+@@ -165,7 +373,7 @@
+         ps = torch.roll(s_ids, 1, dims=1); ps[:, 0] = 0
+         parts += [self.op_emb(op_ids), self.prev_wazn_emb(pw),
+                   self.prev_pref_emb(pp), self.prev_suff_emb(ps)]
+-        out = self.drop(self.feat_norm(self.feat_proj(torch.cat(parts, dim=-1))))
++        out = self.feat_norm(self.feat_proj(torch.cat(parts, dim=-1)))
+         if self.feat_gate_enabled:
+             out = out * self.feat_gate
+         return out
+@@ -206,6 +414,26 @@
+         """
+         return float(self.feat_norm.weight.detach().float().norm().item())
+ 
++    def ngram_scale(self) -> float:
++        """||ngram_feat.norm.weight|| / sqrt(d_model) * |gate| -- the discrete arm's real RMS.
++
++        Zero until the gate leaves 0 (the arm is a no-op at init by construction).
++        """
++        ng = getattr(self, 'ngram_feat', None)
++        return float(ng.branch_scale()) if ng is not None else 0.0
++
++    def ngram_gate(self) -> float:
++        ng = getattr(self, 'ngram_feat', None)
++        return float(ng.gate_value()) if ng is not None else 0.0
++
++    def ngram_table_stats(self) -> Dict[str, Any]:
++        ng = getattr(self, 'ngram_feat', None)
++        return ng.table_stats() if ng is not None else {}
++
++    def ngram_params(self) -> int:
++        ng = getattr(self, 'ngram_feat', None)
++        return sum(p.numel() for p in ng.parameters()) if ng is not None else 0
++
+ 
+ class RootformerNRMT(nn.Module):
+     """
+@@ -215,7 +443,10 @@
+ 
+     def __init__(self, base_v17_model, vocab, device='cuda', dtype=torch.bfloat16,
+                  hist=3, d_hist=64, d_op=32, d_morph=32, dropout=0.1, use_features=True,
+-                 feat_gate=False, feat_gate_proj_std=1e-3):
++                 feat_gate=False, feat_gate_proj_std=1e-3,
++                 ngram_mode='none', ngram_orders=DEFAULT_NGRAM_ORDERS, d_ng=32,
++                 ngram_bucket_bits=20, ngram_vocabs=None, ngram_gate=True,
++                 ngram_emb_init_std=0.02):
+         super().__init__()
+         self.device = torch.device(device) if isinstance(device, str) else device
+         self.dtype = dtype
+@@ -243,7 +474,10 @@
+                                  self.morphemic_embed.d_root, hist=hist, d_hist=d_hist,
+                                  d_op=d_op, d_morph=d_morph, dropout=dropout,
+                                  use_features=use_features, feat_gate=feat_gate,
+-                                 feat_gate_proj_std=feat_gate_proj_std
++                                 feat_gate_proj_std=feat_gate_proj_std,
++                                 ngram_mode=ngram_mode, ngram_orders=ngram_orders, d_ng=d_ng,
++                                 ngram_bucket_bits=ngram_bucket_bits, ngram_vocabs=ngram_vocabs,
++                                 ngram_gate=ngram_gate, ngram_emb_init_std=ngram_emb_init_std
+                                  ).to(device=device, dtype=dtype)
+         # bind the SHARED root embedding without registering it a second time
+         object.__setattr__(self.nrmt_head, '_root_embed', self.morphemic_embed.root_embed)

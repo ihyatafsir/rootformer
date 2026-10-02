@@ -1,0 +1,1901 @@
+{
+ "meta": {
+  "mode": 1,
+  "mode_env": "1",
+  "built": "2026-10-01T17:22:13",
+  "sample_occurrences": 3298362,
+  "sample_types": 188722,
+  "failing_types": 83111,
+  "failing_occurrences": 862158,
+  "sample_source": "/workspace/eval_heldout_sample.json",
+  "dump_source": "/workspace/du_m1.json",
+  "implemented_wazn_n": 43,
+  "release": "/workspace/taxpin",
+  "module_files": {
+   "nrmp_vocab": "/workspace/taxpin/nrmp_vocab.py",
+   "tokenizer": "/workspace/taxpin/models/morphemic_tokenizer_v12_arabic.py",
+   "validated_segmentation": "/workspace/taxpin/models/validated_segmentation.py"
+  },
+  "module_md5": {
+   "nrmp_vocab": "7a3f3a57f27a3a206d3e9deca7de7c3e",
+   "tokenizer": "a1185eafa89b20a98ade3ae58aa12ffb",
+   "validated_segmentation": "16c7fb295ffdf801a5ebb86896b48565"
+  },
+  "validator": "/workspace/taxpin/models/validated_segmentation.py"
+ },
+ "causes": {
+  "E1_particle_echo_no_analysis": {
+   "types": 70109,
+   "occurrences": 547717,
+   "type_share_pct": 84.3559,
+   "occ_share_pct": 63.5286,
+   "type_share_of_sample_pct": 37.1494,
+   "occ_share_of_sample_pct": 16.6057,
+   "side": "ENCODE",
+   "responsible": "nrmp_vocab.py:264-268 encode_word + nrmp_vocab.py:312-313 decode_word",
+   "strata": {
+    "root_ngram_plain_surface_clitic": 26243,
+    "root_ngram_hamza_or_weak_surface_clitic": 16488,
+    "no_root_evidence_oov": 12440,
+    "root_ngram_hamza_or_weak_surface_bare": 5907,
+    "root_ngram_plain_surface_bare": 5321,
+    "clitic_root_enclitic_normalized_match": 2175,
+    "no_root_evidence_oov_definite_article": 754,
+    "short_or_single_char": 351,
+    "clitic_plus_closed_particle": 218,
+    "closed_particle_orthographic_variant": 101,
+    "clitic_root_enclitic_exact_match_missed": 79,
+    "clitic_plus_known_token": 32
+   },
+   "strata_occurrences": {
+    "no_root_evidence_oov": 124891,
+    "root_ngram_plain_surface_clitic": 104790,
+    "root_ngram_hamza_or_weak_surface_clitic": 84821,
+    "clitic_root_enclitic_normalized_match": 58902,
+    "closed_particle_orthographic_variant": 47038,
+    "root_ngram_hamza_or_weak_surface_bare": 43898,
+    "clitic_plus_closed_particle": 35942,
+    "root_ngram_plain_surface_bare": 24030,
+    "no_root_evidence_oov_definite_article": 11991,
+    "short_or_single_char": 8895,
+    "clitic_root_enclitic_exact_match_missed": 1443,
+    "clitic_plus_known_token": 1076
+   },
+   "strata_side": {
+    "root_ngram_hamza_or_weak_surface_bare": "ENCODE",
+    "no_root_evidence_oov": "DATA",
+    "root_ngram_plain_surface_clitic": "ENCODE",
+    "root_ngram_hamza_or_weak_surface_clitic": "ENCODE",
+    "closed_particle_orthographic_variant": "ENCODE",
+    "clitic_root_enclitic_normalized_match": "ENCODE",
+    "no_root_evidence_oov_definite_article": "ENCODE",
+    "clitic_plus_closed_particle": "ENCODE",
+    "root_ngram_plain_surface_bare": "ENCODE",
+    "short_or_single_char": "ENCODE",
+    "clitic_plus_known_token": "ENCODE",
+    "clitic_root_enclitic_exact_match_missed": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "فى",
+     "count": 17526,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "closed_particle_orthographic_variant"
+    },
+    {
+     "word": "تعالى",
+     "count": 9942,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "root_ngram_hamza_or_weak_surface_bare"
+    },
+    {
+     "word": "صلى",
+     "count": 6082,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "no_root_evidence_oov"
+    },
+    {
+     "word": "وسلم",
+     "count": 5680,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "root_ngram_plain_surface_clitic"
+    },
+    {
+     "word": "وأما",
+     "count": 5118,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "closed_particle_orthographic_variant"
+    },
+    {
+     "word": "الى",
+     "count": 4627,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "closed_particle_orthographic_variant"
+    },
+    {
+     "word": "الأول",
+     "count": 4454,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "clitic_root_enclitic_normalized_match"
+    },
+    {
+     "word": "وإذا",
+     "count": 3889,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "clitic_plus_closed_particle"
+    },
+    {
+     "word": "وكذلك",
+     "count": 3734,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "clitic_plus_closed_particle"
+    },
+    {
+     "word": "ولو",
+     "count": 3677,
+     "prefix": "<NONE>",
+     "root": "<PARTICLE>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<PARTICLE>",
+     "stratum": "clitic_plus_closed_particle"
+    }
+   ]
+  },
+  "E2_unk_echo_unknown_root": {
+   "types": 367,
+   "occurrences": 118212,
+   "type_share_pct": 0.4416,
+   "occ_share_pct": 13.7112,
+   "type_share_of_sample_pct": 0.1945,
+   "occ_share_of_sample_pct": 3.584,
+   "side": "DATA",
+   "responsible": "nrmp_vocab.py:270-274 encode_word + nrmp_vocab.py:312-313 decode_word",
+   "strata": {
+    "clitic_plus_unknown_residue": 173,
+    "oov_unanalysable": 81,
+    "single_char_token": 34,
+    "clitic_plus_closed_particle": 33,
+    "closed_particle_without_P_tag": 27,
+    "vocab_token_not_a_root": 10,
+    "closed_particle_orthographic_variant": 5,
+    "clitic_plus_known_token": 4
+   },
+   "strata_occurrences": {
+    "closed_particle_without_P_tag": 59963,
+    "single_char_token": 24484,
+    "closed_particle_orthographic_variant": 10749,
+    "clitic_plus_closed_particle": 8728,
+    "oov_unanalysable": 8129,
+    "clitic_plus_unknown_residue": 4667,
+    "vocab_token_not_a_root": 1470,
+    "clitic_plus_known_token": 22
+   },
+   "strata_side": {
+    "clitic_plus_unknown_residue": "ENCODE",
+    "single_char_token": "ENCODE",
+    "closed_particle_without_P_tag": "ENCODE",
+    "clitic_plus_closed_particle": "ENCODE",
+    "oov_unanalysable": "DATA",
+    "vocab_token_not_a_root": "ENCODE",
+    "closed_particle_orthographic_variant": "ENCODE",
+    "clitic_plus_known_token": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "له",
+     "count": 14886,
+     "prefix": "ل",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "ل<UNK>",
+     "stratum": "closed_particle_without_P_tag"
+    },
+    {
+     "word": "به",
+     "count": 12194,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "closed_particle_without_P_tag"
+    },
+    {
+     "word": "ان",
+     "count": 10138,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "closed_particle_orthographic_variant"
+    },
+    {
+     "word": "إلا",
+     "count": 10098,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "closed_particle_without_P_tag"
+    },
+    {
+     "word": "و",
+     "count": 5740,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "single_char_token"
+    },
+    {
+     "word": "لو",
+     "count": 5276,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "closed_particle_without_P_tag"
+    },
+    {
+     "word": "أيضا",
+     "count": 4195,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "closed_particle_without_P_tag"
+    },
+    {
+     "word": "إنما",
+     "count": 4003,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "closed_particle_without_P_tag"
+    },
+    {
+     "word": "كذلك",
+     "count": 2664,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "closed_particle_without_P_tag"
+    },
+    {
+     "word": "لهم",
+     "count": 2648,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "clitic_plus_closed_particle"
+    }
+   ]
+  },
+  "D1_wazn_unimplemented_fallthrough": {
+   "types": 4597,
+   "occurrences": 61580,
+   "type_share_pct": 5.5312,
+   "occ_share_pct": 7.1425,
+   "type_share_of_sample_pct": 2.4359,
+   "occ_share_of_sample_pct": 1.867,
+   "side": "DECODE",
+   "responsible": "morphemic_tokenizer_v12_arabic.py:805 (final `return r`)",
+   "strata": {
+    "wazn=يَفْعُلُ": 3033,
+    "wazn=يَتَفَاعَلُ": 495,
+    "wazn=مُتَفَاعِل": 473,
+    "wazn=مُسْتَفْعِل": 238,
+    "wazn=مُتَفَعْلِل": 169,
+    "wazn=اِفْتَعَلَ": 152,
+    "wazn=فَعْلَلَ": 33,
+    "wazn=مُسْتَفْعَل": 4
+   },
+   "strata_occurrences": {
+    "wazn=يَفْعُلُ": 53388,
+    "wazn=مُتَفَاعِل": 2536,
+    "wazn=يَتَفَاعَلُ": 1317,
+    "wazn=مُتَفَعْلِل": 1307,
+    "wazn=فَعْلَلَ": 1302,
+    "wazn=اِفْتَعَلَ": 848,
+    "wazn=مُسْتَفْعِل": 763,
+    "wazn=مُسْتَفْعَل": 119
+   },
+   "strata_side": {
+    "wazn=يَفْعُلُ": "DECODE",
+    "wazn=مُتَفَاعِل": "DECODE",
+    "wazn=فَعْلَلَ": "DECODE",
+    "wazn=مُسْتَفْعِل": "DECODE",
+    "wazn=مُتَفَعْلِل": "DECODE",
+    "wazn=اِفْتَعَلَ": "DECODE",
+    "wazn=يَتَفَاعَلُ": "DECODE",
+    "wazn=مُسْتَفْعَل": "DECODE"
+   },
+   "examples": [
+    {
+     "word": "أبي",
+     "count": 5477,
+     "prefix": "<NONE>",
+     "root": "بيي",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "بيي",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "يكن",
+     "count": 3998,
+     "prefix": "<NONE>",
+     "root": "كنن",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "كنن",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "أهل",
+     "count": 2745,
+     "prefix": "<NONE>",
+     "root": "هلل",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "هلل",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "النبي",
+     "count": 2369,
+     "prefix": "ال",
+     "root": "بيي",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "البيي",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "الأرض",
+     "count": 1847,
+     "prefix": "ال",
+     "root": "رضض",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "الرضض",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "يدل",
+     "count": 1823,
+     "prefix": "<NONE>",
+     "root": "دلل",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "دلل",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "أبيه",
+     "count": 1418,
+     "prefix": "<NONE>",
+     "root": "بيي",
+     "wazn": "يَفْعُلُ",
+     "suffix": "ه",
+     "decoded": "بييه",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "يصح",
+     "count": 1096,
+     "prefix": "<NONE>",
+     "root": "صحح",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "صحح",
+     "stratum": "wazn=يَفْعُلُ"
+    },
+    {
+     "word": "تقدم",
+     "count": 878,
+     "prefix": "<NONE>",
+     "root": "تقدم",
+     "wazn": "فَعْلَلَ",
+     "suffix": "<NONE>",
+     "decoded": "قدم",
+     "stratum": "wazn=فَعْلَلَ"
+    },
+    {
+     "word": "أخذ",
+     "count": 827,
+     "prefix": "<NONE>",
+     "root": "خذذ",
+     "wazn": "يَفْعُلُ",
+     "suffix": "<NONE>",
+     "decoded": "خذذ",
+     "stratum": "wazn=يَفْعُلُ"
+    }
+   ]
+  },
+  "E13_allah_root_assimilation": {
+   "types": 31,
+   "occurrences": 35282,
+   "type_share_pct": 0.0373,
+   "occ_share_pct": 4.0923,
+   "type_share_of_sample_pct": 0.0164,
+   "occ_share_of_sample_pct": 1.0697,
+   "side": "DECODE",
+   "responsible": "morphemic_tokenizer_v12_arabic.py:366-368 (encode special case) + morphemic_tokenizer_v12_arabic.py:613-646 (realizer)",
+   "strata": {
+    "root=اله": 31
+   },
+   "strata_occurrences": {
+    "root=اله": 35282
+   },
+   "strata_side": {
+    "root=اله": "DECODE"
+   },
+   "examples": [
+    {
+     "word": "الله",
+     "count": 31938,
+     "prefix": "<NONE>",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "أله",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "والله",
+     "count": 1880,
+     "prefix": "و",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "وأله",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "لله",
+     "count": 1185,
+     "prefix": "ل",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "لأله",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "اله",
+     "count": 102,
+     "prefix": "<NONE>",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "أله",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "فالله",
+     "count": 57,
+     "prefix": "ف",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "فأله",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "اوله",
+     "count": 25,
+     "prefix": "<NONE>",
+     "root": "اله",
+     "wazn": "فَوْعَل",
+     "suffix": "<NONE>",
+     "decoded": "أوله",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "الاله",
+     "count": 20,
+     "prefix": "ال",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "الأله",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "الالهية",
+     "count": 16,
+     "prefix": "ال",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "ية",
+     "decoded": "الألهية",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "الالهين",
+     "count": 7,
+     "prefix": "ال",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "ين",
+     "decoded": "الألهين",
+     "stratum": "root=اله"
+    },
+    {
+     "word": "الالهة",
+     "count": 6,
+     "prefix": "ال",
+     "root": "اله",
+     "wazn": "فَعَلَ",
+     "suffix": "ة",
+     "decoded": "الألهة",
+     "stratum": "root=اله"
+    }
+   ]
+  },
+  "D3_particle_pronoun_alif_to_ya": {
+   "types": 11,
+   "occurrences": 26439,
+   "type_share_pct": 0.0132,
+   "occ_share_pct": 3.0666,
+   "type_share_of_sample_pct": 0.0058,
+   "occ_share_of_sample_pct": 0.8016,
+   "side": "DECODE",
+   "responsible": "nrmp_vocab.py:308-310 decode_word (assimilation exists only at morphemic_tokenizer_v12_arabic.py:849-850)",
+   "strata": {
+    "alif_maqsura_plus_pronoun": 11
+   },
+   "strata_occurrences": {
+    "alif_maqsura_plus_pronoun": 26439
+   },
+   "strata_side": {
+    "alif_maqsura_plus_pronoun": "DECODE"
+   },
+   "examples": [
+    {
+     "word": "عليه",
+     "count": 18068,
+     "prefix": "<NONE>",
+     "root": "<P:على>",
+     "wazn": "<NONE>",
+     "suffix": "ه",
+     "decoded": "علىه",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "إليه",
+     "count": 4017,
+     "prefix": "<NONE>",
+     "root": "<P:إلى>",
+     "wazn": "<NONE>",
+     "suffix": "ه",
+     "decoded": "إلىه",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "عليها",
+     "count": 2408,
+     "prefix": "<NONE>",
+     "root": "<P:على>",
+     "wazn": "<NONE>",
+     "suffix": "ها",
+     "decoded": "علىها",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "إليها",
+     "count": 919,
+     "prefix": "<NONE>",
+     "root": "<P:إلى>",
+     "wazn": "<NONE>",
+     "suffix": "ها",
+     "decoded": "إلىها",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "علينا",
+     "count": 382,
+     "prefix": "<NONE>",
+     "root": "<P:على>",
+     "wazn": "<NONE>",
+     "suffix": "نا",
+     "decoded": "علىنا",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "فعليه",
+     "count": 321,
+     "prefix": "ف",
+     "root": "<P:على>",
+     "wazn": "<NONE>",
+     "suffix": "ه",
+     "decoded": "فعلىه",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "وعليه",
+     "count": 313,
+     "prefix": "و",
+     "root": "<P:على>",
+     "wazn": "<NONE>",
+     "suffix": "ه",
+     "decoded": "وعلىه",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "وعلينا",
+     "count": 6,
+     "prefix": "و",
+     "root": "<P:على>",
+     "wazn": "<NONE>",
+     "suffix": "نا",
+     "decoded": "وعلىنا",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "فعلينا",
+     "count": 3,
+     "prefix": "ف",
+     "root": "<P:على>",
+     "wazn": "<NONE>",
+     "suffix": "نا",
+     "decoded": "فعلىنا",
+     "stratum": "alif_maqsura_plus_pronoun"
+    },
+    {
+     "word": "متينا",
+     "count": 1,
+     "prefix": "<NONE>",
+     "root": "<P:متى>",
+     "wazn": "<NONE>",
+     "suffix": "نا",
+     "decoded": "متىنا",
+     "stratum": "alif_maqsura_plus_pronoun"
+    }
+   ]
+  },
+  "E6_analysis_inconsistent_generates_false": {
+   "types": 3549,
+   "occurrences": 20816,
+   "type_share_pct": 4.2702,
+   "occ_share_pct": 2.4144,
+   "type_share_of_sample_pct": 1.8805,
+   "occ_share_of_sample_pct": 0.6311,
+   "side": "ENCODE",
+   "responsible": "morphemic_tokenizer_v12_arabic.py:334-541 _decompose_greedy / validated_segmentation.py:501-606 decompose",
+   "strata": {
+    "hamza_or_ta_marbuta|إِفْعَال": 1880,
+    "gemination|فَعَلَ": 630,
+    "substitution|اِسْتَفْعَلَ": 582,
+    "substitution|يَتَفَعَّلُ": 160,
+    "substitution|يَفْتَعِلُ": 148,
+    "hamza_or_ta_marbuta|اِسْتَفْعَلَ": 50,
+    "gemination|فَاعِل": 45,
+    "substitution|فَاعِل": 10,
+    "hamza_or_ta_marbuta|فَاعِل": 7,
+    "hamza_or_ta_marbuta|أَفْعَال": 7,
+    "hamza_or_ta_marbuta|مَفَاعِل": 6,
+    "substitution|فِعَال": 6,
+    "substitution|أَفْعَال": 4,
+    "truncation|تَفَعْلَلَ": 4,
+    "hamza_or_ta_marbuta|فَوَاعِل": 3,
+    "hamza_or_ta_marbuta|مُفْتَعِل": 2,
+    "substitution|فَعِيل": 1,
+    "hamza_or_ta_marbuta|يَتَفَعَّلُ": 1,
+    "substitution|يَفْعَلُ": 1,
+    "substitution|إِفْعَال": 1,
+    "substitution|فَعَلَ": 1
+   },
+   "strata_occurrences": {
+    "hamza_or_ta_marbuta|إِفْعَال": 10104,
+    "gemination|فَعَلَ": 4644,
+    "substitution|اِسْتَفْعَلَ": 2421,
+    "gemination|فَاعِل": 1383,
+    "substitution|فَاعِل": 786,
+    "substitution|يَفْتَعِلُ": 640,
+    "substitution|يَتَفَعَّلُ": 294,
+    "hamza_or_ta_marbuta|مَفَاعِل": 171,
+    "substitution|أَفْعَال": 151,
+    "hamza_or_ta_marbuta|اِسْتَفْعَلَ": 106,
+    "truncation|تَفَعْلَلَ": 54,
+    "hamza_or_ta_marbuta|أَفْعَال": 17,
+    "substitution|فَعِيل": 12,
+    "substitution|فِعَال": 10,
+    "hamza_or_ta_marbuta|فَوَاعِل": 8,
+    "hamza_or_ta_marbuta|فَاعِل": 7,
+    "hamza_or_ta_marbuta|مُفْتَعِل": 3,
+    "hamza_or_ta_marbuta|يَتَفَعَّلُ": 2,
+    "substitution|يَفْعَلُ": 1,
+    "substitution|إِفْعَال": 1,
+    "substitution|فَعَلَ": 1
+   },
+   "strata_side": {
+    "gemination|فَعَلَ": "ENCODE",
+    "substitution|فَاعِل": "ENCODE",
+    "hamza_or_ta_marbuta|إِفْعَال": "ENCODE",
+    "substitution|يَفْتَعِلُ": "ENCODE",
+    "substitution|اِسْتَفْعَلَ": "ENCODE",
+    "gemination|فَاعِل": "ENCODE",
+    "hamza_or_ta_marbuta|مَفَاعِل": "ENCODE",
+    "hamza_or_ta_marbuta|اِسْتَفْعَلَ": "ENCODE",
+    "substitution|يَتَفَعَّلُ": "ENCODE",
+    "hamza_or_ta_marbuta|فَاعِل": "ENCODE",
+    "substitution|أَفْعَال": "ENCODE",
+    "truncation|تَفَعْلَلَ": "ENCODE",
+    "hamza_or_ta_marbuta|فَوَاعِل": "ENCODE",
+    "hamza_or_ta_marbuta|أَفْعَال": "ENCODE",
+    "substitution|فِعَال": "ENCODE",
+    "substitution|فَعِيل": "ENCODE",
+    "hamza_or_ta_marbuta|يَتَفَعَّلُ": "ENCODE",
+    "hamza_or_ta_marbuta|مُفْتَعِل": "ENCODE",
+    "substitution|يَفْعَلُ": "ENCODE",
+    "substitution|إِفْعَال": "ENCODE",
+    "substitution|فَعَلَ": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "بالله",
+     "count": 985,
+     "prefix": "<NONE>",
+     "root": "بلل",
+     "wazn": "فَاعِل",
+     "suffix": "ه",
+     "decoded": "باله",
+     "stratum": "gemination|فَاعِل"
+    },
+    {
+     "word": "الاشياء",
+     "count": 723,
+     "prefix": "ال",
+     "root": "شيء",
+     "wazn": "إِفْعَال",
+     "suffix": "<NONE>",
+     "decoded": "الإشياء",
+     "stratum": "hamza_or_ta_marbuta|إِفْعَال"
+    },
+    {
+     "word": "العدد",
+     "count": 574,
+     "prefix": "ال",
+     "root": "عدد",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "العد",
+     "stratum": "gemination|فَعَلَ"
+    },
+    {
+     "word": "عدد",
+     "count": 526,
+     "prefix": "<NONE>",
+     "root": "عدد",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "عد",
+     "stratum": "gemination|فَعَلَ"
+    },
+    {
+     "word": "يستعمل",
+     "count": 352,
+     "prefix": "<NONE>",
+     "root": "عمل",
+     "wazn": "اِسْتَفْعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "استعمل",
+     "stratum": "substitution|اِسْتَفْعَلَ"
+    },
+    {
+     "word": "قائم",
+     "count": 307,
+     "prefix": "<NONE>",
+     "root": "قوم",
+     "wazn": "فَاعِل",
+     "suffix": "<NONE>",
+     "decoded": "قاوم",
+     "stratum": "substitution|فَاعِل"
+    },
+    {
+     "word": "قائمة",
+     "count": 254,
+     "prefix": "<NONE>",
+     "root": "قوم",
+     "wazn": "فَاعِل",
+     "suffix": "ة",
+     "decoded": "قاومة",
+     "stratum": "substitution|فَاعِل"
+    },
+    {
+     "word": "الترتيب",
+     "count": 231,
+     "prefix": "ال",
+     "root": "ريب",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "اليرتيب",
+     "stratum": "substitution|يَفْتَعِلُ"
+    },
+    {
+     "word": "بالعدد",
+     "count": 223,
+     "prefix": "بال",
+     "root": "عدد",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "بالعد",
+     "stratum": "gemination|فَعَلَ"
+    },
+    {
+     "word": "افراد",
+     "count": 222,
+     "prefix": "<NONE>",
+     "root": "فرد",
+     "wazn": "إِفْعَال",
+     "suffix": "<NONE>",
+     "decoded": "إفراد",
+     "stratum": "hamza_or_ta_marbuta|إِفْعَال"
+    }
+   ]
+  },
+  "E7_particle_root_substituted_for_longer_word": {
+   "types": 1253,
+   "occurrences": 18454,
+   "type_share_pct": 1.5076,
+   "occ_share_pct": 2.1404,
+   "type_share_of_sample_pct": 0.6639,
+   "occ_share_of_sample_pct": 0.5595,
+   "side": "ENCODE",
+   "responsible": "validated_segmentation.py:459-499 _closed_split / morphemic_tokenizer_v12_arabic.py:340-344 layer 0",
+   "strata": {
+    "particle_root_with_wazn_substituted": 1225,
+    "particle_root_substituted_letters_lost": 28
+   },
+   "strata_occurrences": {
+    "particle_root_with_wazn_substituted": 18198,
+    "particle_root_substituted_letters_lost": 256
+   },
+   "strata_side": {
+    "particle_root_with_wazn_substituted": "ENCODE",
+    "particle_root_substituted_letters_lost": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "لكان",
+     "count": 1094,
+     "prefix": "<NONE>",
+     "root": "<P:لكن>",
+     "wazn": "فِعَال",
+     "suffix": "<NONE>",
+     "decoded": "لكن",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "تبين",
+     "count": 913,
+     "prefix": "<NONE>",
+     "root": "<P:بين>",
+     "wazn": "تَفَعَّلَ",
+     "suffix": "<NONE>",
+     "decoded": "بين",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "بيان",
+     "count": 885,
+     "prefix": "<NONE>",
+     "root": "<P:بين>",
+     "wazn": "فِعَال",
+     "suffix": "<NONE>",
+     "decoded": "بين",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "يقبل",
+     "count": 678,
+     "prefix": "<NONE>",
+     "root": "<P:قبل>",
+     "wazn": "يَفْعَلُ",
+     "suffix": "<NONE>",
+     "decoded": "قبل",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "يبين",
+     "count": 518,
+     "prefix": "<NONE>",
+     "root": "<P:بين>",
+     "wazn": "يَفْعَلُ",
+     "suffix": "<NONE>",
+     "decoded": "بين",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "البيان",
+     "count": 409,
+     "prefix": "ال",
+     "root": "<P:بين>",
+     "wazn": "فِعَال",
+     "suffix": "<NONE>",
+     "decoded": "البين",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "قبول",
+     "count": 340,
+     "prefix": "<NONE>",
+     "root": "<P:قبل>",
+     "wazn": "فُعُول",
+     "suffix": "<NONE>",
+     "decoded": "قبل",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "تقبل",
+     "count": 334,
+     "prefix": "<NONE>",
+     "root": "<P:قبل>",
+     "wazn": "تَفَعَّلَ",
+     "suffix": "<NONE>",
+     "decoded": "قبل",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "يبعد",
+     "count": 296,
+     "prefix": "<NONE>",
+     "root": "<P:بعد>",
+     "wazn": "يَفْعَلُ",
+     "suffix": "<NONE>",
+     "decoded": "بعد",
+     "stratum": "particle_root_with_wazn_substituted"
+    },
+    {
+     "word": "لكونه",
+     "count": 270,
+     "prefix": "<NONE>",
+     "root": "<P:لكن>",
+     "wazn": "فُعُول",
+     "suffix": "ه",
+     "decoded": "لكنه",
+     "stratum": "particle_root_with_wazn_substituted"
+    }
+   ]
+  },
+  "E5_no_wazn_assigned_bare_root": {
+   "types": 1025,
+   "occurrences": 14763,
+   "type_share_pct": 1.2333,
+   "occ_share_pct": 1.7123,
+   "type_share_of_sample_pct": 0.5431,
+   "occ_share_of_sample_pct": 0.4476,
+   "side": "ENCODE",
+   "responsible": "nrmp_vocab.py:316-319 decode_word",
+   "strata": {
+    "root_not_surface_stem": 1025
+   },
+   "strata_occurrences": {
+    "root_not_surface_stem": 14763
+   },
+   "strata_side": {
+    "root_not_surface_stem": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "يجب",
+     "count": 2832,
+     "prefix": "<NONE>",
+     "root": "وجب",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "وجب",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "يقع",
+     "count": 1204,
+     "prefix": "<NONE>",
+     "root": "وقع",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "وقع",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "الهواء",
+     "count": 840,
+     "prefix": "ال",
+     "root": "هوا",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "الهوا",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "فيجب",
+     "count": 703,
+     "prefix": "ف",
+     "root": "وجب",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "فوجب",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "يرد",
+     "count": 586,
+     "prefix": "<NONE>",
+     "root": "ورد",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "ورد",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "ألف",
+     "count": 475,
+     "prefix": "<NONE>",
+     "root": "ولف",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "ولف",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "يصلي",
+     "count": 319,
+     "prefix": "<NONE>",
+     "root": "وصل",
+     "wazn": "<UNK>",
+     "suffix": "ي",
+     "decoded": "وصلي",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "يجد",
+     "count": 293,
+     "prefix": "<NONE>",
+     "root": "وجد",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "وجد",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "تقع",
+     "count": 267,
+     "prefix": "<NONE>",
+     "root": "وقع",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "وقع",
+     "stratum": "root_not_surface_stem"
+    },
+    {
+     "word": "ويجب",
+     "count": 267,
+     "prefix": "و",
+     "root": "وجب",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "ووجب",
+     "stratum": "root_not_surface_stem"
+    }
+   ]
+  },
+  "E4_clitic_dropped_by_encoder": {
+   "types": 970,
+   "occurrences": 7189,
+   "type_share_pct": 1.1671,
+   "occ_share_pct": 0.8338,
+   "type_share_of_sample_pct": 0.514,
+   "occ_share_of_sample_pct": 0.218,
+   "side": "ENCODE",
+   "responsible": "nrmp_vocab.py:258-261 encode_word (prefix slot not filled)",
+   "strata": {
+    "person_prefix_letter_lost": 965,
+    "suffix_dropped": 4,
+    "prefix_dropped": 1
+   },
+   "strata_occurrences": {
+    "person_prefix_letter_lost": 5874,
+    "suffix_dropped": 1311,
+    "prefix_dropped": 4
+   },
+   "strata_side": {
+    "person_prefix_letter_lost": "ENCODE",
+    "suffix_dropped": "ENCODE",
+    "prefix_dropped": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "بذاته",
+     "count": 574,
+     "prefix": "ب",
+     "root": "ذات",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "بذات",
+     "stratum": "suffix_dropped"
+    },
+    {
+     "word": "لذاته",
+     "count": 530,
+     "prefix": "ل",
+     "root": "ذات",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "لذات",
+     "stratum": "suffix_dropped"
+    },
+    {
+     "word": "نعلم",
+     "count": 370,
+     "prefix": "<NONE>",
+     "root": "علم",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "علم",
+     "stratum": "person_prefix_letter_lost"
+    },
+    {
+     "word": "نذكر",
+     "count": 131,
+     "prefix": "<NONE>",
+     "root": "ذكر",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "ذكر",
+     "stratum": "person_prefix_letter_lost"
+    },
+    {
+     "word": "بذاتها",
+     "count": 126,
+     "prefix": "ب",
+     "root": "ذات",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "بذات",
+     "stratum": "suffix_dropped"
+    },
+    {
+     "word": "نعرف",
+     "count": 121,
+     "prefix": "<NONE>",
+     "root": "عرف",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "عرف",
+     "stratum": "person_prefix_letter_lost"
+    },
+    {
+     "word": "نظرا",
+     "count": 117,
+     "prefix": "<NONE>",
+     "root": "ظرا",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "ظرا",
+     "stratum": "person_prefix_letter_lost"
+    },
+    {
+     "word": "يتقدم",
+     "count": 115,
+     "prefix": "<NONE>",
+     "root": "تقدم",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "تقدم",
+     "stratum": "person_prefix_letter_lost"
+    },
+    {
+     "word": "نجعل",
+     "count": 109,
+     "prefix": "<NONE>",
+     "root": "جعل",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "جعل",
+     "stratum": "person_prefix_letter_lost"
+    },
+    {
+     "word": "نفسا",
+     "count": 105,
+     "prefix": "<NONE>",
+     "root": "فسا",
+     "wazn": "<UNK>",
+     "suffix": "<NONE>",
+     "decoded": "فسا",
+     "stratum": "person_prefix_letter_lost"
+    }
+   ]
+  },
+  "E12_person_prefix_letter_lost": {
+   "types": 620,
+   "occurrences": 4058,
+   "type_share_pct": 0.746,
+   "occ_share_pct": 0.4707,
+   "type_share_of_sample_pct": 0.3285,
+   "occ_share_of_sample_pct": 0.123,
+   "side": "ENCODE",
+   "responsible": "nrmp_vocab.py:240-288 encode_word (no slot carries the person letter)",
+   "strata": {
+    "mudaria_prefix_letter|يَتَفَعَّلُ": 390,
+    "mudaria_prefix_letter|يَفْتَعِلُ": 230
+   },
+   "strata_occurrences": {
+    "mudaria_prefix_letter|يَفْتَعِلُ": 2214,
+    "mudaria_prefix_letter|يَتَفَعَّلُ": 1844
+   },
+   "strata_side": {
+    "mudaria_prefix_letter|يَفْتَعِلُ": "ENCODE",
+    "mudaria_prefix_letter|يَتَفَعَّلُ": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "تختلف",
+     "count": 249,
+     "prefix": "<NONE>",
+     "root": "خلف",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "يختلف",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    },
+    {
+     "word": "تتحرك",
+     "count": 227,
+     "prefix": "<NONE>",
+     "root": "حرك",
+     "wazn": "يَتَفَعَّلُ",
+     "suffix": "<NONE>",
+     "decoded": "يتحرك",
+     "stratum": "mudaria_prefix_letter|يَتَفَعَّلُ"
+    },
+    {
+     "word": "ترتيب",
+     "count": 185,
+     "prefix": "<NONE>",
+     "root": "ريب",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "يرتيب",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    },
+    {
+     "word": "يجتمع",
+     "count": 172,
+     "prefix": "<NONE>",
+     "root": "جمع",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "تجتمع",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    },
+    {
+     "word": "تتعلق",
+     "count": 141,
+     "prefix": "<NONE>",
+     "root": "علق",
+     "wazn": "يَتَفَعَّلُ",
+     "suffix": "<NONE>",
+     "decoded": "يتعلق",
+     "stratum": "mudaria_prefix_letter|يَتَفَعَّلُ"
+    },
+    {
+     "word": "تقتضي",
+     "count": 113,
+     "prefix": "<NONE>",
+     "root": "قضي",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "يقتضي",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    },
+    {
+     "word": "تشترك",
+     "count": 101,
+     "prefix": "<NONE>",
+     "root": "شرك",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "يشترك",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    },
+    {
+     "word": "تنتهي",
+     "count": 95,
+     "prefix": "<NONE>",
+     "root": "نهي",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "ينتهي",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    },
+    {
+     "word": "تحتمل",
+     "count": 78,
+     "prefix": "<NONE>",
+     "root": "حمل",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "يحتمل",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    },
+    {
+     "word": "تعتبر",
+     "count": 72,
+     "prefix": "<NONE>",
+     "root": "عبر",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "يعتبر",
+     "stratum": "mudaria_prefix_letter|يَفْتَعِلُ"
+    }
+   ]
+  },
+  "D4_preposition_ma_merger": {
+   "types": 2,
+   "occurrences": 3519,
+   "type_share_pct": 0.0024,
+   "occ_share_pct": 0.4082,
+   "type_share_of_sample_pct": 0.0011,
+   "occ_share_of_sample_pct": 0.1067,
+   "side": "DECODE",
+   "responsible": "nrmp_vocab.py:308-310 decode_word",
+   "strata": {
+    "prep_plus_ma": 2
+   },
+   "strata_occurrences": {
+    "prep_plus_ma": 3519
+   },
+   "strata_side": {
+    "prep_plus_ma": "DECODE"
+   },
+   "examples": [
+    {
+     "word": "مما",
+     "count": 2865,
+     "prefix": "من",
+     "root": "<P:ما>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "منما",
+     "stratum": "prep_plus_ma"
+    },
+    {
+     "word": "عما",
+     "count": 654,
+     "prefix": "عن",
+     "root": "<P:ما>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "عنما",
+     "stratum": "prep_plus_ma"
+    }
+   ]
+  },
+  "D2_realizer_mismatch_generates_true": {
+   "types": 452,
+   "occurrences": 3328,
+   "type_share_pct": 0.5439,
+   "occ_share_pct": 0.386,
+   "type_share_of_sample_pct": 0.2395,
+   "occ_share_of_sample_pct": 0.1009,
+   "side": "DECODE",
+   "responsible": "morphemic_tokenizer_v12_arabic.py:613-805 realize_root_and_wazn",
+   "strata": {
+    "substitution|فِعَال": 92,
+    "gemination|فَعَلَ": 82,
+    "substitution|يَفْتَعِلُ": 77,
+    "hamza_or_ta_marbuta|فَعَلَ": 42,
+    "substitution|مُفْتَعِل": 32,
+    "substitution|فَعَلَ": 22,
+    "substitution|فُعُول": 16,
+    "hamza_or_ta_marbuta|مَفْعَل": 14,
+    "hamza_or_ta_marbuta|أَفْعَلَ": 11,
+    "substitution|مَفَاعِل": 8,
+    "hamza_or_ta_marbuta|تَفَعَّلَ": 7,
+    "hamza_or_ta_marbuta|فِعَال": 6,
+    "gemination|فَاعِل": 5,
+    "hamza_or_ta_marbuta|فُعُول": 4,
+    "substitution|يَفْعَلُ": 4,
+    "substitution|فَوْعَل": 4,
+    "hamza_or_ta_marbuta|فَعِيل": 4,
+    "substitution|فَاعِل": 4,
+    "substitution|أَفْعَلَ": 3,
+    "substitution|تَفَعَّلَ": 3,
+    "substitution|فَعِيل": 2,
+    "hamza_or_ta_marbuta|أَفْعَال": 2,
+    "hamza_or_ta_marbuta|فَوْعَل": 2,
+    "truncation|فَعَلَ": 2,
+    "substitution|فَعَائِل": 1,
+    "substitution|مَفْعَل": 1,
+    "hamza_or_ta_marbuta|يَتَفَعَّلُ": 1,
+    "hamza_or_ta_marbuta|يَفْعَلُ": 1
+   },
+   "strata_occurrences": {
+    "gemination|فَعَلَ": 756,
+    "hamza_or_ta_marbuta|أَفْعَلَ": 647,
+    "hamza_or_ta_marbuta|فَعَلَ": 621,
+    "substitution|فِعَال": 514,
+    "substitution|يَفْتَعِلُ": 310,
+    "substitution|فُعُول": 104,
+    "hamza_or_ta_marbuta|مَفْعَل": 95,
+    "substitution|فَعَلَ": 61,
+    "substitution|مُفْتَعِل": 60,
+    "substitution|فَوْعَل": 46,
+    "hamza_or_ta_marbuta|فَعِيل": 14,
+    "substitution|مَفَاعِل": 14,
+    "hamza_or_ta_marbuta|تَفَعَّلَ": 14,
+    "hamza_or_ta_marbuta|يَتَفَعَّلُ": 9,
+    "substitution|أَفْعَلَ": 8,
+    "hamza_or_ta_marbuta|فُعُول": 7,
+    "substitution|يَفْعَلُ": 7,
+    "hamza_or_ta_marbuta|فِعَال": 7,
+    "gemination|فَاعِل": 6,
+    "substitution|تَفَعَّلَ": 6,
+    "substitution|فَعِيل": 5,
+    "substitution|فَاعِل": 4,
+    "hamza_or_ta_marbuta|أَفْعَال": 3,
+    "hamza_or_ta_marbuta|فَوْعَل": 3,
+    "substitution|مَفْعَل": 2,
+    "hamza_or_ta_marbuta|يَفْعَلُ": 2,
+    "truncation|فَعَلَ": 2,
+    "substitution|فَعَائِل": 1
+   },
+   "strata_side": {
+    "gemination|فَعَلَ": "DECODE",
+    "hamza_or_ta_marbuta|أَفْعَلَ": "DECODE",
+    "substitution|فِعَال": "DECODE",
+    "hamza_or_ta_marbuta|فَعَلَ": "DECODE",
+    "substitution|يَفْتَعِلُ": "DECODE",
+    "hamza_or_ta_marbuta|فُعُول": "DECODE",
+    "substitution|فُعُول": "DECODE",
+    "substitution|فَعَلَ": "DECODE",
+    "substitution|يَفْعَلُ": "DECODE",
+    "hamza_or_ta_marbuta|فِعَال": "DECODE",
+    "hamza_or_ta_marbuta|مَفْعَل": "DECODE",
+    "substitution|فَوْعَل": "DECODE",
+    "substitution|مُفْتَعِل": "DECODE",
+    "substitution|أَفْعَلَ": "DECODE",
+    "hamza_or_ta_marbuta|فَعِيل": "DECODE",
+    "substitution|مَفَاعِل": "DECODE",
+    "substitution|فَعِيل": "DECODE",
+    "hamza_or_ta_marbuta|أَفْعَال": "DECODE",
+    "hamza_or_ta_marbuta|تَفَعَّلَ": "DECODE",
+    "gemination|فَاعِل": "DECODE",
+    "substitution|فَاعِل": "DECODE",
+    "substitution|فَعَائِل": "DECODE",
+    "hamza_or_ta_marbuta|فَوْعَل": "DECODE",
+    "substitution|تَفَعَّلَ": "DECODE",
+    "substitution|مَفْعَل": "DECODE",
+    "hamza_or_ta_marbuta|يَتَفَعَّلُ": "DECODE",
+    "hamza_or_ta_marbuta|يَفْعَلُ": "DECODE",
+    "truncation|فَعَلَ": "DECODE"
+   },
+   "examples": [
+    {
+     "word": "أبدا",
+     "count": 579,
+     "prefix": "<NONE>",
+     "root": "بدا",
+     "wazn": "أَفْعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "أبدأ",
+     "stratum": "hamza_or_ta_marbuta|أَفْعَلَ"
+    },
+    {
+     "word": "اللهم",
+     "count": 392,
+     "prefix": "<NONE>",
+     "root": "الل",
+     "wazn": "فَعَلَ",
+     "suffix": "هم",
+     "decoded": "الهم",
+     "stratum": "gemination|فَعَلَ"
+    },
+    {
+     "word": "الاصل",
+     "count": 122,
+     "prefix": "ال",
+     "root": "اصل",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "الأصل",
+     "stratum": "hamza_or_ta_marbuta|فَعَلَ"
+    },
+    {
+     "word": "اصلا",
+     "count": 116,
+     "prefix": "<NONE>",
+     "root": "اصل",
+     "wazn": "فَعَلَ",
+     "suffix": "ا",
+     "decoded": "أصلا",
+     "stratum": "hamza_or_ta_marbuta|فَعَلَ"
+    },
+    {
+     "word": "بدا",
+     "count": 101,
+     "prefix": "<NONE>",
+     "root": "بدا",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "بدأ",
+     "stratum": "hamza_or_ta_marbuta|فَعَلَ"
+    },
+    {
+     "word": "كناية",
+     "count": 85,
+     "prefix": "<NONE>",
+     "root": "كني",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "كناءة",
+     "stratum": "substitution|فِعَال"
+    },
+    {
+     "word": "الملة",
+     "count": 84,
+     "prefix": "ال",
+     "root": "ملل",
+     "wazn": "فَعَلَ",
+     "suffix": "ة",
+     "decoded": "المللة",
+     "stratum": "gemination|فَعَلَ"
+    },
+    {
+     "word": "اصل",
+     "count": 83,
+     "prefix": "<NONE>",
+     "root": "اصل",
+     "wazn": "فَعَلَ",
+     "suffix": "<NONE>",
+     "decoded": "أصل",
+     "stratum": "hamza_or_ta_marbuta|فَعَلَ"
+    },
+    {
+     "word": "رعاية",
+     "count": 66,
+     "prefix": "<NONE>",
+     "root": "رعي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "رعاءة",
+     "stratum": "substitution|فِعَال"
+    },
+    {
+     "word": "يختار",
+     "count": 65,
+     "prefix": "<NONE>",
+     "root": "خور",
+     "wazn": "يَفْتَعِلُ",
+     "suffix": "<NONE>",
+     "decoded": "يختور",
+     "stratum": "substitution|يَفْتَعِلُ"
+    }
+   ]
+  },
+  "D6_realizer_emits_clitic_not_in_surface": {
+   "types": 25,
+   "occurrences": 546,
+   "type_share_pct": 0.0301,
+   "occ_share_pct": 0.0633,
+   "type_share_of_sample_pct": 0.0132,
+   "occ_share_of_sample_pct": 0.0166,
+   "side": "DECODE",
+   "responsible": "morphemic_tokenizer_v12_arabic.py:761-767 (فِعَال + نهي special case)",
+   "strata": {
+    "suffix_invented_by_realizer": 25
+   },
+   "strata_occurrences": {
+    "suffix_invented_by_realizer": 546
+   },
+   "strata_side": {
+    "suffix_invented_by_realizer": "DECODE"
+   },
+   "examples": [
+    {
+     "word": "النهي",
+     "count": 286,
+     "prefix": "ال",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "النهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "والنهي",
+     "count": 112,
+     "prefix": "وال",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "والنهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "نهاه",
+     "count": 24,
+     "prefix": "<NONE>",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "نهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "بالنهي",
+     "count": 22,
+     "prefix": "بال",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "بالنهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "فنهاه",
+     "count": 14,
+     "prefix": "ف",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "فنهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "ونهي",
+     "count": 14,
+     "prefix": "و",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "ونهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "للنهي",
+     "count": 13,
+     "prefix": "لل",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "للنهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "نهاكم",
+     "count": 13,
+     "prefix": "<NONE>",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "نهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "ونهاهم",
+     "count": 7,
+     "prefix": "و",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "ونهاية",
+     "stratum": "suffix_invented_by_realizer"
+    },
+    {
+     "word": "فنهاهم",
+     "count": 6,
+     "prefix": "ف",
+     "root": "نهي",
+     "wazn": "فِعَال",
+     "suffix": "ة",
+     "decoded": "فنهاية",
+     "stratum": "suffix_invented_by_realizer"
+    }
+   ]
+  },
+  "E10_unknown_suffix_dropped": {
+   "types": 99,
+   "occurrences": 254,
+   "type_share_pct": 0.1191,
+   "occ_share_pct": 0.0295,
+   "type_share_of_sample_pct": 0.0525,
+   "occ_share_of_sample_pct": 0.0077,
+   "side": "ENCODE",
+   "responsible": "nrmp_vocab.py:283-286 encode_word + nrmp_vocab.py:304-305 decode_word",
+   "strata": {
+    "suffix_not_in_vocabulary": 99
+   },
+   "strata_occurrences": {
+    "suffix_not_in_vocabulary": 254
+   },
+   "strata_side": {
+    "suffix_not_in_vocabulary": "ENCODE"
+   },
+   "examples": [
+    {
+     "word": "المعني",
+     "count": 24,
+     "prefix": "ال",
+     "root": "<P:مع>",
+     "wazn": "<NONE>",
+     "suffix": "<UNK>",
+     "decoded": "المع",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "ربكما",
+     "count": 18,
+     "prefix": "<NONE>",
+     "root": "ربب",
+     "wazn": "فَعَلَ",
+     "suffix": "<UNK>",
+     "decoded": "رب",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "ليتني",
+     "count": 15,
+     "prefix": "<NONE>",
+     "root": "<P:ليت>",
+     "wazn": "<NONE>",
+     "suffix": "<UNK>",
+     "decoded": "ليت",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "أحدكما",
+     "count": 13,
+     "prefix": "<NONE>",
+     "root": "أحد",
+     "wazn": "فَعَلَ",
+     "suffix": "<UNK>",
+     "decoded": "أحد",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "وحكما",
+     "count": 12,
+     "prefix": "<NONE>",
+     "root": "وحح",
+     "wazn": "فَعَلَ",
+     "suffix": "<UNK>",
+     "decoded": "وح",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "بينكما",
+     "count": 12,
+     "prefix": "<NONE>",
+     "root": "<P:بين>",
+     "wazn": "<NONE>",
+     "suffix": "<UNK>",
+     "decoded": "بين",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "منكما",
+     "count": 10,
+     "prefix": "<NONE>",
+     "root": "<P:من>",
+     "wazn": "<NONE>",
+     "suffix": "<UNK>",
+     "decoded": "من",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "معكما",
+     "count": 10,
+     "prefix": "<NONE>",
+     "root": "<P:مع>",
+     "wazn": "<NONE>",
+     "suffix": "<UNK>",
+     "decoded": "مع",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "معني",
+     "count": 10,
+     "prefix": "<NONE>",
+     "root": "<P:مع>",
+     "wazn": "<NONE>",
+     "suffix": "<UNK>",
+     "decoded": "مع",
+     "stratum": "suffix_not_in_vocabulary"
+    },
+    {
+     "word": "قلوبكما",
+     "count": 6,
+     "prefix": "<NONE>",
+     "root": "قلب",
+     "wazn": "فُعُول",
+     "suffix": "<UNK>",
+     "decoded": "قلوب",
+     "stratum": "suffix_not_in_vocabulary"
+    }
+   ]
+  },
+  "S1_surface_diacritic_loss": {
+   "types": 1,
+   "occurrences": 1,
+   "type_share_pct": 0.0012,
+   "occ_share_pct": 0.0001,
+   "type_share_of_sample_pct": 0.0005,
+   "occ_share_of_sample_pct": 0.0,
+   "side": "DECODE",
+   "responsible": "nrmp_vocab.py:290-321 decode_word (no harakat in the realizer)",
+   "strata": {
+    "diacritic_plus_structural_error": 1
+   },
+   "strata_occurrences": {
+    "diacritic_plus_structural_error": 1
+   },
+   "strata_side": {
+    "diacritic_plus_structural_error": "DECODE"
+   },
+   "examples": [
+    {
+     "word": "هـ",
+     "count": 1,
+     "prefix": "<NONE>",
+     "root": "<UNK>",
+     "wazn": "<NONE>",
+     "suffix": "<NONE>",
+     "decoded": "<UNK>",
+     "stratum": "diacritic_plus_structural_error"
+    }
+   ]
+  }
+ }
+}

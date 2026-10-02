@@ -1,0 +1,10 @@
+================================================================================================
+ROOT رمغ   stratum=ma
+REC ontological_core : The foundational physical act of rubbing, kneading, or working a supple material (such as leather) with the hand, involving repeated pressure and friction to soften or manipulate it.
+REC haqiqah_literal  : To rub or knead something with the hand, as one works a hide or similar material.
+REC canon_def.ar     : رَمَغَ الشيءَ يَرْمَغُه رَمْغاً: دَلَكَه بيدِه كما تَدْلُك الأَدِيمَ ونحوَه. ورُماغٌ ورِماغٌ: موضعٌ.
+REC canon_def.en     : He rubbed or kneaded the thing with his hand, as one works a hide or the like. And Rumāgh or Rimāgh: a place name.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 29155 hdr=رمغ] الراء والميم والغين لا أصل له، إلا بعض ما يأتى به ابن دريد، من رمغت الشىء، إذا عركته بيدك، كالأديم وغيره.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

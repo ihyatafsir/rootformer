@@ -1,0 +1,186 @@
+### models/khalil_combinatorics.py  (APPEND: re-export KhalilPermutationOrbits from khalil_orbits.py)
+--- models/khalil_combinatorics.py.bak.taqalib	2026-10-01 13:57:14.000000000 +0000
++++ models/khalil_combinatorics.py	2026-10-01 13:59:01.000000000 +0000
+@@ -214,3 +214,44 @@
+         print(f"\nRoot [{r}] -> Counts: {res['counts']}")
+         for p in res['permutations'][:3]:
+             print(f"  * {p['permutation']}: {p['status']} (score={p['phonotactic_score']:.2f})")
++
++
++# ==========================================================================================
++# al-TAQĀLĪB ORBIT MECHANISM (parameter tying) -- re-export
++# ==========================================================================================
++# ENGINEERING: the canonical implementation lives in the release-root module
++# `khalil_orbits.py` (KhalilPermutationOrbits: orbits over the ATTESTED permutations of a
++# root, `orbit_of`, `tie_embeddings`, `loss`).  It is re-exported HERE because the project's
++# correctness audit imports it from this module:
++#
++#     from models.khalil_combinatorics import KhalilPermutationOrbits
++#
++# Nothing else in this module depends on it; the permutation/phonotactics engine above is
++# unchanged.  FIDELITY CAVEAT: the tying this class performs is licensed by al-Khalīl's own
++# accept/reject filter in Kitāb al-ʿAyn («يُكَتَب مُسْتَعْمَلها. ويُلغى مُهْمَلها»).  It is NOT
++# al-ishtiqāq al-akbar: the claim that the permutations share one MEANING is rejected by the
++# tradition (Ibn ʿUsfūr, al-Mumtiʿ: «غير مأخوذ به؛ لعدم اطراده») and is not implemented.
++# See the header of `khalil_orbits.py` for the verbatim sources.
++def _load_khalil_orbits():
++    """Import `khalil_orbits` whether or not the release root is on sys.path."""
++    import importlib.util
++    import sys
++    from pathlib import Path as _Path
++    try:
++        import khalil_orbits as _mod  # type: ignore
++        return _mod
++    except Exception:
++        _path = _Path(__file__).resolve().parent.parent / 'khalil_orbits.py'
++        if not _path.is_file():
++            raise ImportError(f'khalil_orbits.py not found at {_path}')
++        _spec = importlib.util.spec_from_file_location('khalil_orbits', _path)
++        _mod = importlib.util.module_from_spec(_spec)
++        sys.modules.setdefault('khalil_orbits', _mod)
++        _spec.loader.exec_module(_mod)  # type: ignore[union-attr]
++        return _mod
++
++_khalil_orbits_mod = _load_khalil_orbits()
++KhalilPermutationOrbits = _khalil_orbits_mod.KhalilPermutationOrbits
++OrbitTiedEmbedding = _khalil_orbits_mod.OrbitTiedEmbedding
++normalize_root = _khalil_orbits_mod.normalize_root
++
+
+### nrmt_arch.py  (pair list -> attested-only orbits; + apply_orbit_tying)
+--- nrmt_arch.py.bak.taqalib	2026-10-01 13:57:14.000000000 +0000
++++ nrmt_arch.py	2026-10-01 13:59:00.000000000 +0000
+@@ -22,7 +22,15 @@
+ 4. FACTORISED DECODE root -> cond_proj([h'; E(root)]) -> wazn / prefix / suffix
+ 5. NEGATIVE CONSTRAINTS  impossibility hinge loss over forbidden roots per position,
+    so the head is taught what CANNOT come next, not merely what does.
+-6. AL-TAQALIB            orbit_consistency_loss() over S^3 permutation families (7727 pairs).
++6. AL-TAQALIB            orbit_consistency_loss() over al-Khalil's S^3 permutation families.
++   ENGINEERING MEASUREMENT: the pair list is built by `khalil_orbits.KhalilPermutationOrbits`,
++   which keeps only the permutations `data/khalil_attest_v4.json` records as مستعمل and drops
++   the مهمل ones -- 4,305 pairs over 967 orbits on the shipped inventory (it was 7,727 pairs
++   when the list was "every permutation that happens to be in the root inventory").
++   FIDELITY CAVEAT: this is orbit/parameter consistency, NOT al-ishtiqāq al-akbar.  The
++   tradition rejects the semantic claim that an orbit shares one MEANING (Ibn ʿUsfūr,
++   al-Mumtiʿ fī al-Taṣrīf: «والصحيح أن هذا النحو من الاشتقاق غير مأخوذ به؛ لعدم اطراده»);
++   nothing here asserts or optimises shared meaning.  See `khalil_orbits.py` for the sources.
+ 7. TRANSLATION HANDOFF   `root_states` (h'_t) is exposed as the interface a bilingual decoder
+    should cross-attend to -- the root of the alignment thesis.
+ 
+@@ -191,6 +199,25 @@
+     # ------------------------------------------------------------------ helpers
+     @staticmethod
+     def _build_orbit_pairs(vocab) -> List[Tuple[int, int]]:
++        """al-Taqālīb pairs from al-Khalīl's orbit record: ATTESTED permutations only.
++
++        al-Khalīl's own filter (Kitāb al-ʿAyn: «يُكَتَب مُسْتَعْمَلها. ويُلغى مُهْمَلها») keeps the
++        used permutations and cancels the unused ones, so a permutation al-ʿAyn marks مهمل is
++        NOT paired with its orbit-mates.  The record is `data/khalil_attest_v4.json`; membership
++        is `membership='attested'` (positive attestation), which reproduces al-ʿAyn's own chapter
++        counts -- e.g. the ع ل م chapter («... ع ل م، ع م ل، م ع ل، ل م ع مستعملات») gives علم a
++        4-face orbit, not 6.
++
++        ENGINEERING: falls back to the legacy "every permutation present in the inventory"
++        builder if `khalil_orbits` (or its record) is unavailable, so the head still trains.
++        NOT al-ishtiqāq al-akbar: no shared meaning is asserted.  See `khalil_orbits.py`.
++        """
++        try:
++            from khalil_orbits import KhalilPermutationOrbits
++            return KhalilPermutationOrbits(vocab).pairs()
++        except Exception as exc:  # pragma: no cover - defensive fallback
++            print(f'[nrmt_arch] orbit pairs: falling back to inventory-only permutations '
++                  f'({type(exc).__name__}: {exc})')
+         pairs, seen = [], set()
+         for r in vocab.roots_list:
+             if r.startswith('<') or len(r) != 3:
+@@ -202,6 +229,29 @@
+                     seen.add((a, b)); pairs.append((a, b))
+         return pairs
+ 
++    def apply_orbit_tying(self, method: str = 'mean') -> Dict[str, Any]:
++        """Make al-Khalīl orbit-mates share ONE root-embedding row (parameter tying).
++
++        CALL THIS AFTER `load_state_dict`.  It is shape-preserving (rows are overwritten in
++        place, `num_roots x d_root` unchanged), so it invalidates no existing checkpoint; but
++        loading a checkpoint afterwards would overwrite the tying, hence the ordering.
++
++        It is deliberately NOT applied automatically: it is a real change to the parameter
++        geometry, and the mechanism it implements is al-Khalīl's مستعمل/مهمل filter, not
++        al-ishtiqāq al-akbar (whose semantic claim the tradition rejects; see khalil_orbits.py).
++        Returns the `tie_embeddings` stats dict, or {} if orbit tying is unavailable.
++        """
++        try:
++            from khalil_orbits import KhalilPermutationOrbits
++            orbits = KhalilPermutationOrbits(self.vocab)
++            stats = orbits.tie_embeddings(self.morphemic_embed.root_embed.weight, method=method)
++            print(f"[nrmt_arch] orbit tying: {stats['orbits_tied']} orbits, "
++                  f"{stats['rows_collapsed']} rows collapsed (method={method})")
++            return stats
++        except Exception as exc:  # pragma: no cover - defensive
++            print(f'[nrmt_arch] orbit tying skipped: {type(exc).__name__}: {exc}')
++            return {}
++
+     def orbit_consistency_loss(self, max_pairs=4096) -> torch.Tensor:
+         if not self.orbit_pairs:
+             return torch.zeros((), device=self.device)
+
+### test_grammar_impl.py  (the hard-coded AL-TAQALIB FAIL is replaced by a real check)
+--- test_grammar_impl.py.bak.taqalib	2026-10-01 13:57:14.000000000 +0000
++++ test_grammar_impl.py	2026-10-01 13:59:00.000000000 +0000
+@@ -131,16 +131,46 @@
+           'not implemented (pronoun > proper > demonstrative > definite > indefinite)')
+ 
+     print('\n=== AL-TAQALIB (Al-Khalil S^3 permutation orbits) ===')
+-    emb = dict(nv.__dict__)
+-    check('permutation-equivalent roots share embedding parameters',
+-          False,
+-          'roots are independent one-hot ids: علم and عمل have no parameter sharing, '
+-          'so the Taqalib orbit equivariance is not implemented')
++    # ENGINEERING: this check used to hard-code `False` ("roots are independent one-hot ids"),
++    # i.e. it measured nothing at all.  It now exercises khalil_orbits on the real inventory:
++    # (a) permutations al-'Ayn records as مستعمل must share ONE embedding row after tying, and
++    # (b) a permutation al-'Ayn marks مهمل must be left untied (negative control).
++    # FIDELITY CAVEAT: this is al-Khalil's own مستعمل/مهمل filter in Kitab al-'Ayn
++    # («يُكَتَب مُسْتَعْمَلها. ويُلغى مُهْمَلها»), NOT al-ishtiqaq al-akbar, i.e. NOT the claim
++    # that the permutations share one MEANING -- which Ibn 'Usfur rejects as
++    # «غير مأخوذ به؛ لعدم اطراده».
+     try:
++        import torch
+         from models.khalil_combinatorics import KhalilPermutationOrbits  # type: ignore
+         exists = True
+-    except Exception:
++    except Exception as e:
+         exists = False
++        tie_detail = f'{type(e).__name__}: {e}'
++    if exists:
++        try:
++            orbits = KhalilPermutationOrbits(vocab)
++            fam_lm, fam_abd = orbits.orbit_of('علم'), orbits.orbit_of('عبد')
++            muhmal = orbits.excluded('عبد')['muhmal']
++            i_lm, i_am = vocab.root2id['علم'], vocab.root2id['عمل']
++            i_abd = vocab.root2id['عبد']
++            w = torch.randn(vocab.num_roots, 16, generator=torch.Generator().manual_seed(0))
++            distinct_before = not torch.equal(w[i_lm], w[i_am])
++            stats = orbits.tie_embeddings(w)
++            shared = torch.equal(w[i_lm], w[i_am])
++            muhmal_free = bool(muhmal) and all(m not in fam_abd for m in muhmal) and all(
++                not torch.equal(w[vocab.root2id[m]], w[i_abd])
++                for m in muhmal if m in vocab.root2id)
++            ok = bool(distinct_before and shared and ('عمل' in fam_lm)
++                      and ('علم' in orbits.orbit_of('عمل')) and muhmal_free)
++            tie_detail = (f'orbit(علم)={fam_lm} ({len(fam_lm)} of 6 faces, [K2] in khalil_orbits); '
++                          f'{stats["orbits_tied"]} orbits tied, {stats["rows_collapsed"]} rows '
++                          f'collapsed; orbit(عبد)={fam_abd}; مهمل {muhmal} left untied={muhmal_free}')
++        except Exception as e:
++            ok = False
++            tie_detail = f'{type(e).__name__}: {e}'
++    else:
++        ok = False
++    check('permutation-equivalent roots share embedding parameters', ok, tie_detail)
+     check('KhalilPermutationOrbits class exists', exists, '' if exists else 'module not importable')
+ 
+     print('\n=== AL-SHATIBI: waw disambiguation ===')
+
+### NEW FILES (no .bak; full content is the diff)
+-rw-rw-rw- 1 root root 47311 Oct  1 14:02 khalil_orbits.py
+-rw-rw-rw- 1 root root 15229 Oct  1 14:02 test_khalil_orbits.py

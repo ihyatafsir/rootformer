@@ -1,0 +1,10 @@
+================================================================================================
+ROOT دقن   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root دقن centers on the striking or jabbing of the chin/jaw with the collected palm or fist, and by extension the chin itself as the bodily locus of such a blow; from this concrete somatic action the root also branches into the small stones that support a cooking pot (أثافي القدر), likely by analogy of their compact, chin-like protrusion or their being struck into place.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is to strike or jab someone on the chin/jaw with the collected palm or fist (دقن في حليه إذا لكزه لكزة بجمع كفه); the chin/jaw itself (اللحية/اللحي) is then named by this action, as in the Baghdadi expression في دقنك, meaning 'on your chin/beard.'
+REC canon_def.ar     : الدَّقْنُ: الضَّرْبُ بِجُمْعِ الكَفِّ عَلَى اللَّحْيِ؛ وَالدِّقْدَانُ وَالدِّيقَانُ: أَثَافِي القِدْرِ.
+REC canon_def.en     : Al-Daqn: striking with the collected palm on the jaw/chin; al-diqdān and al-dīqān: the stones that support a cooking pot.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : دقن في حليه إذا لكزه لكزة بجمع كفه، ثم قالوا للمحروم دقن في لحيه. ويقول أهل بغداد: في دقنك أي في لحيتك.
+SRC Ayn (al-Khalil)  : (NO ENTRY)

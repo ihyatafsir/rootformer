@@ -1,0 +1,10 @@
+================================================================================================
+ROOT كندش   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the designation of a specific bird, the magpie (Pica pica), a corvid known for its harsh chattering call and its reputation in classical Arabic lore as a creature of ill omen and innate malevolence.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the magpie (العَقْعَق), a black-and-white bird of the crow family, characterized by its noisy, chattering cry and its association with mischief and bad luck.
+REC canon_def.ar     : الكُنْدُشُ: العَقْعَقُ. قال ابن الأَعرابي: أَخبرني المفضّل يقال هو أَخبَثُ من كُنْدُشٍ، وهو العَقْقعَق.
+REC canon_def.en     : Al-Kundush: the magpie. Ibn al-Aʿrābī said: Al-Mufaḍḍal informed me that it is said, 'He is more malignant than a kundush,' which is the magpie.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

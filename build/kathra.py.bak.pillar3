@@ -1,0 +1,904 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+kathra.py -- الكَثْرة (al-kathra, actual usage frequency) as a working tie-break between
+competing root/pattern analyses of one Arabic word.
+
+WHAT PROBLEM THIS SOLVES
+------------------------
+`models/validated_segmentation.py` ranks candidate analyses by a LEXICOGRAPHIC procedure over
+named principles (see `ValidatedSegmentation._rank`).  That procedure carries a binary
+attestation record -- al-'Ayn's مُستعمل / مُهمل -- and a binary cannot break a tie between two
+readings that both generate the surface:
+
+  كنت  (kuntu, "I was")
+      A: root كنن -> generate(كنن, فَعَلَ) = كَنّ    stem كن, 0 elisions   [WRONG]
+      B: root كون -> generate(كون, فَعَلَ) = كَانَ   stem كن, 1 elision    [RIGHT]
+  Both readings "generate the surface" once diacritics are stripped, and the shipped key puts
+  the elision count (-ops) BEFORE attestation, so A wins on `-ops` (0 > -1).
+
+  يشذ  (yashudhdhu, "he deviates")
+      A: root شذذ -> generate(شذذ, يَفْعُلُ) = يَشْذّ   stem يشذ, 0 elisions  [RIGHT]
+      B: root شوذ -> generate(شوذ, يَفْعُلُ) = يَشْوُذُ  stem يشذ, 1 elision   [WRONG]
+  شوذ IS entered in al-'Ayn (it is a real root of the language) while شذذ is not, so a ranking
+  that consults bare attestation before the surface evidence promotes B: being attested says a
+  root EXISTS, not that it is the root OF THIS WORD.  الفرق بين الوجود والاشتقاق.
+
+  NEITHER BINARY ORDERING GETS BOTH WORDS RIGHT, which is the whole point (measured by
+  `--selftest`): the shipped key (-ops before attested) gives كنن [WRONG] for كنت and شذذ
+  [right] for يشذ; lifting bare attestation above -ops gives كون [right] for كنت and شوذ
+  [WRONG] for يشذ.  Each ordering fixes one word and breaks the other.  Frequency fixes both.
+
+THE CLASSICAL RESOLUTION IS FREQUENCY, AND IT IS OBLIGATORY, NOT PREFERENTIAL
+----------------------------------------------------------------------------
+  * al-Shatibi, Sharh Alfiyyat Ibn Malik:
+        «فحينئذ ساغ لنا الحمل على الأكثر فيما خفي حكمه، لأن الثابت في الأصول أن الكثرة دليل
+         الأصالة»
+        -- "then it is permitted for us to carry [the word] to the more frequent in what is
+        hidden of its rule, because it is established in the principles that frequency is the
+        evidence of authenticity (asala)."
+        «والحمل على الأكثر واجب»        -- "carrying to the more frequent is OBLIGATORY."
+        «والحمل على الأكثر متعين»       -- "and carrying to the more frequent is DETERMINED."
+  * Ibn Jinni, al-Khasa'is:
+        «والحكم على الأكثر لا على الأقل»  -- "judgment is on the more frequent, not the less."
+        «فإذا الملتزم أكثره واجب وأقله غير واجب، والحمل على الأكثر دون الأقل»
+        -- "when the more frequent is adhered to it is obligatory and the less frequent is not
+        obligatory, and the carrying is to the more frequent, not the less."
+  * Sibawayh, al-Kitab:
+        «وأحمله على الأكثر إذا لم يكن له معنى يعرف»
+        -- "and I carry it to the more frequent when it has no known meaning" -- i.e. exactly
+        the case here, where the word's reading is not settled by meaning.
+  * Ibn 'Usfur, al-Mumti' fi al-Tasrif, lists الكثرة among the ADILLA (criteria) for deciding a
+    reading:
+        «أما الأدلة التي يعرف بها الزائد من الأصلي فهي: الاشتقاق، والتصريف، والكثرة، واللزوم،
+         ولزوم حرف الزيادة البناء وكون الزيادة لمعنى، والنظير، والخروج عن النظير، والدخول في
+         أوسع البابين عند لزوم الخروج عن النظير.»
+
+THE COUNTER-WEIGHT, WHICH THIS MODULE OBEYS
+-------------------------------------------
+Ibn Jinni, Sirr Sina'at al-I'rab:
+    «هذا أصل وإن قامت الدلالة عليه فإنه مرفوض، كما أن أصل قام: قوم، ولكنه لا ينطق به على أصله»
+    -- "this is a principle, and even when the evidence for it stands it is REJECTED, just as
+    the asl of قام is قوم, but it is not pronounced according to its asl."
+Two consequences, both implemented:
+  (a) frequency of the SURFACE, not of an abstract root, is what is counted -- so this module
+      counts surface FORMS (strings), never the frequency of a root as such;
+  (b) an asl (here: the preference for the reading with fewer elisions, and the preference for
+      the reading that touches the surface as it stands) is a DEFAULT that yields to evidence.
+      Al-Shatibi's «واجب» / «متعين» and Ibn Jinni's «الحكم على الأكثر لا على الأقل» are the
+      evidence, and they are stated as binding.  Hence al-kathra RANKS ABOVE the elision count.
+
+WHERE IT GOES IN THE ORDERING (RECOMMENDATION)
+----------------------------------------------
+Insert it as a new lexicographic position AFTER "the reading must generate the surface" and
+BEFORE the elision count, which in turn is already before bare attestation.  Concretely:
+
+    shipped key                      recommended key
+    --------------------------------- ------------------------------------------------
+    1  is_particle                  1  is_particle            harf is not a root
+    2  not muhmal                   2  not muhmal             al-'Ayn «يُكتب مُستعملها ويُلغى
+                                                              مُهملها»
+    3  -ops                         3  generates (ops != 99)  THE GATE: al-tasrif -- the surface
+                                                              must be producible at all
+                                    4  kathra_count          AL-HAML 'ALA AL-AKTHAR  <-- NEW
+                                    5  -ops                  fewest elisions: now a TIE-BREAK
+                                                              under al-kathra
+    4  attested                     6  attested              bare attestation: now the weakest
+                                                              positive voice
+    5  -affixes                     7  -affixes              al-asl 'adam al-ziyada
+
+Why AFTER the generation gate: kathra is a choice among readings that are phonologically
+possible; a reading that cannot produce the stem is not a reading (Sibawayh's شرط is التصريف,
+and Ibn 'Usfur puts التصريف before الكثرة in the adilla list).  So the gate stays first.
+
+Why BEFORE the elision count: because the sources make al-haml 'ala al-akthar «واجب» /
+«متعين» (obligatory, determined) and state the asl is «مرفوض» once the daleel stands.  A
+preference for 0 elisions is an asl, not a daleel.  In كنت the 0-elision reading (كنن) is
+exactly the surface-literal asl that Ibn Jinni's Sirr quote rejects.
+
+Why BEFORE bare attestation: attestation is a binary of EXISTENCE (مستعمل/مهمل for a root, at
+the level of the language), whereas al-kathra is a measure of USE for THIS wording.  Keeping
+attestation AFTER kathra makes it a last-resort voice that can only speak when kathra has no
+evidence at all (both generated forms absent from the corpus).
+
+REPLACING ATTESTATION?  The brief allows "before or replacing".  This module recommends KEEPING
+it, demoted -- not because any source ranks bare attestation, but because it is already in the
+shipped key, it only speaks when kathra is silent, and removing it is a separate decision with
+its own evidence burden.  The measured effect of the demotion is reported by `--change-rate`.
+
+ENGINEERING CHOICES (NOT FIDELITY -- flagged as required)
+---------------------------------------------------------
+The sources state the PRINCIPLE; they do not state a counting procedure.  These are mine:
+
+  E1. WHAT IS COUNTED (the main engineering choice; the sources state the principle, not a
+      counting procedure).  For a reading (root, wazn) the counted quantity is a surface FORM,
+      never a root (Ibn Jinni's Sirr counter-weight).  Two candidates are implemented,
+      selectable with `--evidence` / `Kathra(evidence=...)`:
+
+        'postulated'      count(generate(root, wazn)) -- the bare word-form the reading
+                          postulates.  This is the comparison the brief names for كنت:
+                          كان 64,151  vs  كَنّ, which is written كن once the shadda is stripped,
+                          726.
+        'reconstructed'   count(prefix + generate(root, wazn) + suffix) -- the word the reading
+                          says the TOKEN stands for, clitics included.  DEFAULT.
+                          كنت: كانت 13,584 vs كنت 3,369 -- same verdict, 4:1 not 88:1.
+                          يشذ: يشوذ 0 vs يشذ 81 -- same verdict.
+
+      Why 'reconstructed' is the default.  Ibn Jinni's counter-weight requires counting the
+      surface AS IT ACTUALLY OCCURS; the clitics are part of the surface that actually occurs,
+      so a reading which has to posit an unattested cliticised word (النبي read as ال + ناب...)
+      has no usage behind it.  Measured over 20,000 held-out words in mode 2 (see MEASURED
+      below): 'reconstructed' changes 68 analyses, 'postulated' changes 293 -- 114 of them the
+      single reading النبي -> نوب.  Whether the clitic layer should be counted at all is NOT
+      settled by any source quoted here.  It is engineering; `--evidence postulated` gives the
+      strict Ibn 'Usfur word-form reading, and both resolve the two decisive cases identically.
+
+  E2. NORMALISATION.  Both the corpus and the generated form are normalised identically:
+      diacritics/harakât/tatweel removed, ألف الوصل and the hamza seats أ إ آ ٱ -> ا.  Final
+      ى is NOT folded to ي and ة is NOT folded to ه, to avoid inventing collisions.
+      Engineering.
+
+  E3. TOKENISATION.  The corpus is read as maximal runs of Arabic letters [\\u0621-\\u064a\\u0671],
+      so punctuation and whitespace drop out and a line = tokens.  Clitics are NOT stripped
+      during counting: و + كان counts as وكان, not as كان.  This under-counts prefixed forms
+      for every candidate alike, which biases the criterion towards silence; it is NOT a
+      guarantee that the order of two readings is preserved.  Engineering.
+
+  E4. THE TABLE CUT.  Hapax legomena (count == 1) are pruned from the saved table to keep the
+      artifact compact.  This is monotone-safe: a pruned form reads as 0, so it can only turn a
+      1-vs-0 decision into a tie, never turn it around.  Engineering.
+
+  E5. CORPUS CHOICE.  Frequency is style- and genre-dependent; a different corpus would give
+      different integers.  The table records exactly which files were counted and how many
+      tokens each contributed.  Engineering.
+
+  E6. ZERO IS NOT EVIDENCE.  If both readings are absent from the table the kathra position ties
+      and the shipped principles decide.  This keeps the failure mode = previous behaviour.
+      Engineering.
+
+  E7. ORDER-OF-MAGNITUDE GUARD (opt-in: `--bucket 10`; 0 = raw counts = the default).  The sources
+      require الكثرة to be ACTUAL frequency, and they restrict the procedure to what is obscure:
+      al-Shatibi «فيما خفي حكمه» and Sibawayh «إذا لم يكن له معنى يعرف».  A 66-vs-64 difference in
+      12.4M tokens is not actual frequency, and at that resolution the criterion is noise.  With
+      `--bucket 10` every count is compressed to floor(log10 n) + 1, so only a TENFOLD difference
+      counts as الكثرة, while a 1-vs-0 difference (a form the corpus has against one it does not
+      have at all) still counts.  The default is OFF because the base (10) is engineering.
+
+MEASURED (20,000 held-out words, mode 2, chronological_mujtahid_corpus -- disjoint from the table)
+--------------------------------------------------------------------------------------------------
+  evidence          bucket   analyses changed    rate
+  reconstructed     raw          68 / 20,000     0.34%    <- DEFAULT
+  reconstructed     10           47 / 20,000     0.24%    <- recommended for production
+  max               raw         162 / 20,000     0.81%
+  max               10          118 / 20,000     0.59%
+  postulated        raw         293 / 20,000     1.47%
+  postulated        10          127 / 20,000     0.64%
+
+  Hand-classified (MY judgement, NOT a source; the shipped mode-2 baseline is itself unreliable):
+  of the 68 reconstructed/raw changes, 30 replace a wrong shipped root with a correct one
+  (يكن->كون x9, كنت->كون x8, قل->قول x6, يقل->قول x2, قم->قوم x2, طفت/فطفت/دمت...), 21 replace a
+  correct shipped root with a wrong one (الصف/حل/رد/جده/سل/يدر/سقت/يحج...), 8 move between two
+  wrong readings, 9 are uncertain.  With --bucket 10 the marginal cases collapse to ties: the 47
+  remaining changes contain 29 of the 30 fixes and only 10 of the 21 new errors.  The guard is a
+  real trade-off, not a free lunch: it also drops the fix طفف -> طوف for طفت.
+
+  With the SHIPPED DEFAULT MODE 1 (closed class only) no root is ever re-assigned, so _rank() is
+  not consulted and the kathra position changes NOTHING.  It only ever speaks in mode 2.
+
+OUTPUTS AND USAGE
+-----------------
+  python kathra.py --build                 (re)build data/kathra_counts.json from the corpus
+  python kathra.py --report                the decisive numbers
+  python kathra.py --selftest              the two decisive cases, unit + end-to-end
+  python kathra.py --change-rate 20000     how often the new position changes an analysis
+        [--evidence postulated|reconstructed|max] [--bucket 10] [--dump-changes FILE]
+
+  from kathra import Kathra
+  k = Kathra()                              # loads data/kathra_counts.json, no corpus read
+  k.count('كان')                            # 64151   occurrences of a normalised surface
+  k.count_word('و', 'كان', 'ت')             # occurrences of وكانت as ONE token
+  k.reading_count('كون', 'فَعَلَ')          # al-kathra score of one (root, wazn) reading
+  k.prefer([('كنن', 'فَعَلَ'), ('كون', 'فَعَلَ')])
+                                            # -> [{'root': 'كون', 'count': 64151, ...},
+                                            #     {'root': 'كنن', 'count': 726, ...}]
+  k.prefer([(None, 'كن', 'ت', 'كون', 'فَعَلَ')])     # the validator's own candidate shape
+  k.winner(cands)                           # just the top reading
+  k.quantize(13584)                         # E7: raw count -> order-of-magnitude bucket
+
+  # integrate without editing any file:
+  import validated_segmentation as vs
+  from kathra import install
+  class Patched(vs.ValidatedSegmentation): pass
+  install(Patched)                          # Patched._rank now carries the kathra position
+  # ...or paste the 7-tuple into ValidatedSegmentation._rank (see RECOMMENDED PATCH below)
+
+RECOMMENDED PATCH to models/validated_segmentation.py (NOT applied here)
+-----------------------------------------------------------------------
+Nothing on the pod was modified.  To make this permanent, edit `_rank` so that it returns
+  (1 if is_particle else 0,                             # 1. harf is not a root
+   0 if strength == self.MUHMAL else 1,                 # 2. muhmal rejected
+   1 if ops != 99 else 0,                               # 3. al-tasrif GATE: must generate
+   kathra_count,                                        # 4. al-haml 'ala al-akthar  <-- NEW
+   -ops,                                                # 5. fewest elisions (tie-break now)
+   1 if strength == self.ATTESTED else 0,               # 6. bare attestation (weakest voice)
+   -affixes)                                            # 7. al-asl 'adam al-ziyada
+where `kathra_count = kathra.reading_count(root, wazn, self.engine, prefix=prefix or '',
+                                           stem=stem, suffix=suffix or '')` and
+`kathra` is `kathra.default()`.  `Kathra.install()` performs exactly this substitution in
+memory and is what `--selftest` / `--change-rate` use.
+"""
+
+from __future__ import annotations
+
+import argparse
+import glob
+import json
+import os
+import re
+import sys
+import time
+from collections import Counter
+
+__all__ = ['Kathra', 'normalize', 'default', 'reading_count', 'install',
+           'DEFAULT_CORPUS_GLOBS', 'DEFAULT_EVAL_GLOBS', 'KATHRA_POSITION']
+
+_HERE = os.path.dirname(os.path.abspath(__file__))
+for _c in (_HERE, os.path.dirname(_HERE)):
+    if _c not in sys.path:
+        sys.path.insert(0, _c)
+
+# ---------------------------------------------------------------------------------------------
+# E2: normalisation.  Applied to BOTH sides of every count.
+# ---------------------------------------------------------------------------------------------
+DIAC = re.compile(r'[\u064b-\u0652\u0670\u0640\u06d6-\u06ed]')
+# E3: a corpus token is a maximal run of Arabic letters (U+0621..U+064a, plus alif wasla).
+ARABIC_RUN = re.compile(r'[\u0621-\u064a\u0671]+')
+_HAMZA_SEATS = {'\u0623': '\u0627',   # أ
+                '\u0625': '\u0627',   # إ
+                '\u0622': '\u0627',   # آ
+                '\u0671': '\u0627'}   # ٱ
+
+
+def normalize(s):
+    """Strip diacritics/tatweel and fold the hamza seats.  Symmetric: applied to the corpus
+    when the table is built AND to the generated form when it is looked up."""
+    if not s:
+        return ''
+    s = DIAC.sub('', s)
+    for k, v in _HAMZA_SEATS.items():
+        s = s.replace(k, v)
+    return s
+
+
+# ---------------------------------------------------------------------------------------------
+# The corpus the table is actually built from.  Kept as module data so the build is reproducible
+# from this file alone (E5).
+# ---------------------------------------------------------------------------------------------
+DEFAULT_CORPUS_GLOBS = (
+    '/workspace/heritage_foundations/*.txt',          # al-'Ayn, al-Kitab, al-Khasa'is, Sirr, ...
+    '/workspace/andalusian_canon_sanitized/*.txt',    # Ibn Malik, al-Shatibi, Abu Hayyan, ...
+    '/workspace/scholastic_sanitized/*.txt',          # al-Ghazali, al-Junayd, ...
+)
+# Deliberately DISJOINT from the table, so `--change-rate` is measured on held-out text.
+DEFAULT_EVAL_GLOBS = (
+    '/workspace/chronological_mujtahid_corpus/sanitized/*.jsonl',
+    '/workspace/chronological_mujtahid_corpus/raw/*.txt',
+)
+
+_ENV_TABLE = 'ROOTFORMER_KATHRA_TABLE'
+_TABLE_NAME = 'kathra_counts.json'
+
+# The position statement, importable so callers can print the recommendation next to the code.
+KATHRA_POSITION = (
+    'particle > muhmal > GENERATES > *KATHRA* > -ops > attested > -affixes'
+)
+
+LAYOUT_MISMATCHES = 0   # how often `install()` met a _rank tuple it did not recognise
+
+
+def _candidate_table_paths():
+    yield os.environ.get(_ENV_TABLE)
+    yield os.path.join(_HERE, '..', 'data', _TABLE_NAME)
+    yield os.path.join(_HERE, _TABLE_NAME)
+    yield os.path.join('/workspace/hf_v19_2_release/data', _TABLE_NAME)
+    yield os.path.join('/workspace', _TABLE_NAME)
+
+
+def default_table_path():
+    """First existing table on the search path, else the canonical release location."""
+    for p in _candidate_table_paths():
+        if p and os.path.exists(p):
+            return os.path.abspath(p)
+    return os.path.abspath(os.path.join(_HERE, '..', 'data', _TABLE_NAME))
+
+
+def _expand(paths):
+    """Accept globs, directories and plain files; return a sorted, de-duplicated file list."""
+    out = []
+    for p in paths or ():
+        hits = glob.glob(p)
+        if not hits and os.path.isdir(p):
+            hits = sorted(glob.glob(os.path.join(p, '*')))
+        for h in (hits or [p]):
+            if os.path.isfile(h):
+                out.append(h)
+    return sorted(set(out))
+
+
+def _iter_words_in(path):
+    """E3: yield the normalised Arabic tokens of one file, line by line (memory-safe)."""
+    with open(path, encoding='utf-8', errors='ignore') as fh:
+        for line in fh:
+            for m in ARABIC_RUN.finditer(line):
+                w = normalize(m.group())
+                if w:
+                    yield w
+
+
+# =============================================================================================
+class Kathra:
+    """Corpus frequency of a postulated surface form, as an al-kathra ranking signal.
+
+    Loads the prebuilt table by default (no corpus read at import).  If `corpus_paths` is given
+    and no table exists (or `rebuild=True`), it builds one by ACTUALLY COUNTING.
+    """
+
+    #: default evidence mode -- see E1 in the module docstring
+    DEFAULT_EVIDENCE = os.environ.get('ROOTFORMER_KATHRA_EVIDENCE', 'reconstructed')
+
+    def __init__(self, corpus_paths=None, table_path=None, rebuild=False,
+                 min_count=2, out_path=None, verbose=False, evidence=None, bucket=None):
+        self.counts = Counter()
+        self.meta = {}
+        self.engine = None
+        self.evidence = evidence or self.DEFAULT_EVIDENCE
+        # E7: 0 = raw counts (fidelity); >=2 quantises the count to floor(log_bucket(n)) + 1 so
+        # that only an ORDER-OF-MAGNITUDE difference in usage counts as الكثرة.
+        self.bucket = int(bucket if bucket is not None
+                          else os.environ.get('ROOTFORMER_KATHRA_BUCKET', 0) or 0)
+        self._engine_checked = False
+        path = table_path or os.environ.get(_ENV_TABLE) or default_table_path()
+        have = bool(path) and os.path.exists(path)
+        if corpus_paths and (rebuild or not have):
+            self.build(corpus_paths, out_path=(out_path or (path if path else None)),
+                       min_count=min_count, verbose=verbose)
+        elif have:
+            self.load(path)
+        else:
+            self.meta = {'note': 'no frequency table found and no corpus given: '
+                                 'kathra is SILENT (every count is 0) and the shipped '
+                                 'principles decide exactly as before.'}
+        if verbose:
+            print(f'  kathra: {self.meta.get("distinct_kept", 0):,} forms from '
+                  f'{self.meta.get("tokens", 0):,} corpus tokens '
+                  f'({len(self.meta.get("files", {}))} files)')
+
+    # -- construction -------------------------------------------------------------------------
+    def build(self, corpus_paths, out_path=None, min_count=2, verbose=False):
+        """Count every Arabic token of `corpus_paths` and (optionally) save the table.
+
+        min_count prunes the hapax tail (E4); nothing is invented -- every integer written to
+        disk is a token count observed in a named file.
+        """
+        counts, per_file, tokens = Counter(), {}, 0
+        for f in _expand(corpus_paths):
+            n = 0
+            for w in _iter_words_in(f):
+                counts[w] += 1
+                n += 1
+            per_file[f] = n
+            tokens += n
+            if verbose:
+                print(f'    {n:>9,}  {f}')
+        raw_distinct = len(counts)
+        if min_count and min_count > 1:
+            counts = Counter({w: c for w, c in counts.items() if c >= min_count})
+        self.counts = counts
+        self.meta = {
+            'built': time.strftime('%Y-%m-%dT%H:%M:%S'),
+            'corpus_globs_or_paths': list(corpus_paths),
+            'files': per_file,
+            'n_files': len(per_file),
+            'tokens': tokens,
+            'distinct_raw': raw_distinct,
+            'distinct_kept': len(counts),
+            'min_count': min_count,
+            'normalization': 'diacritics+tatweel stripped; أ إ آ ٱ -> ا; ى and ة preserved',
+            'tokenization': 'maximal runs of [\\u0621-\\u064a\\u0671]; clitics not stripped',
+            'counted_surface': 'TasrifEngine.generate(root, wazn), normalised',
+            'engineering_note': ('hapax pruned (monotone-safe: a pruned form reads 0, so it can '
+                                 'only make kathra silent, never invert a decision); clitics are '
+                                 'not stripped, which under-counts prefixed forms uniformly'),
+            'position_recommended': KATHRA_POSITION,
+        }
+        if out_path:
+            self.save(out_path)
+        return self.meta
+
+    def save(self, path):
+        os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+        payload = {'meta': self.meta, 'counts': dict(self.counts)}
+        with open(path, 'w', encoding='utf-8') as fh:
+            json.dump(payload, fh, ensure_ascii=False, separators=(',', ':'))
+        return os.path.getsize(path)
+
+    def load(self, path):
+        with open(path, encoding='utf-8') as fh:
+            payload = json.load(fh)
+        self.counts = Counter(payload.get('counts', {}))
+        self.meta = payload.get('meta', {})
+        self.meta['table_path'] = os.path.abspath(path)
+        return self
+
+    # -- the API ------------------------------------------------------------------------------
+    def __len__(self):
+        return len(self.counts)
+
+    def count(self, surface):
+        """Occurrences of `surface` in the counted corpus (0 if unseen).  E6: 0 = no evidence."""
+        if not surface:
+            return 0
+        return self.counts.get(normalize(surface), 0)
+
+    #: alias, for callers who think of it as a lookup
+    __call__ = count
+
+    def count_word(self, prefix, surface, suffix):
+        """Occurrences of prefix+surface+suffix as ONE corpus token (E1, auxiliary)."""
+        return self.count(f'{prefix or ""}{surface or ""}{suffix or ""}')
+
+    def _get_engine(self, engine=None):
+        if engine is not None:
+            return engine
+        if self.engine is None and not self._engine_checked:
+            self._engine_checked = True
+            try:
+                from tasrif_engine import TasrifEngine
+                self.engine = TasrifEngine()
+            except Exception:
+                self.engine = None
+        return self.engine
+
+    def generate(self, root, wazn, engine=None):
+        """The surface form this (root, wazn) POSTULATES, normalised; None if it postulates none."""
+        if not root or not wazn:
+            return None
+        eng = self._get_engine(engine)
+        if eng is None:
+            return None
+        try:
+            g = eng.generate(root, wazn)
+        except Exception:
+            return None
+        if not g:
+            return None
+        s = g[0] if isinstance(g, (tuple, list)) else g
+        return normalize(s) or None
+
+    def reading_count(self, root, wazn, engine=None, prefix='', stem=None, suffix='',
+                      evidence=None):
+        """al-kathra score of one reading -- the corpus count of the surface it postulates.
+
+        evidence modes (E1; both count surface FORMS, never roots):
+          'postulated'     count(generate(root,wazn))          -- the bare word-form the reading
+                           postulates.  This is the comparison the brief names for كنت
+                           (كان 64,151 vs كَنّ written كن 726).
+          'reconstructed'  count(prefix + generate(root,wazn) + suffix) -- the word the reading
+                           says the surface stands for, clitics included.  The most literal
+                           reading of Ibn Jinni's counter-weight: count the surface as it
+                           actually occurs.
+          'max'            the larger of the two.
+        """
+        g = self.generate(root, wazn, engine)
+        if not g:
+            return 0
+        ev = evidence or self.evidence
+        bare = self.count(g)
+        if ev == 'postulated':
+            n = bare
+        elif ev == 'reconstructed':
+            n = self.count(f'{prefix or ""}{g}{suffix or ""}')
+        else:
+            n = max(bare, self.count(f'{prefix or ""}{g}{suffix or ""}'))
+        return self.quantize(n)
+
+    def quantize(self, n):
+        """E7: optional order-of-magnitude compression of a raw count (0 = off).
+
+        n -> floor(log_bucket(n)) + 1 for n >= 1, and 0 -> 0, so a 1-vs-0 difference (a form the
+        corpus has against a form it does not have at all) survives, while 66-vs-64 collapses to
+        a TIE.  The sources require الكثرة to be actual frequency; a difference of two occurrences
+        in 12.4M tokens is not that.  The base is an engineering parameter, not a source.
+        """
+        b = self.bucket
+        if b < 2 or n <= 0:
+            return max(n, 0)
+        k = 1
+        while n >= b:
+            n //= b
+            k += 1
+        return k
+
+    def prefer(self, candidates, engine=None):
+        """Rank candidate readings by al-kathra: highest corpus count first.
+
+        `candidates` items may be
+            (root, wazn)                              a bare reading
+            (prefix, stem, suffix, root, wazn)        a validated_segmentation candidate
+            {'root': .., 'wazn': .., ...}             a dict
+            an object with .root and .wazn
+        Returns a list of dicts, most-used first, ties in the input order (stable).  Each dict
+        carries root, wazn, generated, count, index and the original input under 'input'.
+        """
+        rows = []
+        for i, c in enumerate(candidates or ()):
+            root, wazn, extra = _parse_candidate(c)
+            gen = self.generate(root, wazn, engine)
+            rows.append({'root': root, 'wazn': wazn, 'generated': gen,
+                         'count': self.reading_count(root, wazn, engine,
+                                                     prefix=extra.get('prefix', ''),
+                                                     stem=extra.get('stem'),
+                                                     suffix=extra.get('suffix', '')),
+                         'index': i, 'input': c, **extra})
+        rows.sort(key=lambda r: (-r['count'], r['index']))
+        return rows
+
+    def winner(self, candidates, engine=None):
+        """The single most-used reading, or None."""
+        rows = self.prefer(candidates, engine)
+        return rows[0] if rows else None
+
+    # -- integration --------------------------------------------------------------------------
+    @staticmethod
+    def install(validator_cls, kathra=None):
+        """Insert the kathra position into `validator_cls._rank` WITHOUT editing any file.
+
+        The shipped `_rank()` returns the 5-tuple
+            (is_particle, muhmal_ok, -ops, attested, -affixes)
+        and this wrapper rebuilds it as the recommended 7-tuple
+            (is_particle, muhmal_ok, generates, kathra_count, -ops, attested, -affixes)
+        so the generation gate stays ahead of kathra and kathra stays ahead of the elision count
+        and of bare attestation.  If the base layout is ever not the recognised 5-tuple, the
+        wrapper returns it untouched (the previous behaviour) and bumps LAYOUT_MISMATCHES.
+        """
+        global LAYOUT_MISMATCHES
+        k = kathra or default()
+        orig = validator_cls._rank
+        if getattr(orig, '_kathra_patched', False):
+            return validator_cls
+
+        def _rank(self, prefix, stem, suffix, root, wazn, is_particle):
+            global LAYOUT_MISMATCHES
+            t = orig(self, prefix, stem, suffix, root, wazn, is_particle)
+            if not isinstance(t, tuple) or len(t) != 5:
+                LAYOUT_MISMATCHES += 1
+                return t
+            ops = -t[2]                            # t[2] is -ops
+            generates = 0 if ops >= 99 else 1      # the al-tasrif gate stays first
+            n = k.reading_count(root, wazn, getattr(self, 'engine', None),
+                                prefix=prefix, stem=stem, suffix=suffix)
+            return (t[0], t[1], generates, n, -ops, t[3], t[4])
+
+        _rank._kathra_patched = True
+        _rank._kathra = k
+        validator_cls._rank = _rank
+        return validator_cls
+
+
+def _parse_candidate(c):
+    """Normalise the accepted candidate shapes to (root, wazn, extra_dict)."""
+    if isinstance(c, dict):
+        extra = {k2: v for k2, v in c.items() if k2 not in ('root', 'wazn')}
+        return c.get('root'), c.get('wazn'), extra
+    if isinstance(c, (tuple, list)):
+        if len(c) == 2:
+            return c[0], c[1], {}
+        if len(c) == 5:                            # (prefix, stem, suffix, root, wazn)
+            return c[3], c[4], {'prefix': c[0], 'stem': c[1], 'suffix': c[2]}
+        if len(c) == 4:                            # (stem, root, wazn, suffix)
+            return c[1], c[2], {'stem': c[0], 'suffix': c[3]}
+    root = getattr(c, 'root', None)
+    wazn = getattr(c, 'wazn', None)
+    if root is not None or wazn is not None:
+        return root, wazn, {}
+    raise TypeError(f'unrecognised candidate: {c!r}')
+
+
+# ---------------------------------------------------------------------------------------------
+# module-level convenience
+# ---------------------------------------------------------------------------------------------
+_DEFAULT = None
+
+
+def default(corpus_paths=None, rebuild=False, **kw):
+    """Process-wide table (the JSON is 5 MB; load it once)."""
+    global _DEFAULT
+    if _DEFAULT is None or rebuild or corpus_paths:
+        _DEFAULT = Kathra(corpus_paths=corpus_paths, rebuild=rebuild, **kw)
+    return _DEFAULT
+
+
+def reading_count(root, wazn, engine=None):
+    """al-kathra contribution of one reading, for use inside a ranking tuple."""
+    return default().reading_count(root, wazn, engine)
+
+
+def install(validator_cls, kathra=None):
+    """Module-level alias for Kathra.install."""
+    return Kathra.install(validator_cls, kathra)
+
+
+# =============================================================================================
+# verification: the two decisive cases, reported with the numbers that decide them
+# =============================================================================================
+DECISIVE = (
+    # (label, word, winner, loser, note, split)   split = {prefix, stem, suffix}
+    ('كنت (kuntu)', 'كنت', ('كون', 'فَعَلَ'), ('كنن', 'فَعَلَ'),
+     'the كون reading postulates كان; the كنن reading postulates كَنّ, written كن',
+     {'prefix': '', 'stem': 'كن', 'suffix': 'ت'}),
+    ('يشذ (yashudhdhu)', 'يشذ', ('شذذ', 'يَفْعُلُ'), ('شوذ', 'يَفْعُلُ'),
+     'شوذ is attested in al-\'Ayn but postulates يَشْوُذُ, which the corpus does not have',
+     {'prefix': '', 'stem': 'يشذ', 'suffix': ''}),
+)
+
+
+def report(k=None, engine=None, out=print):
+    """Print the decisive numbers.  Returns a dict so callers can assert on it."""
+    k = k or default()
+    eng = k._get_engine(engine)
+    res = {'meta': {kk: vv for kk, vv in k.meta.items() if kk != 'files'},
+           'position': KATHRA_POSITION, 'cases': {}}
+    out(f'evidence mode: {k.evidence}')
+    out(f'corpus: {k.meta.get("tokens", 0):,} tokens, '
+        f'{k.meta.get("distinct_kept", 0):,} forms kept of {k.meta.get("distinct_raw", 0):,} '
+        f'distinct, {k.meta.get("n_files", 0)} files')
+    out(f'  table: {k.meta.get("table_path", "-")}')
+    for label, word, win, lose, note, sp in DECISIVE:
+        rw = k.prefer([lose, win], eng)            # loser is passed FIRST on purpose
+        g_win, g_lose = k.generate(win[0], win[1], eng), k.generate(lose[0], lose[1], eng)
+        # both count families, so the reader can see them side by side whatever the evidence mode
+        bare = {win[0]: k.count(g_win), lose[0]: k.count(g_lose)}
+        full = {w[0]: k.reading_count(w[0], w[1], eng, prefix=sp['prefix'],
+                                      suffix=sp['suffix'], evidence='reconstructed')
+                for w in (win, lose)}
+        ok = rw[0]['root'] == win[0]
+        res['cases'][word] = {'winner': win[0], 'winner_form': g_win,
+                              'winner_postulated_count': bare[win[0]],
+                              'winner_evidence_count': full[win[0]],
+                              'loser': lose[0], 'loser_form': g_lose,
+                              'loser_postulated_count': bare[lose[0]],
+                              'loser_evidence_count': full[lose[0]],
+                              'evidence': k.evidence, 'bucket': k.bucket,
+                              'prefer_winner': rw[0]['root'], 'ok': ok}
+        out(f'  {label:<20} {win[0]} vs {lose[0]}   -> {rw[0]["root"]}   '
+            f'{"PASS" if ok else "FAIL"}')
+        out(f'      postulated form (Ibn \'Usfur word-form): {win[0]}/{g_win} = '
+            f'{bare[win[0]]:,}   vs   {lose[0]}/{g_lose} = {bare[lose[0]]:,}')
+        out(f'      evidence [{k.evidence}] {sp["prefix"]}+form+{sp["suffix"]} = '
+            f'{full[win[0]]:,}   vs   {full[lose[0]]:,}'
+            + (f'   (bucket {k.bucket})' if k.bucket else ''))
+        out(f'      ({note})')
+    return res
+
+
+def _load_tokenizer():
+    """The shipped tokenizer, or None when the release tree is not importable."""
+    bp = os.environ.get('ROOTFORMER_BLUEPRINT') or os.path.join(
+        _HERE, '..', 'data', 'rootformer_v12_arabic_blueprint.json')
+    bp = os.path.abspath(bp)
+    if not os.path.exists(bp):
+        return None
+    try:
+        import inspect
+        import nrmp_vocab as nv
+        V = next(v for kk, v in vars(nv).items()
+                 if inspect.isclass(v) and 'MorphemicVocab' in getattr(v, '__name__', ''))
+        return V(bp).base_tok
+    except Exception as e:                                    # pragma: no cover
+        print(f'  (tokenizer unavailable: {e})')
+        return None
+
+
+def selftest(k=None, out=print):
+    """Unit level AND end-to-end through the shipped validator.
+
+    THE DECISION MATRIX is the point of section 2.  Neither of the two binary orderings gets
+    both words right, and the frequency ordering gets both right:
+
+        ordering                      كنت        يشذ
+        shipped (-ops before attested)  كنن [WRONG]  شذذ [right]
+        attestation before -ops         كون [right]  شوذ [WRONG]
+        KATHRA before -ops (this)       كون [right]  شذذ [right]
+    """
+    k = k or default()
+    ok = True
+    out('=== 1. al-kathra ranking of the decisive readings (unit) ===')
+    r = report(k, out=out)
+    ok &= all(c['ok'] for c in r['cases'].values())
+
+    out('\n=== 2. end-to-end through ValidatedSegmentation._rank (no file edited) ===')
+    tok = _load_tokenizer()
+    if tok is None:
+        out('  SKIPPED (tokenizer not importable here)')
+        return ok
+    os.environ['ROOTFORMER_VALIDATED_SEG'] = '2'      # root re-segmentation mode
+    import validated_segmentation as vs
+    vs._CACHE.clear()
+
+    class WithKathra(vs.ValidatedSegmentation):
+        pass
+
+    install(WithKathra, k)
+    v_old, v_new = vs.ValidatedSegmentation(tok), WithKathra(tok)
+    matrix = {}
+    for label, word, win, lose, _, _sp in DECISIVE:
+        a, b = v_old.decompose(word), v_new.decompose(word)
+        prefix, suffix = a[0] or '', a[3] or ''
+        stem = word[len(prefix):len(word) - len(suffix)] if suffix else word[len(prefix):]
+        # the two readings exactly as the ranking step sees them
+        kw = v_new._rank(prefix, stem, suffix, win[0], win[1], False)
+        kl = v_new._rank(prefix, stem, suffix, lose[0], lose[1], False)
+        tw = v_old._rank(prefix, stem, suffix, win[0], win[1], False)
+        tl = v_old._rank(prefix, stem, suffix, lose[0], lose[1], False)
+
+        def attest_first(t):        # bare attestation lifted above the elision count
+            ops = -t[2]
+            return (t[0], t[1], 0 if ops >= 99 else 1, t[3], ops, t[4])
+
+        kathra_take = win[0] if kw > kl else lose[0]
+        shipped_take = win[0] if tw > tl else lose[0]
+        attest_take = win[0] if attest_first(tw) > attest_first(tl) else lose[0]
+        matrix[word] = {'kathra': kathra_take, 'shipped': shipped_take,
+                        'attestation_first': attest_take, 'winner': win[0],
+                        'stem': stem, 'suffix': suffix,
+                        'kathra_keys': [kw, kl], 'shipped_keys': [tw, tl]}
+        out(f'  {label}   stem={stem!r} suffix={suffix!r}')
+        out(f'      kathra key  {win[0]:<5} {kw}   vs   {lose[0]:<5} {kl}   -> {kathra_take}'
+            f'   {"PASS" if kathra_take == win[0] else "FAIL"}')
+        out(f'      shipped key {win[0]:<5} {tw}   vs   {lose[0]:<5} {tl}   -> {shipped_take}'
+            f'   {"(the shipped bug)" if shipped_take != win[0] else ""}')
+        out(f'      attestation-first  -> {attest_take}'
+            f'   {"(bare attestation promotes the wrong root)" if attest_take != win[0] else ""}')
+        out(f'      decompose: shipped root={a[1]:<5} -> +kathra root={b[1]:<5}')
+        ok &= (kathra_take == win[0]) and (b[1] == win[0])
+    # the two binary orderings must each fail on one of the two words -- that is the premise
+    ok &= (matrix['كنت']['shipped'] != matrix['كنت']['winner'])
+    ok &= (matrix['يشذ']['attestation_first'] != matrix['يشذ']['winner'])
+    out(f'  layout mismatches: {LAYOUT_MISMATCHES}')
+    ok &= (LAYOUT_MISMATCHES == 0)
+    selftest.matrix = matrix          # the numbers above, for callers that assert on them
+    return ok
+
+
+def change_rate(n=20000, corpus=None, out=print, examples=12, dump=None):
+    """How often the new lexicographic position changes the analysis of a corpus word.
+
+    Measured on text DISJOINT from the frequency table (DEFAULT_EVAL_GLOBS), mode 2
+    (root re-segmentation -- the only mode where a root is re-assigned, so the only mode where
+    any ranking principle can change an outcome).
+    """
+    tok = _load_tokenizer()
+    if tok is None:
+        out('  tokenizer not importable: cannot measure')
+        return None
+    paths = corpus or DEFAULT_EVAL_GLOBS
+    words = []
+    for f in _expand(paths):
+        for w in _iter_words_in(f):
+            if len(w) >= 2:
+                words.append(w)
+            if len(words) >= n:
+                break
+        if len(words) >= n:
+            break
+    k = default()
+    os.environ['ROOTFORMER_VALIDATED_SEG'] = '2'
+    import validated_segmentation as vs
+    vs._CACHE.clear()
+
+    class WithKathra(vs.ValidatedSegmentation):
+        pass
+
+    install(WithKathra, k)
+    v_old, v_new = vs.ValidatedSegmentation(tok), WithKathra(tok)
+    t0 = time.time()
+    before = [v_old.decompose(w) for w in words]
+    t1 = time.time()
+    after = [v_new.decompose(w) for w in words]
+    t2 = time.time()
+    changed = [(w, a, b) for w, a, b in zip(words, before, after) if a != b]
+    root_changed = [x for x in changed if x[1][1] != x[2][1]]
+    killed = 0                             # readings kathra refused for having no usage at all
+    for w, a, b in changed:
+        ca = k.reading_count(a[1], a[2], v_old.engine)
+        cb = k.reading_count(b[1], b[2], v_new.engine)
+        if ca == 0 and cb > 0:
+            killed += 1
+    res = {'evidence': k.evidence, 'bucket': k.bucket,
+           'words': len(words), 'changed': len(changed), 'root_changed': len(root_changed),
+           'rate': len(changed) / max(len(words), 1),
+           'root_rate': len(root_changed) / max(len(words), 1),
+           'corpus': [f for f in _expand(paths)],
+           'seconds': {'shipped': t1 - t0, 'with_kathra': t2 - t1},
+           'examples': [{'word': w, 'shipped': a, 'kathra': b} for w, a, b in changed[:examples]]}
+    if dump:
+        with open(dump, 'w', encoding='utf-8') as fh:
+            json.dump({'evidence': k.evidence, 'rows': [
+                {'word': w, 'shipped': a, 'kathra': b,
+                 'shipped_count': k.reading_count(a[1], a[2], v_old.engine,
+                                                  prefix=a[0] or '', suffix=a[3] or ''),
+                 'kathra_count': k.reading_count(b[1], b[2], v_new.engine,
+                                                 prefix=b[0] or '', suffix=b[3] or ''),
+                 'shipped_form': k.generate(a[1], a[2], v_old.engine),
+                 'kathra_form': k.generate(b[1], b[2], v_new.engine)}
+                for w, a, b in changed]}, fh, ensure_ascii=False, indent=1)
+        out(f'  dumped {len(changed)} changed rows to {dump}')
+    out(f'  evidence mode: {k.evidence}   bucket: {k.bucket or "off (raw counts)"}')
+    out(f'  eval corpus: {len(res["corpus"])} file(s), first {len(words):,} words '
+        f'(held out from the table)')
+    out(f'  analyses changed : {len(changed):,} / {len(words):,} = {100*res["rate"]:.2f}%')
+    out(f'  ROOTS changed    : {len(root_changed):,} = {100*res["root_rate"]:.2f}%')
+    out(f'  of the changed, {killed} moved off a reading with ZERO corpus usage')
+    out(f'  time: shipped {t1-t0:.1f}s, with kathra {t2-t1:.1f}s')
+    for e in res['examples']:
+        a, b = e['shipped'], e['kathra']
+        ca = k.reading_count(a[1], a[2], v_old.engine, prefix=a[0] or '', suffix=a[3] or '')
+        cb = k.reading_count(b[1], b[2], v_new.engine, prefix=b[0] or '', suffix=b[3] or '')
+        out(f'    {e["word"]:<12} {a[1]} -> {b[1]}'
+            f'   (kathra score {ca} -> {cb}; forms '
+            f'{k.generate(a[1], a[2], v_old.engine)} -> {k.generate(b[1], b[2], v_old.engine)})')
+    return res
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description='al-kathra frequency tie-break')
+    ap.add_argument('--build', action='store_true', help='count the corpus and save the table')
+    ap.add_argument('--corpus', nargs='*', default=None, help='globs/dirs to count')
+    ap.add_argument('--out', default=None, help='table path (default: data/kathra_counts.json)')
+    ap.add_argument('--min-count', type=int, default=2, help='prune forms below this count')
+    ap.add_argument('--table', default=None, help='table to load')
+    ap.add_argument('--report', action='store_true')
+    ap.add_argument('--selftest', action='store_true')
+    ap.add_argument('--change-rate', type=int, default=0, metavar='N')
+    ap.add_argument('--eval-corpus', nargs='*', default=None)
+    ap.add_argument('--evidence', default=None,
+                    choices=['postulated', 'reconstructed', 'max'])
+    ap.add_argument('--bucket', type=int, default=None,
+                    help='E7 quantise counts to orders of magnitude (0=raw, 10=log10)')
+    ap.add_argument('--dump-changes', default=None, metavar='PATH')
+    a = ap.parse_args(argv)
+
+    if a.build:
+        out = a.out or os.path.join(_HERE, '..', 'data', _TABLE_NAME)
+        k = Kathra(corpus_paths=a.corpus or DEFAULT_CORPUS_GLOBS, table_path=out,
+                   rebuild=True, min_count=a.min_count, out_path=out, verbose=True)
+        size = os.path.getsize(out)
+        print(f'\n  saved {out}: {size/1e6:.2f} MB, '
+              f'{k.meta["distinct_kept"]:,} forms of {k.meta["distinct_raw"]:,} distinct, '
+              f'{k.meta["tokens"]:,} tokens, {k.meta["n_files"]} files')
+        return 0
+    if a.evidence:
+        os.environ['ROOTFORMER_KATHRA_EVIDENCE'] = a.evidence
+        Kathra.DEFAULT_EVIDENCE = a.evidence
+    if a.bucket:
+        os.environ['ROOTFORMER_KATHRA_BUCKET'] = str(a.bucket)
+    k = Kathra(table_path=a.table) if a.table else default()
+    if a.report or a.selftest:
+        rc = 0
+        if a.selftest:
+            rc = 0 if selftest(k) else 1
+        else:
+            report(k)
+        if a.change_rate:
+            print()
+            change_rate(a.change_rate, corpus=a.eval_corpus, dump=a.dump_changes)
+        return rc
+    if a.change_rate:
+        change_rate(a.change_rate, corpus=a.eval_corpus, dump=a.dump_changes)
+        return 0
+    print(__doc__)
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

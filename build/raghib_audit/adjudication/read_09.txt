@@ -1,0 +1,230 @@
+================================================================================================
+ROOT سربد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a surface being stripped bare or denuded, specifically of hair, yielding a state of smooth, hairless exposure.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is an eyebrow (ḥājib) that is completely devoid of hair, i.e., a hairless or bald eyebrow.
+REC canon_def.ar     : حاجب مُسَرْبَدٌ: لا شعر عليه؛ عن كراع.
+REC canon_def.en     : A hairless eyebrow: one upon which there is no hair; reported from Kurāʿ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سرهج   stratum=ma
+REC ontological_core : The root سرهج is a rare quadriliteral (rubāʿī) formation denoting a crafted, ornamental artifact — specifically a manufactured object of variegated inlay or mosaic workmanship (comparable to faysafisāʾ, Byzantine-style tessellated ornament). Its foundational physical origin is the concrete act of fabricating a decorated, multi-colored surface or object through artisanal technique (ṣanʿah).
+REC haqiqah_literal  : The literal, physical sense is a crafted ornamental object — a thing of artifice resembling mosaic or inlaid work (shayʾ min al-ṣanʿah ka-l-faysafisāʾ). The noun السرنج (al-saranj, on the pattern of samand) designates such an inlaid or tessellated artifact.
+REC canon_def.ar     : السَّرْهَجَةُ: ضَرْبٌ مِنَ الصَّنْعَةِ كَالْفَسِيفَسَاءِ؛ وَالسَّرَنْجُ كَسَمَنْدٍ: شَيْءٌ مِنَ الصِّنَاعَةِ الْمُزَخْرَفَةِ.
+REC canon_def.en     : Al-sarhajah: a mode of craftsmanship akin to mosaic (faysafisāʾ); and al-saranj (on the pattern samand): an artifact of ornamental, variegated workmanship.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سعفق   stratum=ma
+REC ontological_core : The root denotes a rare, non-productive nominal pattern (fuʿlūl) attested only in the proper name Banū Saʿfūq, a clan or tribal group in al-Yamāma; its foundational origin is onomastic rather than lexical, with no attested verbal or abstract nominal derivation.
+REC haqiqah_literal  : The literal, concrete referent is the tribal designation Banū Saʿfūq (also vocalized Banū Suʿfūq), a kinship group or client clan (khawal) settled in al-Yamāma; the word functions strictly as a proper noun and carries no physical or sensory meaning beyond this referential use.
+REC canon_def.ar     : بنو سَعْفوق: خَوَلٌ باليمامة، وبعضهم يقول سُعْفوق بالضم؛ وهو الحرف النادر الذي جاء على فُعْلول بفتح أوله، خلافاً لاطّراد الضم في زُنْبور وبُهْلول وعُمْروس.
+REC canon_def.en     : Banū Saʿfūq: a client clan (khawal) in al-Yamāma; some vocalize it Suʿfūq with ḍammah. It is the anomalous instance of the fuʿlūl pattern with an initial fatḥah, contrary to the regular ḍamm-initial formation seen in zunbūr, buhlūl, and ʿum […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سقعب   stratum=ma
+REC ontological_core : The root denotes elongation and extension in bodily stature, with the quadrilateral structure (س-ق-ع-ب) suggesting an emphatic, intensive quality of tallness in the human frame.
+REC haqiqah_literal  : The literal physical meaning is a tall man, specifically one of pronounced height and extended frame; the root is attested with both س (sīn) and ص (ṣād) as the initial radical.
+REC canon_def.ar     : السَّقْعَبُ: الطَّوِيلُ مِنَ الرِّجَالِ، بِالسِّينِ وَالصَّادِ.
+REC canon_def.en     : Al-saqʿab: the tall one among men, attested with both sīn and ṣād.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سقق   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the emission of excrement by a bird, specifically the act of voiding droppings; it denotes a concrete, low-register physical event before any figurative extension.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (as delineated from Lisān al-ʿArab) is: a bird's defecation, i.e., the act of a sparrow or bird excreting its droppings.
+REC canon_def.ar     : سَقَّ العصفورُ وسَقْسَقَ الطائرُ: ذَرَقَ. والسُّقُق: المغتابون.
+REC canon_def.en     : The sparrow defecated and the bird voided droppings. And al-suquq: the backbiters.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سلقد   stratum=ma
+REC ontological_core : The root denotes the physical state of a body reduced to skin and bone through emaciation, and by extension the deliberate act of subjecting an animal to such wasting in order to condition and slim it.
+REC haqiqah_literal  : The quadriliteral noun السِّلْقِد designates a person or animal that is lean, wasted, and emaciated; the verb أَسْلْقَدَ denotes the transitive act of rendering a horse lean and thin, i.e. putting it through a conditioning regimen of deliberate emaciation.
+REC canon_def.ar     : السِّلْقِدُ: الضَّاوِي المَهْزُولُ؛ ومنه: خَرَجْتُ أُسَلْقِدُ فَرَسِي، أَيْ أُضَمِّرُهُ.
+REC canon_def.en     : Al-Silqid: the lean, emaciated one; hence the expression 'I went out to slim my horse,' that is, to put it through a conditioning regimen of deliberate emaciation.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سلهج   stratum=ma
+REC ontological_core : The root denotes extension in length and elongation of bodily frame; its foundational physical origin is the quality of being drawn out or stretched in stature.
+REC haqiqah_literal  : The literal physical meaning is 'tall' or 'long' with respect to bodily stature; it is used of a person or creature whose frame is elongated.
+REC canon_def.ar     : السَّلْهَجُ: الطويل.
+REC canon_def.en     : Al-salhaj: the tall one.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سمندل   stratum=ma
+REC ontological_core : The root denotes a legendary creature—avian or reptilian—endowed with the property of self-renewal through fire: when its generative capacity ceases and it succumbs to senescence, it casts itself into live embers and is restored to youthful vigor, remaining incombustible.
+REC haqiqah_literal  : A bird (ṭāʾir) that, upon the cessation of its progeny and the onset of decrepitude, throws itself into burning coals and thereby returns to its youthful state; alternatively, a creature (dābba) that enters fire without being consumed by it.
+REC canon_def.ar     : السَّمَنْدَلُ: طائرٌ إِذا انقطع نَسْلُهُ وهَرِمَ أَلْقى نفسه في الجَمْر فيعود إِلى شَبابه، وقيل: دابَّةٌ يدخل النار فلا تُحْرِقه.
+REC canon_def.en     : Al-samandal: a bird that, when its progeny ceases and it becomes decrepit, casts itself into live embers and returns to its youth; alternatively, a creature that enters fire and is not burned by it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سنبل   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root س-ن-ب-ل is the emergence of the ear or spike of grain (the seed-bearing head) from the stalk of a cereal plant, marking the plant's transition from vegetative growth to reproductive fruiting.
+REC haqiqah_literal  : The literal, physical meaning is the ear or spike of grain (سُنْبُل), the compact, seed-bearing head of cereals such as wheat, barley, and maize; its singular unit is سُنْبُلَة (one ear/spike). The verb سَنْبَلَ denotes the plant's act of producing or putting forth its ear.
+REC canon_def.ar     : السُّنْبُلُ من الزَّرْعِ واحدته سُنْبُلَةٌ، وقد سَنْبَلَ الزَّرْعُ إِذا خرج سُنْبُلُهُ.
+REC canon_def.en     : The ear of grain (سُنْبُل) is a unit of cereal crops, its singular being سُنْبُلَة; the verb سَنْبَلَ means the crop has produced its ear.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سون   stratum=ma
+REC ontological_core : The root's foundational physical origin is not attested as an independent verbal root in the classical lexica; its primary lexical datum is the toponym سُوَان (Suwān), a place-name. A secondary, dialectal usage is التَّسَوُّن (tasuwwun), denoting a slackening or relaxation of the belly, which Ibn Manẓūr and Abū Manṣūr relate to the root س و ل (s-w-l) through the substitution of the final lām with nūn.
+REC haqiqah_literal  : The literal, physical meaning is twofold: (1) سُوَان, a specific place-name; (2) التَّسَوُّن, the slackening or relaxation of the belly, as transmitted from Ibn al-Aʿrābī.
+REC canon_def.ar     : سُوَانُ: موضع. والتَّسَوُّنُ: استرخاء البطن، كأَنه من التَّسَوُّل من سَوِلَ يَسْوَلُ إذا استرخى، فأُبدلت اللام نوناً.
+REC canon_def.en     : Suwān: a place-name. Al-tasuwwun: the slackening of the belly, as if derived from al-tasawwul from sawila yaswalu, meaning 'to become slack,' with the lām substituted by nūn.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT شثل   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) denotes coarse, thick, and densely compacted bodily tissue — specifically the flesh of the fingers, hands, and feet — characterized by roughness of texture and a knotted, interlocking mass. The primary sensory image is that of a limb whose flesh is not smooth or supple but hard, rough, and closely packed.
+REC haqiqah_literal  : The literal physical meaning, as attested in Lisān al-ʿArab, is a man whose fingers are thick and rough (شَثْل الأَصابع: غليظُها خَشِنُها), and a foot that is thick-fleshed and densely compacted (قَدَمٌ شَثْلةٌ: غليظةُ اللحم مُتَراكِبةٌ). The verb شَثِلَتْ يَدُهُ ورِجْلُهُ describes the hand or foot becoming thus thick, rough, and densely fleshed.
+REC canon_def.ar     : رجل شَثْل الأَصابع: غليظُها خَشِنُها. وقَدَمٌ شَثْلةٌ: غليظةُ اللحم مُتَراكِبةٌ. والشَّثْل لغة في الشَّثْن.
+REC canon_def.en     : A man with thick and rough fingers. And a foot that is thick-fleshed and densely compacted. And shathl is a dialectal variant of shathn.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT شرنص   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the concrete bodily constitution of a camel: bulk, mass, and elongation of the neck, i.e., a large-bodied, long-necked animal.
+REC haqiqah_literal  : The literal physical meaning is a bulky, long-necked camel; the plural شَرانِيصُ denotes camels of this description.
+REC canon_def.ar     : الليث: جمل شِرْناصٌ ضَخْم طويل العنق، وجمعه شَرانِيصُ.
+REC canon_def.en     : Al-Layth said: a shirnāṣ camel is bulky and long-necked; its plural is sharānīṣ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ششا   stratum=ma
+REC ontological_core : A marginal, quasi-nominal root attested only through the lexicographical report of Thaʿlab from Ibn al-Aʿrābī; its foundational physical referent is the shīṣ, the dry, hard, unpalatable date that remains on the palm cluster after the choice fruit has been taken.
+REC haqiqah_literal  : The concrete, literal sense is the شِيص: the inferior, dried, inedible dates left behind on the raceme, i.e., the residual fruit of poor quality.
+REC canon_def.ar     : الشَّشا: الشِّيصُ.
+REC canon_def.en     : Al-shashā: the shīṣ, i.e., the dry, inferior dates remaining on the raceme.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT صخف   stratum=ma
+REC ontological_core : The foundational physical act denoted by the root is the excavation and turning over of earth—digging into the ground with a tool. The root's primary material instantiation is thus the manual labor of hollowing out soil, from which the instrumental noun for the digging implement is derived.
+REC haqiqah_literal  : The literal, physical meaning is the act of digging or excavating the earth (ḥafr al-arḍ). The concrete instrument by which this action is performed is the مِصْخَفَة (miṣkhafah), a digging tool or hoe (misḥāh), a usage explicitly identified as Yemeni in provenance.
+REC canon_def.ar     : الصَّخْفُ: حَفْرُ الأَرْضِ. وَالمِصْخَفَةُ: المِسْحَاةُ، يَمَانِيَةٌ.
+REC canon_def.en     : Al-ṣakhf: the digging or excavation of the earth. And al-miṣkhafah: the hoe or digging tool, a Yemeni term.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT صكا   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on firm adherence, cleaving, or persistent attachment to a thing, such that the subject remains bound or fastened to it.
+REC haqiqah_literal  : To cling to, adhere to, or persistently attach oneself to a thing; to remain fastened to it.
+REC canon_def.ar     : صَكا إذا لزِمَ الشيءَ.
+REC canon_def.en     : He clung to the thing, adhered to it, or remained persistently attached to it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT صلخد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the robust, mature, and powerful male camel, specifically denoting a stallion distinguished by advanced age, formidable strength, and imposing length; it is a quadriliteral root (rubāʿī) with no triliteral derivation, and its primary semantic nucleus is the concrete image of a mighty, seasoned beast of burden.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (inferred from Lisān al-ʿArab) is: a mature, strong, and tall male camel; a stallion of advanced age and great power; also used for a strong stallion, with the feminine form denoting a she-camel of similar qualities.
+REC canon_def.ar     : الصَّلْخَدُ والصِّلَخْدُ والصِّلْخَدُّ والصُّلَاخِدُ والصِّلْخَادُ والصَّلَخْدَى كله: الجمل المُسِنُّ الشَّديدُ الطَّويلُ، وقيل: هو الماضي من الإِبل، وقيل للفحْل الشديد صَلَخْدًى، بالتنوين، والأُنثى صَلَخْدَاةٌ.
+REC canon_def.en     : Al-ṣalkhad, al-ṣilakhd, al-ṣilkhadd, al-ṣulākhid, al-ṣilkhād, and al-ṣalakhdā all denote: a mature, strong, and tall male camel; it is also said to be a camel of advanced age and vigor; a strong stallion is called ṣalakhdā with tanwīn, and  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT صمرد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the she-camel as a lactational vessel, denoting an animal whose milk-yield is either scant or copious—an ontological polarity rooted in the concrete reality of pastoral husbandry and the biological economy of the herd.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah: a she-camel (nāqah) characterized by a specific quantity of milk, whether meager or abundant; by extension, the plural form denotes emaciated livestock, particularly sheep or goats, in their physical state of bodily wasting.
+REC canon_def.ar     : الصِّمْرِدُ، بالكسر، من الإِبل: الناقة القليلة اللبن؛ وقيل: الناقة الغَزيرة اللبن. والصَّمارِدُ: الغَنم المِهازِيل. والصَّمارِيدُ: الغنم.
+REC canon_def.en     : Al-Ṣimrid, with the kasrah, among camels: a she-camel of scant milk; it is also said: a she-camel of abundant milk. Al-Ṣamārid: emaciated sheep. Al-Ṣamārīd: sheep.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT صهك   stratum=ma
+REC ontological_core : The root denotes blackness or deep darkness, specifically the blackness of complexion; its foundational physical origin is the dark, lustrous hue of the female slaves (al-jawārī al-sūd) attested by Abū ʿAmr.
+REC haqiqah_literal  : The literal physical meaning is the black female slaves (al-jawārī al-sūd), i.e., women of dark complexion.
+REC canon_def.ar     : الصُّهْكُ: الجواري السُّودُ.
+REC canon_def.en     : Al-ṣuhk: the black female slaves.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ضخخ   stratum=ma
+REC ontological_core : The foundational physical origin of the root ضخخ is the forceful, extended emission of a liquid stream—specifically urine or water—from an orifice or conduit, characterized by propulsion and continuity rather than mere spillage.
+REC haqiqah_literal  : The literal physical meaning is the extension and projection of urine (امتداد البول), and by extension the forceful ejection of water through a tube or pipe; the instrument المضخة is a reed or tube containing a wooden rod used to expel water from the mouth.
+REC canon_def.ar     : الضَّخُّ: امتداد البول. والمضخة: قصبة في جوفها خشبة يرمى بها الماء من الفم. والضخ مثل النضخ للماء؛ وقد ضَخَّه ضخّاً إِذا نضحه بالماء.
+REC canon_def.en     : Al-ḍakhkh: the extension and projection of urine. Al-miḍakhkhah: a reed or tube within which is a wooden rod, by means of which water is ejected from the mouth. Al-ḍakhkh is like al-naḍkh for water; one says ḍakhkhahu ḍakhkhan when he sprin […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ضغغ   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on a lush, verdant, well-watered meadow (rawḍah) that is fresh, tender, and free of blemish or decay—a self-contained, flourishing garden spot. The underlying sensory image is that of soft, moist, thriving herbage, from which the root's nominal form al-ḍaghīghah is derived.
+REC haqiqah_literal  : The literal physical meaning, per Lisān al-ʿArab, is a fresh, blooming, unblemished meadow or garden (al-rawḍah al-nāḍirah al-mutakhalliyah), also called al-ḍaghīghah, al-marghadah, al-maghmaghah, al-makhjalah, al-marghah, and al-ḥadīqah. Abū Ḥanīfah reports the idiom: 'They are in a ḍaghīghah of the ḍaghāḍigh'—i.e., in a state of lush, abundant, and pleasant verdure.
+REC canon_def.ar     : الضَّغِيغَةُ: الرَّوْضَةُ النَّاضِرَةُ المُتَخَلِّيَةُ. وَيُقَالُ: هُمْ فِي ضَغِيغَةٍ مِنَ الضَّغَاضِغِ إِذَا كَانُوا فِي رِيَاضٍ مُعْشِبَةٍ نَاعِمَةٍ.
+REC canon_def.en     : Al-ḍaghīghah: a fresh, blooming, unblemished meadow. It is said: 'They are in a ḍaghīghah of the ḍaghāḍigh' when they are amid lush, tender, herbaceous gardens.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ضود   stratum=ma
+REC ontological_core : The root ضود is not attested as an independent lexical root in the classical philological tradition; the sequence ض و د appears in Lisān al-ʿArab only as an incidental collocation within the entry for the letter ḍād (ض), where the letter itself is treated as a phonological and orthographic primitive rather than as a semantic root. Its ontological core is therefore the consonantal letter ḍād as a majhūra (voiced) and mustaʿliya […]
+REC haqiqah_literal  : No literal physical meaning is established for ضود as a root in Asās al-Balāghah or in the classical lexical corpus; the only literal referent attested is the letter ḍād (ض) itself, described as a voiced, elevated Arabic consonant that functions as an aṣl (radical) and never as a badal (substitute) or zāʾid (augment).
+REC canon_def.ar     : الضاد حرف هجاء وهو حرف مَجْهُور، وهو أَحد الحروف المُسْتَعْلية، يكون أَصلاً لا بدلاً ولا زائداً، والضاد للعَرَب خاصة ولا توجد في كلام العجم إِلا في القليل.
+REC canon_def.en     : The ḍād is a letter of spelling; it is a voiced consonant and one of the elevated letters; it functions as a radical, not as a substitute or an augment; and the ḍād is peculiar to the Arabs, not occurring in non-Arab speech except rarely.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

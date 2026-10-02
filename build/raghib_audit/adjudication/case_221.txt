@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عنشق   stratum=ma
+REC ontological_core : The root denotes a nominal entity, likely a plant or natural object, with no attested verbal derivation in the classical lexicon; its foundational physical origin is obscure but points to a concrete, perhaps botanical, referent.
+REC haqiqah_literal  : A literal noun (ism) referring to a specific entity, possibly a plant or shrub, as recorded in Lisān al-ʿArab without metaphorical extension.
+REC canon_def.ar     : عَنْشَق: اسم.
+REC canon_def.en     : ʿAnshaq: a noun.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

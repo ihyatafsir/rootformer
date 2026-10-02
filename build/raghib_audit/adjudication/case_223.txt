@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عنكث   stratum=ma
+REC ontological_core : The root denotes a specific desert plant or shrub, characterized by its dense, tangled, matted growth and its desirability as forage for the spiny-tailed lizard (ḍabb).
+REC haqiqah_literal  : A type of desert vegetation or shrub that grows in a tangled, matted form; it is a plant craved by the ḍabb (spiny-tailed lizard), which scrapes it with its tail.
+REC canon_def.ar     : العَنْكَثُ: ضَرْبٌ من النَّبْتِ، وقيل: هو شجر يَشْتَهيه الضَّبُّ فيَسْحَجُها بِذَنَبِه
+REC canon_def.en     : Al-ʿankath: a type of vegetation; it is said to be a shrub that the spiny-tailed lizard (ḍabb) craves, scraping it with its tail.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

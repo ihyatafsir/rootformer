@@ -1,0 +1,17 @@
+{
+  "tag": "A5000_released",
+  "head": "/workspace/root_attn/head_ROOTATTN.pt",
+  "trunk": "none",
+  "gates": "trained",
+  "result": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.01902591623365879,
+      "acc@5": 0.04207960143685341,
+      "ce_z": 8.978729248046875,
+      "ppl_z": 7932.54541043638,
+      "ce_raw_SCALE_DEPENDENT": 11.479961395263672,
+      "logit_scale": 1.4469313621520996
+    }
+  }
+}

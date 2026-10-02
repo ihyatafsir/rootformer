@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ردخ   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of crushing, breaking, or violently shattering a solid body, and secondarily on the striking or bruising of a bodily part.
+REC haqiqah_literal  : The literal physical meaning is the crushing or shattering of something solid (al-shadkh), and the bruise or contusion (al-radakh) produced by a blow upon the body.
+REC canon_def.ar     : المَرْدَخُ: الشَّدْخ. والرَّدَخُ: مثل الرَّدع، عُمانِيَّة.
+REC canon_def.en     : Al-mardakh: crushing or shattering. And al-radakh: like al-radʿ (a bruise or contusion), an Omani usage.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 31119 hdr=ردخ] الراء والدال والخاء ليس بشىء. على أنهم حكوا عن الخليل أن الردخ: الشدخ. ردب (3) الراء والدال والباء ليس بشىء. ويقولون للقرميدة الإردبة. والإردب: مكيال لأهل مصر ضخم ||| باب الراء والذال وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 16651 hdr=ردخ] الرَّدْخ: الشَّدْخ، والرَّدْخ يقال له: الرَّدْغ «3» . __________ (1) شيء من عجز بيت (لطرفة) كما في ديوانه ص 47، وهو: جازت البيد إلى أرحلنا ... آخرَ الليل بيعْفُورٍ خَدِرْ كما ورد في المقاييس 2/ 160 برواية: جازت الليل إلى أرحلنا (2) البيت في التهذيب 7/ 266 وفي الديوان ص 55 اللسان وروايته فيهما: وبلاد زعل ظلمانها.......... (3) وجاء في التهذيب أن الردغ عمانية عن كتاب العين. باب الخاء والدال واللام معهما خ د ل، د خ ل، خ  […]

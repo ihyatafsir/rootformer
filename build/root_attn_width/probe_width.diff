@@ -1,0 +1,39 @@
+--- probe_rca_dynamics.py
++++ probe_width.py
+@@ -24,7 +24,7 @@
+ 
+ sys.path.insert(0, '/workspace/hf_v19_2_release')
+ sys.path.insert(0, '/workspace/hf_v19_2_release/models')
+-sys.path.insert(0, '/workspace/root_attn')
++sys.path.insert(0, '/workspace/root_attn_width')
+ 
+ WIN, STRIDE = 128, 64
+ 
+@@ -32,7 +32,7 @@
+ def install_attention_recorder():
+     """Replace RootHistoryCrossAttention.forward with an identical body that also stashes the
+     post-softmax attention and the pre-softmax logit scale.  Process-local only."""
+-    import root_cross_attn as rca
++    import root_cross_attn_width as rca
+     orig = rca.RootHistoryCrossAttention.forward
+ 
+     def forward(self, h, root_ids, root_weight, exclude_current=False):
+@@ -137,7 +137,7 @@
+     from deepseek_v4_1_flash_model import UnifiedRootformerV17_DeepSeekFlash
+     from nrmt_arch import RootformerNRMT
+     from safetensors.torch import load_file
+-    from root_cross_attn import RootCrossAttentionStack
++    from root_cross_attn_width import RootCrossAttentionStack
+ 
+     install_attention_recorder()
+     device = torch.device('cuda')
+@@ -169,7 +169,8 @@
+     stack = RootCrossAttentionStack(
+         model.d_model, model.morphemic_embed.root_embed, layers,
+         num_heads=int(meta.get('rca_heads', 8)), dropout=0.0,
+-        out_norm=bool(meta.get('rca_out_norm', False)), dtype=torch.float32).to(device)
++        out_norm=bool(meta.get('rca_out_norm', False)), dtype=torch.float32,
++        d_attn=int(meta.get('rca_dim', model.d_model)) or None).to(device)
+     stack.exclude_current = bool(meta.get('rca_exclude_current', False))
+     miss, unexp = stack.load_state_dict(rca_state, strict=False)
+     print(f'[{args.tag}] RCA load: missing={list(miss)} unexpected={list(unexp)}')

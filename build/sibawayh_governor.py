@@ -1,0 +1,1044 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+sibawayh_governor.py -- Sibawayh's ʿāmil (operator), its PERSISTENCE (baqāʾ al-ʿamal /
+inqiṭāʿ al-ʿamal) and his constituent/valency stack, as one callable object for the
+NRMP/NRMT decode path.
+
+WHY THIS FILE EXISTS
+--------------------
+Three algorithms were written but never called from the decoder:
+
+  * SibawayhV2 (classical_governance_v2.py)       -- called from nowhere
+  * ConstituentStack / Sibawayh's valency stack   -- called only from uncalled files
+  * SibawayhConstituentGovernanceEngine           -- called only from the English transmuter
+
+and the decoder recomputed the ʿāmil from the PREVIOUS WORD ONLY
+(rootformer_v18_nrmp_model.generate_words), so government died after one word:
+«في الأجسام الشفافة» -> [HARF_JARR, NONE, NONE].  This module is the single object the decode
+path calls, so the rule cannot drift between the audit and the decoder.
+
+THE RULES, WITH THEIR PRIMARY SOURCES
+(all quotations verified against rootformer/corpus/basran/Sibawayh_Al_Kitab.txt and
+rootformer/corpus/andalusian/03_IbnMalik_Alfiyyah.txt; page markers PageVxxPxxx are
+al-Kitab's Bulaq numbering.)
+
+R1  THE THREE CLASSES.  al-Kitab 1/11 «باب علم الكلم من العربية»:
+      «فالكلم: اسم، وفعل، وحرف جاء لمعنى ليس باسم ولا فعل»
+
+R2  AN OPERATOR GOVERNS ONLY ITS OWN CLASS.  al-Kitab 3/8:
+      «واعلم أن حروف الجزم لا تجزم إلا الأفعال، ولا يكون الجزم إلا في هذه الأفعال المضارعة
+       للأسماء، كما أن الجر لا يكون إلا في الأسماء»
+    and al-Kitab «باب الحروف التي تضمر فيها أن» (2/422-3/5):
+      «لأن اللام وحتى إنما يعملان في الأسماء فيجران، وليستا من الحروف التي تضاف إلى الأفعال»
+
+R3  THE MUḌĀRIʿ IS MARKED BY THE FOUR ZIYĀDĀT.  al-Kitab 1/13:
+      «أوائلها الزوائد الأربع: الهمزة، والتاء، والياء، والنون. وذلك قولك: أفعل أنا، وتفعل أنت
+       أو هي، ويفعل هو، ونفعل نحن»
+    Used to DERIVE the imperfect awzān instead of hardcoding a range (the old range 114..129
+    held مُفَعْلِل، مُفْتَعَل، مِفْعَال -- nominals, not verbs).
+
+R4  GOVERNMENT PERSISTS ACROSS AN INTERVENING NOUN.  al-Kitab 1/421, «باب مجرى النعت على
+    المنعوت والشريك على الشريك والبدل على المبدل منه وما أشبه ذلك»:
+      «فأما النعت الذى جرى على المنعوت فقولك: مررت برجل ظريف قبل، فصار النعت مجرورا مثل
+       المنعوت لأنهما كالاسم الواحد»
+      «فإن أطلت النعت فقلت: مررت برجل عاقل كريم مسلم، فأجره على أوله»
+    This is exactly what the audit measures: in «في الأجسام الشفافة» the second noun is the
+    naʿt of the first, majrūr like its manʿūt "because the two are as one noun" -- so the jarr
+    of «في» reaches the SECOND noun, not only the first.
+
+R5  INQIṬĀʿ AL-ʿAMAL: THE ACT IS CUT OFF.  al-Kitab 1/421 fixes where the constituent ends
+    (the naʿt runs on its manʿūt and stops with it); al-Kitab 3/8 fixes the classes (jarr
+    exists only in nouns, so a verb can never be the majrūr of a preposition).
+
+R6  «إن» IS INNA; «أنْ» WITH A VERB IS NASB -- RESOLVED BY THE NEXT WORD'S CLASS.
+    al-Kitab «هذا باب إن وأن» (3/119):
+      «وأما إن فإنما هي بمنزلة الفعل لا يعمل فيها ما يعمل في أن، كما لا يعمل في الفعل ما
+       يعمل في الأسماء، ولا تكون إن إلا مبتدأة، وذلك قولك: إن زيدا منطلق، وإنك ذاهب»
+      «وأما أن فهي اسم وما عملت فيه صلة لها»
+    إن opens a NOMINAL sentence (إن زيدا منطلق).  أن is a noun whose ṣila is its clause:
+    with a following VERB it is the light أنْ of naṣb; with a following NOUN it can only be
+    the heavy أنَّ (INNA).  The blueprint strips diacritics, so إن/أن collapse on the surface
+    and MUST be resolved by the next word's class -- which is what Sibawayh does here.
+    Conditional إنْ is a jazm operator: al-Kitab «هذا باب الجزاء» (3/56)
+      «ومن غيرهما: إن، وإذ ما»
+    so إن + following VERB -> HARF_JAZM, إن + nominal / nothing -> INNA.
+
+R7  TWO OPERATORS DO NOT GOVERN ONE OPERAND.  NOT FOUND verbatim in al-Kitab.
+    Sibawayh's nearest words are al-Kitab 1/73 «لا يعمل في اسم واحد نصب ورفع» and
+    «وإنما كان الذى يليه أولى لقرب جواره» (the nearer is the more entitled).  The rule as
+    usually quoted is verbatim in the Andalusians:
+      Abu Hayyan, Irtishaf al-Darab: «ولا يجتمع عاملان على معمول واحد إلا في التقدير»
+      Ibn 'Usfur, Sharh Jumal al-Zajjaji: «لئلا يؤدي إلى أن يعمل عاملان في معمول واحد»
+    Cited as such; the Sibawayh attribution is reported NOT FOUND in CITATIONS.
+
+R8  THE COORDINATOR EXCEPTION (Fiʿl -> Fiʿl).  Ibn Malik, Alfiyyah, bāb al-ʿaṭf:
+      «وعطفك الفعل على الفعل يصح»
+      «فاعطف بواو سابقا أو لاحقا  ...  في الحكم أو مصاحبا موافقا»
+      «وانقل بها للثان حكم الأول  ...  في الخبر المثبت والأمر الجلي»
+    A second verb is admitted exactly when a coordinator (و/ف) joins it to the first and
+    carries the first's ḥukm over to it.  The class table itself is ENGINEERING (see T3).
+
+R9  DEFINITENESS AGREEMENT OF THE NAʿT (used only for R4's continuation test).
+    al-Kitab 1/421-423: «مررت برجل حسن الوجه» / «مررت بامرأة حسنة الوجه»;
+    Ibn Malik, Alfiyyah, bāb al-naʿt: «فأولينه من وفاق الأول ... ما من وفاق الأول النعت ولي»
+    The ranked Marātib al-Maʿārif hierarchy is NOT implemented here (Ibn Malik's half).
+
+NOT FOUND (stated rather than stretched into a citation):
+  * «ولا يعمل عاملان في معمول واحد» as a SIBawayh sentence -- the wording is Abu Hayyan's
+    and Ibn 'Usfur's (see R7).
+  * «حتى يقطع عمله» / «العامل يعمل فيما يليه» -- these phrases occur nowhere in al-Kitab
+    (searched undiacritized).  R5 is therefore grounded on the naʿt/constituent boundary of
+    al-Kitab 1/421 and the class restriction of al-Kitab 3/8.
+
+ENGINEERING (not from a source), labelled:
+  * E1 the class->class transition table (an encoding of R1 for a POS automaton; content =
+        the project's existing IbnMalikPOSAutomaton.PERMISSIBLE_TRANSITIONS).
+  * E2 the identifiability of the māḍī from the wazn alone.  In this blueprint the māḍī and
+        the ism share patterns (ضرب is both), so only the muḍāriʿ is identified from the wazn
+        (R3); a māḍī without an operator is treated as ISM by `word_class`, which affects the
+        POS-transition mask but NOT the ʿāmil (whose class restriction is enforced on the
+        muḍāriʿ, which R3 does identify).
+  * E3 clitic stripping (و/ف/ب/ل/ك/ال) accepts the stripped core ONLY when that core is a
+        known operator, so «بيت» is not read as «ب» + «يت».
+  * E4 a text that writes a bare alef for the hamza collapses إن/أن (and كأن/كان) into one
+        string.  Sibawayh's division (R6) is then only partially recoverable, so the
+        tie-break is: + verb -> أنْ (HARF_NASB), otherwise إنَّ (INNA).  The blueprint and
+        al-Kitab both keep the hamza, so this path is not exercised by the audit.
+
+Usage (decoder):
+    gov = SibawayhGovernor(vocab, constituent_stack)
+    gov.reset()
+    for w in prompt_words: gov.observe_word(w, next_word)
+    op_state = gov.state_for_next()                       # PERSISTENT ʿāmil
+    allowed  = gov.allowed_next_classes(coordinator_between=...)
+    gov.analyze(words)                                    # (category, case, role, reason)
+"""
+from __future__ import annotations
+
+import json
+import re
+import sys
+from dataclasses import dataclass
+from typing import Any, Dict, List, Optional, Sequence, Tuple
+
+
+# ---------------------------------------------------------------------------------------
+# VISIBILITY (pillar 3).  The governor is the object the NRMP/NRMT decode path calls to
+# report ʿamal; a swallowed failure in it degrades to "no government found", which the
+# caller reports as a VALID sentence.  Each handler below keeps its previous default and
+# now reports the first failure of its site on stderr.  Rate-limited because the surface/
+# class/morph helpers run once per word per sentence.
+# ---------------------------------------------------------------------------------------
+_WARNED_SITES = set()
+
+
+def _warn_once(site, message):
+    if site not in _WARNED_SITES:
+        _WARNED_SITES.add(site)
+        print(f'[sibawayh_governor] {message}', file=sys.stderr)
+
+# ---------------------------------------------------------------------------------------
+# The citations, verbatim.  Every rule in this file names one of these keys.
+# ---------------------------------------------------------------------------------------
+CITATIONS: Dict[str, Dict[str, str]] = {
+    'R1_kalim': {
+        'book': 'Sibawayh, al-Kitab, «باب علم الكلم من العربية» (PageV01P011)',
+        'ar': 'فالكلم: اسم، وفعل، وحرف جاء لمعنى ليس باسم ولا فعل',
+    },
+    'R2_jazm_jarr': {
+        'book': 'Sibawayh, al-Kitab, bāb al-jazm (PageV03P008)',
+        'ar': 'واعلم أن حروف الجزم لا تجزم إلا الأفعال، ولا يكون الجزم إلا في هذه الأفعال '
+              'المضارعة للأسماء، كما أن الجر لا يكون إلا في الأسماء',
+    },
+    'R2_lam_hatta': {
+        'book': "Sibawayh, al-Kitab, «باب الحروف التي تضمر فيها أن» (PageV02P422-PageV03P005)",
+        'ar': 'لأن اللام وحتى إنما يعملان في الأسماء فيجران، وليستا من الحروف التي تضاف '
+              'إلى الأفعال',
+    },
+    'R3_mudari_ziyadat': {
+        'book': 'Sibawayh, al-Kitab (PageV01P013)',
+        'ar': 'أوائلها الزوائد الأربع: الهمزة، والتاء، والياء، والنون. وذلك قولك: أفعل أنا، '
+              'وتفعل أنت أو هي، ويفعل هو، ونفعل نحن',
+    },
+    'R4_nat_jarr': {
+        'book': "Sibawayh, al-Kitab, «باب مجرى النعت على المنعوت والشريك على الشريك والبدل على "
+                "المبدل منه وما أشبه ذلك» (PageV01P421)",
+        'ar': 'فأما النعت الذى جرى على المنعوت فقولك: مررت برجل ظريف قبل، فصار النعت مجرورا '
+              'مثل المنعوت لأنهما كالاسم الواحد',
+    },
+    'R4_nat_chain': {
+        'book': 'Sibawayh, al-Kitab (PageV01P421)',
+        'ar': 'فإن أطلت النعت فقلت: مررت برجل عاقل كريم مسلم، فأجره على أوله',
+    },
+    'R6_inna': {
+        'book': "Sibawayh, al-Kitab, «هذا باب إن وأن» (PageV03P119)",
+        'ar': 'وأما إن فإنما هي بمنزلة الفعل لا يعمل فيها ما يعمل في أن، كما لا يعمل في الفعل '
+              'ما يعمل في الأسماء، ولا تكون إن إلا مبتدأة، وذلك قولك: إن زيدا منطلق، وإنك ذاهب',
+    },
+    'R6_anna': {
+        'book': "Sibawayh, al-Kitab, «هذا باب إن وأن» (PageV03P119)",
+        'ar': 'وأما أن فهي اسم وما عملت فيه صلة لها',
+    },
+    'R6_jaza_in': {
+        'book': "Sibawayh, al-Kitab, «هذا باب الجزاء» (PageV03P056)",
+        'ar': 'ومن غيرهما: إن، وإذ ما',
+    },
+    'R7_nearer': {
+        'book': 'Sibawayh, al-Kitab (PageV01P073)',
+        'ar': 'لا يعمل في اسم واحد نصب ورفع  ...  وإنما كان الذى يليه أولى لقرب جواره',
+    },
+    'R7_two_ops_hayyan': {
+        'book': 'Abu Hayyan, Irtishaf al-Darab (NOT FOUND in al-Kitab)',
+        'ar': 'ولا يجتمع عاملان على معمول واحد إلا في التقدير',
+    },
+    'R7_two_ops_usfur': {
+        'book': "Ibn 'Usfur, Sharh Jumal al-Zajjaji (NOT FOUND in al-Kitab)",
+        'ar': 'لئلا يؤدي إلى أن يعمل عاملان في معمول واحد',
+    },
+    'R8_atf_fil': {
+        'book': "Ibn Malik, Alfiyyah, bāb al-ʿaṭf",
+        'ar': 'وعطفك الفعل على الفعل يصح',
+    },
+    'R8_waw_hukm': {
+        'book': 'Ibn Malik, Alfiyyah, bāb al-ʿaṭf',
+        'ar': 'فاعطف بواو سابقا أو لاحقا  ...  في الحكم أو مصاحبا موافقا',
+    },
+    'R8_naql_hukm': {
+        'book': 'Ibn Malik, Alfiyyah, bāb al-ʿaṭf',
+        'ar': 'وانقل بها للثان حكم الأول  ...  في الخبر المثبت والأمر الجلي',
+    },
+    'R9_naat_wifaq': {
+        'book': 'Ibn Malik, Alfiyyah, bāb al-naʿt',
+        'ar': 'فأولينه من وفاق الأول  ...  ما من وفاق الأول النعت ولي',
+    },
+}
+
+DIAC = re.compile(r'[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]')
+_ALEF = str.maketrans({'أ': 'ا', 'إ': 'ا', 'آ': 'ا', 'ى': 'ي', 'ؤ': 'و', 'ئ': 'ي', 'ة': 'ه'})
+
+# --- operator lexicons (surface forms stored UNDIACRITIZED, as in the blueprint) ----------
+JARR = {'من', 'إلى', 'على', 'عن', 'في', 'حتى', 'مع', 'منذ', 'مذ', 'رب', 'ب', 'ل', 'ك',
+        'خلا', 'عدا', 'حاشا', 'عند'}
+INNA_FAMILY = {'إن', 'أن', 'كأن', 'لكن', 'ليت', 'لعل'}
+JAZM_UNCONDITIONAL = {'لم', 'لما'}                    # al-Kitab 3/8
+NASB_UNCONDITIONAL = {'لن', 'كي', 'إذن'}
+CONDITIONAL = {'إن', 'إذما', 'مهما', 'متى', 'أيان', 'أينما', 'حيثما'}   # al-Kitab 3/56
+KANA_FAMILY = {'كان', 'أصبح', 'أمسى', 'أضحى', 'ظل', 'بات', 'صار', 'ليس',
+               'مازال', 'مادام', 'مافتئ', 'مابرح', 'ماانفك'}
+FUTURE = {'سوف', 'س'}
+COORDINATORS = {'و', 'ف', 'ثم', 'أو', 'أم', 'بل', 'لكن'}
+NON_OPERATOR_PARTICLES = {'هل', 'قد', 'لا', 'ما', 'إلا', 'إنما', 'أما', 'ألا', 'نعم', 'بلى',
+                          'يا', 'أي', 'كم', 'إذا', 'إذ', 'ثم', 'أو', 'أم', 'بل', 'لكن', 'و', 'ف'}
+PRONOUNS = {'هو', 'هي', 'هما', 'هم', 'هن', 'أنت', 'أنتم', 'أنتن', 'أنا', 'نحن', 'إياك', 'إياه'}
+DEMONSTRATIVES = {'هذا', 'هذه', 'هؤلاء', 'ذلك', 'تلك', 'أولئك', 'ذا', 'ذي'}
+RELATIVES = {'الذي', 'التي', 'الذين', 'اللواتي', 'اللاتي', 'اللذان', 'اللتان'}
+ZIYADAT = ('ي', 'ت', 'أ', 'ن')                        # R3, the four muḍāriʿ prefixes
+
+OP_NONE = 'NONE'
+OP_STATES = [OP_NONE, 'HARF_JARR', 'HARF_JAZM', 'HARF_NASB', 'INNA', 'KANA', 'FUTURE']
+OP2ID = {s: i for i, s in enumerate(OP_STATES)}
+
+# The valency each operator demands, in order (what Sibawayh's ʿāmil works upon):
+#   harf_jarr -> one majrūr nominal (+ its naʿt, R4)
+#   inna      -> ism inna (naṣb) then khabar inna (rafʿ)      -- al-Kitab 3/119 (R6)
+#   kana      -> ism kana (rafʿ) then khabar kana (naṣb)
+#   jazm/nasb -> one muḍāriʿ verb                              -- al-Kitab 3/8  (R2)
+VALENCY: Dict[str, List[Tuple[str, str]]] = {
+    'HARF_JARR': [('jarr', 'majrur')],
+    'INNA': [('nasb', 'ism_inna'), ('raf', 'khabar_inna')],
+    'KANA': [('raf', 'ism_kana'), ('nasb', 'khabar_kana')],
+    'HARF_JAZM': [('jazm', 'fil_mudari_majzum')],
+    'HARF_NASB': [('nasb', 'fil_mudari_mansub')],
+    'FUTURE': [('raf', 'fil_mudari_marfu')],
+}
+
+
+def strip_diac(s: str) -> str:
+    return DIAC.sub('', s or '').strip()
+
+
+def norm_ar(s: str) -> str:
+    """Undiacritized, alef/ya/ta-marbuta-normalised (matches the project's blueprint)."""
+    return strip_diac(s).translate(_ALEF)
+
+
+def is_definite(word: str) -> bool:
+    """R9/ENGINEERING: definiteness, for the naʿt-continuation test of R4."""
+    w = norm_ar(word)
+    if not w:
+        return False
+    return bool(w.startswith('ال') or w in PRONOUNS or w in DEMONSTRATIVES or w in RELATIVES
+                or w == 'الله')
+
+
+# --- lexicon views -----------------------------------------------------------------------
+# Two views are needed because the blueprint and the corpus both write the hamza, while a
+# bare-alef text (`ان` for `إن`) is also common:
+#   * raw view  -- strip_diac only, so `إن` and `أن` stay DISTINCT (R6 needs this);
+#   * norm view -- alef-normalised, for matching bare-alef input.
+OPERATOR_LEXICON = (JARR | INNA_FAMILY | JAZM_UNCONDITIONAL | NASB_UNCONDITIONAL
+                    | CONDITIONAL | KANA_FAMILY | FUTURE)
+OPERATOR_LEXICON_NORM = {norm_ar(w) for w in OPERATOR_LEXICON}
+NON_OPERATOR_PARTICLES = {norm_ar(w) for w in NON_OPERATOR_PARTICLES}
+PRONOUNS = {norm_ar(w) for w in PRONOUNS}
+DEMONSTRATIVES = {norm_ar(w) for w in DEMONSTRATIVES}
+RELATIVES = {norm_ar(w) for w in RELATIVES}
+COORDINATORS = {norm_ar(w) for w in COORDINATORS}
+INNA_NORM = {norm_ar(w) for w in INNA_FAMILY}
+JARR_NORM = {norm_ar(w) for w in JARR}
+JAZM_NORM = {norm_ar(w) for w in JAZM_UNCONDITIONAL}
+NASB_NORM = {norm_ar(w) for w in NASB_UNCONDITIONAL}
+COND_NORM = {norm_ar(w) for w in CONDITIONAL}
+KANA_NORM = {norm_ar(w) for w in KANA_FAMILY}
+FUTURE_NORM = {norm_ar(w) for w in FUTURE}
+COORD_NORM = {norm_ar(w) for w in COORDINATORS}
+
+
+def in_lex(core: str, lex: set, lex_norm: set) -> bool:
+    """Membership under either view (hamza-preserving or bare-alef)."""
+    return core in lex or norm_ar(core) in lex_norm
+
+# The operator families, in resolution order.  The RAW (hamza-preserving) view is consulted
+# across ALL families first; only when it matches nothing does the bare-alef view apply.  This
+# keeps «كأن» (INNA) apart from «كان» (KANA), which a bare-alef text would otherwise collapse.
+FAMILIES = [
+    ('INNA', INNA_FAMILY, INNA_NORM),
+    ('HARF_JAZM', JAZM_UNCONDITIONAL, JAZM_NORM),
+    ('HARF_NASB', NASB_UNCONDITIONAL, NASB_NORM),
+    ('CONDITIONAL', CONDITIONAL, COND_NORM),
+    ('HARF_JARR', JARR, JARR_NORM),
+    ('KANA', KANA_FAMILY, KANA_NORM),
+    ('FUTURE', FUTURE, FUTURE_NORM),
+]
+
+
+def operator_family(core: str) -> Optional[str]:
+    """Which operator family a core form belongs to (raw view first, then bare-alef view)."""
+    if not core:
+        return None
+    for name, lex, _ in FAMILIES:
+        if core in lex:
+            return name
+    n = norm_ar(core)
+    for name, _, lexn in FAMILIES:
+        if n in lexn:
+            return name
+    return None
+
+
+@dataclass
+class Governance:
+    """Per-position result of the walk (the (category, case, role, reason) record)."""
+    index: int
+    word: str
+    word_class: str
+    operator: str          # the operator this word IS (or NONE)
+    state: str             # the operator IN FORCE at this position (persistence, R4)
+    case: str              # '', 'raf', 'nasb', 'jarr', 'jazm'
+    role: str
+    reason: str
+
+    def as_tuple(self, category: Any) -> Tuple[Any, str, str, str]:
+        return (category, self.case, self.role, self.reason)
+
+
+class _AmilChain:
+    """Sibawayh's persistent ʿāmil: the state stays in force until its act is cut (R4/R5)."""
+
+    def __init__(self, gov: 'SibawayhGovernor'):
+        self.gov = gov
+        self.reset()
+
+    def reset(self) -> None:
+        self.state = OP_NONE
+        self.slot = 0              # valency slots of the active operator already filled
+        self.head_taken = False    # the governed nominal head has been read
+        self.head_def = None       # its definiteness (R9, for the naʿt test)
+        self.closed = False        # the constituent is complete after this position
+        self.closed_before = False  # ... complete BEFORE it (set on entry)
+        self.head_taken_before = False
+        self.conflict = False      # two operators on one operand were attempted (R7)
+        self.last_class = 'NONE'
+        self.last_word = ''
+        self.n_ops_seen = 0
+
+    # -- helpers -------------------------------------------------------------------------
+    def _cut(self) -> None:
+        self.state = OP_NONE
+        self.slot = 0
+        self.head_taken = False
+        self.head_def = None
+        self.closed = False
+        self.head_taken_before = False
+
+    def _agrees_with_head(self, word: str) -> bool:
+        if self.head_def is None:
+            return True
+        return is_definite(word) == self.head_def
+
+    def outstanding(self) -> bool:
+        """True while the active operator still demands an operand it has not received."""
+        if self.state == OP_NONE:
+            return False
+        if self.state == 'HARF_JARR':
+            return not self.head_taken
+        return self.slot < len(VALENCY.get(self.state, []))
+
+    # -- the walk ------------------------------------------------------------------------
+    def observe(self, word: str, cls: str, op: str,
+                imperfect: Optional[bool] = None) -> str:
+        """Feed one word; return the operator state IN FORCE at that position.
+
+        An operator returns the state it establishes; a governed word returns the state it
+        falls under -- which is what makes the jarr reach the SECOND noun of
+        «في الأجسام الشفافة» (R4).
+        """
+        self.closed_before = self.closed
+        self.head_taken_before = self.head_taken
+        self.last_word = word
+        self.last_class = cls
+
+        if op != OP_NONE:
+            self.n_ops_seen += 1
+            # R7: two operators do not govern one operand.  An operator arriving while
+            # another still has an outstanding operand is a conflict; the nearer one wins
+            # (al-Kitab 1/73: «وإنما كان الذى يليه أولى لقرب جواره»).
+            if self.state != OP_NONE and self.outstanding():
+                self.conflict = True
+            self.state = op
+            self.slot = 0
+            self.head_taken = False
+            self.head_def = None
+            self.closed = False
+            return op
+
+        if self.state == OP_NONE:
+            self.closed = False
+            return OP_NONE
+
+        in_force = self.state
+
+        if self.state == 'HARF_JARR':
+            # R2: the jarr cannot work upon a verb or a particle -> the act is cut (R5)
+            if cls in ('FIL', 'HARF'):
+                self._cut()
+                return OP_NONE
+            if not self.head_taken:
+                self.head_taken = True
+                self.head_def = is_definite(word)
+                return in_force
+            # a second nominal: naʿt of the manʿūt -> still majrūr "because the two are as
+            # one noun" (R4); the naʿt chain may run on (R4_nat_chain).  Agreement in
+            # definiteness separates naʿt (continue) from a new clause (cut).
+            if self._agrees_with_head(word):
+                self.closed = True       # the constituent is complete after the naʿt
+                return in_force
+            self._cut()
+            return OP_NONE
+
+        if self.state in ('HARF_JAZM', 'HARF_NASB', 'FUTURE'):
+            # R2: these work only upon the muḍāriʿ; the verb consumes the operator (R5)
+            is_imp = self.gov.is_imperfect(word) if imperfect is None else bool(imperfect)
+            if cls == 'FIL' and is_imp:
+                self._cut()
+                return in_force
+            self._cut()
+            return OP_NONE
+
+        if self.state in ('INNA', 'KANA'):
+            reqs = VALENCY[self.state]
+            if self.slot < len(reqs) and cls in ('ISM', 'SIFAH'):
+                self.slot += 1
+                if self.slot >= len(reqs):
+                    self.closed = True
+                return in_force
+            self._cut()
+            return OP_NONE
+
+        self._cut()
+        return OP_NONE
+
+    def state_for_next(self) -> str:
+        """The persistent ʿāmil constraining the NEXT word (the decode-time mask input)."""
+        if self.state == OP_NONE or self.closed:
+            return OP_NONE
+        return self.state
+
+
+class SibawayhGovernor:
+    """One callable object for the ʿāmil, its persistence, and the constituent/valency stack.
+
+    API (exactly what the decoder calls):
+        analyze(words) -> [(category, case, role, reason), ...]     with persistence
+        transition_allowed(prev_class, next_class, coordinator_between=False) -> bool
+        operator_of(word, next_word=None) -> str     resolves إن/أن by the next word's class
+        state_for_next() / states(words) / reset()   the persistent chain
+    """
+
+    # R1's three classes, plus Ibn Malik's tābiʿ category (SIFAH) which the POS automaton
+    # already uses.  R1 itself has exactly three.
+    ISM, FIL, HARF, SIFAH = 1, 2, 3, 4
+    CLASS_NAME = {1: 'ISM', 2: 'FIL', 3: 'HARF', 4: 'SIFAH', 0: 'NONE'}
+    CLASS_NAME_ID = {'ISM': 1, 'FIL': 2, 'HARF': 3, 'SIFAH': 4}
+
+    # E1 ENGINEERING: the class->class table is an encoding of R1 for a POS automaton; its
+    # content is the project's existing IbnMalikPOSAutomaton.PERMISSIBLE_TRANSITIONS.
+    # The one rule WITH a primary source is the coordinator exception (R8).
+    TRANSITIONS: Dict[str, set] = {
+        'NONE': {ISM, FIL, HARF},
+        'ISM': {ISM, FIL, HARF, SIFAH},
+        'FIL': {ISM, HARF, SIFAH},          # Fiʿl -> Fiʿl only through a coordinator (R8)
+        'HARF': {ISM, FIL},                 # R2: a particle governs only nouns/verbs
+        'SIFAH': {ISM, FIL, HARF, SIFAH},
+    }
+
+    def __init__(self, vocab: Any = None, constituent_stack: Any = None,
+                 blueprint_path: Optional[str] = None):
+        self.vocab = vocab
+        self.constituent_stack = constituent_stack
+        self.blueprint_path = blueprint_path or getattr(vocab, 'blueprint_path', None)
+        self.chain = _AmilChain(self)
+        self.t2i: Dict[str, int] = {}
+        self._wazn_role = None
+        self.imperfect_ids: set = set()
+        self.past_ids: set = set()
+        self.nominal_ids: set = set()
+        self._known_surfaces: set = set()
+        self._init_from_vocab()
+
+    # -- vocabulary-derived morphology (R3) ----------------------------------------------
+    def _init_from_vocab(self) -> None:
+        v = self.vocab
+        if v is None:
+            return
+        awzan = list(getattr(v, 'awzan_list', []) or [])
+        # R3: the muḍāriʿ is marked by the four ziyādāt at the head of the word.  A noun may
+        # share the letter (أَفْعَال، تَفَاعُل), so the mark is the ziyāda PLUS the muḍāriʿ's
+        # own ending (ḍamma) or its doubled lām -- which no broken plural or maṣdar in this
+        # vocabulary carries.  This DERIVES the set the old code hardcoded as range(114,130)
+        # (whose members are مُفَعْلِل، مُفْتَعَل، مِفْعَال).
+        self.imperfect_ids = {i for i, w in enumerate(awzan)
+                              if w.startswith(ZIYADAT) and (w.endswith('ُ') or w.endswith('ّ'))}
+        if not self.imperfect_ids:                      # ENGINEERING fallback
+            self.imperfect_ids = set(range(114, min(130, len(awzan))))
+        self.past_ids = ({8, 12, 14, 15, 16, 19, 22, 23, 24, 25, 26, 27, 29, 31, 33, 35, 38,
+                          39, 40, 45, 49, 50, 54, 61, 75, 76, 82, 83} & set(range(len(awzan))))
+        self.past_ids -= self.imperfect_ids
+        self.nominal_ids = (set(range(len(awzan))) - self.imperfect_ids - self.past_ids
+                            - {0, 1, 2, 3, 4})
+        try:
+            from constituent_stack import wazn_role
+            self._wazn_role = wazn_role
+        except Exception as exc:
+            # VISIBILITY: without wazn_role the governor loses the derived-adjective classes it
+            # uses for the ḥāl/naʿt decisions, and reports the reduced answer as if complete.
+            _warn_once('wazn_role', f'constituent_stack.wazn_role unavailable: {exc!r} -- '
+                                    f'morph-role classification is disabled')
+            self._wazn_role = None
+        if self.blueprint_path:
+            try:
+                self.t2i = json.load(open(self.blueprint_path, encoding='utf-8')) \
+                    .get('vocab_token_to_id', {})
+            except Exception as exc:
+                # VISIBILITY: an empty token map makes surface_of()/the particle lookups miss
+                # silently, which changes the reported iʿrāb.  Default {} is unchanged.
+                _warn_once('blueprint_t2i',
+                           f'blueprint token map {self.blueprint_path!r} unreadable: {exc!r} -- '
+                           f'surface lookup degrades to the empty map')
+                self.t2i = {}
+        for r in list(getattr(v, 'roots_list', []) or []):
+            if r.startswith('<P:'):
+                self._known_surfaces.add(norm_ar(r[3:-1]))
+
+    # -- surface helpers -----------------------------------------------------------------
+    def surface_of(self, t: Sequence[int]) -> str:
+        if self.vocab is None:
+            return ''
+        try:
+            return strip_diac(self.vocab.decode_word(*t)).strip()
+        except Exception as exc:
+            # VISIBILITY: an empty surface classifies as nothing, so a decode failure silently
+            # became "no operator here" all the way to the reported iʿrāb.  Default '' unchanged.
+            _warn_once('surface_of', f'vocab.decode_word{t} raised: {exc!r} -- empty surface used')
+            return ''
+
+    @staticmethod
+    def _operator_lexicon() -> set:
+        return OPERATOR_LEXICON
+
+    def _core(self, word: str) -> str:
+        """E3: strip a clitic (و/ف/ب/ل/ك/س/ال) ONLY when the remainder is a known operator,
+        so «بيت» is never read as «ب» + «يت».  The returned form preserves the hamza, so
+        `إن` and `أن` stay distinct for the resolution of R6."""
+        w = strip_diac(word)
+        if in_lex(w, OPERATOR_LEXICON, OPERATOR_LEXICON_NORM):
+            return w
+        for pre in ('وال', 'فال', 'بال', 'كال', 'لل', 'ال', 'و', 'ف', 'ب', 'ل', 'ك', 'س'):
+            if w.startswith(pre) and len(w) > len(pre):
+                rest = w[len(pre):]
+                if in_lex(rest, OPERATOR_LEXICON, OPERATOR_LEXICON_NORM):
+                    return rest
+        return w
+
+    # -- word class (R1/R2/R3) ------------------------------------------------------------
+    def word_class(self, word: str, wazn_id: Optional[int] = None) -> str:
+        raw = strip_diac(word)
+        w = norm_ar(word)
+        if not w:
+            return 'NONE'
+        if (wazn_id is not None and wazn_id in self.imperfect_ids
+                and w.startswith(ZIYADAT)):
+            return 'FIL'                      # R3, unambiguously muḍāriʿ
+        core = self._core(raw)
+        if (in_lex(core, OPERATOR_LEXICON, OPERATOR_LEXICON_NORM)
+                or in_lex(core, COORDINATORS, COORD_NORM)
+                or w in NON_OPERATOR_PARTICLES or w in self._known_surfaces):
+            return 'HARF'
+        if self.vocab is not None:
+            try:
+                _, _, wz, _ = self.vocab.encode_word(w)
+                if wz in self.imperfect_ids and w.startswith(ZIYADAT):
+                    return 'FIL'
+                role = self._morph_role_of_wazn(self.vocab.id2wazn.get(wz, ''))
+                if role in ('ism_fa_il', 'ism_maf_ul', 'sifah_mushabbahah',
+                            'sighat_mubalaghah', 'af_al_tafdil'):
+                    return 'SIFAH'
+            except Exception as exc:
+                # VISIBILITY: a failed morph probe silently fell through to the 'ISM' default, so
+                # an adjective could be reported as a plain noun with no trace.  Default unchanged.
+                _warn_once('word_class_morph', f'morph probe for {w!r} raised: {exc!r} -- '
+                                                f'falling back to the ISM default')
+        return 'ISM'                          # E2: māḍī/ism homography unresolved
+
+    def class_of_tuple(self, t: Sequence[int]) -> str:
+        return self.word_class(self.surface_of(t), t[2] if len(t) > 2 else None)
+
+    def _morph_role_of_wazn(self, wazn_name: str) -> Optional[str]:
+        if self._wazn_role is None:
+            return None
+        try:
+            return self._wazn_role(wazn_name)
+        except Exception as exc:
+            # VISIBILITY: None here silently removes the derived-adjective evidence from the
+            # ḥāl/naʿt decisions.  Default None unchanged.
+            _warn_once('morph_role', f'wazn_role({wazn_name!r}) raised: {exc!r} -- no morph role')
+            return None
+
+    # -- operator resolution (R2/R6/R8) ---------------------------------------------------
+    def operator_of(self, word, next_word=None) -> str:
+        """Classify one word as an operator; ambiguous إن/أن use the NEXT word's class (R6).
+
+        `word` may be a surface string or a (prefix, root, wazn, suffix) tuple.  The RAW
+        (hamza-preserving) form is tested first, so the collapse of إن/أن/كأن/كان under a
+        bare-alef spelling falls back to the tie-breaks documented below.
+        """
+        nxt = next_word
+        if isinstance(word, (tuple, list)):
+            w = self.surface_of(word)
+            if isinstance(nxt, (tuple, list)):
+                nxt = self.surface_of(nxt)
+        else:
+            w = str(word)
+        if isinstance(nxt, (tuple, list)):
+            nxt = self.surface_of(nxt)
+        core = strip_diac(w)
+        if not core:
+            return OP_NONE
+        next_verbal = (self.word_class(nxt) == 'FIL') if nxt else False
+        fam = operator_family(core)
+
+        # R6: the INNA family is resolved FIRST -- the old code tested JAZM first and sent
+        # the undiacritized «إن» to HARF_JAZM, which is the conditional إنْ only.
+        if fam == 'INNA':
+            if core == 'إن':
+                # إن + verb = conditional إنْ, a jazm operator (al-Kitab 3/56); otherwise
+                # the emphatic إنَّ, «ولا تكون إن إلا مبتدأة», opening a nominal sentence
+                # (al-Kitab 3/119).  No next word -> INNA, its unmarked reading.
+                return 'HARF_JAZM' if next_verbal else 'INNA'
+            if core == 'أن':
+                # أن + verb = أنْ of naṣb (its ṣila); otherwise أنَّ (INNA).
+                return 'HARF_NASB' if next_verbal else 'INNA'
+            if core == 'ان':
+                # E4: bare-alef spelling collapsed إن/أن.  Sibawayh's division (R6) is only
+                # partially recoverable: + verb -> أنْ of naṣb, otherwise إنَّ.
+                return 'HARF_NASB' if next_verbal else 'INNA'
+            return 'INNA'                     # كأن / لكن / ليت / لعل
+        if fam == 'HARF_JAZM':
+            return 'HARF_JAZM'
+        if fam == 'HARF_NASB':
+            return 'HARF_NASB'
+        if fam == 'CONDITIONAL':
+            return 'HARF_JAZM' if next_verbal else OP_NONE
+        if fam == 'HARF_JARR':
+            return 'HARF_JARR'
+        if fam == 'KANA':
+            return 'KANA'
+        if fam == 'FUTURE':
+            return 'FUTURE'
+        if norm_ar(core) in ('لا', 'ما') and next_verbal:
+            return 'HARF_JAZM'           # lā al-nāhiya / mā al-shartiyya before a verb
+        return OP_NONE
+
+    def operator_of_tuple(self, t: Sequence[int], next_t: Optional[Sequence[int]] = None) -> str:
+        return self.operator_of(self.surface_of(t),
+                                self.surface_of(next_t) if next_t is not None else None)
+
+    def is_imperfect(self, word: str) -> bool:
+        w = norm_ar(word)
+        if not w or w[0] not in ZIYADAT:
+            return False
+        if self.vocab is not None:
+            try:
+                _, _, wz, _ = self.vocab.encode_word(w)
+                return wz in self.imperfect_ids
+            except Exception as exc:
+                # VISIBILITY: the handler answers True (assume muḍāriʿ) when the wazn cannot be
+                # read; a systematically failing encode_word therefore turned every zāʾid-initial
+                # word into a verb with no trace.  Answer True is unchanged.
+                _warn_once('is_imperfect', f'encode_word({w!r}) raised: {exc!r} -- assumed '
+                                           f'imperfect')
+        return True
+
+    @staticmethod
+    def is_coordinator(word: str) -> bool:
+        """A coordinating particle (R8).  A cliticised coordinator is detected from the
+        model's own PREFIX slot -- see coordinator_from_prefix() -- not by string surgery."""
+        return norm_ar(word) in COORDINATORS
+
+    @staticmethod
+    def coordinator_from_prefix(prefix: str) -> bool:
+        """The NRMP tuple carries the clitic separately, so «وقال» / «والكتاب» are read
+        from the prefix slot rather than guessed from the surface string (E3)."""
+        return strip_diac(prefix) in ('و', 'ف', 'وال', 'فال')
+
+    # -- the transition table (R8) --------------------------------------------------------
+    def transition_allowed(self, prev_class, next_class, coordinator_between: bool = False) -> bool:
+        """Can `next_class` follow `prev_class`?  A coordinator lifts the restriction (R8).
+
+        Ibn Malik, Alfiyyah, bāb al-ʿaṭf: «وعطفك الفعل على الفعل يصح» -- coordinating a verb
+        onto a verb is correct; «وانقل بها للثان حكم الأول» -- the wāw carries the first's
+        ḥukm over to the second.  So Fiʿl -> Fiʿl is allowed exactly when a coordinator
+        intervenes, and forbidden otherwise.
+        """
+        prev = prev_class if isinstance(prev_class, str) else self.CLASS_NAME.get(prev_class, 'NONE')
+        nxt = next_class if isinstance(next_class, str) else self.CLASS_NAME.get(next_class, 'NONE')
+        if nxt == 'NONE':
+            return False
+        if coordinator_between:
+            return True
+        return self.CLASS_NAME_ID[nxt] in self.TRANSITIONS.get(
+            prev, {self.ISM, self.FIL, self.HARF})
+
+    def wazn_class(self, wazn_id: int) -> str:
+        """The word class a wazn id induces, for the decode-time transition mask."""
+        if wazn_id in self.imperfect_ids or wazn_id in self.past_ids:
+            return 'FIL'
+        if wazn_id in (0, 1, 2, 3, 4):            # PAD / NONE / UNK / end / start
+            return 'NONE'
+        name = self.vocab.id2wazn.get(wazn_id, '') if self.vocab is not None else ''
+        role = self._morph_role_of_wazn(name)
+        if role in ('ism_fa_il', 'ism_maf_ul', 'sifah_mushabbahah', 'sighat_mubalaghah',
+                    'af_al_tafdil'):
+            return 'SIFAH'
+        return 'ISM'
+
+    def mask_wazn_logits(self, w_logits, prev_class: str,
+                         coordinator_between: bool = False):
+        """DECODE-TIME TRANSITION TABLE: mask the awzān whose class the previous class cannot
+        reach.  Ibn Malik, Alfiyyah, bāb al-ʿaṭf: «وعطفك الفعل على الفعل يصح» -- Fiʿl -> Fiʿl
+        is admitted only when a coordinator (و/ف) carries the first's ḥukm to the second.
+        ENGINEERING (E1): the class table itself encodes R1's three classes.
+        """
+        keep = self.allowed_next_classes(coordinator_between)
+        out = w_logits.clone()
+        masked_any = False
+        for wid in range(int(out.shape[0])):
+            if self.wazn_class(wid) not in keep:
+                out[wid] = -float('inf')
+                masked_any = True
+        if masked_any and not bool((out > -float('inf')).any()):
+            return w_logits          # never leave the decoder with nothing to choose
+        return out
+
+    def allowed_next_classes(self, coordinator_between: bool = False) -> set:
+        """Decode-time mask input: the classes the persistent ʿāmil admits next."""
+        prev = self.chain.last_class if self.chain.last_class != 'NONE' else 'NONE'
+        return {c for c in ('ISM', 'FIL', 'HARF', 'SIFAH')
+                if self.transition_allowed(prev, c, coordinator_between)}
+
+    # -- the chain API (persistence) ------------------------------------------------------
+    def reset(self) -> None:
+        self.chain.reset()
+
+    reset_chain = reset                     # alias for the sibawayh_governance_engine callers
+
+    def observe_word(self, word: str, next_word: Optional[str] = None) -> str:
+        return self.chain.observe(norm_ar(word), self.word_class(word),
+                                  self.operator_of(word, next_word))
+
+    def observe_tuple(self, t: Sequence[int], next_t: Optional[Sequence[int]] = None) -> str:
+        return self.chain.observe(norm_ar(self.surface_of(t)), self.class_of_tuple(t),
+                                  self.operator_of_tuple(t, next_t))
+
+    def observe_sentence(self, words_or_text) -> None:
+        words = words_or_text.split() if isinstance(words_or_text, str) else list(words_or_text)
+        self.reset()
+        for i, w in enumerate(words):
+            self.observe_word(w, words[i + 1] if i + 1 < len(words) else None)
+
+    def state_for_next(self) -> str:
+        """The ʿāmil in force for the word being generated (persistence, R4/R5)."""
+        return self.chain.state_for_next()
+
+    def state_in_force(self) -> str:
+        return self.chain.state
+
+    def states(self, words: Sequence[str]) -> List[str]:
+        """The operator state AT each position, with persistence (R4)."""
+        words = list(words)
+        enc = [(norm_ar(w), self.word_class(w),
+                self.operator_of(w, words[i + 1] if i + 1 < len(words) else None))
+               for i, w in enumerate(words)]
+        self.reset()
+        return [self.chain.observe(w, c, o) for (w, c, o) in enc]
+
+    def states_of_tuples(self, tuples: Sequence[Sequence[int]]) -> List[str]:
+        tuples = [tuple(t) for t in tuples]
+        enc = [(norm_ar(self.surface_of(t)), self.class_of_tuple(t),
+                self.operator_of_tuple(t, tuples[i + 1] if i + 1 < len(tuples) else None))
+               for i, t in enumerate(tuples)]
+        self.reset()
+        return [self.chain.observe(w, c, o) for (w, c, o) in enc]
+
+    # -- the valency / constituent stack (R4/R6/R7) ---------------------------------------
+    def govern(self, words: Sequence[str]) -> List[Governance]:
+        """Walk a sentence: the CASE comes from the persistent ʿāmil, the ROLE from valency
+        plus morphology.  Imposing a case IS what ʿamal is; the role follows from the case
+        and the word's own wazn."""
+        words = [norm_ar(w) for w in words]
+        self.reset()
+        out: List[Governance] = []
+        for i, w in enumerate(words):
+            nxt = words[i + 1] if i + 1 < len(words) else None
+            op = self.operator_of(w, nxt)
+            cls = self.word_class(w)
+            state = self.chain.observe(w, cls, op)
+            case, role, why = '', '', ''
+            closed_before = self.chain.closed_before
+
+            if op != OP_NONE:
+                role = 'shart_in' if (op == 'HARF_JAZM' and w == 'إن') else op.lower()
+                why = f'operator:{op.lower()}'
+                if op == 'HARF_JARR':
+                    why += ' (R2: jarr only in nouns)'
+                elif op == 'INNA':
+                    why += ' (R6: إن is sentence-initial)'
+                out.append(Governance(i, w, cls, op, state, '', role, why))
+                continue
+
+            if state != OP_NONE:
+                reqs = VALENCY.get(state, [])
+                if reqs:
+                    idx = 0 if state == 'HARF_JARR' else max(min(self.chain.slot - 1,
+                                                                 len(reqs) - 1), 0)
+                    case, role = reqs[idx]
+                why = f'case={case} from {state} (persistent, R4)'
+                if state == 'HARF_JARR' and self.chain.head_taken_before:
+                    case, role = 'jarr', 'nat'
+                    why = ('case=jarr from harf_jarr on the naʿt: «فصار النعت مجرورا مثل '
+                           'المنعوت لأنهما كالاسم الواحد» (al-Kitab 1/421)')
+            elif cls == 'FIL':
+                case, role = ('raf', 'fil_mudari_marfu') if self.is_imperfect(w) else ('', 'fil_madi')
+                why = 'no operator -> rafʿ (muḍāriʿ) / mabnī (māḍī carries no case)'
+            else:
+                case, role = 'raf', 'mubtada'
+                why = 'no operator -> mubtada (rafʿ)'
+
+            morph = ''
+            if self.vocab is not None:
+                try:
+                    _, _, wz, _ = self.vocab.encode_word(w)
+                    morph = self._morph_role_of_wazn(self.vocab.id2wazn.get(wz, '')) or ''
+                except Exception as exc:
+                    # VISIBILITY: an empty morph role silently removes the ḥāl reading
+                    # (case == nasb + derived adjective) from the reported iʿrāb.
+                    _warn_once('govern_tuples_morph',
+                               f'morph probe for {w!r} raised: {exc!r} -- no morph role, the '
+                               f'ḥāl test cannot fire')
+                    morph = ''
+            if case == 'nasb' and morph in ('ism_fa_il', 'ism_maf_ul', 'sifah_mushabbahah'):
+                role, why = 'hal', f'{why} + derived adjective ({morph})'
+            elif case == 'jarr' and morph:
+                role, why = morph, f'{why} + wazn class {morph}'
+            out.append(Governance(i, w, cls, op, state, case, role, why))
+        return out
+
+    def _govern_tuples(self, tuples: Sequence[Sequence[int]],
+                       surface: Sequence[str]) -> List[Governance]:
+        """The same walk over model tuples (the NRMP decode path), where classes come from
+        the wazn so the ʿāmil exists before the surface word does."""
+        self.reset()
+        out: List[Governance] = []
+        for i, t in enumerate(tuples):
+            nxt = tuples[i + 1] if i + 1 < len(tuples) else None
+            w = norm_ar(surface[i]) if i < len(surface) else ''
+            op = self.operator_of_tuple(t, nxt)
+            cls = self.class_of_tuple(t)
+            state = self.chain.observe(w, cls, op)
+            case, role, why = '', '', ''
+            closed_before = self.chain.closed_before
+            if op != OP_NONE:
+                role, why = op.lower(), f'operator:{op.lower()}'
+            elif state != OP_NONE:
+                reqs = VALENCY.get(state, [])
+                if reqs:
+                    idx = 0 if state == 'HARF_JARR' else max(min(self.chain.slot - 1,
+                                                                 len(reqs) - 1), 0)
+                    case, role = reqs[idx]
+                why = f'case={case} from {state} (persistent, R4)'
+                if state == 'HARF_JARR' and self.chain.head_taken_before:
+                    case, role = 'jarr', 'nat'
+                    why = ('case=jarr from harf_jarr on the naʿt (al-Kitab 1/421: '
+                           '«لأنهما كالاسم الواحد»)')
+            elif cls == 'FIL':
+                case, role = ('raf', 'fil_mudari_marfu') if (len(t) > 2 and t[2] in
+                                                             self.imperfect_ids) else ('', 'fil_madi')
+                why = 'no operator -> rafʿ (muḍāriʿ) / mabnī (māḍī)'
+            else:
+                case, role = 'raf', 'mubtada'
+                why = 'no operator -> mubtada (rafʿ)'
+            out.append(Governance(i, w, cls, op, state, case, role, why))
+        return out
+
+    # -- the deliverable API --------------------------------------------------------------
+    def analyze(self, words) -> List[Tuple[Any, str, str, str]]:
+        """Return (category, case, role, reason) per word, with the ʿāmil persisting.
+
+        `words` may be surface strings or (prefix, root, wazn, suffix) tuples (NRMP decode).
+        The category id comes from the blueprint's token table and the role from the
+        constituent/valency stack (constituent_stack.py: `wazn_role`) driven by the corrected
+        operator chain -- so the stack's morphological role assignment is actually used, with
+        the persistent operator overriding the case where the stack lost it.
+        """
+        seq = list(words)
+        is_tuples = bool(seq) and isinstance(seq[0], (tuple, list))
+        if is_tuples:
+            tuples = [tuple(t) for t in seq]
+            surface = [self.surface_of(t) for t in tuples]
+        else:
+            tuples = None
+            surface = [norm_ar(w) for w in seq]
+
+        base = None
+        if self.constituent_stack is not None:
+            try:
+                base = self.constituent_stack.analyze(surface)   # the valency stack, for real
+            except Exception as exc:
+                # VISIBILITY: base=None means the valency stack contributed NOTHING to the
+                # analysis, while the result is still reported as governed.  Default None
+                # unchanged.  One line per site: analyze() runs once per sentence.
+                _warn_once('valency_stack',
+                           f'constituent_stack.analyze() raised: {exc!r} -- the valency stack '
+                           f'silently contributed nothing to this analysis')
+                base = None
+
+        recs = (self._govern_tuples(tuples, surface) if tuples is not None
+                else self.govern(surface))
+        out: List[Tuple[Any, str, str, str]] = []
+        for i, rec in enumerate(recs):
+            case, role, why, cat = rec.case, rec.role, rec.reason, None
+            if base is not None and i < len(base) and len(base[i]) >= 4:
+                bcat, bcase, brole, breason = base[i]
+                cat = bcat
+                if not case and bcase:
+                    case, why = bcase, f'{breason} [constituent_stack]'
+                if brole and brole != 'mubtada':
+                    role, why = brole, f'{why} + constituent_stack:{brole}'
+            if cat is None:
+                cat = self._category(role)
+            out.append((cat, case, role, why))
+        return out
+
+    def cases(self, words) -> List[str]:
+        seq = list(words)
+        if seq and isinstance(seq[0], (tuple, list)):
+            return [r.case for r in self._govern_tuples([tuple(t) for t in seq],
+                                                        [self.surface_of(t) for t in seq])]
+        return [r.case for r in self.govern(seq)]
+
+    def _category(self, role: str) -> Any:
+        if self.t2i:
+            cid = self.t2i.get(f'<{role}>')
+            if cid is not None:
+                return cid
+            for key in ('<ism>', '<mubtada>', '<fi_l_mudari>'):
+                if key in self.t2i:
+                    return self.t2i[key]
+        return role
+
+    def op_ids_for_ids(self, root_ids: Sequence[int], wazn_ids: Sequence[int],
+                       prefix_ids: Optional[Sequence[int]] = None) -> List[int]:
+        """FAST path for the NRMT training stream: no surface realization per token.
+
+        The operator comes from the ROOT slot (the particles live there as `<P:...>`) and the
+        word class from the WAZN slot (R3), so a 384k-token cache costs a walk, not a
+        tokenizer call.  There is no look-ahead in a stream, so «إن/أن» take their unmarked
+        INNA reading here (R6); the decode path, which has the next word, resolves them.
+        """
+        self.reset()
+        out: List[int] = []
+        for i in range(len(root_ids)):
+            r = int(root_ids[i])
+            w = int(wazn_ids[i]) if i < len(wazn_ids) else 1
+            root = self.vocab.id2root.get(r, '') if self.vocab is not None else ''
+            if root.startswith('<P:'):
+                op = self.operator_of(root[3:-1])
+                cls = 'HARF'
+                imper = None
+            else:
+                op = OP_NONE
+                if w in self.imperfect_ids:
+                    cls, imper = 'FIL', True
+                elif w in self.past_ids:
+                    cls, imper = 'FIL', False
+                elif w in (0, 1, 2, 3, 4):
+                    cls, imper = 'HARF', None
+                else:
+                    cls, imper = 'ISM', None
+            state = self.chain.observe(root if not root.startswith('<') else '', cls, op, imper)
+            out.append(OP2ID.get(state, 0))
+        return out
+
+    # -- NRMT training path: persistent ʿāmil over a root/wazn stream ---------------------
+    def op_ids_for_tuples(self, tuples: Sequence[Sequence[int]]) -> List[int]:
+        """Persistent operator ids for the NRMT training stream.
+
+        Replaces `op_table[roots]` (t-1 only) with the chained state, so the head is
+        conditioned on the ʿāmil actually in force (R4), not on the previous word alone.
+        """
+        return [OP2ID.get(s, 0) for s in self.states_of_tuples(tuples)]
+
+
+# ---------------------------------------------------------------------------------------
+# self-test (no model needed)
+# ---------------------------------------------------------------------------------------
+def _selftest() -> None:                                   # pragma: no cover
+    import sys
+    from pathlib import Path
+    root = Path(__file__).resolve().parent
+    sys.path.insert(0, str(root))
+    sys.path.insert(0, str(root / 'models'))
+    import nrmp_vocab as nv
+    cls = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+    V = cls(str(root / 'data/rootformer_v12_arabic_blueprint.json'))
+    g = SibawayhGovernor(V)
+    print('persistence  :', g.states('في الأجسام الشفافة'.split()))
+    print('إن           :', g.operator_of('إن'))
+    print('أن + verb    :', g.operator_of('أن', 'يذهب'))
+    print("Fi'l->Fi'l  :", g.transition_allowed('FIL', 'FIL', False),
+          g.transition_allowed('FIL', 'FIL', True))
+
+
+if __name__ == '__main__':
+    _selftest()

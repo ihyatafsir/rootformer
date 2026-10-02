@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حرفض   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; based on classical lexical evidence, it denotes a specific physical condition of she-camels, either noble, high-bred (karīmah) or emaciated, lean (mahāzīl ḍawāmir), with the quadriliteral form suggesting a descriptive, onomatopoeic or intensifying function rather than a primary verbal root.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a she-camel that is either noble and high-bred (al-nāqah al-karīmah) or emaciated and lean (al-ibil al-mahāzīl al-ḍawāmir), with the plural form ḥarāfiḍ.
+REC canon_def.ar     : الحِرْفِضةُ: الناقة الكريمة، عن ابن دريد؛ وقيل: إِبل حَرافِضُ مهازِيلُ ضوامر.
+REC canon_def.en     : Al-ḥirfiḍah: the noble, high-bred she-camel, according to Ibn Durayd; it is also said: emaciated, lean she-camels.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 12622 hdr=حرفض] الحِرْفَضَةُ: النّاقةُ الكريمة. قال: «3» وقُلُصٍ مَهْريَّةٍ حَرافِضِ

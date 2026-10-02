@@ -1,0 +1,10 @@
+================================================================================================
+ROOT مكت   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on fixedness and settled persistence in a place, with a secondary concrete sense of a boil or pustule reaching full maturation and becoming engorged with pus.
+REC haqiqah_literal  : To remain, stay, or abide in a place; to settle firmly. In the concrete medical sense: a boil or pustule (al-ʿudd) becoming fully engorged with pus, and its incision or rupture.
+REC canon_def.ar     : مَكَتَ بالمكان: أَقام، كمَكَدَ. واسْتَمْكَتَ العُدُّ: امتلأَ قيحاً.
+REC canon_def.en     : He remained in the place: he stayed, like makada. And the boil became fully engorged: it filled with pus.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

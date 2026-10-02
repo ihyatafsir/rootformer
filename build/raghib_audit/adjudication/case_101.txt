@@ -1,0 +1,10 @@
+================================================================================================
+ROOT نرب   stratum=mA
+REC ontological_core : The root's foundational physical origin is not attested in Al-Mufradāt; classical lexicography derives it from the quadriliteral noun النَّيْرَب, denoting evil, slander, and malicious gossip, with an underlying sense of corrupt, divisive speech that severs social bonds.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal meaning is: 'So-and-so is possessed of nīrab' — that is, he is characterized by evil and slanderous speech; the phrase 'فلان ذو نيرب' is used to describe someone who is a tale-bearer and a source of corruption among people.
+REC canon_def.ar     : النَّيْرَبُ: الشَّرُّ والنَّمِيمَةُ؛ قال الشاعر عَدِيُّ ابن خُزاعِيّ: ولَسْتُ بذي نَيْرَبٍ في الصَّديقِ، ومَنَّاعَ خَيْرٍ، وسَبَّابَها
+REC canon_def.en     : Al-nayrab: evil and slander; the poet ʿAdī ibn Khuzāʿī said: 'I am not one who engages in malicious gossip among friends, nor one who withholds good, nor one who habitually reviles them.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 71092 hdr=نرب] النون والراء والباء لا يأتلفان، وقد يكون بينهما دخيل. فمن ذلك النيرب: النميمة، وهو نيرب أي نمام، كأنه ذو نيرب. والله أعلم بالصواب. ||| باب النون والزاء وما يثلثهما
+SRC Asas [haqiqah_literal]        : فلان ذو نيرب: تمام.
+SRC Ayn (al-Khalil)  : [line 34585 hdr=نرب] النَّيربُ: النَّمِيمةُ. ورجل نَيْرَبٌ: ذو نَيْرَبٍ، أي: نَميمة.. نَيْرَبَ يُنَيْرِب نَيْربةً، وهو خلطُ القَوْل بَعْضِه ببَعْضٍ، كما تُنَيربُ الرِّيحُ التُّرابَ على الأرض فَتَنسُجُه. ولا تُطْرَحُ منه الياءُ، لأَنَّها جُعِلتْ فصلاً بين الرّاء والنُّون. والنَّيربُ: الرَّجل الجَلد.

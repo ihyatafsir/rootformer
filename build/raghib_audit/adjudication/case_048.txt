@@ -1,0 +1,10 @@
+================================================================================================
+ROOT درهم   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of falling or dropping down, specifically from extreme old age, yielding a state of decrepitude and collapse.
+REC haqiqah_literal  : The literal physical meaning according to Lisān al-ʿArab is the falling or dropping of a person due to extreme old age; the adjective al-mudrahimm denotes one who has collapsed from senility, i.e., the very aged.
+REC canon_def.ar     : المُدْرَهِمُّ: الساقطُ من الكِبَرِ، وقيل: هو الكبيرُ السِّنِّ أَيّاً كان. وقد ادْرَهَمَّ يَدْرَهِمُّ ادْرِهْمَاماً أَي سقط من الكبر.
+REC canon_def.en     : Al-mudrahimm: one who has fallen from extreme old age; it is also said: he is the very aged, whoever he may be. And he has adrahamma, yadrahimmu, idrihmāman, meaning he fell from old age.
+SRC al-Mufradat      : [line 12267 hdr=درهم] قال تعالى: وشروه بثمن بخس دراهم معدودة [يوسف/ 20]، الدرهم: الفضة المطبوعة المتعامل بها.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 15413 hdr=درهم] الدَّرهمُ والدِّرْهِمُ لغتان. ورجل مُدَرْهَمٌ: كثير الدّراهم، أدْرَهَمَّ الشَّيخ أدرِهْماماً، أي كَبرِ. قال «6» : والله لا أسأمُ حتّى تَسأمُوا ... أو أَدْرَهِمَّ هَرَماً أو تهرموا __________ (1) من التهذيب 6/ 526 عن العين. (2) من التهذيب 6/ 526 عن العين. (3) (عمر بن لجأ التيمي) - شعره 161. (4) (عمر بن لجأ التيمي) - شعره 161. (5) في (ص، ط) : جرم. وفي (س) : جرهم. (6) (القلاخ) اللسان (درهم) والرواية فيه: أقسمت لا أسأم ح […]

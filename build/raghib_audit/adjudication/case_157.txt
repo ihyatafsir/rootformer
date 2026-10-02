@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ثرعط   stratum=ma
+REC ontological_core : The root denotes a thin, watery, diluted substance—specifically a broth or gruel reduced to a fluid, runny consistency, typically prepared with milk. Its foundational physical image is that of a liquid so thin it lacks body or cohesion, cooked down to a near-watery state.
+REC haqiqah_literal  : الثُّرْعُطَةُ: a thin, watery broth or gruel (حَسا رقيق); الثُّرُعْطُطُ: a thin broth cooked with milk (حَساً رقيق طبخ باللبن). The literal referent is a culinary preparation of extreme fluidity and minimal viscosity.
+REC canon_def.ar     : الثُّرْعُطَةُ: الحَسا الرَّقِيقُ. الثُّرُعْطُطُ: حَساً رقيق طبخ باللبن.
+REC canon_def.en     : Al-Thurʿuṭah: a thin, watery broth or gruel. Al-Thuruʿṭuṭ: a thin broth cooked with milk.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

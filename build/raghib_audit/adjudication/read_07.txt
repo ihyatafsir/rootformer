@@ -1,0 +1,230 @@
+================================================================================================
+ROOT ازج   stratum=ma
+REC ontological_core : The root ازج (ʾ-z-j) denotes the foundational physical act of joining, pairing, or bringing two things into close conjunction, with a secondary concrete sense of a narrow, constricted passage or a thing tightly bound.
+REC haqiqah_literal  : The literal physical meaning is the joining or pairing of two things, or a narrow, constricted place or passage; also used for a tightly bound or compressed object.
+REC canon_def.ar     : الأَزْجُ: الضِّيقُ، وقيل: هو الجَمْعُ بين الشيئين، والأَزَجُ: الفَجُّ الضَّيِّقُ بين الجبال.
+REC canon_def.en     : Al-azj: narrowness; also said to be the joining of two things; al-azaj: a narrow mountain pass.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT افح   stratum=ma
+REC ontological_core : The root افح is not attested as an independent lexical root in the classical Arabic lexicographical tradition; its apparent presence in some sources reflects either a scribal variant, a dialectal form, or a mis-segmentation of a larger root such as فوح (diffusion of scent) or أفح (a rare verbal noun). No foundational physical origin (aṣl al-waḍʿ) can be established for it as a standalone root.
+REC haqiqah_literal  : No literal physical meaning is recorded for افح in Asās al-Balāghah or in the classical lexicons; the sequence is not recognized as a ḥaqīqah-bearing root.
+REC canon_def.ar     : افح: لم يثبت في لسان العرب ولا في المفردات كجذر مستقل؛ إنما هو صورة مهملة أو تحريف عن أصل معروف.
+REC canon_def.en     : Afḥ: Not established in Lisān al-ʿArab or Al-Mufradāt as an independent root; it is either an unused form or a corruption of a known root.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT برزل   stratum=ma
+REC ontological_core : The root denotes physical bulk and largeness of bodily frame; its foundational sense is the concrete, observable quality of being corpulent and heavy-set.
+REC haqiqah_literal  : A man of large, bulky, corpulent frame; a physically massive and heavy-set person.
+REC canon_def.ar     : رجل بُرْزُل: وهو الضَّخْم، وليس بثَبَتٍ.
+REC canon_def.en     : A man who is بُرْزُل: namely, corpulent and large-bodied; and this report is not firmly established.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT برهم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the compact, clustered bud of a tree or plant — the dense node where leaves, blossoms, and fruit are gathered together in a single tight formation before unfolding.
+REC haqiqah_literal  : The literal physical meaning is the tree's bud (بَرْهَمَة / بُرْعُمَة): the concentrated locus in which its leaves, flowers, and fruit are collectively assembled.
+REC canon_def.ar     : بَرْهَمَةُ الشَّجَرِ: بُرْعُمَتُهُ، وَهُوَ مُجْتَمَعُ وَرَقِهِ وَثَمَرِهِ وَنَوْرِهِ. وَبَرْهَمَ: أَدَامَ النَّظَرَ.
+REC canon_def.en     : The barhama of a tree is its burʿuma: the locus in which its leaves, fruit, and blossoms are gathered together. And barhama means: to sustain and prolong the gaze.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 15467 hdr=برهم] بَرْهَمةُ الشجر: مجمع ورقهِ ونَوْره وثمره. وبَرهَم الرجل إذا فتح عينيه وحدّد النظر قال: «2» يمزجن بالناصع لونا مُسْهَما ... ونَظَراً هَوْنَ الهوينا بَرْهَما
+
+================================================================================================
+ROOT بعثق   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is the sudden, forceful emergence and overflow of water from a breach or collapsed side of a basin or reservoir, i.e., the rupture of a containment structure and the consequent gushing forth of its liquid contents.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the outflow of water from a broken side or fissure of a basin (ḥawḍ) or a reservoir (jābiyah), and the verb tabaʿthaqa denotes the event of a side of such a structure breaking so that water pours out from it.
+REC canon_def.ar     : البَعْثَقَةُ: خُروج الماء من غائِل حَوْضٍ أو جابِيةٍ. وتَبَعْثَقَ إذا انكسرت منه ناحية ففاضَ منها.
+REC canon_def.en     : Al-baʿthaqah: the outflow of water from a breach in a basin or a reservoir. And tabaʿthaqa: when one side of it breaks so that water pours out from it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT بلخص   stratum=ma
+REC ontological_core : The root denotes corporeal thickness and abundant flesh, with the physical origin being a body or limb characterized by dense, heavy, fleshy mass.
+REC haqiqah_literal  : The literal physical meaning is 'thick, coarse, and abundant in flesh,' applied to a body or limb that is dense and heavy with meat.
+REC canon_def.ar     : بَخْلَصٌ وبَلْخَصٌ: غليظٌ كثير اللحم، وقد تَبَخْلَصَ وتَبَلْخَصَ.
+REC canon_def.en     : Bakhlṣ and balkhṣ: thick, coarse, and abundant in flesh; and indeed tabakhlaṣa and tabalkhaṣa mean to become so.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT بنط   stratum=ma
+REC ontological_core : The triliteral sequence ب-ن-ط is classified by the classical lexicographers as a root that is 'muhmal' (unused/neglected) in its bare form; its ontological origin is therefore not an independent physical act or entity, but rather a dialectal Yemeni nominal designation for a practitioner of weaving, realized only when the sequence is augmented by an intervening letter.
+REC haqiqah_literal  : The literal physical meaning is restricted to the Yemeni dialectal noun 'al-biyanṭ' (البِيَنْطُ), denoting a weaver (al-nassāj). This is a concrete occupational designation, not a verbal root, and its morphological pattern corresponds to 'al-biyaṭr' (البِيَطْرُ), indicating that the word is a quadriliteral or augmented nominal form rather than a triliteral verb.
+REC canon_def.ar     : قال الأزهري: أَما بنط فهو مهمل، فإِذا فصل بين الباء والنون بياء كان مستعملاً، يقول أَهل اليمن للنّسَّاج البِيَنْطُ، وعلى وزنه البِيَطْرُ.
+REC canon_def.en     : Al-Azhari said: As for 'bnṭ', it is unused (muhmal); but when a yāʾ separates the bāʾ and the nūn, it becomes employed. The people of Yemen call the weaver 'al-biyanṭ', and it follows the pattern of 'al-biyaṭr'.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT بنه   stratum=ma
+REC ontological_core : The root's foundational physical origin is a toponymic designation: a village in Egypt renowned for its honey, which the Prophet Muhammad blessed. It lacks a broader physical or verbal root meaning in the classical lexicons.
+REC haqiqah_literal  : A proper noun referring to a specific village in Egypt, pronounced Binhā (with a kasrah on the bāʾ and sukūn on the nūn), though later pronounced Banhā (with a fatḥah on the bāʾ). It is literally the name of that locality.
+REC canon_def.ar     : بِنْهَا، بكسر الباء وسكون النون، قرية من قرى مصر، بارك النبي صلى الله عليه وسلم في عسلها؛ والناس اليوم يفتحون الباء.
+REC canon_def.en     : Binhā, with a kasrah on the bāʾ and a sukūn on the nūn, is a village in Egypt whose honey the Prophet, peace be upon him, blessed; today people pronounce it Banhā with a fatḥah on the bāʾ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT بهنن   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on the manifestation of joy through the face, specifically the act of laughing and displaying cheerfulness, with an emphasis on the brightness and radiance of the expression.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is a woman who is cheerful, laughing, and radiant, as exemplified in the poetic description of a woman smiling with teeth as bright as hail.
+REC canon_def.ar     : البَهْنانةُ: الضحَّاكة المُتهلِّلة
+REC canon_def.en     : Al-Bahnānah: the woman who laughs much and is radiant with joy.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT توث   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the red, juicy, mulberry-like fruit known as al-firṣād; the root denotes this specific fruit as a concrete, tangible entity, with no attested abstract or verbal primitive underlying it.
+REC haqiqah_literal  : The literal physical meaning is the firṣād fruit (mulberry), a red, edible berry; its singular unit is tuwtha (one mulberry).
+REC canon_def.ar     : التُّوثُ: الفِرْصادُ، واحدتُه تُوثةٌ.
+REC canon_def.en     : Al-tūth is the firṣād (mulberry); its singular unit is tuwtha.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ثرعط   stratum=ma
+REC ontological_core : The root denotes a thin, watery, diluted substance—specifically a broth or gruel reduced to a fluid, runny consistency, typically prepared with milk. Its foundational physical image is that of a liquid so thin it lacks body or cohesion, cooked down to a near-watery state.
+REC haqiqah_literal  : الثُّرْعُطَةُ: a thin, watery broth or gruel (حَسا رقيق); الثُّرُعْطُطُ: a thin broth cooked with milk (حَساً رقيق طبخ باللبن). The literal referent is a culinary preparation of extreme fluidity and minimal viscosity.
+REC canon_def.ar     : الثُّرْعُطَةُ: الحَسا الرَّقِيقُ. الثُّرُعْطُطُ: حَساً رقيق طبخ باللبن.
+REC canon_def.en     : Al-Thurʿuṭah: a thin, watery broth or gruel. Al-Thuruʿṭuṭ: a thin broth cooked with milk.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جحدر   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on compact, low-set corporeal form and the act of bringing a body down to the ground — a stocky, short-statured physique and the forcible casting of an opponent to the earth.
+REC haqiqah_literal  : The literal physical meaning is a man who is short and compact (jaʿd qaṣīr), with the feminine form جَحْدَرَةٌ; the verbal noun الجَحْدَرَةُ denotes this quality of shortness and compactness. The verb جَحْدَرَ صَاحِبَهُ means he threw his companion down to the ground, prostrated him.
+REC canon_def.ar     : الجَحْدَرُ: الرجل الجَعْدُ القَصِيرُ، والأُنثى جَحْدَرَةٌ، والاسم الجَحْدَرَةُ. ويقال: جَحْدَرَ صاحبَه وجَحْدَلَهُ إِذا صرعه. وجَحْدَرٌ: اسم رجل.
+REC canon_def.en     : Al-Jaḥdar: a short, compact man; the feminine is jaḥdarah, and the abstract noun is al-jaḥdarah. It is said: jaḥdara ṣāḥibahu wa-jaḥdalahu, meaning he threw his companion down to the ground. And Jaḥdar is a man's name.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جردحل   stratum=ma
+REC ontological_core : The root denotes massive, coarse, and rugged corporeal bulk — a thick, heavy, and solid physical constitution, whether of a camel, a person, or a valley.
+REC haqiqah_literal  : A huge, thick, and coarse she-camel; a bulky, thick-bodied man; a rugged, broad valley.
+REC canon_def.ar     : الجِرْدَحْل من الإِبل: الضَّخْم. ناقة جِرْدَحْل: ضَخْمة غليظة. ورَجُل جِرْدَحْل: الغليظ الضَّخْم. والجِرْدَحْل: الوادي.
+REC canon_def.en     : Al-Jirdaḥl among camels: the massive one. A she-camel that is jirdaḥl: huge and coarse. A man who is jirdaḥl: thick and massive. And al-jirdaḥl: the valley.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جعا   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the substance of clay or mud (ṭīn), and by extension any moist, agglutinated mass such as dung collected and kneaded together; from this concrete sense of a cohesive, earthy lump the root extends to the posterior (the buttocks) as a bodily mass, and to the act of pelting someone with such a lump.
+REC haqiqah_literal  : The literal physical meaning is clay or mud (al-ṭīn); it also denotes the posterior (al-ist), and a quantity of dung or similar matter gathered and formed into a mass. The verb jaʿʿa (جَعَّ) means: he threw clay or mud at someone.
+REC canon_def.ar     : الجَعْوُ: الطين. يقال: جَعَّ فلانٌ فلاناً إِذا رماه بالجَعْوِ وهو الطين. والجَعْوُ: الاسْتُ. والجَعْوُ: ما جُمِعَ من بَعَرٍ أَو غيره فجُعِلَ.
+REC canon_def.en     : Al-jaʿw is clay. It is said: so-and-so jaʿʿa (pelting with clay) so-and-so, when he threw clay at him. Al-jaʿw is the posterior. And al-jaʿw is what is gathered from dung or other matter and formed into a mass.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جلخد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of a body casting itself down and stretching out at full length upon the ground, whether lying on the side or flat on the back, in a state of complete extension and surrender of posture.
+REC haqiqah_literal  : The literal physical meaning, per Asās al-Balāghah's strict ḥaqīqah, is the concrete posture of a person or animal that has thrown itself down and lies stretched out on the ground, either reclining on the side (muḍṭajiʿ) or lying supine (mustalqī) with limbs extended.
+REC canon_def.ar     : المُجْلَخِدُّ: المُضْطَجِعُ، وقيل: المُسْتَلْقِي الذي قد رَمَى بِنَفْسِهِ وامْتَدَّ.
+REC canon_def.en     : Al-Mujlakhidd: the one lying down on his side; also said to be the one lying supine who has thrown himself down and stretched out at full length.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جلنب   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the concrete image of a she-camel that is simultaneously fat and firm—an animal whose body combines abundant adipose tissue with a hard, compact, unyielding frame. This dual physical quality of corporeal density and solidity constitutes the root's primary sensory substrate, from which any further usage must be metaphorically derived.
+REC haqiqah_literal  : The literal physical meaning, as attested in the classical lexical tradition, is a she-camel characterized by stoutness and hardness: ناقة جَلَنْباةٌ, i.e., a fat, firm she-camel. The term denotes a concrete, zoological referent and carries no abstract or figurative sense in its foundational usage.
+REC canon_def.ar     : ناقة جَلَنْباةٌ: سَمِينةٌ صُلْبةٌ
+REC canon_def.en     : A she-camel that is fat and firm.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جمعل   stratum=ma
+REC ontological_core : The root ج-م-ع-ل designates a bulky, aged, and physically coarsened entity — a creature or beast whose body has become thick, gnarled, and worn by time. Its foundational physical image is that of a heavy, hoary mass, whether a hyena (a stocky, coarse-haired predator) or an aged she-camel (a large, decrepit beast). The quadriliteral form جُمَعْلِيلَة carries an intensive diminutive-augmentative force, signaling a creature marke […]
+REC haqiqah_literal  : The literal, physical referent is twofold: (1) the hyena (al-ḍabʿ), so named for its bulky, coarse, and ungainly body; and (2) an aged, decrepit she-camel (al-nāqa al-harima), whose frame has grown heavy and whose strength has decayed with advanced age. In both cases, the term denotes a concrete, observable animal whose physical constitution is characterized by mass, coarseness […]
+REC canon_def.ar     : الجُمَعْلِيلة: الضَّبُع، وقيل: الناقة الهَرِمة. قال ابن سيده: الجُمَعْلِيلة الضَّبُع. وقال الأزهري: الجُمَعْليلة الناقة الهَرِمة.
+REC canon_def.en     : Al-jumaʿlīlah: the hyena; or, it is said, the aged and decrepit she-camel. Ibn Sīdah stated: al-jumaʿlīlah is the hyena. Al-Azharī stated: al-jumaʿlīlah is the aged, decrepit she-camel.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جنبذ   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a raised, rounded protuberance of a thing or of the earth, shaped like a dome or hemispherical mound.
+REC haqiqah_literal  : A raised, circular elevation of a thing or of the ground, resembling a dome; a domed mound or rounded protuberance.
+REC canon_def.ar     : الجُنْبُذَةُ، بالضم: ما ارتفع من الشيء واستدار كالقبة. والجُنْبُذَة: ما علا من الأَرض واستدار. ومكان مُجَنْبَذ: ذو جنابذ.
+REC canon_def.en     : Al-Junbudhah, with ḍammah: that which is raised from a thing and is round like a dome. And al-junbudhah: that which is elevated from the ground and is round. And a place mujanbadh: possessing junbudhah-like elevations.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT حجحج   stratum=ma
+REC ontological_core : The root's foundational physical origin is the act of recoiling or pulling back from a forward advance—a sudden retreat or withdrawal from an initiated movement, particularly in the context of battle or confrontation.
+REC haqiqah_literal  : The literal physical meaning is to recoil, retreat, or pull back from a charge or advance; to desist from an attack after having engaged.
+REC canon_def.ar     : الحَجْحَجَة: النُّكُوصُ. يقال: حملوا على القوم حملةً ثم حَجْحَجُوا. وحَجْحَجَ الرجلُ: نَكَصَ، وقيل: عجز.
+REC canon_def.en     : Al-Ḥajḥajah: recoiling. It is said: they charged upon the people with a single charge, then they recoiled. And a man ḥajḥaja: he retreated, or it is said: he was incapacitated by weakness.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT حرذن   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a small, low-creeping creature — a lizard (ʿaẓāʾah) — and, by extension, a beast of burden ridden to the point of total exhaustion, i.e., a quadruped reduced to its last remnant of strength.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (as delineated from Lisān al-ʿArab) is: a small lizard (ʿaẓāʾah), specifically the ḥirzaw n, a creeping reptile; and, in the domain of camels, a riding camel that is mounted continuously until no strength remains in it.
+REC canon_def.ar     : الحِرْذَوْنُ: العَظَاءَةُ، مَثَّلَ به سيبويه وفسره السيرافي عن ثعلب. والحِرْذَوْنُ من الإبل: الذي يُرْكَبُ حتى لا تَبقى فيه بقيَّة. الجوهري: الحِرْذَوْنُ دُوَيْبَّة.
+REC canon_def.en     : Al-ḥirzaw n: the lizard (ʿaẓāʾah), cited as an example by Sībawayh and explained by al-Sīrāfī on the authority of Thaʿlab. And al-ḥirzaw n among camels: the one that is ridden until no remnant of strength remains in it. Al-Jawharī: al-ḥirza […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT حرفض   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; based on classical lexical evidence, it denotes a specific physical condition of she-camels, either noble, high-bred (karīmah) or emaciated, lean (mahāzīl ḍawāmir), with the quadriliteral form suggesting a descriptive, onomatopoeic or intensifying function rather than a primary verbal root.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a she-camel that is either noble and high-bred (al-nāqah al-karīmah) or emaciated and lean (al-ibil al-mahāzīl al-ḍawāmir), with the plural form ḥarāfiḍ.
+REC canon_def.ar     : الحِرْفِضةُ: الناقة الكريمة، عن ابن دريد؛ وقيل: إِبل حَرافِضُ مهازِيلُ ضوامر.
+REC canon_def.en     : Al-ḥirfiḍah: the noble, high-bred she-camel, according to Ibn Durayd; it is also said: emaciated, lean she-camels.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 12622 hdr=حرفض] الحِرْفَضَةُ: النّاقةُ الكريمة. قال: «3» وقُلُصٍ مَهْريَّةٍ حَرافِضِ

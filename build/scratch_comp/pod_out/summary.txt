@@ -1,0 +1,185 @@
+==============================================================================
+comp6k root_head= comp
+  bits train       total=13.2848 root=8.2654 wazn=2.6322 prefix=1.1937 suffix=1.1934 n=104848
+  bits val         total=12.9950 root=8.0078 wazn=2.6016 prefix=1.1864 suffix=1.1992 n=19163
+  bits test_gen    total=13.2548 root=8.2034 wazn=2.6639 prefix=1.1896 suffix=1.1978 n=29957
+  bits test_deriv  total=14.3087 root=9.0112 wazn=2.7431 prefix=1.2430 suffix=1.3114 n=32093
+  unigram type  : {'val': 13.6556, 'test_gen': 14.0307, 'test_deriv': 16.0658}
+  unigram comp  : {'val': 9.587, 'test_gen': 9.9001, 'test_deriv': 10.1573}
+  -- train per-head [('wazn', 0.495), ('prefix', 0.7544), ('suffix', 0.8259)] inexact 0 0
+       joint   all        top1=0.16217 top5=0.28683 n=6000
+       joint   special    top1=0.32183 top5=0.54732 n=2927
+       joint   real_seen  top1=0.01009 top5=0.03872 n=3073
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.03401 top5=0.10204 n=588
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- val per-head [('wazn', 0.516), ('prefix', 0.7704), ('suffix', 0.8306)] inexact 0 0
+       joint   all        top1=0.16200 top5=0.29725 n=8000
+       joint   special    top1=0.30318 top5=0.53941 n=4123
+       joint   real_seen  top1=0.01186 top5=0.03972 n=3877
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.04785 top5=0.11221 n=606
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- test_gen per-head [('wazn', 0.4913), ('prefix', 0.7603), ('suffix', 0.8208)] inexact 0 0
+       joint   all        top1=0.16362 top5=0.29237 n=8000
+       joint   special    top1=0.31676 top5=0.55038 n=3801
+       joint   real_seen  top1=0.02501 top5=0.05882 n=4199
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.05213 top5=0.12480 n=633
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- test_deriv per-head [('wazn', 0.4715), ('prefix', 0.7444), ('suffix', 0.8013)] inexact 0 0
+       joint   all        top1=0.10048 top5=0.19599 n=10669
+       joint   special    top1=0.27651 top5=0.53071 n=3631
+       joint   real_seen  top1=0.01971 top5=0.04754 n=3450
+       joint   real_hold  top1=0.00000 top5=0.00000 n=3588
+       content real_seen  top1=0.03925 top5=0.09386 n=586
+       content real_hold  top1=0.00000 top5=0.00000 n=3588
+  fair refs (unigram_root_acc):
+       train       majority_real_train t1=0.01872 t5=0.06389 | majority_real_slice t1=0.01872 t5=0.06389 | all t1=0.14499
+       val         majority_real_train t1=0.02698 t5=0.07827 | majority_real_slice t1=0.02698 t5=0.08117 | all t1=0.14980
+       test_gen    majority_real_train t1=0.02709 t5=0.08585 | majority_real_slice t1=0.02709 t5=0.08965 | all t1=0.14280
+       test_deriv  majority_real_train t1=0.02475 t5=0.06541 | majority_real_slice t1=0.02475 t5=0.07322 | all t1=0.11796
+  PARTIAL CREDIT held-out n=3588
+       n                              3588
+       exact_top1_rate                0.0
+       exact_top5_rate                0.0
+       c_exact_top1_rate              0.0
+       c_exact_top5_rate              0.0
+       c_anagram_top1_rate            0.0
+       c_slot_acc                     0.0641025641025641
+       c_mean_overlap                 0.15078037904124714
+       c_mean_edit                    2.79933110367893
+       c_any_radical_top1_rate        0.39297658862876256
+       c_radical_recall_top5          0.4447231512448907
+       c_special_top1_rate            0.0
+       pred_is_special_rate           0.9888517279821628
+       root_ok_wazn_wrong_rate        0.0
+       wazn_ok_root_wrong_rate        0.09308807134894091
+       mean_overlap_top1              0.005388331475287998
+       mean_edit_top1                 9.759476031215161
+       slot_acc_top1                  0.06666666666666667
+       c_same_len_rate                1.0
+  train: params=28740096 wall=175.1s peak_vram=870MiB it/s=34.28 nan=False
+==============================================================================
+comp24k root_head= comp
+  bits train       total=12.9229 root=7.9789 wazn=2.6030 prefix=1.1701 suffix=1.1709 n=104848
+  bits val         total=12.6718 root=7.7610 wazn=2.5738 prefix=1.1609 suffix=1.1760 n=19163
+  bits test_gen    total=12.8638 root=7.8843 wazn=2.6347 prefix=1.1667 suffix=1.1781 n=29957
+  bits test_deriv  total=14.1457 root=8.9164 wazn=2.7208 prefix=1.2196 suffix=1.2889 n=32093
+  unigram type  : {'val': 13.6556, 'test_gen': 14.0307, 'test_deriv': 16.0658}
+  unigram comp  : {'val': 9.587, 'test_gen': 9.9001, 'test_deriv': 10.1573}
+  -- train per-head [('wazn', 0.496), ('prefix', 0.755), ('suffix', 0.8259)] inexact 0 0
+       joint   all        top1=0.17333 top5=0.30700 n=6000
+       joint   special    top1=0.33618 top5=0.57021 n=2927
+       joint   real_seen  top1=0.01822 top5=0.05630 n=3073
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.04592 top5=0.12245 n=588
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- val per-head [('wazn', 0.522), ('prefix', 0.7722), ('suffix', 0.8301)] inexact 0 0
+       joint   all        top1=0.17238 top5=0.31625 n=8000
+       joint   special    top1=0.31870 top5=0.56294 n=4123
+       joint   real_seen  top1=0.01677 top5=0.05391 n=3877
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.05941 top5=0.12376 n=606
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- test_gen per-head [('wazn', 0.4958), ('prefix', 0.7617), ('suffix', 0.8155)] inexact 0 0
+       joint   all        top1=0.17275 top5=0.31450 n=8000
+       joint   special    top1=0.32544 top5=0.57537 n=3801
+       joint   real_seen  top1=0.03453 top5=0.07835 n=4199
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.06951 top5=0.15008 n=633
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- test_deriv per-head [('wazn', 0.4742), ('prefix', 0.7457), ('suffix', 0.8013)] inexact 0 0
+       joint   all        top1=0.10648 top5=0.20874 n=10669
+       joint   special    top1=0.28807 top5=0.55302 n=3631
+       joint   real_seen  top1=0.02609 top5=0.06348 n=3450
+       joint   real_hold  top1=0.00000 top5=0.00000 n=3588
+       content real_seen  top1=0.06143 top5=0.12457 n=586
+       content real_hold  top1=0.00000 top5=0.00000 n=3588
+  fair refs (unigram_root_acc):
+       val         majority_real_train t1=0.02698 t5=0.07827 | majority_real_slice t1=0.02698 t5=0.08117 | all t1=0.14980
+       test_gen    majority_real_train t1=0.02709 t5=0.08585 | majority_real_slice t1=0.02709 t5=0.08965 | all t1=0.14280
+       test_deriv  majority_real_train t1=0.02475 t5=0.06541 | majority_real_slice t1=0.02475 t5=0.07322 | all t1=0.11796
+  PARTIAL CREDIT held-out n=3588
+       n                              3588
+       exact_top1_rate                0.0
+       exact_top5_rate                0.0
+       c_exact_top1_rate              0.0
+       c_exact_top5_rate              0.0
+       c_anagram_top1_rate            0.0
+       c_slot_acc                     0.06042830540037244
+       c_mean_overlap                 0.15356744704570652
+       c_mean_edit                    2.806577480490524
+       c_any_radical_top1_rate        0.40301003344481606
+       c_radical_recall_top5          0.47881828316611114
+       c_special_top1_rate            0.0
+       pred_is_special_rate           0.9481605351170569
+       root_ok_wazn_wrong_rate        0.0
+       wazn_ok_root_wrong_rate        0.0875139353400223
+       mean_overlap_top1              0.02768487551096249
+       mean_edit_top1                 9.346989966555183
+       slot_acc_top1                  0.1953405017921147
+       c_same_len_rate                0.9977703455964325
+  train: params=28740096 wall=565.0s peak_vram=1074MiB it/s=42.48 nan=False
+==============================================================================
+type6k root_head= type
+  bits train       total=13.1758 root=8.1340 wazn=2.6382 prefix=1.2027 suffix=1.2008 n=104848
+  bits val         total=12.9192 root=7.9205 wazn=2.6036 prefix=1.1918 suffix=1.2034 n=19163
+  bits test_gen    total=13.1441 root=8.0648 wazn=2.6728 prefix=1.1983 suffix=1.2082 n=29957
+  bits test_deriv  total=14.9141 root=9.5936 wazn=2.7500 prefix=1.2516 suffix=1.3189 n=32093
+  unigram type  : {'val': 13.6556, 'test_gen': 14.0307, 'test_deriv': 16.0658}
+  unigram comp  : {'val': 9.587, 'test_gen': 9.9001, 'test_deriv': 10.1573}
+  -- train per-head [('wazn', 0.4921), ('prefix', 0.752), ('suffix', 0.8246)] inexact 0 0
+       joint   all        top1=0.16297 top5=0.29074 n=6590
+       joint   special    top1=0.31848 top5=0.54565 n=3187
+       joint   real_seen  top1=0.01734 top5=0.05201 n=3403
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.01734 top5=0.05201 n=3403
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- val per-head [('wazn', 0.5153), ('prefix', 0.7703), ('suffix', 0.8306)] inexact 0 0
+       joint   all        top1=0.16325 top5=0.29962 n=8000
+       joint   special    top1=0.30099 top5=0.53214 n=4123
+       joint   real_seen  top1=0.01677 top5=0.05236 n=3877
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.01677 top5=0.05236 n=3877
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- test_gen per-head [('wazn', 0.4903), ('prefix', 0.7599), ('suffix', 0.8208)] inexact 0 0
+       joint   all        top1=0.16675 top5=0.29862 n=8000
+       joint   special    top1=0.31465 top5=0.54538 n=3801
+       joint   real_seen  top1=0.03286 top5=0.07526 n=4199
+       joint   real_hold  top1=0.00000 top5=0.00000 n=0
+       content real_seen  top1=0.03286 top5=0.07526 n=4199
+       content real_hold  top1=0.00000 top5=0.00000 n=0
+  -- test_deriv per-head [('wazn', 0.4705), ('prefix', 0.7441), ('suffix', 0.8013)] inexact 0 0
+       joint   all        top1=0.10076 top5=0.19711 n=10669
+       joint   special    top1=0.27375 top5=0.52024 n=3631
+       joint   real_seen  top1=0.02348 top5=0.06203 n=3450
+       joint   real_hold  top1=0.00000 top5=0.00000 n=3588
+       content real_seen  top1=0.02348 top5=0.06203 n=3450
+       content real_hold  top1=0.00000 top5=0.00000 n=3588
+  fair refs (unigram_root_acc):
+       train       majority_real_train t1=0.01872 t5=0.06389 | majority_real_slice t1=0.01872 t5=0.06389 | all t1=0.14499
+       val         majority_real_train t1=0.02698 t5=0.07827 | majority_real_slice t1=0.02698 t5=0.08117 | all t1=0.14980
+       test_gen    majority_real_train t1=0.02709 t5=0.08585 | majority_real_slice t1=0.02709 t5=0.08965 | all t1=0.14280
+       test_deriv  majority_real_train t1=0.02475 t5=0.06541 | majority_real_slice t1=0.02475 t5=0.07322 | all t1=0.11796
+  PARTIAL CREDIT held-out n=3588
+       n                              3588
+       exact_top1_rate                0.0
+       exact_top5_rate                0.0
+       c_exact_top1_rate              0.0
+       c_exact_top5_rate              0.0
+       c_anagram_top1_rate            0.0
+       c_slot_acc                     0.1989247311827957
+       c_mean_overlap                 0.02647714604236345
+       c_mean_edit                    9.428929765886288
+       c_any_radical_top1_rate        0.05016722408026756
+       c_radical_recall_top5          0.3328688219992573
+       c_special_top1_rate            0.9481605351170569
+       pred_is_special_rate           0.9481605351170569
+       root_ok_wazn_wrong_rate        0.0
+       wazn_ok_root_wrong_rate        0.09420289855072464
+       mean_overlap_top1              0.02647714604236345
+       mean_edit_top1                 9.428929765886288
+       slot_acc_top1                  0.1989247311827957
+       c_same_len_rate                0.051839464882943144
+  train: params=33020160 wall=113.5s peak_vram=1009MiB it/s=52.88 nan=False

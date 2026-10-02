@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سحم   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root سحم is the quality of deep, uniform blackness, specifically the saturated darkness exemplified by the raven's plumage and heavy rain-clouds; it denotes a blackness that is intrinsic and total rather than accidental or partial.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is blackness (al-sawād), as in the phrase 'a raven that is asḥam' (ghurāb asḥam), 'black clouds' (saḥāb asḥam), and 'a black cloud-mass' (ghamāma saḥmāʾ); the verbal form saḥamū is used literally for darkening or blackening a face.
+REC canon_def.ar     : السَّحَمُ والسُّحَامُ والسُّحْمَةُ: السواد، وكل أسود أسحم.
+REC canon_def.en     : Al-saḥam, al-suḥām, and al-suḥma denote blackness; everything black is asḥam.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 35341 hdr=سحم] السين والحاء والميم* أصل واحد يدل على سواد. فالأسحم: [ذو] السواد، وسواده السحمة. ويقال لليل أسحم. قال الشاعر: رضيعى لبان ثدى أم تقاسما بأسحم داج عوض لا نتفرق (1) والأسحم: السحاب الأسود. قال النابغة: بأسحم دان مزنه متصوب (2) والأسحم: القرن الأسود، فى قول زهير: وتذبيبها عنها بأسحم مذود (3)
+SRC Asas [haqiqah_literal]        : غراب أسحم بين السحمة وهي السواد، وسحاب أسحم، وغمامة سحماء. وسحموا وجهه و
+SRC Ayn (al-Khalil)  : [line 10361 hdr=سحم] السُّحْمةُ: سَوادٌ كَلَوْنِ الغُرابِ الأَسْحَم، أي: الأَسْوَد. __________ (1) الرجز في اللسان غير منسوب (حسم) . (2) لم نهتد إلى الرجز ولا إلى الراجز. (3) كذا في ص وط أما في س فقد جاء: سجا (4) الأول والثالث من هذا الرجز في التهذيب واللسان (حمس) . والأَسْحَم: اللَّيل في شعر الأعشَى: بأسحَمَ داجٍ عَوْضُ لا نتفرَّقُ «1» وفي قول النابغة: السحاب الأسود: وأسْحَم دانٍ مُزْنُه مُتَصَوِّبُ «2»

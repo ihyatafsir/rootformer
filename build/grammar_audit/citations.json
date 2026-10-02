@@ -1,0 +1,1602 @@
+{
+ "records": [
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 65,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 414,
+   "arabic": "هذا باب الفاعل الذي يتعداه فعله إلى مفعول وذلك قولك: ضرب عبد الله زيدا. فعبد الله ارتفع ههنا كما ارتفع في ذهب، وشغلت ضرب به كما شغلت به ذهب، وانتصب زيد لأنه مفعول تعدى إليه فعل الفاعل"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 71,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 315,
+   "arabic": "اعلم أنهم مما يحذفون الكلم وإن كان أصله في الكلام غير ذلك، ويحذفون ويعوضون، ويستغنون بالشيء عن الشيء الذي أصله في كلامهم أن يستعمل حتى يصير ساقطا. وسترى ذلك إن شاء الله. فما حذف وأصله في الكلام غير ذلك. لم يك ولا أدر، وأشباه ذلك. وأما استغناؤهم بالشيء عن الشيء فإنهم يقولون يدع ولا يقولون ودع، استغنوا عنها بترك"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 77,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 2351,
+   "arabic": "فلذلك احتجت فيه إلى فاعل ومفعول ولم تحتج حين قلت: هذا ضارب زيدا إلى فاعل ظاهر، لأن المضمر فى ضارب هو الفاعل"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 83,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 1855,
+   "arabic": "وإنما قلت: زيدا اضربه، واضربه مشغولة بالهاء، لأن الأمر والنهى لا يكونان إلا بالفعل، فلا يستغنى عن الإضمار إن لم يظهر"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 89,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 2331,
+   "arabic": "واعلم أن حذف النون والتنوين لازم مع علامة المضمر غير المنفصل، لأنه لا يتكلم به مفردا حتى يكون متصلا بفعل قبله أو باسم فيه ضمير"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 95,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 1042,
+   "arabic": "فإن قلت: زيد مررت به فهو من النصب أبعد من ذلك، لأن المضمر قد خرج من الفعل وأضيف الفعل إليه بالباء، ولم يوصل إليه الفعل فى اللفظ"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 101,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 290,
+   "arabic": "وأعلم أن الآخر إذا كان يسكن في الرفع حذف في الجزم، لئلا يكون الجزم بمنزلة الرفع، فحذفوا كما حذفوا الحركة ونون الاثنين والجميع. وذلك قولك لم يرم ولم يغز ولم يخش. وهو في الرفع ساكن الآخر، تقول: هو يرمي ويغزو ويخشى"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 107,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 22025,
+   "arabic": "ومثل ذلك: لم يبع ولم يقل، ولو لم يكن ذلك فيها من الاستثقال لأجريت مجرى لم يخف"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 113,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 22047,
+   "arabic": "باب ما تلحقه الهاء في الوقف لتحرك آخر الحرف وذلك قولك في بنات الياء والواو التي الياء والواو فيهن لام في حال الجزم: ارمه، ولم يغزه، واخشه، ولم يقضه، ولم يرضه"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 119,
+   "kind": "structured",
+   "book": "سيبويه، الكتاب",
+   "src_file": "basran/Sibawayh_Al_Kitab.txt",
+   "src_line": 17666,
+   "arabic": "باب أحوال الحروف التي قبل النون الخفيفة والثقيلة اعلم أن فعل الواحد إذا كان مجزوما فلحقته الخفيفة والثقيلة حركت المجزوم وهو الحرف الذي أسكنت للجزم لأن الخفيفة ساكنة والثقيلة نونان الأولى منهما ساكنة. والحركة فتحة ولم يكسروا فيلتبس المذكر بالمؤنث، ولم يضموا فيلتبس الواحد بالجميع. وذلك قولك: اعلمن ذلك وأكرمن زيدا"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 125,
+   "kind": "structured",
+   "book": "ابن عصفور، شرح جمل الزجاجي",
+   "src_file": "andalusian/14_IbnUsfur_Sharh_Jumal_al_Zajjaji.txt",
+   "src_line": 13449,
+   "arabic": "قوله: (وللجزم علامتان): السكون والحذف. هاتان العلامتان تنفرد بهما الأفعال. فالحذف يكون علامة للجزم فيما آخره حرف علة: ياء أو واو أو ألف نحو: يقضي ويغزو ويخشى، تقول: لم يقض ولم يغز ولم يخش، وفيما رفع بالنون نحو: لم يقوما ولم يقوموا ولم تقومي. والسكون: علامة للجزم فيما رفع بالضمة الظاهرة نحو: يقوم ويقعد تقول: لم يقم ولم يقعد"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 131,
+   "kind": "structured",
+   "book": "ابن عصفور، شرح جمل الزجاجي",
+   "src_file": "andalusian/14_IbnUsfur_Sharh_Jumal_al_Zajjaji.txt",
+   "src_line": 11470,
+   "arabic": "والاسم الذي لا ينصرف هو كل اسم اجتمعت فيه علتان فرعيتان فصاعدا عن علل تسع على حسب ما يذكر بعد. أو وجد فيه علة تقوم مقام علتين. والعلل التسع: العدل والتعريف والصفة والعجمة والتركيب والتأنيث وزيادة الألف والنون ووزن الفعل والجمع الذي لا نظير له في الآحاد. والعلة التي تقوم من هذه العل مقام علتين، التأنيث اللازم والجمع الذي لا نظير له في الآحاد. والتأنيث اللازم هو ما كان بالهمزة مثل حمراء وبالألف مثل حبلى. والجمع الذي لا نظير له في الآحاد هو ما كان من الجموع على وزن مفاعل أو مفاعيل"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 137,
+   "kind": "structured",
+   "book": "ابن عصفور، شرح جمل الزجاجي",
+   "src_file": "andalusian/14_IbnUsfur_Sharh_Jumal_al_Zajjaji.txt",
+   "src_line": 11682,
+   "arabic": "ومنها كل جمع ثالث حروفه ألف وبعد الألف حرفان أو ثلاثة أحرف أو حرف مشدد... الفصل». هذا هو الجمع الذي لا نظير له في الآحاد."
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 143,
+   "kind": "structured",
+   "book": "ابن عصفور، شرح جمل الزجاجي",
+   "src_file": "andalusian/14_IbnUsfur_Sharh_Jumal_al_Zajjaji.txt",
+   "src_line": 13436,
+   "arabic": "فالفتحة تكون علامة الخفض في كل اسم وجدت فيه علتان فرعيتان من علل تسع أو علة تقوم مقام علتين"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 149,
+   "kind": "structured",
+   "book": "ابن عصفور، الممتع في التصريف",
+   "src_file": "andalusian/13_IbnUsfur_Mumtic_fi_al_Tasrif.txt",
+   "src_line": 3096,
+   "arabic": "الدليل على ذلك أن الهمزة لا تخلو من أن تكون للتأنيث بنفسها، أو بدلا من ألف التأنيث"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 155,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 662,
+   "arabic": "فألف التأنيث مطلقا منع... صرف الذي حواه كيفما وقع"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 161,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 670,
+   "arabic": "وكن لجمع مشبه مفاعلا... أو المفاعيل بمنع كافلا"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 167,
+   "kind": "structured",
+   "book": "ابن مالك، شرح الكافية الشافية",
+   "src_file": "andalusian/05_IbnMalik_Sharh_al_Kafiyah.txt",
+   "src_line": 10871,
+   "arabic": "والمراد بالشبه: أن يكون أوله مفتوحا، وثالثة ألفا بعدها حرفان، أو ثلاثة أوسطها ساكن. فيدخل في ذلك ما أوله ميم أو غيرها من الحروف."
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 173,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 672,
+   "arabic": "ولسراويل بهذا الجمع شبه اقتضى عموم المنع"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 179,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 45,
+   "arabic": "وجر بالفتحة ما لا ينصرف... ما لم يضف أو يك بعد أل ردف"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 185,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 52,
+   "arabic": "فالألف انوفيه غير الجزم... وأبد نصب ما كيدعو يرمي والرفع فيهما انوواحذف جازما... ثلاثهن تقض حكما لازما"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 191,
+   "kind": "structured",
+   "book": "ابن مالك، لامية الأفعال",
+   "src_file": "andalusian/06_IbnMalik_Lamiyyat_al_Afal.txt",
+   "src_line": 99,
+   "arabic": "من (أفعل) الأمر (أفعل) واعزه لسوا ه كالمضارع ذي الجزم الذي اختزلا: أوله، وبهمز الوصل منكسرا صل ساكنا كان بالمحذوف متصلا والهمز قبل لزوم الضم ضم"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 197,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 47029,
+   "arabic": "لأن واو العطف شركت بينهما في العامل"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 203,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 25911,
+   "arabic": "فقوله: {ولها كتاب معلوم} جملة حالية مصدرة بواو الحال"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 209,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 52384,
+   "arabic": "وقد تقرر أن هذا في الفاء والواو ولمعنى فيهما] فلا يلحق بهما [غيرهما، لأنه إما للتشريك، ولا إشكال، وإما للاستئناف"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 215,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 68315,
+   "arabic": "والواو القسمية والعاطفة"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 221,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 29807,
+   "arabic": "كواو القسم لا يجوز أن يجمع بينها وبين الباء، فلا يقال: وبالله لأفعلن، على أن يكون الواو حرف قسم كالباء، فأما قول الله تعالى: {وتالله لأكيدن أصنامكم}. فالواو فيه عاطفة"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 227,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 23977,
+   "arabic": "فالوصف الأول تحرز به من الواو التي تكون لمطلق الجمع؛ فإنها لا تعين مفهوم مع"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 233,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 48827,
+   "arabic": "بل هي غاية منتهى الجموع. ولذلك يقول ابن الحاجب: إن سبب منعه الصرف كونه صيغة منتهى الجموع"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 239,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 48806,
+   "arabic": "ولا يريد بمشبه (مفاعل) و (مفاعيل) ما كان أوله ميم زائدة، ولا ما كان ثانيه أصليا ولا غير ذلك، وإنما يريد ما كان على هذا الشكل من الجموع مطلقا، فيدخل تحته (فواعل، وفعائل وفعالل، وفياعل) وكذلك إذا دخلتها الياء قبل الآخر"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 245,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 48811,
+   "arabic": "وهذا التمثيل أشار فيه إلى قيود معتبرة في منع الجمع، وضابطه: كل جمع ثالث حروفه ألف ثابتة، وبعدها حرفان، أو ثلاثة أحرف أوسطها ياء، عار من التأنيث أو ياء النسب."
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 251,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 55,
+   "arabic": "وغيره معرفة كهم وذي... وهند وابني والغلام والذي"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 257,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 663,
+   "arabic": "وزائدا فعلان في وصف سلم... من أن يرى بتاء تأنيث ختم"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 263,
+   "kind": "structured",
+   "book": "ابن مالك، الألفية",
+   "src_file": "andalusian/03_IbnMalik_Alfiyyah.txt",
+   "src_line": 664,
+   "arabic": "ووصف أصلي ووزن أفعلا... ممنوع تأنيث بتا كأشهلا"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 269,
+   "kind": "structured",
+   "book": "ابن مالك، تسهيل الفوائد",
+   "src_file": "andalusian/04_IbnMalik_Tashil_al_Fawaid.txt",
+   "src_line": 2081,
+   "arabic": "وتضمر \" أن \" الناصبة ايضا لزوما بعد \" واو \" الجمع الواقعة في مواضع \" الفاء \" فإن عطف بهما او ب \" او \" على فعل قبل، او قصد الاستئناف بطل اضمار"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 275,
+   "kind": "structured",
+   "book": "ابن مالك، تسهيل الفوائد",
+   "src_file": "andalusian/04_IbnMalik_Tashil_al_Fawaid.txt",
+   "src_line": 2083,
+   "arabic": "ويميز \" واو \" الجمع تقدير \" مع \" موضعها، و \"فاء \" الجواب تقدير شرط قبلها او حال مكانها"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 281,
+   "kind": "structured",
+   "book": "ابن مالك، تسهيل الفوائد",
+   "src_file": "andalusian/04_IbnMalik_Tashil_al_Fawaid.txt",
+   "src_line": 894,
+   "arabic": "فإذا لم يلق الفعل بتالي الواو جاو النصب على المعية وعلى اضمار الفعل اللائق إن حسن “ مع “ موضع الواو والا تعين الاضمار"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 287,
+   "kind": "structured",
+   "book": "أبو حيان، تذييل التسهيل",
+   "src_file": "andalusian/10_AbuHayyan_Tadhyil_al_Tashil.txt",
+   "src_line": 37322,
+   "arabic": "فإن لم يلق الفعل بتالي الواو جاز النصب على المعية وعلى إضمار الفعل اللائق إن حسن \"مع\" موضع الواو, وإلا تعين الإضمار"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 293,
+   "kind": "structured",
+   "book": "الشاطبي، المقاصد الشافية (شرح الألفية)",
+   "src_file": "andalusian/11_Shatibi_Sharh_Alfiyyah.txt",
+   "src_line": 11247,
+   "arabic": "ولهذا شرط الناظم في الواو أن تكون معينة لمعنى مع، فإنها إن لم تعينه لم يلزم الحذف، بل يصير إما جائزا وإما ممتنعا، فإذا قلت: زيد عمرو، وأنت تريد: مع عمرو، كان لك أن تأتي بالخبر فتقول: زيد وعمرو مقترنان أو متلازمان، ولك أن تستغنى اتكالا على أن السامع يفهم معنى الاقتران، لأن معنى المصاحبة وإن دلت الواو عليه غير متعين، لإمكان معنى العطف ولو قلت: زيد وعمرو يلتقيان أو يصطرعان أو يتفرقان، وما أشبه ذلك -لم يجز هنا حذف الخبر، لانتفاء احتمال معنى «مع» في الواو، وتعين كونها عاطفة لمجرد الجمع، فلا بد من الإتيان به. ومنه قول الشاعر: وكل امرئ والموت يلتقيان فهذا كله من أول الدليل على أن الواو هى التى بمعنى مع، لا العاطفة"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 299,
+   "kind": "structured",
+   "book": "ابن مضاء، الرد على النحاة",
+   "src_file": "andalusian/01_IbnMada_Radd_ala_Nuhat.txt",
+   "src_line": 615,
+   "arabic": "وإنما أراد أن قيام الأب اقترن بقعود عمرو، ودلت الواو على ذلك، فكأنه قال: كان من أبيه قيام مع قعود عمرو، فصارت الجملة الثانية مرتبطة بالأولى، وصارتا جميعا في حكم الجملة الواحدة"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 305,
+   "kind": "structured",
+   "book": "ابن سيده، المخصص",
+   "src_file": "andalusian/07_IbnSayyidih_Al_Mukhassas.txt",
+   "src_line": 49614,
+   "arabic": "والواو فيها واو العطف لا واو القسم"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 311,
+   "kind": "structured",
+   "book": "أبو حيان، ارتشاف الضرب",
+   "src_file": "andalusian/09_AbuHayyan_Irtishaf_al_Darab.txt",
+   "src_line": 11873,
+   "arabic": "والاستدراك هو لخبر توهم أنه موافق لما قبله في الحكم، فأتى به لرفع ذلك التوهم ولتوكيد الأول"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 317,
+   "kind": "structured",
+   "book": "المبرد، المقتضب",
+   "src_file": "basran/Al_Mubarrad_Al_Muqtadab.txt",
+   "src_line": 6188,
+   "arabic": "فمعنى الواو الجمع بين الشيئين. ونصبها على إضمار أن؛ كما كان في الفاء"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 3,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\nandalusian_realizer.py -- the Andalusian realisation layer, wired.\n\nOne coherent API a decoder can call to turn the model's\n(prefix, root, wazn, suffix [, case]) event into a *realised* surface word, and to make\nfour classical decisions that were implemented but never reached the decode path:\n\n    i'rab realisation + the diptote (mamnu' min al-sarf)   <- wraps irab_realizer.py\n    al-iktifa' (clitic saturation) + jussive apocope       <- wraps iktifa_apocope.py\n    al-Shatibi's waw function                              <- wraps classical_governance_v2.py\n\nNothing here is a re-invention: `AndalusianRealizer` *wraps* the three verified modules.\nIt adds only what the primary sources demand and those modules lacked:\n\n  * the diptote test is brought back to Ibn 'Usfur's actual formulation -- TWO single\n    causes stand in place of two: alif al-ta'nith and sighat muntaha al-jumu' -- and a\n    single cause counts only when the final alif/hamza is ZA'IDAH, not a radical\n    (so فتى / عصا / قرّاء are correctly MUNSARIF, which the old surface test got wrong);\n  * the diptote's jarr-fathah is suppressed when the noun is annexed or definite with\n    al- (Ibn Malik: «ما لم يضف أو يك بعد أل ردف»);\n  * the waw classifier returns four *distinct* functions instead of one.\n\nCITATION POLICY -- every rule below carries one of:\n  * a key into CITATIONS: Arabic copied byte-for-byte out of the corpus held in this\n    repository, with book, file and line number.  `verify_citations()` re-checks every\n    quotation against the corpus at run time, so a fabricated quotation fails the test;\n  * the explicit label ENGINEERING for a decision table the sources motivate but do not\n    state verbatim (chiefly the POS matrix that maps a waw to a function).\n\nGAP -- al-Shatibi's remaining waw functions: the sources held here name four functions\nexplicitly ('atf, hal, isti'naf, qasam); the waw of ma'iyya is now SOLVED, not a gap --\nIbn Malik, al-Tashil al-Fawa'id, gives the operational test «ويميز \"واو\" الجمع تقدير \"مع\"\nموضعها» and al-Shatibi, al-Maqasid al-Shafiyya, states the same test independently.  What\nremains a gap is precise and narrow: the corpus held NOWHERE enumerates EIGHT waw\nfunctions, so no further waw function can even be *named* from these sources.  Nothing is\ninvented to fill it.  See WAW_GAP, including the one candidate the held text refuses\n(istidrak, which Abu Hayyan states for «لكن», not for the waw).\n\nUsage:\n    python andalusian_realizer.py        # runs the full self-verification\n"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 401,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "JAM (Ibn Malik, al-Tashil: «واو الجمع»; = ATF or MAIYYA)"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 403,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "PARTLY CLOSED by the sources the parent agent supplied, all verified verbatim in the corpus held here.  The waw of ma'iyya is NOT a gap: Ibn Malik, al-Tashil, gives the operational test «ويميز واو الجمع تقدير مع موضعها» / «إن حسن مع موضع الواو» (if «مع» fits in the waw's place the waw is ma'iyya, otherwise 'atf), and al-Shatibi, al-Maqasid al-Shafiyya, states the same test independently.  Ibn Mada attests the association reading with the same paraphrase «قيام مع قعود عمرو» (as a position he reports and then rebuts).  For 'atf vs qasam, Ibn Sayyidih supplies the negative test «والواو فيها واو العطف لا واو القسم».  STILL A GAP: the corpus held NOWHERE enumerates EIGHT waw functions, so after ATF, HAL, ISTINAF, QASAM and MAIYYA (with Ibn Malik's «واو الجمع» read as their umbrella) no further waw function is named in these sources and none is implemented.  Specifically NOT a waw function on this evidence: istidrak -- Abu Hayyan's criterion «والاستدراك هو لخبر توهم أنه موافق لما قبله في الحكم» is stated for «لكن», not for the waw (CITATIONS['abuhayyan_istidrak']), so it is reported and deliberately NOT implemented."
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 387,
+   "kind": "string",
+   "book": "Shatibi",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ENGINEERING: al-Shatibi states the criteria (a hal clause is \"جملة حالية مصدرة بواو الحال\"; the alternatives are \"للتشريك\" and \"للاستئناف\"; the waw of aṭf makes the two \"شركت ... في العامل\") but gives no POS table.  The decision below is an ENGINEERING encoding of those criteria, not a quotation."
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 66,
+   "kind": "string",
+   "book": "سيبويه",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "سيبويه، الكتاب"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 126,
+   "kind": "string",
+   "book": "الزجاجي",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن عصفور، شرح جمل الزجاجي"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 150,
+   "kind": "string",
+   "book": "ابن عصفور",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن عصفور، الممتع في التصريف"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 156,
+   "kind": "string",
+   "book": "ابن مالك",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن مالك، الألفية"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 168,
+   "kind": "string",
+   "book": "ابن مالك",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن مالك، شرح الكافية الشافية"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 192,
+   "kind": "string",
+   "book": "ابن مالك",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن مالك، لامية الأفعال"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 198,
+   "kind": "string",
+   "book": "الشاطبي",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "الشاطبي، المقاصد الشافية (شرح الألفية)"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 270,
+   "kind": "string",
+   "book": "ابن مالك",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن مالك، تسهيل الفوائد"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 288,
+   "kind": "string",
+   "book": "أبو حيان",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "أبو حيان، تذييل التسهيل"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 300,
+   "kind": "string",
+   "book": "الرد على النحاة",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن مضاء، الرد على النحاة"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 306,
+   "kind": "string",
+   "book": "المخصص",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ابن سيده، المخصص"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 312,
+   "kind": "string",
+   "book": "أبو حيان",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "أبو حيان، ارتشاف الضرب"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 318,
+   "kind": "string",
+   "book": "المبرد",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "المبرد، المقتضب"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 527,
+   "kind": "string",
+   "book": "Usfur",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn 'Usfur's rule: TWO causes, or ONE that stands in place of two.\n\n        «والاسم الذي لا ينصرف هو كل اسم اجتمعت فيه علتان فرعيتان فصاعدا عن علل تسع ...\n        أو وجد فيه علة تقوم مقام علتين ... والعلة التي تقوم من هذه العلل مقام علتين:\n        التأنيث اللازم والجمع الذي لا نظير له في الآحاد.»\n        "
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 622,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Which valency slot the clitic saturates, or None.  The slot depends on the\n        HOST -- Sibawayh: the pronoun sign «لا يتكلم به مفردا حتى يكون متصلا بفعل قبله\n        أو باسم فيه ضمير»;  verb -> maf'ul bihi / fa'il, noun -> mudaf ilayhi,\n        preposition -> majrur."
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 648,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Realise the jussive: sound -> sukun, naqis -> delete the final weak letter,\n        ajwaf -> medial elision; a clitic or the energetic nun protects the ending.\n\n        Ibn 'Usfur: «وللجزم علامتان: السكون والحذف ... فالحذف يكون علامة للجزم فيما آخره\n        حرف علة ... والسكون: علامة للجزم فيما رفع بالضمة الظاهرة».  Sibawayh: «الآخر\n        إذا كان يسكن في الرفع حذف في الجزم ... لم يرم ولم يغز ولم يخش»;  «لم يبع ولم\n        يقل» (ajwaf);  «ارمه، ولم يغزه، واخشه، ولم يقضه، ولم يرضه» (the attached ha'\n        protects the ending);  «فعل الواحد إذا كان مجزوما فلحقته الخفيفة والثقيلة حركت\n        المجزوم» (the energetic nun).\n        "
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 663,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "The amr built on the jussive stem (Ibn Malik, Lamiyyat al-Af'al:\n        «كالمضارع ذي الجزم ... وبهمز الوصل منكسرا صل ساكنا كان بالمحذوف متصلا»)."
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 693,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Malik's operational test: does «مع» fit in the waw's place?\n\n        VERBATIM (Ibn Malik, al-Tashil al-Fawa'id):\n          «ويميز \"واو\" الجمع تقدير \"مع\" موضعها»  (the waw of jam' is distinguished by\n                                                  estimating «مع» in its place)\n          «... جاز النصب على المعية وعلى إضمار الفعل اللائق إن حسن \"مع\" موضع الواو\n            وإلا تعين الإضمار»  (if «مع» fits in the waw's place, naṣb on ma'iyya is\n                                 allowed; otherwise the implied (verb) is fixed)\n        and independently (al-Shatibi, al-Maqasid al-Shafiyya): the waw must be\n        «معينة لمعنى مع»; where «مع» cannot be estimated the waw is «عاطفة لمجرد الجمع».\n\n        The judgment itself is semantic -- it is the caller's (or the LM's) -- so this\n        helper only makes the test explicit and returns it; `maa_fits=False` does NOT\n        return MAIYYA, it forces the 'atf / isti'naf reading.\n        "
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 713,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Classify the waw: ATF | HAL | ISTINAF | QASAM (+ MAIYYA by Ibn Malik's test).\n\n        The four required functions, verbatim in CITATIONS:\n          ATF      «لأن واو العطف شركت بينهما في العامل»\n          HAL      «فقوله: {ولها كتاب معلوم} جملة حالية مصدرة بواو الحال»\n          ISTINAF  «لأنه إما للتشريك، ولا إشكال، وإما للاستئناف»\n          QASAM    «الواو القسمية والعاطفة»; the negative test is Ibn Sayyidih's\n                   «والواو فيها واو العطف لا واو القسم»\n        MAIYYA   Ibn Malik's «مع» substitution test -- see maa_substitution_test().\n                   `maa_fits=True` (or the explicit `maahu_context=True`) returns MAIYYA;\n                   `maa_fits=False` forces the 'atf / isti'naf reading.\n        The ORDER and the POS matrix are ENGINEERING (see RULE_SOURCES['waw.pos_matrix']).\n        "
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 743,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Is the naṣb-giving «أن» implied after this waw?\n\n        VERBATIM (Ibn Malik, al-Tashil al-Fawa'id): «وتضمر \"أن\" الناصبة أيضا لزوما بعد\n        \"واو\" الجمع الواقعة في مواضع \"الفاء\"، فإن عطف بهما أو ب\"أو\" على فعل قبل، أو قصد\n        الاستئناف بطل إضمار \"ان\"».\n        So the implication holds in a non-affirmative context after the waw of jam', and is\n        CANCELLED when the waw coordinates onto a preceding VERB or when isti'naf is\n        intended.  The rule is Basran in origin and stated for the waw by al-Mubarrad,\n        al-Muqtadab: «فمعنى الواو الجمع بين الشيئين. ونصبها على إضمار أن؛ كما كان في\n        الفاء», and by Ibn al-Sarraj -- «الواو تنصب ما بعدها في غير الواجب من حيث انتصب\n        ما بعد الفاء» -- as quoted in Ibn Malik, Sharh al-Kafiyah.\n        "
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 979,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Malik's «مع» test: maa_fits=True -> MAIYYA"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 981,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Malik's «مع» test: maa_fits=False -> the 'atf reading, NOT MAIYYA"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 986,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "implied «أن» after واو الجمع in a non-affirmative context (Ibn Malik)"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 988,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "implied «أن» CANCELLED by intended isti'naf (Ibn Malik)"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 990,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "implied «أن» CANCELLED when the waw coordinates onto a VERB (Ibn Malik)"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 398,
+   "kind": "comment",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Malik's «واو الجمع» is the UMBRELLA under which the ma'iyya-vs-'atf choice is made by"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 399,
+   "kind": "comment",
+   "book": "Shatibi",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "the «مع» test -- not a separate sixth answer.  al-Shatibi in fact identifies the waw of"
+  },
+  {
+   "module": "andalusian_realizer.py",
+   "module_line": 442,
+   "kind": "comment",
+   "book": "Shatibi",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ساكن. فيدخل في ذلك ما أوله ميم أو غيرها من الحروف.»  al-Shatibi, Sharh al-Alfiyyah,"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 3,
+   "kind": "string",
+   "book": "Sībawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\nibn_malik_automaton.py -- Ibn Mālik's two decision procedures, as one callable authority.\n\nThis module is the SINGLE SOURCE OF TRUTH for the two Ibn Mālik rules the NRMP decoder needs,\nso that the corrected implementation in `classical_governance_v2.IbnMalikV2` and the table in\n`andalusian_grammatical_algorithms.IbnMalikPOSAutomaton` (the one the decode loop at\n`nrmp_generate.py` actually calls) both run the same cited code:\n\n  1. MARĀTIB AL-MAʿĀRIF -- the definiteness hierarchy (al-Alfiyyah, bāb al-maʿrifah wa-l-nakirah,\n     l.54-55).  Ranks 7..1: pronoun > proper name > demonstrative > relative > definite with al-\n     > annexed (muḍāf) > indefinite.\n\n  2. THE POS TRANSITION AUTOMATON -- what may follow what, with the COORDINATOR EXCEPTION.\n     Fiʿl -> Fiʿl is *legal* when a coordinator (و/ف) joins the two verbs and *illegal* when\n     nothing joins them.  The licence is al-Alfiyyah, bāb al-ʿaṭf: «وعطفك الفعل على الفعل يصح»;\n     the reason the exception exists is the Basran qāʿidah that no two operators govern one\n     operand -- Sībawayh, al-Kitāb: «فالعامل في اللفظ أحد الفعلين» and «لا يعمل في اسم واحد نصب\n     ورفع», with his own coordinated witness «ونخلع ونترك»; al-Alfiyyah, bāb al-tanāzuʿ: «إن\n     عاملان اقتضيا في اسم عمل ... قبل فللواحد منهما العمل»; and al-Shāṭibī's Sharh: «فيؤدى ذلك\n     إلى أن يعمل عاملان معا في معمول واحد عملا واحدا، وذلك فاسد».\n\nEvery rule below carries the verbatim Arabic it rests on, with book + locator, and every cell\nthat has NO primary source is explicitly labelled ENGINEERING.  Nothing is quoted that was not\nread out of the corpus files named in `CITATIONS`.\n\nUsage (the decoder-facing API):\n\n    from ibn_malik_automaton import IbnMalikAutomaton\n    A = IbnMalikAutomaton()\n    A.rank('هند', 'PROPER')                              -> 6\n    A.transition('FIL', 'FIL', coordinator_between=True) -> True\n    A.transition('FIL', 'FIL', coordinator_between=False)-> False\n    A.apply([('قام', 'FIL'), ('وقعد', 'FIL')])           -> [..., allowed=True ...]\n\nRun `python ibn_malik_automaton.py` for the built-in proof (all 20 checks).\n"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 219,
+   "kind": "string",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Mālik's POS automaton (with the coordinator exception) + marātib al-maʿārif.\n\n    Two independent procedures, both cited above:\n\n      * POS classes:  ISM=1, FIL=2, HARF=3, SIFAH=4 (the four of «واسم وفعل ثم حرف الكلم»,\n        plus Ibn Mālik's tābiʿ category SIFAH which the project's table already carried).\n      * Definiteness classes: PRONOUN=7 ... INDEFINITE=1.\n    "
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 70,
+   "kind": "string",
+   "book": "التسهيل",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "وقد جعل لها في \"التسهيل\" ست مراتب، فأعلاها ضمير المتكلم، ثم ضمير المخاطب، ثم العلم، ثم ضمير الغائب السالم عن إبهام، ثم المشار به، ثم الموصول وذو الألف واللام"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 92,
+   "kind": "string",
+   "book": "Abū Ḥayyān",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Abū Ḥayyān, Tadhyīl al-Tashīl, on «ثم الموصول وذو الأداة»"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 157,
+   "kind": "string",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Mālik's OWN example «قام وقعد زيد»: two verbs joined by the wāw, each directed at zayd, and only ONE operates -- the construction is sound Arabic."
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 161,
+   "kind": "string",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Mālik, al-Tashīl, bāb «تنازع العاملين فصاعدا معمولا واحدا»"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 169,
+   "kind": "string",
+   "book": "Shāṭibī",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "al-Shāṭibī, Sharh al-Alfiyyah, on the ʿaṭf in «إن زيدا وعمرو قائمان»"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 190,
+   "kind": "string",
+   "book": "Sībawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sībawayh, al-Kitāb, bāb «الفاعلين والمفعولين اللذين كل واحد منهما يفعل بفاعله مثل الذى يفعل به وما كان نحو ذلك»"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 209,
+   "kind": "string",
+   "book": "Sībawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "the coordinated verbs «ونخلع ونترك»: Fiʿl + wāw + Fiʿl attested in Sībawayh, and the second does not take over the first's work."
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 412,
+   "kind": "string",
+   "book": "Sībawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "May `next_cls` follow `prev_cls`?\n\n        With `coordinator_between=True` the pair is joined by و/ف, i.e. it is ʿaṭf (l.549), and\n        Fiʿl -> Fiʿl is admitted: «وعطفك الفعل على الفعل يصح» (l.569).  Without it, Fiʿl -> Fiʿl\n        is refused, because the two verbs would then be two operators on one operand and\n        «لا يجتمع في شيء من الكلام عاملان في معمول واحد» (al-Suhaylī); Sībawayh states it at\n        the head of the tradition: «فالعامل في اللفظ أحد الفعلين» and «لا يعمل في اسم واحد نصب\n        ورفع» (al-Kitāb, bāb al-fāʿilayn wa-l-mafʿūlayn).  His own witness for the coordinated\n        pair is «ونخلع ونترك» (see CITATIONS M_sibawayh_*).\n        "
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 630,
+   "kind": "string",
+   "book": "Alfiyyah",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\n[1] Fiʿl -> Fiʿl: «قام وقعد» ACCEPTED, «قام قعد» REFUSED  (Alfiyyah l.569)"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 691,
+   "kind": "string",
+   "book": "Sībawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sībawayh's coordinated pair «ونخلع ونترك» is quoted"
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 261,
+   "kind": "comment",
+   "book": "الكتاب",
+   "src_file": null,
+   "src_line": null,
+   "arabic": ": «وقعد» arrives as prefix='و'; «والكتاب» as prefix='وال'."
+  },
+  {
+   "module": "ibn_malik_automaton.py",
+   "module_line": 300,
+   "kind": "comment",
+   "book": "Alfiyyah",
+   "src_file": null,
+   "src_line": null,
+   "arabic": ": ('PROPER' must be passed explicitly, as the Alfiyyah's own example «هند» is passed here)."
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 3,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\nsibawayh_governor.py -- Sibawayh's ʿāmil (operator), its PERSISTENCE (baqāʾ al-ʿamal /\ninqiṭāʿ al-ʿamal) and his constituent/valency stack, as one callable object for the\nNRMP/NRMT decode path.\n\nWHY THIS FILE EXISTS\n--------------------\nThree algorithms were written but never called from the decoder:\n\n  * SibawayhV2 (classical_governance_v2.py)       -- called from nowhere\n  * ConstituentStack / Sibawayh's valency stack   -- called only from uncalled files\n  * SibawayhConstituentGovernanceEngine           -- called only from the English transmuter\n\nand the decoder recomputed the ʿāmil from the PREVIOUS WORD ONLY\n(rootformer_v18_nrmp_model.generate_words), so government died after one word:\n«في الأجسام الشفافة» -> [HARF_JARR, NONE, NONE].  This module is the single object the decode\npath calls, so the rule cannot drift between the audit and the decoder.\n\nTHE RULES, WITH THEIR PRIMARY SOURCES\n(all quotations verified against rootformer/corpus/basran/Sibawayh_Al_Kitab.txt and\nrootformer/corpus/andalusian/03_IbnMalik_Alfiyyah.txt; page markers PageVxxPxxx are\nal-Kitab's Bulaq numbering.)\n\nR1  THE THREE CLASSES.  al-Kitab 1/11 «باب علم الكلم من العربية»:\n      «فالكلم: اسم، وفعل، وحرف جاء لمعنى ليس باسم ولا فعل»\n\nR2  AN OPERATOR GOVERNS ONLY ITS OWN CLASS.  al-Kitab 3/8:\n      «واعلم أن حروف الجزم لا تجزم إلا الأفعال، ولا يكون الجزم إلا في هذه الأفعال المضارعة\n       للأسماء، كما أن الجر لا يكون إلا في الأسماء»\n    and al-Kitab «باب الحروف التي تضمر فيها أن» (2/422-3/5):\n      «لأن اللام وحتى إنما يعملان في الأسماء فيجران، وليستا من الحروف التي تضاف إلى الأفعال»\n\nR3  THE MUḌĀRIʿ IS MARKED BY THE FOUR ZIYĀDĀT.  al-Kitab 1/13:\n      «أوائلها الزوائد الأربع: الهمزة، والتاء، والياء، والنون. وذلك قولك: أفعل أنا، وتفعل أنت\n       أو هي، ويفعل هو، ونفعل نحن»\n    Used to DERIVE the imperfect awzān instead of hardcoding a range (the old range 114..129\n    held مُفَعْلِل، مُفْتَعَل، مِفْعَال -- nominals, not verbs).\n\nR4  GOVERNMENT PERSISTS ACROSS AN INTERVENING NOUN.  al-Kitab 1/421, «باب مجرى النعت على\n    المنعوت والشريك على الشريك والبدل على المبدل منه وما أشبه ذلك»:\n      «فأما النعت الذى جرى على المنعوت فقولك: مررت برجل ظريف قبل، فصار النعت مجرورا مثل\n       المنعوت لأنهما كالاسم الواحد»\n      «فإن أطلت النعت فقلت: مررت برجل عاقل كريم مسلم، فأجره على أوله»\n    This is exactly what the audit measures: in «في الأجسام الشفافة» the second noun is the\n    naʿt of the first, majrūr like its manʿūt \"because the two are as one noun\" -- so the jarr\n    of «في» reaches the SECOND noun, not only the first.\n\nR5  INQIṬĀʿ AL-ʿAMAL: THE ACT IS CUT OFF.  al-Kitab 1/421 fixes where the constituent ends\n    (the naʿt runs on its manʿūt and stops with it); al-Kitab 3/8 fixes the classes (jarr\n    exists only in nouns, so a verb can never be the majrūr of a preposition).\n\nR6  «إن» IS INNA; «أنْ» WITH A VERB IS NASB -- RESOLVED BY THE NEXT WORD'S CLASS.\n    al-Kitab «هذا باب إن وأن» (3/119):\n      «وأما إن فإنما هي بمنزلة الفعل لا يعمل فيها ما يعمل في أن، كما لا يعمل في الفعل ما\n       يعمل في الأسماء، ولا تكون إن إلا مبتدأة، وذلك قولك: إن زيدا منطلق، وإنك ذاهب»\n      «وأما أن فهي اسم وما عملت فيه صلة لها»\n    إن opens a NOMINAL sentence (إن زيدا منطلق).  أن is a noun whose ṣila is its clause:\n    with a following VERB it is the light أنْ of naṣb; with a following NOUN it can only be\n    the heavy أنَّ (INNA).  The blueprint strips diacritics, so إن/أن collapse on the surface\n    and MUST be resolved by the next word's class -- which is what Sibawayh does here.\n    Conditional إنْ is a jazm operator: al-Kitab «هذا باب الجزاء» (3/56)\n      «ومن غيرهما: إن، وإذ ما»\n    so إن + following VERB -> HARF_JAZM, إن + nominal / nothing -> INNA.\n\nR7  TWO OPERATORS DO NOT GOVERN ONE OPERAND.  NOT FOUND verbatim in al-Kitab.\n    Sibawayh's nearest words are al-Kitab 1/73 «لا يعمل في اسم واحد نصب ورفع» and\n    «وإنما كان الذى يليه أولى لقرب جواره» (the nearer is the more entitled).  The rule as\n    usually quoted is verbatim in the Andalusians:\n      Abu Hayyan, Irtishaf al-Darab: «ولا يجتمع عاملان على معمول واحد إلا في التقدير»\n      Ibn 'Usfur, Sharh Jumal al-Zajjaji: «لئلا يؤدي إلى أن يعمل عاملان في معمول واحد»\n    Cited as such; the Sibawayh attribution is reported NOT FOUND in CITATIONS.\n\nR8  THE COORDINATOR EXCEPTION (Fiʿl -> Fiʿl).  Ibn Malik, Alfiyyah, bāb al-ʿaṭf:\n      «وعطفك الفعل على الفعل يصح»\n      «فاعطف بواو سابقا أو لاحقا  ...  في الحكم أو مصاحبا موافقا»\n      «وانقل بها للثان حكم الأول  ...  في الخبر المثبت والأمر الجلي»\n    A second verb is admitted exactly when a coordinator (و/ف) joins it to the first and\n    carries the first's ḥukm over to it.  The class table itself is ENGINEERING (see T3).\n\nR9  DEFINITENESS AGREEMENT OF THE NAʿT (used only for R4's continuation test).\n    al-Kitab 1/421-423: «مررت برجل حسن الوجه» / «مررت بامرأة حسنة الوجه»;\n    Ibn Malik, Alfiyyah, bāb al-naʿt: «فأولينه من وفاق الأول ... ما من وفاق الأول النعت ولي»\n    The ranked Marātib al-Maʿārif hierarchy is NOT implemented here (Ibn Malik's half).\n\nNOT FOUND (stated rather than stretched into a citation):\n  * «ولا يعمل عاملان في معمول واحد» as a SIBawayh sentence -- the wording is Abu Hayyan's\n    and Ibn 'Usfur's (see R7).\n  * «حتى يقطع عمله» / «العامل يعمل فيما يليه» -- these phrases occur nowhere in al-Kitab\n    (searched undiacritized).  R5 is therefore grounded on the naʿt/constituent boundary of\n    al-Kitab 1/421 and the class restriction of al-Kitab 3/8.\n\nENGINEERING (not from a source), labelled:\n  * E1 the class->class transition table (an encoding of R1 for a POS automaton; content =\n        the project's existing IbnMalikPOSAutomaton.PERMISSIBLE_TRANSITIONS).\n  * E2 the identifiability of the māḍī from the wazn alone.  In this blueprint the māḍī and\n        the ism share patterns (ضرب is both), so only the muḍāriʿ is identified from the wazn\n        (R3); a māḍī without an operator is treated as ISM by `word_class`, which affects the\n        POS-transition mask but NOT the ʿāmil (whose class restriction is enforced on the\n        muḍāriʿ, which R3 does identify).\n  * E3 clitic stripping (و/ف/ب/ل/ك/ال) accepts the stripped core ONLY when that core is a\n        known operator, so «بيت» is not read as «ب» + «يت».\n  * E4 a text that writes a bare alef for the hamza collapses إن/أن (and كأن/كان) into one\n        string.  Sibawayh's division (R6) is then only partially recoverable, so the\n        tie-break is: + verb -> أنْ (HARF_NASB), otherwise إنَّ (INNA).  The blueprint and\n        al-Kitab both keep the hamza, so this path is not exercised by the audit.\n\nUsage (decoder):\n    gov = SibawayhGovernor(vocab, constituent_stack)\n    gov.reset()\n    for w in prompt_words: gov.observe_word(w, next_word)\n    op_state = gov.state_for_next()                       # PERSISTENT ʿāmil\n    allowed  = gov.allowed_next_classes(coordinator_between=...)\n    gov.analyze(words)                                    # (category, case, role, reason)\n"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 146,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh, al-Kitab, «باب علم الكلم من العربية» (PageV01P011)"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 155,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh, al-Kitab, «باب الحروف التي تضمر فيها أن» (PageV02P422-PageV03P005)"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 165,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh, al-Kitab, «باب مجرى النعت على المنعوت والشريك على الشريك والبدل على المبدل منه وما أشبه ذلك» (PageV01P421)"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 175,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh, al-Kitab, «هذا باب إن وأن» (PageV03P119)"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 184,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh, al-Kitab, «هذا باب الجزاء» (PageV03P056)"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 711,
+   "kind": "string",
+   "book": "الكتاب",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "The NRMP tuple carries the clitic separately, so «وقال» / «والكتاب» are read\n        from the prefix slot rather than guessed from the surface string (E3)."
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 717,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Can `next_class` follow `prev_class`?  A coordinator lifts the restriction (R8).\n\n        Ibn Malik, Alfiyyah, bāb al-ʿaṭf: «وعطفك الفعل على الفعل يصح» -- coordinating a verb\n        onto a verb is correct; «وانقل بها للثان حكم الأول» -- the wāw carries the first's\n        ḥukm over to the second.  So Fiʿl -> Fiʿl is allowed exactly when a coordinator\n        intervenes, and forbidden otherwise.\n        "
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 748,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "DECODE-TIME TRANSITION TABLE: mask the awzān whose class the previous class cannot\n        reach.  Ibn Malik, Alfiyyah, bāb al-ʿaṭf: «وعطفك الفعل على الفعل يصح» -- Fiʿl -> Fiʿl\n        is admitted only when a coordinator (و/ف) carries the first's ḥukm to the second.\n        ENGINEERING (E1): the class table itself encodes R1's three classes.\n        "
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 849,
+   "kind": "string",
+   "book": "al-Kitab",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "case=jarr from harf_jarr on the naʿt: «فصار النعت مجرورا مثل المنعوت لأنهما كالاسم الواحد» (al-Kitab 1/421)"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 902,
+   "kind": "string",
+   "book": "al-Kitab",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "case=jarr from harf_jarr on the naʿt (al-Kitab 1/421: «لأنهما كالاسم الواحد»)"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 406,
+   "kind": "comment",
+   "book": "al-Kitab",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "(al-Kitab 1/73: «وإنما كان الذى يليه أولى لقرب جواره»)."
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 655,
+   "kind": "comment",
+   "book": "al-Kitab",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "إن + verb = conditional إنْ, a jazm operator (al-Kitab 3/56); otherwise"
+  },
+  {
+   "module": "sibawayh_governor.py",
+   "module_line": 663,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "E4: bare-alef spelling collapsed إن/أن.  Sibawayh's division (R6) is only"
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 156,
+   "kind": "structured",
+   "book": "al-Khalīl ibn Aḥmad al-Farāhīdī, Kitāb al-ʿAyn (introduction)",
+   "src_file": "corpus/basran/Al_Khalil_Al_Ayn.txt",
+   "src_line": "164",
+   "arabic": "والكلمة الرباعية تتصرَّف على أربعة وعشرين وجها ... فَتصيرَ أربعة وعشرين وَجْهاً، يُكَتَب مُسْتَعْمَلها. ويُلغى مُهْمَلها ... والكلمة الخماسية تتصرّف على مائة وعشرين وجها ... يُسْتَعْمَل أقَلُّه ويُلغى أكثره"
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 167,
+   "kind": "structured",
+   "book": "al-Khalīl, Kitāb al-ʿAyn, bāb al-ʿayn wa-l-lām wa-l-mīm",
+   "src_file": "corpus/basran/Al_Khalil_Al_Ayn.txt",
+   "src_line": "5817",
+   "arabic": "باب العين واللاّم والميم معهما ع ل م، ع م ل، م ع ل، ل م ع مستعملات"
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 174,
+   "kind": "structured",
+   "book": "al-Khalīl, Kitāb al-ʿAyn, bāb al-ʿayn wa-l-dāl wa-l-bāʾ",
+   "src_file": "corpus/basran/Al_Khalil_Al_Ayn.txt",
+   "src_line": "4760",
+   "arabic": "باب العين والدال والباء معهما ع ب د- د ع ب- ب ع د- ب د ع مستعملات ع د ب- د ب ع مهملان"
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 181,
+   "kind": "structured",
+   "book": "Ibn Jinnī, al-Khaṣāʾiṣ, bāb fī al-ishtiqāq al-akbar",
+   "src_file": "corpus/basran/Ibn_Jinni_Al_Khasais.txt",
+   "src_line": "7639-7641",
+   "arabic": "وأما الاشتقاق الأكبر فهو أن تأخذ أصلا من الأصول الثلاثية، فتعقد عليه وعلى تقاليبه الستة معنى واحدا، تجتمع التراكيب الستة وما يتصرف من كل واحد منها عليه"
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 191,
+   "kind": "structured",
+   "book": "Ibn ʿUsfūr, al-Mumtiʿ fī al-Taṣrīf",
+   "src_file": "corpus/andalusian/13_IbnUsfur_Mumtic_fi_al_Tasrif.txt",
+   "src_line": "157-161",
+   "arabic": "ولم يقل به أحد من النحويين إلا أبا الفتح. وحكى هو عن أبي علي أنه كان يأنس به في بعض الأماكن. والصحيح أن هذا النحو من الاشتقاق غير مأخوذ به؛ لعدم اطراده، ولما يلحق فيه من التكلف لمن رامه."
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 3,
+   "kind": "string",
+   "book": "الخليل",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\nkhalil_orbits.py -- al-Khalīl's التقليبات (taqālīb) as a PARAMETER-TYING mechanism.\n\nWHAT THIS MODULE DOES (ENGINEERING)\n-----------------------------------\nIt builds, over the shipped root inventory, al-Khalīl's permutation families (\"orbits\"): a\nroot's orbit is the set of its permutations that are **attested (مستعمل)** -- the مهمل\n(\"unused\") permutations al-Khalīl discards are *not* members.  It then offers three\noperations over those families:\n\n    orbit_of(root)               -> the tieable family of a root\n    tie_embeddings(weight)       -> make orbit-mates share ONE embedding row\n    loss(weight)                 -> within-orbit dispersion penalty (keeps them tied in training)\n\nWHAT THIS MODULE EXPLICITLY DOES *NOT* DO (FIDELITY -- READ THIS)\n----------------------------------------------------------------\nIt does NOT implement al-ishtiqāq al-akbar's *semantic* claim -- that the permutations of one\nroot share one MEANING.  That claim is reported and REJECTED by the tradition, and the\nrejection is not softened here.  Ibn ʿUsfūr, *al-Mumtiʿ fī al-Taṣrīf* (corpus:\n`corpus/andalusian/13_IbnUsfur_Mumtic_fi_al_Tasrif.txt`, lines 157-161):\n\n    «# أما الاشتقاق الأكبر هو عقد تقاليب الكلمة كلها على المعنى واحد، نحو ما ذهب إليه\n     [أبو الفتح] بن جني من عقد تقاليب \"القول\" الستة على منى الخفة. ولم يقل به أحد من\n     النحويين إلا أبا الفتح. وحكى هو عن أبي علي أنه كان يأنس به في بعض الأماكن. والصحيح\n     أن هذا النحو من الاشتقاق غير مأخوذ به؛ لعدم اطراده، ولما يلحق فيه من التكلف لمن\n     رامه.»\n\n(\"As for the greater derivation, it is to bind all the permutations of the word to one\nmeaning ... and no grammarian held it except Abū al-Fatḥ [Ibn Jinnī] ... and the correct\nview is that this kind of derivation is NOT ADOPTED, because it is not systematic\n(li-ʿadam iṭṭirādihi).\")\n\nConsequently: the parameter tying below is justified ONLY by al-Khalīl's own accept/reject\nfilter in *Kitāb al-ʿAyn* (the used permutations are written down, the unused are cancelled),\nNOT by any claim of shared meaning.  Any description of this mechanism as \"al-ishtiqāq\nal-akbar\" without this caveat is wrong.\n\nSOURCES -- VERBATIM (corpus checkouts named in the code; nothing here is a paraphrase)\n--------------------------------------------------------------------------------------\n[K1] al-Khalīl ibn Aḥmad al-Farāhīdī, *Kitāb al-ʿAyn*, introduction\n     (`corpus/basran/Al_Khalil_Al_Ayn.txt`, line 164):\n\n     «قال الليث: قال الخليل: اعلم أن الكلمة الثنائيَّةَ تَتَصَرَّف على وَجْهَيْن نحو: قَدْ، دَقْ،\n      شَدْ، دَشُ «1» والكلمةُ الثلاثَّيُة «2» تتصرَّفُ على ستة أوجُه، وتُسمَّى مَسدُوسة «3» ...\n      والكلمة الرباعية تتصرَّف على أربعة وعشرين وجها ... فَتصيرَ أربعة وعشرين وَجْهاً،\n      يُكَتَب مُسْتَعْمَلها. ويُلغى مُهْمَلها ... والكلمة الخماسية تتصرّف على مائة وعشرين\n      وجها ... يُسْتَعْمَل أقَلُّه ويُلغى أكثره»\n\n     ENGINEERING note: the brief handed to this implementation renders the middle clause\n     \"يُكتب مُستعملها ويُلغى مُهملها\"; the corpus edition above reads \"يُكَتَب مُسْتَعْمَلها.\n     ويُلغى مُهْمَلها\" (same words, different vowelling/brace).  Quoted here as the corpus has it.\n\n[K2] al-Khalīl's own worked chapter for the radials ع ل م\n     (`corpus/basran/Al_Khalil_Al_Ayn.txt`, line 5817):\n\n     «باب العين واللاّم والميم معهما ع ل م، ع م ل، م ع ل، ل م ع مستعملات»\n\n     Four permutations are declared مستعملات (ع ل م، ع م ل، م ع ل، ل م ع); the remaining two\n     of the six (ل ع م، م ل ع) are not in that list.  This is the chapter our orbit for علم is\n     measured against.\n\n[K3] al-Khalīl's explicit accept/reject chapter for ع د ب\n     (`corpus/basran/Al_Khalil_Al_Ayn.txt`, line 4760):\n\n     «باب العين والدال والباء معهما ع ب د- د ع ب- ب ع د- ب د ع مستعملات ع د ب- د ب ع مهملان»\n\n     Four مستعملات and two explicitly مهملان (ع د ب، د ب ع).  This is the chapter our\n     muhmal-exclusion test is measured against.\n\n[K4] Ibn Jinnī, *al-Khaṣāʾiṣ*, «باب في الاشتقاق الأكبر»\n     (`corpus/basran/Ibn_Jinni_Al_Khasais.txt`, heading line 7625, text lines 7639-7641):\n\n     «وأما الاشتقاق الأكبر فهو أن تأخذ أصلا من الأصول الثلاثية3، فتعقد عليه وعلى تقاليبه4\n      الستة معنى واحدا, تجتمع التراكيب الستة وما يتصرف من كل واحد منها عليه»\n\n     Cited because it is the formulation the brief quotes -- i.e. the formulation this module\n     declines to implement (see the Ibn ʿUsfūr rejection above).\n\n[K5] Ibn ʿUsfūr's rejection: see the header block.  This is the tradition's own caveat and it\n     must travel with any mention of al-ishtiqāq al-akbar.\n\nTHE ATTESTATION RECORD (the data this module actually reads)\n-----------------------------------------------------------\n`data/khalil_attest_v4.json` is the machine-readable al-ʿAyn verdict record:\n`attested` (4,381 ordered permutations) / `unused` (2,750) / `ambiguous`, produced by\n`khalil_attest_v4.py`.  Its own docstring states the two rules this module depends on:\n\n  * \"The record is keyed by the ORDERED sequence, because al-Khalīl marks permutations\n    individually: in باب العين والدال واللام, ع د ل / ع ل د / د ل ع are مستعمل while\n    د ع ل / ل ع د / ل د ع are مهمل. Order is the whole point of التقليب.\"\n  * \"The complement of a chapter's listed permutations is مuhmal, but only where al-ʿAyn\n    asserts it: the window contains فقط, or the chapter already carries an explicit مهمل\n    group. Otherwise unlisted permutations are merely *undiscussed* and are not condemned.\"\n\nENGINEERING CONSEQUENCE, stated plainly so nobody over-reads the numbers: because that\nnegative record is deliberately conservative, a permutation that a chapter merely omits (no\nفقط, no explicit مهمل group) is NOT condemned, and the default `membership='attested'`\npolicy therefore demands *positive* attestation for membership.  That is why the orbit of\nعلم has 4 members and not 6 -- matching [K2] exactly -- while ل ع م and م ل ع, which\nal-ʿAyn's chapter simply did not list, are excluded for want of positive attestation rather\nthan being called مهمل.  The alternative policy `membership='inventory_not_muhmal'` is\navailable and measured; it ties more (see `stats()`), and it is NOT the default.\n\nUsage\n-----\n    from khalil_orbits import KhalilPermutationOrbits\n    orbits = KhalilPermutationOrbits(vocab)            # vocab: roots_list/root2id/id2root\n    orbits.orbit_of('علم')                             # ['علم','عمل','لمع','معل'] (farahidi order)\n    embeddings = nn.Embedding(vocab.num_roots, 448)\n    orbits.tie_embeddings(embeddings.weight)           # علم and عمل now share one row\n    loss = orbits.loss(embeddings.weight)              # keeps them shared during training\n\nCHECKPOINTS -- see `tie_embeddings.__doc__` and `OrbitTiedEmbedding.__doc__`\n--------------------------------------------------------------------------\n`tie_embeddings` is SHAPE-PRESERVING (it overwrites rows in place), so it can be applied\nAFTER `load_state_dict` and does not invalidate any existing checkpoint.  `OrbitTiedEmbedding`,\nwhich realises true storage sharing with fewer rows, DOES change the state_dict and WILL break\nexisting checkpoint loading; it is provided, but it is opt-in and wired nowhere.\n"
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 261,
+   "kind": "string",
+   "book": "al-Khalīl",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "al-Khalīl's التقليبات for one root: distinct n! arrangements (`set` because a root may\n    repeat a radical, and al-ʿAyn does not count نتت against itself as two faces)."
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 273,
+   "kind": "string",
+   "book": "al-Khalīl",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "al-Khalīl's permutation orbits over an inventory, as a parameter-tying mechanism.\n\n    NOT al-ishtiqāq al-akbar.  The semantic claim that an orbit shares a MEANING is rejected\n    by the tradition (Ibn ʿUsfūr: «غير مأخوذ به؛ لعدم اطراده») and is not implemented,\n    optimised for, or implied anywhere in this class.  What is implemented is exactly what\n    al-Khalīl's own filter licenses: the permutations he records as مستعمل form one family,\n    and their parameters are shared.\n\n    Parameters\n    ----------\n    source : vocab-like | iterable[str] | dict[str, int]\n        Anything with `roots_list`/`root2id` (e.g. `nrmp_vocab.FarāhīdianMorphemicVocab`),\n        or a plain iterable of root strings.\n    attest_path : path, optional\n        `khalil_attest_v4.json`.  Defaults to `<release>/data/khalil_attest_v4.json`\n        (with fallbacks); if it cannot be found the class still builds orbits but switches to\n        `inventory_not_muhmal` membership and says so in `stats()['attest_source']`.\n    lengths : tuple[int, ...]\n        Radical counts to build orbits for.  Default `(3,)`: the S³ family the audit and\n        `nrmt_arch.orbit_consistency_loss` speak of.  al-Khalīl's own sentence [K1] also\n        covers 2 (وجهان), 4 (أربعة وعشرون وجها) and 5 (مائة وعشرون وجها); pass e.g.\n        `lengths=(2, 3, 4, 5)` to include them (a 4-radical orbit holds up to 24 members).\n    membership : {'attested', 'inventory_not_muhmal'}\n        'attested' (default) -- a permutation is a member only if al-ʿAyn records it as\n            مستعمل.  This is the faithful reading of «يُكتب مستعملها ويُلغى مهملها» and it\n            reproduces al-ʿAyn's own chapter counts exactly (علم: 4 of 6, [K2]).\n        'inventory_not_muhmal' -- a permutation is a member if it is in the shipped inventory\n            and al-ʿAyn does not condemn it as مهمل.  Ties strictly more; measured, not default.\n    min_orbit_size : int\n        Orbits smaller than this are not tieable (default 2 -- a family of one shares nothing).\n    representative : {'farahidi', 'lowest_id'}\n        How to choose the row an orbit keeps when `tie_embeddings(method='representative')`.\n        'farahidi' (default) picks the member al-Fārāhīdī's alphabet ranks first.\n        ENGINEERING / NOT CLAIMED: this reproduces the chapter HEADWORD in the two chapters we\n        checked (ع ل م → علم, ع د ب → عبد), but the ordering of the remaining members is NOT\n        claimed to reproduce al-ʿAyn's chapter order.\n    fold_hamza : bool\n        Passed to `normalize_root` (default True; see the module header).\n    "
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 467,
+   "kind": "string",
+   "book": "al-Khalīl",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "The tieable family of `root` (al-Khalīl's مستعمل permutations under its key).\n\n        Returns `[root]` when the root is in the inventory but nothing else under its key is\n        attested (a family of one shares nothing), and `[]` when the root is unknown.\n        "
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 726,
+   "kind": "string",
+   "book": "Khalil",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "KhalilPermutationOrbits -- التقليبات as parameter tying (NOT al-ishtiqāq al-akbar;"
+  },
+  {
+   "module": "khalil_orbits.py",
+   "module_line": 412,
+   "kind": "comment",
+   "book": "al-Khalīl",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "ENGINEERING: an orbit's FACE count is what al-Khalīl counts (the six وجوه of ع ل م)."
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 1,
+   "kind": "string",
+   "book": "al-Khalil",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\nvalidated_segmentation.py -- al-Khalil-validated segmentation, as a drop-in for the shipped\ntokenizer's decompose_arabic_word().\n\nWHY THIS EXISTS\n---------------\nThe classical algorithms were implemented and verified, but the pipeline never called them: the\ntokenizer read roots off the surface and accepted any residue that happened to be in the 9,013-root\nlexicon.  That lexicon contains نتت، كمم، عنن، so membership could not discriminate, and the\nmeasured result on the shipped tree was that a 26x larger al-'Ayn attestation record changed\nNOTHING (see KHALIL_ATTEST_V4_FINDINGS.md).\n\nThis module puts the validated analysis on the path the model actually runs.  It is imported by\nmodels/morphemic_tokenizer_v12_arabic.py, which routes decompose_arabic_word() through it.\n\nWHAT IT DOES\n------------\nGiven the tokenizer's greedy reading, it re-segments only on POSITIVE evidence, using:\n\n  1. al-'Ayn's record, RANKED above the blueprint lexicon (ATTESTED +8, LEXICON +3, MUHMAL -12);\n  2. al-Khalil's root CALCULATION, which reaches roots whose radical was elided (كنت -> كون);\n  3. the muda''af pair gate (نتت is the doubling of the pair نت, which al-'Ayn marks muhmal);\n  4. elision constrained by the ajwaf / naqis division (only a NON-final weak letter may vanish).\n\nMODES\n-----\n  ROOTFORMER_VALIDATED_SEG=0   off -- the greedy reading, byte-identical to the previous tokenizer\n  ROOTFORMER_VALIDATED_SEG=1   DEFAULT.  The closed class only: a word consumed by clitics plus a\n                               particle has no root (عليه -> على + ه، فكم -> ف + كم، منها -> من + ها).\n                               Measured: 1,103 root changes in 20,000 corpus words (5.51%), 40/40 of\n                               a hand-checked sample correct, 48,381 words/s (1.5x the greedy cost).\n  ROOTFORMER_VALIDATED_SEG=2   also re-assign ROOTS via al-Khalil's calculation.  Measured: 15.03%\n                               of roots change, ~24 of a 40-word sample correct -- good enough to\n                               keep working on, NOT good enough to enable.  Needs the gold set.\n\n  ROOTFORMER_ATTEST_RECORD=<path>   use a different al-'Ayn record\n\nNOTE FOR TRAINING\n-----------------\nThis changes the token stream.  /workspace/nrmp_cache/*.pt was built with the greedy analyzer, so\nany model trained on it must be rebuilt before its metrics mean anything.\n"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 301,
+   "kind": "string",
+   "book": "al-Khalil",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "al-Khalil's CALCULATION, not a lookup.\n\n        The tokenizer only ever proposes roots it can read off the surface, so a root whose\n        radical was DELETED is unreachable: no amount of lexicon filtering finds كون in كنت.\n        candidate_pairs() walks the wazn template against the surface and is allowed to spend a\n        slot on a radical that left no letter behind (HADHF), then validates by generating --\n        which is the generator run backwards, exactly as al-Khalil's taqalib + attestation is.\n        "
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 466,
+   "kind": "string",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "al-kathra (الكثرة) -- how often this reading's surface actually occurs.\n\n        The sources make frequency BINDING, not advisory: al-Shatibi «والحمل على الأكثر واجب» and\n        «والحمل على الأكثر متعين»; Ibn Jinni «والحكم على الأكثر لا على الأقل».  A binary\n        musta'mal/muhmal record cannot express it, and could not separate كنت (kuntu, كان+ت) from\n        كَنْتُ (kann-tu, كنّ+ت) -- both generate the surface with no elision.  Counted, they are\n        64,151 to 726.\n\n        Returns 0 when the module or its table is absent, so this degrades to the previous ranking\n        rather than failing.  The BUCKET is engineering, not fidelity -- see kathra.py E7.\n        "
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 86,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh derives it («وكأن الاسم والله أعلم إله، فلما أدخل فيه الألف واللام حذفوا الألف وصارت"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 87,
+   "kind": "comment",
+   "book": "Ibn Faris",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "الألف واللام خلفا منها») and Ibn Faris gives the root ل-ا-ه.  The exemption is therefore kept"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 122,
+   "kind": "comment",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Malik ranks the ma'arif «وجملة المعارف سبعة: المضمر، والعلم، واسم الإشارة، والموصول،"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 123,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "والمعرف بالأداة...»; Sibawayh lists «الأسماء المبهمة فنحو هذا وهذه، وهذان وهاتان، وهؤلاء، وذلك"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 124,
+   "kind": "comment",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "وتلك ... وأولئك»; Ibn Jinni says the demonstratives and relatives «جارية مجرى الأسماء المضمرة»."
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 275,
+   "kind": "comment",
+   "book": "العين",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Jinni, al-Khasa'is: «لما سكنت عين فعلت ولامه حذفوا العين البتة فقالوا: قلت"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 277,
+   "kind": "comment",
+   "book": "العين",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn 'Usfur, al-Mumti': «وتحذف العين لالتقاء الساكنين ... فتقول: خفت وكدت وطلت»"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 279,
+   "kind": "comment",
+   "book": "Usfur",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn 'Usfur, al-Mumti': «وإن أسند إلى ضمير متكلم أو مخاطب ... رددت الألف إلى أصلها"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 286,
+   "kind": "comment",
+   "book": "al-Mumti",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "نحو: رمت هند» (al-Mumti').  (b) كنت itself is never used as an ajwaf exemplar; the"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 287,
+   "kind": "comment",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "analysis is Ibn Jinni's, in Sirr Sina'at al-I'rab: «وكذا كان القياس أن تقول في كنت:"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 380,
+   "kind": "comment",
+   "book": "الاشتقاق",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "«أما الأدلة التي يعرف بها الزائد من الأصلي فهي: الاشتقاق، والتصريف، والكثرة، واللزوم،"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 386,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "1. A harf is not a root at all.          Sibawayh: «الكلم: اسم، وفعل، وحرف»"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 387,
+   "kind": "comment",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Jinni: «الحروف يشتق منها ولا تشتق هي أبدا»"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 390,
+   "kind": "comment",
+   "book": "Shatibi",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "3. AL-HAML 'ALA AL-AKTHAR.               al-Shatibi: «الثابت في الأصول أن الكثرة دليل"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 392,
+   "kind": "comment",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Jinni: «والحكم على الأكثر لا على الأقل»"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 393,
+   "kind": "comment",
+   "book": "Shatibi",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "4. AL-ASL 'ADAM AL-ZIYADA.               al-Shatibi: «والأصل عدم الزيادة، فمن ادعاها"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 395,
+   "kind": "comment",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "5. AL-HAML 'ALA AL-ASL.                  Ibn Jinni: «ومتى أمكن تناول الكلمة على ظاهرها"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 397,
+   "kind": "comment",
+   "book": "Abu Hayyan",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "operations wins; Abu Hayyan: «إذا دار الأمر إلى"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 399,
+   "kind": "comment",
+   "book": "Usfur",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "6. WIDER PATTERN.                        Ibn 'Usfur's tie-breaker: «الدخول في أوسع"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 445,
+   "kind": "comment",
+   "book": "الاشتقاق",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "THE ORDER IS IBN 'USFUR'S OWN, and that matters.  His list begins «الاشتقاق، والتصريف،"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 449,
+   "kind": "comment",
+   "book": "الاشتقاق",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "it does not say it is the root OF THIS WORD.  الفرق بين الوجود والاشتقاق."
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 456,
+   "kind": "comment",
+   "book": "Shatibi",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "al-Shatibi «والحمل على الأكثر"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 526,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "و and ف MAY enter upon a harf: Sibawayh «والواو تدخل على هل»; al-Mubarrad"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 527,
+   "kind": "comment",
+   "book": "Zajjaji",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "«إنما الواو تدخل عليهن ... وهل ... وكيف ... ومتى ... وأين»; al-Zajjaji «فإن دخل"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 529,
+   "kind": "comment",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "rule -- and Ibn Jinni's own examples give «فلم تجبني» and «فقد أجبتك»."
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 541,
+   "kind": "comment",
+   "book": "Zajjaji",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "deleted.  Ibn 'Usfur (Sharh Jumal al-Zajjaji): «إن العرب قد تقلب الألف ياء مع"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 542,
+   "kind": "comment",
+   "book": "Zajjaji",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "المضمر في نحو: عليه وإليه ولديه».  Al-Zajjaji (Huruf al-Ma'ani, لدى): «ومع"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 543,
+   "kind": "comment",
+   "book": "Abu Hayyan",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "المضمر تنقلب ياء تقول لدى زيد ولديك».  Abu Hayyan: «وقلبت ألفه ياء لإضافته إلى"
+  },
+  {
+   "module": "models/validated_segmentation.py",
+   "module_line": 579,
+   "kind": "comment",
+   "book": "العين",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "بالعين عين -> بلع, لتكون كون -> وتك.  A re-segmentation must be a RESCUE of a reading"
+  },
+  {
+   "module": "basran_syntactic_engine.py",
+   "module_line": 350,
+   "kind": "string",
+   "book": "الجوهري",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "الحركة الجوهرية سارية في صميم طبائع الأجسام"
+  },
+  {
+   "module": "basran_syntactic_engine.py",
+   "module_line": 350,
+   "kind": "string",
+   "book": "الجوهري",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "الحركة الجوهرية تقتضي"
+  },
+  {
+   "module": "andalusian_grammatical_algorithms.py",
+   "module_line": 35,
+   "kind": "string",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\n    Implements Ibn Mālik's decision tree from Lāmiyyat al-Af'āl for\n    vocalizing Arabic triliteral verbs (فَعَلَ -> يَفْعَلُ / يَفْعِلُ / يَفْعُلُ).\n    "
+  },
+  {
+   "module": "andalusian_grammatical_algorithms.py",
+   "module_line": 92,
+   "kind": "string",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\n    Implements Ibn Mālik's state machine from the Alfiyyah:\n    \"كلامنا لفظ مفيد كاستقم واسم وفعل ثم حرف الكلم\"\n    Category 1: Ism (Noun/Entity)\n    Category 2: Fi'l (Verb/Action)\n    Category 3: Harf (Particle/Preposition)\n    Category 4: Sifah (Adjective/Attribute)\n    "
+  },
+  {
+   "module": "andalusian_grammatical_algorithms.py",
+   "module_line": 148,
+   "kind": "string",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Mālik's transition rule WITH the coordinator exception (Alfiyyah, bāb al-ʿaṭf).\n\n        WIRED to ibn_malik_automaton.IbnMalikAutomaton.transition: the decode loop in\n        nrmp_generate.py calls this method, so the cited automaton is what the model runs\n        (Alfiyyah l.569 «وعطفك الفعل على الفعل يصح», gated by the ḥarf of l.549\n        «تال بحرف متبع عطف النسق»; refused without one because of l.280 «إن عاملان اقتضيا في اسم\n        عمل ... قبل فللواحد منهما العمل»).  The two literal tables above mirror the automaton's\n        and are checked by `tables_match_automaton()`.\n        "
+  },
+  {
+   "module": "andalusian_grammatical_algorithms.py",
+   "module_line": 179,
+   "kind": "string",
+   "book": "Shāṭibī",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "SOURCED (al-Shāṭibī, Sharh al-Alfiyyah): «وإنما ينعت بما كان في رتبته أو دون رتبته،\n        لا بما هو فوق رتبته» -- a naʿt is of its manʿūt's rank or below, never above."
+  },
+  {
+   "module": "andalusian_grammatical_algorithms.py",
+   "module_line": 187,
+   "kind": "string",
+   "book": "Alfiyyah",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "The ʿāṭif wāw/fāʾ itself (al-Alfiyyah l.550 «فالعطف مطلقا بواو ثم فا»)."
+  },
+  {
+   "module": "andalusian_grammatical_algorithms.py",
+   "module_line": 211,
+   "kind": "string",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\n        Applies hard exclusion mask based on Ibn Mālik's transition rules.  Pass\n        `coordinator_between=True` when the candidate carries the ʿaṭf wāw/fāʾ, which admits\n        Fiʿl -> Fiʿl (Alfiyyah: «وعطفك الفعل على الفعل يصح»).\n        "
+  },
+  {
+   "module": "andalusian_grammatical_algorithms.py",
+   "module_line": 135,
+   "kind": "comment",
+   "book": "التسهيل",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "«وقد جعل لها في \"التسهيل\" ست مراتب، فأعلاها ضمير المتكلم، ثم ضمير المخاطب، ثم العلم،"
+  },
+  {
+   "module": "khalil_students_andalusian_master_engine.py",
+   "module_line": 517,
+   "kind": "string",
+   "book": "Shāṭibī",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Al-Shāṭibī Conjunction Disambiguation (و) + Al-Suhaylī Verbal Realism"
+  },
+  {
+   "module": "khalil_students_andalusian_master_engine.py",
+   "module_line": 372,
+   "kind": "comment",
+   "book": "Ibn Mālik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Ibn Mālik Rule: Prefix 'الـ' strictly designates an ISM (Noun)"
+  },
+  {
+   "module": "models/ibn_jinni_ishtiqaq.py",
+   "module_line": 89,
+   "kind": "string",
+   "book": "Ibn Jinni",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\n        Analyzes Ibn Jinni's 'Tasaqub al-Alfaz li-Tasaqub al-Ma'ani':\n        Compares two proximate roots (e.g., نضح vs نضخ, or هز vs أز)\n        and quantifies the phonetic shift and corresponding semantic modulation.\n        "
+  },
+  {
+   "module": "classical_governance_v2.py",
+   "module_line": 3,
+   "kind": "string",
+   "book": "Khalil",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\nclassical_governance_v2.py -- corrected Al-Khalil / Sibawayh / Andalusian constraints.\n\nFixes the implementation mistakes confirmed by test_grammar_impl.py:\n\n  K1  Al-Khalil wrongly forbade EVERY bare-alif triliteral root. The blueprint normalises\n      hamza-initial roots to bare alif (asal -> اصل), so this killed 249 REAL roots\n      (اصل origin, ارض earth, اخذ take, احد one, اسس found, افل set, اثر trace) = 2.7% of the\n      whole root space. FIX: never forbid on bare alif.\n  K2  The phonotactic compatibility matrix was 6 hardcoded pairs. FIX: compile it from the\n      attested root inventory itself (data-driven), and report whether it is non-vacuous.\n      NOTE: forbidding all same-makhraj adjacent pairs over-forbids (شجر, a real root, has\n      ش+ج sharing wasaṭ al-lisan), so the empirical matrix is the correct construction.\n  S1  'إن' was classified HARF_JAZM because JAZM was tested before INNA. It is the emphatic\n      INNA particle; the jazm operator is the conditional إنْ. FIX: INNA family is decided first,\n      and jazm/nasb are only asserted when the governed word is actually an imperfect verb.\n  S2  'ما' / 'لا' / 'أن' were unconditional operators (plain negation 'لا شك' was forced into a\n      verb). FIX: ambiguous particles are operators only if the following word is verbal.\n  S3  Operator state was recomputed from t-1 only, so government died after one word\n      (في الاجسام الشفافة -> [JARR, NONE, NONE]). FIX: al-'Amil persists while the governed\n      constituent continues (noun + its adjectives/na't).\n  M1  Ibn Malik's Alfiyyah automaton blocked Fi'l -> Fi'l unconditionally; the Alfiyyah forbids\n      it only WITHOUT a coordinator. FIX: allow after و / ف (consistent with the waw classifier,\n      which already returns ATF for FIL->FIL).\n  M2  Maratib al-Ma'arif (definiteness hierarchy) not implemented. FIX: added ranks.\n  Sh1 Al-Shatibi's waw classifier implemented only 'Aṭf and Isti'naf. FIX: add Ḥal and Qasam\n      (the remaining four functions are not specified anywhere in the source documents).\n"
+  },
+  {
+   "module": "classical_governance_v2.py",
+   "module_line": 368,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\n    Sibawayh lists \"اللام التي في الأمر\" among the jazm operators; Ibn Jinni (al-Khasa'is)\n    requires the jussive to elide the final weak radical (lam yaqul, not *lam yaqulu).\n    Returns True when the word carries the lam of command on an imperfect verb and therefore\n    must undergo apocope.\n    "
+  },
+  {
+   "module": "classical_governance_v2.py",
+   "module_line": 321,
+   "kind": "string",
+   "book": "Alfiyyah",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Delegates to the cited automaton: Fi'l -> Fi'l only through a coordinator.\n\n        Alfiyyah, bab al-'atf: \"وعطفك الفعل على الفعل يصح\"; the ʿatf is \"تال بحرف متبع عطف النسق\",\n        and without the harf the two verbs would be two operators on one operand, which\n        \"إن عاملان اقتضيا في اسم عمل ... قبل فللواحد منهما العمل\" forbids.\n        "
+  },
+  {
+   "module": "classical_governance_v2.py",
+   "module_line": 90,
+   "kind": "comment",
+   "book": "Khalil",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "VERBATIM from Kitab al-'Ayn (Al-Khalil): \"القاف والكاف لا يجتمعان في كلمة واحدة ..."
+  },
+  {
+   "module": "classical_governance_v2.py",
+   "module_line": 106,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh, Al-Kitab, \"باب ما يعمل في الأفعال فيجزمها\":"
+  },
+  {
+   "module": "classical_governance_v2.py",
+   "module_line": 108,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "NOTE: إن is NOT in Sibawayh's jazm list. The lam of command is a WITHIN-WORD marker"
+  },
+  {
+   "module": "classical_governance_v2.py",
+   "module_line": 224,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh: أنْ and إنْ govern a following VERB (nasb / conditional jazm); the"
+  },
+  {
+   "module": "iktifa_apocope.py",
+   "module_line": 3,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\niktifa_apocope.py -- Sibawayh's al-Iktifa' (clitic saturation) and jussive apocope.\n\nTWO halves, both about slots and endings:\n\n(1) AL-IKTIFA' -- \"sufficing\". Sibawayh, al-Kitab: باب ما يكتفى فيه بالشيء عن الشيء. A valency\n    slot can be closed three ways:\n      * filled      -- the ma'mul appears\n      * LICITLY ABSENT -- the verb is lazim, or the noun suffices for its khabar\n      * SATURATED BY A CLITIC -- an attached pronoun FILLS the slot, so no further ma'mul is\n        expected:  ضربَهُ  (the -hu IS the maf'ul),  ضربتُ (the -tu IS the fa'il),\n        منه / فيه  (the pronoun IS the majrur).\n    This matters because without it the constituent stack keeps awaiting a ma'mul that will never\n    come, and mis-assigns whatever follows. The (prefix, root, wazn, SUFFIX) tuple already carries\n    the clitic, so saturation is computable.\n\n    The clitic's SLOT depends on its HOST -- which is Sibawayh's point:\n      after a VERB        -hu is maf'ul bihi        -tu is fa'il\n      after a NOUN        -hu is mudaf ilayhi       (possessive)\n      after a PREPOSITION -hu is majrur\n\n(2) JUSSIVE APOCOPE -- the realisation rule for jazm and for forming the imperative:\n      sound verb          jazm -> sukun                 lam yadhhab\n      weak-final (naqis)  jazm -> the weak letter is DELETED   lam yad'u, lam yarmi, lam yarda\n      hollow (ajwaf)      the weak letter is deleted    lam yaqul  (from yaqulu)\n      with a clitic       NO apocope -- the suffix protects the ending   lam yadribhu\n      energetic nun       NO apocope -- the nun protects it\n    IMPERATIVE is formed from the jussive stem: if that stem begins with a consonant cluster a\n    prothetic hamzat al-wasl is added -- with dammah if the 'ayn is vowelled with dammah,\n    otherwise kasrah. A HOLLOW verb drops its weak letter, so no prothetic is needed.\n\nUsage:\n  python iktifa_apocope.py        # verifies against canonical examples\n"
+  },
+  {
+   "module": "iktifa_apocope.py",
+   "module_line": 118,
+   "kind": "string",
+   "book": "Ibn Malik",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Form the amr from the imperfect (Ibn Malik, Lamiyyat al-Af'al).\n\n        Two corrections that matter:\n          * the prothetic hamzat al-wasl is needed ONLY if the stem would begin with a consonant\n            cluster. In يَعِدُ the first radical already carries a kasrah, so the stem is عِد --\n            no prothetic (my first version wrongly produced اِعد).\n          * the prothetic's VOWEL is read from the WAZN, not the bare string: dammah if the 'ayn\n            carries dammah (يَفْعُلُ -> اُنصر), otherwise kasrah (يَفْعِلُ -> اِضرب).\n        "
+  },
+  {
+   "module": "constituent_stack.py",
+   "module_line": 3,
+   "kind": "string",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "\nconstituent_stack.py -- Sibawayh's 'amal, implemented as a stack, producing CASE and then ROLE.\n\nThe governing principle, as Sibawayh states it in al-Kitab:\n\n    العامل يعمل فيما يليه        an operator works upon what follows it\n    ولا يعمل عاملان في معمول واحد   and two operators do not work upon one ma'mul\n    فإذا عمل العامل عمل فيما بعده    once an operator works, it works upon what comes after,\n                                   حتى يقطع عمله                until its action is cut off\n\nSo: imposing a CASE is what 'amal IS. The role then follows from the case plus the word's own\nmorphology -- which is why the (prefix, root, wazn, suffix) split is the right substrate: the ROOT\ngives the masdar-same-root test, the WAZN gives the derived-adjective test, and the operator gives\nthe case.\n\n  role = case(from the governing 'amil)  x  signature(wazn, root-relation, closed lexicon)\n\nWhere the table under-determines the answer, Sibawayh and Ibn Malik resolve it by ta'wil -- and that\nresidual is left to the model rather than forced by a rule.\n\nUsage:\n  python constituent_stack.py --n 30000\n"
+  },
+  {
+   "module": "constituent_stack.py",
+   "module_line": 203,
+   "kind": "comment",
+   "book": "Sibawayh",
+   "src_file": null,
+   "src_line": null,
+   "arabic": "Sibawayh: «لأن المضمر في ضارب هو الفاعل» (-tu IS the fa'il) and"
+  }
+ ],
+ "stats": {
+  "andalusian_realizer.py": {
+   "structured": 43,
+   "inline": 32,
+   "total": 75
+  },
+  "ibn_malik_automaton.py": {
+   "structured": 0,
+   "inline": 14,
+   "total": 14
+  },
+  "sibawayh_governor.py": {
+   "structured": 0,
+   "inline": 14,
+   "total": 14
+  },
+  "khalil_orbits.py": {
+   "structured": 5,
+   "inline": 6,
+   "total": 11
+  },
+  "models/validated_segmentation.py": {
+   "structured": 0,
+   "inline": 32,
+   "total": 32
+  },
+  "basran_syntactic_engine.py": {
+   "structured": 0,
+   "inline": 2,
+   "total": 2
+  },
+  "andalusian_grammatical_algorithms.py": {
+   "structured": 0,
+   "inline": 7,
+   "total": 7
+  },
+  "khalil_students_andalusian_master_engine.py": {
+   "structured": 0,
+   "inline": 2,
+   "total": 2
+  },
+  "farahidian_syntactic_realizer.py": {
+   "structured": 0,
+   "inline": 0,
+   "total": 0
+  },
+  "models/ibn_jinni_ishtiqaq.py": {
+   "structured": 0,
+   "inline": 1,
+   "total": 1
+  },
+  "classical_governance_v2.py": {
+   "structured": 0,
+   "inline": 7,
+   "total": 7
+  },
+  "iktifa_apocope.py": {
+   "structured": 0,
+   "inline": 2,
+   "total": 2
+  },
+  "irab_realizer.py": {
+   "structured": 0,
+   "inline": 0,
+   "total": 0
+  },
+  "constituent_stack.py": {
+   "structured": 0,
+   "inline": 2,
+   "total": 2
+  },
+  "tasrif_engine.py": {
+   "structured": 0,
+   "inline": 0,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT طرخ   stratum=ma
+REC ontological_core : A constructed basin or reservoir, wide like a cistern, positioned at the outlet of a water channel, in which water gathers before bursting forth to irrigate a cultivated field.
+REC haqiqah_literal  : The concrete, physical referent is a wide, basin-like reservoir (mājil) built at the mouth of a canal or qanāt, functioning as a collecting and discharge point for irrigation water before it flows into the farmland.
+REC canon_def.ar     : الطَّرْخَة: ماجِلٌ يُتَّخَذُ كالحوض الواسع عند مخرج القناة، يجتمع فيها الماء ثم يتفجر منها إلى المزرعة، وهو دخيل ليست فارسية محضة ولا عربية محضة.
+REC canon_def.en     : Al-ṭarkhah: a wide basin-like reservoir constructed at the outlet of a water channel, in which water gathers and then bursts forth to the cultivated field; it is a loanword, neither purely Persian nor purely Arabic.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 16485 hdr=طرخ] الطَّرْخةُ: ماء «4» يجتمع كالحوض الواسع عند مخرج القناة يجتمع فيها ماء كثير ثم يفتح منها إلى المزارع، دخيل، ليس بعربية محضة. وطَرْخان اسم رجل بلغة خراسان. __________ (1) جاء في اللسان والخرا والخرا والخريى والخراي شحمة...... (2) لم نهتد إلى الراجز ولا إلى الرجز. (3) كذا في الأصول المخطوطة واللسان، وأما في التهذيب 7/ 229 فهو: الشرك. (4) كذا في الأصول المخطوطة، وأما في التهذيب واللسان فهو: ماجل. باب الخاء والطاء واللام […]

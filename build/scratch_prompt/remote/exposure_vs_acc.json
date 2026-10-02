@@ -1,0 +1,52 @@
+{
+  "exposure_buckets": [
+    {
+      "lo": 1,
+      "hi": 1,
+      "sentences": 92496,
+      "positions": 809458,
+      "root_top1": 0.1919827835415797,
+      "root_top5": 0.3464701071581231,
+      "prefix_top1": 0.722185709450027,
+      "wazn_top1": 0.4762408920536952,
+      "suffix_top1": 0.8307064727261946,
+      "root_top1_real": 0.017213420900619173,
+      "root_top1_special": 0.39107397218280177
+    },
+    {
+      "lo": 2,
+      "hi": 2,
+      "sentences": 1719,
+      "positions": 14791,
+      "root_top1": 0.18801974173483876,
+      "root_top5": 0.34676492461632075,
+      "prefix_top1": 0.7119870191332567,
+      "wazn_top1": 0.47914272192549523,
+      "suffix_top1": 0.8307754715705497,
+      "root_top1_real": 0.016028495102404273,
+      "root_top1_special": 0.38311688311688313
+    },
+    {
+      "lo": 3,
+      "hi": 4,
+      "sentences": 22,
+      "positions": 207,
+      "root_top1": 0.20772946859903382,
+      "root_top5": 0.391304347826087,
+      "prefix_top1": 0.7439613526570048,
+      "wazn_top1": 0.5217391304347826,
+      "suffix_top1": 0.8309178743961353,
+      "root_top1_real": 0.02,
+      "root_top1_special": 0.38317757009345793
+    }
+  ],
+  "never_seen_control": {
+    "sentences": 40000,
+    "positions": 350168,
+    "root_top1": 0.1901915651915652,
+    "root_top5": 0.3434751319366704,
+    "root_top1_real": 0.016265783437305722
+  },
+  "total_seen_sentences": 94237,
+  "steps": 6000
+}

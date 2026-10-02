@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سقعب   stratum=ma
+REC ontological_core : The root denotes elongation and extension in bodily stature, with the quadrilateral structure (س-ق-ع-ب) suggesting an emphatic, intensive quality of tallness in the human frame.
+REC haqiqah_literal  : The literal physical meaning is a tall man, specifically one of pronounced height and extended frame; the root is attested with both س (sīn) and ص (ṣād) as the initial radical.
+REC canon_def.ar     : السَّقْعَبُ: الطَّوِيلُ مِنَ الرِّجَالِ، بِالسِّينِ وَالصَّادِ.
+REC canon_def.en     : Al-saqʿab: the tall one among men, attested with both sīn and ṣād.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

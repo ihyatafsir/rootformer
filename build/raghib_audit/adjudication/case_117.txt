@@ -1,0 +1,10 @@
+================================================================================================
+ROOT بلز   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on compact, solid bodily mass — a dense, thickset corporeal bulk, particularly of a woman, characterized by firm, well-knit flesh rather than mere largeness.
+REC haqiqah_literal  : The literal physical meaning, per Lisān al-ʿArab, is a woman who is بِلِز (biliz) or بِلِزّ (bilizz): bulky, thickset, and compactly fleshed (ḍakhma muktaniza). Al-Jawharī restricts بِلِز to the pattern فِعِل (fiʿil) with kasrah on both the first and second radicals, meaning simply 'bulky.' Thaʿlab noted that only two adjectival forms in Arabic occur on the pattern فِعِل: a wom […]
+REC canon_def.ar     : امرأَة بِلِزٌ وبِلِزٌّ: ضخمة مكتنزة. قال ثعلب: لم يأْت من الصفات على فِعِلٍ إِلاَّ حرفان: امرأَة بِلِزٌ وأَتان إِبِدٌ. وجَمَل بَلَنْزى: غليظ.
+REC canon_def.en     : A woman who is بِلِز or بِلِزّ: bulky and compactly fleshed. Thaʿlab said: only two adjectival forms occur on the pattern فِعِل — a woman بِلِز and a she-ass إِبِد. And a camel بَلَنْزى: thick and coarse.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 9317 hdr=بلز] الباء واللام والزاء* ليس بأصل. وفيه كليمات، فالبلز المرأة القصيرة. ويقولون البلأز: القصير من الرجال (4). والبلأزة: الأكل. وفى جميع ذلك نظر
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

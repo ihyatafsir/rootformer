@@ -1,0 +1,32 @@
+{
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "cache": "/workspace/head_fix/nrmp_cache_9490_aligned",
+  "operator_stream": "SibawayhGovernor",
+  "full_space_ALL": {
+    "n": 18869,
+    "acc@1": 0.06619323045015335,
+    "acc@5": 0.12565584480762482,
+    "ce_z": 8.099681854248047,
+    "majority_class": "اله",
+    "marginal": 0.03566696698288198,
+    "lift": 1.8558693393223529,
+    "most_predicted_class": "اله",
+    "most_predicted_share": 0.053526948963909055,
+    "pred_is_marginal_class": true
+  },
+  "top500_subset_same_positions": {
+    "n": 13802,
+    "acc@1": 0.08100274950265884,
+    "acc@5": 0.1548326313495636,
+    "ce_z": 7.363118648529053,
+    "majority_class": "اله",
+    "marginal": 0.04876104912331546,
+    "lift": 1.6612183486414522,
+    "most_predicted_class": "اله",
+    "most_predicted_share": 0.06049847848137951,
+    "pred_is_marginal_class": true
+  },
+  "root_map": "/workspace/vocab_shrink/root_map_top500.pt",
+  "peak_vram_mib": 1309.7,
+  "wall_s": 69.4
+}

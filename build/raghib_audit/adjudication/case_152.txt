@@ -1,0 +1,10 @@
+================================================================================================
+ROOT بلخص   stratum=ma
+REC ontological_core : The root denotes corporeal thickness and abundant flesh, with the physical origin being a body or limb characterized by dense, heavy, fleshy mass.
+REC haqiqah_literal  : The literal physical meaning is 'thick, coarse, and abundant in flesh,' applied to a body or limb that is dense and heavy with meat.
+REC canon_def.ar     : بَخْلَصٌ وبَلْخَصٌ: غليظٌ كثير اللحم، وقد تَبَخْلَصَ وتَبَلْخَصَ.
+REC canon_def.en     : Bakhlṣ and balkhṣ: thick, coarse, and abundant in flesh; and indeed tabakhlaṣa and tabalkhaṣa mean to become so.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

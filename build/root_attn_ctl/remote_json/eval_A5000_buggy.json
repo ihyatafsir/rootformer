@@ -1,0 +1,26 @@
+{
+  "tag": "A5000_BUGGY",
+  "head": "/workspace/root_attn/head_ROOTATTN.pt",
+  "trunk": "/workspace/root_attn/head_ROOTATTN.pt.trunk.pt",
+  "gates": "trained",
+  "result": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.002278870204463601,
+      "acc@5": 0.00842652004212141,
+      "ce_z": 13.70947265625,
+      "ppl_z": 899390.5589859232,
+      "ce_raw_SCALE_DEPENDENT": 11.109771728515625,
+      "logit_scale": 0.7574626803398132
+    },
+    "NOVEL_only": {
+      "n": 15046,
+      "acc@1": 0.0023261995520442724,
+      "acc@5": 0.008706633001565933,
+      "ce_z": 13.754733085632324,
+      "ppl_z": 941032.6222734399,
+      "ce_raw_SCALE_DEPENDENT": 11.152688026428223,
+      "logit_scale": 0.7589075565338135
+    }
+  }
+}

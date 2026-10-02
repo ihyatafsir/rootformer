@@ -1,0 +1,238 @@
+================================================================================================
+ROOT نفه   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root نفه is the exhaustion and collapse of vital force, specifically the failure of the animating breath or self (nafs) under strain, and the consequent prostration of a beast of burden from fatigue.
+REC haqiqah_literal  : The literal physical meaning, per Asās al-Balāghah, is the state of being exhausted, wearied, and broken by toil: a man is nāhif or manfūh (exhausted), the self (nafs) is nafihah (wearied and enfeebled), and a camel is nāfih (prostrate from fatigue), with the plural nuffah.
+REC canon_def.ar     : نَفِهَتْ نفسي: أَعْيَتْ وكَلَّتْ. وبعير نافِهٌ: كالٌّ مُعْيٍ، والجمع نُفَّهٌ؛ ونَفَّهَهُ: أَتعبه حتى انقطع.
+REC canon_def.en     : My self became exhausted: it grew weary and enfeebled. A camel that is nāfih is weary and prostrate; the plural is nuffah. And naffahahu means: he exhausted him until he was cut off (utterly spent).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 72309 hdr=نفه] النون والفاء والهاء أصل واحد يدل على إعياء وضعف. منه نفهت النفس: أعيت وكلت: وهو نافه ونفه. قال: بنا حراجيج المهارى النفه (2) وهو منفه ومنفوه: ضعيف جبان.
+SRC Asas [haqiqah_literal]        : رجل نافه ومنفه: معي. ونفهت نفسه. وتقول: كم بين المرفه والمنفه. وركابهم نافهة ونفه.
+SRC Ayn (al-Khalil)  : [line 14439 hdr=نفه] نَفِهَتْ نَفْسي: أَعْيَتْ. والنّافِهُ المُنَفَّهُ: الكالُّ المُعْيِي [من الدَّوابّ] «3» وجَمْعُ النّافِهِ: نُفّهٌ قال «4» : بنا حَراجيجُ المَهارَى النُّفَّهِ والنّافَهةُ: الأنثى. باب الهاء والنون، والباء معهما هـ ن ب، ن هـ ب، ب هـ ن، ن ب هـ مستعملات هـ ب ن، ب ن هـ مهملان
+
+================================================================================================
+ROOT نول   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of giving, bestowing, or reaching out something to someone, particularly a benefit or favor, and by extension, the reception or attainment of that benefit. It implies a transfer or extension from a giver to a receiver, often involving a hand or means of conveyance.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is the act of giving or handing over something, as in 'نوله' (he gave him) and 'ناوله الشيء' (he handed him the thing). It also denotes the reception of that thing, as in 'تنولته' (I received it). The literal sense involves a tangible transfer of an object or benefit from one person to another.
+REC canon_def.ar     : النَّائِلُ: مَا نِلْتَ مِنْ مَعْرُوفِ إِنْسَانٍ، وَكَذَلِكَ النَّوَالُ. وَأَنَالَهُ مَعْرُوفَهُ وَنَوَّلَهُ: أَعْطَاهُ مَعْرُوفَهُ.
+REC canon_def.en     : Al-Nāʾil: what you attain of a person's favor, and likewise al-nawāl. And anālahu maʿrūfahu wa nawwalahu: he gave him his favor.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69854 hdr=نول] النون والواو واللام أصل صحيح يدل على إعطاء. ونولته: أعطيته. والنوال: العطاء. ونلته نولا مثل أنلته. وقولك: ما نولك أن تفعل كذا؛ فمنه أيضا، أي ليس ينبغي أن يكون ما تعطيناه من نوالك هذا. وقول لبيد: وقفت بهن حتى قال صحبى جزعت وليس ذلك بالنوال (3) قالوا: النوال: الصواب، وتلخيصه: ليس ذلك بالعطاء الذي [إن] أعطيتناه كنت فيه مصيبا. وكذا قوله: فدعي الملامة ويب غيرك إنه ليس النوال بلوم كل كريم (4) والقياس في كله واحد. ومما شذ عن الباب المنوال: الخشبة* يلف عليها الناسج الثوب.
+SRC Asas [bilingual_haqiqah_majaz]        : أناله معروفا وناله ونوله. قال: لو ملك البحر والفرات معا ... ما نالني من نداهما بللا وقال طرفة: إن تنوله فقد تمنعه ... وتريه النجم يجري بالظه Metaphorical (Majaz): نولك أن تفعل كذا بمعنى حقك. وما ينبغي أن تعطيه من نفسك، وما نولك أن تفعل. وفي الحديث: " ما نول امرئ مسلم أن يقول غير الصواب ". وقال: أأن حن
+SRC Asas [haqiqah_literal]        : أناله معروفا وناله ونوله. قال: لو ملك البحر والفرات معا ... ما نالني من نداهما بللا وقال طرفة: إن تنوله فقد تمنعه ... وتريه النجم يجري بالظهر وهو كثير النذول والنوال والنائل، ورجل منيل ونال. قال: إذا كان مالا كان نالا مرزأ ... ونال نداه كل دان وجانب مالا: متمولا. ونولني كذا فتنول
+SRC Asas [majaz_metaphorical]        : نولك أن تفعل كذا بمعنى حقك. وما ينبغي أن تعطيه من نفسك، وما نولك أن تفعل. وفي الحديث: " ما نول امرئ مسلم أن يقول غير الصواب ". وقال: أأن حن أجمال وفارق جيرة ... عنيت بنا ما كان نولك تفعل ومنه قول ذي الرمة: وقفت بهن حتى قال صحبي ... جزعت وليس ذلك بالنذوال أي بما ينبغي. وتقول: ما أ
+SRC Ayn (al-Khalil)  : [line 35205 hdr=نول] نيل: النَّوْل: اسمٌ للقُبْلة، ومنه قول امرىء القيس: «43» إذا قلتُ هاتي نوِّليني تمايلت ... عَليَّ هضيمَ الكَشحِ رَيّا المُخَلخَلِ والنَّوالُ: العطاء. ونوّله: أعطاه، قال طرفة: «44» إن تُنَوِّلْهُ فقد تَمْنَعُه ... وتُرِيهِ النَّجْمَ يَجْري بالظُّهُرْ والنَّوْل: خَشَبَةٌ من أداة الحائك ... والمِنوال: الحائكُ الذي يَنسُجُ الوسائد ونحوها وأَداتُهُ المنصوبة تُسَمَّى أيضاً مِنوالا، قال الكُمَيت: كُمَيْتاً كأنّها هراوةُ مِن […]
+
+================================================================================================
+ROOT نوي   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of directing oneself toward a place or object with deliberate intent, specifically the setting of one's course toward a destination or the resolve to undertake a journey. It denotes the orienting of the self toward a goal, whether spatial (a dwelling, a land) or volitional (an intention, a belief).
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is: a people's directing themselves toward a dwelling in a certain place, and their intending it (نوى القوم منزلا بمكان كذا وانتووه); also, the forming of a resolve to travel or to be absent from one's homeland (نوى غربة), and the statement 'I intend your intention' meaning 'I intend to travel with you and accompany yo […]
+REC canon_def.ar     : نَوَى الشيءَ نِيَّةً ونِيَةً: قصده واعتقده. ونوى المنزل وانْتَواه كذلك. والنِّيَّةُ: الوجه يُذْهَب فيه.
+REC canon_def.en     : He intended the thing with an intention (niyyah) and a resolve (niyah): he aimed at it and believed in it. He intended the dwelling and likewise directed himself toward it. And niyyah is the direction toward which one goes.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69662 hdr=نوى] النون والواو والحرف المعتل أصل صحيح يدل على معنيين: أحدهما مقصد لشيء، والآخر عجم شيء. فالأول النوى. قال أهل اللغة: النوى: التحول من دار إلى دار. هذا هو الأصل، ثم حمل عليه الباب كله فقالوا: [نوى] الأمر ينويه، إذا قصد له. ومما يصحح هذه التآويل قولهم: نواه الله، كأنه قصده بالحفظ والحياطة. قال: يا عمرو أحسن نواك الله بالرشد واقرأ سلاما على الذلفاء بالثمد (1) * أي قصدك بالرشد. والنية: الوجه الذي تنويه. ونويك: صاحبك نيته نيتك. والأصل الآخر النوى: نوى التمر. وربما عبروا به عن بعض الأوزان. ويقال إن النواة: زنة خمسة دراهم. وتزوجها على نواة من ذهب، أي وزن خمسة دراهم منه. وبالهمز كلمة تدل على النهوض وناء ينوء نوءا: نهض. قال […]
+SRC Asas [bilingual_haqiqah_majaz]        : نوى القوم منزلا بمكان كذا وانتووه. ونووا نية قذفا، ونوى غربة. وأنا نويك أي نويت المسافرة معك ومرافقتك. Metaphorical (Majaz): نواك الله بالخير: قصدك به وأوصله إليك. قال: يا عمرو أحسن نواك الله بالرشد ... واقرأ السلام على الأنقاء بالثمد
+SRC Asas [majaz_metaphorical]        : نواك الله بالخير: قصدك به وأوصله إليك. قال: يا عمرو أحسن نواك الله بالرشد ... واقرأ السلام على الأنقاء بالثمد
+SRC Asas [haqiqah_literal]        : نوى القوم منزلا بمكان كذا وانتووه. ونووا نية قذفا، ونوى غربة. وأنا نويك أي نويت المسافرة معك ومرافقتك.
+SRC Ayn (al-Khalil)  : [line 35876 hdr=نوي] النَّوَى: التَّحَوُّل من دارٍ إلى دارٍ أُخْرى، كما كانوا ينتوون مَنزِلاً بَعْدَ مَنْزِلٍ. والفِعْل: الانتواء والمصدر: النّيّة [والنَّوى] ، قال: ....... ... عَدَتْه نِيّةٌ عنها قذوف «60» وقال الطّرمّاح «61» : آذَنَ النّاوى ببَيْنُونةٍ ... ظَلْتُ منها كصريعِ المدام __________ (57) (ذو الرمة) ديوانه 2/ 758 غير أن الرواية فيه: ولما تلاقينا جرى من عيوننا ... دموع كففنا ماءها بالأصابع (58) (النابغة) ديوانه ص 52. (59) لم نه […]
+
+================================================================================================
+ROOT هذم   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root هذم is the swift, forceful, and total severance or engulfing of a thing—an act of rapid cutting or swallowing that leaves no trace, as in the poet's image of the fiery abyss (al-lihab) consuming the horizons.
+REC haqiqah_literal  : To cut something swiftly and completely; to engulf or obliterate a thing entirely, as a sword (sayf mihdham) that cuts through with speed and finality.
+REC canon_def.ar     : هَذَمَ الشيءَ يَهْذِمه هَذْماً: غيّبه أَجمع؛ وسيف مِهْذَم وهِذَام: سريع القطع.
+REC canon_def.en     : He cut the thing swiftly and completely, engulfing it entirely; and a sword that is mihdham or hidhām is one that cuts with speed and finality.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 74471 hdr=هذم] الهاء والذال والميم: كلمة صحيحة، تدل على قطع لشىء. وهذم السيف: قطعه. وسيف مهذم وهذام وهيذام. ويسمى الشجاع هيذاما، تشبيها له بهذا السيف.
+SRC Asas [haqiqah_literal]        : هذمه: أسرع قطعه. وسيف مخذم ومهذم هذام.
+SRC Ayn (al-Khalil)  : [line 14225 hdr=هذم] الهَذْمُ: الأَكْلُ، والهَذْمُ: القَطْع، كلُّ ذلك في سُرْعة [وقال رؤبة يصف الليل والنّهار «2» : كلاهما في فَلَكٍ يستلحمه ... واللهب لهب الخافقين يَهْذِمُهْ
+
+================================================================================================
+ROOT همي   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root همي is the free, downward, and continuous flow of a liquid—specifically tears, rain, or blood—from a source, and by extension, the swift, unresisted departure or movement of a being or object.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the pouring forth and flowing of tears from the eye, rain from the sky, or blood from the mouth of a horse; also, the going away or departing of camels upon their faces.
+REC canon_def.ar     : هَمَتْ عينُه هَمْياً وهُمِيًّا وهَمَياناً: صَبَّتْ دمعها، وقيل: سالَ دَمْعُها، وكذلك كلُّ سائل من مطر وغيره. وليس هذا من الهائم في شيء.
+REC canon_def.en     : His eye flowed with tears: it poured forth its tears; it was also said: its tears streamed. The same applies to any flowing liquid such as rain and the like. This is not related to the wandering lover (al-hāʾim) in any way.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75023 hdr=همى] الهاء والميم والحرف المعتل يدل على ذهاب شىء على وجهه وهمى الماء: سال. وهمت الماشية تهمى: ذهبت على وجهها لرعى أو غيره وفى الحديث@HAD03 : «إنا نصيب هوامى @HAD01 الإبل» : الضوال. وإذا همز (1)* تغير المعنى. تقول: تهمأ الثوب: بلى.
+SRC Asas [haqiqah_literal]        : همي القطر والدمع يهمى، وهمت العين. ورأيت الخيل تهمي أفواهها دما. وهذا من هوامي الإبل، وهمت على وجوهها: ذهبت. وله هميان أعجر وهمايين عجر.
+SRC Ayn (al-Khalil)  : [line 15060 hdr=همي] هَمَتِ النّاقةُ تَهْمِي إذا نَدَّتْ للرّعي وغيره. وفي الحديث: إنّا نُصيب هَوامي الإِبِل «2» وهي المهملة التي لا حافظ لها. يقال: ناقةٌ هاميةٌ، وبعيرٌ هامٍ، وقد هَمَي يَهْمي هَمْياً. والخَيْلُ تهمي أفواهها دماً، أي: تسيل دماؤها . هيم: الهَيْمانُ: العَطْشانُ. والهائم: المُتَحَيِّر، هامَ يَهِيمُ. والهَيامُ من الرّمل: ما كان دُقاقاً يابساً. والهُيامُ: كالجُنونِ من العِشْق، وهو مَهْيُومٌ. قال «3» : ظلّ كأنّ الهُيامَ خالَطَ […]
+
+================================================================================================
+ROOT هوش   stratum=mA
+REC ontological_core : The foundational physical origin of the root ه و ش is the scattering, dispersal, and agitated commotion of a herd or group—specifically camels or horses—when startled, causing them to break ranks, mill about, and intermix chaotically. From this primary image of frightened, dispersing animals, the root extends to any state of disorderly mixing, upheaval, or collective agitation.
+REC haqiqah_literal  : The literal physical meaning, as attested in Asās al-Balāghah, is the startled scattering and restless milling of camels or horses in a raid or alarm (هاشت الإبل هوشاً: نفرت في الغارة فتبددت وتفرقت); and the physical act of mixing or gathering something from here and there (هاش الشيء وهوشه: خلطه وجمعه من هنا وهنا).
+REC canon_def.ar     : الهَوْشُ: الاختلاطُ والهَيْجُ والاضطرابُ. هاشَت الإبلُ هَوْشاً: نفرت في الغارة فتبدّدت وتفرّقت. والهَوْشَةُ: الفتنةُ والهَرْجُ. وهاش القومُ: هاجوا واضطربوا. وهاش الشيءَ وهَوَّشَهُ: خلطَهُ وجمعَهُ من هنا وهنا.
+REC canon_def.en     : Al-hawsh is intermixing, agitation, and convulsion. The camels scattered with a hawsh when startled in a raid, dispersing and breaking apart. Al-hawshah is sedition and chaos. The people became agitated and convulsed. To hash or hawshash a  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 73678 hdr=هوش] الهاء والواو والشين: أصيل يدل على اختلاط وشبهه. منه هوشوا: اختلطوا. وهاشت الخيل فى الغارة. والمهاوش فى الحديث (1) من هذا. ويقال: هوشت الريح بالتراب: جاءت به ألوانا. ومنه الهوش. العدد الكثير. وتهوش القوم على فلان: تغاووا عليه. وشذ عنه الهوش، يقال إنه صغر البطن قال: قد هوشت بطونها واحقوقفت (2) وهم متهاوشون، أى مختلطون.
+SRC Asas [haqiqah_literal]        : هاش القوم هوشا. هاجوا واضطربوا. وهاش أهل الحرب بعضهم إلى بعض: خفوا ونهضوا، وتهاوشوا. قال الطرماح: كأن الخيم هاش إلي منه ... نعاج صرائم جم القرون وهاشت الخيل في الغارة: نفرت وترددت. وهن هوائش. وسمعتهم يقولون: وقعت هوشة في السوق وجفلة وهو أني نفر الناس لخوف يلحقهم. وهاش الشيء وهوشه
+SRC Ayn (al-Khalil)  : [line 14573 hdr=هوش] هوّشتُ الشّيءَ، أي: خلطته، وهَوَّشَ القَوْمُ: اختلطوا، وفي الحديث: كل مال __________ (1) زيادة اقتضاها السياق. (2) اللسان (صير) غير منسوب أيضا، وفيه: تراطن الهاجات.. ورنات الصيار. (3) التهذيب 6/ 350، واللسان (هيج) ونسب في الأصول إلى (النابغة) ، وليس في ديوانه. (4) اللسان (هجا) غير منسوب أيضا. جُمِعَ من مهاوش أَذْهَبه الله في نَهابر «1» المهَاوش: الذي أصيب من غير حِلِّه، كأنه من الأختلاط، والنَّهابر: المَهالك. وإذا أُ […]
+
+================================================================================================
+ROOT واب   stratum=mA
+REC ontological_core : The root's foundational physical origin centers on the somatic and affective response of shame or shyness—a visceral recoil or bashfulness that manifests in the body and demeanor, particularly in the context of social exposure or moral transgression.
+REC haqiqah_literal  : To feel shame, to be shy, to be bashful; the literal physical manifestation of shame as a recoiling or shrinking away from exposure.
+REC canon_def.ar     : الوَبْءُ: الحَيَاءُ والاسْتِحْيَاءُ. وَبِئَ يَوْبَأُ وَبْئًا ووَبَاءً: اسْتَحْيَا. وَمَا بِكَ فِي هَذَا إِبَةٌ أَيْ مَا بِكَ حَيَاءٌ. وَطَعَامٌ لَا تُؤْبَةَ فِيهِ أَيْ لَا يُسْتَحْيَا مِنْ أَكْلِهِ.
+REC canon_def.en     : Al-wabʾ is shame and shyness. Wabiʾa yawbaʾu wabʾan wa-wabāʾan: he felt shame. 'What is there in this for you of shame?' means 'you have no shame in this.' And 'food in which there is no shame' means 'food that is not shameful to eat.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75405 hdr=وأب] الواو والهمزة والباء: كلمتان تدل إحداهما على تقعير شىء، والأخرى على غضب. فالأولى: الحافر الوأب: المقعب. والوأبة: نقيرة (1) فى صخرة تمسك الماء. والكلمة الأخرى أوأبت فلانا: أغضبته. ويقال إن الإبة منه (2)
+SRC Asas [haqiqah_literal]        : أتأب: استحيا. قال الكميت: وصرت عم الفتاة تتئب ال ... عاتق من رؤيتي وأتئب وما بك في هذا إبة. قال ذو الرمة: إذا المرئي شب له بنات ... عقدن برأسه إبة وعارا وما طعامك بطعام تؤبة أي لا يستحيا من أكله.
+SRC Ayn (al-Khalil)  : [line 36143 hdr=وأب] وَأَبَ الحافر يَئِبُ وَأْباً، إذا انضمّت سنابكه.. تقول: إِنّه لَوَأْبُ الحافِر. وحافِرٌ وَأْبٌ، أي: شديدٌ. وتقول: لم يتَّئِبْ فلانٌ أن يفعل كذا، أي: لم ينقبض ... والذِّمِّيُّ لا يتَّئِبُ أن يكفّر لمسلم مهيب ونحوه، قال «21» : إذا دعاها أَقْبَلَتْ لا تَتَّئِبْ
+
+================================================================================================
+ROOT وثب   stratum=mA
+REC ontological_core : The foundational physical act of springing or leaping off the ground with force, a sudden upward or forward propulsion of the body from a surface.
+REC haqiqah_literal  : To leap or spring from one place to another; to bound or vault; to pounce upon (with ilā or ʿalā); to assault or attack suddenly (with ilā); to compete in leaping (with one another).
+REC canon_def.ar     : الوَثْبُ: الطَّفْرُ. وَثَبَ يَثِبُ وَثْباً، ووَثَبَاناً، ووُثُوباً، ووِثَاباً، ووَثِيباً: طَفَرَ.
+REC canon_def.en     : Al-wathb is leaping. Wathaba yathibu wathban, wathabānan, wuthūban, withāban, and wathīban: he leaped.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75644 hdr=وثب] الواو والثاء والباء يدل فى لغة العرب على الظفر، إلا فى لغات من لغات حمير فإنه بخلاف هذا. ووثب من مكانه: طفر. وفى لغة حمير يقولون لمن قعد: قد وثب. وإذا أمروا بالقعود فالواثب. ويقولون للملك إذا قعد ولم يغز: الموثبان (1). ويقولون: وثبه وسادة: ألقاها له ليقعد عليها. ||| باب الواو والجيم وما يثلثهما
+SRC Asas [majaz_metaphorical]        : توثب على منزلته، وتوثب على أخيه في أرضه: استولى عليها ظلما. وقد وثب إلى الشرف وثبة. قال الكميت: ووثبة لك في الأحساب بالغة ... كذاك إنك في المعروف ذو وثب كنوبة ونوب. وفرس وثابة: سريعة.
+SRC Asas [bilingual_haqiqah_majaz]        : وثب من مكان إلى مكان وثبا ووثوبا ووثيبا، ووثب إليه، وواثبه، وتواثبوا. وظبي وثاب. Metaphorical (Majaz): توثب على منزلته، وتوثب على أخيه في أرضه: استولى عليها ظلما. وقد وثب إلى الشرف وثبة. قال الكميت: ووثبة لك في الأحساب بالغة ... كذاك إنك في ال
+SRC Asas [haqiqah_literal]        : وثب من مكان إلى مكان وثبا ووثوبا ووثيبا، ووثب إليه، وواثبه، وتواثبوا. وظبي وثاب.
+SRC Ayn (al-Khalil)  : [line 34384 hdr=وثب] يُقال: وَثَبَ وَثْباً ووُثوباً ووِثاباً ووثيباً، والمرّةُ الواحدة: وَثْبة. وفي لغة حمير: ثِب معناه: اقعد. والوِثاب: الفِراشُ بلغتهم. والمَوْثِبُ: المكان الذي تثب منه. والثِّبةُ: اسمٌ موضوعٌ من الوثب. __________ (82) القائل: (معروف بن عبد الرحمن) اللسان (ثوب) مع اختلاف في الرواية.
+
+================================================================================================
+ROOT وخط   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of striking or piercing from a distance with a pointed instrument (spear, sword), and by extension, the even intermingling or spreading of a quality across a surface, such as the dispersal of grayness (shayb) through the hair.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is to strike or pierce someone from afar with a spear or sword (وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد). It also denotes the wide stride of an ostrich (مر الظليم يخط وخطا وهو سعة خطوه).
+REC canon_def.ar     : الوَخْطُ: الطَّعْنُ من بعيد، ومنه وخْطُ الشيبِ الرأسَ: مخالطته إياه، والوَخْطُ من القَتِير: النَّبْذُ، وقيل: استواء البياض والسواد.
+REC canon_def.en     : Al-Wakhṭ: striking or piercing from a distance; hence the intermingling of gray hair with the head, and al-wakhṭ from dust: dispersal, or the equal balance of whiteness and blackness.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75895 hdr=وخط] الواو والخاء والطاء: كلمتان: إحداهما وخط الشيب (3) فى* رأسه. والأخرى: الوخط: الطعن. ووخطه بالسيف: تناوله من بعيد. وذكروا كلمة ثالثة، قالوا: مر يخط، وهو (4) مشى فوق العنق. فما صار لى فى القسم إلا ثمينها
+SRC Asas [majaz_metaphorical]        : وخطه الشيب. ووخط فلان فهو موخوط، وبها وخط من الوحش ووخز: نبذ منها. قال رجل من بني ذهل: غدونا إلى وخط من الوحش آمن ... فصبحه منا عذاب معجل
+SRC Asas [bilingual_haqiqah_majaz]        : وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد. ومر الظليم يخط وخطا وهو سعة خطوه. Metaphorical (Majaz): وخطه الشيب. ووخط فلان فهو موخوط، وبها وخط من الوحش ووخز: نبذ منها. قال رجل من بني ذهل: غدونا إلى وخط من الوحش آمن ... فصبحه منا عذاب معجل
+SRC Asas [haqiqah_literal]        : وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد. ومر الظليم يخط وخطا وهو سعة خطوه.
+SRC Ayn (al-Khalil)  : [line 17439 hdr=وخط] وَخَطْتُهُ بالسيف وَخْطاً: تناولته من بعيدٍ. والوَخْط: الطعن وقد وُخِطَ فلانٌ يُوخَطُ وَخْطاً «1» . وتقول: وَخَطَني الشَّيْبُ، ووُخِطَ فلانُ أي شابَ رأسُهُ فهو مَوْخُوطٌ. ووَخَطَ في السير يَخِطُ وَخْطاً أي: أسرع. وكذلك وَخَطَ الظليم ونحوه.
+
+================================================================================================
+ROOT وخم   stratum=mA
+REC ontological_core : The foundational physical origin of the root وخم centers on heaviness, oppressiveness, and noxiousness—specifically, that which weighs heavily upon the body or spirit, or a land/pasture that is unwholesome and burdensome to those who consume from it. The root's primary sensory anchor is the experience of something being heavy, difficult to digest, or injurious to well-being.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning denotes something that is heavy, unwholesome, or noxious—whether a person of heavy, burdensome disposition (وَخِم, وَخِيم), or a pasture (كَلأ) that is unwholesome and burdensome to livestock (مُتَوَخَّم). It also literally denotes the condition of indigestion or heaviness from food (التُّخَمَة, وَخُمَ), where food lie […]
+REC canon_def.ar     : الوَخْمُ والوَخِمُ والوَخِيمُ: الثقيلُ من الرجال البَيِّن الوَخامةِ والوُخومةِ، والجمع وَخامى ووِخامٌ وأَوْخامٌ، وقد وخُمَ وَخامةً ووُخوماً. وأوخمه الطعام فوخم واتخم، وأصابته التخمة.
+REC canon_def.en     : Al-wakhm, al-wakhim, and al-wakhīm: the heavy, burdensome person, characterized by manifest heaviness and noxiousness (al-wakhāma and al-wukhūma); the plurals are wakhāmā, wikhām, and awkhām. The verb wakhuma denotes being heavy or burdenso […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 75909 hdr=وخم] الواو والخاء والميم: كلمة واحدة، هى الوخم: الوبى من الشىء. واستوخمت البلاد، وبلاد وخمة ووخيمة: لا توافق ساكنها. ورجل وخم ووخيم: ثقيل. والتخمة من هذا، والتاء فى الأصل واو.
+SRC Asas [haqiqah_literal]        : شيء وخم ووخم ووخيم، وقد وخم وخامة، واستوخمته وتوخمته، وكلأ متوخم. قال: إلى كلإ مستوبل متوخم وأوخمه الطعام فوخم واتخم، وأصابته التخمة.
+SRC Ayn (al-Khalil)  : [line 17744 hdr=وخم] الوَخيمُ: أرضٌ لا ينجع فيها كلؤها. ورجل وَخيمٌ أي: ثقيل. وطعامٌ وخيمٌ: قد وَخُمَ وَخَامةً، إذا لم يستمرأ. تقول: استَوْخَمْتُه وتَوَخَّمتُه، __________ (1) البيت في التهذيب واللسان غير منسوب. (2) الشطر في التهذيب غير منسوب. (3) الشطر في التهذيب واللسان غير منسوب، وروايته فيهما: مع الطيب المخيم في الثياب (4) أدرجت كلمة الخيم في ترجمة (وخم) ولقد آثرنا نقلها إلى موضعها الصحيح.
+
+================================================================================================
+ROOT ابز   stratum=ma
+REC ontological_core : The root's foundational physical origin is not attested in the classical philological tradition; no primary Arabic lexical root 'ابز' is recognized in the canonical sources.
+REC haqiqah_literal  : No literal physical meaning is attested in Asās al-Balāghah or the classical lexical corpus.
+REC canon_def.ar     : لا يوجد أصل معجمي بهذا الضبط في لسان العرب أو المفردات.
+REC canon_def.en     : No lexical root with this consonantal sequence is attested in Lisān al-ʿArab or Al-Mufradāt.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 2002 hdr=أبز] الهمزة والباء والزاء يدل على القلق والسرعة وقلة الاستقرار. قال الخليل: الإنسان يأبز فى عدوه ويستريح ساعة ويمضى أحيانا (1) قال الفراء: الأبزى والقفزى اسمان من أبز الفرس وقفز. والأبز الوثب. قال أبو عمرو: نجيبة أبوز، أى تصبر صبرا عجيبا، وقد أبزت تأبز أبزا. قال: لقد صبحت حمل بن كوز علالة من وكرى أبور (2) قال الشيبانى: الآبز الذى يأبز بصاحبه، أى يبغى عليه ويعرض به. يقال: أراك تأبز به.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 31225 hdr=أبز] يُقالُ: فُلانٌ يَأْبِزُ في عَدْوِهِ، أي: يَسْتَريحُ ساعة ويَمضي ساعة. باب الزاي والميم و (وا يء) معهما وز م، م وز، ز ي م، م ز ي، م ي ز، زء م، ء ز م مستعملات
+
+================================================================================================
+ROOT انك   stratum=ma
+REC ontological_core : The root denotes a state of intense, burdensome hardship or constriction, with a secondary physical sense of bending or curving under pressure.
+REC haqiqah_literal  : Literal physical meaning: to be in a state of hardship, distress, or constriction; also to bend or curve.
+REC canon_def.ar     : الأَنْكُ: الشِّدَّةُ وَالضِّيقُ، وَأَنِكَ الرَّجُلُ إِذَا وَقَعَ فِي شِدَّةٍ، وَأَنَكَ الشَّيْءَ إِذَا عَطَفَهُ وَحَنَاهُ.
+REC canon_def.en     : Al-ank: hardship and constriction; a man is in hardship when he falls into distress; to bend something is to curve and flex it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 5051 hdr=أنك] الهمزة والنون والكاف ليس فيه أصل، غير أنه قد ذكر الآنك. ويقال هو خالص الرصاص، ويقال بل جنس منه. ||| (باب الهمزة والهاء وما بعدهما فى الثلاثى)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 24033 hdr=أنك] الآنُكُ: الأسرب «4» ، والقطعة: آنكة. باب الكاف والفاء و (وا يء) معهما ك وف، وك ف، ك ف ي، ك ي ف، ك فء، ء ك ف، ء ف ك مستعملات
+
+================================================================================================
+ROOT بلز   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on compact, solid bodily mass — a dense, thickset corporeal bulk, particularly of a woman, characterized by firm, well-knit flesh rather than mere largeness.
+REC haqiqah_literal  : The literal physical meaning, per Lisān al-ʿArab, is a woman who is بِلِز (biliz) or بِلِزّ (bilizz): bulky, thickset, and compactly fleshed (ḍakhma muktaniza). Al-Jawharī restricts بِلِز to the pattern فِعِل (fiʿil) with kasrah on both the first and second radicals, meaning simply 'bulky.' Thaʿlab noted that only two adjectival forms in Arabic occur on the pattern فِعِل: a wom […]
+REC canon_def.ar     : امرأَة بِلِزٌ وبِلِزٌّ: ضخمة مكتنزة. قال ثعلب: لم يأْت من الصفات على فِعِلٍ إِلاَّ حرفان: امرأَة بِلِزٌ وأَتان إِبِدٌ. وجَمَل بَلَنْزى: غليظ.
+REC canon_def.en     : A woman who is بِلِز or بِلِزّ: bulky and compactly fleshed. Thaʿlab said: only two adjectival forms occur on the pattern فِعِل — a woman بِلِز and a she-ass إِبِد. And a camel بَلَنْزى: thick and coarse.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 9317 hdr=بلز] الباء واللام والزاء* ليس بأصل. وفيه كليمات، فالبلز المرأة القصيرة. ويقولون البلأز: القصير من الرجال (4). والبلأزة: الأكل. وفى جميع ذلك نظر
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT جلع   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the removal of a covering or barrier, specifically the abandonment of modesty and restraint, manifesting as shamelessness and indecent speech or behavior.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (though not attested, derived from Lisān) is a woman's discarding of shame and speaking obscenely, or displaying herself provocatively.
+REC canon_def.ar     : جَلِعَت المرأَةُ، بالكسر، جَلَعاً، فهي جَلِعةٌ وجالِعةٌ، وجَلَعَت وهي جالع وجالَعَت وهي مُجالِعٌ كله إذا ترَكت الحَياء وتكلمت بالقبيح، وقيل إِذا كانت متَبرِّجةً.
+REC canon_def.en     : The woman became shameless (jalʿa), with a kasra, showing shamelessness (jalaʿan); she is shameless (jaliʿah) and shameless (jāliʿah). And she acted shamelessly (jalaʿat) while being shameless (jāliʿ), and she engaged in shameless behavior  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 14579 hdr=جلع] الجيم واللام والعين أصل واحد، وهو قريب من الذى قبله. يقال للمرأة القليلة الحياء جلعة، كأنها كشفت قناع الحياء. ويقال جلع فم فلان، إذا تقلصت شفته وظهرت أسنانه. قال الخليل: المجالعة تنازع القوم عند شرب أو قسمة. قال: ولا فاحش عند الشراب مجالع (4)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 2536 hdr=جلع] المجالعة: التنازعُ عند شُربٍ أو قمارٍ أو قسمةٍ. قال: «3» ولا فاحشٌ عندَ الشَّرابِ مُجالِعُ وَرَوَى عَرَّام: مُجالِح أي مكابر. وقال عرّام: المجالعة: أن يستقبلك بما لم تفعله ويَبْهَتَكَ به. والجَلَعْلَعُ من الإبل: الحديدة النفس الشديدة.
+
+================================================================================================
+ROOT جنز   stratum=ma
+REC ontological_core : The root's foundational physical origin is the act of covering, concealing, or shrouding an object — a concrete operation of overlaying something so as to hide it from view.
+REC haqiqah_literal  : To cover or conceal a thing; to shroud it. The verb جَنَزَ الشيءَ يَجْنِزُه جَنْزاً denotes the literal physical act of draping or wrapping an entity so that it is hidden.
+REC canon_def.ar     : جَنَزَ الشيءَ يَجْنِزُه جَنْزاً: ستره. وذكروا أَن النَّوَار لما احْتُضِرَت أَوْصَت أَن يصلي عليها الحسن، فقيل له في ذلك، فقال: إِذا جَنَزْتُموها فآذِنُوني.
+REC canon_def.en     : He covered or concealed the thing, covering it with a janz. It is related that when al-Nawār was on her deathbed, she stipulated that al-Ḥasan should pray over her; when this was mentioned to him, he said: 'When you have shrouded her, infor […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 14905 hdr=جنز] الجيم والنون والزاء كلمة واحدة. قال ابن دريد: جنزت الشيء أجنزه جنزا، إذا سترته، ومنه اشتقاق الجنازة (2). فأما الخليل فمذهبه غير هذا، قال: الجنازة الميت، [و] الشيء الذى ثقل على القوم واغتموا به هو أيضا جنازة. وقال: وما كنت أخشى أن أكون جنازة عليك ومن يغتر بالحدثان (3) قال: وأما الجنازة فهو خشب الشرجع. قال: ويقول العرب: رمى بجنازته فمات (4). قال: وقد جرى فى أفواه الناس الجنازة، بفتح الجيم، والنحارير ينكرونه.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 24940 hdr=جنز] الجِنَازةُ، بنصب الجيم وجَرّها،: الإنسان الميِّت والشيء الذي ثقل على قومٍ واغتمُّوا به أيضاً جِنَازةٌ، قال: وما كنت أخشى أن أكون جِنَازةً ... عليك ومن يغتر بالحدَثانِ «3» وقوم ينكرون الجنازة للميِّت يقولون: الجِنازةُ بكسر الصَّدر، خَشبة الشَّرجَع، وإذا مات فإن العرب تقول: رُمي في جِنازته. وقد جَرى في أفواه العامّة الجِنازة بنصب الجيم، والنَّحارير ينكرونه. وجُنِزَ الشيء إذا جمع __________ (1) لم نهتد إلى القائل. (2) ل […]
+
+================================================================================================
+ROOT جير   stratum=ma
+REC ontological_core : The root's foundational physical origin is a particle of affirmation and assent, functioning as a vocal gesture of confirmation equivalent to 'yes' or 'indeed'. It is not derived from a concrete physical object but from a primitive linguistic utterance of agreement.
+REC haqiqah_literal  : The literal meaning is the affirmative particle جَيْرِ, used to express assent, confirmation, or agreement, synonymous with أَجَلْ (yes/indeed).
+REC canon_def.ar     : جَيْرِ: بمعنى أَجَلْ
+REC canon_def.en     : Jayri: meaning 'yes' or 'indeed'.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 15316 hdr=جير] الجيم والياء والراء كلمة واحدة. جير بمعنى حقا. قال: وقالت قد أسيت فقلت جير أسى إنه من ذاك إنه (4) فأما الجبار، وهو الصباروج، فكلمة معربة. قال الأعشى: بطين وجيار وكلس وقرمد (5) وأما الجائر فما يجده الإنسان فى صدره من حرارة غيظ أو حزن؛ فهو من باب الواو، وقد مضى ذكره.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 25980 hdr=جير] جَير: يمينٌ للعرب. فقولك: جير لا أفعل ذلك، كقولك: لا أفعل ذلك والله. الجيار: الصاروج. والجيار: حلق الحلق يأخذُ عند أكل السَّمنِ.
+
+================================================================================================
+ROOT حثر   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ح-ث-ر is a granular, rough, or crusted condition affecting a surface, specifically the eye, arising from accreted discharge or eruptive pustules.
+REC haqiqah_literal  : The literal physical meaning is a roughness or granulation experienced in the eye due to rheum (ramas), or the emergence of a red pustule or blister (bathr) on the eyelids, accompanied by a scaly or crusted texture.
+REC canon_def.ar     : الحَثَرُ: خُشُونَةٌ يَجِدُهَا الرَّجُلُ فِي عَيْنِهِ مِنَ الرَّمَصِ، وَقِيلَ: هُوَ أَنْ يَخْرُجَ فِيهَا حَبٌّ أَحْمَرُ، وَهُوَ بَثْرٌ يَخْرُجُ فِي الأَجْفَانِ، وَقَدْ حَثِرَتْ عَيْنُهُ. وَالحَثَرَةُ: انْسِلاقُ العَيْنِ، وَتَصْغِيرُهَا حُثَيْرَةٌ.
+REC canon_def.en     : Al-Ḥathar: a roughness that a person experiences in his eye due to rheum; it is also said to be the emergence of a red grain-like eruption, which is a pustule that appears on the eyelids, and his eye has become affected. Al-Ḥatharah: a scal […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 20165 hdr=حثر] الحاء والثاء والراء أصل واحد، يدل على تحبب فى الشىء وغلظ. ويقال حثرت عين الرجل حثرا، إذا غلظت أجفانها من بكاء (3) أو رمد. وحثر العسل، إذا تحبب. والحوثرة: بعض أعضاء* الرجل (4). وليس من قياس الباب. والحواثر: قوم من عبد القيس. وحثارة التبن: حطامه. [حثوى] الحاء والثاء والحرف المعتل يدل على ذرو الشىء الخفيف السبيح (1). من ذلك الحثا، وهو دقاق التبن. قال: وأغبر مسحول التراب ترى له حثا طردته الريح من كل مطرد وقال الراجز: كأنه غرارة ملأى حثا (2) ويقال حثا التراب يحثوه. قال: الحصن أدنى لو تريدينه من حثوك الترب على الراكب (3) ويقال حثى يحثي حثيا. وهو أفصح. قال: أحثي على ديسم من جعد الثرى (4) ويقال أرض حثواء: كثيرة التراب.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT حظل   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of restraining, hindering, or preventing a being from acting or moving — a privative condition imposed upon a subject, conceived as a blockage or confinement of its capacity for free disposal and locomotion.
+REC haqiqah_literal  : The literal physical meaning is the prevention or hindrance of a person or animal from acting, moving, or disposing of affairs freely; it denotes a state of being held back, confined, or rendered incapable of motion or independent action.
+REC canon_def.ar     : الحَظْل: المَنْع من التصرّف والحركةِ، حَظَل يَحْظِل ويَحْظُل حَظْلاً وحِظْلاناً وحَظَلاناً.
+REC canon_def.en     : Al-Ḥaẓl: prevention from free disposal and movement; ḥaẓala (yaḥẓil, yaḥẓul) — ḥaẓlan, ḥiẓlān, and ḥaẓalān.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 18446 hdr=حظل] الحاء والظاء واللام أصل واجد، وهو قريب من الذى قبله فالحظل: الغيرة ومنع المرأة من التصرف والحركة [قال (2)]: فيحظل أو يغار (3) قال أبو عبيد: حظلت عليه مثل حظرت ويقال فى قوله «فيحظل أو يغار» إنه التقتير. وأحر أن يكون هذا أصح، لأنه قال «أو يغار». والتقتير يرجع إلى الذى ذكرناه من المنع. والدليل على ذلك قولهم حظلان وحظلان. قال: تعيرنى الحظلان أم مخلس فقلت لها لم تقذفينى بدائيا (4) ||| باب الحاء والفاء وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 10971 hdr=حظل] الحَظِلُ: المُقَتِّرُ، قال: «3» فما يُخْطِئْكِ لا يُخْطِئْكِ منه ... طَبانِيَةٌ فَيْحْظِلُ أو يَغارُ وبعيرٌ حَظِل إذا كان يأكُلُ الحَنْظَل، يحذِفُون النون، ويقال: هي زائدة، ويقال: هي أصلية، والبناء رُباعيّ ولكنّها أحقُّ بالطَّرْح، لأنّها أخَفُّ الحروف، وهم الذين يقولون: قد أسبَلَ الزَّرْع، بطرح النون، من السُّنْبُل، ولغة أخرى: سَنْبَلَ الزَّرْع. والحاظل: الذي يَمشي في شِقِّة «4» من شَكاة، [تقولُ: مَرَّ بنا يَحْظِلُ ظ […]
+
+================================================================================================
+ROOT حفص   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of gathering, collecting, or bringing together a thing into a compact mass; a secondary, less authoritative strand denotes casting or throwing something from the hand, though the classical lexicographers explicitly judge the cognate root with ḍād (حفض) as the superior form for that latter sense.
+REC haqiqah_literal  : The literal physical meaning is the gathering and collecting of a thing (حَفَصَ الشيءَ: جَمَعَه), and the resulting substance so gathered is termed الحُفَاصة. A marginal literal usage denotes casting a thing away (حَفَصَ الشيءَ: أَلْقَاه), but Ibn Sīdah and Ibn Barrī both affirm that the variant with ḍād (حفض) is the higher and more correct form for the sense of throwing down.
+REC canon_def.ar     : حَفَصَ الشيءَ يَحْفِصُه حَفْصاً: جَمَعَه. والحُفَاصةُ: اسمُ ما حُفِصَ. وحَفَصَ الشيءَ: أَلْقَاه، قال ابن سيده: والضاد أَعْلى.
+REC canon_def.en     : Ḥafaṣa al-shayʾa yaḥfiṣuhu ḥafṣan: he gathered it together. Al-ḥufāṣah: the noun denoting that which has been gathered. And ḥafaṣa al-shayʾa: he cast it away; Ibn Sīdah said: the ḍād variant is the higher and more correct form.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 18626 hdr=حفص] الحاء والفاء والصاد ليس أصلا، ولا فيه لغة تنقاس. يقال للزبيل من جلود حفص. ويقال للدجاجة أم حفصة. ويقال إن ولد الأسد حفص. وفى كل ذلك نظر.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 9931 hdr=حفص] أمُّ حَفْصة: تُكْنَى به الدَجاجةُ. ووَلَدُ الأَسَد يُسَمَّى [حفصاً] «5» . باب الحاء والصاد والباء معهما ح ص ب، ص ح ب، ص ب ح، مستعملات
+
+================================================================================================
+ROOT ذفل   stratum=ma
+REC ontological_core : The root denotes a thin, fluid, resinous substance — specifically the light, unthickened stage of tar (qaṭirān) before it congeals into the dense pitch (khaḍkhāḍ). Its foundational physical image is that of a viscous liquid exudate, prior to coagulation.
+REC haqiqah_literal  : The literal, physical referent is thin tar (al-qaṭirān al-raqīq) — the runny, uncondensed resinous fluid that precedes the thickened pitch known as khaḍkhāḍ.
+REC canon_def.ar     : الذَّفْل والذِّفْل: القَطِران الرقيق الذي قبل الخَضْخاض.
+REC canon_def.en     : Al-dhafl and al-dhifl: the thin tar that exists prior to the thickened pitch (al-khaḍkhāḍ).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 26622 hdr=ذفل] الذال والفاء واللام ليس أصلا. على أنهم يقولون إن الذفل: القطران. وينشدون لابن مقبل: تمشى به الظلمان كالدهم قارفت بزيت الرهاء الجون والذفل طاليا (3) والله أعلم. ||| باب الذال والقاف وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ردخ   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of crushing, breaking, or violently shattering a solid body, and secondarily on the striking or bruising of a bodily part.
+REC haqiqah_literal  : The literal physical meaning is the crushing or shattering of something solid (al-shadkh), and the bruise or contusion (al-radakh) produced by a blow upon the body.
+REC canon_def.ar     : المَرْدَخُ: الشَّدْخ. والرَّدَخُ: مثل الرَّدع، عُمانِيَّة.
+REC canon_def.en     : Al-mardakh: crushing or shattering. And al-radakh: like al-radʿ (a bruise or contusion), an Omani usage.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 31119 hdr=ردخ] الراء والدال والخاء ليس بشىء. على أنهم حكوا عن الخليل أن الردخ: الشدخ. ردب (3) الراء والدال والباء ليس بشىء. ويقولون للقرميدة الإردبة. والإردب: مكيال لأهل مصر ضخم ||| باب الراء والذال وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 16651 hdr=ردخ] الرَّدْخ: الشَّدْخ، والرَّدْخ يقال له: الرَّدْغ «3» . __________ (1) شيء من عجز بيت (لطرفة) كما في ديوانه ص 47، وهو: جازت البيد إلى أرحلنا ... آخرَ الليل بيعْفُورٍ خَدِرْ كما ورد في المقاييس 2/ 160 برواية: جازت الليل إلى أرحلنا (2) البيت في التهذيب 7/ 266 وفي الديوان ص 55 اللسان وروايته فيهما: وبلاد زعل ظلمانها.......... (3) وجاء في التهذيب أن الردغ عمانية عن كتاب العين. باب الخاء والدال واللام معهما خ د ل، د خ ل، خ  […]

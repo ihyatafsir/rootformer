@@ -1,0 +1,10 @@
+================================================================================================
+ROOT بنه   stratum=ma
+REC ontological_core : The root's foundational physical origin is a toponymic designation: a village in Egypt renowned for its honey, which the Prophet Muhammad blessed. It lacks a broader physical or verbal root meaning in the classical lexicons.
+REC haqiqah_literal  : A proper noun referring to a specific village in Egypt, pronounced Binhā (with a kasrah on the bāʾ and sukūn on the nūn), though later pronounced Banhā (with a fatḥah on the bāʾ). It is literally the name of that locality.
+REC canon_def.ar     : بِنْهَا، بكسر الباء وسكون النون، قرية من قرى مصر، بارك النبي صلى الله عليه وسلم في عسلها؛ والناس اليوم يفتحون الباء.
+REC canon_def.en     : Binhā, with a kasrah on the bāʾ and a sukūn on the nūn, is a village in Egypt whose honey the Prophet, peace be upon him, blessed; today people pronounce it Banhā with a fatḥah on the bāʾ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,267 @@
+====================================================================================================
+ROOT شبث   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ش-ب-ث is the act of clinging, adhering, or becoming physically attached to an object, such that it is seized and held fast. The root denotes a concrete, tactile grasping or entanglement—a thing becoming caught upon or fastened to another.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is: to cling to something, to hold fast to it, and to become attached to it. The phrase تشبث به (tashabbatha bihi) denotes direct, physical clinging or adherence. The related form شابثه (shābathahu) indicates mutual clinging or grappling. The noun شبث (shabath) and its plural شبثان (shubthān) refer to a thing that clings or is clung to, with the image of فرنده مدارج شبثان (faranduhu madārij shubthān)—its edge or fringe being like the winding paths of clinging things—evoking a concrete, physical entanglement.
+-- RECORD.majaz_scholastic: In metaphorical and scholastic usage, the root extends from physical clinging to intellectual and psychological attachment. Ibn al-Aʿrābī's statement ما أَدْري مِن أَين شَبِثْتُها (I do not know from where I seized it) employs the root to denote the grasping of a poetic verse or idea—an intellectual apprehension and retention. Similarly, التَّشَبُّثُ بالشيء (al-tashabbuthu bi-l-shayʾ) is used for emotional or conceptual attachment to a thing, and التَّثَبُّتُ (al-tathabbuth) is glossed as التَعَلُّق (al-taʿalluq), i.e., attachment or dependence. The root thus moves from the physical clinging of bodies to the mental clinging of concepts, memories, and affections, and further to the theological notion of the soul's attachment to worldly things or to the divine.
+-- RECORD.canonical_definition.ar: شَبِثَ الشيءَ: عَلِقَه وأَخذه. والتَّشَبُّثُ بالشيء: التَّعَلُّق به. والتَّثَبُّتُ: التَّعَلُّق.
+-- RECORD.canonical_definition.en: He clung to the thing: he became attached to it and took hold of it. Clinging to a thing is attachment to it. And attachment is clinging.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 38060 hdr=شبث: الشين والباء والثاء أصيل يدل على تعلق الشىء بالشىء. من ذلك قولهم تشبثت، أى تعلقت. ومن ذلك الشبث، وهى دويبة من أحناش الأرض، كأنها تشبثت بما مرت. والجمع شبثان. قال: مدارج شبثان لهن هميم (1) أى دبيب.
+-- SOURCE.asas[haqiqah_literal]: تشبث به، وشابثه. وكأن فرنده مدارج شبثان وهو جمع شبث.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شثل   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) denotes coarse, thick, and densely compacted bodily tissue — specifically the flesh of the fingers, hands, and feet — characterized by roughness of texture and a knotted, interlocking mass. The primary sensory image is that of a limb whose flesh is not smooth or supple but hard, rough, and closely packed.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in Lisān al-ʿArab, is a man whose fingers are thick and rough (شَثْل الأَصابع: غليظُها خَشِنُها), and a foot that is thick-fleshed and densely compacted (قَدَمٌ شَثْلةٌ: غليظةُ اللحم مُتَراكِبةٌ). The verb شَثِلَتْ يَدُهُ ورِجْلُهُ describes the hand or foot becoming thus thick, rough, and densely fleshed.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extension is attested in the classical lexicographical tradition. The root remains confined to the concrete, sensory domain of bodily texture. Ibn Manẓūr records the view of Yaʿqūb and Abū ʿUbayd that the final radical lām is a substitute (badal) for the nūn of شَثْن, making شَثْل a dialectal variant (lughah) of شَثْن, as explicitly stated by Ibn al-Sikkīt. This substitution is phonological, not semantic; it does not generate a distinct majāz. The root therefore possesses no scholastic or abstract application in the classical sources.
+-- RECORD.canonical_definition.ar: رجل شَثْل الأَصابع: غليظُها خَشِنُها. وقَدَمٌ شَثْلةٌ: غليظةُ اللحم مُتَراكِبةٌ. والشَّثْل لغة في الشَّثْن.
+-- RECORD.canonical_definition.en: A man with thick and rough fingers. And a foot that is thick-fleshed and densely compacted. And shathl is a dialectal variant of shathn.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شرنص   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the concrete bodily constitution of a camel: bulk, mass, and elongation of the neck, i.e., a large-bodied, long-necked animal.
+-- RECORD.haqiqah_literal: The literal physical meaning is a bulky, long-necked camel; the plural شَرانِيصُ denotes camels of this description.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical lexical tradition; the term remains confined to the concrete zoological/physical description of camels.
+-- RECORD.canonical_definition.ar: الليث: جمل شِرْناصٌ ضَخْم طويل العنق، وجمعه شَرانِيصُ.
+-- RECORD.canonical_definition.en: Al-Layth said: a shirnāṣ camel is bulky and long-necked; its plural is sharānīṣ.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شري   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the reciprocal transaction of exchange: the transfer of a commodity against a price, such that one party surrenders the object and receives the price while the other surrenders the price and receives the object. The root's primary semantic nucleus is the act of exchanging one entity for another, whether by sale or purchase.
+-- RECORD.haqiqah_literal: The literal physical meaning is the act of buying and selling, i.e., the exchange of a commodity for a price. In this literal sense, the buyer (al-mushtarī) pays the price and takes the commodity, while the seller (al-bāʾiʿ) delivers the commodity and takes the price. When the exchange is barter (commodity for commodity), each party can simultaneously be characterized as buyer and seller. The verb sharanī can mean either 'he bought from me' or 'he sold to me' depending on context, though shara (شَرَى) is more commonly used for 'he sold' and ibtāʿa (اِبْتَاعَ) for 'he bought'.
+-- RECORD.majaz_scholastic: Metaphorical and theological usages extend the exchange paradigm to non-commercial domains: (1) In the Qurʾān, 'purchasing' (ishtarā) is used for the exchange of one's life, faith, or covenant for divine pleasure or worldly gain, e.g., 'Who sells his life seeking the pleasure of God' (Q 2:207), 'They sell the life of this world for the Hereafter' (Q 4:74), 'Those who purchase a small gain at the cost of God's covenant' (Q 3:77). (2) The root is applied to any acquisition or exchange of intangible goods, such as guidance for error, or punishment for forgiveness. (3) In scholastic theology, the metaphor conveys the deliberate transaction of one's ultimate allegiance, whether to God or to worldly interests, emphasizing volitional exchange and moral accountability.
+-- RECORD.canonical_definition.ar: شَرَى الشيءَ يَشْرِيه شِرًى وشِرَاءً واشْتَرَاهُ سَوَاءٌ، وشَرَاهُ واشْتَرَاهُ: بَاعَهُ. والشراء والبيع يتلازمان، فالمشتري دافع الثمن وآخذ المثمن، والبائع دافع المثمن وآخذ الثمن.
+-- RECORD.canonical_definition.en: Shara al-shayʾa yashrīhi shiran wa-shirāʾan wa-ishtarāhu are equivalent; and sharāhu wa-ishtarāhu means 'he sold it.' Buying and selling are correlative: the buyer pays the price and takes the commodity, while the seller delivers the commodity and takes the price.
+-- SOURCE.mufradat @line 18145 hdr=شرى: الشراء والبيع يتلازمان، فالمشتري دافع الثمن، وآخذ المثمن، والبائع دافع المثمن، وآخذ الثمن. هذا إذا كانت المبايعة والمشاراة بناض وسلعة، فأما إذا كانت بيع سلعة بسلعة صح أن يتصور كل واحد منهما مشتريا وبائعا، ومن هذا الوجه صار لفظ البيع والشراء يستعمل كل واحد منهما في موضع الآخر. وشريت بمعنى بعت أكثر، وابتعت بمعنى اشتريت أكثر، قال الله تعالى: وشروه بثمن بخس [يوسف/ 20]، أي: باعوه، وكذلك قوله: يشرون الحياة الدنيا بالآخرة [النساء/ 74]، وتجوز بالشراء والاشتراء في كل ما يحصل به شيء، نحو: إن الذين يشترون بعهد الله [آل عمران/ 77]، لا يشترون بآيات الله [آل عمران/ 199]، اشتروا الحياة الدنيا [البقرة/ 86]، أولئك الذين اشتروا الضلالة بالهدى* [البقرة/ 16]، وقوله: إن الله اشترى من المؤمنين [التوبة/ 111]، فقد 
+-- SOURCE.maqayis @line 38798 hdr=شرى: الشين والراء والحرف المعتل أصول ثلاثة: أحدها يدل على تعارض من الاثنين فى أمرين أخذا وإعطاء مماثلة، والآخر نبت، و* الثالث هيج فى الشىء وعلو. فالأول قولهم: شريت الشىء واشتريته، إذا أخذته من صاحبه بثمنه. وربما قالوا: شريت: إذا بعت. قال الله تعالى: @QUR@01 وشروه @QUR@02 بثمن بخس . ومما يدل على المماثلة قولهم: هذا شروى هذا، أى مثله. وفلان شروى فلان.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ششا   stratum=ma
+-- RECORD.ontological_core: A marginal, quasi-nominal root attested only through the lexicographical report of Thaʿlab from Ibn al-Aʿrābī; its foundational physical referent is the shīṣ, the dry, hard, unpalatable date that remains on the palm cluster after the choice fruit has been taken.
+-- RECORD.haqiqah_literal: The concrete, literal sense is the شِيص: the inferior, dried, inedible dates left behind on the raceme, i.e., the residual fruit of poor quality.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extension is classically attested. The root is confined to the concrete horticultural domain and carries no abstract or scholastic application in the major lexica.
+-- RECORD.canonical_definition.ar: الشَّشا: الشِّيصُ.
+-- RECORD.canonical_definition.en: Al-shashā: the shīṣ, i.e., the dry, inferior dates remaining on the raceme.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شطن   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is spatial and relational estrangement: to be far removed, distant, or remote. This is exemplified by the long, tightly twisted rope (شَطَن) used to draw water from a deep well or to tether a horse, and by the deep well (بئر شطون) whose bottom is far from its mouth. A secondary, disputed origin is combustion (شاط يشيط): to burn with rage, from which the Satanic being is said to be created from fire.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the long, strong, tightly twisted rope used for drawing water or tethering an animal; a deep well (بئر شطون); a distant house (شطنت الدار); and a far-reaching journey or estrangement (غربة شطون). It also denotes the physical act of a horse resisting and being bound with two ropes from opposite sides (لينزو بين شطنين).
+-- RECORD.majaz_scholastic: Metaphorical, philosophical, and theological usages: (1) The being known as al-Shayṭān, whether from the root meaning 'to be distant' (from divine mercy) or from 'to burn' (with rage), created from fire, characterized by extreme irascible power and blameworthy zeal, who refused to prostrate to Adam. (2) Any rebellious, insolent being among jinn, humans, or animals (as per Abū ʿUbayda). (3) The human associates or leaders of evil (شياطين الإنس والجن). (4) The act of behaving in a devilish, rebellious, or insolent manner (تشيطن، فيه شيطنة). (5) The intense, uncontrollable restlessness of a horse compared to a devil (كأنه شيطان).
+-- RECORD.canonical_definition.ar: الشَّطَنُ: الحَبْلُ الطَّوِيلُ الشَّدِيدُ الفَتْلِ يُسْتَقى به وتُشَدُّ به الخَيْلُ، والجمع أَشْطان. وشَطَنَتِ الدارُ: بَعُدَتْ. والشَّيْطانُ: اسمٌ لكلِّ عارِمٍ من الجِنِّ والإِنْسِ والحيواناتِ، وقيل: هو من شَطَنَ أَي تَباعَدَ، وقيل: من شاطَ يَشيطُ احْتَرَقَ غَضَباً.
+-- RECORD.canonical_definition.en: Al-Shāṭan: the long, tightly twisted rope used for drawing water and tethering horses; plural: ashṭān. The house shāṭanat: it became distant. Al-Shayṭān: a name for every rebellious, insolent being among jinn, humans, and animals. It is said to derive from shaṭana, meaning 'to be distant,' or from shāṭa yashīṭu, meaning 'to burn with rage.'
+-- SOURCE.mufradat @line 18206 hdr=شطن: الشيطان النون فيه أصلية (3)، وهو من: شطن أي: تباعد، ومنه: بئر شطون، وشطنت الدار، وغربة شطون، وقيل: بل النون فيه زائدة، من: شاط يشيط: احترق غضبا، فالشيطان مخلوق من النار كما دل عليه قوله تعالى: وخلق الجان من مارج من نار [الرحمن/ 15]، ولكونه من ذلك اختص بفرط القوة الغضبية والحمية الذميمة، وامتنع من السجود لآدم، قال أبو عبيدة (4): الشيطان اسم لكل عارم من الجن والإنس والحيوانات. قال تعالى: شياطين الإنس والجن [الأنعام/ 112]، وقال: وإن الشياطين ليوحون إلى أوليائهم [الأنعام/ 121]، وإذا خلوا إلى شياطينهم [البقرة/ 14]، أي: أصحابهم من الجن والإنس، وقوله: كأنه رؤس الشياطين [الصافات/ 65]، قيل: هي حية خفيفة الجسم، وقيل: أراد به عارم الجن، فتشبه به لقبح تصورها، وقوله: واتبعوا ما تتلوا الشياطين [البقرة/ 10
+-- SOURCE.maqayis @line 36451 hdr=شطن: الشين والطاء والنون أصل مطرد صحيح يدل على البعد. يقال شطنت الدار تشطن شطونا إذا غربت. ونوى شطون، أى بعيدة. قال النابغة: عرقت وجوه مجاشع وكأنها عقل تدلع دون مدرى الشاصر نأت بسعاد عنك نوى شطون فبانت والفؤاد بها رهين (1) ويقال بئر شطون، أى بعيدة القعر. والشطن: الحبل. وهو القياس، لأنه بعيد ما بين الطرفين. ووصف أعرابى فرسا فقال: «كأنه شيطان فى أشطان». قال الخليل: الشطن: الحبل الطويل. ويقال للفرس إذا استعصى على صاحبه: إنه لينزو (2) بين شطنين. وذلك أنه يشده موثقا بين حبلين (3) وأما الشيطان فقال قوم: هو من هذا الباب، والنون فيه أصلية، فسمى بذلك لبعده عن الحق وتمرده. وذلك أن كل عات متمرد من الجن والإنس والدواب شيطان. قال جرير: أيام يدعوننى الشيطان من غزلى وهن يهويننى إذ كنت شيطانا (4) وعلى ذلك فسر قو
+-- SOURCE.asas[majaz_metaphorical]: بئر شطون: بعيدة القعر. وركبه شيطانه إذا غضب. وعن أبي الوجيه العكلي: كان ذلك حين ركبني شيطاني، قيل: وأي الشياطين تعني؟ قال: الغضب. قال منظور ابن رواحة: ولما أتاني ما يقول ترقصت ... شياطين رأسي وانتشين من الخمر وقال ابن ميادة: فلما أتاني ما تقول محارب ... بعثت شياطيني وجن جنونها ون
+-- SOURCE.asas[haqiqah_literal]: شطنت الدار. ونوى شطون. وعندي شطن قوي وهو الحبل الطويل يستقى به وتربط به الدابة، وكأنه شيطان، في أشطان. و" إنه لينزو بين شطنين " وهو الفرس يستعصي فيشد بحبلين من جانبين ويشبه به الأشر. وشيطن فلان وتشيطن، وفيه شيطنة.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: شطنت الدار. ونوى شطون. وعندي شطن قوي وهو الحبل الطويل يستقى به وتربط به الدابة، وكأنه شيطان، في أشطان. و" إنه لينزو بين شطنين " وهو الفرس يس Metaphorical (Majaz): بئر شطون: بعيدة القعر. وركبه شيطانه إذا غضب. وعن أبي الوجيه العكلي: كان ذلك حين ركبني شيطاني، قيل: وأي الشياطين تعني؟ قال: الغضب. قال منظور
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شكا   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the opening of a small water-skin (shakwah) to expose its contents; this concrete image of revealing what is contained within a vessel underlies all subsequent usage.
+-- RECORD.haqiqah_literal: To disclose or expose one's inner distress or grievance; literally, to open a small water-skin and reveal what it holds.
+-- RECORD.majaz_scholastic: Metaphorical and theological applications: (1) To complain or lament before God, as in 'I only complain of my anguish and grief to Allah' (Q 12:86) and 'She complains to Allah' (Q 58:1); (2) To cause someone to complain, i.e., to give them reason for complaint (ashkāhu); (3) To remove someone's complaint or grievance (ashkāhu); (4) The niche (mishkāt) as a non-piercing lamp recess, symbolizing the heart that contains the light of God (Q 24:35).
+-- RECORD.canonical_definition.ar: الشَّكْوُ والشَّكَايَةُ والشَّكَاةُ والشَّكْوَى: إظهارُ البَثِّ. وأصلُ الشَّكْوِ: فَتْحُ الشَّكْوَةِ وإظهارُ ما فيها، وهي سِقاءٌ صغيرٌ يُجعل فيه الماءُ. والمِشْكَاةُ: كُوَّةٌ غيرُ نافذةٍ.
+-- RECORD.canonical_definition.en: Complaint, grievance, and lamentation: the disclosure of inner distress. The root origin of complaint is the opening of a small water-skin and the exposure of its contents; it is a small vessel used for water. The mishkāt is a non-piercing niche.
+-- SOURCE.mufradat @line 18571 hdr=شكا: الشكو والشكاية والشكاة والشكوى: إظهار البث، يقال: شكوت واشتكيت (3)، قال تعالى: إنما أشكوا بثي وحزني إلى الله [يوسف/ 86]، وقال: وتشتكي إلى الله [المجادلة/ 1]، وأشكاه أي: يجعل له شكوى، نحو: أمرضه، ويقال: أشكاه أي: أزال شكايته، وروي: «شكونا إلى رسول الله (صلى الله عليه وسلم آله) حر الرمضاء في جباهنا وأكفنا فلم يشكنا» (4) . وأصل الشكو فتح الشكوة وإظهار ما فيه، وهي: سقاء صغير يجعل فيه الماء، وكأنه في الأصل استعارة، كقولهم: بثثت له ما في وعائي، ونفضت ما في جرابي (5): إذا أظهرت ما في قلبك. والمشكاة: كوة غير نافذة. قال تعالى: كمشكاة فيها مصباح [النور/ 35]، وذلك مثل القلب، والمصباح مثل نور الله فيه.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شها   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the soul's innate inclination and appetitive pull toward what it desires, rooted in the body's need for what sustains it.
+-- RECORD.haqiqah_literal: The literal physical meaning is the soul's appetitive inclination toward an object of desire, specifically the bodily need for what is indispensable to health, such as the craving for food when hungry.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, it denotes the appetitive faculty itself; it is divided into true desire (what the body requires) and false desire (what is superfluous). It is applied to the eschatological reward of the Garden, where believers obtain whatever their souls desire, and to blameworthy worldly cravings that lead to transgression.
+-- RECORD.canonical_definition.ar: أصل الشهوة: نزوع النفس إلى ما تريده، وذلك في الدنيا ضربان: صادقة، وكاذبة، فالصادقة: ما يختل البدن من دونه كشهوة الطعام عند الجوع، والكاذبة: ما لا يختل من دونه.
+-- RECORD.canonical_definition.en: The root of shahwa is the soul's appetitive inclination toward what it desires. In this world it is of two kinds: true and false. The true is what the body would be impaired without, such as the craving for food when hungry; the false is what the body would not be impaired without.
+-- SOURCE.mufradat @line 18818 hdr=شها: أصل الشهوة: نزوع النفس إلى ما تريده، وذلك في الدنيا ضربان: صادقة، وكاذبة، فالصادقة: ما يختل البدن من دونه كشهوة الطعام عند الجوع، والكاذبة: ما لا يختل من دونه، وقد يسمى المشتهى شهوة، وقد يقال للقوة التي تشتهي الشيء: شهوة، وقوله تعالى: زين للناس حب الشهوات [آل عمران/ 14]، يحتمل الشهوتين، وقوله: اتبعوا الشهوات [مريم/ 59]، فهذا من الشهوات الكاذبة، ومن المشتهيات المستغنى عنها، وقوله في صفة الجنة: ولكم فيها ما تشتهي أنفسكم [فصلت/ 31]، وقوله: في ما اشتهت أنفسهم [الأنبياء/ 102]، وقيل: رجل شهوان، وشهواني، وشيء شهي.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شور   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root شور is the act of extracting, exposing, or bringing something hidden into plain view — most concretely, the extraction of honey from its hive (شَارَ العَسَلَ) and the exposure of goods or a beast for inspection and sale. From this primary sense of 'bringing forth what was concealed' radiate the derivative meanings of consultation (استشارة, as the eliciting of hidden opinion), the exposure of the body's private parts (شَوَار), and the display of a horse in a show-ring (مِشْوَار).
+-- RECORD.haqiqah_literal: The literal physical meaning, per Asās al-Balāghah, is the extraction of honey from the hive (شَارَ العَسَلَ وَاشْتَارَهُ), and the leading forth of a riding beast or horse to be displayed and inspected for sale (شَرْتُ الدَّابَّةَ وَشَوَّرْتُهَا: عَرَضْتُهَا لِلْبَيْعِ). It also denotes the place or act of such display, the مِشْوَار (show-ring, parade ground), and the visible goods or wares (الشَّوَار: مَا يَبْدُو مِنَ الْمَتَاع).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) Consultation and counsel (شَاوَرَهُ، اسْتَشَارَهُ، تَشَاوَرُوا، اشتوروا) — the eliciting of a hidden opinion, as if extracting honey from its receptacle; the Quranic principle of شُورَى (mutual consultation) and the phrase وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ derive from this. (2) The exposure of one's private parts (شَوَار, عَوْرَة) — as in the curse 'أَبْدَى اللهُ شَوَارَكَ' (May God expose your shame), and the proverbial 'أَشْوَارُ عَرُوسٍ تُرَى' (the bride's adornments are displayed to be seen). (3) The testing or probing of a horse's gait and character (شَوَّرَهَا يَنْظُرُ كَيْفَ مِشْوَارُهَا) — hence 'فَرَسٌ حَسَنُ الْمِشْوَارِ' (a horse of fine show and gait). (4) The indication or gesture (الإِشَارَة) — a pointing that reveals meaning without speech, and by extension 'رَجُلٌ حَسَنُ الشَّارَةِ' (a man of fine appearance and bearing). (5) In the Ḥadīth of al-Zabāʾ, the display of a bride's ornaments. The theological usage in 'أَبْدَى اللهُ شَوَارَكَ' is a curse invoking divine exposure of hidden shame, while the political-theological term شُورَى denotes the collective deliberation of the community in matters of governance, as when ʿUmar (رضي الله عنه) left the caliphate as a matter of شُورَى.
+-- RECORD.canonical_definition.ar: شَارَ العَسَلَ يَشُورُهُ شَوْراً وَشِيَاراً وَشِيَارَةً وَمَشَاراً وَمَشَارَةً: اسْتَخْرَجَهُ مِنَ الوَقْبَةِ وَاحْتَنَاهُ. وَالشَّوَارُ: مَا يَبْدُو مِنَ الْمَتَاعِ، وَيُكْنَى بِهِ عَنِ الفَرْجِ. وَشَوَّرَ الدَّابَّةَ: عَرَضَهَا لِلْبَيْعِ. وَاسْتَشَارَهُ فَأَشَارَ عَلَيْهِ بِالصَّوَابِ، وَشَاوَرَهُ، وَتَشَاوَرُوا وَاشْتَوَرُوا. وَالشُّورَى: التَّشَاوُرُ.
+-- RECORD.canonical_definition.en: شَارَ العَسَلَ (he extracted the honey) — he drew it out from the hive and gathered it. الشَّوَار denotes visible goods or wares, and is used euphemistically for the private parts. شَوَّرَ الدَّابَّةَ means he displayed the beast for sale. اسْتَشَارَهُ فَأَشَارَ عَلَيْهِ بِالصَّوَابِ means he sought his counsel and he advised him correctly; likewise شَاوَرَهُ, and تَشَاوَرُوا / اشْتَوَرُوا (they consulted one another). الشُّورَى is the act of mutual consultation.
+-- SOURCE.mufradat @line 18865 hdr=شور: الشوار: ما يبدو من المتاع، ويكنى به عن الفرج، كما يكنى به عن المتاع، وشورت به: فعلت به ما خجلته، كأنك أظهرت شوره، أي: فرجه، وشرت العسل وأشرته: أخرجته، قال الشاعر: 277- وحديث مثل ماذي مشار (3) وشرت الدابة: استخرجت عدوه تشبيها بسماع يأذن الشيخ له بذلك، وقيل: الخطب مشوار كثير العثار (1)، والتشاور والمشاورة والمشورة: استخراج الرأي بمراجعة البعض إلى البعض، من قولهم: شرت العسل: إذا اتخذته من موضعه، واستخرجته منه. قال الله تعالى: وشاورهم في الأمر [آل عمران/ 159]، والشورى: الأمر الذي يتشاور فيه. قال: وأمرهم شورى بينهم [الشورى/ 38].
+-- SOURCE.maqayis @line 37657 hdr=شور: الشين والواو والراء أصلان مطردان، الأول منهما إبداء. شىء وإظهاره وعرضه، والآخر أخذ شىء. فالأول قولهم: شرت [الدابة (2)] شورا، إذا عرضتها. والمكان الذى يعرض فيه الدواب هو المشوار. يقولون: «إياك والخطب* فإنها مشوار، كثير العثار». قال بعض أهل اللغة فى قولهم شوربه، إذا أخجله: إنما هو من الشوار، والشوار: فرج الرجل. ومن ذلك قولهم: أبدى الله شواره. قال: فكأن قوله شور به، أراد أبدى شواره حتى خجل. قال: والشوار (3): متاع البيت أيضا. فإن كان صحيحا فلأنه من الذى يصان كما يصون الرجل ما عنده. والباب الآخر: قولهم: شرت العسل أشوره. وقد أجاز ناس: أشرت العسل، واحتجوا بقوله: وسماع يأذن الشيخ له وحديث مثل ماذى مشار (4) [وقال الأصمعى: إنما هو «ماذى مشار» (1)] على الإضافة. قال: والمشار: الخلية يشتار منها العسل. قا
+-- SOURCE.asas[bilingual_haqiqah_majaz]: شورت به فتشور، ومنه قيل: أبدى الله تعالى شوارك أي عورتك كما قيل: الحياء. وفي حديث الزباء: أشوار عروس ترى. وشرت الدابة وشورتها: عرضتها للبيع. Metaphorical (Majaz): الخطب مشوار، كثير العثار. واستشارت إبله: سمنت لأنه يشار إليها بالأصابع كأنها طلبت الإشارة. وفحل مستشير. قال ابن مقبل: غدت كالفنيق المستشير إ
+-- SOURCE.asas[haqiqah_literal]: شورت به فتشور، ومنه قيل: أبدى الله تعالى شوارك أي عورتك كما قيل: الحياء. وفي حديث الزباء: أشوار عروس ترى. وشرت الدابة وشورتها: عرضتها للبيع. ويقال: شورها تنظر كيف مشوارها أي اختبرها تعلم كيف سيرتها. وفرس حسن المشوار. قال جرير: طاح الفرزدق في الغبار وغمه ... غمر البديهة صادق المشو
+-- SOURCE.asas[majaz_metaphorical]: الخطب مشوار، كثير العثار. واستشارت إبله: سمنت لأنه يشار إليها بالأصابع كأنها طلبت الإشارة. وفحل مستشير. قال ابن مقبل: غدت كالفنيق المستشير إذا غدا ... سما فثناها عن سنان فأرقلا من سان الناقة حتى نوخها أي تركها وجفر عنها.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT شوع   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root شوع is the dispersal, scattering, and unruly spreading of hair, such that individual strands separate and stand apart in a manner resembling thorns (شَوْك) — a condition of disheveled, bristling separation rather than smooth cohesion.
+-- RECORD.haqiqah_literal: The literal physical meaning is the spreading and dispersion of hair (انتشار الشعر وتفرقه), where the hair becomes disheveled and separates into distinct, thorn-like strands, particularly as manifest on the cheeks (خدّين) of a woman, producing a rough, unkempt texture.
+-- RECORD.majaz_scholastic: While the root is not attested in Al-Mufradāt or Asās al-Balāghah, its literal sense of scattering and thorn-like separation may be extended metaphorically to any condition of disorderly dispersion or bristling irregularity, though no established scholastic or theological usage is recorded in the classical philological tradition.
+-- RECORD.canonical_definition.ar: الشَّوَعُ: انْتِشارُ الشَّعر وتَفَرُّقُه كأَنَّه شَوْك
+-- RECORD.canonical_definition.en: Al-Shawaʿ: the spreading and dispersion of hair such that it resembles thorns.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 37725 hdr=شوع: الشين والواو والعين أصل يدل على انتشار وتفرق. من ذلك: الشوع، وهو انتشار الشعر وتفرقه. والشوع: شجر (1) ولعله متفرق النبت.
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صخف   stratum=ma
+-- RECORD.ontological_core: The foundational physical act denoted by the root is the excavation and turning over of earth—digging into the ground with a tool. The root's primary material instantiation is thus the manual labor of hollowing out soil, from which the instrumental noun for the digging implement is derived.
+-- RECORD.haqiqah_literal: The literal, physical meaning is the act of digging or excavating the earth (ḥafr al-arḍ). The concrete instrument by which this action is performed is the مِصْخَفَة (miṣkhafah), a digging tool or hoe (misḥāh), a usage explicitly identified as Yemeni in provenance.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological extensions are attested in the classical lexicographical tradition for this root. The root remains confined to its concrete, agricultural-artisanal semantic field; no abstract or scholastic applications (majāz) are recorded in Lisān al-ʿArab, al-Mufradāt, or Asās al-Balāghah.
+-- RECORD.canonical_definition.ar: الصَّخْفُ: حَفْرُ الأَرْضِ. وَالمِصْخَفَةُ: المِسْحَاةُ، يَمَانِيَةٌ.
+-- RECORD.canonical_definition.en: Al-ṣakhf: the digging or excavation of the earth. And al-miṣkhafah: the hoe or digging tool, a Yemeni term.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صرط   stratum=Ma
+-- RECORD.ontological_core: The root denotes a traversed, extended path or roadway; its foundational physical image is a linear, beaten track that one follows toward a destination. Classical philologists note the phonological proximity of the voiceless alveolar sibilant /s/ and the emphatic alveolar sibilant /ṣ/, with the ṣād form being a dialectal or assimilated variant of the underlying sīn, owing to the adjacency of the emphatic ṭāʾ.
+-- RECORD.haqiqah_literal: A road, path, or way; specifically, a clear and straight thoroughfare that is physically traversed. The literal sense is attested in the paired forms al-ṣirāṭ and al-sirāṭ, both denoting a roadway.
+-- RECORD.majaz_scholastic: In theological and ethical discourse, the term is applied metaphorically to the straight path of truth, divine guidance, and prophetic law. The Qurʾānic phrase 'the straight path' (al-ṣirāṭ al-mustaqīm) signifies the unswerving course of monotheism and righteous conduct, and the petition 'guide us to the straight path' is understood as a request for steadfastness in the apprehension and practice of revealed truth. The metaphor rests on the literal image of a road that leads reliably to its intended destination.
+-- RECORD.canonical_definition.ar: الصراط: الطريق المستقيم. وقال الأزهري: وأصل صاده سين قلبت مع الطاء صاداً لقرب مخارجها. وقال الجوهري: الصراط والسراط.
+-- RECORD.canonical_definition.en: Al-ṣirāṭ: the straight path. Al-Azharī said: the original of its ṣād is a sīn, which was changed to ṣād alongside the ṭāʾ due to the proximity of their points of articulation. Al-Jawharī said: al-ṣirāṭ and al-sirāṭ.
+-- SOURCE.mufradat @line 19402 hdr=صرط: الصراط: الطريق المستقيم. قال تعالى: وأن هذا صراطي مستقيما [الأنعام/ 153]، ويقال له: سراط، وقد تقدم.
+-- SOURCE.maqayis @line 41224 hdr=صرط: الصاد والراء والطاء وهو من باب الإبدال، وقد ذكر فى السين، وهو الطريق. قال: أكر على الحروريين مهرى وأحملهم على وضح الصراط (2) ||| باب ما جاء من كلام العرب على أكثر من ثلاثة أحرف أوله صاد فالذى جاء منه على القياس، الذى تقدم ذكره. [وأما المنحوت] فقولهم (الصعنب) الصغير الرأس، فهذا مما زيدت فيه الباء، وأصله الصاد والعين والنون، وقد قلناه فى الصعون، ومضى تفسيره (3). ومن الباب: (اصمقر) اللبن، إذا اشتدت حموضته. وهذا منحوت من لو عصر منه البان والمسك انعصر كلمتين. من صقر ومقر. أما مقر فهو الحامض، ومن ذلك يقال سمك ممقور. وأما صقر فمن الخثورة، ولذلك سمى الدبس صقرا، وقد مر. ومن ذلك قولهم: بعير (صلخد (1)) أى صلب، فاللام فيه زائدة، وإنما هو من صخد والصخرة الصيخود، وقد فسرناه. ومن ذلك: (الصلقم)، وهو الشديد 
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صكا   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on firm adherence, cleaving, or persistent attachment to a thing, such that the subject remains bound or fastened to it.
+-- RECORD.haqiqah_literal: To cling to, adhere to, or persistently attach oneself to a thing; to remain fastened to it.
+-- RECORD.majaz_scholastic: Not attested in Al-Mufradāt or Asās al-Balāghah. In scholastic or extended usage, the sense of adherence may be applied to moral or conceptual persistence, but no established philosophical or theological majāz is classically recorded for this root.
+-- RECORD.canonical_definition.ar: صَكا إذا لزِمَ الشيءَ.
+-- RECORD.canonical_definition.en: He clung to the thing, adhered to it, or remained persistently attached to it.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صلخد   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the robust, mature, and powerful male camel, specifically denoting a stallion distinguished by advanced age, formidable strength, and imposing length; it is a quadriliteral root (rubāʿī) with no triliteral derivation, and its primary semantic nucleus is the concrete image of a mighty, seasoned beast of burden.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah (inferred from Lisān al-ʿArab) is: a mature, strong, and tall male camel; a stallion of advanced age and great power; also used for a strong stallion, with the feminine form denoting a she-camel of similar qualities.
+-- RECORD.majaz_scholastic: Metaphorical, philosophical, and theological usages: Not attested in the classical lexicons for abstract or scholastic domains; the term remains confined to the concrete zoological sphere, with no extension to metaphysical, ethical, or theological concepts in the sources consulted.
+-- RECORD.canonical_definition.ar: الصَّلْخَدُ والصِّلَخْدُ والصِّلْخَدُّ والصُّلَاخِدُ والصِّلْخَادُ والصَّلَخْدَى كله: الجمل المُسِنُّ الشَّديدُ الطَّويلُ، وقيل: هو الماضي من الإِبل، وقيل للفحْل الشديد صَلَخْدًى، بالتنوين، والأُنثى صَلَخْدَاةٌ.
+-- RECORD.canonical_definition.en: Al-ṣalkhad, al-ṣilakhd, al-ṣilkhadd, al-ṣulākhid, al-ṣilkhād, and al-ṣalakhdā all denote: a mature, strong, and tall male camel; it is also said to be a camel of advanced age and vigor; a strong stallion is called ṣalakhdā with tanwīn, and the feminine is ṣalakhdāh.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صمرد   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the she-camel as a lactational vessel, denoting an animal whose milk-yield is either scant or copious—an ontological polarity rooted in the concrete reality of pastoral husbandry and the biological economy of the herd.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah: a she-camel (nāqah) characterized by a specific quantity of milk, whether meager or abundant; by extension, the plural form denotes emaciated livestock, particularly sheep or goats, in their physical state of bodily wasting.
+-- RECORD.majaz_scholastic: The metaphorical and scholastic application: the term is transposed from the domain of pastoral wealth to signify any entity or person reduced to a state of extreme leanness or depletion, functioning as a descriptor of physical attenuation and loss of substance. In philological usage, it may also serve as a morphological exemplar for the debate over the augmentative status of the medial mīm, a question of derivational economy rather than semantic extension.
+-- RECORD.canonical_definition.ar: الصِّمْرِدُ، بالكسر، من الإِبل: الناقة القليلة اللبن؛ وقيل: الناقة الغَزيرة اللبن. والصَّمارِدُ: الغَنم المِهازِيل. والصَّمارِيدُ: الغنم.
+-- RECORD.canonical_definition.en: Al-Ṣimrid, with the kasrah, among camels: a she-camel of scant milk; it is also said: a she-camel of abundant milk. Al-Ṣamārid: emaciated sheep. Al-Ṣamārīd: sheep.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صهر   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the melting and liquefying of fat (إذابة الشحم), from which flows the derived sense of a molten substance (صهارة) and, by extension, the dissolution of solidity through intense heat. From this concrete physical process, the root branches into the abstract domain of marital kinship, conceived as a bond that dissolves the boundaries between separate households and creates a new fused social entity.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the act of melting fat (صهر الشحم: أذابه), its liquefied product (صهارة: ذوبه), and the use of that molten fat as a condiment for bread (صهر الخبز: أدمه بها) or as an ointment for the head (صهر رأسه: دهنه بالصهارة). It also denotes the concrete kinship relation itself: a man's in-law (صهر) and the family into which one marries (أصهار).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root denotes the bond of marital kinship (حرمة الزواج) that unites families, as in the Qur'anic verse 'فجعله نسبا وصهرا' (Q 25:54), where 'صهر' signifies the affinal tie established by marriage. It extends to the state of being connected by marriage, lineage, or even neighborly protection (الإصهار: التحرم بجوار أو نسب أو تزوج). Theologically, the root is applied to the punishment of the damned in Q 22:20, 'يصهر به ما في بطونهم' — 'that which is in their bellies will be melted' — where the physical melting of fat becomes a metaphor for the dissolution of the body under divine chastisement. The phrase 'لأصهرنك بيمين مرة' (I will melt you with an oath once) further illustrates the metaphorical extension to the dissolution of a person's resolve or integrity through a solemn oath.
+-- RECORD.canonical_definition.ar: الصَّهْرُ: القَرَابَةُ. والصِّهْرُ: حُرْمَةُ الخُتُونَةِ، وخَتَنُ الرَّجُلِ صِهْرُهُ، والمُتَزَوِّجُ فِيهِمْ أَصْهَارُ الخَتَنِ، والأَصْهَارُ أَهْلُ بَيْتِ المَرْأَةِ. والصَّهْرُ: إِذَابَةُ الشَّحْمِ. والصَّهَارَةُ: مَا ذَابَ مِنْهُ.
+-- RECORD.canonical_definition.en: Al-ṣahr is kinship. Al-ṣihr is the sacred bond of affinal relation; a man's in-law is his ṣihr, and those who marry into a family are the aṣhār of the in-law. The aṣhār are the family of the wife. Al-ṣahr is the melting of fat, and al-ṣahārah is that which melts from it.
+-- SOURCE.mufradat @line 19861 hdr=صهر: الصهر: الختن، وأهل بيت المرأة يقال لهم الأصهار، كذا قال الخليل (2). قال ابن الأعرابي: الإصهار: التحرم بجوار، أو نسب، أو تزوج، يقال: رجل مصهر: إذا كان له تحرم من ذلك. قال تعالى: فجعله نسبا وصهرا [الفرقان/ 54]، والصهر: إذابة الشحم. قال تعالى: يصهر به ما في بطونهم [الحج/ 20]، والصهارة: ما ذاب منه، وقال أعرابي: لأصهرنك بيمين مرة (3)، أي: لأذيبنك.
+-- SOURCE.maqayis @line 40188 hdr=صهر: الصاد* والهاء والراء أصلان: أحدهما يدل على قربى، والآخر على إذابة شىء. فالأول الصهر، وهو الختن. قال الخليل: لا يقال لأهل بيت الرجل إلا أختان، ولا لأهل بيت المرأة إلا أصهار. ومن العرب من يجعلهم أصهارا كلهم. قال ابن الأعرابى: الإصهار: التحرم بجوار أو نسب أو تزوج. وفى كل ذلك يتأول قول القائل: قود الجياد وإصهار الملوك وصب ر فى مواطن لو كانوا بها سئموا (1) والأصل الآخر: إذابة الشىء. يقال صهرت الشحمة. والصهارة: ما ذاب منها. واصطهرت الشحمة. قال: وكنت إذا الولدان حان صهيرهم صهرت فلم يصهر كصهرك صاهر (2) يقال صهرته الشمس، كأنها أذابته. يقال ذلك للحرباء إذا تلألأ ظهره من شدة الحر. ويقال إنهم يقولون: لأصهرنه بيمين مرة. كأنه قال: لأذيبنه.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: بينهم صهر وصهورة وهو حرمة الزواج. " فجعله نسبا وصهرا "، وفلان صهر فلان: لمن يتزوج إليه، وهم أصهار بني فلان: لأهل بيت من تزوج إليهم. وقد يقال Metaphorical (Majaz): أصهر الجيش للجيش إذا دنا له. وصهره الحر: اشتد عليه. وغط رأسك لا تصهره الشمس. واصطهر الحرباء. وصهرته الشمس. وما في البعير صهارة إذا لم يكن في
+-- SOURCE.asas[majaz_metaphorical]: أصهر الجيش للجيش إذا دنا له. وصهره الحر: اشتد عليه. وغط رأسك لا تصهره الشمس. واصطهر الحرباء. وصهرته الشمس. وما في البعير صهارة إذا لم يكن فيه نقي ولا يستعمل إلا في النقي. وصهره باليمين صهرا إذا استحلفه على يمين شديدة، وهو مصهور باليمين، ولأصهرنك بيمين مرة.
+-- SOURCE.asas[haqiqah_literal]: بينهم صهر وصهورة وهو حرمة الزواج. " فجعله نسبا وصهرا "، وفلان صهر فلان: لمن يتزوج إليه، وهم أصهار بني فلان: لأهل بيت من تزوج إليهم. وقد يقال لأهل بيت الزوجين جميعا: هم أصهار. وقد يقال لأهل النسب والصهر جميعا: أصهار، وأصهرت إلى بني فلان وصاهرت إليهم إذا تزوجت إليهم، وأنا مصهر بهم.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صهك   stratum=ma
+-- RECORD.ontological_core: The root denotes blackness or deep darkness, specifically the blackness of complexion; its foundational physical origin is the dark, lustrous hue of the female slaves (al-jawārī al-sūd) attested by Abū ʿAmr.
+-- RECORD.haqiqah_literal: The literal physical meaning is the black female slaves (al-jawārī al-sūd), i.e., women of dark complexion.
+-- RECORD.majaz_scholastic: No metaphorical or scholastic extension is attested in the classical lexica; the term remains confined to its literal physical reference to black female slaves.
+-- RECORD.canonical_definition.ar: الصُّهْكُ: الجواري السُّودُ.
+-- RECORD.canonical_definition.en: Al-ṣuhk: the black female slaves.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صيح   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root ص-ي-ح is the emission of a loud, piercing sound, specifically a vocal cry that strains the utterer's maximum capacity. It denotes an intense auditory event, whether from a human, animal, or inanimate object, and by extension, the act of calling out to someone or something.
+-- RECORD.haqiqah_literal: The literal, physical meaning is to shout, cry out, or emit a loud sound with one's utmost effort. It also encompasses calling out to someone (صاح به) and the reciprocal act of shouting at one another (تصايحوا). Additionally, it is used literally for the splitting or cracking of objects like a garment or a stick (انصاح الثوب, انصاحت العصا).
+-- RECORD.majaz_scholastic: Metaphorically, the root is applied to non-vocal entities, such as a palm tree or dates (صيحاني, صيحانية), which are named after a specific ram called صيحان, thus transferring the proper name to a botanical variety. The meaning of 'splitting' is extended to abstract disintegration or rupture. In theological and philosophical discourse, the term may be used to describe the 'crying out' of inanimate objects as a metaphor for their testimony or the manifestation of divine power, though such usage is rare and strictly metaphorical.
+-- RECORD.canonical_definition.ar: الصِّيَاحُ: الصوتُ؛ صوتُ كل شيء إِذا اشتدّ. صاحَ يَصِيحُ صَيْحة وصِياحاً وصُياحاً، وصَيْحاً وصَيَحاناً، وصَيَّحَ: صَوَّتَ بأَقصى طاقته، يكون ذلك في الناس وغيرهم.
+-- RECORD.canonical_definition.en: Al-Ṣiyāḥ is sound; the sound of anything when it intensifies. Ṣāḥa yaṣīḥu (he shouted) yields the verbal noun ṣayḥah, ṣiyāḥ, ṣuyāḥ, ṣayḥ, and ṣayaḥān; and ṣayyaḥa means to vocalize with one's utmost capacity. This applies to humans and others.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 40468 hdr=صيح: الصاد والياء والحاء أصل صحيح، وهو الصوت العالى. منه الصياح، والواحدة منه صيحة. يقال: لقيت فلانا قبل كل صيح ونفر. فالصيح: الصياح. والنفر: التفرق. ومما يستعار من هذا قولهم: صاحت الشجرة، وصاح النبت، إذا طال، كأنه لما طال وارتفع جعل طوله كالصياح الذى يدل على الصائح. وأما التصيح، وهو تشقق الخشب، فالأصل فيه الواو، وهو التصوح، وقد مضى. ومنه انصاح البرق انصياحا، إذا تصدع وانشق. قال: من بين مرتتق منها ومنصاح (2) وأمست الأرض والقيعان مثرية
+-- SOURCE.asas[haqiqah_literal]: صاح صيحة شديدة، وصاح به وصيح به وصايحه: ناداه، وضح لي بفلان: ادعه لي، وتصايحا: صاحوا، وتصايحوا: تداعوا. وتمر صيحاني، ونخلة صيحانية، قالوا: شد إلى نخلة كبش اسمه صيحان فنسبت إليه. وانصاح الثوب. وانصاحت العصا وتصيحت: تشققت.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: صاح صيحة شديدة، وصاح به وصيح به وصايحه: ناداه، وضح لي بفلان: ادعه لي، وتصايحا: صاحوا، وتصايحوا: تداعوا. وتمر صيحاني، ونخلة صيحانية، قالوا: ش Metaphorical (Majaz): أتيته قبل كل صيح ونفر: قبل كل شيء. وغصب من غير صيح ونفر: من غير شيء. قال: كذوب محول يجعل الله عرضة ... لأيمانه من غير صيح ولا نفر وصاحت الشج
+-- SOURCE.asas[majaz_metaphorical]: أتيته قبل كل صيح ونفر: قبل كل شيء. وغصب من غير صيح ونفر: من غير شيء. قال: كذوب محول يجعل الله عرضة ... لأيمانه من غير صيح ولا نفر وصاحت الشجرة: طالت، وبأرض بني فلان شجر قد صاح. وصاح الكافور إذا ظهر الطلع ونحوه كالكرم إذا نادى من الكافور. وقال الفرزدق: والشيب ينهض في الشباب كأنه .
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT صيص   stratum=Ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a hard, protective, or defensive structure — a fortified enclosure, a horn, a spur, or a hardened date-pit — that serves as a means of defense or resistance.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah (as delineated via Lisān al-ʿArab) is: a fortress or stronghold; anything by which one fortifies oneself; specifically, the horn of a bull or the spur of a rooster; and in the dialect of Balḥārith ibn Kaʿb, the hardened, dry date-pit (ḥashaf).
+-- RECORD.majaz_scholastic: Metaphorical, philosophical, and theological usages: In the Qurʾānic verse 'and He brought down those of the People of the Book who supported them from their strongholds' (Q 33:26), 'ṣayāṣī' (pl. of ṣīṣah) denotes their fortresses and places of refuge. The term is extended to any means of self-protection or defense, including the horn of a bull and the spur of a rooster, as these are instruments of defense or combat. The root also appears in the context of date palms: 'aṣāṣat al-nakhlah' and 'ṣayyaṣat taṣyīṣan' mean the palm became 'shīṣ' (unripe or hardened dates), derived from ṣīṣ (hardened date-pit), not from ṣīṣāʾ (a different root).
+-- RECORD.canonical_definition.ar: الصِّيصُ: الحَشَفُ من التمر، والصِّيصَةُ: الحصن، وكل ما يُتحصَّن به؛ وقيل لقرن البقر: صِيصَة، وللشوكة التي يقاتل بها الديك: صِيصَة.
+-- RECORD.canonical_definition.en: Ṣīṣ: the hardened, dry date-pit; ṣīṣah: a fortress, and anything by which one fortifies oneself; the horn of a bull is called ṣīṣah, and the spur with which a rooster fights is called ṣīṣah.
+-- SOURCE.mufradat @line 20129 hdr=صيص: قوله تعالى: وأنزل الذين ظاهروهم من أهل الكتاب من صياصيهم [الأحزاب/ 26]، أي: حصونهم، وكل ما يتحصن به يقال له: صيصة، وبهذا النظر قيل لقرن البقر: صيصة، وللشوكة التي يقاتل بها الديك: صيصة، والله أعلم بمراده وأسرار كتابه. تم كتاب الصاد بتوفيق الله تعالى تحت العجاج وأخرى تعلك اللجما ||| كتاب الضاد بسم الله الرحمن الرحيم*، نستعين بالله تعالى، وهو خير معين، الحمد لله حق حمده، والصلاة على خير خلقه، ومظهر حقه محمد وآله وصحبه (1).
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ضخخ   stratum=ma
+-- RECORD.ontological_core: The foundational physical origin of the root ضخخ is the forceful, extended emission of a liquid stream—specifically urine or water—from an orifice or conduit, characterized by propulsion and continuity rather than mere spillage.
+-- RECORD.haqiqah_literal: The literal physical meaning is the extension and projection of urine (امتداد البول), and by extension the forceful ejection of water through a tube or pipe; the instrument المضخة is a reed or tube containing a wooden rod used to expel water from the mouth.
+-- RECORD.majaz_scholastic: While the root is primarily concrete and hydraulic, it admits limited figurative extension to any forceful, directed emission or infusion of a substance, as in the phrase ضَخَّه ضَخّاً (he injected or infused it with water). No attested philosophical or theological abstraction is recorded in the classical lexica; the term remains rooted in physical propulsion and hydraulic mechanics.
+-- RECORD.canonical_definition.ar: الضَّخُّ: امتداد البول. والمضخة: قصبة في جوفها خشبة يرمى بها الماء من الفم. والضخ مثل النضخ للماء؛ وقد ضَخَّه ضخّاً إِذا نضحه بالماء.
+-- RECORD.canonical_definition.en: Al-ḍakhkh: the extension and projection of urine. Al-miḍakhkhah: a reed or tube within which is a wooden rod, by means of which water is ejected from the mouth. Al-ḍakhkh is like al-naḍkh for water; one says ḍakhkhahu ḍakhkhan when he sprinkled or infused it with water.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

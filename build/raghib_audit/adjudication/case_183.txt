@@ -1,0 +1,10 @@
+================================================================================================
+ROOT رفم   stratum=ma
+REC ontological_core : The root رفم denotes the foundational physical notion of complete, unbroken ease and plenitude — a state of total well-being and abundance that leaves nothing lacking.
+REC haqiqah_literal  : The literal physical meaning, as attested in Lisān al-ʿArab, is 'complete bliss' or 'perfect luxury' (al-naʿīm al-tāmm), indicating a state of unalloyed prosperity and comfort.
+REC canon_def.ar     : الرَّفَمُ: النَّعِيمُ التَّامُّ
+REC canon_def.en     : Al-rafam: complete bliss, perfect luxury.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

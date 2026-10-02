@@ -1,0 +1,82 @@
+--- constituent_stack.py.origin	2026-10-01 15:47:46.537387835 +0200
++++ constituent_stack.py	2026-10-01 15:50:14.074524381 +0200
+@@ -35,6 +35,25 @@
+ 
+ from word_class import WordClassifier, bare, JARR, INNA_FAMILY, KANA_FAMILY, JAZM, NASB, ATF
+ 
++# WIRED: Sibawayh's al-iktifa' -- a valency slot closes either by being filled, by being
++# licitly absent (lazim), or by being SATURATED BY A CLITIC.  Without it the stack keeps
++# awaiting a ma'mul that will never come and mis-assigns whatever follows.  The clitic is
++# already in the (prefix, root, wazn, SUFFIX) tuple, so saturation is computable here.
++try:
++    from iktifa_apocope import IktifaSaturation
++except Exception:                                            # pragma: no cover
++    IktifaSaturation = None
++
++
++def iktifa_slot(suffix, host_class):
++    """Which slot the attached pronoun saturates, or None (Sibawayh, al-Kitab)."""
++    if IktifaSaturation is None:
++        return None
++    try:
++        return IktifaSaturation.saturates(suffix, host_class)
++    except Exception:
++        return None
++
+ DIAC = re.compile(r'[\u064b-\u0652\u0670\u0640\u06d6-\u06ed]')
+ AR = re.compile(r'[\u0600-\u06FF]')
+ MAFUL_MUTLAQ_MARK = re.compile(r'^(مَصْدَر|مَصْ|اِسْم مَصْ)')
+@@ -159,7 +178,18 @@
+                     case = ''
+                     why = f'{reason} (mabni -- carries no case)'
+                 prev_verb_root = r
+-                stack.insert(0, {'kind': 'fi_l', 'i': 0})
++                # ---- al-iktifa': does the verb's SUFFIX already fill a slot? ----------
++                # Sibawayh: «لأن المضمر في ضارب هو الفاعل» (-tu IS the fa'il) and
++                # «واضربه مشغولة بالهاء» (the verb is occupied by the -hu, so no further
++                # maf'ul is expected).  The attached pronoun's slot depends on its HOST.
++                st = {'kind': 'fi_l', 'i': 0, 'closed': set()}
++                slot = iktifa_slot(self.vocab.id2suffix.get(s, ''), 'verb')
++                if slot:
++                    st['closed'].add(slot)
++                    if slot == 'fa_il':
++                        st['i'] = 1          # the fa'il slot is filled by the pronoun
++                    why += f" + iktifa': clitic saturates {slot}"
++                stack.insert(0, st)
+                 out.append((cid, case, role, why))
+                 continue
+ 
+@@ -172,12 +202,27 @@
+             elif stack:
+                 top = stack[0]
+                 reqs = GOVERNMENT[top['kind']]
+-                case, base_role = reqs[min(top['i'], len(reqs) - 1)]
+-                top['i'] += 1
+-                # a verb stays open after its core requirements for zarf / hal / 2nd maf'ul
+-                if top['i'] >= len(reqs) and top['kind'] != 'fi_l':
+-                    stack = stack[1:]
+-                src = f"case={case} from {top['kind']}"
++                # al-iktifa': a requirement already SATURATED by the host's clitic cannot
++                # claim this constituent.  For a verb like ضربه the maf'ul slot closed at
++                # the verb itself, so a following noun is not mis-assigned as its maf'ul.
++                closed = top.get('closed') or set()
++                skipped_saturated = False
++                while top['i'] < len(reqs) and reqs[top['i']][1] in closed:
++                    top['i'] += 1
++                    skipped_saturated = True
++                if top['i'] >= len(reqs) and skipped_saturated:
++                    case, base_role = '', 'not_claimed'
++                    src = (f"{top['kind']} requirements are SATURATED by its clitic "
++                           f"(al-iktifa') -- this constituent is not claimed here")
++                else:
++                    case, base_role = reqs[min(top['i'], len(reqs) - 1)]
++                    top['i'] += 1
++                    # a verb stays open after its core requirements for zarf / hal / 2nd maf'ul
++                    if top['i'] >= len(reqs) and top['kind'] != 'fi_l':
++                        stack = stack[1:]
++                    src = f"case={case} from {top['kind']}"
++                    if skipped_saturated:
++                        src += " (a saturated slot was skipped)"
+             else:
+                 case, base_role = 'raf', 'mubtada'
+                 stack.insert(0, {'kind': 'mubtada', 'i': 0})

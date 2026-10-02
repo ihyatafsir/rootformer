@@ -1,0 +1,26 @@
+{
+  "tag": "FIX_val",
+  "head": "/workspace/head_fix/head_ALIGNED_FIX.pt",
+  "trunk": "none",
+  "gates": "trained",
+  "result": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.06635221838951111,
+      "acc@5": 0.12602680921554565,
+      "ce_z": 8.099669456481934,
+      "ppl_z": 3293.3792901714237,
+      "ce_raw_SCALE_DEPENDENT": 7.658100128173828,
+      "logit_scale": 0.6517463326454163
+    },
+    "NOVEL_only": {
+      "n": 15046,
+      "acc@1": 0.0647348165512085,
+      "acc@5": 0.12175993621349335,
+      "ce_z": 8.152434349060059,
+      "ppl_z": 3471.820409472382,
+      "ce_raw_SCALE_DEPENDENT": 7.696329593658447,
+      "logit_scale": 0.6501501798629761
+    }
+  }
+}

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قطا   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ق ط و is the notion of heaviness and slowness in gait — a ponderous, dragging mode of walking. This sensory kernel of weighted movement is the root's primitive semantic nucleus, from which the name of the well-known bird (al-qaṭā) is derived by reason of its sluggish, heavy tread.
+REC haqiqah_literal  : The literal, physical meaning is: to walk heavily and slowly (قَطَا يَقْطُو: ثَقُلَ مَشْيُهُ). The noun al-qaṭā denotes the well-known bird (sandgrouse), so named because of the heaviness of its walking; its singular is qaṭāh, and its plural forms are qaṭawāt and qaṭayāt. Its characteristic manner of walking is termed al-iqṭīṭāʾ, expressed in the verb iqṭawṭat al-qaṭāh (the san […]
+REC canon_def.ar     : قَطَا يَقْطُو: ثَقُلَ مَشْيُهُ. وَالقَطَا: طَائِرٌ مَعْرُوفٌ، سُمِّيَ بِذَلِكَ لِثِقَلِ مَشْيِهِ، وَاحِدَتُهُ قَطَاةٌ، وَالجَمْعُ قَطَوَاتٌ وَقَطَيَاتٌ، وَمَشْيُهَا الاقْطِيطَاءُ.
+REC canon_def.en     : Qaṭā yaqṭū: to walk heavily and slowly. Al-qaṭā is the well-known bird (sandgrouse), so named because of the heaviness of its walking; its singular is qaṭāh, its plurals are qaṭawāt and qaṭayāt, and its manner of walking is al-iqṭīṭāʾ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

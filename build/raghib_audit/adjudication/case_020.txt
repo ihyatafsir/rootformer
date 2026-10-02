@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قسر   stratum=MA
+REC ontological_core : The foundational physical origin of the root is the act of overpowering and subduing another by force, compelling them against their will.
+REC haqiqah_literal  : To overpower, subdue, or compel someone to do something against their will; to coerce or force.
+REC canon_def.ar     : القَسْرُ: القَهْرُ على الكُرْه. قَسَرَه يَقْسِرُه قَسْراً واقْتَسَرَه: غَلَبه وقَهَره، وقَسَرَه على الأَمر قَسْراً: أَكرهه عليه.
+REC canon_def.en     : Al-qasr is overpowering by force against one's will. Qasarahu yaqsiruhu qasran and iqtasarahu mean he overpowered and subdued him. Qasarahu 'ala al-amr qasran means he compelled him to do the matter.
+SRC al-Mufradat      : [line 26986 hdr=قسر] القسر: الغلبة والقهر. يقال: قسرته واقتسرته، ومنه: القسورة. قال تعالى: فرت من قسورة [المدثر/ 51] قيل: هو الأسد (1)، وقيل: الرامي، وقيل: الصائد.
+SRC Maqayis (IbnFaris): [line 61513 hdr=قسر] القاف والسين والراء يدل على قهر وغلبة بشدة. من ذلك القسر: الغلبة والقهر. يقال: قسرته قسرا، واقتسرته اقتسارا. وبعير قيسري: صلب. والقسورة: الأسد، لقوته وغلبته. ||| باب القاف والشين وما يثلثهما
+SRC Asas [haqiqah_literal]        : قسرته على الأمر واقتسرته، وفعل ذلك قسرا واقتسارا. وهو مقتسر عليه، والوالي يتسخر الناس ويقتسرهم. وهم يخافون ال
+SRC Ayn (al-Khalil)  : [line 20308 hdr=قسر] القَسوَر: الصياد والراعي، والجميع قَسْوَرةٌ. والقَسْرُ: القهر على الكره. يقال: قَسَرْتُه قَسْراً، واقتَسَرْتُه أعم. __________ (1) الرجز في التهذيب واللسان والديوان ص 106. (2) الرجز في التهذيب واللسان (لرؤبة) وروايته: هابي العشي ديسق صخاؤه. الديوان ص 3 وفي الديوان ص 112: يغزون من فرياض سيحا ديسقا. وفَرَّتْ مِنْ قَسْوَرَةٍ «1» أي رماة، ويقال: أسد. والقَسْوَريُّ: الرامي. والقَيسَريُّ: الضخم الشديد المنيع.

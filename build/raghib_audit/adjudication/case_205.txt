@@ -1,0 +1,10 @@
+================================================================================================
+ROOT صمرد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the she-camel as a lactational vessel, denoting an animal whose milk-yield is either scant or copious—an ontological polarity rooted in the concrete reality of pastoral husbandry and the biological economy of the herd.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah: a she-camel (nāqah) characterized by a specific quantity of milk, whether meager or abundant; by extension, the plural form denotes emaciated livestock, particularly sheep or goats, in their physical state of bodily wasting.
+REC canon_def.ar     : الصِّمْرِدُ، بالكسر، من الإِبل: الناقة القليلة اللبن؛ وقيل: الناقة الغَزيرة اللبن. والصَّمارِدُ: الغَنم المِهازِيل. والصَّمارِيدُ: الغنم.
+REC canon_def.en     : Al-Ṣimrid, with the kasrah, among camels: a she-camel of scant milk; it is also said: a she-camel of abundant milk. Al-Ṣamārid: emaciated sheep. Al-Ṣamārīd: sheep.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

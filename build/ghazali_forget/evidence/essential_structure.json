@@ -1,0 +1,781 @@
+{
+  "n_tensors": 92,
+  "top_head": [
+    {
+      "name": "backbone.layers.23.self_attn.stream_mix",
+      "F_head": 4.650469054467976e-05,
+      "F_ret": 4.185267617984323e-05,
+      "rank_ret": 35,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.20.self_attn.stream_mix",
+      "F_head": 2.813187165884301e-05,
+      "F_ret": 0.0007499870389802155,
+      "rank_ret": 1,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.21.self_attn.stream_mix",
+      "F_head": 2.0249448425602168e-05,
+      "F_ret": 0.0008726864026145087,
+      "rank_ret": 0,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.22.self_attn.stream_mix",
+      "F_head": 1.1054688002332114e-05,
+      "F_ret": 0.0004667069878299124,
+      "rank_ret": 3,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.23.self_attn.v_proj.weight",
+      "F_head": 9.863961912760322e-07,
+      "F_ret": 0.0004893549737261136,
+      "rank_ret": 2,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.post_attention_layernorm.weight",
+      "F_head": 8.963559333029027e-07,
+      "F_ret": 0.00014295526111516934,
+      "rank_ret": 12,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.21.self_attn.v_proj.weight",
+      "F_head": 4.453825990533127e-07,
+      "F_ret": 0.0002912384726804447,
+      "rank_ret": 4,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.mlp.down_proj.weight",
+      "F_head": 4.26958801203804e-07,
+      "F_ret": 0.00016699078944526057,
+      "rank_ret": 10,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.22.self_attn.v_proj.weight",
+      "F_head": 3.4606185629062185e-07,
+      "F_ret": 0.00013827034380814226,
+      "rank_ret": 13,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.self_attn.v_proj.bias",
+      "F_head": 3.3457731352104503e-07,
+      "F_ret": 0.00010943041336908266,
+      "rank_ret": 14,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.21.self_attn.o_proj.weight",
+      "F_head": 3.241830714177078e-07,
+      "F_ret": 0.00017732708045991964,
+      "rank_ret": 8,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.20.self_attn.v_proj.weight",
+      "F_head": 3.0388524599422653e-07,
+      "F_ret": 0.00023522200007205653,
+      "rank_ret": 7,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.self_attn.o_proj.weight",
+      "F_head": 2.6716702246534876e-07,
+      "F_ret": 8.129074770661302e-05,
+      "rank_ret": 22,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.22.self_attn.o_proj.weight",
+      "F_head": 2.639894625354998e-07,
+      "F_ret": 8.524120731340302e-05,
+      "rank_ret": 19,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.20.self_attn.v_proj.bias",
+      "F_head": 2.565836682844047e-07,
+      "F_ret": 0.00010240829485841374,
+      "rank_ret": 15,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.21.self_attn.v_proj.bias",
+      "F_head": 1.8270995741365148e-07,
+      "F_ret": 7.118669221606311e-05,
+      "rank_ret": 25,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.20.self_attn.o_proj.weight",
+      "F_head": 1.7992152529601545e-07,
+      "F_ret": 6.210570353187421e-05,
+      "rank_ret": 29,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.23.mlp.gate_proj.weight",
+      "F_head": 1.657785172158222e-07,
+      "F_ret": 8.142912421287625e-05,
+      "rank_ret": 21,
+      "numel": 4358144
+    }
+  ],
+  "differentia": [
+    {
+      "name": "backbone.layers.23.self_attn.stream_mix",
+      "F_head": 4.650469054467976e-05,
+      "F_ret": 4.185267617984323e-05,
+      "ratio": 1.1111521096929253
+    },
+    {
+      "name": "backbone.layers.23.self_attn.q_norm.weight",
+      "F_head": 1.5756175118786242e-07,
+      "F_ret": 1.26177420443907e-06,
+      "ratio": 0.12487307614981027
+    },
+    {
+      "name": "backbone.layers.20.self_attn.stream_mix",
+      "F_head": 2.813187165884301e-05,
+      "F_ret": 0.0007499870389802155,
+      "ratio": 0.037509810382303575
+    },
+    {
+      "name": "backbone.layers.22.self_attn.stream_mix",
+      "F_head": 1.1054688002332114e-05,
+      "F_ret": 0.0004667069878299124,
+      "ratio": 0.023686570518362017
+    },
+    {
+      "name": "backbone.layers.21.self_attn.stream_mix",
+      "F_head": 2.0249448425602168e-05,
+      "F_ret": 0.0008726864026145087,
+      "ratio": 0.02320357959254622
+    },
+    {
+      "name": "backbone.layers.23.post_attention_layernorm.weight",
+      "F_head": 8.963559333029027e-07,
+      "F_ret": 0.00014295526111516934,
+      "ratio": 0.006270184951854166
+    },
+    {
+      "name": "backbone.layers.22.self_attn.v_proj.bias",
+      "F_head": 1.595844283663883e-07,
+      "F_ret": 4.392951325982164e-05,
+      "ratio": 0.003632738286668145
+    },
+    {
+      "name": "backbone.layers.23.self_attn.o_proj.weight",
+      "F_head": 2.6716702246534876e-07,
+      "F_ret": 8.129074770661302e-05,
+      "ratio": 0.0032865612227239173
+    },
+    {
+      "name": "backbone.layers.22.self_attn.o_proj.weight",
+      "F_head": 2.639894625354998e-07,
+      "F_ret": 8.524120731340302e-05,
+      "ratio": 0.0030969699721395323
+    },
+    {
+      "name": "backbone.layers.23.self_attn.v_proj.bias",
+      "F_head": 3.3457731352104503e-07,
+      "F_ret": 0.00010943041336908266,
+      "ratio": 0.0030574435402629077
+    }
+  ],
+  "tensor_rows": [
+    {
+      "name": "backbone.layers.23.self_attn.stream_mix",
+      "F_head": 4.650469054467976e-05,
+      "F_ret": 4.185267617984323e-05,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.20.self_attn.stream_mix",
+      "F_head": 2.813187165884301e-05,
+      "F_ret": 0.0007499870389802155,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.21.self_attn.stream_mix",
+      "F_head": 2.0249448425602168e-05,
+      "F_ret": 0.0008726864026145087,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.22.self_attn.stream_mix",
+      "F_head": 1.1054688002332114e-05,
+      "F_ret": 0.0004667069878299124,
+      "numel": 2
+    },
+    {
+      "name": "backbone.layers.23.self_attn.v_proj.weight",
+      "F_head": 9.863961912760322e-07,
+      "F_ret": 0.0004893549737261136,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.post_attention_layernorm.weight",
+      "F_head": 8.963559333029027e-07,
+      "F_ret": 0.00014295526111516934,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.21.self_attn.v_proj.weight",
+      "F_head": 4.453825990533127e-07,
+      "F_ret": 0.0002912384726804447,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.mlp.down_proj.weight",
+      "F_head": 4.26958801203804e-07,
+      "F_ret": 0.00016699078944526057,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.22.self_attn.v_proj.weight",
+      "F_head": 3.4606185629062185e-07,
+      "F_ret": 0.00013827034380814226,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.self_attn.v_proj.bias",
+      "F_head": 3.3457731352104503e-07,
+      "F_ret": 0.00010943041336908266,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.21.self_attn.o_proj.weight",
+      "F_head": 3.241830714177078e-07,
+      "F_ret": 0.00017732708045991964,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.20.self_attn.v_proj.weight",
+      "F_head": 3.0388524599422653e-07,
+      "F_ret": 0.00023522200007205653,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.self_attn.o_proj.weight",
+      "F_head": 2.6716702246534876e-07,
+      "F_ret": 8.129074770661302e-05,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.22.self_attn.o_proj.weight",
+      "F_head": 2.639894625354998e-07,
+      "F_ret": 8.524120731340302e-05,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.20.self_attn.v_proj.bias",
+      "F_head": 2.565836682844047e-07,
+      "F_ret": 0.00010240829485841374,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.21.self_attn.v_proj.bias",
+      "F_head": 1.8270995741365148e-07,
+      "F_ret": 7.118669221606311e-05,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.20.self_attn.o_proj.weight",
+      "F_head": 1.7992152529601545e-07,
+      "F_ret": 6.210570353187421e-05,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.23.mlp.gate_proj.weight",
+      "F_head": 1.657785172158222e-07,
+      "F_ret": 8.142912421287625e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.22.self_attn.v_proj.bias",
+      "F_head": 1.595844283663883e-07,
+      "F_ret": 4.392951325982164e-05,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.23.self_attn.q_norm.weight",
+      "F_head": 1.5756175118786242e-07,
+      "F_ret": 1.26177420443907e-06,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.23.self_attn.k_norm.weight",
+      "F_head": 1.5704793068782585e-07,
+      "F_ret": 1.334826097737496e-06,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.23.mlp.up_proj.weight",
+      "F_head": 1.4330930345158372e-07,
+      "F_ret": 8.978974969506595e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.22.mlp.down_proj.weight",
+      "F_head": 1.1491262678274512e-07,
+      "F_ret": 7.375235352789933e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.22.self_attn.k_norm.weight",
+      "F_head": 1.1224300114354158e-07,
+      "F_ret": 2.297166057776967e-06,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.22.self_attn.q_norm.weight",
+      "F_head": 1.0912863306761222e-07,
+      "F_ret": 2.18113585521984e-06,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.23.self_attn.k_proj.weight",
+      "F_head": 1.0364663740831012e-07,
+      "F_ret": 1.539678399085998e-06,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.21.mlp.down_proj.weight",
+      "F_head": 9.89965518530149e-08,
+      "F_ret": 9.270561543372445e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.22.post_attention_layernorm.weight",
+      "F_head": 8.600677158560848e-08,
+      "F_ret": 6.237280587446341e-05,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.21.self_attn.k_norm.weight",
+      "F_head": 8.03163727747247e-08,
+      "F_ret": 9.139439426597562e-06,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.20.self_attn.k_norm.weight",
+      "F_head": 8.031251679321838e-08,
+      "F_ret": 4.42381038767703e-06,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.22.self_attn.k_proj.weight",
+      "F_head": 8.004452488630889e-08,
+      "F_ret": 1.7590059251609913e-06,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.21.self_attn.q_norm.weight",
+      "F_head": 7.658223331874492e-08,
+      "F_ret": 1.0364912571780849e-05,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.20.self_attn.q_norm.weight",
+      "F_head": 7.534442363760219e-08,
+      "F_ret": 4.136845733526684e-06,
+      "numel": 64
+    },
+    {
+      "name": "backbone.layers.20.mlp.down_proj.weight",
+      "F_head": 6.18448791361319e-08,
+      "F_ret": 5.5804693536171394e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.21.self_attn.k_proj.weight",
+      "F_head": 6.158106745748299e-08,
+      "F_ret": 1.6522361767028493e-05,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.23.input_layernorm.weight",
+      "F_head": 4.870862929606564e-08,
+      "F_ret": 1.8422804217208535e-05,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.21.post_attention_layernorm.weight",
+      "F_head": 4.8237655665001045e-08,
+      "F_ret": 8.256420993743971e-05,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.22.mlp.gate_proj.weight",
+      "F_head": 4.57099832919121e-08,
+      "F_ret": 3.461648105542522e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.21.mlp.gate_proj.weight",
+      "F_head": 4.298302364665675e-08,
+      "F_ret": 4.090642020955234e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.22.mlp.up_proj.weight",
+      "F_head": 4.129455266796822e-08,
+      "F_ret": 4.705415563902049e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.20.post_attention_layernorm.weight",
+      "F_head": 3.7029201514572815e-08,
+      "F_ret": 6.359120280478461e-05,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.21.mlp.up_proj.weight",
+      "F_head": 3.495691200534408e-08,
+      "F_ret": 5.678651458633035e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.20.self_attn.k_proj.weight",
+      "F_head": 2.6005758651874743e-08,
+      "F_ret": 5.294799251494654e-06,
+      "numel": 114688
+    },
+    {
+      "name": "backbone.layers.20.mlp.gate_proj.weight",
+      "F_head": 2.333572356241735e-08,
+      "F_ret": 2.3428318387755678e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.20.mlp.up_proj.weight",
+      "F_head": 1.9253411983642622e-08,
+      "F_ret": 2.9363655631900766e-05,
+      "numel": 4358144
+    },
+    {
+      "name": "backbone.layers.21.input_layernorm.weight",
+      "F_head": 1.2722593830136582e-08,
+      "F_ret": 8.807673881644495e-06,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.20.input_layernorm.weight",
+      "F_head": 1.2002545142175493e-08,
+      "F_ret": 7.718674720602614e-06,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.22.input_layernorm.weight",
+      "F_head": 1.1032300341719606e-08,
+      "F_ret": 4.922150902079485e-06,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.22.self_attn.q_proj.weight",
+      "F_head": 7.201865602509881e-09,
+      "F_ret": 1.3919345026888943e-07,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.23.self_attn.q_proj.weight",
+      "F_head": 7.053583617884215e-09,
+      "F_ret": 1.5939315364415072e-07,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.22.self_attn.k_proj.bias",
+      "F_head": 5.206104308937143e-09,
+      "F_ret": 1.629943094543819e-07,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.21.self_attn.k_proj.bias",
+      "F_head": 5.1217797112854124e-09,
+      "F_ret": 5.641185117834929e-07,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.23.self_attn.k_proj.bias",
+      "F_head": 4.9010057265796644e-09,
+      "F_ret": 6.501031020542808e-08,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.20.self_attn.k_proj.bias",
+      "F_head": 3.470149762593161e-09,
+      "F_ret": 1.789382358934749e-07,
+      "numel": 128
+    },
+    {
+      "name": "backbone.layers.21.self_attn.q_proj.weight",
+      "F_head": 3.0243366225644826e-09,
+      "F_ret": 9.409780548154572e-07,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.22.self_attn.q_proj.bias",
+      "F_head": 2.2892576752903918e-09,
+      "F_ret": 3.961642384948986e-08,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.23.self_attn.q_proj.bias",
+      "F_head": 1.5963614265153973e-09,
+      "F_ret": 3.173538311895967e-08,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.20.self_attn.q_proj.weight",
+      "F_head": 1.0865344356371524e-09,
+      "F_ret": 1.5406856806540666e-07,
+      "numel": 802816
+    },
+    {
+      "name": "backbone.layers.21.self_attn.q_proj.bias",
+      "F_head": 7.997487540376165e-10,
+      "F_ret": 1.881528128344987e-07,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.20.self_attn.q_proj.bias",
+      "F_head": 5.083660530296602e-10,
+      "F_ret": 5.79548920463625e-08,
+      "numel": 896
+    },
+    {
+      "name": "backbone.layers.20.self_attn.coverage_threshold",
+      "F_head": 0.0,
+      "F_ret": 0.0002884218411054462,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.20.self_attn.coverage_weight",
+      "F_head": 0.0,
+      "F_ret": 7.35725334379822e-05,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.20.self_attn.governance_strength",
+      "F_head": 0.0,
+      "F_ret": 3.7288071325747296e-05,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.20.self_attn.ishtiqaq_gamma",
+      "F_head": 0.0,
+      "F_ret": 1.3934890148448176e-06,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.20.self_attn.root_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 1.0855440951889735e-15,
+      "numel": 576960
+    },
+    {
+      "name": "backbone.layers.20.self_attn.root_k_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 7.344496035039068e-12,
+      "numel": 8192
+    },
+    {
+      "name": "backbone.layers.20.self_attn.root_q_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 1.0763517320874353e-12,
+      "numel": 57344
+    },
+    {
+      "name": "backbone.layers.20.self_attn.wazn_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 0.0,
+      "numel": 8192
+    },
+    {
+      "name": "backbone.layers.21.self_attn.coverage_threshold",
+      "F_head": 0.0,
+      "F_ret": 0.0002493048377800733,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.21.self_attn.coverage_weight",
+      "F_head": 0.0,
+      "F_ret": 6.919650331838056e-05,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.21.self_attn.governance_strength",
+      "F_head": 0.0,
+      "F_ret": 0.00015903882740531117,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.21.self_attn.ishtiqaq_gamma",
+      "F_head": 0.0,
+      "F_ret": 1.7302035075772437e-06,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.21.self_attn.root_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 2.4870934590397028e-15,
+      "numel": 576960
+    },
+    {
+      "name": "backbone.layers.21.self_attn.root_k_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 1.6201874791890647e-11,
+      "numel": 8192
+    },
+    {
+      "name": "backbone.layers.21.self_attn.root_q_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 2.494798223190043e-12,
+      "numel": 57344
+    },
+    {
+      "name": "backbone.layers.21.self_attn.wazn_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 0.0,
+      "numel": 8192
+    },
+    {
+      "name": "backbone.layers.22.self_attn.coverage_threshold",
+      "F_head": 0.0,
+      "F_ret": 2.3978593162610196e-05,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.22.self_attn.coverage_weight",
+      "F_head": 0.0,
+      "F_ret": 6.372320513037266e-06,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.22.self_attn.governance_strength",
+      "F_head": 0.0,
+      "F_ret": 8.528443140676245e-05,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.22.self_attn.ishtiqaq_gamma",
+      "F_head": 0.0,
+      "F_ret": 6.003992325531726e-08,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.22.self_attn.root_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 8.038386794567409e-16,
+      "numel": 576960
+    },
+    {
+      "name": "backbone.layers.22.self_attn.root_k_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 5.246558425076793e-12,
+      "numel": 8192
+    },
+    {
+      "name": "backbone.layers.22.self_attn.root_q_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 7.623528724639106e-13,
+      "numel": 57344
+    },
+    {
+      "name": "backbone.layers.22.self_attn.wazn_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 0.0,
+      "numel": 8192
+    },
+    {
+      "name": "backbone.layers.23.self_attn.coverage_threshold",
+      "F_head": 0.0,
+      "F_ret": 5.636128844344057e-05,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.23.self_attn.coverage_weight",
+      "F_head": 0.0,
+      "F_ret": 1.2507126484706532e-05,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.23.self_attn.governance_strength",
+      "F_head": 0.0,
+      "F_ret": 0.00016753299860283732,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.23.self_attn.ishtiqaq_gamma",
+      "F_head": 0.0,
+      "F_ret": 2.812007778629777e-06,
+      "numel": 1
+    },
+    {
+      "name": "backbone.layers.23.self_attn.root_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 2.2949499895473247e-15,
+      "numel": 576960
+    },
+    {
+      "name": "backbone.layers.23.self_attn.root_k_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 1.5074769404939483e-11,
+      "numel": 8192
+    },
+    {
+      "name": "backbone.layers.23.self_attn.root_q_proj.weight",
+      "F_head": 0.0,
+      "F_ret": 2.253703465727779e-12,
+      "numel": 57344
+    },
+    {
+      "name": "backbone.layers.23.self_attn.wazn_embed.weight",
+      "F_head": 0.0,
+      "F_ret": 0.0,
+      "numel": 8192
+    }
+  ],
+  "genus": [
+    {
+      "name": "backbone.layers.21.self_attn.stream_mix",
+      "F_ret": 0.0008726864026145087
+    },
+    {
+      "name": "backbone.layers.20.self_attn.stream_mix",
+      "F_ret": 0.0007499870389802155
+    },
+    {
+      "name": "backbone.layers.23.self_attn.v_proj.weight",
+      "F_ret": 0.0004893549737261136
+    },
+    {
+      "name": "backbone.layers.22.self_attn.stream_mix",
+      "F_ret": 0.0004667069878299124
+    },
+    {
+      "name": "backbone.layers.21.self_attn.v_proj.weight",
+      "F_ret": 0.0002912384726804447
+    },
+    {
+      "name": "backbone.layers.20.self_attn.coverage_threshold",
+      "F_ret": 0.0002884218411054462
+    },
+    {
+      "name": "backbone.layers.21.self_attn.coverage_threshold",
+      "F_ret": 0.0002493048377800733
+    },
+    {
+      "name": "backbone.layers.20.self_attn.v_proj.weight",
+      "F_ret": 0.00023522200007205653
+    }
+  ]
+}

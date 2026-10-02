@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سرهج   stratum=ma
+REC ontological_core : The root سرهج is a rare quadriliteral (rubāʿī) formation denoting a crafted, ornamental artifact — specifically a manufactured object of variegated inlay or mosaic workmanship (comparable to faysafisāʾ, Byzantine-style tessellated ornament). Its foundational physical origin is the concrete act of fabricating a decorated, multi-colored surface or object through artisanal technique (ṣanʿah).
+REC haqiqah_literal  : The literal, physical sense is a crafted ornamental object — a thing of artifice resembling mosaic or inlaid work (shayʾ min al-ṣanʿah ka-l-faysafisāʾ). The noun السرنج (al-saranj, on the pattern of samand) designates such an inlaid or tessellated artifact.
+REC canon_def.ar     : السَّرْهَجَةُ: ضَرْبٌ مِنَ الصَّنْعَةِ كَالْفَسِيفَسَاءِ؛ وَالسَّرَنْجُ كَسَمَنْدٍ: شَيْءٌ مِنَ الصِّنَاعَةِ الْمُزَخْرَفَةِ.
+REC canon_def.en     : Al-sarhajah: a mode of craftsmanship akin to mosaic (faysafisāʾ); and al-saranj (on the pattern samand): an artifact of ornamental, variegated workmanship.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

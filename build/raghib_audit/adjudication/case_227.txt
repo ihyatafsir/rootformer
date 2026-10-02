@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فرشط   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of a creature (human or camel) lowering and pressing its hindquarters or forelegs flat against the ground in a slack, spread-out posture, specifically during sitting or kneeling.
+REC haqiqah_literal  : Literal physical meaning: A man's pressing his buttocks to the ground and resting his legs (as a pillow); a camel's kneeling in a relaxed manner, pressing its forearms to the ground, or spreading out in the act of kneeling.
+REC canon_def.ar     : فَرْشَط الرجلُ فَرْشَطة: أَلصق أَليتيه بالأَرض وتوسَّد ساقيه. وفَرْشَط البعيرُ فَرْشَطة وفِرْشاطاً: برَك بُروكاً مسترخياً فأَلصق أَعضاده بالأَرض، وقيل: هو أَن ينتشر بِرْكةَ البعير عند البُروك.
+REC canon_def.en     : A man performed farshata: he pressed his buttocks to the ground and used his legs as a pillow. A camel performed farshata and firshāṭ: it knelt in a relaxed manner, pressing its forearms to the ground; it is also said to be the spreading ou […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

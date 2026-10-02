@@ -1,0 +1,10 @@
+================================================================================================
+ROOT غيذ   stratum=ma
+REC ontological_core : The root غيذ denotes the act of forming a correct conjecture that subsequently proves true; its foundational physical origin is the hitting or striking of a target, from which the cognitive sense of 'hitting upon the truth' is derived.
+REC haqiqah_literal  : The literal physical meaning is 'to strike or hit a target' (as in striking with a weapon or arrow), which then metaphorically extends to the mental act of forming an opinion that corresponds to reality.
+REC canon_def.ar     : الغَيْذان: الذي يظن فيصيب
+REC canon_def.en     : Al-ghaydhān: the one who conjectures and then hits upon the truth.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

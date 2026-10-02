@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فرقس   stratum=ma
+REC ontological_core : The root denotes a sharp, guttural vocalization directed at a dog—an onomatopoeic summons or command, rooted in the physical act of calling out to an animal with a distinctive, percussive sound.
+REC haqiqah_literal  : The literal, physical meaning is the call or summons addressed to a dog (دعاء الكلب), i.e., the utterance used to invoke, command, or incite a dog.
+REC canon_def.ar     : فِرْقِس وفُرْقُوس: دعاءُ الكلب.
+REC canon_def.en     : Firqis and furqūs: the call or summons addressed to a dog.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

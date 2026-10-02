@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ملع   stratum=mA
+REC ontological_core : Rapid, light-footed motion across the earth — the foundational physical image is that of swift, unencumbered travel or pursuit over terrain, with an emphasis on speed and levity of movement.
+REC haqiqah_literal  : The literal physical meaning is swift, light movement or travel across the ground; it denotes a pace faster than walking but below the gallop (al-khabab), and is applied to a she-camel moving briskly in her gait.
+REC canon_def.ar     : المَلْعُ: الذَّهَابُ في الأَرض، وقيل الطَّلَبُ، وقيل السُّرْعَةُ والخِفَّةُ، وقيل شِدَّةُ السَّيْرِ، وقيل العَدْوُ الشَّدِيدُ، وقيل فوق المشي دون الخَبَبِ، وقيل هو السَّيْرُ السَّرِيعُ الخَفِيفُ، مَلَعَ يَمْلَعُ مَلْعاً ومَلَعَاناً.
+REC canon_def.en     : Al-malʿ: going forth across the earth; also pursuit; also speed and lightness; also intensity of travel; also vigorous running; also a pace above walking but below the gallop; also swift, light travel. The verb is malaʿa, yamlaʿu, malʿan an […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69221 hdr=ملع] الميم واللام والعين أصيل يدل على سرعة وخفة. وملعت الناقة في سيرها وناقة ميلع فيعل منه. والملع: السرعة في المرور والاختطاف. ومن الباب المليع: الأرض لا نبات بها.
+SRC Asas [haqiqah_literal]        : ناقة ميلع: تملع في سيرها ملعا أي تسرع. قال الكميت: عنتريس شملة ذات لوث ... هوجل ميلع كتوم البغام وتقول: طار إلى بعض القلاع، كأنه عقاب ملاع. قال أبو زيد: ملاع اسم أرض ويجوز أن يكون وصفا على تقدير: عقاب قادمة ملاع، أو خفقة ملاع بمعنى مالعة سريعة. قال المسيب: أنت الوفي فما تذم وبعضه
+SRC Ayn (al-Khalil)  : (NO ENTRY)

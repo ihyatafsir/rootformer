@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ختت   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of piercing or thrusting with spears in rapid, successive, overlapping strikes — a concentrated, repeated penetration that overwhelms the target.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is: thrusting or piercing with spears in a rapid, successive manner (al-ṭaʿn bi-l-rimāḥ mudārakan).
+REC canon_def.ar     : الخَتُّ: الطَّعْنُ بالرماح مُدارَكاً. والخَتَتُ: فُتُور يَجِدُه الإِنسان في بدنه. وأَخَتَّ الرجلُ: اسْتَحْيا وسَكَتَ.
+REC canon_def.en     : Al-khatt: thrusting with spears in rapid succession. Al-khatat: a languor or weakness that a person feels in his body. Akhatta al-rajul: he became shy and silent.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

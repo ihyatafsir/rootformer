@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ضود   stratum=ma
+REC ontological_core : The root ضود is not attested as an independent lexical root in the classical philological tradition; the sequence ض و د appears in Lisān al-ʿArab only as an incidental collocation within the entry for the letter ḍād (ض), where the letter itself is treated as a phonological and orthographic primitive rather than as a semantic root. Its ontological core is therefore the consonantal letter ḍād as a majhūra (voiced) and mustaʿliya […]
+REC haqiqah_literal  : No literal physical meaning is established for ضود as a root in Asās al-Balāghah or in the classical lexical corpus; the only literal referent attested is the letter ḍād (ض) itself, described as a voiced, elevated Arabic consonant that functions as an aṣl (radical) and never as a badal (substitute) or zāʾid (augment).
+REC canon_def.ar     : الضاد حرف هجاء وهو حرف مَجْهُور، وهو أَحد الحروف المُسْتَعْلية، يكون أَصلاً لا بدلاً ولا زائداً، والضاد للعَرَب خاصة ولا توجد في كلام العجم إِلا في القليل.
+REC canon_def.en     : The ḍād is a letter of spelling; it is a voiced consonant and one of the elevated letters; it functions as a radical, not as a substitute or an augment; and the ḍād is peculiar to the Arabs, not occurring in non-Arab speech except rarely.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

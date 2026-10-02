@@ -1,0 +1,10 @@
+================================================================================================
+ROOT رول   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the emission and flow of moisture from the mouth or body of an animal, specifically saliva, foam, or dripping fluid, as attested in the classical lexical tradition.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is the flowing saliva or foam of a horse or beast, and the act of an animal lowering itself to urinate; also the anointing or moistening of the head with oil and of bread with clarified butter or condiment.
+REC canon_def.ar     : الرُّوَال، على فُعَال بالضم: اللُّعاب. وقيل: الرُّوَال زَبَد الفرس خاصة. والرَّاوُول: لُعاب الدواب. ورَوَّل رأسه من الدهن: رواه. ورَوَّل الخبز بالسمن وبالأدم. ورَوَّل الفرس: أدلى ليبول. وتروَّل في مخلاته: سال فيها رواله. وظهرت أسنانه بالرواويل. وكل سن رديف لسن فهو راوول.
+REC canon_def.en     : Al-Ruwāl, on the pattern fuʿāl with ḍammah: saliva. It is also said: al-ruwāl is specifically the foam of a horse. Al-rāwūl: the saliva of beasts. Rawwala raʾsahu min al-duhn: he moistened his head with oil. Rawwala al-khubz bi-l-samn wa-l- […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 29771 hdr=رول] الراء والواو واللام أصل يدل على لطخ شىء بشى. يقال رولت الخبز بالسمن، مثل روغت. والروال: بزاق الدابة. يقال رول [فى] مخلاته (3). وقريب من هذا الباب رول الفرس: أدلى.
+SRC Asas [haqiqah_literal]        : رول رأسه من الدهن: رواه. ورول الخبز بالسمن وبالأدم ورول الفرس: أدلى ليبول. وترول في مخلاته: سال فيها رواله وهو لعابه. وظهرت أسنانه بالرواويل. قال أبو حاتم: كل سن رديف لسن فهو راوول. قال: أسنانها أضعفت في حلقها عددا ... مظهرات جميعا بالرواويل
+SRC Ayn (al-Khalil)  : [line 34629 hdr=رول] الرُّوالُ: بُزاقُ الدّابّة، يُقالُ: تَرَوّل في مِخلاته. والرّائلُ والرّائِلةُ: سِنٌّ تَنْبُتُ للدّابة تمنعُهُ من الشَّراب والقَضْم، قال «37» : يَظَلُّ يَكْسوها الرُّوالَ الرّائلا ورَوَّلْتُ الخُبزَ بالسَّمْن والوَدَكِ تَرويلاً إذا دَلَكْته به. وروّل الفَرَسُ، إذا أدلى ليبول.

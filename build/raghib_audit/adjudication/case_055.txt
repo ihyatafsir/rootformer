@@ -1,0 +1,10 @@
+================================================================================================
+ROOT صيص   stratum=Ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a hard, protective, or defensive structure — a fortified enclosure, a horn, a spur, or a hardened date-pit — that serves as a means of defense or resistance.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (as delineated via Lisān al-ʿArab) is: a fortress or stronghold; anything by which one fortifies oneself; specifically, the horn of a bull or the spur of a rooster; and in the dialect of Balḥārith ibn Kaʿb, the hardened, dry date-pit (ḥashaf).
+REC canon_def.ar     : الصِّيصُ: الحَشَفُ من التمر، والصِّيصَةُ: الحصن، وكل ما يُتحصَّن به؛ وقيل لقرن البقر: صِيصَة، وللشوكة التي يقاتل بها الديك: صِيصَة.
+REC canon_def.en     : Ṣīṣ: the hardened, dry date-pit; ṣīṣah: a fortress, and anything by which one fortifies oneself; the horn of a bull is called ṣīṣah, and the spur with which a rooster fights is called ṣīṣah.
+SRC al-Mufradat      : [line 20129 hdr=صيص] قوله تعالى: وأنزل الذين ظاهروهم من أهل الكتاب من صياصيهم [الأحزاب/ 26]، أي: حصونهم، وكل ما يتحصن به يقال له: صيصة، وبهذا النظر قيل لقرن البقر: صيصة، وللشوكة التي يقاتل بها الديك: صيصة، والله أعلم بمراده وأسرار كتابه. تم كتاب الصاد بتوفيق الله تعالى تحت العجاج وأخرى تعلك اللجما ||| كتاب الضاد بسم الله الرحمن الرحيم*، نستعين بالله تعالى، وهو خير معين، الحمد لله حق حمده، والصلاة على خير خلقه، ومظهر حقه محمد وآله وصحبه (1).
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 29089 hdr=صيص] والصِّيصِيةُ: ما كان حِصْناً لكلِّ شيءٍ مثلَ صِيصِيةِ الثَّور وهو قَرْنه، وصِيْصِيَةُ الديك كأنّها مِخلَب في ساقِه. وصِيصِيَة القوم: قلعَتُهم التي يتَحصَّنُون فيها كقِلاع اليهود من قُرَيْظةَ حيثُ أنزَلَهم اللهُ من صَياصيهم. والصَّياصي: شَوْكُ النَّسّاجين، قال دُرَيْد: «299» كوقع الصَّياصي في النَّسيج المُمَدَّدِ «300»

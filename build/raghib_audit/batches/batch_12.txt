@@ -1,0 +1,271 @@
+====================================================================================================
+ROOT نقف   stratum=mA
+-- RECORD.ontological_core: The foundational physical act of striking or breaking open a hard, enclosing shell or cranial structure in order to extract the kernel, marrow, or brain concealed within it.
+-- RECORD.haqiqah_literal: The literal breaking of a skull to expose the brain, the cracking of a colocynth to extract its seeds, the piercing of an egg to remove its contents, and the striking of heads with swords in combat.
+-- RECORD.majaz_scholastic: Extended to mean the extraction of hidden inner content from any hard exterior (e.g., giving a bone to someone so they may extract its marrow); applied to locusts casting forth their eggs; used nominally for mutual sword-striking upon heads (al-munāqafah); and metaphorically for polishing leaves with a scraping tool (al-minqāf).
+-- RECORD.canonical_definition.ar: النَّقْفُ: كَسْرُ الْهَامَةِ عَنِ الدِّمَاغِ وَنَحْوِ ذَلِكَ، كَمَا يَنْقُفُ الظَّلِيمُ الْحَنْظَلَ عَنْ حَبِّهِ. وَالْمُنَاقَفَةُ: الْمُضَارَبَةُ بِالسُّيُوفِ عَلَى الرُّؤُوسِ.
+-- RECORD.canonical_definition.en: Al-Naqf is the breaking of the skull away from the brain and the like, just as the male ostrich cracks open the colocynth to extract its seeds. Al-Munāqafah is mutual striking with swords upon the heads.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[bilingual_haqiqah_majaz]: الظليم ينقف الحنظل عن الهبيد. وضرب ينقف الهام عن الدماغ. وبينهم مناقفة ونقاف: مضاربة. ويقال: " اليوم قحاف، وغدا نقاف ". ونقفت البيضة: استخرج Metaphorical (Majaz): رجل نقاف: صاحب تدبير ونظر في الأشياء كأنه ينقف عنها أي يبحث. ويقال للسائل المبرم: نقاف. قال: إذا جاء نقاف يعد عياله ... طويل العصا عديته عن
+-- SOURCE.asas[majaz_metaphorical]: رجل نقاف: صاحب تدبير ونظر في الأشياء كأنه ينقف عنها أي يبحث. ويقال للسائل المبرم: نقاف. قال: إذا جاء نقاف يعد عياله ... طويل العصا عديته عن شياهيا وجذع منقوف ونقيف: مأروض. ورجل منقوف الوجه: ضامره.
+-- SOURCE.asas[haqiqah_literal]: الظليم ينقف الحنظل عن الهبيد. وضرب ينقف الهام عن الدماغ. وبينهم مناقفة ونقاف: مضاربة. ويقال: " اليوم قحاف، وغدا نقاف ". ونقفت البيضة: استخرجت ما فيها. وأنقفتك العظم إذا أعطيته إياه ليستخرج مخه. وأنقف الجراد: رمى ببيضه. وصقل الورق بالمنقاف.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نكد   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin of the root ن ك د is the notion of something sought or desired being obtained only with difficulty, hardship, or scarcity — a thing that resists its seeker and yields its benefit grudgingly. From this core emerges the associated sense of ill-omen, meanness, and depletion.
+-- RECORD.haqiqah_literal: In its literal physical sense, ن ك د denotes a thing that comes to its seeker only with hardship and difficulty. It is applied to a man as نَكِد (niggardly, ill-tempered, of evil omen), to a she-camel as نَكْدَاء (one whose milk is scant and whose milking is difficult), and to water as نَكِدَ (exhausted, drained). It also denotes the act of exhausting someone's resources through persistent asking, and the depletion of a thing entirely.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, ن ك د is used to describe: (1) anything that brings evil or harm to its possessor, hence ill-omen and meanness (الشؤم واللؤم); (2) a life or livelihood that becomes harsh and constricted (نَكِدَ عيشُهم); (3) a gift or bestowal that is meager and unenjoyable (عطاء منكود ومنكد); (4) the act of spoiling a gift by reminding the recipient of it (نكد عطاءه بالمن); (5) the raven's exhaustive croaking as if vomiting (نكد الغراب وتنكد); and (6) in the Qur'anic verse 'والذي خبث لا يخرج إلا نكدا' (Q 7:58), the base and impure yields only scant, unprofitable produce — a theological metaphor for the barrenness of disbelief and the meagerness of its fruits.
+-- RECORD.canonical_definition.ar: النَّكَدُ: الشُّؤْمُ وَاللُّؤْمُ، وَكُلُّ شَيْءٍ خَرَجَ إِلَى طَالِبِهِ بِتَعَسُّرٍ، وَكُلُّ شَيْءٍ جَرَّ عَلَى صَاحِبِهِ شَرًّا فَهُوَ نَكَدٌ.
+-- RECORD.canonical_definition.en: Al-Nakad: ill-omen and meanness; anything that comes to its seeker only with difficulty; and anything that brings evil upon its possessor is termed nakad.
+-- SOURCE.mufradat @line 33495 hdr=نكد: النكد: كل شيء خرج إلى طالبه بتعسر، يقال: رجل نكد ونكد، وناقة نكداء: طفيفة الدر صعبة الحلب. قال تعالى: والذي خبث لا يخرج إلا نكدا [الأعراف/ 58].
+-- SOURCE.maqayis @line 72893 hdr=نكد: النون والكاف والدال أصيل يدل على خروج الشيء إلى وقربت بالقربى وجدك إنه طالبه بشدة. وهذا مطلب نكد. ورجل نكد ونكد (1). ويقال: نكد الغراب (2): استقصى في شحيجه، كأنه بقيء. وناقة نكداء: لا لبن فيها.
+-- SOURCE.asas[haqiqah_literal]: فيه نكادة ونكد ونكد، وهو نكد وأنكد، وقوم أنكاد ونكد، وقد نكد وتنكد. وسألته فأنكدته: وجدته نكدا. وطلب فلان حاجة فأنكد أي أكدى. وعطاء منكود ومنكد: قليل غير مهنأ. قال: وأعط ما أعطيته طيبا ... لا خير في المنكود والناك ونكد عطاءه بالمن. وتنكد عيشه. ونكد فلان وشفه: استنفد ما عنده بكثرة
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نهتر   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in the classical lexicons as a primary sensory or material root; it is a quadriliteral (rubāʿī) verbal root whose earliest lexical attestation is the act of speaking falsehood, specifically fabricating and circulating lies against others.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the literal meaning is the act of speaking falsehood and lying, as in نَهْتَرَ عَلَيْنا (he fabricated lies against us).
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical sources; the root remains confined to its literal lexical meaning of lying and false speech.
+-- RECORD.canonical_definition.ar: النَّهْتَرَةُ: التَّحَدُّثُ بِالكَذِبِ، وَقَدْ نَهْتَرَ عَلَيْنا.
+-- RECORD.canonical_definition.en: Al-nahtarah: speaking falsehood; and he fabricated lies against us.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نهط   stratum=ma
+-- RECORD.ontological_core: The foundational physical act of piercing or thrusting a sharp implement—specifically a spear—into a body, constituting a violent, penetrative impact.
+-- RECORD.haqiqah_literal: To pierce or stab someone with a spear (ramḥ), a direct, physical act of penetration.
+-- RECORD.majaz_scholastic: No attested metaphorical or scholastic extensions are recorded in the classical lexica; the root remains confined to its literal, concrete sense of spearing.
+-- RECORD.canonical_definition.ar: نَهَطَه بالرُّمْح نَهْطاً: طعنَه به.
+-- RECORD.canonical_definition.en: He pierced him with the spear with a thrust.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 69595 hdr=نهط: النون والهاء والطاء زعم ابن دريد (3) النهط الطعن. ونهطه بالرمح: طعنه به
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نول   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of giving, bestowing, or reaching out something to someone, particularly a benefit or favor, and by extension, the reception or attainment of that benefit. It implies a transfer or extension from a giver to a receiver, often involving a hand or means of conveyance.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is the act of giving or handing over something, as in 'نوله' (he gave him) and 'ناوله الشيء' (he handed him the thing). It also denotes the reception of that thing, as in 'تنولته' (I received it). The literal sense involves a tangible transfer of an object or benefit from one person to another.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to the concept of attaining or obtaining a favor, benefit, or bounty, as in 'نال' (he attained) and 'نوال' (favor, benefit). It is used in theological contexts to describe God's bestowal of grace and in philosophical discourse regarding the acquisition of knowledge or virtue. The term 'مناولة' in ḥadīth transmission denotes the direct handing over of a text, which is considered a high form of authorization (ijāza).
+-- RECORD.canonical_definition.ar: النَّائِلُ: مَا نِلْتَ مِنْ مَعْرُوفِ إِنْسَانٍ، وَكَذَلِكَ النَّوَالُ. وَأَنَالَهُ مَعْرُوفَهُ وَنَوَّلَهُ: أَعْطَاهُ مَعْرُوفَهُ.
+-- RECORD.canonical_definition.en: Al-Nāʾil: what you attain of a person's favor, and likewise al-nawāl. And anālahu maʿrūfahu wa nawwalahu: he gave him his favor.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 69854 hdr=نول: النون والواو واللام أصل صحيح يدل على إعطاء. ونولته: أعطيته. والنوال: العطاء. ونلته نولا مثل أنلته. وقولك: ما نولك أن تفعل كذا؛ فمنه أيضا، أي ليس ينبغي أن يكون ما تعطيناه من نوالك هذا. وقول لبيد: وقفت بهن حتى قال صحبى جزعت وليس ذلك بالنوال (3) قالوا: النوال: الصواب، وتلخيصه: ليس ذلك بالعطاء الذي [إن] أعطيتناه كنت فيه مصيبا. وكذا قوله: فدعي الملامة ويب غيرك إنه ليس النوال بلوم كل كريم (4) والقياس في كله واحد. ومما شذ عن الباب المنوال: الخشبة* يلف عليها الناسج الثوب.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: أناله معروفا وناله ونوله. قال: لو ملك البحر والفرات معا ... ما نالني من نداهما بللا وقال طرفة: إن تنوله فقد تمنعه ... وتريه النجم يجري بالظه Metaphorical (Majaz): نولك أن تفعل كذا بمعنى حقك. وما ينبغي أن تعطيه من نفسك، وما نولك أن تفعل. وفي الحديث: " ما نول امرئ مسلم أن يقول غير الصواب ". وقال: أأن حن
+-- SOURCE.asas[haqiqah_literal]: أناله معروفا وناله ونوله. قال: لو ملك البحر والفرات معا ... ما نالني من نداهما بللا وقال طرفة: إن تنوله فقد تمنعه ... وتريه النجم يجري بالظهر وهو كثير النذول والنوال والنائل، ورجل منيل ونال. قال: إذا كان مالا كان نالا مرزأ ... ونال نداه كل دان وجانب مالا: متمولا. ونولني كذا فتنول
+-- SOURCE.asas[majaz_metaphorical]: نولك أن تفعل كذا بمعنى حقك. وما ينبغي أن تعطيه من نفسك، وما نولك أن تفعل. وفي الحديث: " ما نول امرئ مسلم أن يقول غير الصواب ". وقال: أأن حن أجمال وفارق جيرة ... عنيت بنا ما كان نولك تفعل ومنه قول ذي الرمة: وقفت بهن حتى قال صحبي ... جزعت وليس ذلك بالنذوال أي بما ينبغي. وتقول: ما أ
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT نوي   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of directing oneself toward a place or object with deliberate intent, specifically the setting of one's course toward a destination or the resolve to undertake a journey. It denotes the orienting of the self toward a goal, whether spatial (a dwelling, a land) or volitional (an intention, a belief).
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is: a people's directing themselves toward a dwelling in a certain place, and their intending it (نوى القوم منزلا بمكان كذا وانتووه); also, the forming of a resolve to travel or to be absent from one's homeland (نوى غربة), and the statement 'I intend your intention' meaning 'I intend to travel with you and accompany you' (وأنا نويك أي نويت المسافرة معك ومرافقتك).
+-- RECORD.majaz_scholastic: Metaphorical, philosophical, and theological usages: The root extends from spatial orientation to volitional and cognitive acts. It signifies the deliberate positing of an intention (niyyah) as the orienting principle of action, the mental positing of a belief or doctrine (iʿtiqād), and the resolve of the soul toward a desired end. In scholastic theology and philosophy, niyyah is the soul's directedness toward an act, constituting the moral and intentional core of human agency; it is the inward orientation that determines the value of outward acts. The term also denotes the faculty of intention itself, the object of intention, and the act of intending, bridging the physical act of journeying and the metaphysical act of willing.
+-- RECORD.canonical_definition.ar: نَوَى الشيءَ نِيَّةً ونِيَةً: قصده واعتقده. ونوى المنزل وانْتَواه كذلك. والنِّيَّةُ: الوجه يُذْهَب فيه.
+-- RECORD.canonical_definition.en: He intended the thing with an intention (niyyah) and a resolve (niyah): he aimed at it and believed in it. He intended the dwelling and likewise directed himself toward it. And niyyah is the direction toward which one goes.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 69662 hdr=نوى: النون والواو والحرف المعتل أصل صحيح يدل على معنيين: أحدهما مقصد لشيء، والآخر عجم شيء. فالأول النوى. قال أهل اللغة: النوى: التحول من دار إلى دار. هذا هو الأصل، ثم حمل عليه الباب كله فقالوا: [نوى] الأمر ينويه، إذا قصد له. ومما يصحح هذه التآويل قولهم: نواه الله، كأنه قصده بالحفظ والحياطة. قال: يا عمرو أحسن نواك الله بالرشد واقرأ سلاما على الذلفاء بالثمد (1) * أي قصدك بالرشد. والنية: الوجه الذي تنويه. ونويك: صاحبك نيته نيتك. والأصل الآخر النوى: نوى التمر. وربما عبروا به عن بعض الأوزان. ويقال إن النواة: زنة خمسة دراهم. وتزوجها على نواة من ذهب، أي وزن خمسة دراهم منه. وبالهمز كلمة تدل على النهوض وناء ينوء نوءا: نهض. قال: فقلنا لهم تلكم إذا بعد كرة نغادر صرعى نوؤها متخاذل (2) أي نهوضها ضعيف والنوء م
+-- SOURCE.asas[bilingual_haqiqah_majaz]: نوى القوم منزلا بمكان كذا وانتووه. ونووا نية قذفا، ونوى غربة. وأنا نويك أي نويت المسافرة معك ومرافقتك. Metaphorical (Majaz): نواك الله بالخير: قصدك به وأوصله إليك. قال: يا عمرو أحسن نواك الله بالرشد ... واقرأ السلام على الأنقاء بالثمد
+-- SOURCE.asas[majaz_metaphorical]: نواك الله بالخير: قصدك به وأوصله إليك. قال: يا عمرو أحسن نواك الله بالرشد ... واقرأ السلام على الأنقاء بالثمد
+-- SOURCE.asas[haqiqah_literal]: نوى القوم منزلا بمكان كذا وانتووه. ونووا نية قذفا، ونوى غربة. وأنا نويك أي نويت المسافرة معك ومرافقتك.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT هذم   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root هذم is the swift, forceful, and total severance or engulfing of a thing—an act of rapid cutting or swallowing that leaves no trace, as in the poet's image of the fiery abyss (al-lihab) consuming the horizons.
+-- RECORD.haqiqah_literal: To cut something swiftly and completely; to engulf or obliterate a thing entirely, as a sword (sayf mihdham) that cuts through with speed and finality.
+-- RECORD.majaz_scholastic: Metaphorical and scholastic applications include: (1) a sharp, effective sword described as مِهْذَم or هِذَام (swift-cutting); (2) the total consumption or erasure of something by a powerful force, as in the Qur'anic image of the Fire that 'devours' (tahdhimu) the limbs; (3) in theological and philosophical discourse, the annihilation (fanā') of contingent beings by the divine command, expressed as a swift, comprehensive obliteration.
+-- RECORD.canonical_definition.ar: هَذَمَ الشيءَ يَهْذِمه هَذْماً: غيّبه أَجمع؛ وسيف مِهْذَم وهِذَام: سريع القطع.
+-- RECORD.canonical_definition.en: He cut the thing swiftly and completely, engulfing it entirely; and a sword that is mihdham or hidhām is one that cuts with speed and finality.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 74471 hdr=هذم: الهاء والذال والميم: كلمة صحيحة، تدل على قطع لشىء. وهذم السيف: قطعه. وسيف مهذم وهذام وهيذام. ويسمى الشجاع هيذاما، تشبيها له بهذا السيف.
+-- SOURCE.asas[haqiqah_literal]: هذمه: أسرع قطعه. وسيف مخذم ومهذم هذام.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT هكر   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the state of being overwhelmed by astonishment — a cognitive-affective rupture in which the mind is seized by an object or event that exceeds its ordinary categories of expectation and comprehension.
+-- RECORD.haqiqah_literal: The literal, non-figurative meaning is intense wonder or astonishment (al-ʿajab al-shadīd); the verbal noun denotes the sheer magnitude of amazement, and the derived verb describes a person whose astonishment has become acute and overpowering.
+-- RECORD.majaz_scholastic: In scholastic and rhetorical usage, the root may be extended to denote any cognitive or affective state in which the intellect is arrested by something that surpasses its habitual frameworks — including the theologian's awe before divine transcendence, the philosopher's wonder at first principles, or the rhetorician's astonishment at a uniquely eloquent construction. The metaphorical extension preserves the core semantic feature of cognitive rupture while shifting the object from sensory novelty to metaphysical or aesthetic excess.
+-- RECORD.canonical_definition.ar: الهَكْرُ: العَجَبُ، وقيل: الهَكْرُ أَشدُّ العجبِ. هَكِرَ يَهْكَرُ هَكَراً وهِكْراً، فهو هَكِرٌ: اشتدَّ عَجَبُه.
+-- RECORD.canonical_definition.en: Al-hakr is astonishment; it is also said that al-hakr is the most intense form of astonishment. He was astonished, being astonished with astonishment and intense wonder, so he is wonder-struck: his astonishment became acute.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 74891 hdr=هكر: الهاء والكاف والراء كلمتان: الهكر: العجب. قال: فاعجب لذلك ريب دهر واهكر (3) قال الخليل: تقول هكرا لك. والكلمة الأخرى:* اعتراء النعاس. قال: وهكر الرجل: اعتراه نعاس وكل، واسترخت عظامه ومفاصله. إذا هرق المهقوع بالمرء أنعظت حليلته وازداد حرا عجانها فقد الشباب أبوك إلا ذكره
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT همي   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root همي is the free, downward, and continuous flow of a liquid—specifically tears, rain, or blood—from a source, and by extension, the swift, unresisted departure or movement of a being or object.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the pouring forth and flowing of tears from the eye, rain from the sky, or blood from the mouth of a horse; also, the going away or departing of camels upon their faces.
+-- RECORD.majaz_scholastic: Metaphorical and extended usages include: the flowing of any liquid substance; the swift departure or vanishing of a thing; and the nominal form هِمْيَان (himyān) denoting a waist-belt or purse, derived from the notion of something that flows or hangs loosely. The root is explicitly distinguished from هَامَ (to wander in love or madness), as the classical lexicographers note that هَمَى is not related to هَائِم.
+-- RECORD.canonical_definition.ar: هَمَتْ عينُه هَمْياً وهُمِيًّا وهَمَياناً: صَبَّتْ دمعها، وقيل: سالَ دَمْعُها، وكذلك كلُّ سائل من مطر وغيره. وليس هذا من الهائم في شيء.
+-- RECORD.canonical_definition.en: His eye flowed with tears: it poured forth its tears; it was also said: its tears streamed. The same applies to any flowing liquid such as rain and the like. This is not related to the wandering lover (al-hāʾim) in any way.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 75023 hdr=همى: الهاء والميم والحرف المعتل يدل على ذهاب شىء على وجهه وهمى الماء: سال. وهمت الماشية تهمى: ذهبت على وجهها لرعى أو غيره وفى الحديث@HAD03 : «إنا نصيب هوامى @HAD01 الإبل» : الضوال. وإذا همز (1)* تغير المعنى. تقول: تهمأ الثوب: بلى.
+-- SOURCE.asas[haqiqah_literal]: همي القطر والدمع يهمى، وهمت العين. ورأيت الخيل تهمي أفواهها دما. وهذا من هوامي الإبل، وهمت على وجوهها: ذهبت. وله هميان أعجر وهمايين عجر.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT هنبث   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the semantic field of tangled, interwoven, and confused affairs, with the concrete image of a knot or a dense thicket underlying the abstract notion of calamities and mixed reports.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a single calamity or a tangled, confused matter (هَنْبَثَةٌ), and its plural (هَنَابِثُ) denotes calamities, affairs, and reports that are intermingled and obscure.
+-- RECORD.majaz_scholastic: The metaphorical and scholastic usage extends to the domain of human affairs and social discourse: it denotes grave misfortunes, distressing events, and the circulation of conflicting, unverified reports among people, implying a state of disorder and confusion akin to a tangled knot.
+-- RECORD.canonical_definition.ar: الهَنَابِثُ: الدَّوَاهِي، واحدتها هَنْبَثَةٌ؛ وقيل: الهَنَابِثُ الأُمور والأَخْبار المختلطة.
+-- RECORD.canonical_definition.en: Al-hanābith: calamities, the singular of which is hanbathah; it is also said that al-hanābith are confused affairs and reports.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT هوش   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root ه و ش is the scattering, dispersal, and agitated commotion of a herd or group—specifically camels or horses—when startled, causing them to break ranks, mill about, and intermix chaotically. From this primary image of frightened, dispersing animals, the root extends to any state of disorderly mixing, upheaval, or collective agitation.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in Asās al-Balāghah, is the startled scattering and restless milling of camels or horses in a raid or alarm (هاشت الإبل هوشاً: نفرت في الغارة فتبددت وتفرقت); and the physical act of mixing or gathering something from here and there (هاش الشيء وهوشه: خلطه وجمعه من هنا وهنا).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root denotes social and psychological upheaval: factional agitation and mutual incitement among a people (هاش القوم هوشاً: هاجوا واضطربوا; هاش أهل الحرب بعضهم إلى بعض: خفوا ونهضوا); a sudden public disturbance, panic, or riot in a marketplace (هوشة في السوق وجفلة); and, in Lisān al-ʿArab, fitnah (sedition), hayj (tumult), idṭirāb (convulsion), harj (chaos), and ikhtilāṭ (confusion). It further extends to the acquisition of wealth from disparate, dubious sources (جمع مالاً من مهاوش وتهاوش).
+-- RECORD.canonical_definition.ar: الهَوْشُ: الاختلاطُ والهَيْجُ والاضطرابُ. هاشَت الإبلُ هَوْشاً: نفرت في الغارة فتبدّدت وتفرّقت. والهَوْشَةُ: الفتنةُ والهَرْجُ. وهاش القومُ: هاجوا واضطربوا. وهاش الشيءَ وهَوَّشَهُ: خلطَهُ وجمعَهُ من هنا وهنا.
+-- RECORD.canonical_definition.en: Al-hawsh is intermixing, agitation, and convulsion. The camels scattered with a hawsh when startled in a raid, dispersing and breaking apart. Al-hawshah is sedition and chaos. The people became agitated and convulsed. To hash or hawshash a thing is to mix it and gather it from here and there.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 73678 hdr=هوش: الهاء والواو والشين: أصيل يدل على اختلاط وشبهه. منه هوشوا: اختلطوا. وهاشت الخيل فى الغارة. والمهاوش فى الحديث (1) من هذا. ويقال: هوشت الريح بالتراب: جاءت به ألوانا. ومنه الهوش. العدد الكثير. وتهوش القوم على فلان: تغاووا عليه. وشذ عنه الهوش، يقال إنه صغر البطن قال: قد هوشت بطونها واحقوقفت (2) وهم متهاوشون، أى مختلطون.
+-- SOURCE.asas[haqiqah_literal]: هاش القوم هوشا. هاجوا واضطربوا. وهاش أهل الحرب بعضهم إلى بعض: خفوا ونهضوا، وتهاوشوا. قال الطرماح: كأن الخيم هاش إلي منه ... نعاج صرائم جم القرون وهاشت الخيل في الغارة: نفرت وترددت. وهن هوائش. وسمعتهم يقولون: وقعت هوشة في السوق وجفلة وهو أني نفر الناس لخوف يلحقهم. وهاش الشيء وهوشه
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT واب   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin centers on the somatic and affective response of shame or shyness—a visceral recoil or bashfulness that manifests in the body and demeanor, particularly in the context of social exposure or moral transgression.
+-- RECORD.haqiqah_literal: To feel shame, to be shy, to be bashful; the literal physical manifestation of shame as a recoiling or shrinking away from exposure.
+-- RECORD.majaz_scholastic: In scholastic and ethical discourse, the root extends to denote the internal moral faculty of modesty (ḥayāʾ) as a virtue, and the social emotion of shame (khajal) as a deterrent from vice. It also appears in idiomatic expressions indicating that something is not to be ashamed of, such as 'food that is not shameful to eat' (ṭaʿām lā yustaḥyā min aklihi), and in poetic contexts where shame is personified or attached to familial honor.
+-- RECORD.canonical_definition.ar: الوَبْءُ: الحَيَاءُ والاسْتِحْيَاءُ. وَبِئَ يَوْبَأُ وَبْئًا ووَبَاءً: اسْتَحْيَا. وَمَا بِكَ فِي هَذَا إِبَةٌ أَيْ مَا بِكَ حَيَاءٌ. وَطَعَامٌ لَا تُؤْبَةَ فِيهِ أَيْ لَا يُسْتَحْيَا مِنْ أَكْلِهِ.
+-- RECORD.canonical_definition.en: Al-wabʾ is shame and shyness. Wabiʾa yawbaʾu wabʾan wa-wabāʾan: he felt shame. 'What is there in this for you of shame?' means 'you have no shame in this.' And 'food in which there is no shame' means 'food that is not shameful to eat.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 75405 hdr=وأب: الواو والهمزة والباء: كلمتان تدل إحداهما على تقعير شىء، والأخرى على غضب. فالأولى: الحافر الوأب: المقعب. والوأبة: نقيرة (1) فى صخرة تمسك الماء. والكلمة الأخرى أوأبت فلانا: أغضبته. ويقال إن الإبة منه (2)
+-- SOURCE.asas[haqiqah_literal]: أتأب: استحيا. قال الكميت: وصرت عم الفتاة تتئب ال ... عاتق من رؤيتي وأتئب وما بك في هذا إبة. قال ذو الرمة: إذا المرئي شب له بنات ... عقدن برأسه إبة وعارا وما طعامك بطعام تؤبة أي لا يستحيا من أكله.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وثب   stratum=mA
+-- RECORD.ontological_core: The foundational physical act of springing or leaping off the ground with force, a sudden upward or forward propulsion of the body from a surface.
+-- RECORD.haqiqah_literal: To leap or spring from one place to another; to bound or vault; to pounce upon (with ilā or ʿalā); to assault or attack suddenly (with ilā); to compete in leaping (with one another).
+-- RECORD.majaz_scholastic: In theological and philosophical discourse, the root is extended metaphorically to denote a sudden, forceful transition or assault: e.g., 'wathaba ilā al-amr' (he pounced upon the matter) meaning he undertook it with sudden vigor; 'wathaba ʿalā al-ḥaqq' (he leapt upon the truth) meaning he seized it aggressively; in logic, 'wathba' may denote a leap in reasoning (a non sequitur) or an abrupt transition in argument. The active participle 'waththāb' (one who leaps frequently) is used metaphorically for a person who is impulsive or rash in action.
+-- RECORD.canonical_definition.ar: الوَثْبُ: الطَّفْرُ. وَثَبَ يَثِبُ وَثْباً، ووَثَبَاناً، ووُثُوباً، ووِثَاباً، ووَثِيباً: طَفَرَ.
+-- RECORD.canonical_definition.en: Al-wathb is leaping. Wathaba yathibu wathban, wathabānan, wuthūban, withāban, and wathīban: he leaped.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 75644 hdr=وثب: الواو والثاء والباء يدل فى لغة العرب على الظفر، إلا فى لغات من لغات حمير فإنه بخلاف هذا. ووثب من مكانه: طفر. وفى لغة حمير يقولون لمن قعد: قد وثب. وإذا أمروا بالقعود فالواثب. ويقولون للملك إذا قعد ولم يغز: الموثبان (1). ويقولون: وثبه وسادة: ألقاها له ليقعد عليها. ||| باب الواو والجيم وما يثلثهما
+-- SOURCE.asas[majaz_metaphorical]: توثب على منزلته، وتوثب على أخيه في أرضه: استولى عليها ظلما. وقد وثب إلى الشرف وثبة. قال الكميت: ووثبة لك في الأحساب بالغة ... كذاك إنك في المعروف ذو وثب كنوبة ونوب. وفرس وثابة: سريعة.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: وثب من مكان إلى مكان وثبا ووثوبا ووثيبا، ووثب إليه، وواثبه، وتواثبوا. وظبي وثاب. Metaphorical (Majaz): توثب على منزلته، وتوثب على أخيه في أرضه: استولى عليها ظلما. وقد وثب إلى الشرف وثبة. قال الكميت: ووثبة لك في الأحساب بالغة ... كذاك إنك في ال
+-- SOURCE.asas[haqiqah_literal]: وثب من مكان إلى مكان وثبا ووثوبا ووثيبا، ووثب إليه، وواثبه، وتواثبوا. وظبي وثاب.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وخط   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of striking or piercing from a distance with a pointed instrument (spear, sword), and by extension, the even intermingling or spreading of a quality across a surface, such as the dispersal of grayness (shayb) through the hair.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning is to strike or pierce someone from afar with a spear or sword (وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد). It also denotes the wide stride of an ostrich (مر الظليم يخط وخطا وهو سعة خطوه).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root is used to describe the intermingling or even spread of grayness (shayb) in the head, i.e., the onset of gray hair mixing with black hair (وخطه الشيب وخطا: خالطه). It also refers to the dispersal or scattering of dust (الوَخْط من القَتِير: النَّبْذُ), and the equal balance or evenness of whiteness and blackness (استواء البياض والسواد).
+-- RECORD.canonical_definition.ar: الوَخْطُ: الطَّعْنُ من بعيد، ومنه وخْطُ الشيبِ الرأسَ: مخالطته إياه، والوَخْطُ من القَتِير: النَّبْذُ، وقيل: استواء البياض والسواد.
+-- RECORD.canonical_definition.en: Al-Wakhṭ: striking or piercing from a distance; hence the intermingling of gray hair with the head, and al-wakhṭ from dust: dispersal, or the equal balance of whiteness and blackness.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 75895 hdr=وخط: الواو والخاء والطاء: كلمتان: إحداهما وخط الشيب (3) فى* رأسه. والأخرى: الوخط: الطعن. ووخطه بالسيف: تناوله من بعيد. وذكروا كلمة ثالثة، قالوا: مر يخط، وهو (4) مشى فوق العنق. فما صار لى فى القسم إلا ثمينها
+-- SOURCE.asas[majaz_metaphorical]: وخطه الشيب. ووخط فلان فهو موخوط، وبها وخط من الوحش ووخز: نبذ منها. قال رجل من بني ذهل: غدونا إلى وخط من الوحش آمن ... فصبحه منا عذاب معجل
+-- SOURCE.asas[bilingual_haqiqah_majaz]: وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد. ومر الظليم يخط وخطا وهو سعة خطوه. Metaphorical (Majaz): وخطه الشيب. ووخط فلان فهو موخوط، وبها وخط من الوحش ووخز: نبذ منها. قال رجل من بني ذهل: غدونا إلى وخط من الوحش آمن ... فصبحه منا عذاب معجل
+-- SOURCE.asas[haqiqah_literal]: وخطه بالرمح، ووخطته بالسيف: تناولته به من بعيد. ومر الظليم يخط وخطا وهو سعة خطوه.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وخم   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root وخم centers on heaviness, oppressiveness, and noxiousness—specifically, that which weighs heavily upon the body or spirit, or a land/pasture that is unwholesome and burdensome to those who consume from it. The root's primary sensory anchor is the experience of something being heavy, difficult to digest, or injurious to well-being.
+-- RECORD.haqiqah_literal: According to Asās al-Balāghah, the literal physical meaning denotes something that is heavy, unwholesome, or noxious—whether a person of heavy, burdensome disposition (وَخِم, وَخِيم), or a pasture (كَلأ) that is unwholesome and burdensome to livestock (مُتَوَخَّم). It also literally denotes the condition of indigestion or heaviness from food (التُّخَمَة, وَخُمَ), where food lies heavy in the stomach and causes harm.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) moral or psychological heaviness—a person of burdensome, disagreeable character (وَخِيم الخُلُق); (2) the theological/ethical notion of something being inauspicious or ill-omened (وَخِيم العَاقِبَة); (3) the medical-philosophical concept of harmful, indigestible substance (مُتَوَخَّم, مُسْتَوْخَم) that corrupts the humors; and (4) the abstract quality of oppressiveness or noxiousness in environments, climates, or situations (كَلأ مُتَوَخَّم, أرض وَخِمَة).
+-- RECORD.canonical_definition.ar: الوَخْمُ والوَخِمُ والوَخِيمُ: الثقيلُ من الرجال البَيِّن الوَخامةِ والوُخومةِ، والجمع وَخامى ووِخامٌ وأَوْخامٌ، وقد وخُمَ وَخامةً ووُخوماً. وأوخمه الطعام فوخم واتخم، وأصابته التخمة.
+-- RECORD.canonical_definition.en: Al-wakhm, al-wakhim, and al-wakhīm: the heavy, burdensome person, characterized by manifest heaviness and noxiousness (al-wakhāma and al-wukhūma); the plurals are wakhāmā, wikhām, and awkhām. The verb wakhuma denotes being heavy or burdensome (wakhāma and wukhūm). Food caused him indigestion (awkhama), so he became heavy (fawakhima) and suffered indigestion (ittakhama); he was afflicted with indigestion (al-tukhama).
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 75909 hdr=وخم: الواو والخاء والميم: كلمة واحدة، هى الوخم: الوبى من الشىء. واستوخمت البلاد، وبلاد وخمة ووخيمة: لا توافق ساكنها. ورجل وخم ووخيم: ثقيل. والتخمة من هذا، والتاء فى الأصل واو.
+-- SOURCE.asas[haqiqah_literal]: شيء وخم ووخم ووخيم، وقد وخم وخامة، واستوخمته وتوخمته، وكلأ متوخم. قال: إلى كلإ مستوبل متوخم وأوخمه الطعام فوخم واتخم، وأصابته التخمة.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وسوس   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root is a faint, concealed sound: the whispering jingle of ornaments and the stealthy murmur of a hunter luring game. From this acoustic substrate, the root's primary sense extends to any hidden, low-voiced utterance that steals into the mind.
+-- RECORD.haqiqah_literal: The literal, sensory meaning is the faint sound of jewelry (ḥalī) and the concealed whisper (hams khafī) of a hunter; hence the verb denotes the act of producing such a low, hidden sound.
+-- RECORD.majaz_scholastic: Metaphorically and theologically, the root denotes the insinuation of evil thoughts (khaṭrah radīʾah) into the heart or mind, especially by Satan (al-Shayṭān). In this scholastic usage, it signifies a non-physical, covert cognitive suggestion that incites to wrongdoing, as in the Qurʾānic phrase 'fa-waswasa ilayhi al-shayṭān' (Satan whispered to him). The term al-Waswās (the Whisperer) is a divine epithet referring to Satan as the source of such insinuations.
+-- RECORD.canonical_definition.ar: الوَسْوَسَةُ: الخَطْرَةُ الرَّدِيئَةُ، وأَصْلُهُ مِنَ الوَسْوَاسِ، وهو صَوْتُ الحَلْيِ، والهَمْسُ الخَفِيُّ.
+-- RECORD.canonical_definition.en: Al-Waswasah: the evil thought; its origin is from al-Waswās, which is the sound of ornaments and the concealed whisper.
+-- SOURCE.mufradat @line 35425 hdr=وسوس: الوسوسة: الخطرة الرديئة، وأصله من الوسواس، وهو صوت الحلي، والهمس الخفي. قال الله تعالى: فوسوس إليه الشيطان [طه/ 120]، وقال: من شر الوسواس [الناس/ 4] ويقال لهمس الصائد وسواس.
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وظم   stratum=ma
+-- RECORD.ontological_core: The root denotes the act of imputing a charge or suspicion to someone, with the underlying physical image of something being pinned or fastened onto a person, as a mark or accusation is attached to the accused.
+-- RECORD.haqiqah_literal: The concrete, non-metaphorical sense is the noun الوَظْمَة (al-waẓmah), meaning an accusation or imputation (تُهَمَة) that is attached to a person.
+-- RECORD.majaz_scholastic: In scholastic and juridical usage, the root is restricted to the imputation of a charge or suspicion; it does not carry the broader philosophical senses of apprehension or intellection found in other roots. Its metaphorical extension lies in treating a false or unverified accusation as something physically fastened to the accused, though classical lexicography records only the literal nominal form الوَظْمَة.
+-- RECORD.canonical_definition.ar: الوَظْمَةُ: التُّهَمَةُ
+-- RECORD.canonical_definition.en: Al-waẓmah: an accusation or imputation of a charge.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وعم   stratum=ma
+-- RECORD.ontological_core: The root وعم denotes the act of addressing a dwelling-place or ruin with the imperative of well-being and enduring prosperity, rooted in the physical practice of saluting abandoned campsites and invoking blessing upon them.
+-- RECORD.haqiqah_literal: To say to a house or ruin 'may you thrive and prosper' (انْعِمي), addressing it directly with the imperative of well-being.
+-- RECORD.majaz_scholastic: Extended by the classical lexicographers to any address of blessing or salutation directed at an inanimate object or place, particularly the ruins of a beloved's encampment, as in the poetic imperative عِما طَلَلَيْ جُمْلٍ ('may the two ruins of Juml's camp thrive'). The usage remains largely confined to this poetic-ritual register and does not develop a broad theological or philosophical metaphorical range in the classical sources.
+-- RECORD.canonical_definition.ar: يقال: وَعَمْتُ الدارَ أَعِمُ وَعْمًا، أي قلت لها انْعِمي.
+-- RECORD.canonical_definition.en: It is said: I addressed the dwelling with the salutation 'may you thrive' — that is, I said to it 'thrive and prosper.'
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وكل   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root و-ك-ل is the act of entrusting or delegating a matter to another, thereby relying upon them and making them a substitute or representative for oneself. It denotes the transfer of responsibility and the consequent dependence on the appointed agent.
+-- RECORD.haqiqah_literal: In its literal, physical sense according to Asās al-Balāghah, the root signifies the act of appointing someone as a representative or guardian over a matter (وَكَّلَ إِلَيْهِ الأَمْرَ), such that the matter becomes entrusted to them (مَوْكُول إِلَيْهِ). It also denotes the state of being weak and dependent, relying on others (وَكَلٌ، وَكَلَةٌ، تُكَلَةٌ، مُوَاكِلٌ).
+-- RECORD.majaz_scholastic: Metaphorically and theologically, the root is applied to God as Al-Wakīl (الوكيل), meaning the One who independently manages the affairs of His servants, guarantees their sustenance, and is sufficient for them. In this sense, it transcends the literal notion of delegation, as God is not appointed by anyone but is inherently the Disposer of all affairs. The verbal form تَوَكَّلَ (to rely upon) is used in two distinct ways: to rely upon God (توكل على الله) in absolute trust, and to rely upon others in a blameworthy manner (تواكل), which is discouraged. The term also appears in legal and commercial contexts, such as appointing an agent for a sale (وَكَّلْتُهُ بِالْبَيْعِ).
+-- RECORD.canonical_definition.ar: الوَكِيلُ: هو المقيم الكفيل بأَرزاق العباد، وحقيقته أَنه يستقلُّ بأَمر المَوْكول إِليه. والتوكيل: أن تعتمد على غيرك وتجعله نائبا عنك.
+-- RECORD.canonical_definition.en: Al-Wakīl: He who independently manages the sustenance of servants; in essence, He who independently takes charge of the matter entrusted to Him. Entrusting (tawkīl) means to rely upon another and make them a substitute for yourself.
+-- SOURCE.mufradat @line 35977 hdr=وكل: التوكيل: أن تعتمد على غيرك وتجعله نائبا عنك، والوكيل فعيل بمعنى المفعول. قال تعالى: وكفى بالله وكيلا* [النساء/ 81] أي: اكتف به أن يتولى أمرك، ويتوكل لك، وعلى هذا: حسبنا الله ونعم الوكيل [آل عمران/ 173]، وما أنت عليهم بوكيل* [الأنعام/ 107]، أي: بموكل عليهم وحافظ لهم، كقوله: لست عليهم بمصيطر* إلا من تولى [الغاشية/ 22- 23] فعلى هذا قوله تعالى: قل لست عليكم بوكيل [الأنعام/ 66]، وقوله: أرأيت من اتخذ إلهه هواه أفأنت تكون عليه وكيلا [الفرقان/ 43]، أم من يكون عليهم وكيلا [النساء/ 109] أي: من يتوكل عنهم؟ والتوكل يقال على وجهين، يقال: توكلت لفلان بمعنى: توليت له، ويقال: وكلته فتوكل لي، وتوكلت عليه بمعنى: اعتمدته قال عز وجل: فليتوكل المؤمنون* [التوبة/ 51]، ومن يتوكل على الله فهو حسبه [الطلاق/ 3]، ربنا 
+-- SOURCE.maqayis @line 77212 hdr=وكل: الواو والكاف واللام: أصل صحيح يدل على اعتماد غيرك فى أمرك. من ذلك الوكلة (1)، والوكل: الرجل الضعيف. يقولون وكلة تكلة. والتوكل منه، وهو إظهار العجز فى الأمر والاعتماد على غيرك. وواكل فلان، إذا ضيع أمره متكلا على غيره. وسمى الوكيل لأنه يوكل إليه الأمر. والوكال فى الدابة: أن يتأخر أبدا خلف الدواب، كأنه يكل الأمر فى الجرى إلى غيره. وفى شعر امرئ القيس: لا يواكل نهزها أى لا يبطئ؛ وأصله من المواكلة. [و] واكلت الرجل، إذا اتكلت عليه واتكل عليك. ويقولون: الوكال فى الدابة: أن بسير بسير الآخر.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: وكل إليه الأمر وكولا، وهذا موكول إليك، ووكلته إلى الله وواكلته، وتواكلوا. وفلان وكل ووكلة تكلة ومواكل: ضعيف يتكل على غيره. وتقول: توكل على ا Metaphorical (Majaz): قول الشماخ يصف ناقة: قد وكلت بالهدى إنسان صادقة ... كأنه عن تمام الظمء مسمول كأنه سمل لفرط غؤوره بعد تمام الظمء. ووكل همه بكذا. وهو موكل برع
+-- SOURCE.asas[majaz_metaphorical]: قول الشماخ يصف ناقة: قد وكلت بالهدى إنسان صادقة ... كأنه عن تمام الظمء مسمول كأنه سمل لفرط غؤوره بعد تمام الظمء. ووكل همه بكذا. وهو موكل برعي النجوم. ويقول الرجل لصاحبه إذا قضي له عليه: وكلتك العام من كلب بتنباح. وحسبي الله ونعم الوكيل. وفرس مواكل، وفيها وكال: يسير ما دام معه آخر
+-- SOURCE.asas[haqiqah_literal]: وكل إليه الأمر وكولا، وهذا موكول إليك، ووكلته إلى الله وواكلته، وتواكلوا. وفلان وكل ووكلة تكلة ومواكل: ضعيف يتكل على غيره. وتقول: توكل على الله ولا تتكل على غيره. وهو وكيل بين الوكالة. ووكلته بالبيع فتوكل به.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT وهن   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the diminution of structural integrity or vital force in a living body or solid object, specifically the loss of load-bearing capacity in bone, limb, or constitution, such that the entity can no longer sustain effort or resist pressure.
+-- RECORD.haqiqah_literal: Literal physical weakness or enervation in bodily structure, action, or resolve; the actual slackening of bone and sinew, as in 'the bone within me has weakened' (Q 19:4), and the palpable loss of strength in a person or animal that renders them incapable of rising or exerting force.
+-- RECORD.majaz_scholastic: Metaphorical and theological applications include: (1) moral or spiritual enervation before the enemy or in the pursuit of justice, as in 'do not weaken and do not grieve' (Q 3:139) and 'they did not weaken in the face of what befell them' (Q 3:146); (2) the compounding of gestational burden, 'weakness upon weakness' (Q 31:14), denoting the successive depletion of the mother's strength through pregnancy and childbirth; (3) divine action upon the plots of disbelievers, 'God is the one who weakens the stratagems of the disbelievers' (Q 8:18), where the root signifies the ontological nullification of causal efficacy; (4) temporal usage, 'a while after nightfall' (وَهْنًا وَمُوهِنًا), by extension from the slackening of the day's activity; and (5) the dual form الوَاهِنَتَانِ for the two short ribs flanking the heart, as the locus of structural vulnerability in the thorax.
+-- RECORD.canonical_definition.ar: الوَهْن: الضَّعْف في العمل والأمر، وكذلك في العَظْم ونحوه؛ وقد وَهَنَ يَهِنُ وَوَهِنَ يَوْهَنُ، وأَوْهَنَهُ غيره ووَهَّنَهُ. وفي التنزيل: حَمَلَتْهُ أُمُّهُ وَهْنًا على وَهْنٍ، أي ضَعْفًا على ضَعْفٍ.
+-- RECORD.canonical_definition.en: Al-wahn is weakness in action and in matters, as well as in bone and the like; the verb occurs as wahana yahinu and wahina yawhanu, with the transitive forms awhanahu and wahhanahu. In the revelation: 'His mother carried him in weakness upon weakness' (Q 31:14), that is, debility compounded upon debility.
+-- SOURCE.mufradat @line 36175 hdr=وهن: الوهن: ضعف من حيث الخلق، أو الخلق. قال تعالى: قال رب إني وهن العظم مني [مريم/ 4]، فما وهنوا لما أصابهم [آل عمران/ 146]، وهنا على وهن [لقمان/ 14] أي: كلما عظم في بطنها: زادها ضعفا على ضعف: ولا تهنوا في ابتغاء القوم [النساء/ 104]، ولا تهنوا ولا تحزنوا [آل عمران/ 139]، ذلكم وأن الله موهن كيد الكافرين [الأنفال/ 18].
+-- SOURCE.maqayis @line 77641 hdr=وهن: الواو والهاء والنون: كلمتان تدل إحداهما على ضعف، والأخرى على زمان. فالأولى: وهن الشىء يهن وهنا: ضعف، وأوهنته أنا. ومن هذا الواهنة: القصيرى من الأضلاع، وهى أسفلها. قال أبو بكر (2): الواهنة: داء يصيب الإنسان فى أخدعيه (1). والوهنانة: المرأة القليلة الحركة، الثقيلة القيام والقعود. والكلمة الثانية: الوهن والموهن: ساعة تمضى من الليل (2). وأوهن الرجل: صار أو سار فى تلك الساعة (3). تم كتاب الواو والله أعلم بالصواب ||| كتاب الياء ||| باب الياء وما بعدها فى المضاعف والمطابق [يا] الياء والألف: أداة، وهى ياء تصلح للنداء نحو يا زيد، وقد يكون تعجبا وتلذذا نحو قولهم: يا بردها على الفؤاد. ويكون تلهفا كقول القائل: يا حسرتا على كذا
+-- SOURCE.asas[haqiqah_literal]: فيه وهن ووهن، وقد وهن يهن ووهن يوهن. قال أبو زيد سمعت من الأعراب من يقرأ " فما وهنوا " وتوهن، وأوهته ووهنته. قال الجعدي: توهن فيه المضرحية بعد ما ... روين نجيعا من دم الجوف أحمرا أي تضعف عن النهوض لامتلاء أجوافها. وإنه لشديد الواهنتين وهما قصيرياه. وأتيته وهنا وموهنا: بعد ساعة من
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ابز   stratum=ma
+REC ontological_core : The root's foundational physical origin is not attested in the classical philological tradition; no primary Arabic lexical root 'ابز' is recognized in the canonical sources.
+REC haqiqah_literal  : No literal physical meaning is attested in Asās al-Balāghah or the classical lexical corpus.
+REC canon_def.ar     : لا يوجد أصل معجمي بهذا الضبط في لسان العرب أو المفردات.
+REC canon_def.en     : No lexical root with this consonantal sequence is attested in Lisān al-ʿArab or Al-Mufradāt.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 2002 hdr=أبز] الهمزة والباء والزاء يدل على القلق والسرعة وقلة الاستقرار. قال الخليل: الإنسان يأبز فى عدوه ويستريح ساعة ويمضى أحيانا (1) قال الفراء: الأبزى والقفزى اسمان من أبز الفرس وقفز. والأبز الوثب. قال أبو عمرو: نجيبة أبوز، أى تصبر صبرا عجيبا، وقد أبزت تأبز أبزا. قال: لقد صبحت حمل بن كوز علالة من وكرى أبور (2) قال الشيبانى: الآبز الذى يأبز بصاحبه، أى يبغى عليه ويعرض به. يقال: أراك تأبز به.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 31225 hdr=أبز] يُقالُ: فُلانٌ يَأْبِزُ في عَدْوِهِ، أي: يَسْتَريحُ ساعة ويَمضي ساعة. باب الزاي والميم و (وا يء) معهما وز م، م وز، ز ي م، م ز ي، م ي ز، زء م، ء ز م مستعملات

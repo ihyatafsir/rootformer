@@ -1,0 +1,10 @@
+================================================================================================
+ROOT صخف   stratum=ma
+REC ontological_core : The foundational physical act denoted by the root is the excavation and turning over of earth—digging into the ground with a tool. The root's primary material instantiation is thus the manual labor of hollowing out soil, from which the instrumental noun for the digging implement is derived.
+REC haqiqah_literal  : The literal, physical meaning is the act of digging or excavating the earth (ḥafr al-arḍ). The concrete instrument by which this action is performed is the مِصْخَفَة (miṣkhafah), a digging tool or hoe (misḥāh), a usage explicitly identified as Yemeni in provenance.
+REC canon_def.ar     : الصَّخْفُ: حَفْرُ الأَرْضِ. وَالمِصْخَفَةُ: المِسْحَاةُ، يَمَانِيَةٌ.
+REC canon_def.en     : Al-ṣakhf: the digging or excavation of the earth. And al-miṣkhafah: the hoe or digging tool, a Yemeni term.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

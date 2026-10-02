@@ -1,0 +1,10 @@
+================================================================================================
+ROOT رخا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ر-خ-و is softness, pliancy, and lack of rigidity or tension in a physical body or substance. It denotes the quality of being yielding, slack, or porous (هَشّ) in contrast to hardness and tautness.
+REC haqiqah_literal  : The literal physical meaning is a thing that is soft, slack, or pliant (رِخْو / رَخْو), such as a loose curtain, a slack rope, or a gentle, compliant wind. It is the direct sensory quality of lacking firmness or tension.
+REC canon_def.ar     : الرِّخْوُ والرَّخْوُ والرُّخْوُ: الهَشُّ من كلّ شيءٍ، وهو الشيء الذي فيه رَخاوة. وكلامُ العرب الجيّدُ: الرِّخْو، بكسر الراء. والرَّخاء: اللينة. ومنه: أَرْخَيْتُ الستر.
+REC canon_def.en     : Al-Rikhw, al-Rakhw, and al-Rukhw: the porous or soft of anything; it is the thing in which there is slackness. The preferred Arabic usage is al-Rikhw, with a kasrah on the rāʾ. Al-Rakhāʾ: the gentle or pliant. Hence: I let down the curtain.
+SRC al-Mufradat      : [line 13710 hdr=رخا] الرخاء: اللينة. من قولهم: شيء رخو، وقد رخي يرخى (1)، قال تعالى: فسخرنا له الريح تجري بأمره رخاء حيث أصاب [ص/ 36]، ومنه: أرخيت الستر، وعن إرخاء الستر استعير: 183- إرخاء سرحان (2) وقول أبي ذؤيب: 184- وهي رخو تمزع (3) أي: رخو السير كريح الرخاء، وقيل: فرس مرخاء، أي: واسع الجري بعيد الخطو، من خيل مراخ، وقد أرخيته: خليته رخوا.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

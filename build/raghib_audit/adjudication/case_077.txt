@@ -1,0 +1,10 @@
+================================================================================================
+ROOT دعص   stratum=mA
+REC ontological_core : The foundational physical origin of the root د ع ص is a compact, aggregated mound of sand—a small, clustered hillock of loose terrain that accumulates into a distinct elevation, smaller in scale than a large dune (ḥiqf).
+REC haqiqah_literal  : A literal, physical mound or hillock of sand gathered together; a small sand-hill formed by the aggregation of loose grains, less in magnitude than a ḥiqf (large dune). The singular portion or unit of such a mound is termed a diʿṣah.
+REC canon_def.ar     : الدِّعْصُ: قُورٌ مِنَ الرَّمْلِ مُجْتَمِعٌ، وَالْجَمْعُ أَدْعَاصٌ وَدِعَصَةٌ، وَهُوَ أَقَلُّ مِنَ الْحِقْفِ، وَالطَّائِفَةُ مِنْهُ دِعْصَةٌ.
+REC canon_def.en     : Al-diʿṣ: a compact mound of sand gathered together; the plural is adʿāṣ and diʿaṣah. It is smaller than a ḥiqf (large dune), and a single portion of it is a diʿṣah.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 24474 hdr=دعص] الدال والعين والصاد أصل يدل على دقة ولين. فالدعص: ما قل ودق من الرمل. والدعصاء: الأرض السهلة. ومن الباب: تدعص اللحم، إذا بالغ فى النضج. ويقولون أدعصه الحر، إذا قتله، كأنه أنضجه فقتله.
+SRC Asas [haqiqah_literal]        : لها كفل كدعص النقا، ونزلوا بالأدعاص وهي قيران من الرمل مجتمعة.
+SRC Ayn (al-Khalil)  : [line 3372 hdr=دعص] الدِّعْص: قَوْزٌ من الرمل مثل التلال. الواحدة: دِعصة. ويقال دِعْصَة، ودِعْص فمن أنّثه يريد به رملة، ومن ذكرره يريد به الكثيب. والمندعص: الشيء الميّت إذا انفسخ «2» ، وشبه بالدِّعْص لورمه أو ضعفه. قال «3» : كدِعْص النقا يمشي الوليدان فوقه............... .....

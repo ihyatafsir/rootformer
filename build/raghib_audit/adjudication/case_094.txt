@@ -1,0 +1,12 @@
+================================================================================================
+ROOT كمع   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) denotes co-lying, the act of two bodies sharing a single resting-place or bed, and by extension the intimate companion who shares that bed.
+REC haqiqah_literal  : Literal physical meaning according to Asās al-Balāghah: كَامَعَ المرأَةَ signifies he lay with the woman as a bedfellow; الكِمْع and الكَمِيع denote the bedfellow or consort.
+REC canon_def.ar     : كامَعَ المرأَةَ: ضَاجَعَها، والكِمْعُ والكَمِيعُ: الضَّجِيعُ؛ ومنه قيل للزوج: هو كَمِيعُها.
+REC canon_def.en     : He lay with the woman as a bedfellow; الكِمْع and الكَمِيع denote the bedfellow; hence the husband is called her كَمِيع (bedfellow).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 62940 hdr=كمع] الكاف والميم والعين أصل صحيح يدل على اطمئنان وسكون. زعموا أن الكمع: البيت؛ يقال هو في كمعه أي بيته. وسمي كمعا لأنه يسكن. ومن الباب الكميع، وهو الضجيع، يقال كامعها، إذا ضاجعها. والمكامعة التي في الحديث، وقد نهي عنها: أن يضاجع الرجل الرجل لا ستر بينهما (3). وقال في الكميع: وهبت الشمأل البليل وإذ بات كميع الفتاة ملتفعا (4) والكمع: المطمئن من الأرض.
+SRC Asas [haqiqah_literal]        : هو كمعها وكميعها: ضجيعها، وكامعها.
+SRC Asas [majaz_metaphorical]        : بات السيف كميعي.
+SRC Asas [bilingual_haqiqah_majaz]        : هو كمعها وكميعها: ضجيعها، وكامعها. Metaphorical (Majaz): بات السيف كميعي.
+SRC Ayn (al-Khalil)  : [line 2221 hdr=كمع] كامعتها: ضممتها إلىّ [أصونُها] «7» . والمُكامِعُ: المُضاجعُ، واشتقاقه من ذلك. والكميع الضَّجيع. قال ذو الرمة: «8» لَيْلَ التِّمام إذا المُكامِعُ ضَمَّها ... بعدَ الهدوّ من الخرائد تسطع __________ (1) فس س: ما بقي وكذلك في الجزء المطبوع. وجاء في التهذيب 1/ 328 مطابقا لما جاء في ط وهو ما أثبتناه. (2) البيت في التهذيب 1/ 328 واللسان 1/ 415 وفي النسخ والتهذيب واللسان: بلت وفي الجزء المطبوع بكت وهو تصحيف. (3) كذا في النسخ […]

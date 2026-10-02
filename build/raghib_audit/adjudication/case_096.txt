@@ -1,0 +1,10 @@
+================================================================================================
+ROOT مقر   stratum=mA
+REC ontological_core : The foundational physical act of striking or crushing the neck (دَقُّ العُنُق) with a rod until the bone fractures while the skin remains intact; by extension, the steeping or soaking of salted fish in water or vinegar to draw out its brine.
+REC haqiqah_literal  : The literal, physical sense is the crushing or pounding of the neck with a stick, breaking the bone beneath unbroken skin. A secondary literal sense is the immersion of salted fish in water or vinegar (نَقْع السَّمَك المَالِح) to leach out its salt.
+REC canon_def.ar     : المَقْرُ: دَقُّ العُنُقِ. مَقَرَ عُنُقَهُ يَمْقُرُهَا مَقْراً إِذَا دَقَّهَا وَضَرَبَهَا بِالعَصَا حَتَّى تَكَسَّرَ العَظْمُ وَالجِلْدُ صَحِيحٌ. وَالمَقْرُ: إِنْقَاعُ السَّمَكِ المَالِحِ فِي المَاءِ. وَمَقَرَ السَّمَكَةَ المَالِحَةَ مَقْراً: أَنْقَعَهَا فِي الخَلِّ.
+REC canon_def.en     : Al-Maqr: the crushing of the neck. One says maqara ʿunuqahu yamquruha maqran when he pounded and struck it with a rod until the bone fractured while the skin remained intact. Al-Maqr also denotes the steeping of salted fish in water. And ma […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 68943 hdr=مقر] الميم والقاف والراء كلمة واحدة، هي المقر (1): شبه الصبر. وأمقر الشيء: أمر. واللبن الحامض ممقر. ومن هذا قولهم: سمك ممقور. والمقر: إنقاع (2) السمك المالح في الماء. وقال ابن دريد (3): أمقرت لفلان الشراب: أمررته له.
+SRC Asas [haqiqah_literal]        : " أمر من المقر " وهو الصبر. ومر ممقر، وقد أمقر. قال لبيد: ممقر مر على أعدائه ... وعلى الأذنين حلو كالعسل ولبن ممقر: كاد يمر لقروصه. وسمك ممقور: من مقر عنقه إذا دقها.
+SRC Ayn (al-Khalil)  : [line 21246 hdr=مقر] المَقِرُ شبه الصبر، والمَقْرُ أيضاً، قال: إنما الصبر ككنز بارز ... طلي المر عليه والمَقِرْ «2» والمَقْرُ: إيقاعك السمك المالح في الماء، وتقول: مَقَرْتُه فهو ممقور. __________ (1) الرجز في التهذيب واللسان (لرؤبة) وروايته: ما وَجز معروفِكَ بالرِّماقِ وهو كذلك في الديوان ص 116. (2) لم نهتد إلى القائل. باب القاف واللام والنون معهما ل ق ن، ن ق ل يستعملان فقط

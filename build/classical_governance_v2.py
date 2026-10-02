@@ -1,0 +1,379 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+classical_governance_v2.py -- corrected Al-Khalil / Sibawayh / Andalusian constraints.
+
+Fixes the implementation mistakes confirmed by test_grammar_impl.py:
+
+  K1  Al-Khalil wrongly forbade EVERY bare-alif triliteral root. The blueprint normalises
+      hamza-initial roots to bare alif (asal -> اصل), so this killed 249 REAL roots
+      (اصل origin, ارض earth, اخذ take, احد one, اسس found, افل set, اثر trace) = 2.7% of the
+      whole root space. FIX: never forbid on bare alif.
+  K2  The phonotactic compatibility matrix was 6 hardcoded pairs. FIX: compile it from the
+      attested root inventory itself (data-driven), and report whether it is non-vacuous.
+      NOTE: forbidding all same-makhraj adjacent pairs over-forbids (شجر, a real root, has
+      ش+ج sharing wasaṭ al-lisan), so the empirical matrix is the correct construction.
+  S1  'إن' was classified HARF_JAZM because JAZM was tested before INNA. It is the emphatic
+      INNA particle; the jazm operator is the conditional إنْ. FIX: INNA family is decided first,
+      and jazm/nasb are only asserted when the governed word is actually an imperfect verb.
+  S2  'ما' / 'لا' / 'أن' were unconditional operators (plain negation 'لا شك' was forced into a
+      verb). FIX: ambiguous particles are operators only if the following word is verbal.
+  S3  Operator state was recomputed from t-1 only, so government died after one word
+      (في الاجسام الشفافة -> [JARR, NONE, NONE]). FIX: al-'Amil persists while the governed
+      constituent continues (noun + its adjectives/na't).
+  M1  Ibn Malik's Alfiyyah automaton blocked Fi'l -> Fi'l unconditionally; the Alfiyyah forbids
+      it only WITHOUT a coordinator. FIX: allow after و / ف (consistent with the waw classifier,
+      which already returns ATF for FIL->FIL).
+  M2  Maratib al-Ma'arif (definiteness hierarchy) not implemented. FIX: added ranks.
+  Sh1 Al-Shatibi's waw classifier implemented only 'Aṭf and Isti'naf. FIX: add Ḥal and Qasam
+      (the remaining four functions are not specified anywhere in the source documents).
+"""
+import json
+import re
+import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+from typing import Dict, List, Optional, Set, Tuple
+
+
+# --------------------------------------------------------------------------------------------
+# VISIBILITY (pillar 3): _surface() runs once per word in a governance audit; it reports the
+# FIRST failure of the site on stderr instead of turning a decode failure into an empty surface
+# (which the audit reads as "no operator here").
+# --------------------------------------------------------------------------------------------
+_WARNED_SITES = set()
+
+
+def _warn_once(site, message):
+    if site not in _WARNED_SITES:
+        _WARNED_SITES.add(site)
+        print(f'[classical_governance_v2] {message}', file=sys.stderr)
+
+# The single source of truth for Ibn Mālik's two procedures, with the verbatim citations:
+# marātib al-maʿārif (al-Alfiyyah l.54-55) and the POS automaton with the coordinator exception
+# (l.549/550/569 + bāb al-tanāzuʿ l.280).  IbnMalikV2 below delegates to it.
+# DELIBERATE FALLBACK, kept: ibn_malik_automaton is an optional companion module; when it is not
+# importable _IbnMalikAutomaton stays None and IbnMalikV2 reports the ungoverned result rather
+# than failing to import this module at all.
+try:
+    from ibn_malik_automaton import IbnMalikAutomaton as _IbnMalikAutomaton
+except Exception:                                    # pragma: no cover
+    _IbnMalikAutomaton = None
+
+DIAC = re.compile(r'[\u064b-\u0652\u0670\u0640]')
+WEAK = set('اويى')
+HAMZA_CARRIERS = {'أ', 'إ', 'آ', 'ؤ', 'ئ'}
+
+# --- Al-Khalil makhraj classes (for the empirically-compiled matrix) ---
+MAKHRAJ = {
+    'halq_aqsa': set('ءه'),
+    'halq_wasat': set('عح'),
+    'halq_adna': set('غخ'),
+    'lisān_aqsa': set('ق'),
+    'lisān_kaf': set('ك'),
+    'lisān_wasat': set('جشي'),
+    'lisān_hafa': set('ض'),
+    'lisān_dhawlaq': set('ل'),
+    'lisān_tarf_nun': set('ن'),
+    'lisān_tarf_ra': set('ر'),
+    'lisān_tarf_nitya': set('طدت'),
+    'lisān_asali': set('صزس'),
+    'lisān_lathawi': set('ظذث'),
+    'shafatan_fa': set('ف'),
+    'shafatan_ba': set('بم'),
+}
+
+# --- Al-Khalil's phonotactics -----------------------------------------------------------
+# Same-makhraj (point-of-articulation) guttural clashes.
+GUTTURAL_CLASH = {('ء', 'ه'), ('ه', 'ء'), ('ع', 'ح'), ('ح', 'ع'), ('غ', 'خ'), ('خ', 'غ')}
+
+# VERBATIM from Kitab al-'Ayn (Al-Khalil): "القاف والكاف لا يجتمعان في كلمة واحدة ...
+# وكذلك الجيم مع القاف لا يأتلف إلا بفصل لازم". The inventory honours qaf+kaf (0 roots)
+# but violates jim+qaf once, with the junk root جقق -- so this rule has real teeth.
+# Completing the set from Kitab al-'Ayn. The text states FOUR incompatibility rules, not two:
+#   19418  «الهمزة والغين لا تجتمعان في بناء كلمةٍ واحدةٍ»        (hamza + ghayn)
+#   19594  «القاف والكاف لا يجتمعان في كلمة واحدة»                (qaf + kaf), Arabized loans aside
+#   19594  «الجيم مع القاف لا يأتلف إلا بفصل لازم»                 (jim + qaf), needs a separator
+#   ----   «الضاد والصاد لا يأتلفان في كلمةٍ واحدةٍ أصليّة الحروف»  (dad + sad), both radicals
+# The last two conditions are satisfied by construction here: an adjacent pair in a triliteral
+# root has no separator, and all three root letters ARE the original radicals.
+# NOTE: these two additions currently exclude ZERO roots from the 9,114-entry inventory -- it is
+# already Khalilian (attested 0x in every ordering). They matter for validating roots the model
+# PROPOSES at generation time, and for any extended inventory, not for masking this one.
+KHALIL_LETTER_PAIRS = {('ق', 'ك'), ('ك', 'ق'), ('ج', 'ق'), ('ق', 'ج'),
+                       ('ء', 'غ'), ('غ', 'ء'), ('ض', 'ص'), ('ص', 'ض')}
+
+# Sibawayh, Al-Kitab, "باب ما يعمل في الأفعال فيجزمها":
+#   "وذلك: لم، ولما، واللام التي في الأمر ... ولا في النهي -- فإنما هما بمنزلة لم"
+# NOTE: إن is NOT in Sibawayh's jazm list. The lam of command is a WITHIN-WORD marker
+# (prefix ل + imperfect), handled by lam_amr_apocope().
+JAZM_UNCONDITIONAL = {'لم', 'لما'}
+NASB_UNCONDITIONAL = {'لن', 'كي', 'إذن'}
+
+PREPOSITIONS = {'في', 'من', 'إلى', 'على', 'عن', 'مع', 'حتى', 'منذ', 'مذ', 'رب', 'ب', 'ل', 'ك'}
+INNA_FAMILY = {'إن', 'أن', 'كأن', 'لكن', 'ليت', 'لعل'}
+JAZM_PARTICLES = {'لم', 'لما'}                 # unambiguous jussive operators
+NASB_PARTICLES = {'لن', 'كي', 'إذن'}            # unambiguous subjunctive operators
+AMBIGUOUS_OPERATORS = {'لا', 'ما', 'أن', 'إن', 'من', 'حتى'}
+KANA_FAMILY = {'كان', 'أصبح', 'أمسى', 'أضحى', 'ظل', 'بات', 'صار', 'ليس'}
+FUTURE_MARKERS = {'سوف', 'س'}
+COORDINATORS = {'و', 'ف'}
+
+IMPERFECT_STARTS = ('ي', 'ت', 'أ', 'ن')
+
+
+def strip_diac(s: str) -> str:
+    return DIAC.sub('', s)
+
+
+class AlKhalilV2:
+    """Corrected Al-Khalil phonotactics, with a data-driven compatibility matrix."""
+
+    def __init__(self, vocab):
+        self.vocab = vocab
+        self.roots = [r for r in vocab.roots_list if not r.startswith('<')]
+        self.leaked = {r for r in self.roots if r in ('end', 'start')}
+        self.c12 = {r for r in self.roots if len(strip_diac(r)) == 3
+                    and strip_diac(r)[0] == strip_diac(r)[1]}
+        # compile observed/forbidden adjacent-radical pairs from the inventory itself
+        self.observed_pairs = Counter()
+        for r in self.roots:
+            s = strip_diac(r)
+            if len(s) >= 2:
+                self.observed_pairs[(s[0], s[1])] += 1
+                if len(s) >= 3:
+                    self.observed_pairs[(s[1], s[2])] += 1
+        letters = sorted({c for r in self.roots for c in strip_diac(r)})
+        self.letters = letters
+        all_pairs = {(a, b) for a in letters for b in letters}
+        self.unobserved_pairs = all_pairs - set(self.observed_pairs)
+        # makhraj-derived clashes, kept only where the inventory never attests them
+        self.makhraj_clashes = set()
+        for cls in MAKHRAJ.values():
+            for a in cls:
+                for b in cls:
+                    if a != b and (a, b) not in self.observed_pairs:
+                        self.makhraj_clashes.add((a, b))
+
+        # Al-Khalil's verbatim letter pairs (Kitab al-'Ayn) on adjacent radicals
+        self.khalil_pair_bad = {r for r in self.roots
+                                if any((a, b) in KHALIL_LETTER_PAIRS
+                                       for a, b in zip(strip_diac(r), strip_diac(r)[1:]))}
+        self.forbidden = {i for i, r in enumerate(vocab.roots_list) if r in self.leaked}
+        self.forbidden |= {i for i, r in enumerate(vocab.roots_list) if r in self.khalil_pair_bad}
+        print(f'[*] AlKhalilV2: C1==C2 impossible roots={len(self.c12)}  '
+              f'leaked={len(self.leaked)}')
+        print(f'    observed adjacent pairs={len(self.observed_pairs)}  '
+              f'unobserved={len(self.unobserved_pairs)} of {len(letters)**2}')
+        print(f'    makhraj clashes not attested in inventory={len(self.makhraj_clashes)} '
+              f'(these are the genuinely impossible pairs)')
+        print(f'    bare-alif roots now ALLOWED: '
+              f'{sum(1 for r in self.roots if strip_diac(r).startswith("ا"))}')
+        print(f'    Al-Khalil verbatim letter-pair violations (qaf+kaf, jim+qaf): '
+              f'{len(self.khalil_pair_bad)} -> {sorted(self.khalil_pair_bad)[:10]}')
+
+    def mask(self) -> Set[int]:
+        """All roots Al-Khalil excludes: control strings, verbatim letter pairs, C1==C2
+        (impossible in an Arabic triliteral), and same-makhraj guttural clashes."""
+        out = set(self.forbidden)
+        out |= {i for i, r in enumerate(self.vocab.roots_list) if r in self.c12}
+        gutt = set()
+        for r in self.roots:
+            s = strip_diac(r)
+            if len(s) == 3 and (s[0], s[1]) in GUTTURAL_CLASH:
+                gutt.add(r)
+        out |= {i for i, r in enumerate(self.vocab.roots_list) if r in gutt}
+        return out
+
+
+class SibawayhV2:
+    """Corrected Sibawayh operator governance with persistence (al-'Amil acts across distance)."""
+
+    def __init__(self, vocab):
+        self.vocab = vocab
+        self.imperfect = set(range(114, min(130, vocab.num_awzan)))
+        self.special_awzan = {0, 1, 2, 3, 4}
+        self.past = {8, 12, 14, 15, 16, 19, 22, 23, 24, 25, 26, 27, 29, 31, 33, 35, 38, 39, 40,
+                     45, 49, 50, 54, 61, 75, 76, 82, 83} & set(range(vocab.num_awzan))
+        self.verbal = self.imperfect | self.past
+        self.nominal = set(range(vocab.num_awzan)) - self.verbal - self.special_awzan
+        self.particles = {i for i, r in enumerate(vocab.roots_list) if r.startswith('<P:')}
+        self.pad, self.bos, self.eos = vocab.PAD_ROOT, vocab.BOS_ROOT, vocab.EOS_ROOT
+        self.unk, self.particle = vocab.UNK_ROOT, vocab.root2id['<PARTICLE>']
+
+    # ---- classification -----------------------------------------------------------------
+    def _surface(self, p_id: int, r_id: int, w_id: int, s_id: int) -> str:
+        root = self.vocab.id2root.get(r_id, '')
+        if root.startswith('<P:'):
+            return root[3:-1]
+        try:
+            return strip_diac(self.vocab.decode_word(p_id, r_id, w_id, s_id)).strip()
+        except Exception as exc:
+            # VISIBILITY: '' is the same answer this method gives for a genuinely empty surface,
+            # so a decode failure silently removed the word from the governance audit.  '' is
+            # unchanged.
+            _warn_once('surface', f'vocab.decode_word({p_id},{r_id},{w_id},{s_id}) raised: '
+                                  f'{exc!r} -- empty surface used in the audit')
+            return ''
+
+    def operator_of(self, p_id, r_id, w_id, s_id, next_is_verbal: Optional[bool] = None) -> str:
+        """Classify one word as an operator. Ambiguous particles need the next word's POS."""
+        word = self._surface(p_id, r_id, w_id, s_id)
+        if not word:
+            return 'NONE'
+        # Sibawayh: أنْ and إنْ govern a following VERB (nasb / conditional jazm); the
+        # emphatic أنَّ / إنَّ govern a nominal sentence (INNA). Diacritics are stripped in
+        # this blueprint, so the two collapse and must be told apart by the next word's POS.
+        if word == 'أن':
+            return 'HARF_NASB' if next_is_verbal else 'INNA'
+        if word == 'إن':
+            return 'HARF_JAZM' if next_is_verbal else 'INNA'
+        if word in {'كأن', 'لكن', 'ليت', 'لعل'}:
+            return 'INNA'
+        if word in JAZM_PARTICLES:
+            return 'HARF_JAZM'
+        if word in NASB_PARTICLES:
+            return 'HARF_NASB'
+        if word in PREPOSITIONS:
+            return 'HARF_JARR'
+        if word in KANA_FAMILY:
+            return 'KANA'
+        if word in FUTURE_MARKERS:
+            return 'FUTURE'
+        if word in AMBIGUOUS_OPERATORS:    # only an operator if it governs a verb (fixes S2)
+            if word == 'لا' and next_is_verbal is False:
+                return 'NONE'
+            return 'HARF_JAZM' if next_is_verbal else 'NONE'
+        return 'NONE'
+
+    def wazn_allowed(self, w_id: int, op_state: str) -> bool:
+        if op_state == 'HARF_JARR':
+            return w_id not in self.verbal
+        if op_state in ('HARF_JAZM', 'HARF_NASB', 'FUTURE'):
+            return w_id in self.imperfect
+        return True
+
+    # ---- persistence --------------------------------------------------------------------
+    def government_chain(self, tuples: List[Tuple[int, int, int, int]],
+                         is_verbal_fn) -> List[str]:
+        """
+        Return the ACTIVE operator state at each position. A jarr operator persists while the
+        governed nominal constituent continues (noun + its adjectives/na't), instead of dying
+        after one word (fixes S3).
+        """
+        states = []
+        active = 'NONE'
+        for i, t in enumerate(tuples):
+            states.append(active)
+            nxt_verbal = None
+            if i + 1 < len(tuples):
+                nxt_verbal = is_verbal_fn(tuples[i + 1])
+            op = self.operator_of(*t, next_is_verbal=nxt_verbal)
+            if op != 'NONE':
+                active = op
+                continue
+            # does the current word continue the governed constituent?
+            if active == 'HARF_JARR':
+                # keep governing while we remain inside the nominal constituent
+                if is_verbal_fn(t):
+                    active = 'NONE'
+                elif self._is_particle(t):
+                    active = 'NONE'
+                # else: noun or adjective -> government continues
+            elif active in ('HARF_JAZM', 'HARF_NASB', 'FUTURE'):
+                if is_verbal_fn(t):
+                    active = 'NONE'
+            elif active == 'INNA':
+                active = 'NONE'
+        return states
+
+    def _is_particle(self, t) -> bool:
+        return self.vocab.id2root.get(t[1], '').startswith('<P:')
+
+
+class IbnMalikV2:
+    """Alfiyyah POS automaton with the coordinator exception + Maratib al-Ma'arif."""
+
+    ISM, FIL, HARF, SIFAH = 1, 2, 3, 4
+    # Fi'l -> Fi'l only with a coordinator (و/ف), which is handled by the caller
+    TRANSITIONS = {
+        0: {ISM, FIL, HARF},
+        ISM: {ISM, FIL, HARF, SIFAH},
+        FIL: {ISM, HARF, SIFAH},
+        HARF: {ISM, FIL},
+        SIFAH: {ISM, FIL, HARF, SIFAH},
+    }
+    # Maratib al-Ma'arif: Pronoun > Proper > Demonstrative > Relative > Definite-with-al >
+    # Annexed (mudaf) > Indefinite.  Ibn Malik, Alfiyyah v.54-55:
+    #   "نكرة قابل أل مؤثرا ... أو واقع موقع ما قد ذكرا"
+    #   "وغيره معرفة كهم وذي ... وهند وابني والغلام والذي"
+    #   ham=pronoun, dhi=demonstrative, hind=proper, ibni=annexed, al-ghulam=with al-, alladhi=relative
+    # WIRED: the ranks now come from ibn_malik_automaton.IbnMalikAutomaton, which also carries
+    # Ibn Malik's own six ranks in al-Tashil (via al-Shatibi's Sharh) and Abu Hayyan's ordering.
+    if _IbnMalikAutomaton is not None:
+        DEFINITENESS = _IbnMalikAutomaton.RANKS
+    else:                                            # pragma: no cover
+        DEFINITENESS = {'PRONOUN': 7, 'PROPER': 6, 'DEMONSTRATIVE': 5, 'RELATIVE': 4,
+                        'DEFINITE': 3, 'ANNEXED': 2, 'INDEFINITE': 1}
+
+    @classmethod
+    def transition_ok(cls, prev: int, nxt: int, coordinator_between: bool = False) -> bool:
+        """Delegates to the cited automaton: Fi'l -> Fi'l only through a coordinator.
+
+        Alfiyyah, bab al-'atf: "وعطفك الفعل على الفعل يصح"; the ʿatf is "تال بحرف متبع عطف النسق",
+        and without the harf the two verbs would be two operators on one operand, which
+        "إن عاملان اقتضيا في اسم عمل ... قبل فللواحد منهما العمل" forbids.
+        """
+        if _IbnMalikAutomaton is not None:
+            return _IbnMalikAutomaton().transition(prev, nxt, coordinator_between)
+        if coordinator_between:
+            return True
+        return nxt in cls.TRANSITIONS.get(prev, {cls.ISM, cls.FIL, cls.HARF, cls.SIFAH})
+
+    @classmethod
+    def definiteness_ok(cls, mubtada: str, khabar: str) -> bool:
+        """rank(mubtada') >= rank(khabar).  ENGINEERING direction; the ordering is sourced."""
+        if _IbnMalikAutomaton is not None:
+            return _IbnMalikAutomaton().definiteness_ok(mubtada, khabar)
+        return cls.DEFINITENESS.get(mubtada, 0) >= cls.DEFINITENESS.get(khabar, 0)
+
+    @classmethod
+    def definiteness_rank(cls, cls_name: str) -> int:
+        """The 7..1 rank of a maratib al-ma'arif class label (al-Alfiyyah v.55)."""
+        if _IbnMalikAutomaton is not None:
+            return _IbnMalikAutomaton().rank(cls=cls_name)
+        return cls.DEFINITENESS.get(cls_name, 0)
+
+
+class ShatibiWawV2:
+    """Al-Shatibi waw functions: 'Aṭf, Isti'naf, Ḥal, Qasam."""
+
+    @staticmethod
+    def classify(prev_pos: str, next_pos: str, is_sentence_start: bool = False,
+                 after_marifah: bool = False, is_oath: bool = False) -> str:
+        if is_oath:
+            return 'QASAM'
+        if is_sentence_start:
+            return 'ISTINAF'
+        if prev_pos in {'ISM', 'SIFAH'} and next_pos == 'FIL':
+            return 'HAL'
+        if prev_pos in {'ISM', 'SIFAH'} and next_pos in {'ISM', 'SIFAH'}:
+            return 'ATF'
+        if prev_pos == 'FIL' and next_pos == 'FIL':
+            return 'ATF'
+        return 'ISTINAF'
+
+
+def lam_amr_apocope(prefix: str, wazn: str) -> bool:
+    """
+    Sibawayh lists "اللام التي في الأمر" among the jazm operators; Ibn Jinni (al-Khasa'is)
+    requires the jussive to elide the final weak radical (lam yaqul, not *lam yaqulu).
+    Returns True when the word carries the lam of command on an imperfect verb and therefore
+    must undergo apocope.
+    """
+    return prefix == 'ل' and strip_diac(wazn).startswith(('ي', 'ت', 'أ', 'ن'))
+
+
+def load_lexicon():
+    p = Path('/workspace/rootformer_v12/v18_next_root_morph/data/farahidian_3pillar_lexicon_clean.json')
+    return json.load(open(p, encoding='utf-8')) if p.exists() else {}

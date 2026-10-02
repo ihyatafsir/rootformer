@@ -1,0 +1,10 @@
+================================================================================================
+ROOT هنبث   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the semantic field of tangled, interwoven, and confused affairs, with the concrete image of a knot or a dense thicket underlying the abstract notion of calamities and mixed reports.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a single calamity or a tangled, confused matter (هَنْبَثَةٌ), and its plural (هَنَابِثُ) denotes calamities, affairs, and reports that are intermingled and obscure.
+REC canon_def.ar     : الهَنَابِثُ: الدَّوَاهِي، واحدتها هَنْبَثَةٌ؛ وقيل: الهَنَابِثُ الأُمور والأَخْبار المختلطة.
+REC canon_def.en     : Al-hanābith: calamities, the singular of which is hanbathah; it is also said that al-hanābith are confused affairs and reports.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,320 @@
+{
+  "train": {
+    "positions": 22457373,
+    "special_positions": 10490050,
+    "special_share": 0.4671093987707289,
+    "heldout_root_positions": 0,
+    "heldout_share": 0.0,
+    "real_seen_positions": 11967323,
+    "real_seen_share": 0.5328906012292711,
+    "top12": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 3971057,
+        "share": 0.17682642578007676,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 1004718,
+        "share": 0.044738892656768,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 581960,
+        "share": 0.025913983794987952,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 578562,
+        "share": 0.02576267491304526,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 419420,
+        "share": 0.01867627170818243,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 375835,
+        "share": 0.01673548370951491,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 350368,
+        "share": 0.015601468613448242,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 265993,
+        "share": 0.011844350628187901,
+        "kind": "real"
+      },
+      {
+        "id": 21,
+        "name": "<P:ما>",
+        "n": 257136,
+        "share": 0.011449958995649224,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 26,
+        "name": "<P:هو>",
+        "n": 219641,
+        "share": 0.009780351424006717,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 25,
+        "name": "<P:كان>",
+        "n": 195001,
+        "share": 0.008683161650296319,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 34,
+        "name": "<P:هذا>",
+        "n": 170444,
+        "share": 0.007589667767463274,
+        "kind": "SPECIAL"
+      }
+    ],
+    "always_particle_acc": 0.17682642578007676,
+    "always_particle_acc_real_only": 0.0,
+    "unigram_top5_acc": 0.2919182488530604,
+    "unigram_top5_ids": [
+      4,
+      3,
+      6,
+      5,
+      20
+    ],
+    "unigram_top1_id": 4
+  },
+  "test_gen": {
+    "positions": 35757,
+    "special_positions": 16631,
+    "special_share": 0.4651117263752552,
+    "heldout_root_positions": 0,
+    "heldout_share": 0.0,
+    "real_seen_positions": 19126,
+    "real_seen_share": 0.5348882736247448,
+    "top12": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 6707,
+        "share": 0.18757166428950975,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 1533,
+        "share": 0.042872724221830694,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 941,
+        "share": 0.02631652543557905,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 895,
+        "share": 0.025030064043404087,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 653,
+        "share": 0.018262158458483654,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 547,
+        "share": 0.015297703946080488,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 542,
+        "share": 0.01515787118606147,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 21,
+        "name": "<P:ما>",
+        "n": 443,
+        "share": 0.012389182537684928,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 397,
+        "share": 0.01110272114550997,
+        "kind": "real"
+      },
+      {
+        "id": 6397,
+        "name": "قال",
+        "n": 393,
+        "share": 0.010990854937494757,
+        "kind": "real"
+      },
+      {
+        "id": 26,
+        "name": "<P:هو>",
+        "n": 363,
+        "share": 0.010151858377380652,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 34,
+        "name": "<P:هذا>",
+        "n": 288,
+        "share": 0.008054366977095394,
+        "kind": "SPECIAL"
+      }
+    ],
+    "always_particle_acc": 0.18757166428950975,
+    "always_particle_acc_real_only": 0.0,
+    "unigram_top5_acc": 0.3000531364488072,
+    "unigram_top5_ids": [
+      4,
+      3,
+      5,
+      6,
+      20
+    ],
+    "unigram_top1_id": 4
+  },
+  "test_deriv": {
+    "positions": 41688,
+    "special_positions": 17818,
+    "special_share": 0.4274131644597966,
+    "heldout_root_positions": 4117,
+    "heldout_share": 0.09875743619266936,
+    "real_seen_positions": 19753,
+    "real_seen_share": 0.47382939934753404,
+    "top12": [
+      {
+        "id": 4,
+        "name": "<PARTICLE>",
+        "n": 6841,
+        "share": 0.16409998080982538,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 3,
+        "name": "<UNK>",
+        "n": 1588,
+        "share": 0.03809249664171944,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 5,
+        "name": "<P:في>",
+        "n": 1119,
+        "share": 0.026842256764536557,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 6,
+        "name": "<P:من>",
+        "n": 1025,
+        "share": 0.024587411245442333,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 20,
+        "name": "<P:لا>",
+        "n": 674,
+        "share": 0.01616772212627135,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 15,
+        "name": "<P:أن>",
+        "n": 640,
+        "share": 0.01535213970447131,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 8,
+        "name": "<P:على>",
+        "n": 603,
+        "share": 0.014464594127806563,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 26,
+        "name": "<P:هو>",
+        "n": 448,
+        "share": 0.010746497793129918,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 21,
+        "name": "<P:ما>",
+        "n": 395,
+        "share": 0.009475148723853388,
+        "kind": "SPECIAL"
+      },
+      {
+        "id": 6397,
+        "name": "قال",
+        "n": 376,
+        "share": 0.009019382076376896,
+        "kind": "real"
+      },
+      {
+        "id": 283,
+        "name": "اله",
+        "n": 371,
+        "share": 0.008899443484935713,
+        "kind": "real"
+      },
+      {
+        "id": 452,
+        "name": "بدل",
+        "n": 365,
+        "share": 0.008755517175206295,
+        "kind": "HELD-OUT"
+      }
+    ],
+    "always_particle_acc": 0.16409998080982538,
+    "always_particle_acc_real_only": 0.0,
+    "unigram_top5_acc": 0.26978986758779505,
+    "unigram_top5_ids": [
+      4,
+      3,
+      5,
+      6,
+      20
+    ],
+    "unigram_top1_id": 4
+  }
+}

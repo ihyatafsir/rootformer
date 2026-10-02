@@ -1,0 +1,82 @@
+{
+  "args": {
+    "n": 1500,
+    "opus": "Helsinki-NLP/opus-mt-ar-en",
+    "llm": null,
+    "llm_n": 300,
+    "out": "/workspace/mt_baselines.json"
+  },
+  "results": {
+    "identity": {
+      "n": 1500,
+      "chrf++": 1.9822386035944888,
+      "bleu": 1.2976877087317777,
+      "comet": null,
+      "comet_note": "ModuleNotFoundError: No module named 'comet'"
+    },
+    "lookup": {
+      "n": 1500,
+      "chrf++": 1.5255005912606245,
+      "bleu": 0.016796218136103033,
+      "comet": null,
+      "comet_note": "ModuleNotFoundError: No module named 'comet'"
+    },
+    "opus_mt": {
+      "n": 1500,
+      "chrf++": 28.140827405262463,
+      "bleu": 9.427919702141606,
+      "comet": null,
+      "comet_note": "ModuleNotFoundError: No module named 'comet'"
+    }
+  },
+  "samples": [
+    {
+      "src": "ومثاله علة تقتضي الزكاة في الخضراوات وأخرى تنفي الزكاة، وعلة توجب الربا في الأرز وأخرى تنفي.",
+      "ref": "An example is a cause that necessitates alms-tax (zakāh) on vegetables, and another cause that negates alms-tax; and a cause that renders usury (ribā) applicable to rice, and another that negates it.",
+      "lookup": "مثل علل قضي زكا في نفي زكا وعل وجب ربا في رزز نفي",
+      "opus": "The example is a problem that requires the zakat in vegetables and the other that denies the zakat, and a burden that has made the Lord in rice and the other that is denied."
+    },
+    {
+      "src": "فلأجل هذا بدأت به؛ لآن المرء إذا هب من نومه فكأنه مقبل من عالم الغيب إلى عالم الشهادة» والنفس مبالة إلى مقتضى عالم الشهادة؛",
+      "ref": "For when a man stirs from his sleep, it is as if he is coming from the world of the unseen (ʿālam al-ghayb) to the world of witness (ʿālam al-shahādah), and the soul is inclined toward the demands of the world of witness.",
+      "lookup": "هذا بدأ ه إذا هبب من نمه قبل من knower غيب إلى knower شهد نفس بال إلى knower شهد",
+      "opus": "For this reason, I began with it; because if one goes from sleep, it is like coming from the world of the unseen to the world of testimony, and the self-interested is the world of testimony;"
+    },
+    {
+      "src": "في ذكر الكتاب وآدابهم قالت العلماء ليس شيء أفضل من القلم لأنه به يمكن اعادة السالف والماضي.",
+      "ref": "On the Mention of the Scribe and Their Etiquettes The scholars have said: There is nothing more excellent than the pen, for through it the past and the bygone can be restored and made present anew.",
+      "lookup": "في ذكر كتب قلت ليس شيء فضل من قلم أنه ه مكن سلف مضي",
+      "opus": "In mentioning the book and their literature, scientists said that there is nothing better than a pen because it can bring back the predecessor and the past."
+    },
+    {
+      "src": "فتلطفت بلطائف الحيل في الخروج من بغداد على عزم أن لا أعاودها أبدا.",
+      "ref": "So I resorted to subtle ruses to leave Baghdad, with the firm resolve never to return to it again.",
+      "lookup": "لطف لطف في خرج من بغدد على عزم أن not بدا",
+      "opus": "I was kind enough to get out of Baghdad to never return it."
+    },
+    {
+      "src": "إذ لا يقدر الإنسان على ابتلاعه إلا أن ينزلق باللعاب،",
+      "ref": "For a person cannot swallow except that it slides down with saliva.",
+      "lookup": "إذ not قدر على بلع إلا أن لعب",
+      "opus": "As a man can only swallow it, he slips into the toys,"
+    },
+    {
+      "src": "ولو أوجب الشرع بأكل الخبز لكنا نقول اللحم والفاكهة والماء في معنى الخبز، إذ اختلاف آلات الإفطار لا ينبغي أن يكون لها مدخل في الكفارة وحذف موجب الإزهاق،",
+      "ref": "And had the Law made expiation obligatory by eating bread, we would say: meat, fruit (fākihah), and water (māʾ) are within the meaning of bread, for the difference of the instruments of breaking the fast (ālāt al-ifṭār) ought not to have any entry into the expiation.",
+      "lookup": "وجب شرع كلل خبز لكن نقل لحم فكه في خبز إذ خلف فطر not نبغ أن كون ها دخل في كفر حذف وجب زهق",
+      "opus": "If the law had to eat bread, we would say meat, fruit and water in the meaning of bread, as different breakfast machines should not have an entrance to infidelity and the elimination of the positive of the loss,"
+    },
+    {
+      "src": "ولا هي من وجوه المصالح حتى يكون في الوقوف عليها فائدة في الاعتقادات.",
+      "ref": "Nor is it among the aspects of benefits such that there would be in apprehending it a benefit in convictions.",
+      "lookup": "لا هي من وجه صلح حتى كون في وقف ها في عقد",
+      "opus": "Nor are they a matter of interest so that their identification is useful in the belief."
+    },
+    {
+      "src": "فقال: «بني سلمة، دياركم، تكتب آثاركم،",
+      "ref": "He said: «O Banū Salamah, your dwellings, your footsteps are recorded, your dwellings, your footsteps are recorded».",
+      "lookup": "فقل بني دير كتب",
+      "opus": "He said, \"My son is Selma, your home, writing your tracks,"
+    }
+  ]
+}

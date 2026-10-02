@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ضخخ   stratum=ma
+REC ontological_core : The foundational physical origin of the root ضخخ is the forceful, extended emission of a liquid stream—specifically urine or water—from an orifice or conduit, characterized by propulsion and continuity rather than mere spillage.
+REC haqiqah_literal  : The literal physical meaning is the extension and projection of urine (امتداد البول), and by extension the forceful ejection of water through a tube or pipe; the instrument المضخة is a reed or tube containing a wooden rod used to expel water from the mouth.
+REC canon_def.ar     : الضَّخُّ: امتداد البول. والمضخة: قصبة في جوفها خشبة يرمى بها الماء من الفم. والضخ مثل النضخ للماء؛ وقد ضَخَّه ضخّاً إِذا نضحه بالماء.
+REC canon_def.en     : Al-ḍakhkh: the extension and projection of urine. Al-miḍakhkhah: a reed or tube within which is a wooden rod, by means of which water is ejected from the mouth. Al-ḍakhkh is like al-naḍkh for water; one says ḍakhkhahu ḍakhkhan when he sprin […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

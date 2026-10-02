@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سربد   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the notion of a surface being stripped bare or denuded, specifically of hair, yielding a state of smooth, hairless exposure.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is an eyebrow (ḥājib) that is completely devoid of hair, i.e., a hairless or bald eyebrow.
+REC canon_def.ar     : حاجب مُسَرْبَدٌ: لا شعر عليه؛ عن كراع.
+REC canon_def.en     : A hairless eyebrow: one upon which there is no hair; reported from Kurāʿ.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

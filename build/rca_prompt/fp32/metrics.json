@@ -1,0 +1,600 @@
+{
+  "RCA_ON": {
+    "n_positions": 18869,
+    "distinct_top1_roots": 1501,
+    "distinct_top1_pct": 7.9548465737452965,
+    "modal_root": "اله",
+    "modal_root_count": 711,
+    "modal_root_share_pct": 3.7680852191425087,
+    "distinct_tuples": 5707,
+    "modal_tuple": [
+      1,
+      283,
+      45,
+      1
+    ],
+    "modal_tuple_roots": "اله",
+    "modal_tuple_surface": "أله",
+    "modal_tuple_count": 479,
+    "modal_tuple_share_pct": 2.538555302347766,
+    "adjacent_argmax_change_rate_inwindow_pct": 86.14021164021165,
+    "adjacent_argmax_change_rate_radical_pairs_pct": 90.81259582497935,
+    "leak_profile_counts": {
+      "well_formed": 18869
+    },
+    "leak_literal_control_token_pct": 0.0,
+    "leak_empty_surface_pct": 0.0,
+    "control_root_pct": 0.0,
+    "acc_by_pred_root_freq_rank": {
+      "rank_1_9": {
+        "n": 978,
+        "share_pct": 5.183104563039906,
+        "acc@1_pct": 40.38854805725972
+      },
+      "rank_11_99": {
+        "n": 4903,
+        "share_pct": 25.98441888812338,
+        "acc@1_pct": 19.498266367530086
+      },
+      "rank_101_999": {
+        "n": 11715,
+        "share_pct": 62.08596110021729,
+        "acc@1_pct": 18.548868971404183
+      },
+      "rank_1001_9999": {
+        "n": 1273,
+        "share_pct": 6.746515448619429,
+        "acc@1_pct": 13.432835820895523
+      }
+    },
+    "mean_pred_root_rank": 370.62287349621073,
+    "median_pred_root_rank": 200.0,
+    "mean_pred_root_rank_CORRECT": 294.69255751014884,
+    "mean_pred_root_rank_WRONG": 389.11256095953604,
+    "median_pred_root_rank_CORRECT": 175.0,
+    "median_pred_root_rank_WRONG": 208.0,
+    "pred_in_top10_frequent_pct": 5.183104563039906,
+    "pred_in_top100_frequent_pct": 31.16752345116328,
+    "pred_in_top1000_frequent_pct": 93.25348455138057,
+    "true_root_median_rank": 259.0,
+    "acc@1_pct": 19.582383804123165,
+    "echo_diagnostics": {
+      "pred_equals_current_root_r_t_pct": 0.9486459271821506,
+      "pred_equals_prev_root_r_t-1_pct": 1.1745235171640596,
+      "pred_equals_root_r_t-2_pct": 1.0545004573088717,
+      "radical_overlap_of_prediction": {
+        "n": 18869,
+        "same_root_pct": 16.778843605914464,
+        "shares_exactly_2_radicals_pct": 3.6991891462186657,
+        "shares_<=1_radical_pct": 76.60183369547936
+      }
+    }
+  },
+  "RCA_OFF": {
+    "n_positions": 18869,
+    "distinct_top1_roots": 3049,
+    "distinct_top1_pct": 16.158778949599874,
+    "modal_root": "اله",
+    "modal_root_count": 326,
+    "modal_root_share_pct": 1.7277015210133022,
+    "distinct_tuples": 7749,
+    "modal_tuple": [
+      1,
+      6397,
+      1,
+      1
+    ],
+    "modal_tuple_roots": "قال",
+    "modal_tuple_surface": "قال",
+    "modal_tuple_count": 260,
+    "modal_tuple_share_pct": 1.3779214584768669,
+    "adjacent_argmax_change_rate_inwindow_pct": 99.54761904761905,
+    "adjacent_argmax_change_rate_radical_pairs_pct": 99.62259700436373,
+    "leak_profile_counts": {
+      "well_formed": 18869
+    },
+    "leak_literal_control_token_pct": 0.0,
+    "leak_empty_surface_pct": 0.0,
+    "control_root_pct": 0.0,
+    "acc_by_pred_root_freq_rank": {
+      "rank_1_9": {
+        "n": 639,
+        "share_pct": 3.3865069691027614,
+        "acc@1_pct": 20.657276995305164
+      },
+      "rank_11_99": {
+        "n": 3182,
+        "share_pct": 16.86363877258996,
+        "acc@1_pct": 5.688246385920805
+      },
+      "rank_101_999": {
+        "n": 6129,
+        "share_pct": 32.48184853463353,
+        "acc@1_pct": 2.088432044379181
+      },
+      "rank_1001_9999": {
+        "n": 8919,
+        "share_pct": 47.26800572367375,
+        "acc@1_pct": 1.0427177934746048
+      }
+    },
+    "mean_pred_root_rank": 1316.9199215644708,
+    "median_pred_root_rank": 840.0,
+    "mean_pred_root_rank_CORRECT": 450.70973782771534,
+    "mean_pred_root_rank_WRONG": 1342.147968366512,
+    "median_pred_root_rank_CORRECT": 24.0,
+    "median_pred_root_rank_WRONG": 895.0,
+    "pred_in_top10_frequent_pct": 3.3865069691027614,
+    "pred_in_top100_frequent_pct": 20.250145741692723,
+    "pred_in_top1000_frequent_pct": 52.73199427632625,
+    "true_root_median_rank": 259.0,
+    "acc@1_pct": 2.830038687794796,
+    "echo_diagnostics": {
+      "pred_equals_current_root_r_t_pct": 1.1924320313742116,
+      "pred_equals_prev_root_r_t-1_pct": 0.2989696225508515,
+      "pred_equals_root_r_t-2_pct": 0.22596438370904395,
+      "radical_overlap_of_prediction": {
+        "n": 18869,
+        "same_root_pct": 2.6445492606921404,
+        "shares_exactly_2_radicals_pct": 3.990672531665695,
+        "shares_<=1_radical_pct": 93.06269542636069
+      }
+    }
+  },
+  "majority_class_marginal_pct": 3.566696698288198,
+  "reference_condition_independent_predictors": {
+    "prior_most_frequent_root_acc@1_pct": 3.566696698288198,
+    "copy_current_root_r_t_acc@1_pct": 0.5776670729768403,
+    "copy_previous_root_r_t-1_acc@1_pct": 1.3720570177780151,
+    "copy_root_r_t-2_acc@1_pct": 1.086781083553021,
+    "radical_overlap_of_copy_current_root": {
+      "n": 18869,
+      "same_root_pct": 0.5511685833907467,
+      "shares_exactly_2_radicals_pct": 1.6694048439238964,
+      "shares_<=1_radical_pct": 97.69463140600986
+    }
+  },
+  "head_dtype": "fp32",
+  "rca_gates": [
+    -1.8359375,
+    1.859375,
+    1.890625,
+    -1.9296875
+  ],
+  "RCA_OFF_emission_profile": {
+    "n": 18869,
+    "distinct_roots": 3049,
+    "top_roots": [
+      {
+        "root": "اله",
+        "root_id": 283,
+        "count": 326,
+        "share_pct": 1.7277015210133022,
+        "modal_tuple_surface_for_this_root": "اله"
+      },
+      {
+        "root": "قال",
+        "root_id": 6397,
+        "count": 313,
+        "share_pct": 1.658805448089459,
+        "modal_tuple_surface_for_this_root": "قال"
+      },
+      {
+        "root": "سلم",
+        "root_id": 9356,
+        "count": 200,
+        "share_pct": 1.0599395834437437,
+        "modal_tuple_surface_for_this_root": "وسلم"
+      },
+      {
+        "root": "كون",
+        "root_id": 7309,
+        "count": 184,
+        "share_pct": 0.9751444167682443,
+        "modal_tuple_surface_for_this_root": "كون"
+      },
+      {
+        "root": "عبد",
+        "root_id": 5236,
+        "count": 158,
+        "share_pct": 0.8373522709205575,
+        "modal_tuple_surface_for_this_root": "عبد"
+      },
+      {
+        "root": "علم",
+        "root_id": 5660,
+        "count": 152,
+        "share_pct": 0.8055540834172452,
+        "modal_tuple_surface_for_this_root": "علم"
+      },
+      {
+        "root": "وقل",
+        "root_id": 9016,
+        "count": 141,
+        "share_pct": 0.7472574063278393,
+        "modal_tuple_surface_for_this_root": "وقل"
+      },
+      {
+        "root": "حدد",
+        "root_id": 1679,
+        "count": 122,
+        "share_pct": 0.6465631459006836,
+        "modal_tuple_surface_for_this_root": "حدد"
+      },
+      {
+        "root": "بنن",
+        "root_id": 744,
+        "count": 119,
+        "share_pct": 0.6306640521490275,
+        "modal_tuple_surface_for_this_root": "بنن"
+      },
+      {
+        "root": "حمد",
+        "root_id": 1923,
+        "count": 114,
+        "share_pct": 0.604165562562934,
+        "modal_tuple_surface_for_this_root": "حمد"
+      },
+      {
+        "root": "وجب",
+        "root_id": 8804,
+        "count": 113,
+        "share_pct": 0.5988658646457152,
+        "modal_tuple_surface_for_this_root": "وجب"
+      },
+      {
+        "root": "وما",
+        "root_id": 9055,
+        "count": 112,
+        "share_pct": 0.5935661667284965,
+        "modal_tuple_surface_for_this_root": "وما"
+      }
+    ],
+    "PARTICLE_count": 0,
+    "PARTICLE_share_pct": 0.0,
+    "PAD_count": 0,
+    "BOS_count": 0,
+    "EOS_count": 0,
+    "UNK_count": 0,
+    "top_tuples": [
+      {
+        "tuple": [
+          1,
+          6397,
+          1,
+          1
+        ],
+        "root": "قال",
+        "surface": "قال",
+        "count": 260,
+        "share_pct": 1.3779214584768669
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          1,
+          1
+        ],
+        "root": "اله",
+        "surface": "اله",
+        "count": 216,
+        "share_pct": 1.1447347501192433
+      },
+      {
+        "tuple": [
+          1,
+          9016,
+          1,
+          1
+        ],
+        "root": "وقل",
+        "surface": "وقل",
+        "count": 122,
+        "share_pct": 0.6465631459006836
+      },
+      {
+        "tuple": [
+          1,
+          5236,
+          1,
+          1
+        ],
+        "root": "عبد",
+        "surface": "عبد",
+        "count": 116,
+        "share_pct": 0.6147649583973713
+      },
+      {
+        "tuple": [
+          1,
+          7309,
+          1,
+          1
+        ],
+        "root": "كون",
+        "surface": "كون",
+        "count": 112,
+        "share_pct": 0.5935661667284965
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "root": "اله",
+        "surface": "أله",
+        "count": 109,
+        "share_pct": 0.5776670729768403
+      },
+      {
+        "tuple": [
+          1,
+          5660,
+          1,
+          1
+        ],
+        "root": "علم",
+        "surface": "علم",
+        "count": 93,
+        "share_pct": 0.4928719063013408
+      },
+      {
+        "tuple": [
+          1,
+          8804,
+          1,
+          1
+        ],
+        "root": "وجب",
+        "surface": "وجب",
+        "count": 90,
+        "share_pct": 0.47697281254968465
+      },
+      {
+        "tuple": [
+          1,
+          744,
+          1,
+          1
+        ],
+        "root": "بنن",
+        "surface": "بنن",
+        "count": 85,
+        "share_pct": 0.4504743229635911
+      },
+      {
+        "tuple": [
+          1,
+          95,
+          1,
+          1
+        ],
+        "root": "ابن",
+        "surface": "ابن",
+        "count": 85,
+        "share_pct": 0.4504743229635911
+      }
+    ]
+  },
+  "RCA_ON_emission_profile": {
+    "n": 18869,
+    "distinct_roots": 1501,
+    "top_roots": [
+      {
+        "root": "اله",
+        "root_id": 283,
+        "count": 711,
+        "share_pct": 3.7680852191425087,
+        "modal_tuple_surface_for_this_root": "أله"
+      },
+      {
+        "root": "علم",
+        "root_id": 5660,
+        "count": 365,
+        "share_pct": 1.9343897397848322,
+        "modal_tuple_surface_for_this_root": "علم"
+      },
+      {
+        "root": "قال",
+        "root_id": 6397,
+        "count": 267,
+        "share_pct": 1.415019343897398,
+        "modal_tuple_surface_for_this_root": "قال"
+      },
+      {
+        "root": "فقل",
+        "root_id": 6276,
+        "count": 256,
+        "share_pct": 1.356722666807992,
+        "modal_tuple_surface_for_this_root": "فقل"
+      },
+      {
+        "root": "سلم",
+        "root_id": 9356,
+        "count": 241,
+        "share_pct": 1.2772271980497112,
+        "modal_tuple_surface_for_this_root": "وسلم"
+      },
+      {
+        "root": "عمل",
+        "root_id": 5692,
+        "count": 210,
+        "share_pct": 1.1129365626159309,
+        "modal_tuple_surface_for_this_root": "عمل"
+      },
+      {
+        "root": "كون",
+        "root_id": 7309,
+        "count": 196,
+        "share_pct": 1.0387407917748688,
+        "modal_tuple_surface_for_this_root": "كون"
+      },
+      {
+        "root": "عرف",
+        "root_id": 5386,
+        "count": 189,
+        "share_pct": 1.0016429063543377,
+        "modal_tuple_surface_for_this_root": "عرف"
+      },
+      {
+        "root": "وقل",
+        "root_id": 9016,
+        "count": 187,
+        "share_pct": 0.9910435105199004,
+        "modal_tuple_surface_for_this_root": "وقل"
+      },
+      {
+        "root": "نفس",
+        "root_id": 8232,
+        "count": 186,
+        "share_pct": 0.9857438126026816,
+        "modal_tuple_surface_for_this_root": "نفس"
+      },
+      {
+        "root": "قول",
+        "root_id": 6917,
+        "count": 181,
+        "share_pct": 0.959245323016588,
+        "modal_tuple_surface_for_this_root": "قول"
+      },
+      {
+        "root": "خلق",
+        "root_id": 2304,
+        "count": 152,
+        "share_pct": 0.8055540834172452,
+        "modal_tuple_surface_for_this_root": "خلق"
+      }
+    ],
+    "PARTICLE_count": 0,
+    "PARTICLE_share_pct": 0.0,
+    "PAD_count": 0,
+    "BOS_count": 0,
+    "EOS_count": 0,
+    "UNK_count": 0,
+    "top_tuples": [
+      {
+        "tuple": [
+          1,
+          283,
+          45,
+          1
+        ],
+        "root": "اله",
+        "surface": "أله",
+        "count": 479,
+        "share_pct": 2.538555302347766
+      },
+      {
+        "tuple": [
+          1,
+          283,
+          1,
+          1
+        ],
+        "root": "اله",
+        "surface": "اله",
+        "count": 200,
+        "share_pct": 1.0599395834437437
+      },
+      {
+        "tuple": [
+          1,
+          6397,
+          1,
+          1
+        ],
+        "root": "قال",
+        "surface": "قال",
+        "count": 188,
+        "share_pct": 0.9963432084371191
+      },
+      {
+        "tuple": [
+          1,
+          5660,
+          1,
+          1
+        ],
+        "root": "علم",
+        "surface": "علم",
+        "count": 159,
+        "share_pct": 0.8426519688377763
+      },
+      {
+        "tuple": [
+          1,
+          6276,
+          1,
+          1
+        ],
+        "root": "فقل",
+        "surface": "فقل",
+        "count": 141,
+        "share_pct": 0.7472574063278393
+      },
+      {
+        "tuple": [
+          1,
+          9016,
+          1,
+          1
+        ],
+        "root": "وقل",
+        "surface": "وقل",
+        "count": 124,
+        "share_pct": 0.6571625417351211
+      },
+      {
+        "tuple": [
+          4,
+          9356,
+          45,
+          1
+        ],
+        "root": "سلم",
+        "surface": "وسلم",
+        "count": 119,
+        "share_pct": 0.6306640521490275
+      },
+      {
+        "tuple": [
+          1,
+          6917,
+          1,
+          1
+        ],
+        "root": "قول",
+        "surface": "قول",
+        "count": 116,
+        "share_pct": 0.6147649583973713
+      },
+      {
+        "tuple": [
+          1,
+          7206,
+          1,
+          1
+        ],
+        "root": "كما",
+        "surface": "كما",
+        "count": 111,
+        "share_pct": 0.5882664688112778
+      },
+      {
+        "tuple": [
+          1,
+          5692,
+          1,
+          1
+        ],
+        "root": "عمل",
+        "surface": "عمل",
+        "count": 99,
+        "share_pct": 0.5246700938046531
+      }
+    ]
+  }
+}

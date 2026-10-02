@@ -1,0 +1,19 @@
+CONTROL: is the transmutation output a function of the hidden states?
+(baseline v19.2 weights; real h / zero h / None / h-from-a-different-sentence)
+
+العلم نور يضيء العقل ويهدي إلى الحق
+  all four -> "the knowledge is light illuminates the intellect and guides to truth"   IDENTICAL
+رأس الحكمة مخافة الله
+  all four -> "the head of wisdom is the fear of God"                                  IDENTICAL
+اليقين لا يزول بالشك
+  all four -> "the certainty is not dispelled by doubt"                                IDENTICAL
+إنما الأعمال بالنيات وإنما لكل امرئ ما نوى
+  all four -> "the عمل is نيت <PARTICLE belongs exclusively to كلل is <PARTICLE ما <PARTICLE"   IDENTICAL
+القط يشرب الحليب في الصباح            (out-of-distribution)
+  all four -> "the قطط is شرب حلب in صبح"                                             IDENTICAL
+تويتر منصة اجتماعية حديثة              (out-of-distribution)
+  all four -> "<PARTICLE is <PARTICLE جمع حدث"                                          IDENTICAL
+
+VERDICT: output ignores hidden states for every input tested: True
+=> The shipped v19.2 "transmutation" is a hardcoded dictionary + sentence regexes, not model output.
+   The three perfect English rows match the README benchmark table verbatim: they are memorised strings.

@@ -1,0 +1,17 @@
+{
+  "tag": "A5000_off",
+  "head": "/workspace/root_attn/head_ROOTATTN.pt",
+  "trunk": "/workspace/root_attn/head_ROOTATTN.pt.trunk.pt",
+  "gates": "zero",
+  "result": {
+    "ALL_val": {
+      "n": 18869,
+      "acc@1": 0.01653505675494671,
+      "acc@5": 0.03232815861701965,
+      "ce_z": 9.73505687713623,
+      "ppl_z": 16899.796799425232,
+      "ce_raw_SCALE_DEPENDENT": 10.76845645904541,
+      "logit_scale": 1.2548115253448486
+    }
+  }
+}

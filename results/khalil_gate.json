@@ -1,0 +1,9 @@
+{
+  "pairs": 76707,
+  "passed": 76564,
+  "rejected": 143,
+  "reasons": {
+    "phonotactics": 50,
+    "attestation": 93
+  }
+}

@@ -1,0 +1,12 @@
+================================================================================================
+ROOT فخذ   stratum=mA
+REC ontological_core : The foundational physical referent is the anatomical segment of the limb situated between the hip and the knee—the thigh—conceived as a distinct, bounded bodily member whose primary ontological mode is that of a corporeal part susceptible to injury.
+REC haqiqah_literal  : The literal, strictly anatomical sense is the thigh: the bodily member extending from the hip joint to the knee. In its verbal derivation, the root denotes the infliction of injury upon this member, as in 'he struck his thigh, rendering it fractured' (كُسِرَتْ فَخِذُهُ فَهُوَ مَفْخُوذٌ), and 'I struck him so that I injured his thigh' (رَمَيْتُهُ فَفَخَذْتُهُ).
+REC canon_def.ar     : الفَخِذُ: وصل ما بين الساق والورك، أُنثى، والجمع أَفخاذ. وفُخِذَ فَخْذاً، فهو مفخوذ: أُصيبت فخذه.
+REC canon_def.en     : The fakhidh is the anatomical segment connecting the lower leg and the hip; it is feminine, and its plural is afkhādh. One is said to have been fakhidha—sustaining a fakhdh—when their thigh has been injured, rendering them mafkhūdh.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 58055 hdr=فخذ] الفاء والخاء والذال كلمة واحدة، وهى الفخذ من الإنسان، معروفة، واستعير* فقيل الفخذ بسكون الخاء، دون القبيلة وفوق البطن، والجمع أفخاذ. ||| باب الفاء والدال وما يثلثهما
+SRC Asas [haqiqah_literal]        : فخذ الرجل: كسرت فخذه فهو مفخوذ.
+SRC Asas [bilingual_haqiqah_majaz]        : فخذ الرجل: كسرت فخذه فهو مفخوذ. Metaphorical (Majaz): هذا فخذي بالتذكير أي أدنى عشيرتي. وفلان من فخذ من أفخاذ بني تميم، وفخذ قبيلته: جعلهم فخذا فخذا. وفخذت بني فلان فلم أر عندهم خيرا أي أتيتهم ف
+SRC Asas [majaz_metaphorical]        : هذا فخذي بالتذكير أي أدنى عشيرتي. وفلان من فخذ من أفخاذ بني تميم، وفخذ قبيلته: جعلهم فخذا فخذا. وفخذت بني فلان فلم أر عندهم خيرا أي أتيتهم فخذا فخذا فسألتهم في حمالة أو غيرها. ولما أنزل على رسول الله صلى الله عليه وسلم قوله تعالى: " وأنذر عشيرتك الأقربين " بات يفخذ عشيرته أي يدعو
+SRC Ayn (al-Khalil)  : [line 16847 hdr=فخذ] الفَخِذُ: وصل ما بين الورك والساق، ويخفف فيقال: فِخْذٌ في لغة سفلى مضر، وهي مؤنثة، وكسرت الفاء على أعقاب كسرة الخاء حيث اسكنت، ومن فتحها مع سكون الخاء تركها على ما كانت، كما قالوا في العقب عقب فلزموا الفتحة، وفي الكتف كتف فلزموا الكسرة. وفُخِذَ الرجل فهو مفخوذ أي كسرت فَخِذُه. وفَخِذُ الرجل: نفره من حيه الذين هم أقرب عشيرته إليه. __________ (1) كذا ورد البيت ولم نهتد إلى تمامه ولا إلى قائله. وهي أفخاذ العرب يذكر، وإذ […]

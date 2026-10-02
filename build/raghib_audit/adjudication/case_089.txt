@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فرم   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root فرم is the act of constricting, narrowing, or tightening an orifice—specifically the vagina—by means of a medicinal agent or physical obstruction, thereby inducing a state of constriction (taḍayyuq).
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is the use of a drug or medicinal substance (farām) to constrict the vagina, as in the phrase 'istaframat al-marʾah' (the woman used a constricting agent). The root also appears in the proverbial expression 'more abject than the faram of a slave-girl,' referring to the medicinal plug used for vaginal constriction.
+REC canon_def.ar     : الفَرْمُ والفِرَامُ: ما تَتَضَيَّقُ به المرأَة من دواء. وامرأَةٌ فَرْماءُ ومُسْتَفْرِمة: وهي التي تجعل الدواء في فرجها ليضيق.
+REC canon_def.en     : Al-farm and al-firām: a medicinal substance by which a woman constricts [her vagina]. A woman who is farmāʾ or mustafrimah is one who places a drug in her vulva in order to narrow it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 58459 hdr=فرم] الفاء والراء والميم كلمة واحدة، أظنها ليست عربية، وهو الاستفرام. يقولون: هو أن تحتشى (1) المرأة شيئا تضيق به [ما تحت إزارها (2)]. قال الخليل: وليس هذا من كلام أهل البادية. قال ابن دريد (3): يقال لذلك الشىء: فرمة (4). فأما قول الراجز (5): مستفرمات بالحصى جوافلا فإنه يريد خيلا. يعنى أن من شدة جريها يدخل الحصى فى فروجها، فشبه الحصى بالفرمة. والفرماء: موضع (6).
+SRC Asas [haqiqah_literal]        : استفرمت المرأة إذا تضيقت بالفرم، ويقال: أذل من فرم الأمة. وفي حديث عبد الملك: يا ابن المستفرمة بعجم الزبيب.
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,318 @@
+# Round-trip fix for the NRMP morphemic tokenizer
+# File: /workspace/hf_v19_2_release/nrmp_vocab.py
+# pristine md5 7a3f3a57f27a3a206d3e9deca7de7c3e -> patched md5 3df966a63c1dcee2ea53f3741a3b1eb0
+# backup on host: nrmp_vocab.py.bak.rtfix-20261001-191450
+
+--- nrmp_vocab.py.orig	2026-10-01 19:13:52.705916163 +0200
++++ nrmp_vocab.py.new	2026-10-01 19:24:44.253489902 +0200
+@@ -8,6 +8,7 @@
+ """
+ 
+ import os
++import re
+ import sys
+ import json
+ from pathlib import Path
+@@ -128,6 +129,141 @@
+     return order
+ 
+ 
++# ============================================================================================
++# CLOSED-CLASS SURFACE RECOVERY
++#
++# Both round-trip defects this block repairs have one cause: a closed-class word whose surface
++# the encoder cannot represent is written into the ROOT slot as a generic control token
++# (<PARTICLE> / <UNK>), and decode_word then writes that tag into the output TEXT as if it were
++# Arabic.  A word that reaches either tag fails `decode(encode(w)) == w` BY CONSTRUCTION, before
++# any morphology runs.
++#
++# MEASURED on the held-out sample (mode 1, 3,298,362 forms): 665,930 occurrences (20.19%) decode
++# with a control token in them.  They are not one bug:
++#   * the particle IS in the project's authored closed inventory but has no <P:..> id (75,603);
++#   * the validator's closed-class rule is never REACHED, because the greedy analyser returned no
++#     root at all and validated_segmentation.decompose() bails out first -- so the whole surface
++#     is discarded (547,717);
++#   * the analyser's SLOTS are wrong: the closed-class host is in PREFIX and the clitic in ROOT,
++#     so neither reaches the <P:..> or suffix vocabulary (16,654);
++#   * single letters / stray markers (25,955).
++#
++# The inventory below is AUTHORED FROM GRAMMAR THE PROJECT ALREADY CARRIES -- the base
++# tokenizer's CLOSED_PARTICLES, the validator's SUPPLEMENT_CLOSED and its Sibawayhian blueprint
++# partition.  It is NEVER read off an evaluation corpus.  That distinction is the point: a
++# fallback that registers whatever it is shown would make the round-trip metric a tautology.
++# ============================================================================================
++
++# AL-QALB (القلب), the GENERATION direction.  The analysis direction already exists in
++# models/validated_segmentation.py::_closed_split (`core[:-1] + 'ى' in self._closed`).
++#
++# Ibn 'Usfur, Sharh Jumal al-Zajjaji: «إن العرب قد تقلب الألف ياء مع المضمر في نحو: عليه وإليه
++# ولديه».  Al-Zajjaji, Huruf al-Ma'ani (لدى): «ومع المضمر تنقلب ياء تقول لدى زيد ولديك».  Abu
++# Hayyan: «وقلبت ألفه ياء لإضافته إلى المضمر، كما قلبوا في عليك ولديك».
++#
++# The alif is TURNED INTO ya', not deleted, and only where the sources say the alif is MUTTASIL
++# (شديد الاتصال) with the pronoun.  The particles the sources name are exactly these (with the
++# bare-alif spelling الى of إلى, which the corpus also writes); the rule is NOT applied to ما
++# (ماه), لا (لاه), هذا, كذا or متى (متاك).
++AL_QALB_PARTICLES = frozenset({'على', 'إلى', 'الى', 'لدى', 'علي', 'إلي', 'لدي'})
++
++# the pronominal clitics, as the validator enumerates them (Sibawayh, bab 'alamat al-mudmarin)
++PRONOUN_CLITICS = ('هما', 'كما', 'هن', 'هم', 'كم', 'كن', 'نا', 'ني', 'ها', 'ه', 'ك', 'ي')
++PRONOUN_CLITIC_SET = frozenset(PRONOUN_CLITICS)
++
++# prefix / suffix orders copied from models/validated_segmentation.py so that the two directions
++# of the same closed-class rule cannot drift apart.
++_PRE_CLOSED = ['وال', 'فال', 'بال', 'كال', 'لل', 'ال', 'و', 'ف', 'ب', 'ك', 'ل']
++_SINGLE_PREPS = {'ب', 'ك', 'ل', 'س'}
++
++_DIAC_RE = re.compile('[\u064b-\u0652\u0670\u0640\u06d6-\u06ed]')
++
++
++def _strip_diac(s):
++    return _DIAC_RE.sub('', s) if s else s
++
++
++def _ya_alif_variants(s):
++    """Word-final ي and ى are two spellings of the same letter in this orthography.
++
++    The lexicon writes في/على/إلى/لدى/متى/الذي/التي; the corpus also writes فى/علي/إلي/لدي/متي/
++    الذى/التى.  Both are the same word, so both spellings get an id.  Only the ي<->ى pair is
++    swapped -- NOT the bare alif ا, which would manufacture verb-shaped surfaces (على -> علا) and
++    divert words the analyser already reads as roots.  Orthography, not corpus statistics.
++    """
++    if not s or len(s) < 2 or s[-1] not in 'يى':
++        return ()
++    return (s[:-1] + ('ى' if s[-1] == 'ي' else 'ي'),)
++
++
++def authored_closed_inventory(common_particles=()):
++    """The project's closed-class surface inventory, assembled from sources it already carries.
++
++    NOTHING here is derived from an evaluated corpus.  Every item comes from an authored
++    inventory: this module's COMMON_PARTICLES, morphemic_tokenizer_v12_arabic's CLOSED_PARTICLES
++    and COMPOUND_PARTICLES, validated_segmentation's SUPPLEMENT_CLOSED, the 4x12 bare-preposition
++    + pronominal-clitic grid that design treats as one closed token, and the blueprint's own
++    Sibawayhian particle partition (added by the caller).  Every source is optional; a failure
++    only shrinks the inventory, never raises.
++    """
++    closed = set(x for x in common_particles if isinstance(x, str))
++    try:
++        from morphemic_tokenizer_v12_arabic import CLOSED_PARTICLES, COMPOUND_PARTICLES
++    except Exception:
++        try:
++            from models.morphemic_tokenizer_v12_arabic import CLOSED_PARTICLES, COMPOUND_PARTICLES
++        except Exception:
++            CLOSED_PARTICLES, COMPOUND_PARTICLES = (), {}
++    try:
++        closed |= set(p for p in CLOSED_PARTICLES if isinstance(p, str))
++    except Exception:
++        pass
++    try:
++        closed |= set(k for k in COMPOUND_PARTICLES if isinstance(k, str))
++    except Exception:
++        pass
++    try:
++        from validated_segmentation import SUPPLEMENT_CLOSED
++    except Exception:
++        try:
++            from models.validated_segmentation import SUPPLEMENT_CLOSED
++        except Exception:
++            SUPPLEMENT_CLOSED = ()
++    try:
++        closed |= set(p for p in SUPPLEMENT_CLOSED if isinstance(p, str))
++    except Exception:
++        pass
++    # a bare preposition + pronominal clitic is ONE closed token in this design (به، له); the
++    # compound grid is authored, not fitted.
++    closed |= {pp + sfx for pp in _SINGLE_PREPS for sfx in PRONOUN_CLITICS}
++    # the bare conjunction, which the corpus uses as a word and no list carried
++    closed.add('و')
++    out = set()
++    for p in closed:
++        p = _strip_diac(p)
++        if p and not p.startswith('<'):
++            out.add(p)
++            out.update(_ya_alif_variants(p))
++    return out
++
++
++def blueprint_particle_surfaces(blueprint_path):
++    """The blueprint's SIBawayhian particle partition as surfaces (ids 117..228 by default).
++
++    This is the inventory the project calls authoritative and treats the hand-written lists as
++    supplements to.  Absent or unreadable -> empty set, never an exception.
++    """
++    try:
++        with open(blueprint_path, encoding='utf-8') as fh:
++            bp = json.load(fh)
++        i2t = bp['vocab_id_to_token']
++        lo, hi = bp['partitions']['sibawayh_particles']
++        return {_strip_diac(i2t[str(i)]) for i in range(lo, hi)
++                if not i2t[str(i)].startswith('<')}
++    except Exception:
++        return set()
++
++
+ class FarāhīdianMorphemicVocab:
+     def __init__(self, blueprint_path: str):
+         self.blueprint_path = blueprint_path
+@@ -165,6 +301,23 @@
+         # Dedicated particles in root slot
+         particle_roots = [f'<P:{p}>' for p in self.COMMON_PARTICLES]
+         self.roots_list = self.special_roots + particle_roots + raw_roots
++        # ---- CLOSED-CLASS SURFACE RECOVERY: APPEND-ONLY --------------------------------------
++        # The <P:..> block above covers only COMMON_PARTICLES (66 words), but the project's
++        # authored closed inventory is much larger.  Every closed word outside COMMON_PARTICLES
++        # therefore has no id, so encode_word discards it as <UNK>/<PARTICLE> and decode_word
++        # writes that tag into the text -- the surface is destroyed.  The missing closed surfaces
++        # are APPENDED AFTER raw_roots: appending is the only insertion that cannot move an
++        # existing root id (the same append-only rule the awzan id space above is under).  Every
++        # pre-existing root keeps its id, including all 9,114 that a checkpoint embeds.
++        self._closed_inventory = authored_closed_inventory(self.COMMON_PARTICLES)
++        self._closed_inventory |= blueprint_particle_surfaces(blueprint_path)
++        self._closed_inventory = {p for p in self._closed_inventory if p}
++        self._closed_cache = {}
++        _have = set(self.roots_list)
++        self.appended_particle_roots = sorted(
++            f'<P:{p}>' for p in self._closed_inventory if f'<P:{p}>' not in _have)
++        self._appended_particle_set = frozenset(self.appended_particle_roots)
++        self.roots_list = self.roots_list + self.appended_particle_roots
+         self.root2id = {r: i for i, r in enumerate(self.roots_list)}
+         self.id2root = {i: r for i, r in enumerate(self.roots_list)}
+         
+@@ -237,6 +390,54 @@
+     def num_suffixes(self) -> int:
+         return len(self.canonical_suffixes)
+ 
++    def _closed_class_split(self, clean):
++        """(prefix, particle, suffix) if the whole word is closed-class material, else None.
++
++        The GENERATION-side counterpart of ValidatedSegmentation._closed_split().  That routine
++        only runs once the greedy analyser has already found a root, so a function word the
++        analyser cannot analyse AT ALL (ولو، بأن، وإذا، وأما، الى، إلا) never reaches the
++        closed-class rule and its whole surface is discarded.  This applies the same
++        decomposition, against the same authored inventory, to the surface directly.
++
++        Slightly more permissive than the analysis direction: a bare preposition IS allowed before
++        an authored particle here.  `_closed_split` refuses it so that كان is not read as ك+ان
++        when the analyser HAS a reading; this routine is only consulted after the analyser failed,
++        and because the pieces are concatenated back, any split of an authored word reproduces the
++        surface -- the refusal would only throw away بأن/بأنه.
++        """
++        s = _strip_diac(clean)
++        if not s:
++            return None
++        cached = self._closed_cache.get(s)
++        if cached is not None or s in self._closed_cache:
++            return cached
++        result = None
++        for pre in [''] + _PRE_CLOSED:
++            if pre and not s.startswith(pre):
++                continue
++            rest = s[len(pre):]
++            if not rest:
++                continue
++            if rest in self._closed_inventory:
++                result = (pre or None, rest, None)
++                break
++            for sfx in PRONOUN_CLITICS:
++                if not rest.endswith(sfx) or len(rest) <= len(sfx):
++                    continue
++                core = rest[:-len(sfx)]
++                if core in self._closed_inventory:
++                    result = (pre or None, core, sfx)
++                    break
++                # the surface may spell the particle with a bare alif where the lexicon has
++                # alif maqsura (لدا -> لدى); read it in the direction the surface is written.
++                if core[-1] in 'يىا' and core[:-1] + 'ى' in self._closed_inventory:
++                    result = (pre or None, core[:-1] + 'ى', sfx)
++                    break
++            if result is not None:
++                break
++        self._closed_cache[s] = result
++        return result
++
+     def encode_word(self, word: str) -> Tuple[int, int, int, int]:
+         """
+         Decomposes a single Arabic word into a 4-tuple of categorical integer IDs:
+@@ -265,13 +466,57 @@
+             if clean_w in self.COMMON_PARTICLES or f'<P:{clean_w}>' in self.root2id:
+                 r_id = self.root2id.get(f'<P:{clean_w}>', self.root2id['<PARTICLE>'])
+             else:
++                # SURFACE RECOVERY 1 -- the analyser found nothing at all.  Try the closed-class
++                # decomposition before discarding the word as a bare <PARTICLE>.  Without this
++                # the whole surface is lost before decode ever runs.
++                closed = self._closed_class_split(clean_w)
++                if closed is not None and f'<P:{closed[1]}>' in self.root2id:
++                    return (self.prefix2id.get(closed[0], self.NONE_PREFIX) if closed[0]
++                            else self.NONE_PREFIX,
++                            self.root2id[f'<P:{closed[1]}>'], self.NONE_WAZN,
++                            self.suffix2id.get(closed[2], self.NONE_SUFFIX) if closed[2]
++                            else self.NONE_SUFFIX)
+                 r_id = self.root2id['<PARTICLE>']
+         else:
+             particle_cand = f'<P:{r}>'
+-            if particle_cand in self.root2id:
++            # A ROOT WITH A WAZN IS A ROOT, NOT A PARTICLE.  This check was unguarded and only
++            # appeared safe because no COMMON_PARTICLES surface happened to equal a root the
++            # analyser returns for another word.  Expanding the <P:..> inventory exposes the
++            # collision: خلاف analyses as root خلف + فِعَال, and 'خلف' is also a closed adverb,
++            # so the particle branch discarded the wazn and decoded خلاف as خلف (947 occ), and
++            # the same for اختلاف، بخلاف، مختلفة، يختلف، مخالفة، الخلاف.  The guard is applied
++            # ONLY to the ids this patch APPENDED, so the 66 historical particle ids keep their
++            # established behaviour exactly.
++            if particle_cand in self.root2id and (
++                    particle_cand not in self._appended_particle_set
++                    or wz is None or wz == ''):
+                 r_id = self.root2id[particle_cand]
+             else:
+                 r_id = self.root2id.get(r, self.root2id['<UNK>'])
++                if r_id == self.UNK_ROOT:
++                    # SURFACE RECOVERY 2 -- the analyser split the word but the reading cannot be
++                    # represented.  Only reached when the root slot is <UNK>, so no currently
++                    # decodable reading is touched.
++                    closed = self._closed_class_split(clean_w)
++                    if closed is not None and f'<P:{closed[1]}>' in self.root2id:
++                        return (self.prefix2id.get(closed[0], self.NONE_PREFIX) if closed[0]
++                                else self.NONE_PREFIX,
++                                self.root2id[f'<P:{closed[1]}>'], self.NONE_WAZN,
++                                self.suffix2id.get(closed[2], self.NONE_SUFFIX) if closed[2]
++                                else self.NONE_SUFFIX)
++                    # SURFACE RECOVERY 3 -- the slots are wrong, not the reading: the closed-class
++                    # host is in PREFIX and the clitic in ROOT (له -> ل + ه ; ليست -> ليس + ت ;
++                    # منا -> من + ا).  Re-route so both pieces survive.
++                    if r and p:
++                        _rs = self.suffix2id.get(r)
++                        if (p in self._closed_inventory and f'<P:{p}>' in self.root2id
++                                and _rs is not None
++                                and _rs not in (self.PAD_SUFFIX, self.NONE_SUFFIX)):
++                            return (self.NONE_PREFIX, self.root2id[f'<P:{p}>'],
++                                    self.NONE_WAZN, _rs)
++                        if p in self.prefix2id and f'<P:{p + r}>' in self.root2id:
++                            return (self.NONE_PREFIX, self.root2id[f'<P:{p + r}>'],
++                                    self.NONE_WAZN, self.NONE_SUFFIX)
+                 
+         # Map Wazn
+         if wz is None or wz == '':
+@@ -307,10 +552,20 @@
+         # Check particle tag
+         if root_str.startswith('<P:'):
+             particle_core = root_str[3:-1]
++            # AL-QALB, GENERATION DIRECTION.  The alif of على/إلى/لدى is MUTTASIL with the
++            # pronoun and TURNS INTO ya' (عليه، إليه، لديك); it is not deleted, and the rule is
++            # not applied to ما/لا/هذا/كذا/متى.  See AL_QALB_PARTICLES above for the sources.
++            if suffix_str in PRONOUN_CLITIC_SET and particle_core in AL_QALB_PARTICLES:
++                particle_core = particle_core[:-1] + 'ي'
+             return p_text + particle_core + s_text
+-            
++
+         if root_str in ['<UNK>', '<PARTICLE>', '<PAD>']:
+-            return p_text + root_str + s_text
++            # A CONTROL TOKEN IS NEVER SURFACE TEXT.  This branch means the encoder could not
++            # represent the word, so the surface is genuinely absent from the tuple; emit only
++            # the material the tuple does carry (the affixes) and never the tag.  Previously this
++            # returned p_text + '<UNK>' + s_text, so every word reaching it failed the round trip
++            # by construction and a literal <UNK> could enter decoded text downstream.
++            return p_text + s_text
+             
+         # Canonical Morphological Realization
+         if wazn_str not in ['<NONE>', '<PAD>', '<UNK>']:

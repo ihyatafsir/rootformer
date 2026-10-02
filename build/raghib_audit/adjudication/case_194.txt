@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سلقد   stratum=ma
+REC ontological_core : The root denotes the physical state of a body reduced to skin and bone through emaciation, and by extension the deliberate act of subjecting an animal to such wasting in order to condition and slim it.
+REC haqiqah_literal  : The quadriliteral noun السِّلْقِد designates a person or animal that is lean, wasted, and emaciated; the verb أَسْلْقَدَ denotes the transitive act of rendering a horse lean and thin, i.e. putting it through a conditioning regimen of deliberate emaciation.
+REC canon_def.ar     : السِّلْقِدُ: الضَّاوِي المَهْزُولُ؛ ومنه: خَرَجْتُ أُسَلْقِدُ فَرَسِي، أَيْ أُضَمِّرُهُ.
+REC canon_def.en     : Al-Silqid: the lean, emaciated one; hence the expression 'I went out to slim my horse,' that is, to put it through a conditioning regimen of deliberate emaciation.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

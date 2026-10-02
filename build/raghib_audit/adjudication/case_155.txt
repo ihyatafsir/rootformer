@@ -1,0 +1,10 @@
+================================================================================================
+ROOT بهنن   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on the manifestation of joy through the face, specifically the act of laughing and displaying cheerfulness, with an emphasis on the brightness and radiance of the expression.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is a woman who is cheerful, laughing, and radiant, as exemplified in the poetic description of a woman smiling with teeth as bright as hail.
+REC canon_def.ar     : البَهْنانةُ: الضحَّاكة المُتهلِّلة
+REC canon_def.en     : Al-Bahnānah: the woman who laughs much and is radiant with joy.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

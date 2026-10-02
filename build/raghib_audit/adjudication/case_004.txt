@@ -1,0 +1,12 @@
+================================================================================================
+ROOT بصل   stratum=MA
+REC ontological_core : The foundational physical referent is the edible bulb of the onion plant (Allium cepa), a layered, subterranean vegetable whose concentric sheaths constitute its primary concrete reality.
+REC haqiqah_literal  : The literal, physical meaning is the well-known onion bulb, and by concrete extension, any object resembling its layered, ovoid form — most notably the iron boss or pointed cap of a helmet (bayḍat al-ḥadīd) and the iron head-piece of a mace or lance.
+REC canon_def.ar     : البَصَل معروف، الواحدة بَصَلة، وتُشَبَّه به بَيْضة الحَدِيد؛ والبَصَلة إِنما هي سَفِيفة واحدة.
+REC canon_def.en     : Al-baṣal is the well-known onion; the singular is baṣalah. The iron boss of a helmet is likened to it; and a baṣalah is but a single sheath or layer.
+SRC al-Mufradat      : [line 4627 hdr=بصل] البصل معروف في قوله عز وجل: وعدسها وبصلها [البقرة/ 61]، وبيضة الحديد: بصل، تشبيها به لقول الشاعر: 56- وتركا كالبصل (3) بضع البضاعة: قطعة وافرة من المال تقتنى للتجارة، يقال: أبضع بضاعة وابتضعها. قال تعالى: هذه بضاعتنا ردت إلينا [يوسف/ 65] وقال تعالى: ببضاعة مزجاة [يوسف/ 88]، والأصل في هذه الكلمة: البضع وهو جملة من اللحم تبضع (4)، أي: تقطع. يقال: فخمة ذفراء ترتى بالعرى قردمانيا وتركا كالبصل تزوج وقطع لحم بضع وجمع بضعة كذا، والبضع من واحد لتسعة، والبضع نكاحها أو موضع الإيعاب بضعته فابتضع وتبضع، كقولك: قطعته وقطعته فانقطع وتقطع، والمبضع: ما يبضع به، نحو: المقطع، وكني بالبضع عن الفرج، فقيل: ملكت بضعها، أي: تزوجتها، وب […]
+SRC Maqayis (IbnFaris): [line 8009 hdr=بصل] الباء والصاد واللام أصل واحد. البصل معروف، وبه شبه لبيد البيض فقال: فخمة ذفراء ترتى بالعرى قردمانيا وتركا كالبصل (2)
+SRC Asas [haqiqah_literal]        : جئت أعرى من المغزل ورجعت أكسى من البصل. وقد تبصل الشيء إذا تضاعف تضاعف قشر البصلة: وبصلت الرجل من ثيابه جردته.
+SRC Asas [bilingual_haqiqah_majaz]        : جئت أعرى من المغزل ورجعت أكسى من البصل. وقد تبصل الشيء إذا تضاعف تضاعف قشر البصلة: وبصلت الرجل من ثيابه جردته. Metaphorical (Majaz): خرجوا كأنهم الأصل، وعلى رءوسهم البصل أي البيض، والأصل جمع أصلة وهي حية خبيثة.
+SRC Asas [majaz_metaphorical]        : خرجوا كأنهم الأصل، وعلى رءوسهم البصل أي البيض، والأصل جمع أصلة وهي حية خبيثة.
+SRC Ayn (al-Khalil)  : [line 28605 hdr=بصل] البَصَلُ معروف، والبَصَلةُ بَيْضَةُ الرأس من حديد، وهي المُحَدَّدَةُ الوسَطَ، شُبِّهَت بالبَصَلة، قال لبيد: (قردمانيا) «145» وتَرْكاً كالبَصَل «146» باب الصاد واللام مع الميم ص ل م، ص م ل، م ص ل، م ل ص، ل م ص مستعملات

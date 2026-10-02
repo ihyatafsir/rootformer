@@ -1,0 +1,10 @@
+================================================================================================
+ROOT برزل   stratum=ma
+REC ontological_core : The root denotes physical bulk and largeness of bodily frame; its foundational sense is the concrete, observable quality of being corpulent and heavy-set.
+REC haqiqah_literal  : A man of large, bulky, corpulent frame; a physically massive and heavy-set person.
+REC canon_def.ar     : رجل بُرْزُل: وهو الضَّخْم، وليس بثَبَتٍ.
+REC canon_def.en     : A man who is بُرْزُل: namely, corpulent and large-bodied; and this report is not firmly established.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

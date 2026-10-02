@@ -1,0 +1,10 @@
+================================================================================================
+ROOT طحا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root طحا is the act of spreading something out flat and extending it outward, closely parallel to the root دحو; it denotes the expansive flattening and outward extension of a surface.
+REC haqiqah_literal  : The literal physical meaning is to spread out, flatten, and extend a thing outward upon a surface, as in the spreading of the earth.
+REC canon_def.ar     : الطَّحْوُ كالدَّحْوِ، وهو البَسْطُ، وفيه لغتان: طَحَا يَطْحُو وطَحَى يَطْحَى.
+REC canon_def.en     : Al-ṭaḥw is like al-daḥw: it is the spreading out flat; it has two dialectal forms: ṭaḥā yaṭḥū and ṭaḥā yaṭḥā.
+SRC al-Mufradat      : [line 20733 hdr=طحا] الطحو: كالدحو، وهو بسط الشيء والذهاب به. قال تعالى: والأرض وما طحاها [الشمس/ 6]، قال الشاعر: 298- طحا بك قلب في الحسان طروب (1) أي: ذهب.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT دلبث   stratum=ma
+REC ontological_core : The root denotes a specific desert/bulbous plant (al-dalabūth) whose physical origin lies in a saffron-like aerial habit (leaf and stem) anchored by a fibrous-coated bulb, the edible part being the bulb cooked in milk.
+REC haqiqah_literal  : A concrete botanical entity: a plant resembling saffron in stem and leaf, possessing a bulb enclosed in fibers (līfah), which is boiled in milk and eaten.
+REC canon_def.ar     : الدَّلَبُوثُ: نبت، أَصله وورقُه مثلُ نبات الزعفران سواء، وبَصَلَتُه في لِيفةٍ، وهي تُطْبخُ باللبن وتؤْكل.
+REC canon_def.en     : Al-dalabūth: a plant whose stem and leaves are exactly like those of saffron, with a bulb enclosed in fibers; it is cooked in milk and eaten.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

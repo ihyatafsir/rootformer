@@ -1,0 +1,10 @@
+================================================================================================
+ROOT نتش   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ن-ت-ش is the act of extracting or pulling out a foreign, embedded object—such as a thorn, splinter, or hair—from within a substance, typically flesh or skin, by means of a specialized grasping instrument. This core sense of forcible removal from a state of penetration or attachment is the root's primary ontological anchor.
+REC haqiqah_literal  : The literal physical meaning, as attested in Asās al-Balāghah, is the extraction of a thorn with a pair of extractors (مِنْتَاش), or the removal of a thorn with a pair of tweezers (مِنْقَاش). It also denotes the act of taking or seizing something from someone, as in the phrase 'I did not extract anything from him' (ما نتشت منه شيئا), meaning 'I did not take anything from him.'
+REC canon_def.ar     : النَّتْشُ: النَّتْفُ للحم ونحوه، وإخراجُ الشوك بالمِنْتَاش وهو المِنْقاش. والنَّتَشُ: البياضُ الذي يظهر في أصل الظفر.
+REC canon_def.en     : Al-Natsh: the plucking of flesh and the like, and the extraction of a thorn with the mintāsh, which is the minqāsh. Al-Natash: the whiteness that appears at the base of the fingernail.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : نتش الشوكة بالمنتاش، ونقشها بالمنقاش. وما نتشت منه شيئا: ما أخذت، وهو ينتش من كل علم وينتف منه.
+SRC Ayn (al-Khalil)  : [line 26777 hdr=نتش] النَّتشُ: إخراج الشوك بالمنتاش. والمنتاش: تسمِّية العامّة من الناس المِنقاش، وهو الذي ينتف به الشَّعر. والنَّتشُ: جذبُ اللَّحم ونحوه قرصاً ونهشاً. وأنتش النباتُ: خرج رأسه من الأرض قبل أن يُعرف وأنتش الحبُّ، إذا ابتلَّ فضرب نتشهُ في الأرض، أي: ما يبدو منه أوَّل ما ينبت من أسفل أو من فوق، وذلك النباتُ اسمه: النَّتشُ. باب الشين والتاء والفاء معهما ف ت ش مستعمل فقط

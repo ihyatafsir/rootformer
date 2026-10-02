@@ -1,0 +1,10 @@
+================================================================================================
+ROOT وظم   stratum=ma
+REC ontological_core : The root denotes the act of imputing a charge or suspicion to someone, with the underlying physical image of something being pinned or fastened onto a person, as a mark or accusation is attached to the accused.
+REC haqiqah_literal  : The concrete, non-metaphorical sense is the noun الوَظْمَة (al-waẓmah), meaning an accusation or imputation (تُهَمَة) that is attached to a person.
+REC canon_def.ar     : الوَظْمَةُ: التُّهَمَةُ
+REC canon_def.en     : Al-waẓmah: an accusation or imputation of a charge.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قندع   stratum=ma
+REC ontological_core : The root denotes a man who tolerates or facilitates the illicit sexual conduct of his dependents, specifically a cuckold or procurer (dayyūth); its foundational origin is not pure Arabic but a Syriac loanword, with the variant قنذع (with dhāl) being the more attested form.
+REC haqiqah_literal  : The literal physical meaning is a man who is a cuckold or procurer (dayyūth), i.e., one who does not exhibit protective jealousy (ghīrah) over his wife or female relatives and permits their illicit sexual relations.
+REC canon_def.ar     : القُنْدُعُ والقُنْدُوعُ: الدَّيُّوثُ، سريانية ليست بعربية محضة، وقد يقال بالدال المهملة.
+REC canon_def.en     : Al-qunduʿ and al-qundūʿ: the cuckold or procurer (dayyūth); it is Syriac, not pure Arabic, and may also be pronounced with the unpointed dāl.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

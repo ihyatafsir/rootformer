@@ -1,0 +1,269 @@
+====================================================================================================
+ROOT بله   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root بله is a state of mental deficiency or heedlessness, specifically an incapacity to discern or manage evil (الغفلة عن الشرّ وعدم إحسانه). It denotes a congenital or acquired deficiency in practical intelligence, not a moral failing.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is a person who is simple-minded, naive, or foolish, particularly one who is unable to recognize or deal with harm. It is used literally for a deficient intellect, as in 'خير أولادنا الأبله العقول' (the best of our children are those with simple minds) and 'خير النساء البلهاء الخجول' (the best of women is the naive, modest one). The verb forms include بَلِهَ (baliha) and تَبَالَهَ (tabālaha), meaning to feign foolishness or to act naive.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) a praiseworthy simplicity or innocence, especially in women, where lack of cunning is a virtue; (2) feigned foolishness (تباله) as a rhetorical or social strategy, as in the verse by ʿUmar ibn Abī Rabīʿa where women pretend not to recognize the poet; (3) in the phrase 'بله ما أضمره' (bale mā aḍmara-hu), it functions as an imperative or interjection meaning 'leave aside' or 'never mind' what he concealed, indicating a dismissal or a transition to a better alternative. This usage is metaphorical, moving from the concrete sense of mental deficiency to a pragmatic particle of exception or disregard.
+-- RECORD.canonical_definition.ar: البَلَهُ: الغَفْلة عن الشرّ وأَن لا يُحْسِنَهُ؛ بَلِهَ، بالكسر، بَلَهاً وتَبَلَّه وهو أَبْلَه وابتُلِهَ كبَلِه.
+-- RECORD.canonical_definition.en: Al-balah is heedlessness of evil and the inability to manage it; baliha (with kasra) yields balahan, and taballah is to affect it; one is ablah, and ibtuliha is like baliha.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 9083 hdr=بله: الباء واللام والهاء أصل واحد، وهو شبه الغرارة والغفلة. قال الخليل وغيره (3): البله ضعف العقل، قال رسول الله (صلى الله عليه وآله وسلم)@HAD02 : @HAD03 «أكثر أهل الجنة البله@HAD01 » يريد الأكياس فى أمر الآخرة البله فى أمر الدنيا. وقال الزبرقان [بن] بدر@HAD03 : «خير أولادنا الأبله @HAD01 العقول» يراد أنه لشدة حيائه كالأبله، وهو عقول. ويقال شباب أبله، لما فيه من الغرارة. وعيش الأبله قليل الهموم. قال رؤبة (1): بعد غدانى الشباب الأبله فأما قولهم: «بله» فقد يجوز أن يكون شاذا، ومحتمل على بعد أن يرد إلى قياس الباب، بمعنى دع. وهو الذى جاء فى الحديث: «يقول الله تعالى@HAD019 : أعددت لعبادى الصالحين ما لا عين رأت ولا أذن سمعت، ولا خطر على قلب بشر، بله @HAD03 ما أطلعتهم عليه» أى دع ما أطلعتهم عليه، اغفل عن
+-- SOURCE.asas[majaz_metaphorical]: هو في شباب أبله وعيش أبله، يراد غفل صاحبهما عن الطوارق. قال رؤبة: بعد غداني الشباب الأبله ومنه: هو في بلهنية من عيشه. تقول: لازلت ملقى بتهنيه، مبقى في بلهنيه. وجمل أبله وناقة بلهاء: لا تنحاش من ثقل كأنها حمقاء. وفلان يتبله في المفازة أي يتعسف من غير هداية ولا مسئلة.
+-- SOURCE.asas[haqiqah_literal]: خير أولادنا الأبله العقول، وخير النساء البلهاء الخجول. قال: ولقد لهوت بطفلة مبالة ... بلهاء تطلعني على أسرارها وتباله فلان. قال عمر بن أبي ربيعة: تبالهن بالعرفان لما عرفنني ... وقلن امرؤ باغ أكل وأوضعا وتقول: هذا ما أظهره لك بله ما أضمره أي دع ما أضمره فهو خير مما أظهره.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: خير أولادنا الأبله العقول، وخير النساء البلهاء الخجول. قال: ولقد لهوت بطفلة مبالة ... بلهاء تطلعني على أسرارها وتباله فلان. قال عمر بن أبي ر Metaphorical (Majaz): هو في شباب أبله وعيش أبله، يراد غفل صاحبهما عن الطوارق. قال رؤبة: بعد غداني الشباب الأبله ومنه: هو في بلهنية من عيشه. تقول: لازلت ملقى بتهني
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بنط   stratum=ma
+-- RECORD.ontological_core: The triliteral sequence ب-ن-ط is classified by the classical lexicographers as a root that is 'muhmal' (unused/neglected) in its bare form; its ontological origin is therefore not an independent physical act or entity, but rather a dialectal Yemeni nominal designation for a practitioner of weaving, realized only when the sequence is augmented by an intervening letter.
+-- RECORD.haqiqah_literal: The literal physical meaning is restricted to the Yemeni dialectal noun 'al-biyanṭ' (البِيَنْطُ), denoting a weaver (al-nassāj). This is a concrete occupational designation, not a verbal root, and its morphological pattern corresponds to 'al-biyaṭr' (البِيَطْرُ), indicating that the word is a quadriliteral or augmented nominal form rather than a triliteral verb.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usage is attested. The root is neither employed in Quranic discourse nor in speculative theology (kalām) or philosophy (falsafa). Its only extension is the dialectal occupational noun for a weaver; any attempt to derive abstract or scholastic meanings would be an illegitimate projection beyond the classical lexical evidence.
+-- RECORD.canonical_definition.ar: قال الأزهري: أَما بنط فهو مهمل، فإِذا فصل بين الباء والنون بياء كان مستعملاً، يقول أَهل اليمن للنّسَّاج البِيَنْطُ، وعلى وزنه البِيَطْرُ.
+-- RECORD.canonical_definition.en: Al-Azhari said: As for 'bnṭ', it is unused (muhmal); but when a yāʾ separates the bāʾ and the nūn, it becomes employed. The people of Yemen call the weaver 'al-biyanṭ', and it follows the pattern of 'al-biyaṭr'.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بنق   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of gathering, tightening, and securing disparate elements into a coherent, bounded whole — specifically, the stitching or fastening of garment seams and the binding of a book's quires.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah: the banāʾiq are the seams or stitched joins of a wide shirt (qamīṣ wāsiʿ al-banāʾiq), also described as its dakhārīṣ (seam-lines) or its lining (libn). To banāʾiq a garment is to sew its seams; to banāʾiq a book is to bind or stitch its quires together.
+-- RECORD.majaz_scholastic: Metaphorical and scholastic extensions: (1) To banāʾiq speech (banāʾiq kalāmahu) is to gather it, arrange it, and set it in order — a rhetorical metaphor from the stitching of seams. (2) To banāʾiq a book (banāʾiq al-kitāb) is to close, finish, or dismiss it — a usage attested as a dialectal variant of nabaqa, meaning to conclude or set aside. (3) The phrase 'if you finish reading the book, then banāʾiq it and do not leave it un-banāʾiqed' carries the sense of sealing, concluding, or putting the matter to rest.
+-- RECORD.canonical_definition.ar: بَنَّقَ الكِتَابَ: لُغَةٌ فِي نَبَّقَهُ. وَبَنَّقَ كَلَامَهُ: جَمَعَهُ وَسَوَّاهُ، وَمِنْهُ بَنَائِقُ القَمِيصِ أَيْ جَمْعُ شَيْءٍ. وَالبَنِيقَةُ: خِيَاطَةُ القَمِيصِ، وَالجَمْعُ بَنَائِقُ.
+-- RECORD.canonical_definition.en: To banāʾiq a book is a dialectal variant of to nabaqahu (to bind or close it). To banāʾiq one's speech is to gather it and set it in order, whence the banāʾiq of a shirt, meaning the gathering of something. The banīqah is the stitching of a shirt, and its plural is banāʾiq.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 9515 hdr=بنق: الباء والنون والقاف كلمة واحدة، وأراها من الحواشى غير واسطة. وهى البنيقة، وهو جربان القميص. ويقال: البنيقة كل رقعة فى الثوب كاللبنة ونحوها. على أنها قد جاءت فى الشعر. قال: بضم إلى الليل أطفال حبها كما ضم أزرار القميص البنائق (3)
+-- SOURCE.asas[bilingual_haqiqah_majaz]: قميص واسع البنائق وهي الدخاريص، وقيل اللبن. قال ذو الرمة: على كل كهل أزعكي ويافع ... من اللؤم سربال جديد البنائق وتقول إذا خطت البنيقة، فخطه Metaphorical (Majaz): جعبة مبنقة: زيد في أعلاها شبه بنيقة لتتسع. وطريق مبنق: واسع. ومفازة مبنوقة بأخرى: موصولة بها.
+-- SOURCE.asas[haqiqah_literal]: قميص واسع البنائق وهي الدخاريص، وقيل اللبن. قال ذو الرمة: على كل كهل أزعكي ويافع ... من اللؤم سربال جديد البنائق وتقول إذا خطت البنيقة، فخطها بنيقه. وبنق الكتاب: ذره. وإذا فرغت من قراءة الكتاب فبنقه ولا تدعه غير مبنق.
+-- SOURCE.asas[majaz_metaphorical]: جعبة مبنقة: زيد في أعلاها شبه بنيقة لتتسع. وطريق مبنق: واسع. ومفازة مبنوقة بأخرى: موصولة بها.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بنه   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin is a toponymic designation: a village in Egypt renowned for its honey, which the Prophet Muhammad blessed. It lacks a broader physical or verbal root meaning in the classical lexicons.
+-- RECORD.haqiqah_literal: A proper noun referring to a specific village in Egypt, pronounced Binhā (with a kasrah on the bāʾ and sukūn on the nūn), though later pronounced Banhā (with a fatḥah on the bāʾ). It is literally the name of that locality.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested; the term remains a strict toponym with no extended abstract applications.
+-- RECORD.canonical_definition.ar: بِنْهَا، بكسر الباء وسكون النون، قرية من قرى مصر، بارك النبي صلى الله عليه وسلم في عسلها؛ والناس اليوم يفتحون الباء.
+-- RECORD.canonical_definition.en: Binhā, with a kasrah on the bāʾ and a sukūn on the nūn, is a village in Egypt whose honey the Prophet, peace be upon him, blessed; today people pronounce it Banhā with a fatḥah on the bāʾ.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بهنن   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin centers on the manifestation of joy through the face, specifically the act of laughing and displaying cheerfulness, with an emphasis on the brightness and radiance of the expression.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is a woman who is cheerful, laughing, and radiant, as exemplified in the poetic description of a woman smiling with teeth as bright as hail.
+-- RECORD.majaz_scholastic: Metaphorically, the root extends to any person or entity that exhibits joy, brightness, or cheerfulness, and in theological contexts, it may refer to the radiance of divine favor or the joy of the believers in paradise.
+-- RECORD.canonical_definition.ar: البَهْنانةُ: الضحَّاكة المُتهلِّلة
+-- RECORD.canonical_definition.en: Al-Bahnānah: the woman who laughs much and is radiant with joy.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بوع   stratum=mA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the spatial extent of the two outstretched hands, i.e., the distance between the two palms when the arms are fully extended; from this concrete measure of bodily span, the root extends to the act of measuring by that span and to the stretching forth of the forelegs in a beast's stride.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the act of measuring a garment or the like by the bāʿ (the span of the outstretched arms), analogous to dharʿahu when one measures it by the dhiraʿ (cubit); likewise, the bāʿ of a camel or horse is the extension of its forelegs in walking, and a horse is described as ṭabīʿ bāʿ or baʿīd al-khaṭw when its stride is long.
+-- RECORD.majaz_scholastic: The root is applied metaphorically and scholastically to the extension of a beast's forelegs in motion (bāʿa al-baʿīr wa-l-faras wa-tabawwaʿa idhā madda bāʿahu fī sayrihi), to a she-camel as bāʿiʿah and she-camels as bawāʿiʿ when they stretch their forelegs widely in stride, and to the temporal or transactional sense in the phrase mā bīʿat hādhihi al-thiyāb ḥattā bīʿat (these garments were not sold until they were sold), where the form is used in a derived commercial context. The root also appears in the expression kam bawʿ thawbika wa-kam dharʿ thawbika (how many spans is your garment and how many cubits?), indicating measurement by bodily span.
+-- RECORD.canonical_definition.ar: البَاعُ والبَوْعُ والبُوع: مَسافةُ ما بين الكفَّيْن إِذا بسَطْتهما؛ والباعُ: تَبَوُّعُ البعير والفرس في سيرهما إذا مدَّا أَيديهما.
+-- RECORD.canonical_definition.en: The bāʿ, bawʿ, and būʿ: the distance between the two palms when they are outstretched; and the bāʿ: the stretching forth of a camel and a horse in their gait when they extend their forelegs.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 9880 hdr=بوع: الباء والواو والعين أصل واحد، وهو امتداد الشيء فالبوع من قولك بعت الحبل بوعا إذا مددت باعك به. قال الخليل: البوع والباع لغتان، ولكنهم يسمون البوع فى الخلقة. فأما بسط الباع فى الكرم ونحوه فلا يقولون إلا كريم الباع. قال: له فى المجد سابقة وباع والباع أيضا مصدر باع يبوع، وهو بسط الباع. والإبل تبوع فى سيرها. قال النابغة: ببوع القدر إن قلق الوضين (3) والرجل يبوع بماله، إذا بسط به باعه. قال: من كل بيضاء ممكورة لها شر ناصع كاللبن حتى وردن لتم خمس بائص تعاوره الرياح وبيلا. لقد خفت أن ألقى المنايا ولم أنل من المال ما أسمو به وأبوع (1) وأنشد ابن الأعرابى: ومستامة تستام وهى رخيصة تباع براحات الأيادى وتمسح (2) يصف فلاة تسوم فيها الإبل. رخيصة: لا تمتنع. تباع: تمد الإبل بها أبواعها. وتمسح: تقطع. قال أبو ع
+-- SOURCE.asas[majaz_metaphorical]: لفلان سابقة وباع. وقال العجاج: إذا الكرام ابتدروا الباع بدر وتبوع للمساعي: مد باعه. قال الطرماح: يماني تبوع للمساعي ... يداه وكل ذي حسب يماني
+-- SOURCE.asas[haqiqah_literal]: باع الثوب يبوعه إذا قدره بباعه، نحو ذرعه إذا قدره بذراعه. وتقول: كم بوع ثوبك وكم ذرع ثوبك وباع البعير والفرس وتبوع إذا مد باعه في سيره. وفرس طيع بيع: بعيد الخطو. قال العباس بن مرداس: على متن جرداء السراة نبيلة ... كعالية المران بيعة القدر ومر يتبوع. وناقة بائعة، ونوق بوائع. وما ب
+-- SOURCE.asas[bilingual_haqiqah_majaz]: باع الثوب يبوعه إذا قدره بباعه، نحو ذرعه إذا قدره بذراعه. وتقول: كم بوع ثوبك وكم ذرع ثوبك وباع البعير والفرس وتبوع إذا مد باعه في سيره. وفرس Metaphorical (Majaz): لفلان سابقة وباع. وقال العجاج: إذا الكرام ابتدروا الباع بدر وتبوع للمساعي: مد باعه. قال الطرماح: يماني تبوع للمساعي ... يداه وكل ذي حسب يمان
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT بيض   stratum=MA
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) of the root ب-ي-ض is the color white, understood as the luminous, unmixed, and manifest opposite of black, predicated of animals, plants, and all entities susceptible to coloration.
+-- RECORD.haqiqah_literal: The literal, sensory reality (Ḥaqīqah) of البياض is the color white itself, the quality of an object that is أبيض (white). It is a perceptible accident (ʿaraḍ) subsisting in bodies, and its verbal noun denotes the state or instance of being white.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, whiteness is transferred to signify moral and spiritual purity, honor, and excellence, because the Arabs deemed white the most noble of colors. Thus, a person free of defects is said to be 'white of color' (أبيض اللون). In Quranic discourse, the whitening of faces on the Day of Judgment is a metaphor for joy, divine pleasure, and salvation, while blackening denotes grief and punishment. The dual form 'الأبيضان' metaphorically designates fat and youth, or milk and water, as the two white substances essential to life and sustenance. The active participle 'بائض' (egg-laying) is applied to birds, and 'بيوض' to a hen that lays many eggs, extending the root to the production of eggs, which are themselves white.
+-- RECORD.canonical_definition.ar: البَيَاضُ: ضِدُّ السَّوَادِ، يَكُونُ فِي الحَيَوَانِ وَالنَّبَاتِ وَغَيْرِهِمَا مِمَّا يَقْبَلُهُ. وَالأَبْيَضُ: عِرْقٌ سُمِّيَ بِهِ لِكَوْنِهِ أَبْيَضَ. وَالبَيْضُ: مَعْرُوفٌ، وَبَاضَتِ الدَّجَاجَةُ تَبِيضُ بَيْضًا.
+-- RECORD.canonical_definition.en: Al-Bayāḍ (whiteness) is the opposite of al-Sawād (blackness); it occurs in animals, plants, and other entities susceptible to it. Al-Abyaḍ (the white one) is a vein named thus because of its whiteness. Al-Bayḍ (eggs) is well-known, and the hen lays eggs (bāḍat tabīḍu bayḍan).
+-- SOURCE.mufradat @line 5751 hdr=بيض: البياض في الألوان: ضد السواد، يقال: ابيض يبيض ابيضاضا وبياضا، فهو مبيض وأبيض. قال عز وجل: يوم تبيض وجوه وتسود وجوه فأما الذين اسودت وجوههم أكفرتم بعد إيمانكم فذوقوا العذاب بما كنتم تكفرون* وأما الذين ابيضت وجوههم ففي رحمت الله [آل عمران/ 106- 107]. والأبيض: عرق سمي به لكونه أبيض، ولما كان البياض أفضل لون عندهم كما قيل: البياض أفضل، والسواد أهول، والحمرة أجمل، والصفرة أشكل، عبر به عن الفضل والكرم بالبياض، حتى قيل لمن لم يتدنس بمعاب: هو أبيض اللون. وقوله تعالى: يوم تبيض وجوه [آل عمران/ 106]، فابيضاض الوجوه عبارة عن المسرة، واسودادها عن الغم، وعلى ذلك وإذا بشر أحدهم بالأنثى ظل وجهه مسودا [النحل/ 58]، وعلى نحو الابيضاض قوله تعالى: وجوه يومئذ ناضرة [القيامة/ 22]، وقوله: وجوه يومئذ مسفرة* ضاحكة مس
+-- SOURCE.maqayis @line 10123 hdr=بيض: الباء والياء والضاد أصل، ومشتق منه، ومشبه بالمشتق. فالأصل البياض من الألوان. يقال ابيض الشىء. وأما المشتق منه فالبيضة للدجاجة وغيرها، والجمع البيض، والمشبه بذلك بيضة الحديد. ومن الاستعارة قولهم للعزيز فى مكانه: هو بيضة البلد، أى يحفظ ويحصن كما تحفظ البيضة. يقال حمى بيضة الإسلام والدين. فإذا عبروا عن الذليل المستضعف (4) بأنه بيضة البلد، يريدون أنه متروك مفرد كالبيضة المتروكة بالعراء. ولذلك تسمى البيضة التريكة. وقد فسرت فى موضعها. قد كنت خراجا ولوجا صيرفا ويقال* باضت البهمى إذا سقطت نصالها. وباض الحر اشتد؛ ويراد بذلك أنه تمكن كأنه باض وفرخ وتوطن.
+-- SOURCE.asas[haqiqah_literal]: اجتمع للمرأة الأبيضان الشحم والشباب، وهو لا يشرب إلا الأبيضين. قال: ولكنه يأتي لي الحول كاملا ... وما لي إلا الأبيضين شراب يريد بالأبيضين اللبن والماء. وما رأيته مد أبيضان أي يومان. ودجاجة بيوض ودجاج بيض وغراب بائض.
+-- SOURCE.asas[majaz_metaphorical]: فلان يحوط بيضة الإسلام وبيضة قومه. وباض بني فلان وابتاضهم: دخل في بيضتهم. وأوقعوا بهم فابتاضوهم أي استأصلوا بيضتهم. وباضت الأرض: أنبتت الكمأة وهي بيض الأرض وبه فسر المثل: " هو أذل من بيضة البلد " وباض الحر. اشتد. وأتيته في بيضة القيظ وبيضاء القيظ، وهي صميمه بين طلوع سهيل والدبران
+-- SOURCE.asas[bilingual_haqiqah_majaz]: اجتمع للمرأة الأبيضان الشحم والشباب، وهو لا يشرب إلا الأبيضين. قال: ولكنه يأتي لي الحول كاملا ... وما لي إلا الأبيضين شراب يريد بالأبيضين ال Metaphorical (Majaz): فلان يحوط بيضة الإسلام وبيضة قومه. وباض بني فلان وابتاضهم: دخل في بيضتهم. وأوقعوا بهم فابتاضوهم أي استأصلوا بيضتهم. وباضت الأرض: أنبتت الكمأ
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT توب   stratum=MA
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of returning, reverting, or turning back from a state or course to another; it denotes a movement of reversal and reorientation, whether physical or moral.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah is the act of a servant returning to God from his sin, and God's acceptance of that return; it also includes the judge offering repentance to an apostate, and the time of Islam being called the 'time of repentance' because people turn back from polytheism.
+-- RECORD.majaz_scholastic: Metaphorically and theologically, it signifies the abandonment of sin in the most excellent manner, comprising four conditions: leaving the sin because of its vileness, regret for having committed it, resolve not to return to it, and restitution of possible missed obligations. It also denotes God's acceptance of repentance, and the concept of 'returning to God' implies seeking refuge and turning back to obedience. In scholastic usage, it is the act of contrition and amendment, and the root is used for both human repentance and divine forgiveness.
+-- RECORD.canonical_definition.ar: التَّوْبَةُ: الرُّجُوعُ مِنَ الذَّنْبِ، وَتَابَ إِلَى اللَّهِ يَتُوبُ تَوْبًا وَتَوْبَةً وَمَتَابًا: أَنَابَ وَرَجَعَ عَنِ الْمَعْصِيَةِ إِلَى الطَّاعَةِ.
+-- RECORD.canonical_definition.en: Repentance is the return from sin; one repents to God, returning and turning back from disobedience to obedience.
+-- SOURCE.mufradat @line 6367 hdr=توب: التوب: ترك الذنب على أجمل الوجوه (1)، وهو أبلغ وجوه الاعتذار، فإن الاعتذار على ثلاثة أوجه: إما أن يقول المعتذر: لم أفعل، أو يقول: فعلت لأجل كذا، أو فعلت وأسأت وقد أقلعت، ولا رابع لذلك، وهذا الأخير هو التوبة، والتوبة في الشرع: ترك الذنب لقبحه والندم على ما فرط منه، والعزيمة على ترك المعاودة، وتدارك ما أمكنه أن يتدارك من الأعمال بالأعمال بالإعادة، فمتى اجتمعت هذه الأربع فقد كملت شرائط التوبة. وتاب إلى الله، فذكر «إلى الله» يقتضي الإنابة، نحو: فتوبوا إلى بارئكم [البقرة/ 54]، وتوبوا إلى الله جميعا [النور/ 31]، أفلا يتوبون إلى الله [المائدة/ 74]، وتاب الله عليه، أي: قبل توبته، منه: لقد تاب الله على النبي والمهاجرين [التوبة/ 117]، ثم تاب عليهم ليتوبوا [التوبة/ 118]، فتاب عليكم وعفا عنكم [البقرة/ 1
+-- SOURCE.maqayis @line 11145 hdr=توب: التاء والواو والباء كلمة واحدة تدل على الرجوع. يقال تاب من ذنبه، أى رجع عنه يتوب إلى الله توبة ومتابا، فهو تائب. والتوب التوبة. قال الله تعالى: @QUR@02 وقابل التوب.
+-- SOURCE.asas[haqiqah_literal]: تاب العبد إلى الله من ذنبه، وتاب الله على عبده، والله تواب، وإلى الله المتاب. واستتاب الحاكم فلانا: عرض عليه التوبة، والمرتد يستتاب. وأدرك فلان زمن التوبة أي الإسلام، لأنه يتاب فيه من الشرك. قال الجعدي: دار حي كانت لهم زمن التو ... بة لا عزل ولا أكفال
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT توث   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the red, juicy, mulberry-like fruit known as al-firṣād; the root denotes this specific fruit as a concrete, tangible entity, with no attested abstract or verbal primitive underlying it.
+-- RECORD.haqiqah_literal: The literal physical meaning is the firṣād fruit (mulberry), a red, edible berry; its singular unit is tuwtha (one mulberry).
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological usages are attested in the classical lexicons; the root remains confined to its concrete botanical reference. The only extended usage is the toponym Kafrtūthā, a place name derived from the root, which is a proper noun and not a semantic extension.
+-- RECORD.canonical_definition.ar: التُّوثُ: الفِرْصادُ، واحدتُه تُوثةٌ.
+-- RECORD.canonical_definition.en: Al-tūth is the firṣād (mulberry); its singular unit is tuwtha.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ثرعط   stratum=ma
+-- RECORD.ontological_core: The root denotes a thin, watery, diluted substance—specifically a broth or gruel reduced to a fluid, runny consistency, typically prepared with milk. Its foundational physical image is that of a liquid so thin it lacks body or cohesion, cooked down to a near-watery state.
+-- RECORD.haqiqah_literal: الثُّرْعُطَةُ: a thin, watery broth or gruel (حَسا رقيق); الثُّرُعْطُطُ: a thin broth cooked with milk (حَساً رقيق طبخ باللبن). The literal referent is a culinary preparation of extreme fluidity and minimal viscosity.
+-- RECORD.majaz_scholastic: No attested metaphorical, philosophical, or theological extension is recorded in the classical lexica. The root remains confined to its literal culinary domain; any figurative application (e.g., to speech or thought lacking substance) would be an ad hoc extension not sanctioned by the classical sources.
+-- RECORD.canonical_definition.ar: الثُّرْعُطَةُ: الحَسا الرَّقِيقُ. الثُّرُعْطُطُ: حَساً رقيق طبخ باللبن.
+-- RECORD.canonical_definition.en: Al-Thurʿuṭah: a thin, watery broth or gruel. Al-Thuruʿṭuṭ: a thin broth cooked with milk.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT ثور   stratum=Ma
+-- RECORD.ontological_core: The foundational physical origin (Aṣl al-Wadʿ) is the eruptive dispersal and surging agitation of a substance — dust, cloud, or the like — rising and spreading outward in a visible, turbulent motion.
+-- RECORD.haqiqah_literal: The literal physical meaning is the surging, eruption, and dispersal of dust, clouds, or similar substances, rising and spreading visibly; also the agitating of the earth to bring forth its contents, and the bull (ثور) as the animal by which the earth is agitated for plowing.
+-- RECORD.majaz_scholastic: Metaphorically and scholastically: the eruption of anger (ثائر الغضب), the outbreak of evil (ثور شرا), the onset of a rash or disease (ثارت الحصبة) by analogy to the dispersal of dust; the rising of the dawn light (ثور الشفق) as the dispersing one; and the act of assaulting or leaping upon someone (ثاوره). The term ثأر (blood revenge) is excluded from this root as it belongs to the hamzated root ثأر, not the hollow root ثور.
+-- RECORD.canonical_definition.ar: ثَارَ الشيءُ ثَوْراً وثُؤُوراً وثَوَرَاناً وتَثَوَّرَ: هاج وانتشر ساطعاً؛ وأَثَارَهُ غيره. والثَّوْرُ: البقر الذي يُثار به الأرض، وأصله مصدر جُعل في موضع الفاعل.
+-- RECORD.canonical_definition.en: The thing surged, erupted, and spread visibly (thawran, thu'uran, thawaran, tathawwara): it became agitated and dispersed; another caused it to rise (athara). The thawr is the bovine by which the earth is agitated for ploughing; its form is originally a verbal noun placed in the position of the active participle.
+-- SOURCE.mufradat @line 6831 hdr=ثور: ثار الغبار والسحاب ونحوهما، يثور ثورا وثورانا: انتشر ساطعا، وقد أثرته، قال تعالى: فتثير سحابا* [الروم/ 48]، يقال: أثرت الأرض، كقوله تعالى: وأثاروا الأرض وعمروها [الروم/ 9]، وثارت الحصبة ثورا تشبيها بانتشار الغبار، وثور شرا كذلك، وثار ثائره كناية عن انتشار غضبه، وثاوره: واثبه، والثور: البقر الذي يثار به الأرض، فكأنه في الأصل مصدر جعل في موضع الفاعل (1)، نحو: ضيف وطيف في معنى: ضائف وطائف، وقولهم: سقط ثور الشفق (2) أي: الثائر المنتثر، والثأر هو طلب الدم، وأصله الهمز، وليس من هذا الباب.
+-- SOURCE.maqayis @line 12267 hdr=ثور: الثاء والواو والراء أصلان قد يمكن الجمع بينهما بأدنى نظر. فالأول انبعاث الشيء، والثانى جنس من الحيوان. فالأول قولهم: ثار الشيء يثور ثورا وثؤورا وثورانا. وثارت الحصبة تثور. وثاور فلان فلانا، إذا واثبه، كأن كل واحد منهما ثار إلى صاحبه. وثور فلان على فلان شرا، إذا أظهره. ومحتمل أن يكون الثور فيمن يقول إنه الطحلب من هذا، لأنه شيء قد ثار على متن الماء. والثانى الثور من الثيران، وجمع على* الأثوار أيضا. فأما قولهم للسيد ثور فهو على معنى التشبيه إن كانت العرب تستعمله. على أنى لم أر به رواية صحيحة. فأما قول القائل (2): إنى وقتلى سليكا ثم أعقله كالثور يضرب لما عافت البقر فقال قوم: هو الثور بعينه، لأنهم يقولون إن الجنى يركب ظهر الثور فيمتنع البقر من الشرب. وهو من قوله: وما ذنبه أن عافت الماء باقر وما إ
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جاز   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root جاز is the act of traversing, passing through, or crossing over a boundary, barrier, or medium—whether a road, a valley, a river, or a choking obstruction in the throat—such that the traverser moves from one side, state, or condition to another.
+-- RECORD.haqiqah_literal: The literal physical meaning is to pass or cross over something, as in crossing a road (جاز الطريق), traversing a valley (جاز الوادي), or passing through water (جاز الماء). It also denotes the physical act of a choking morsel or obstruction passing down the throat, as in the expression 'يا ماء إن أجأزت فكم أجزت من غصة' (O water, if you pass, how many a choking morsel have you passed!).
+-- RECORD.majaz_scholastic: Metaphorically and scholastically, the root extends to: (1) the permissibility or validity of a thing (جواز), as in a legally or rationally permissible act (جائز), meaning it is not obstructed by prohibition or impossibility; (2) the granting of permission or authorization (إجازة), as in licensing a narrator, a physician, or a student, i.e., allowing them to pass beyond a boundary of qualification; (3) the execution or carrying out of a command or contract (إجازة العقد), meaning its effective passage into validity; (4) in theology and philosophy, the contingent or possible (جائز) in contrast to the necessary (واجب) and the impossible (ممتنع), denoting that whose existence or non-existence is not intrinsically obstructed; (5) the penetration of an idea or meaning through the mind (جاز المعنى في ذهنه), i.e., it passed through and was apprehended.
+-- RECORD.canonical_definition.ar: جاز: أصلٌ يدلُّ على النُّفُوذ والمُضِيِّ في الشيء، يقال: جاز الطريقَ، وجاز الماءَ، وجازت الغُصَّةُ في الحلق. ثم استُعير للجواز بمعنى الإباحة والإمضاء، وللجائز في المنطق والكلام بمعنى الممكن الذي لا يمتنع وجوده ولا عدمه.
+-- RECORD.canonical_definition.en: Jāza: The root signifies penetration and passage through a thing. One says: he crossed the road, he passed through the water, and the choking morsel passed down the throat. It is then metaphorically extended to permissibility in the sense of allowance and execution, and to the 'contingent' in logic and theology, meaning the possible whose existence and non-existence are not intrinsically impossible.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas[haqiqah_literal]: فلان جئز شئز أي شرق قلق. وتقول: يا ماء إن أجأزت، فكم أجزت، من أجاز الغصة.
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جحدر   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on compact, low-set corporeal form and the act of bringing a body down to the ground — a stocky, short-statured physique and the forcible casting of an opponent to the earth.
+-- RECORD.haqiqah_literal: The literal physical meaning is a man who is short and compact (jaʿd qaṣīr), with the feminine form جَحْدَرَةٌ; the verbal noun الجَحْدَرَةُ denotes this quality of shortness and compactness. The verb جَحْدَرَ صَاحِبَهُ means he threw his companion down to the ground, prostrated him.
+-- RECORD.majaz_scholastic: Beyond the physical sense, the root is applied metaphorically to the act of overpowering and casting down an adversary, i.e., to defeat and humiliate him by bringing him low. It is also used as a proper name (جَحْدَرٌ), a personal designation without descriptive force. No attested philosophical or theological technical usage is recorded in the classical lexica.
+-- RECORD.canonical_definition.ar: الجَحْدَرُ: الرجل الجَعْدُ القَصِيرُ، والأُنثى جَحْدَرَةٌ، والاسم الجَحْدَرَةُ. ويقال: جَحْدَرَ صاحبَه وجَحْدَلَهُ إِذا صرعه. وجَحْدَرٌ: اسم رجل.
+-- RECORD.canonical_definition.en: Al-Jaḥdar: a short, compact man; the feminine is jaḥdarah, and the abstract noun is al-jaḥdarah. It is said: jaḥdara ṣāḥibahu wa-jaḥdalahu, meaning he threw his companion down to the ground. And Jaḥdar is a man's name.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جردحل   stratum=ma
+-- RECORD.ontological_core: The root denotes massive, coarse, and rugged corporeal bulk — a thick, heavy, and solid physical constitution, whether of a camel, a person, or a valley.
+-- RECORD.haqiqah_literal: A huge, thick, and coarse she-camel; a bulky, thick-bodied man; a rugged, broad valley.
+-- RECORD.majaz_scholastic: Extended by Ibn Manẓūr to topographical and human referents: the rugged valley (al-wādī) and the corpulent, thick-set man (al-rajul al-ghalīẓ al-ḍakhm). Al-Azharī transmits from Shimr the application to a man of coarse, massive build, and to a woman of the same description. The term remains within the domain of physical magnitude and coarse solidity; no abstract or theological metaphorization is attested.
+-- RECORD.canonical_definition.ar: الجِرْدَحْل من الإِبل: الضَّخْم. ناقة جِرْدَحْل: ضَخْمة غليظة. ورَجُل جِرْدَحْل: الغليظ الضَّخْم. والجِرْدَحْل: الوادي.
+-- RECORD.canonical_definition.en: Al-Jirdaḥl among camels: the massive one. A she-camel that is jirdaḥl: huge and coarse. A man who is jirdaḥl: thick and massive. And al-jirdaḥl: the valley.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جشر   stratum=mA
+-- RECORD.ontological_core: The foundational physical origin of the root is the act of taking livestock out to graze in the fresh spring pasture (al-jashar) near the dwellings, without returning them to the household for the night.
+-- RECORD.haqiqah_literal: To send horses or livestock out to graze in the spring herbage (al-jashar) in front of the tents or houses, and to remain with them overnight in the pasture rather than returning to the family dwellings.
+-- RECORD.majaz_scholastic: In scholastic and theological usage, the root is employed metaphorically to denote spiritual negligence or distraction from prayer, as in the prophetic tradition of Ibn Masʿūd: 'Let not your grazing (jasharukum) deceive you from your prayer, for it is merely from your encampment.' Here, the literal act of grazing livestock near the camp is transposed to signify worldly preoccupations that keep one from devotional obligations. Additionally, the phrase 'they became jashar' is used to describe a group spending the night with their livestock, a metonymy for pastoral vigilance and separation from domestic comfort.
+-- RECORD.canonical_definition.ar: الجَشَر: بَقْلُ الربيع. وجَشَرُوا الخَيْلَ وجَشَّروها: أَرْسَلُوها في الجَشْرِ. والجَشْرُ: أَن يخرجوا بخيلهم فَيَرْعَوْها أَمام بيوتهم. وأَصبحوا جَشْراً وجَشَراً.
+-- RECORD.canonical_definition.en: Al-jashar: the spring herbage. They sent out the horses and livestock to graze: they released them into the spring pasture. Al-jashr: the act of taking out their horses and grazing them in front of their dwellings. They became jashr or jashar: they spent the night with their livestock in the pasture, not returning to their homes.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 14134 hdr=جشر: الجيم والشين والراء أصل واحد يدل على انتشار الشيء وبروزه يقال جشر الصبح، إذا أنار. ومنه قولهم: اصطبحنا الجاشرية، وهذا اصطباح يكون مع الصبح. وأصبح بنو فلان جشرا، إذا ترزوا [و] الحى ثم ونميمة من قائص متلبب قراب حضنك لا بكر ولا نصف أقاموا ولم يرجعوا إلى بيوتهم، وكذلك المال الجشر، الذى يرعى أمام البيوت. والجشار: الذى يأخذ المال إلى الجشر (1). ||| باب الجيم والعين* وما يثلثهما
+-- SOURCE.asas[majaz_metaphorical]: جشر الرجل عن أهله إذا سافر. وجشر الصبح: خرج، ولاح أبلق جاشر. واصطبحوا الجاشرية وهي الشربة مع جشور الصبح نسيت إلى الصبح الجاشر. قال: إذا ما شربنا الجاشرية لم نبل ... أميرا وإن كان الأمير من الأزد
+-- SOURCE.asas[haqiqah_literal]: جشروا دوابهم، وجشروها: رعوها قريبا من البيوت. ومنه حديث ابن مسعود " لا يغرنكم جشركم من صلاتكم فإنما هي من كوفتكم " ونعم جشر، وهو جشار أنعامنا. وأصبح بنو فلان جشرا إذا باتوا مع النعم لا يروحون إلى بيوتهم. وجشر المال عن أهله: خرج إلى الرعي.
+-- SOURCE.asas[bilingual_haqiqah_majaz]: جشروا دوابهم، وجشروها: رعوها قريبا من البيوت. ومنه حديث ابن مسعود " لا يغرنكم جشركم من صلاتكم فإنما هي من كوفتكم " ونعم جشر، وهو جشار أنعامن Metaphorical (Majaz): جشر الرجل عن أهله إذا سافر. وجشر الصبح: خرج، ولاح أبلق جاشر. واصطبحوا الجاشرية وهي الشربة مع جشور الصبح نسيت إلى الصبح الجاشر. قال: إذا ما ش
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جعا   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the substance of clay or mud (ṭīn), and by extension any moist, agglutinated mass such as dung collected and kneaded together; from this concrete sense of a cohesive, earthy lump the root extends to the posterior (the buttocks) as a bodily mass, and to the act of pelting someone with such a lump.
+-- RECORD.haqiqah_literal: The literal physical meaning is clay or mud (al-ṭīn); it also denotes the posterior (al-ist), and a quantity of dung or similar matter gathered and formed into a mass. The verb jaʿʿa (جَعَّ) means: he threw clay or mud at someone.
+-- RECORD.majaz_scholastic: No attested metaphorical, philosophical, or theological usage is recorded in the classical lexica; the root remains confined to its concrete physical and anatomical senses, with no extension into abstract, scholastic, or metaphysical domains.
+-- RECORD.canonical_definition.ar: الجَعْوُ: الطين. يقال: جَعَّ فلانٌ فلاناً إِذا رماه بالجَعْوِ وهو الطين. والجَعْوُ: الاسْتُ. والجَعْوُ: ما جُمِعَ من بَعَرٍ أَو غيره فجُعِلَ.
+-- RECORD.canonical_definition.en: Al-jaʿw is clay. It is said: so-and-so jaʿʿa (pelting with clay) so-and-so, when he threw clay at him. Al-jaʿw is the posterior. And al-jaʿw is what is gathered from dung or other matter and formed into a mass.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جلخد   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) is the act of a body casting itself down and stretching out at full length upon the ground, whether lying on the side or flat on the back, in a state of complete extension and surrender of posture.
+-- RECORD.haqiqah_literal: The literal physical meaning, per Asās al-Balāghah's strict ḥaqīqah, is the concrete posture of a person or animal that has thrown itself down and lies stretched out on the ground, either reclining on the side (muḍṭajiʿ) or lying supine (mustalqī) with limbs extended.
+-- RECORD.majaz_scholastic: The metaphorical and scholastic extensions are limited in the classical lexica: the term may be applied figuratively to any entity or condition characterized by total prostration, abject abasement, or the abandonment of active resistance, as when one is said to be 'cast down' before another. In theological and ethical discourse, it can denote the soul's utter submission or the intellect's passive receptivity, though such usage remains an extension of the literal corporeal image rather than a distinct technical term.
+-- RECORD.canonical_definition.ar: المُجْلَخِدُّ: المُضْطَجِعُ، وقيل: المُسْتَلْقِي الذي قد رَمَى بِنَفْسِهِ وامْتَدَّ.
+-- RECORD.canonical_definition.en: Al-Mujlakhidd: the one lying down on his side; also said to be the one lying supine who has thrown himself down and stretched out at full length.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جلع   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the removal of a covering or barrier, specifically the abandonment of modesty and restraint, manifesting as shamelessness and indecent speech or behavior.
+-- RECORD.haqiqah_literal: The literal physical meaning according to Asās al-Balāghah (though not attested, derived from Lisān) is a woman's discarding of shame and speaking obscenely, or displaying herself provocatively.
+-- RECORD.majaz_scholastic: Metaphorically, the root extends to any shameless or immodest act, including public indecency, brazenness, and the violation of social or moral boundaries. In theological contexts, it may denote a departure from virtuous conduct.
+-- RECORD.canonical_definition.ar: جَلِعَت المرأَةُ، بالكسر، جَلَعاً، فهي جَلِعةٌ وجالِعةٌ، وجَلَعَت وهي جالع وجالَعَت وهي مُجالِعٌ كله إذا ترَكت الحَياء وتكلمت بالقبيح، وقيل إِذا كانت متَبرِّجةً.
+-- RECORD.canonical_definition.en: The woman became shameless (jalʿa), with a kasra, showing shamelessness (jalaʿan); she is shameless (jaliʿah) and shameless (jāliʿah). And she acted shamelessly (jalaʿat) while being shameless (jāliʿ), and she engaged in shameless behavior (jālaʿat) while being one who engages in shameless behavior (mujāliʿ) — all of this when she abandoned modesty and spoke obscenely, or it was said when she was displaying herself provocatively.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis @line 14579 hdr=جلع: الجيم واللام والعين أصل واحد، وهو قريب من الذى قبله. يقال للمرأة القليلة الحياء جلعة، كأنها كشفت قناع الحياء. ويقال جلع فم فلان، إذا تقلصت شفته وظهرت أسنانه. قال الخليل: المجالعة تنازع القوم عند شرب أو قسمة. قال: ولا فاحش عند الشراب مجالع (4)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جلنب   stratum=ma
+-- RECORD.ontological_core: The root's foundational physical origin (Aṣl al-Wadʿ) centers on the concrete image of a she-camel that is simultaneously fat and firm—an animal whose body combines abundant adipose tissue with a hard, compact, unyielding frame. This dual physical quality of corporeal density and solidity constitutes the root's primary sensory substrate, from which any further usage must be metaphorically derived.
+-- RECORD.haqiqah_literal: The literal physical meaning, as attested in the classical lexical tradition, is a she-camel characterized by stoutness and hardness: ناقة جَلَنْباةٌ, i.e., a fat, firm she-camel. The term denotes a concrete, zoological referent and carries no abstract or figurative sense in its foundational usage.
+-- RECORD.majaz_scholastic: No metaphorical, philosophical, or theological application is attested in the classical sources for this root. Al-Rāghib al-Iṣfahānī does not record it in Al-Mufradāt, and Al-Zamakhsharī does not treat it in Asās al-Balāghah. The root remains confined to its literal, concrete zoological domain; any extension beyond this would be an unsupported scholastic projection rather than an established majāz.
+-- RECORD.canonical_definition.ar: ناقة جَلَنْباةٌ: سَمِينةٌ صُلْبةٌ
+-- RECORD.canonical_definition.en: A she-camel that is fat and firm.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)
+
+====================================================================================================
+ROOT جمعل   stratum=ma
+-- RECORD.ontological_core: The root ج-م-ع-ل designates a bulky, aged, and physically coarsened entity — a creature or beast whose body has become thick, gnarled, and worn by time. Its foundational physical image is that of a heavy, hoary mass, whether a hyena (a stocky, coarse-haired predator) or an aged she-camel (a large, decrepit beast). The quadriliteral form جُمَعْلِيلَة carries an intensive diminutive-augmentative force, signaling a creature marked by both corpulence and senescence.
+-- RECORD.haqiqah_literal: The literal, physical referent is twofold: (1) the hyena (al-ḍabʿ), so named for its bulky, coarse, and ungainly body; and (2) an aged, decrepit she-camel (al-nāqa al-harima), whose frame has grown heavy and whose strength has decayed with advanced age. In both cases, the term denotes a concrete, observable animal whose physical constitution is characterized by mass, coarseness, and the ravages of time.
+-- RECORD.majaz_scholastic: No established metaphorical, philosophical, or theological usage is attested in the classical lexicographical tradition. The term remains confined to its zoological and pastoral-literal domain. Any extended application — e.g., to a person of gross and aged constitution — would be a secondary, colloquial extension rather than a recognized majāz in the scholastic or rhetorical canon. Al-Zamakhsharī's Asās al-Balāghah does not record it, and Al-Rāghib's Al-Mufradāt does not treat it, confirming its status as a rare, concrete quadriliteral noun rather than a root with abstract or figurative derivations.
+-- RECORD.canonical_definition.ar: الجُمَعْلِيلة: الضَّبُع، وقيل: الناقة الهَرِمة. قال ابن سيده: الجُمَعْلِيلة الضَّبُع. وقال الأزهري: الجُمَعْليلة الناقة الهَرِمة.
+-- RECORD.canonical_definition.en: Al-jumaʿlīlah: the hyena; or, it is said, the aged and decrepit she-camel. Ibn Sīdah stated: al-jumaʿlīlah is the hyena. Al-Azharī stated: al-jumaʿlīlah is the aged, decrepit she-camel.
+-- SOURCE.mufradat: (none)
+-- SOURCE.maqayis: (none)
+-- SOURCE.asas: (none)
+-- SOURCE.ayn: (none)
+-- SOURCE.sihah: (none)

@@ -1,0 +1,147 @@
+--- /workspace/hf_v19_2_release/nrmt_train.py	2026-10-02 14:44:03.000000000 +0000
++++ nrmt_train_ewc.py	2026-10-02 17:31:41.000000000 +0000
+@@ -43,8 +43,13 @@
+ import torch.nn.functional as F
+ 
+ ROOT_DIR = Path(__file__).resolve().parent
++# [ewc patch] this generated copy lives outside the release tree; resolve its assets against the
++# release directory unless it happens to be sitting beside them (then the original logic holds).
++_REL_ROOT = ROOT_DIR if (ROOT_DIR / 'nrmp_vocab.py').exists() else Path('/workspace/hf_v19_2_release')
+ sys.path.insert(0, str(ROOT_DIR))
+-sys.path.insert(0, str(ROOT_DIR / 'models'))
++sys.path.insert(0, str(_REL_ROOT))
++sys.path.insert(0, str(_REL_ROOT / 'models'))
++ROOT_DIR = _REL_ROOT
+ 
+ WIN, STRIDE, CTX = 128, 64, 12
+ HASH_B = np.uint64(1000003)
+@@ -162,6 +167,61 @@
+     return out, applied, exempt
+ 
+ 
++
++class _EWCPenalty:
++    """lambda * sum_i F_i (theta_i - theta0_i)^2, with theta0 the PRETRAINED trunk.
++
++    Every quantity is a measured tensor: F_i comes from ewc_fisher.py / ewc_fisher_head.py and
++    theta0 is the value loaded from --checkpoint.  The penalty is exactly 0.0 at construction
++    (theta == theta0) and its gradient is exactly 2*lambda*F_i*(theta_i - theta0_i).
++    """
++
++    def __init__(self, named_params, fisher, reduction='sum'):
++        self.reduction = reduction
++        self.names, self.params, self.F, self.theta0 = [], [], [], []
++        missing = []
++        for n, p in named_params:
++            if n not in fisher:
++                missing.append(n)
++                continue
++            self.names.append(n)
++            self.params.append(p)
++            self.F.append(fisher[n].to(device=p.device, dtype=torch.float32).contiguous())
++            # theta0 = the PRETRAINED weights: cloned here, before a single optimiser step.
++            self.theta0.append(p.detach().clone())
++        if missing:
++            raise SystemExit(
++                f'--ewc-fisher is missing {len(missing)} penalised tensors, e.g. {missing[:3]}; '
++                f'it must cover the whole --ewc-scope')
++        if not self.params:
++            raise SystemExit('--ewc-fisher covered none of the penalised tensors')
++        self.n_params = sum(p.numel() for p in self.params)
++
++    @torch.no_grad()
++    def value(self):
++        tot = 0.0
++        for p, f, t0 in zip(self.params, self.F, self.theta0):
++            d = p.detach().float() - t0.float()
++            tot += float((f * d * d).sum())
++        return tot
++
++    def penalty(self):
++        tot = None
++        for p, f, t0 in zip(self.params, self.F, self.theta0):
++            d = p.float() - t0.float()
++            term = (f * d * d).sum()
++            tot = term if tot is None else tot + term
++        if self.reduction == 'mean-per-tensor':
++            tot = tot / len(self.params)
++        return tot
++
++    def stats(self):
++        f = torch.cat([x.reshape(-1) for x in self.F])
++        return {'n_tensors': len(self.params), 'n_params': self.n_params,
++                'fisher_mean': float(f.mean()), 'fisher_median': float(f.median()),
++                'fisher_max': float(f.max()), 'fisher_min': float(f.min()),
++                'fisher_zeros': int((f == 0).sum()), 'penalty_at_init': self.value()}
++
+ def main():
+     ap = argparse.ArgumentParser()
+     ap.add_argument('--checkpoint', default=None)
+@@ -302,6 +362,22 @@
+                     help='optional jsonl path: per-step loss components + grad norm')
+     ap.add_argument('--out', default='/workspace/nrmt_results.json')
+     ap.add_argument('--save', default='/workspace/nrmt_head.pt')
++    # ---- [ewc patch] al-tarjih: retained-structure (EWC-form) penalty ----------------------
++    # ALL default to OFF.  --ewc-lambda 0.0 leaves the historical code path byte-for-byte the
++    # one that produced A2 19.53 % / FIX 6.62 % / Run A's 0.1x collapse (proved by smoke equiv).
++    ap.add_argument('--ewc-lambda', type=float, default=0.0,
++                    help='weight of the retained-structure penalty '
++                         'lambda * sum_i F_i (theta_i - theta0_i)^2.  0.0 = OFF (historical).')
++    ap.add_argument('--ewc-fisher', default='',
++                    help='.pt file: {trunk_param_name: diagonal Fisher}.  Required when '
++                         '--ewc-lambda != 0.  Measured on the RETAINED distribution -- see '
++                         'ewc_fisher.py / ewc_fisher_head.py.')
++    ap.add_argument('--ewc-scope', default='',
++                    help='comma-separated trunk layer indices to penalise.  Default = the '
++                         'unfrozen set (--unfreeze-last).')
++    ap.add_argument('--ewc-reduction', choices=('sum', 'mean-per-tensor'), default='sum',
++                    help='how the per-tensor penalties are combined.  `sum` is the EWC form '
++                         'lambda * sum_i F_i d_i^2 as specified; `mean-per-tensor` is a diagnostic.')
+     args = ap.parse_args()
+ 
+     if args.seed >= 0:
+@@ -486,6 +562,30 @@
+         print(f'[*] RCA init check: gates={rca_stack.gate_values()} '
+               f'(exactly 0 => the attached stack is a numerical no-op at step 0)', flush=True)
+ 
++    # ---- [ewc patch] al-tarjih: build the penalty (inert unless --ewc-lambda != 0) ----------
++    ewc = None
++    if args.ewc_lambda != 0.0:
++        if not args.ewc_fisher:
++            raise SystemExit('--ewc-lambda != 0 requires --ewc-fisher (see ewc_fisher.py)')
++        if not trunk_params:
++            raise SystemExit('--ewc-lambda != 0 but no trunk parameters are trainable '
++                             '(pass --unfreeze-last N)')
++        _scope = ([int(x) for x in args.ewc_scope.split(',') if x.strip()] if args.ewc_scope
++                  else unfrozen_layers)
++        _scope_t = tuple(f'backbone.layers.{i}.' for i in _scope)
++        _fisher_raw = torch.load(args.ewc_fisher, map_location='cpu')
++        _named = [(n, p) for n, p in model.named_parameters()
++                  if p.requires_grad and n.startswith(_scope_t)]
++        ewc = _EWCPenalty(_named, _fisher_raw, args.ewc_reduction)
++        _st = ewc.stats()
++        print(f'[*] EWC [al-tarjih]: lambda={args.ewc_lambda:g} scope={_scope} '
++              f'fisher={Path(args.ewc_fisher).name} reduction={args.ewc_reduction}', flush=True)
++        print(f'[*] EWC stats: {_st}', flush=True)
++        print(f'[*] EWC self-check: penalty(theta0) == 0 -> {_st["penalty_at_init"] == 0.0} '
++              f'(value {_st["penalty_at_init"]!r})', flush=True)
++        if _st['penalty_at_init'] != 0.0:
++            raise SystemExit('EWC penalty is not zero at the pretrained anchor')
++
+     if args.lambda_orbit != 0.0:
+         # A structural probe: if the orbit term has no grad_fn it contributes exactly zero
+         # gradient and lambda cannot matter.  RNG-isolated: this diagnostic must not shift the
+@@ -880,6 +980,13 @@
+             Rt_tr[idx].to(device), Wr[idx][:, 1:].to(device),
+             Pr[idx][:, 1:].to(device), Sr[idx][:, 1:].to(device), p_ss,
+             eff_margin=margin_at(step), logit_scale=args.logit_scale)
++        if ewc is not None:
++            # [ewc patch] AL-TARJIH, applied: the retained structure's second-order restoring
++            # term.  Added BEFORE the isfinite check so a non-finite penalty is caught.
++            _pen = ewc.penalty()
++            loss = loss + args.ewc_lambda * _pen
++            info['ewc_pen'] = float(_pen.detach())
++            info['ewc_pen_weighted'] = float(args.ewc_lambda * _pen.detach())
+         if not torch.isfinite(loss):
+             nan_steps += 1
+             print(f'  [WARN] step {step}: non-finite loss {float(loss)} -- step skipped '

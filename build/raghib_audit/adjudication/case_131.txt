@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فجس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; however, the Lisān material points to a core sense of swelling, rising, and towering—a physical expansion upward that manifests as haughtiness and self-magnification.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is not explicitly attested; based on Lisān al-ʿArab, the ḥaqīqah is the act of swelling, rising, and towering physically, as in the swelling of a she-camel's hump or the rising of a structure.
+REC canon_def.ar     : الفَجْسُ والتَفَجُّس: عَظَمة وتَكَبّر وتطاوُل.
+REC canon_def.en     : Al-fajs and al-tafajjus: greatness, pride, and self-elevation.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 57900 hdr=فجس] الفاء والجيم والسين كلمة إن صحت. يقولون: الفجس: التكبر والتعظم. يقال منه: تفجس.
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 24808 hdr=فجس] الفَجسُ من التَّفجُّسِ وهو العظمة والتَّطاول، قال العجّاج: خليفة ساس بغير فجس «1» والفعل على تفعل، قال الأعشى: يكاد يصرعها لولا تَفَجُّسها ... إذا تقومُ إلى جاراتها، الكسلُ «2» باب الجيم والسين والباء معهما ج ب س، ب ج س، س ب ج مستعملات

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قحذم   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on the act of falling headlong or collapsing downward, and by extension, entering a house or enclosed space. It denotes a sudden, forceful downward motion or penetration into an interior.
+REC haqiqah_literal  : The literal physical meaning is: a man falling down prostrate or headlong; and entering a house. It also denotes the act of falling upon one's head.
+REC canon_def.ar     : تقَحْذَم الرجل: وقع مُنْصَرِعاً. وتقَحْذَم البيتَ: دخَله. والقَحْذَمةُ والتَّقَحْذُم: الهُوِيّ على الرأْس.
+REC canon_def.en     : A man fell prostrate. He entered the house. Al-Qaḥdhamah and al-Taqaḥdhum: falling upon the head.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

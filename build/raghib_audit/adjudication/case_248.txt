@@ -1,0 +1,10 @@
+================================================================================================
+ROOT كرتح   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the violent bringing-down of a body to the ground, i.e. throwing someone down prostrate, together with a rapid, jolting forward motion in walking; the two senses share the primitive image of abrupt downward or forward displacement of the body.
+REC haqiqah_literal  : The literal physical meaning is: كَرْتَحَه 'he threw him down, prostrated him, cast him to the ground'; and كَرْتَح في مشيه 'he hastened, moved swiftly in his walking'.
+REC canon_def.ar     : كَرْتَحه: صَرَعَه. وكَرْتَح في مشيه: أَسرع.
+REC canon_def.en     : Kartaḥahu: he threw him down, prostrated him. And kartaḥa fī mashyihi: he hastened in his walking.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

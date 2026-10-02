@@ -1,0 +1,230 @@
+================================================================================================
+ROOT حفرد   stratum=ma
+REC ontological_core : A rare quadriliteral nominal root denoting a small, hard, granular substance — specifically the seed or kernel of a precious stone (ḥabb al-jawhar) and, by extension, a certain plant or herb.
+REC haqiqah_literal  : The literal physical referent is a concrete, tangible object: the seed-like kernel or grain associated with a gemstone, and a specific herbaceous plant (nabt).
+REC canon_def.ar     : الحِفْرِدُ: حب الجوهر؛ عن كراع. والحِفْرِدُ: نبت.
+REC canon_def.en     : Al-ḥifrid: the seed of a gemstone, according to Kurāʿ; and al-ḥifrid: a plant.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT حلبس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the semantic field of clinging, tenacious adherence and unyielding persistence, from which the meaning of courage and steadfastness is extrapolated.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a person who clings firmly to something and does not let go, and by extension a brave, steadfast individual.
+REC canon_def.ar     : الحَلْبَسُ والحَبَلْبَسُ والحُلابِسُ: الشجاع. والحَلْبَسُ: الحريض الملازم للشيء لا يفارقه.
+REC canon_def.en     : Al-ḥalbas, al-ḥabalbās, and al-ḥulābis: the brave one. And al-ḥalbas: the eager one who clings to something and does not leave it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 12649 hdr=حلبس] الحَلْبَسُ والحُلابِسُ: الشجاع. __________ (1) في النسخ: الغورق بالغين المعجمة والراء المهملة، وهو من تصحيف النساخ. (2) ذكرت هذه الكلمة وترجمتها في نهاية ترجمة (صبح) فنقلت إلى مكانها هنا.
+
+================================================================================================
+ROOT حندق   stratum=ma
+REC ontological_core : The root denotes a succulent, fleshy herbaceous plant of the class of soft-stemmed pot-herbs (baql), specifically a variety resembling fresh, tender leek or rush (al-fathth al-ratb), of Nabataean (Aramaic) provenance subsequently Arabicized.
+REC haqiqah_literal  : A literal, concrete botanical referent: a green, edible herb or pasture-plant (baqlah aw ḥashīshah) characterized by softness and succulence, akin to fresh leek, known in Arabic as al-dhuraq.
+REC canon_def.ar     : الحَنْدَقوقَى والحَنْدَقُوقُ والحِنْدَقُوقُ: بقلة أَو حَشِيشة كالفَثِّ الرَّطْب، نَبَطِيَّة مُعرَّبة، ويقال لها بالعربية الذُّرَقُ.
+REC canon_def.en     : Al-ḥandaqūqā, al-ḥandaqūq, and al-ḥindaqūq: a pot-herb or pasture-plant resembling fresh leek, of Nabataean origin and Arabicized; in Arabic it is called al-dhuraq.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ختت   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of piercing or thrusting with spears in rapid, successive, overlapping strikes — a concentrated, repeated penetration that overwhelms the target.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is: thrusting or piercing with spears in a rapid, successive manner (al-ṭaʿn bi-l-rimāḥ mudārakan).
+REC canon_def.ar     : الخَتُّ: الطَّعْنُ بالرماح مُدارَكاً. والخَتَتُ: فُتُور يَجِدُه الإِنسان في بدنه. وأَخَتَّ الرجلُ: اسْتَحْيا وسَكَتَ.
+REC canon_def.en     : Al-khatt: thrusting with spears in rapid succession. Al-khatat: a languor or weakness that a person feels in his body. Akhatta al-rajul: he became shy and silent.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT خرعب   stratum=ma
+REC ontological_core : The root's foundational physical origin centers on the notion of a fresh, supple, and elevated offshoot—specifically a tender, sap-rich branch or shoot that rises prominently from a tree, and by extension, a freshly cut slice or segment of a moist, fleshy vegetable or fat.
+REC haqiqah_literal  : The literal physical meaning according to the classical lexicographers is: a piece or slice of a gourd, cucumber, or fat; and a tender, succulent, elevated branch or twig of a tree, especially one of the current year's growth.
+REC canon_def.ar     : الخُرْعُوبةُ: القِطْعةُ من القَرْعةِ والقِثَّاءِ والشَّحْمِ. والخَرْعَبُ والخُرْعُوبُ والخُرْعُوبةُ: الغُصْنُ لسَنَتِه، وقيل: هو القَضِيبُ السامِقُ الغَضُّ، وقيل: هو القَضِيبُ الناعِمُ الحديثُ.
+REC canon_def.en     : Al-Khurʿūbah: a piece of gourd, cucumber, or fat. Al-Kharʿab, al-Khurʿūb, and al-Khurʿūbah: a branch of the current year's growth; it is also said to be a tall, fresh twig; and it is said to be a tender, new branch.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 7241 hdr=خرعب] الخُرْعُوبة «42» : القطعةُ من القَرْعة والقِثّاء والشَّحْم. الخَرْعَبَةُ: الشَّابةُ الحسَنةُ القوام، وكأنَّها خُرعُوبةٌ من خَراعيب الأغصان من بَنات سَنَنها. ويقال: جَمَل خُرْعُوب أيْ طويلٌ في حُسْن خلق. __________ (40) التهذيب 3/ 269 ونسب فيه إلى غيلان. (41) في التهذيب 3/ 273 العلهم بكسر فسكون ففتح فتشديد الضخم العظيم من الإبل، وأنشد: لقد غدوت طاردا وقانصا ... أقود علهما أشق شاخصا (42) كذا في الأصول المخطوطة واللسان  […]
+
+================================================================================================
+ROOT خرفش   stratum=ma
+REC ontological_core : The root denotes a marked, delimited tract of ground — a place-name or topographical locus set apart within the landscape.
+REC haqiqah_literal  : A named locality or place (خِرْفاشٌ: موضع); the literal sense is purely toponymic, referring to a specific site on the ground.
+REC canon_def.ar     : خِرْفاشٌ: موضع.
+REC canon_def.en     : Khirfāsh: a place; a named locality.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 17854 hdr=خرفش] والمُخرْنَفِش والمُخْرَنْشِمُ هو كالمغتاظ.
+
+================================================================================================
+ROOT خسج   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the weaving of a coarse garment or tent-structure from the ṭalīf (the thick, tough hide of a sheep's neck), a material prized for its extreme durability and resistance to wear.
+REC haqiqah_literal  : A cloak (kisāʾ) or tent (khibāʾ) woven specifically from the neck-hide of a sheep, which, according to traditional report, scarcely ever wears out.
+REC canon_def.ar     : الخَسِيجُ والخَسِيُّ، على البدل: كِساءٌ أَو خِباءٌ ينسج من ظَلِيفِ عُنُقِ الشاةِ فلا يكادُ، زَعَمُوا، يَبْلى.
+REC canon_def.en     : Al-khisīj and al-khasiyy (the latter by consonantal substitution): a cloak or tent woven from the neck-hide of a sheep, which, it is asserted, scarcely ever wears out.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT خنبت   stratum=ma
+REC ontological_core : The root denotes shortness and compactness of bodily stature in a man, with a secondary physical image of a thick, stunted, or truncated form.
+REC haqiqah_literal  : الخُنْبُتُ: القصير من الرجال — the short man; a man of compact, stunted stature.
+REC canon_def.ar     : الخُنْبُتُ: القصير من الرجال.
+REC canon_def.en     : Al-khunbut: the short man; a man of compact, stunted stature.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT داف   stratum=ma
+REC ontological_core : The root's foundational physical origin is the act of walking or moving with a swaying, oscillating, or side-to-side motion, often likened to the undulating gait of a camel or a ship tossing on waves.
+REC haqiqah_literal  : To walk with a swinging or swaying motion; to move unsteadily or with a rolling gait.
+REC canon_def.ar     : دَافَ يَدُوفُ دَوْفًا: تَمَايَلَ فِي مَشْيِهِ وَتَرَجَّحَ.
+REC canon_def.en     : Dāfa yadūfu dawfan: to sway in one's walk and oscillate.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT دجا   stratum=ma
+REC ontological_core : The foundational physical origin of the root د ج و is the state of night when darkness is compounded by cloud cover, such that neither star nor moon is visible—an enveloping obscurity that cloaks all things, distinct from mere absence of light.
+REC haqiqah_literal  : The literal physical meaning is the blackness of night accompanied by clouds, preventing sight of any star or moon; it is the condition of a night that has enveloped everything in dense, overcast darkness.
+REC canon_def.ar     : الدُّجى: سَوادُ اللَّيلِ مَعَ غَيْمٍ، وأَنْ لا تَرى نَجْمًا ولا قَمَرًا، وقيل: هو إذا أَلْبَسَ كُلَّ شَيْءٍ ولَيْس هو من الظُّلْمَةِ، وقالوا: لَيْلَةٌ دُجًى ولَيالٍ دُجًى، لا يُجْمَعُ لأَنَّهُ مَصْدَرٌ وُصِفَ بِهِ، وقد دَجَا.
+REC canon_def.en     : Al-Dujā is the blackness of night together with cloud cover, such that you see neither star nor moon. It is also said to be when it envelops everything, and it is not merely from [ordinary] darkness. They say: 'a night of dujā' and 'nights  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT دفس   stratum=ma
+REC ontological_core : The root denotes the onset of blackness or dark discoloration upon a surface, specifically the face, without prior cause or illness; its foundational physical image is that of a darkening or staining that overtakes a visage.
+REC haqiqah_literal  : The literal physical meaning is the blackening of the face without any underlying disease or external cause, as attested in the verbal form أَدْفَسَ.
+REC canon_def.ar     : أَدْفَسَ الرجلُ إِذا اسودَّ وجهه من غير علة
+REC canon_def.en     : A man's face turned black without any illness or cause.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT دلبث   stratum=ma
+REC ontological_core : The root denotes a specific desert/bulbous plant (al-dalabūth) whose physical origin lies in a saffron-like aerial habit (leaf and stem) anchored by a fibrous-coated bulb, the edible part being the bulb cooked in milk.
+REC haqiqah_literal  : A concrete botanical entity: a plant resembling saffron in stem and leaf, possessing a bulb enclosed in fibers (līfah), which is boiled in milk and eaten.
+REC canon_def.ar     : الدَّلَبُوثُ: نبت، أَصله وورقُه مثلُ نبات الزعفران سواء، وبَصَلَتُه في لِيفةٍ، وهي تُطْبخُ باللبن وتؤْكل.
+REC canon_def.en     : Al-dalabūth: a plant whose stem and leaves are exactly like those of saffron, with a bulb enclosed in fibers; it is cooked in milk and eaten.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT دلهث   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the notion of forward-rushing propulsion and bold advance, derived—per Abū Manṣūr al-Azharī—from the root د-ل-ث (al-indilāth), meaning to surge forward, with the هـ (hāʾ) augmented as an intensifying infix; hence the quadriliteral/quintiliteral cluster denotes a being characterized by swift, fearless, forward-charging momentum.
+REC haqiqah_literal  : The literal physical meaning is a swift, bold, forward-rushing person or camel—one who charges ahead without hesitation; the lion (al-dilhāth) is the paradigm instance of this literal predatory forward-rush.
+REC canon_def.ar     : الدَّلْهَثُ والدُّلَاهِثُ والدِّلْهَاثُ: كلُّه السريعُ الجريءُ المُقْدِمُ من الناس والإِبل. والدِّلْهَاثُ: الأَسَدُ. قال أَبو منصور: كأَنَّ أَصله من الاندلاث، وهو التَّقَدُّم، فزيدت الهاء.
+REC canon_def.en     : Al-dalhath, al-dulāthith, and al-dilhāth all denote the swift, bold, forward-charging one among people and camels. Al-dilhāth also denotes the lion. Abū Manṣūr said: it is as though its origin is from al-indilāth, which is forward advance,  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 15428 hdr=دلهث] الدَّلهاثُ: السريعُ المتقدمُ.
+
+================================================================================================
+ROOT دمرغ   stratum=ma
+REC ontological_core : The root denotes an extreme, saturated intensity of a color quality — specifically a concentrated, almost overwhelming redness or whiteness — as if the hue has been fully infused and intensified in the object.
+REC haqiqah_literal  : The literal physical meaning is a man of intense, saturated redness; and, by extension, a stark, intensely white object or person (أبيض دُمَّرِغ), indicating the utmost degree of whiteness.
+REC canon_def.ar     : الدُّمَّرِغُ: الرجلُ الشديدُ الحُمْرةِ. وأَبْيَضُ دُمَّرِغٌ: شديدُ البياضِ.
+REC canon_def.en     : Al-Dummarigh: a man of intense redness; and 'abyadu dummarigh': intensely white.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ذاح   stratum=ma
+REC ontological_core : The root ذ-ا-ح is not attested in the classical Arabic lexicographical tradition; no primary physical origin (aṣl al-waḍʿ) can be established from the cited sources.
+REC haqiqah_literal  : No literal physical meaning is attested in Lisān al-ʿArab, al-Mufradāt, or Asās al-Balāghah; the root is absent from the classical lexical corpus.
+REC canon_def.ar     : ذاح: لم يُذكر في لسان العرب ولا المفردات ولا أساس البلاغة؛ لا أصل له في المعاجم العربية الكلاسيكية.
+REC canon_def.en     : Dhāḥ: Not mentioned in Lisān al-ʿArab, Al-Mufradāt, or Asās al-Balāghah; it has no attested root in the classical Arabic lexicons.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT رفم   stratum=ma
+REC ontological_core : The root رفم denotes the foundational physical notion of complete, unbroken ease and plenitude — a state of total well-being and abundance that leaves nothing lacking.
+REC haqiqah_literal  : The literal physical meaning, as attested in Lisān al-ʿArab, is 'complete bliss' or 'perfect luxury' (al-naʿīm al-tāmm), indicating a state of unalloyed prosperity and comfort.
+REC canon_def.ar     : الرَّفَمُ: النَّعِيمُ التَّامُّ
+REC canon_def.en     : Al-rafam: complete bliss, perfect luxury.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT زحلف   stratum=ma
+REC ontological_core : The foundational physical origin of the root زحلف is the act of sliding or slipping downward, specifically the smooth, frictionless descent over a surface, as exemplified by children sliding from the top of a hill to its bottom. This core image of downward slippage underlies all subsequent literal and figurative applications.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (delineated from Lisān al-ʿArab) is the trace or track left by children sliding down a hill, and by extension, the act of sliding itself. It denotes a smooth, downward glide, often on a slippery surface, and is synonymous with زحلوقة (zuhlūqah) in the dialect of the ʿĀliyah tribe, while Tamīm pronounces it with a qāf (ز […]
+REC canon_def.ar     : الزُّحْلُوفَةُ: كالزُّحْلُوقَة، وقد تَزَحْلَفَ. وهي آثارُ تَزَلُّجِ الصِّبيان من فوقِ التَّلِّ إلى أَسْفَله، وهي لغة أهل العالية، وتميمٌ تقوله بالقاف، والجمع زحالِفُ وزَحالِيفُ.
+REC canon_def.en     : Al-Zuḥlūfah: like al-zuḥlūqah, and one says tazaḥlafa. It is the traces of children sliding from the top of a hill to its bottom; it is the dialect of the people of al-ʿĀliyah, while Tamīm pronounces it with a qāf; the plural is zaḥālif and […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 12669 hdr=زحلف] التَّزْحلُفُ والتَّزَحْلُقُ والتَّزَحْلُك واحدٌ، وهو قعودُ الصَّبيّ على رأس رابية فينزل على آسْتِه مَسْحاً. وازحَلَفَّ وازْلَحَفَّ مثل جذب وجبذ.
+
+================================================================================================
+ROOT زخا   stratum=ma
+REC ontological_core : The root denotes a toponymic designation (a place-name) attested in the poetry of Hudhayl, transmitted as زُخَيّات (a diminutive nominal form); its ontological status is onomastic rather than predicative, lacking a productive physical or eventive Aṣl al-Wadʿ in the classical lexical corpus.
+REC haqiqah_literal  : A proper place-name (موضع) occurring in Hudhaylī verse in the diminutive form زُخَيّات; the reading الزَّوَاخِي transmitted by some authorities is judged by Ibn Sīdah to be a scribal corruption (تصحيف) of the correct زُخَيّات with zāy and khāʾ.
+REC canon_def.ar     : الزَّوَاخِي: مواضع. قال ابن سيده: وزعم قوم أَن في شعر هذيل رُحَيّات وفسروه بأَنه موضع، قال: وهذا تصحيف إِنما هو زُخَيّات، بالزاي والخاء.
+REC canon_def.en     : Al-Zawākhī: place-names. Ibn Sīdah said: some authorities claimed that in Hudhaylī poetry there occurs [the form] Ruḥayyāt, which they interpreted as a place-name; he said: this is a scribal corruption—it is in fact Zukhayyāt, with zāy and  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT ززم   stratum=ma
+REC ontological_core : The root denotes a liminal, brackish state of water — neither purely fresh nor purely saline — situated at the threshold between two opposing qualities. Its reduplicative phonetic structure (ز-ز-م) mirrors this in-between condition, suggesting a substance that partakes of both extremes without fully belonging to either.
+REC haqiqah_literal  : Water that is neither fully salt nor fully sweet; brackish water occupying the intermediate zone between the saline and the potable.
+REC canon_def.ar     : ماء زُوَزِمٌ وزُوازِمٌ: بين المِلْحِ والعَذْبِ.
+REC canon_def.en     : Brackish water: that which lies between the salt and the sweet.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT زلقم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of swallowing a morsel (لُقْمَة) — specifically, the passage of food through the throat — and by concrete extension, the anatomical throat itself (الحلقوم) and the snout or muzzle of a predatory animal (خُرْطوم الكلب والسبع), the orifice through which such swallowing occurs.
+REC haqiqah_literal  : The literal physical meaning according to the classical lexicographers is twofold: (1) the throat or gullet (الحلقوم) in certain Arabic dialects, and (2) the snout or muzzle of a dog or beast of prey (خُرْطوم الكلب والسبع). The verbal form زَلْقَمَ denotes the concrete act of swallowing a morsel (بَلَعَ اللُّقْمَةَ).
+REC canon_def.ar     : الزُّلْقُومُ: الحلقوم في بعض اللغات، وخُرْطومُ الكلب والسبع. وزَلْقَمَ اللُّقْمَةَ: بَلَعَها.
+REC canon_def.en     : Al-Zulqūm: the throat or gullet in certain dialects, and the snout of a dog or beast of prey. And zalqama al-luqma: he swallowed the morsel.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT سجست   stratum=ma
+REC ontological_core : A quadriliteral (rubāʿī) toponym of Persian provenance denoting a well-known administrative region (kūrah), with no attested Arabic verbal root origin (aṣl al-waḍʿ) in the classical lexical tradition.
+REC haqiqah_literal  : The literal, extra-lexical referent is the proper place-name Sijistān/Sajistān (Sīstān), a recognized province; the form is a loanword (muʿarrab) and not a native Arabic ḥaqīqah derived from an Arabic root.
+REC canon_def.ar     : سِجْسَتانُ وسَجِسْتانُ: كُورَةٌ معروفة، وهي فارسية، ذكره ابن سيده في الرباعي.
+REC canon_def.en     : Sijistān and Sajistān: a well-known province; it is Persian, cited by Ibn Sīdah among the quadriliteral forms.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

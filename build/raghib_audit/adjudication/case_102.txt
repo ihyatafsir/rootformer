@@ -1,0 +1,12 @@
+================================================================================================
+ROOT نشع   stratum=mA
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of administering a substance into the mouth or throat, specifically forcing a liquid or medicine into someone's mouth, and by extension, the giving of a fee or bribe to a soothsayer to induce speech.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is: 'نشع الصبي الدواء وأنشعه' — he poured the medicine into the boy's mouth, or made him swallow it; the medicine itself is called 'نشوع', and the act is 'انتشعه'. The instrument is 'منشع الصبي' — the device used to administer medicine to the boy, i.e., a syringe or funnel.
+REC canon_def.ar     : النَّشْعُ: جُعْلُ الكاهِنِ، وقد أَنْشَعَه. ونَشَعَ الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه.
+REC canon_def.en     : Al-Nashʿ: the soothsayer's fee, and he gave it to him. He administered medicine to the boy, or made him swallow it; the medicine is called nashūʿ, and the act is intashʿa. This is the boy's minshaʿ: a syringe or funnel.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 71446 hdr=نشع] النون والشين والعين كلمة واحدة. نشعت الصبى الوجور نشعا فانتشعه، أى جرعه. والمصدر النشوع. قال: نشعت المحد في أنفي نشوعا (2)
+SRC Asas [haqiqah_literal]        : نشع الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه.
+SRC Asas [majaz_metaphorical]        : نشع فلان كذا وبكذا. قال مرار بن منقذ: إليكم يا لئام الناس إني ... نشعت العز في أنفي نشوعا وقال مغلس الربعي: خليلي إن أصعدتما أو مررتما ... على أهل حنفاء الغضا فاذكرانيا وقولا أثيبي يا علي متيما ... أخا الموت منشوعا بذكراك عانيا وقال عبدة بن الطبيب: لا تأمنوا قوما يشب صبيهم ... بي
+SRC Asas [bilingual_haqiqah_majaz]        : نشع الصبي الدواء وأنشعه: أوجره وهو النشوع فانتشعه. وهذا منشع الصبي: لمسعطه. Metaphorical (Majaz): نشع فلان كذا وبكذا. قال مرار بن منقذ: إليكم يا لئام الناس إني ... نشعت العز في أنفي نشوعا وقال مغلس الربعي: خليلي إن أصعدتما أو مررتما ... ع
+SRC Ayn (al-Khalil)  : [line 2921 hdr=نشع] النَّشُوعُ: الوَجُورُ. والنَّشع: إيجارك الصبيّ. قال: «5» فألأم مُرْضَعٍ نُشِعَ المحارا والنَّشْعُ: جُعْل الكاهن يقول: أنشعنا الجارية إنشاعاً. قال: «6» قال الحوازي واستحت أن تنشعا

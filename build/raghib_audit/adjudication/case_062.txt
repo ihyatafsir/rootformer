@@ -1,0 +1,10 @@
+================================================================================================
+ROOT وسوس   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root is a faint, concealed sound: the whispering jingle of ornaments and the stealthy murmur of a hunter luring game. From this acoustic substrate, the root's primary sense extends to any hidden, low-voiced utterance that steals into the mind.
+REC haqiqah_literal  : The literal, sensory meaning is the faint sound of jewelry (ḥalī) and the concealed whisper (hams khafī) of a hunter; hence the verb denotes the act of producing such a low, hidden sound.
+REC canon_def.ar     : الوَسْوَسَةُ: الخَطْرَةُ الرَّدِيئَةُ، وأَصْلُهُ مِنَ الوَسْوَاسِ، وهو صَوْتُ الحَلْيِ، والهَمْسُ الخَفِيُّ.
+REC canon_def.en     : Al-Waswasah: the evil thought; its origin is from al-Waswās, which is the sound of ornaments and the concealed whisper.
+SRC al-Mufradat      : [line 35425 hdr=وسوس] الوسوسة: الخطرة الرديئة، وأصله من الوسواس، وهو صوت الحلي، والهمس الخفي. قال الله تعالى: فوسوس إليه الشيطان [طه/ 120]، وقال: من شر الوسواس [الناس/ 4] ويقال لهمس الصائد وسواس.
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 30642 hdr=وسوس] الوسوسة: حديث النّفس. والوسواس: الصوت الخفي من ريحٍ تهزّ قصباً ونحوه، وبه يُشَبّه صوتُ الحلي، قال الأعشى «423» : تسمع للحلي وسواسا إذا انصرفت ... كما استعان بريحٍ عِشْرِقٌ زَجِلُ

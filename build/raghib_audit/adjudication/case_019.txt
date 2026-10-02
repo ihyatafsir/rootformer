@@ -1,0 +1,10 @@
+================================================================================================
+ROOT فوج   stratum=MA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is a group of people in motion—specifically, a company or band that passes along swiftly and in successive waves, conceived as a moving collective rather than a static aggregate.
+REC haqiqah_literal  : A company or band of people passing by rapidly; a troop or crowd advancing in motion, such that the valley surges with them wave upon wave.
+REC canon_def.ar     : الفَوْجُ: الجماعة من الناس المارّة المسرعة، والجمع أَفْوَاجٌ وأَفَاوِجُ وأَفَاوِيجُ.
+REC canon_def.en     : Al-Fawj: a company of people passing by swiftly; its plurals are afwāj, afāwij, and afāwīj.
+SRC al-Mufradat      : [line 25978 hdr=فوج] الفوج: الجماعة المارة المسرعة، وجمعه أفواج. قال تعالى: كلما ألقي فيها فوج [الملك/ 8]، هذا فوج مقتحم معكم [ص/ 59]، في دين الله أفواجا [النصر/ 2].
+SRC Maqayis (IbnFaris): [line 57337 hdr=فوج] الفاء والواو والجيم كلمة تدل على تجمع. من ذلك الفوج: الجماعة من الناس، والجمع أفواج، وجمع الجمع أفاوج وأفاويج. وأما أفاج الرجل، إذا أسرع، فهو من ذوات الياء، والنيج منه.
+SRC Asas [haqiqah_literal]        : أقبلوا فوجا فوجا، يموج بهم الوادي موجا.
+SRC Ayn (al-Khalil)  : [line 26143 hdr=فوج] الفَوجُ: القطيع من الناس، والجميعُ: الأفواجُ. __________ (1) ديوانه ص 498. (2) الرجز في اللسان (حنكل) غير منسوب أيضا باب الجيم والباء و (وا يء) معهما ج بء، جء ب، بء ج، ج ب ي، ج ي ب، ج وب، وج ب، ب وج مستعملات

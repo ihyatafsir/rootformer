@@ -1,0 +1,171 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+test_grammar_impl.py -- correctness audit of the implemented classical algorithms.
+
+Tests each implemented algorithm against concrete, documented cases and prints PASS/FAIL.
+Nothing here trusts a report: every check either exercises the code or measures the data.
+
+  Al-Khalil:  phonotactic exclusion set vs the 9015-root Farahidian lexicon
+  Sibawayh:   operator state persistence (al-'Amil governs across distance, not just t-1)
+              operator -> wazn masks; valency/constituent stack usage in the NRMP path
+  Ibn Malik:  Lamiyyat al-Af'al verb tree; Alfiyyah POS automaton (coordinator exception)
+  Al-Taqalib: S^3 permutation orbit parameter sharing
+  Al-Shatibi: waw disambiguation function coverage
+"""
+import json
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR))
+sys.path.insert(0, str(ROOT_DIR / 'models'))
+
+LEXICON = Path('/workspace/rootformer_v12/v18_next_root_morph/data/farahidian_3pillar_lexicon_clean.json')
+
+RESULTS = []
+
+
+def check(name, ok, detail=''):
+    RESULTS.append((name, ok, detail))
+    print(f'  [{"PASS" if ok else "FAIL"}] {name}' + (f'  -- {detail}' if detail else ''))
+
+
+def main():
+    import nrmp_vocab as nv
+    cls = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+    vocab = cls(str(ROOT_DIR / 'data/rootformer_v12_arabic_blueprint.json'))
+    lex = json.load(open(LEXICON, encoding='utf-8')) if LEXICON.exists() else {}
+
+    from sibawayh_governance_engine import SibawayhNRMPGovernance
+    gov = SibawayhNRMPGovernance(vocab)
+
+    print('\n=== AL-KHALIL (Kitab al-Ayn): phonotactic exclusion ===')
+    forb = gov.khalil_forbidden_roots
+    bare = [vocab.id2root[i] for i in sorted(forb)
+            if len(vocab.id2root[i]) == 3 and vocab.id2root[i].startswith('ا')]
+    legit = [r for r in bare if r in lex]
+    check('no legitimate hamza-initial root is excluded',
+          len(legit) == 0,
+          f'{len(legit)} real roots wrongly forbidden (e.g. {legit[:8]})' if legit else '')
+    # spot-check the well-known ones
+    spot = ['اصل', 'ارض', 'اخذ', 'احد', 'اسس', 'افل', 'اثر']
+    dead = [r for r in spot if r in vocab.root2id and vocab.root2id[r] in forb]
+    check('spot-check اصل/ارض/اخذ/احد/اسس allowed', not dead, f'still killed: {dead}')
+    c12 = [vocab.id2root[i] for i in sorted(forb)
+           if len(vocab.id2root[i]) == 3 and vocab.id2root[i][0] == vocab.id2root[i][1]]
+    check('C1==C2 roots are excluded (correct rule)', len(c12) > 0, f'{len(c12)} excluded')
+    # same-makhraj rule should not forbid different-makhraj guttural pairs
+    false_gut = [r for r in ('عهد', 'عهل', 'حعل') if r in vocab.root2id and vocab.root2id[r] in forb]
+    print(f'       note: guttural-clash rule is only 6 same-makhraj pairs; '
+          f'a full 17-makhraj matrix is NOT compiled (reports list it as remaining agenda)')
+
+    print('\n=== SIBAWAYH (Al-Kitab): operator governance ===')
+    def st(word):
+        enc = vocab.encode_word(word)
+        return gov.get_operator_state(enc)
+
+    check('preposition "في" -> HARF_JARR', st('في') == 'HARF_JARR', st('في'))
+    check('jussive "لم" -> HARF_JAZM', st('لم') == 'HARF_JAZM', st('لم'))
+    check('subjunctive "لن" -> HARF_NASB', st('لن') == 'HARF_NASB', st('لن'))
+    check('"إن" -> INNA', st('إن') == 'INNA', st('إن'))
+
+    # al-'Amil must govern ACROSS an intervening noun/adjective, not just one step.
+    def op_after(sentence):
+        enc = vocab.encode_sentence(sentence)
+        states = [gov.get_operator_state(t) for t in enc]
+        return states
+    s = 'في الأجسام الشفافة'
+    states = op_after(s)
+    print(f'       "{s}" operator states per position: {states}')
+    persists = states[2] == 'HARF_JARR'
+    check('government persists across an intervening noun (في الاجسام الشفافة)',
+          persists,
+          'state is recomputed from t-1 only, so the government is lost after one word'
+          if not persists else '')
+
+    # operator -> wazn masks
+    wl = __import__('torch').zeros(vocab.num_awzan)
+    masked = gov.apply_wazn_exclusion_mask(wl.clone(), 'HARF_JARR', -1, is_radical_root=True)
+    verbal = [i for i in gov.all_verbal_awzan_ids if masked[i] == 0]
+    check('Harf Jarr forbids all finite verbal awzan', not verbal,
+          f'{len(verbal)} verbal awzan still allowed' if verbal else '')
+    check('imperfect-awzan range (114..129) is actually the imperfect set',
+          all(vocab.awzan_list[i].startswith(('ي', 'ت', 'أ', 'ن')) for i in range(114, 130)),
+          f'e.g. {vocab.awzan_list[118]}')
+
+    # is the constituent/valency stack wired into the NRMP path?
+    import inspect
+    import rootformer_v18_nrmp_model as rv
+    src = inspect.getsource(rv)
+    check('Sibawayh constituent valency stack used in the NRMP decoder',
+          'ConstituentStack' in src or 'valency' in src.lower(),
+          'SibawayhConstituentStack exists in basran_syntactic_engine.py but is not called '
+          'from the NRMP path')
+    ih = inspect.getsource(rv.RootformerV18_NRMP.__init__)
+    check('particle root index 4 (<PARTICLE>) masked in generation',
+          'PARTICLE' in inspect.getsource(rv.RootformerV18_NRMP.generate_words),
+          '')
+
+    print('\n=== IBN MALIK (Andalusian): Lamiyyat al-Af\'al + Alfiyyah automaton ===')
+    from andalusian_grammatical_algorithms import IbnMalikVerbTransmuter, IbnMalikPOSAutomaton
+    cases = [('فتح', 'a', 'يَفْعَلُ'), ('سأل', 'a', 'يَفْعَلُ'), ('ذهب', 'a', 'يَفْعَلُ'),
+             ('شرح', 'a', 'يَفْعَلُ'), ('كرم', 'u', 'يَفْعُلُ'), ('فرح', 'i', 'يَفْعَلُ'),
+             ('ورث', 'i', 'يَفْعِلُ')]
+    bad = [(r, p) for r, pv, p in cases
+           if IbnMalikVerbTransmuter.predict_imperfect_wazn(r, pv)['wazn'] != p]
+    check('Lamiyyat al-Af\'al decision tree matches all 7 documented examples',
+          not bad, f'mismatches: {bad}' if bad else '')
+
+    T = IbnMalikPOSAutomaton.PERMISSIBLE_TRANSITIONS
+    check('Harf -> Harf is forbidden', 3 not in T[3], f'T[3]={T[3]}')
+    check('Fi\'l -> Ism is allowed', 1 in T[2], f'T[2]={T[2]}')
+    coord_ok = 2 in T[2]
+    check('Fi\'l -> Fi\'l allowed when joined by a coordinator (و/ف)', coord_ok,
+          "the Alfiyyah forbids Fi'l->Fi'l only WITHOUT a coordinating particle; "
+          f"T[2]={T[2]} blocks it unconditionally, so 'قام وقعد' is rejected")
+    check('definiteness hierarchy (Maratib al-Ma\'arif) implemented',
+          hasattr(IbnMalikPOSAutomaton, 'RANK') or 'maratib' in dir(IbnMalikPOSAutomaton).__str__().lower(),
+          'not implemented (pronoun > proper > demonstrative > definite > indefinite)')
+
+    print('\n=== AL-TAQALIB (Al-Khalil S^3 permutation orbits) ===')
+    emb = dict(nv.__dict__)
+    check('permutation-equivalent roots share embedding parameters',
+          False,
+          'roots are independent one-hot ids: علم and عمل have no parameter sharing, '
+          'so the Taqalib orbit equivariance is not implemented')
+    try:
+        from models.khalil_combinatorics import KhalilPermutationOrbits  # type: ignore
+        exists = True
+    except Exception:
+        exists = False
+    check('KhalilPermutationOrbits class exists', exists, '' if exists else 'module not importable')
+
+    print('\n=== AL-SHATIBI: waw disambiguation ===')
+    from khalil_students_andalusian_master_engine import ShatibiWawDisambiguator
+    outs = set()
+    for prev, nxt, start in [('اسم', 'اسم', False), ('فعل', 'اسم', False),
+                             ('اسم', 'فعل', True), ('اسم', 'اسم', True)]:
+        try:
+            outs.add(ShatibiWawDisambiguator.classify_waw(prev, nxt, start))
+        except Exception as e:
+            outs.add(f'<err {type(e).__name__}>')
+    check('waw classifier distinguishes >1 function (Aṭf / Ḥāl / Istiʾnāf / Qasam)',
+          len(outs) > 1, f'distinct outputs={sorted(outs)}'
+          + (' -- every waw collapses to "and"' if len(outs) <= 1 else ''))
+
+    print('\n' + '=' * 74)
+    n_fail = sum(1 for _, ok, _ in RESULTS if not ok)
+    print(f'RESULT: {len(RESULTS)-n_fail}/{len(RESULTS)} checks pass, {n_fail} FAIL')
+    print('=' * 74)
+    for name, ok, detail in RESULTS:
+        if not ok:
+            print(f'  FAIL  {name}')
+            if detail:
+                print(f'        {detail}')
+
+
+if __name__ == '__main__':
+    main()

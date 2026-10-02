@@ -1,0 +1,55 @@
+--- nrmt_train.py
++++ nrmt_train_width.py
+@@ -42,7 +42,8 @@
+ import torch
+ import torch.nn.functional as F
+ 
+-ROOT_DIR = Path(__file__).resolve().parent
++# WIDTH FORK: pinned (this copy does not live next to models/ and nrmt_arch.py)
++ROOT_DIR = Path('/workspace/hf_v19_2_release')
+ sys.path.insert(0, str(ROOT_DIR))
+ sys.path.insert(0, str(ROOT_DIR / 'models'))
+ 
+@@ -267,6 +268,13 @@
+                          '`everyK` / explicit `a,b,c`.  RCA set should equal the unfrozen set, '
+                          'else the RCA of a frozen layer can never learn (its gate stays 0).')
+     ap.add_argument('--rca-heads', type=int, default=8, help='heads in the cross-attention')
++    ap.add_argument('--rca-dim', type=int, default=0,
++                    help='WIDTH LEVER: internal attention width d_attn of the cross-attention'
++                         ' (the space q/k/v and the attended context live in; per-head dim ='
++                         ' d_attn/heads).  0 = shipped = d_model.  --rca-dim 1792 doubles it'
++                         ' (heads 8x224).  NOTE: k_proj/v_proj read the FROZEN 448-dim'
++                         ' morphemic_embed.root_embed, so this raises CAPACITY, not the'
++                         ' information rate of the root channel (which is already 448/896)')
+     ap.add_argument('--rca-dropout', type=float, default=0.0)
+     ap.add_argument('--rca-out-std', type=float, default=1e-3,
+                     help='std of the zero-gated o_proj init (mirrors --feat-gate-proj-std: the '
+@@ -431,15 +439,16 @@
+     unfrozen_layers = []
+     rca_layers = []
+     if str(args.root_cross_attn).strip().lower() not in ('', 'none', 'off', '0'):
+-        if '/workspace/root_attn' not in sys.path:
+-            sys.path.insert(0, '/workspace/root_attn')
+-        from root_cross_attn import RootCrossAttentionStack, parse_layer_spec
++        if '/workspace/root_attn_width' not in sys.path:
++            sys.path.insert(0, '/workspace/root_attn_width')
++        from root_cross_attn_width import RootCrossAttentionStack, parse_layer_spec
+         rca_layers = parse_layer_spec(args.root_cross_attn, len(model.backbone.layers))
+     if rca_layers:
+         rca_stack = RootCrossAttentionStack(
+             model.d_model, model.morphemic_embed.root_embed, rca_layers,
+             num_heads=args.rca_heads, dropout=args.rca_dropout, out_std=args.rca_out_std,
+-            dtype=torch.float32, out_norm=bool(args.rca_out_norm)).to(device=device)
++            dtype=torch.float32, out_norm=bool(args.rca_out_norm),
++            d_attn=(int(args.rca_dim) or None)).to(device=device)
+         rca_stack.exclude_current = bool(args.rca_exclude_current)
+         model.root_cross = rca_stack           # registers the new params on the owning model
+         rca_stack.attach(model.backbone.layers)
+@@ -993,6 +1002,7 @@
+                             'rca_layers': rca_layers, 'live': True,
+                             'rca_exclude_current': bool(args.rca_exclude_current),
+                             'rca_heads': int(args.rca_heads),
++                            'rca_dim': int(args.rca_dim or model.d_model),
+                             'rca_out_norm': bool(args.rca_out_norm),
+                             'rca_dropout': float(args.rca_dropout),
+                             'trunk_lr_scale': args.trunk_lr_scale,

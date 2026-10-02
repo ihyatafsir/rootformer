@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عنته   stratum=ma
+REC ontological_core : The root ع ن ت ه (ʿ-n-t-h) is a quadriliteral (rubāʿī) formation, likely of onomatopoeic or dialectal origin, denoting intense, exaggerated immersion or exertion in an affair. Its foundational physical image is that of a person plunging headlong into a matter with excessive zeal, to the point of saturating or exhausting it.
+REC haqiqah_literal  : The literal physical meaning, as attested in Lisān al-ʿArab, is a man who is عُنْتُهٌ or عُنْتُهِيٌّ — that is, one who goes to extremes and exerts himself excessively in an affair once he has entered into it.
+REC canon_def.ar     : رجل عُنْتُهٌ وعُنْتُهِيٌّ، وهو المُبالِغُ في الأمرِ إذا أَخذَ فيه.
+REC canon_def.en     : A man who is ʿuntuh or ʿuntuhiyy — one who goes to extremes in an affair once he has entered into it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

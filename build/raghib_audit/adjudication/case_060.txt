@@ -1,0 +1,10 @@
+================================================================================================
+ROOT لغا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ل-غ-ا is the emission of unstructured, non-referential sound — specifically the chirping of sparrows and similar birds — which carries no semantic weight, no deliberative intent, and no consequential effect. From this acoustic substrate, the root extends to any utterance or act that is discarded, unaccounted for, and yields no benefit.
+REC haqiqah_literal  : The literal physical meaning is sound that is mere noise: the twittering of sparrows and other birds, and by extension any speech emitted without reflection or deliberation, falling outside the domain of intentional, meaningful discourse. It is the acoustic residue that carries no informational or practical payload.
+REC canon_def.ar     : اللَّغْو واللَّغا: السَّقَط وما لا يُعتدّ به من كلام وغيره، ولا يُحصَل منه على فائدة ولا نفع. وقيل: هو ما كان من الكلام غير معقود عليه.
+REC canon_def.en     : Al-laghw and al-laghā: the discarded and the unaccounted-for in speech and otherwise, from which no benefit or utility is obtained. It is also said: that which is of speech not contracted upon.
+SRC al-Mufradat      : [line 30003 hdr=لغا] اللغو من الكلام: ما لا يعتد به، وهو الذي يورد لا عن روية وفكر، فيجري مجرى اللغا، وهو صوت العصافير ونحوها من الطيور، قال أبو عبيدة: لغو ولغا، نحو: عيب وعاب وأنشدهم: 407- عن اللغا ورفث التكلم (5) يقال: لغيت تلغى. نحو: لقيت تلقى، وقد يسمى كل كلام قبيح لغوا. قال: لا يسمعون فيها لغوا ولا كذابا [النبأ/ 35]، وقال: وإذا سمعوا اللغو أعرضوا عنه [القصص/ 55]، لا يسمعون فيها لغوا ولا تأثيما [الواقعة/ 25]، وقال: والذين هم عن اللغو معرضون [المؤمنون/ 3]، وقوله: وإذا مروا باللغو مروا كراما [الفرقان/ 72]، أي: كنوا عن القبيح لم يصرحوا، وقيل: معناه: إذا صادفوا أهل اللغو لم يخوضوا معهم. ويستعمل اللغو فيما لا يعتد به، ومنه اللغو في ال […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

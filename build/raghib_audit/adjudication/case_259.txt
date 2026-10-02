@@ -1,0 +1,10 @@
+================================================================================================
+ROOT وعم   stratum=ma
+REC ontological_core : The root وعم denotes the act of addressing a dwelling-place or ruin with the imperative of well-being and enduring prosperity, rooted in the physical practice of saluting abandoned campsites and invoking blessing upon them.
+REC haqiqah_literal  : To say to a house or ruin 'may you thrive and prosper' (انْعِمي), addressing it directly with the imperative of well-being.
+REC canon_def.ar     : يقال: وَعَمْتُ الدارَ أَعِمُ وَعْمًا، أي قلت لها انْعِمي.
+REC canon_def.en     : It is said: I addressed the dwelling with the salutation 'may you thrive' — that is, I said to it 'thrive and prosper.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

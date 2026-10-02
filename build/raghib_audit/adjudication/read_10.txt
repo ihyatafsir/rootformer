@@ -1,0 +1,230 @@
+================================================================================================
+ROOT ضوم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in the classical lexicographical tradition as an independent radical cluster; Ibn Manẓūr records it only as a dialectal or orthographic variant of ضيم (ḍ-y-m), whose primary physical sense is the exertion of force or pressure upon a thing, resulting in injustice or wrong.
+REC haqiqah_literal  : The literal physical meaning, as recorded by Ibn Manẓūr, is the act of wronging or oppressing someone: ضُمْتُه, i.e., ظَلَمْتُه ('I wronged him'). This is treated as a variant of ضِمْتُه, with the same concrete sense of imposing an unjust burden or harm.
+REC canon_def.ar     : ضُمْتُه: كضِمْتُه، أَي ظَلَمْتُه.
+REC canon_def.en     : I wronged him: equivalent to ḍimtuhu, meaning I treated him unjustly.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT طرخ   stratum=ma
+REC ontological_core : A constructed basin or reservoir, wide like a cistern, positioned at the outlet of a water channel, in which water gathers before bursting forth to irrigate a cultivated field.
+REC haqiqah_literal  : The concrete, physical referent is a wide, basin-like reservoir (mājil) built at the mouth of a canal or qanāt, functioning as a collecting and discharge point for irrigation water before it flows into the farmland.
+REC canon_def.ar     : الطَّرْخَة: ماجِلٌ يُتَّخَذُ كالحوض الواسع عند مخرج القناة، يجتمع فيها الماء ثم يتفجر منها إلى المزرعة، وهو دخيل ليست فارسية محضة ولا عربية محضة.
+REC canon_def.en     : Al-ṭarkhah: a wide basin-like reservoir constructed at the outlet of a water channel, in which water gathers and then bursts forth to the cultivated field; it is a loanword, neither purely Persian nor purely Arabic.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 16485 hdr=طرخ] الطَّرْخةُ: ماء «4» يجتمع كالحوض الواسع عند مخرج القناة يجتمع فيها ماء كثير ثم يفتح منها إلى المزارع، دخيل، ليس بعربية محضة. وطَرْخان اسم رجل بلغة خراسان. __________ (1) جاء في اللسان والخرا والخرا والخريى والخراي شحمة...... (2) لم نهتد إلى الراجز ولا إلى الرجز. (3) كذا في الأصول المخطوطة واللسان، وأما في التهذيب 7/ 229 فهو: الشرك. (4) كذا في الأصول المخطوطة، وأما في التهذيب واللسان فهو: ماجل. باب الخاء والطاء واللام […]
+
+================================================================================================
+ROOT طوغ   stratum=ma
+REC ontological_core : The root ط-و-غ denotes transgression, overflow, and exceeding the proper bound — the foundational physical image being that of a torrent or flood that bursts its channel and overruns its limits, hence any entity that oversteps the measure of the created order.
+REC haqiqah_literal  : In its strict literal (ḥaqīqah) sense, طاغوت designates any object of worship set up alongside or instead of God — idols, the Devil, soothsayers, or human authorities who claim absolute obedience — insofar as each has transgressed (ṭaghā) the bound of creatureliness and usurped a prerogative belonging to the Divine alone.
+REC canon_def.ar     : الطَّاغُوتُ: ما عُبِدَ من دون الله عز وجل، وكلُّ رَأْسٍ في الضلالِ طاغوتٌ؛ وقيل: الأَصْنامُ، وقيل: الشيطانُ، وقيل: الكَهَنةُ، وقيل: مَرَدةُ أَهل الكتاب.
+REC canon_def.en     : Al-ṭāghūt: that which is worshipped besides God — Mighty and Majestic — and every leader in error is a ṭāghūt; it is said to be idols, or the Devil, or soothsayers, or the rebellious ones among the People of the Book.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT طيم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of innate formation and molding—God's original constitution of a creature's nature, as in clay shaped by a potter. This concrete sense of kneading and shaping underlies the abstract notion of inborn disposition.
+REC haqiqah_literal  : The literal physical meaning is God's creation and formation of a being according to a fixed innate constitution, as expressed in the phrase طامَهُ اللهُ على الخَير (God molded him upon good). The noun الطِّيماء denotes the resulting innate nature or natural disposition, e.g., الشِّعْر مِنْ طِيمائِه (poetry is from his innate disposition).
+REC canon_def.ar     : طامَهُ الله على الخَير يَطِيمُه طَيْماً: جَبَله. والطِّيماءُ: الجِبِلَّةُ والطبيعةُ.
+REC canon_def.en     : God molded him upon good, He forms him innately: He created him with an innate constitution. And الطِّيماء means innate nature and natural disposition.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عده   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the nominal form عَيْدَه, denoting an ingrained defect of temperament or constitution, specifically ill-nature or vicious disposition in humans and camels.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is the concrete quality of being ill-tempered or vicious, as predicated of a person or a camel.
+REC canon_def.ar     : العَيْدَهُ: السَّيِّءُ الخُلُقِ من الناس والإِبل.
+REC canon_def.en     : Al-ʿaydah: the ill-natured one among people and camels.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 773 hdr=عده] يقال: في فلان عَيْدَهيَّةٌ وعَيْدَهَةٌ أيْ كِبْرٌ وسُوُء خُلُقٍ والعَيْدَهُ: السَّيِّءُ الخُلُق من الإبلِ، قال رؤبة: «3» وخافَ صَقْع القارعات الكده ... وخبط صهميم اليَدَيْنِ عَيْدَه أَشْدَقَ يَفْتَرُّ افتِرارَ الأفْوَهِ
+
+================================================================================================
+ROOT عرجل   stratum=ma
+REC ontological_core : The root ع-ر-ج-ل denotes a collective body of beings or entities moving on foot or in a compact group, with an underlying physical image of a mass of walkers or a herd gathered together.
+REC haqiqah_literal  : A group or troop of horses; a group of people, specifically a group of foot-soldiers or pedestrians; a herd of goats.
+REC canon_def.ar     : العَرْجَلة: القِطْعة من الخيل، وقيل: الجماعة منها. والعَرْجَلة: الجماعة من الناس، وقيل: جماعة الرَّجّالة. وخَرَجَ القومُ عَرَاجِلَةً أَي مُشاةً. والعَرْجَلة: الجماعةُ من المَعَز.
+REC canon_def.en     : Al-ʿarjalah: a troop of horses, or a group thereof. Al-ʿarjalah: a group of people, or a group of foot-soldiers. The people went out as ʿarājilah, i.e., on foot. Al-ʿarjalah: a herd of goats.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 7751 hdr=عرجل] العَرْجَلَةُ: القطيعُ من الخيل. وهي بلغة تميم الحَرْجلة.
+
+================================================================================================
+ROOT عردل   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on hardness, rigidity, and firmness of a physical body or structure — the quality of being solid, unyielding, and resistant to pressure.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is: a solid, hard, and extremely strong entity; something rigid and unyielding in its physical constitution.
+REC canon_def.ar     : العَرْدَلُ: الصُّلْبُ الشَّدِيدُ، والعَرَنْدَلُ مِثْلُهُ، والنون زائدة.
+REC canon_def.en     : Al-ʿardal: the solid, extremely strong; and al-ʿarandal is the same, with the nūn being augmentative.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عظط   stratum=ma
+REC ontological_core : A marginal, dialectally-attested root denoting the act of exposing or uncovering oneself during intimate congress; its foundational physical origin is the manifest disclosure of the body in the marital act.
+REC haqiqah_literal  : The literal physical meaning is the act of a man uncovering or exposing himself when he comes to his wife for intercourse.
+REC canon_def.ar     : قال الأَزهري في ترجمة عذط: ومنهم من يقول: عِظْيَوْطٌ، بالظاء، وهو الذي إِذا أَتَى أَهلَه أَبْدَى.
+REC canon_def.en     : Al-Azhari, in the entry for ʿadhṭ, reports: some say ʿiẓyawṭ, with ẓāʾ, meaning one who exposes himself when he comes to his wife.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عقا   stratum=ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of this root is the open, cleared tract of ground immediately surrounding a dwelling or settlement — the courtyard, precinct, or vacant lot abutting a house or quarter. The root denotes spatial periphery and open circumjacent ground, not the structure itself but the cleared space that encircles and belongs to it.
+REC haqiqah_literal  : The literal, physical meaning is the courtyard (sāḥah) of a house and the open ground surrounding a dwelling, quarter, or locality; the plural forms are ʿiqāʾ. One says nazala bi-ʿaqwatihi, 'he alighted in its courtyard,' and mā bi-ʿaqwati hādhihi al-dāri mithlu fulān, 'there is no one in the precinct of this house like so-and-so.'
+REC canon_def.ar     : العَقْوةُ والعَقَاةُ: الساحة وما حَوْلَ الدارِ والمَحَلَّة، وجمعُهما عِقاءٌ. وعَقْوَةُ الدار: ساحَتُها.
+REC canon_def.en     : Al-ʿaqwah and al-ʿaqāh: the courtyard and the area surrounding a house or quarter; their plural is ʿiqāʾ. The ʿaqwah of a house is its courtyard.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عنته   stratum=ma
+REC ontological_core : The root ع ن ت ه (ʿ-n-t-h) is a quadriliteral (rubāʿī) formation, likely of onomatopoeic or dialectal origin, denoting intense, exaggerated immersion or exertion in an affair. Its foundational physical image is that of a person plunging headlong into a matter with excessive zeal, to the point of saturating or exhausting it.
+REC haqiqah_literal  : The literal physical meaning, as attested in Lisān al-ʿArab, is a man who is عُنْتُهٌ or عُنْتُهِيٌّ — that is, one who goes to extremes and exerts himself excessively in an affair once he has entered into it.
+REC canon_def.ar     : رجل عُنْتُهٌ وعُنْتُهِيٌّ، وهو المُبالِغُ في الأمرِ إذا أَخذَ فيه.
+REC canon_def.en     : A man who is ʿuntuh or ʿuntuhiyy — one who goes to extremes in an affair once he has entered into it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عنسل   stratum=ma
+REC ontological_core : The root's foundational physical origin is rapid, forceful, and agile motion, specifically the swift, bounding, or trotting gait characteristic of a wolf (عَسَلان الذئب), from which the quadriliteral root is derived by the addition of the augmentative نون.
+REC haqiqah_literal  : The literal physical meaning is a strong, swift she-camel (الناقة القوية السريعة), characterized by speed and power in her movement.
+REC canon_def.ar     : العَنْسَل: الناقة القوية السريعة، والنون زائدة، مأخوذ من عَسَلان الذئب.
+REC canon_def.en     : Al-ʿansal: the strong, swift she-camel; the nūn is augmentative, derived from the wolf's swift, bounding gait.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 7900 hdr=عنسل] العَنْسَل: الناقةُ السريعةُ الوَثيقةُ الخَلْقِ.
+
+================================================================================================
+ROOT عنشق   stratum=ma
+REC ontological_core : The root denotes a nominal entity, likely a plant or natural object, with no attested verbal derivation in the classical lexicon; its foundational physical origin is obscure but points to a concrete, perhaps botanical, referent.
+REC haqiqah_literal  : A literal noun (ism) referring to a specific entity, possibly a plant or shrub, as recorded in Lisān al-ʿArab without metaphorical extension.
+REC canon_def.ar     : عَنْشَق: اسم.
+REC canon_def.en     : ʿAnshaq: a noun.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عنقس   stratum=ma
+REC ontological_core : The root denotes elongation and stretching, specifically a tall, slender, and extended bodily frame; its foundational physical image is that of something drawn out or extended in length.
+REC haqiqah_literal  : A tall, slender woman of extended stature; the literal physical meaning is a woman characterized by elongation and height.
+REC canon_def.ar     : العَنْقَس من النساء: الطويلة المُعْرِقة.
+REC canon_def.en     : Al-ʿAnqas, of women: the tall, slender one of extended stature.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عنكث   stratum=ma
+REC ontological_core : The root denotes a specific desert plant or shrub, characterized by its dense, tangled, matted growth and its desirability as forage for the spiny-tailed lizard (ḍabb).
+REC haqiqah_literal  : A type of desert vegetation or shrub that grows in a tangled, matted form; it is a plant craved by the ḍabb (spiny-tailed lizard), which scrapes it with its tail.
+REC canon_def.ar     : العَنْكَثُ: ضَرْبٌ من النَّبْتِ، وقيل: هو شجر يَشْتَهيه الضَّبُّ فيَسْحَجُها بِذَنَبِه
+REC canon_def.en     : Al-ʿankath: a type of vegetation; it is said to be a shrub that the spiny-tailed lizard (ḍabb) craves, scraping it with its tail.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT عنه   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is a specific desert plant or herb, termed العِنْه, characterized by its growth in arid environments; this botanical entity serves as the concrete substrate from which all derived meanings emanate.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the plant known as العِنْه (al-ʿinh), a singular unit being عِنْهَة (ʿinhah), which is a type of herbage or vegetation.
+REC canon_def.ar     : العِنْهُ نَبْتٌ، واحدتُه عِنْهَةٌ
+REC canon_def.en     : Al-ʿinh is a plant; its singular unit is ʿinhah.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT غيذ   stratum=ma
+REC ontological_core : The root غيذ denotes the act of forming a correct conjecture that subsequently proves true; its foundational physical origin is the hitting or striking of a target, from which the cognitive sense of 'hitting upon the truth' is derived.
+REC haqiqah_literal  : The literal physical meaning is 'to strike or hit a target' (as in striking with a weapon or arrow), which then metaphorically extends to the mental act of forming an opinion that corresponds to reality.
+REC canon_def.ar     : الغَيْذان: الذي يظن فيصيب
+REC canon_def.en     : Al-ghaydhān: the one who conjectures and then hits upon the truth.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT فحز   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt or Asās al-Balāghah; classical lexicography records only a derived participial form denoting self-magnification and coarseness of conduct, without a recoverable concrete physical prototype.
+REC haqiqah_literal  : Not attested in Asās al-Balāghah; the sole classical datum is the participial adjective مُتَفَحِّز, meaning 'one who magnifies himself and behaves coarsely or obscenely' (mutaʿaẓẓim mutafaḥḥish), as transmitted by al-Jawharī from Ibn al-Sikkīt.
+REC canon_def.ar     : رجل مُتَفَحِّز أَي متعظم متفحش؛ حكاه الجوهري عن ابن السكيت.
+REC canon_def.en     : A man who is مُتَفَحِّز, that is, self-magnifying and coarse or obscene in conduct; al-Jawharī transmitted it from Ibn al-Sikkīt.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT فرشط   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the act of a creature (human or camel) lowering and pressing its hindquarters or forelegs flat against the ground in a slack, spread-out posture, specifically during sitting or kneeling.
+REC haqiqah_literal  : Literal physical meaning: A man's pressing his buttocks to the ground and resting his legs (as a pillow); a camel's kneeling in a relaxed manner, pressing its forearms to the ground, or spreading out in the act of kneeling.
+REC canon_def.ar     : فَرْشَط الرجلُ فَرْشَطة: أَلصق أَليتيه بالأَرض وتوسَّد ساقيه. وفَرْشَط البعيرُ فَرْشَطة وفِرْشاطاً: برَك بُروكاً مسترخياً فأَلصق أَعضاده بالأَرض، وقيل: هو أَن ينتشر بِرْكةَ البعير عند البُروك.
+REC canon_def.en     : A man performed farshata: he pressed his buttocks to the ground and used his legs as a pillow. A camel performed farshata and firshāṭ: it knelt in a relaxed manner, pressing its forearms to the ground; it is also said to be the spreading ou […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT فرقس   stratum=ma
+REC ontological_core : The root denotes a sharp, guttural vocalization directed at a dog—an onomatopoeic summons or command, rooted in the physical act of calling out to an animal with a distinctive, percussive sound.
+REC haqiqah_literal  : The literal, physical meaning is the call or summons addressed to a dog (دعاء الكلب), i.e., the utterance used to invoke, command, or incite a dog.
+REC canon_def.ar     : فِرْقِس وفُرْقُوس: دعاءُ الكلب.
+REC canon_def.en     : Firqis and furqūs: the call or summons addressed to a dog.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT فصعل   stratum=ma
+REC ontological_core : The root denotes a small, lowly, or contemptible entity; its foundational physical origin appears to be the scorpion (العَقْرَب), a creature perceived as base, harmful, and of low status, from which the meaning of meanness and ignobility derives.
+REC haqiqah_literal  : The literal physical meaning is the scorpion (العَقْرَب), as stated by al-Azharī; it also literally denotes a person of low, ignoble, or base character (اللئيم).
+REC canon_def.ar     : الفُصْعُل والفِصْعِل: اللئيم. الأَزهري: الفُصْعُل العَقْرَب.
+REC canon_def.en     : Al-Fuṣʿul and al-Fiṣʿil: the ignoble one. Al-Azharī said: al-Fuṣʿul is the scorpion.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)
+
+================================================================================================
+ROOT فلقس   stratum=ma
+REC ontological_core : The root's foundational physical origin is not attested in Al-Mufradāt; however, the Lisān material points to a quadriradical (or quasi-quadriradical) cluster denoting meanness, lowliness, and mixed/base descent, with the physical origin likely rooted in the notion of paucity, stinginess, and social inferiority.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān, the literal sense is 'a stingy, base person' and 'a person of mixed descent, especially one whose father is a client (mawlā) and whose mother is a client (mawlā).'
+REC canon_def.ar     : الفَلْقَسُ والفَلَنْقَس: البخيل اللئيم. والفَلَنْقَس: الهَجِين من قِبَل أَبَوَيْه الذي أَبُوه مَوْلًى وأُمّه مَوْلاة.
+REC canon_def.en     : Al-falqas and al-falanqas: the stingy, base person. And al-falanqas: the person of mixed descent on both parental sides, whose father is a client (mawlā) and whose mother is a client (mawlā).
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

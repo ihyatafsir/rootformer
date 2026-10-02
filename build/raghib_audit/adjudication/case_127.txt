@@ -1,0 +1,10 @@
+================================================================================================
+ROOT زهك   stratum=ma
+REC ontological_core : The foundational physical origin of the root زهك is the abrasive friction or grinding of one hard surface against another, specifically the action of rubbing or scraping between two stones, producing a harsh, rasping effect. This core image of friction and attrition underlies all subsequent applications.
+REC haqiqah_literal  : The literal physical meaning is the act of rubbing, scraping, or grinding between two stones (al-jashsh bayna ḥajarayn), and the abrasive action of wind upon a surface, stripping or scouring it away.
+REC canon_def.ar     : الزَّهْكُ مِثْلُ السَّهْكِ: وَهُوَ الجَشُّ بَيْنَ حَجَرَيْنِ. وَزَهَكَتْهُ الرِّيحُ تَزْهَكُهُ: كَسَهَكَتْهُ، وَالسِّينُ أَعْلَى.
+REC canon_def.en     : Al-zahk is like al-sahk: it is the rubbing or grinding between two stones. And the wind scoured it (zahakat-hu) — like sahakathu — though the variant with sīn is more authoritative.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 32190 hdr=زهك] الزاء والهاء والكاف ليس فيه شىء إلا أن ابن دريد ذكر أنهم يقولون: زهكت الريح التراب، مثل سهكت. بل من أحس بريمى اللذين هما قلبى وعقلى فعقلى اليوم مزدهف ||| باب الزاء والواو وما يثلثهما
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

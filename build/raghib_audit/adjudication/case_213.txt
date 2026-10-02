@@ -1,0 +1,10 @@
+================================================================================================
+ROOT طيم   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of innate formation and molding—God's original constitution of a creature's nature, as in clay shaped by a potter. This concrete sense of kneading and shaping underlies the abstract notion of inborn disposition.
+REC haqiqah_literal  : The literal physical meaning is God's creation and formation of a being according to a fixed innate constitution, as expressed in the phrase طامَهُ اللهُ على الخَير (God molded him upon good). The noun الطِّيماء denotes the resulting innate nature or natural disposition, e.g., الشِّعْر مِنْ طِيمائِه (poetry is from his innate disposition).
+REC canon_def.ar     : طامَهُ الله على الخَير يَطِيمُه طَيْماً: جَبَله. والطِّيماءُ: الجِبِلَّةُ والطبيعةُ.
+REC canon_def.en     : God molded him upon good, He forms him innately: He created him with an innate constitution. And الطِّيماء means innate nature and natural disposition.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

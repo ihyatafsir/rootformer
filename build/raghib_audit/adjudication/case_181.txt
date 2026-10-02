@@ -1,0 +1,10 @@
+================================================================================================
+ROOT دمرغ   stratum=ma
+REC ontological_core : The root denotes an extreme, saturated intensity of a color quality — specifically a concentrated, almost overwhelming redness or whiteness — as if the hue has been fully infused and intensified in the object.
+REC haqiqah_literal  : The literal physical meaning is a man of intense, saturated redness; and, by extension, a stark, intensely white object or person (أبيض دُمَّرِغ), indicating the utmost degree of whiteness.
+REC canon_def.ar     : الدُّمَّرِغُ: الرجلُ الشديدُ الحُمْرةِ. وأَبْيَضُ دُمَّرِغٌ: شديدُ البياضِ.
+REC canon_def.en     : Al-Dummarigh: a man of intense redness; and 'abyadu dummarigh': intensely white.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

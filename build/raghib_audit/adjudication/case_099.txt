@@ -1,0 +1,12 @@
+================================================================================================
+ROOT ميث   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root م-ي-ث is the act of dissolving a solid substance—such as salt, bread, or clay—in water through kneading, rubbing, and maceration until it loses its solid form and becomes fully incorporated into the liquid medium.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is twofold: (1) the softening and leveling of land, as in أرض ميثاء (soft, level ground) and أراض ميث (soft, level lands); and (2) the physical dissolution of a solid in water, as in ماث الخبز والملح والطين في الماء (he dissolved bread, salt, and clay in water) and انماث (it dissolved).
+REC canon_def.ar     : مَاثَ الشيءَ مَيْثاً: مَرَسَه. وماثَ المِلحَ في الماء: أَذابه؛ وكذلك الطين، وقد انماثَ. وكلُّ شيءٍ مَرَسته في الماء فذاب فيه، فقد مِثْته ومُثْته.
+REC canon_def.en     : He macerated the thing with a mays: he rubbed and kneaded it. And he dissolved salt in water: he made it dissolve; likewise clay, and it became dissolved. And anything you rub in water and it dissolves therein, you have macerated and dissol […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 67311 hdr=ميث] الميم والياء والثاء كلمة تدل على سهولة في شيء. يقال مثت الشيء في الماء ميثا، إذا دفته (3). والميثاء: الأرض السهلة.
+SRC Asas [haqiqah_literal]        : أرض ميثاء، وأراض ميث. وماث الخبز والملح والطين في الماء وانماث.
+SRC Asas [bilingual_haqiqah_majaz]        : أرض ميثاء، وأراض ميث. وماث الخبز والملح والطين في الماء وانماث. Metaphorical (Majaz): لبني عذرة قلوب تنماث كما ينماث الملح في الماء، ورجل ميث القلب: لينه. وميث الرجل: ذلله، وتميث: ذل واسترخى.
+SRC Asas [majaz_metaphorical]        : لبني عذرة قلوب تنماث كما ينماث الملح في الماء، ورجل ميث القلب: لينه. وميث الرجل: ذلله، وتميث: ذل واسترخى.
+SRC Ayn (al-Khalil)  : [line 34404 hdr=ميث] ماث يَميثَ ميثا. إذا ذاب المِلْحُ والطِّينُ في الماء، حتى اماث امِّياثاً.. وأَمثْتُهُ فهو مماثٌ [ومَيَّثتُه] ، فهو مُمَيَّثٌ. ومَيَّثتُ الرَّجُلَ: ليّنته. والمَيْثاءُ: الرَّمْلةُ اللَّينةُ، وجَمعُها: مِيثٌ.

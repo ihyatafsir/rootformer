@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جلع   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the removal of a covering or barrier, specifically the abandonment of modesty and restraint, manifesting as shamelessness and indecent speech or behavior.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (though not attested, derived from Lisān) is a woman's discarding of shame and speaking obscenely, or displaying herself provocatively.
+REC canon_def.ar     : جَلِعَت المرأَةُ، بالكسر، جَلَعاً، فهي جَلِعةٌ وجالِعةٌ، وجَلَعَت وهي جالع وجالَعَت وهي مُجالِعٌ كله إذا ترَكت الحَياء وتكلمت بالقبيح، وقيل إِذا كانت متَبرِّجةً.
+REC canon_def.en     : The woman became shameless (jalʿa), with a kasra, showing shamelessness (jalaʿan); she is shameless (jaliʿah) and shameless (jāliʿah). And she acted shamelessly (jalaʿat) while being shameless (jāliʿ), and she engaged in shameless behavior  […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 14579 hdr=جلع] الجيم واللام والعين أصل واحد، وهو قريب من الذى قبله. يقال للمرأة القليلة الحياء جلعة، كأنها كشفت قناع الحياء. ويقال جلع فم فلان، إذا تقلصت شفته وظهرت أسنانه. قال الخليل: المجالعة تنازع القوم عند شرب أو قسمة. قال: ولا فاحش عند الشراب مجالع (4)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 2536 hdr=جلع] المجالعة: التنازعُ عند شُربٍ أو قمارٍ أو قسمةٍ. قال: «3» ولا فاحشٌ عندَ الشَّرابِ مُجالِعُ وَرَوَى عَرَّام: مُجالِح أي مكابر. وقال عرّام: المجالعة: أن يستقبلك بما لم تفعله ويَبْهَتَكَ به. والجَلَعْلَعُ من الإبل: الحديدة النفس الشديدة.

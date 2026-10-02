@@ -1,0 +1,48 @@
+{
+  "n_keep_all": 18869,
+  "fail": 716,
+  "samples": [
+    {
+      "corpus": "ومحدثا،",
+      "realiser": "ومحدثا",
+      "root": "حدث"
+    },
+    {
+      "corpus": "القديم،",
+      "realiser": "القديم",
+      "root": "قدم"
+    },
+    {
+      "corpus": "ذاته،",
+      "realiser": "ذاته",
+      "root": "ذات"
+    },
+    {
+      "corpus": "محالة،",
+      "realiser": "محالة",
+      "root": "محل"
+    },
+    {
+      "corpus": "الله",
+      "realiser": "أله",
+      "root": "اله"
+    },
+    {
+      "corpus": "يزل",
+      "realiser": "زلل",
+      "root": "زلل"
+    },
+    {
+      "corpus": "وألفاظهم،",
+      "realiser": "وألفاظهم",
+      "root": "لفظ"
+    },
+    {
+      "corpus": "العالمين،",
+      "realiser": "العالمين",
+      "root": "علم"
+    }
+  ],
+  "checked": 4000,
+  "fail_pct": 17.9
+}

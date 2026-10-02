@@ -1,0 +1,12 @@
+================================================================================================
+ROOT مضض   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root م-ض-ض is a sharp, penetrating burning or biting sensation—like the sting of collyrium in the eye or the smart of a wound—that causes acute pain and distress.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is: pain, grief, or words that cause a burning, piercing sensation; to be afflicted by a calamity or speech in a manner that stings and hurts; and the application of kohl to the eye, which causes a biting smart.
+REC canon_def.ar     : المَضُّ: الحُرْقَةُ. مَضَّني الهَمُّ والحُزْنُ والقول يَمُضُّني مَضّاً ومَضِيضاً وأَمَضَّني: أَحْرَقَني وشقّ عليّ. والهمُّ يَمُضُّ القلبَ أَي يُحْرِقُه.
+REC canon_def.en     : Al-Maḍḍ is burning. Anxiety, sorrow, or speech burns me with a burning and intense pain; and it caused me burning pain: it burned me and was severe upon me. Anxiety burns the heart, i.e., it scorches it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [majaz_metaphorical]        : ما مضمضت عيني بالنوم أرقا وما تمضمضت. قال المروح السلمي: لما اتكأن على النمارق مضمضت ... بالنوم أعينهن غير غرار وتمضمض النوم في عينه. قال: يمسح بالكفين وجها أبيضا ... إذا الكرى في عينه تمضمضا
+SRC Asas [haqiqah_literal]        : أمضني الوجع والهم ومضني، وضربه فأمضه ومضه، والكحل يمض عيني، ومضضت من المصيبة ومن كلامك مضيضا بكسر العين.
+SRC Asas [bilingual_haqiqah_majaz]        : أمضني الوجع والهم ومضني، وضربه فأمضه ومضه، والكحل يمض عيني، ومضضت من المصيبة ومن كلامك مضيضا بكسر العين. Metaphorical (Majaz): ما مضمضت عيني بالنوم أرقا وما تمضمضت. قال المروح السلمي: لما اتكأن على النمارق مضمضت ... بالنوم أعينهن غير غرار وتمضمض النوم في عينه. قال: ي
+SRC Ayn (al-Khalil)  : (NO ENTRY)

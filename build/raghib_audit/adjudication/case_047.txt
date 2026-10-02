@@ -1,0 +1,10 @@
+================================================================================================
+ROOT خلا   stratum=Ma
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) is spatial and temporal emptiness: a place or thing devoid of any occupant, structure, or content, hence 'to be empty, vacant, unoccupied.'
+REC haqiqah_literal  : The literal physical meaning is the state of a place or thing being empty and devoid of any being or object, as in 'خلا المكان' (the place became empty) and 'الخلاء' (the open, unsheltered void).
+REC canon_def.ar     : خَلا المكانُ والشيءُ يَخْلُو خُلُوّاً وخَلاءً وأَخْلَى إِذا لم يكن فيه أَحد ولا شيء فيه، وهو خالٍ. والخَلاءُ من الأَرض: قَرارٌ خالٍ. واسْتَخْلَى: كخَلا.
+REC canon_def.en     : A place or thing becomes empty (خلا) with the verbal noun خُلُوّ and خَلاء, and one may say أَخْلَى when there is no one and nothing in it; it is then خالٍ (empty). الخَلاء from the earth is a vacant, level tract. اِسْتَخْلَى is synonymous  […]
+SRC al-Mufradat      : [line 11642 hdr=خلا] الخلاء: المكان الذي لا ساتر فيه من بناء ومساكن وغيرهما، والخلو يستعمل في الزمان والمكان، لكن لما تصور في الزمان المضي فسر أهل اللغة: خلا الزمان، بقولهم: مضى الزمان وذهب، قال تعالى: وما محمد إلا رسول قد خلت من قبله الرسل [آل عمران/ 144]، وقد خلت من قبلهم المثلات [الرعد/ 6]، تلك أمة قد خلت* [البقرة/ 141]، قد خلت من قبلكم سنن [آل عمران/ 137]، إلا خلا فيها نذير [فاطر/ 24]، مثل الذين خلوا من قبلكم [البقرة/ 214]، وإذا خلوا عضوا عليكم الأنامل من الغيظ [آل عمران/ 119]، وقوله: يخل لكم وجه أبيكم [يوسف/ 9]، أي: تحصل لكم مودة أبيكم وإقباله عليكم. وخلا الإنسان: صار خاليا، وخلا فلان بفلان: صار معه في خلاء، وخلا إليه: انتهى إلي […]
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

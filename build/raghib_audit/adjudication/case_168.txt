@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حفرد   stratum=ma
+REC ontological_core : A rare quadriliteral nominal root denoting a small, hard, granular substance — specifically the seed or kernel of a precious stone (ḥabb al-jawhar) and, by extension, a certain plant or herb.
+REC haqiqah_literal  : The literal physical referent is a concrete, tangible object: the seed-like kernel or grain associated with a gemstone, and a specific herbaceous plant (nabt).
+REC canon_def.ar     : الحِفْرِدُ: حب الجوهر؛ عن كراع. والحِفْرِدُ: نبت.
+REC canon_def.en     : Al-ḥifrid: the seed of a gemstone, according to Kurāʿ; and al-ḥifrid: a plant.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT حلبس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is not attested in Al-Mufradāt; classical lexicography derives it from the semantic field of clinging, tenacious adherence and unyielding persistence, from which the meaning of courage and steadfastness is extrapolated.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is not attested; based on Lisān al-ʿArab, the ḥaqīqah is a person who clings firmly to something and does not let go, and by extension a brave, steadfast individual.
+REC canon_def.ar     : الحَلْبَسُ والحَبَلْبَسُ والحُلابِسُ: الشجاع. والحَلْبَسُ: الحريض الملازم للشيء لا يفارقه.
+REC canon_def.en     : Al-ḥalbas, al-ḥabalbās, and al-ḥulābis: the brave one. And al-ḥalbas: the eager one who clings to something and does not leave it.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 12649 hdr=حلبس] الحَلْبَسُ والحُلابِسُ: الشجاع. __________ (1) في النسخ: الغورق بالغين المعجمة والراء المهملة، وهو من تصحيف النساخ. (2) ذكرت هذه الكلمة وترجمتها في نهاية ترجمة (صبح) فنقلت إلى مكانها هنا.

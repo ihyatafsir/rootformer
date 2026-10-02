@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سعفق   stratum=ma
+REC ontological_core : The root denotes a rare, non-productive nominal pattern (fuʿlūl) attested only in the proper name Banū Saʿfūq, a clan or tribal group in al-Yamāma; its foundational origin is onomastic rather than lexical, with no attested verbal or abstract nominal derivation.
+REC haqiqah_literal  : The literal, concrete referent is the tribal designation Banū Saʿfūq (also vocalized Banū Suʿfūq), a kinship group or client clan (khawal) settled in al-Yamāma; the word functions strictly as a proper noun and carries no physical or sensory meaning beyond this referential use.
+REC canon_def.ar     : بنو سَعْفوق: خَوَلٌ باليمامة، وبعضهم يقول سُعْفوق بالضم؛ وهو الحرف النادر الذي جاء على فُعْلول بفتح أوله، خلافاً لاطّراد الضم في زُنْبور وبُهْلول وعُمْروس.
+REC canon_def.en     : Banū Saʿfūq: a client clan (khawal) in al-Yamāma; some vocalize it Suʿfūq with ḍammah. It is the anomalous instance of the fuʿlūl pattern with an initial fatḥah, contrary to the regular ḍamm-initial formation seen in zunbūr, buhlūl, and ʿum […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

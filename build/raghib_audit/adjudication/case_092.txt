@@ -1,0 +1,10 @@
+================================================================================================
+ROOT قلق   stratum=mA
+REC ontological_core : The foundational physical origin of the root قلق is the agitated, unstable motion of a thing that is unsettled from its place—specifically, the restless shifting of a saddle or load upon a camel, or the trembling of a pivot in its socket, indicating a loss of firmness and equilibrium.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is the restlessness and instability of a person, animal, or object: a man is قلق (restless, agitated); a woman is قلقة or مقلاق (restless); a girl whose sash (وشاح) is unsettled; a she-camel whose saddle girth (وضين) is restless; the pivot of a pulley (محور البكرة) trembles; a sick person tosses on his bed; and a camel […]
+REC canon_def.ar     : القَلَقُ: الانزعاج. يقال: بات قَلِقاً، وأقلَقَهُ غيره.
+REC canon_def.en     : Al-qalaq is agitation/restlessness. It is said: 'He spent the night restless,' and 'someone else made him restless.'
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 59627 hdr=قلق] القاف واللام والقاف كلمة تدل على الانزعاج. يقال: قلق يقلق قلقا. ||| باب القاف والميم وما يثلثهما
+SRC Asas [haqiqah_literal]        : رجل قلق: نزق. وامرأة قلقة ومقلاق، وجارية قلق وشاحها، وهي مقلاق الوشاح. وناقة مقلاق الوضين، وسيرتها حتى قلق وضينها، وأقلقت إليك وضن الركائب. وقلق محور البكرة. وقلق المريض على فراشه. وأقلقني الحزن والخوف والرح. وبه شفق وقلق. وأقلق البعير: قلق ما عليه من جهازه وهو قتبه وآلته.
+SRC Ayn (al-Khalil)  : (NO ENTRY)

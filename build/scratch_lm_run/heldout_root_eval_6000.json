@@ -1,0 +1,15 @@
+{
+  "ckpt": "/workspace/scratch_lm_run/sf_morph.pt",
+  "steps": 6000,
+  "n_hold_roots": 38,
+  "test_gen": {
+    "heldout_root": { "top1": 0.0, "top5": 0.0, "n": 0 },
+    "real_seen_root": { "top1": 0.014901181637561435, "top5": 0.052284847851092754, "n": 19126 },
+    "special": { "top1": 0.41470747399434793, "top5": 0.6834826528771571, "n": 16631 }
+  },
+  "test_deriv": {
+    "heldout_root": { "top1": 0.0, "top5": 0.0, "n": 4117 },
+    "real_seen_root": { "top1": 0.014681314230749759, "top5": 0.049157090062269024, "n": 19753 },
+    "special": { "top1": 0.39201930631945225, "top5": 0.6660680211022562, "n": 17818 }
+  }
+}

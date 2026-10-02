@@ -1,0 +1,10 @@
+================================================================================================
+ROOT شبث   stratum=mA
+REC ontological_core : The foundational physical origin (Aṣl al-Wadʿ) of the root ش-ب-ث is the act of clinging, adhering, or becoming physically attached to an object, such that it is seized and held fast. The root denotes a concrete, tactile grasping or entanglement—a thing becoming caught upon or fastened to another.
+REC haqiqah_literal  : According to Asās al-Balāghah, the literal physical meaning is: to cling to something, to hold fast to it, and to become attached to it. The phrase تشبث به (tashabbatha bihi) denotes direct, physical clinging or adherence. The related form شابثه (shābathahu) indicates mutual clinging or grappling. The noun شبث (shabath) and its plural شبثان (shubthān) refer to a thing that clin […]
+REC canon_def.ar     : شَبِثَ الشيءَ: عَلِقَه وأَخذه. والتَّشَبُّثُ بالشيء: التَّعَلُّق به. والتَّثَبُّتُ: التَّعَلُّق.
+REC canon_def.en     : He clung to the thing: he became attached to it and took hold of it. Clinging to a thing is attachment to it. And attachment is clinging.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 38060 hdr=شبث] الشين والباء والثاء أصيل يدل على تعلق الشىء بالشىء. من ذلك قولهم تشبثت، أى تعلقت. ومن ذلك الشبث، وهى دويبة من أحناش الأرض، كأنها تشبثت بما مرت. والجمع شبثان. قال: مدارج شبثان لهن هميم (1) أى دبيب.
+SRC Asas [haqiqah_literal]        : تشبث به، وشابثه. وكأن فرنده مدارج شبثان وهو جمع شبث.
+SRC Ayn (al-Khalil)  : [line 26835 hdr=شبث] الشَّبثُ: دويبة تكون في الأرض، وتكون عند النُّدوة، والجميع: الشِّبثان. ويقال: هو العنكبوت الضخم، و (لا يصح) . قال حّماس: الشَّبثُ: دابة كثيرةُ القوائم، صفراء شبيهةٌ بالعقرب، لا تُخرِّب الأرض، وربما لَدغَ لدغةً شديدة. والتَّشبُّثُ: اللُّزوم، وشدَّةُ الأخذ. وتشبث به، أي: تقبض به. باب الشين والراء والنون معهما ش ن ر، ن ش ر مستعملان

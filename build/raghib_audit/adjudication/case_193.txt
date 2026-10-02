@@ -1,0 +1,10 @@
+================================================================================================
+ROOT سقق   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) is the emission of excrement by a bird, specifically the act of voiding droppings; it denotes a concrete, low-register physical event before any figurative extension.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (as delineated from Lisān al-ʿArab) is: a bird's defecation, i.e., the act of a sparrow or bird excreting its droppings.
+REC canon_def.ar     : سَقَّ العصفورُ وسَقْسَقَ الطائرُ: ذَرَقَ. والسُّقُق: المغتابون.
+REC canon_def.en     : The sparrow defecated and the bird voided droppings. And al-suquq: the backbiters.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

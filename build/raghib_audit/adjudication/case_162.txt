@@ -1,0 +1,10 @@
+================================================================================================
+ROOT جلنب   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the concrete image of a she-camel that is simultaneously fat and firm—an animal whose body combines abundant adipose tissue with a hard, compact, unyielding frame. This dual physical quality of corporeal density and solidity constitutes the root's primary sensory substrate, from which any further usage must be metaphorically derived.
+REC haqiqah_literal  : The literal physical meaning, as attested in the classical lexical tradition, is a she-camel characterized by stoutness and hardness: ناقة جَلَنْباةٌ, i.e., a fat, firm she-camel. The term denotes a concrete, zoological referent and carries no abstract or figurative sense in its foundational usage.
+REC canon_def.ar     : ناقة جَلَنْباةٌ: سَمِينةٌ صُلْبةٌ
+REC canon_def.en     : A she-camel that is fat and firm.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT خنبت   stratum=ma
+REC ontological_core : The root denotes shortness and compactness of bodily stature in a man, with a secondary physical image of a thick, stunted, or truncated form.
+REC haqiqah_literal  : الخُنْبُتُ: القصير من الرجال — the short man; a man of compact, stunted stature.
+REC canon_def.ar     : الخُنْبُتُ: القصير من الرجال.
+REC canon_def.en     : Al-khunbut: the short man; a man of compact, stunted stature.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

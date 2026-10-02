@@ -1,0 +1,10 @@
+================================================================================================
+ROOT طوغ   stratum=ma
+REC ontological_core : The root ط-و-غ denotes transgression, overflow, and exceeding the proper bound — the foundational physical image being that of a torrent or flood that bursts its channel and overruns its limits, hence any entity that oversteps the measure of the created order.
+REC haqiqah_literal  : In its strict literal (ḥaqīqah) sense, طاغوت designates any object of worship set up alongside or instead of God — idols, the Devil, soothsayers, or human authorities who claim absolute obedience — insofar as each has transgressed (ṭaghā) the bound of creatureliness and usurped a prerogative belonging to the Divine alone.
+REC canon_def.ar     : الطَّاغُوتُ: ما عُبِدَ من دون الله عز وجل، وكلُّ رَأْسٍ في الضلالِ طاغوتٌ؛ وقيل: الأَصْنامُ، وقيل: الشيطانُ، وقيل: الكَهَنةُ، وقيل: مَرَدةُ أَهل الكتاب.
+REC canon_def.en     : Al-ṭāghūt: that which is worshipped besides God — Mighty and Majestic — and every leader in error is a ṭāghūt; it is said to be idols, or the Devil, or soothsayers, or the rebellious ones among the People of the Book.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

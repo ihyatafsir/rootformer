@@ -1,0 +1,10 @@
+================================================================================================
+ROOT رفف   stratum=mA
+REC ontological_core : The foundational physical origin of the root رفف is a subtle, rapid, and shimmering motion or vibration—a light quivering or flickering that manifests as a gleam, a flutter, or a delicate oscillation. It denotes the slightest perceptible movement or radiance, such as the shimmer of a polished surface, the quiver of a leaf, or the flutter of a wing, without any substantial displacement.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah centers on: (1) the light, rapid movement of the lips in eating or kissing, as in 'يَرُفُّ شفتيها' (he moves his lips over hers); (2) the eating of herbs or plants by an animal, nibbling them delicately; (3) the shimmering and sparkling of color or teeth; (4) the quivering and swaying of plants in fresh luxuriance; (5)  […]
+REC canon_def.ar     : رَفَّ لونُه يَرِفُّ رَفّاً ورَفيفاً: بَرَقَ وتَلأْلأَ، وكذلك رَفَّتْ أَسنانه. ورَفَّ النباتُ يَرِفُّ: اهتزَّ نضارةً وتلألؤاً. ورَفْرَفَ الطائرُ: حرَّك جناحيه وهو لا يبرح مكانه. وثوبٌ رَفيفٌ: رقيقٌ. وذهب من كان يَحُفُّه ويَرُفُّهُ أَي يضمه ويحبه ويشفق عليه.
+REC canon_def.en     : His color shimmered with a rapid, delicate motion (rafā yarifu raffan wa-rafīfan): it gleamed and sparkled, and likewise his teeth shimmered. The plant quivered with freshness and radiance. The bird fluttered its wings while remaining in pl […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [haqiqah_literal]        : بات يرف شفتيها: يرشفهما. وفي حديث أبي هريرة " إني لأرف شفتيها وأنا صائم " ورف البقل ونحوه: أكله. قال: والله لولا خشيتي أباك ... ورهبتي من جانب أخاك إذا لرفت شفتاي فاك ... رف الغزال ثمر الأراك وروي ورق. وذهب من كان يحفه ويرفه أي يضمه ويحبه ويشفق عليه شفقة من يرف ولده أو حبيبه. وما
+SRC Ayn (al-Khalil)  : (NO ENTRY)

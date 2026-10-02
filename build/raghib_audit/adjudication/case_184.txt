@@ -1,0 +1,10 @@
+================================================================================================
+ROOT زحلف   stratum=ma
+REC ontological_core : The foundational physical origin of the root زحلف is the act of sliding or slipping downward, specifically the smooth, frictionless descent over a surface, as exemplified by children sliding from the top of a hill to its bottom. This core image of downward slippage underlies all subsequent literal and figurative applications.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah (delineated from Lisān al-ʿArab) is the trace or track left by children sliding down a hill, and by extension, the act of sliding itself. It denotes a smooth, downward glide, often on a slippery surface, and is synonymous with زحلوقة (zuhlūqah) in the dialect of the ʿĀliyah tribe, while Tamīm pronounces it with a qāf (ز […]
+REC canon_def.ar     : الزُّحْلُوفَةُ: كالزُّحْلُوقَة، وقد تَزَحْلَفَ. وهي آثارُ تَزَلُّجِ الصِّبيان من فوقِ التَّلِّ إلى أَسْفَله، وهي لغة أهل العالية، وتميمٌ تقوله بالقاف، والجمع زحالِفُ وزَحالِيفُ.
+REC canon_def.en     : Al-Zuḥlūfah: like al-zuḥlūqah, and one says tazaḥlafa. It is the traces of children sliding from the top of a hill to its bottom; it is the dialect of the people of al-ʿĀliyah, while Tamīm pronounces it with a qāf; the plural is zaḥālif and […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 12669 hdr=زحلف] التَّزْحلُفُ والتَّزَحْلُقُ والتَّزَحْلُك واحدٌ، وهو قعودُ الصَّبيّ على رأس رابية فينزل على آسْتِه مَسْحاً. وازحَلَفَّ وازْلَحَفَّ مثل جذب وجبذ.

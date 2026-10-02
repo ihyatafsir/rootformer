@@ -1,0 +1,10 @@
+================================================================================================
+ROOT داف   stratum=ma
+REC ontological_core : The root's foundational physical origin is the act of walking or moving with a swaying, oscillating, or side-to-side motion, often likened to the undulating gait of a camel or a ship tossing on waves.
+REC haqiqah_literal  : To walk with a swinging or swaying motion; to move unsteadily or with a rolling gait.
+REC canon_def.ar     : دَافَ يَدُوفُ دَوْفًا: تَمَايَلَ فِي مَشْيِهِ وَتَرَجَّحَ.
+REC canon_def.en     : Dāfa yadūfu dawfan: to sway in one's walk and oscillate.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

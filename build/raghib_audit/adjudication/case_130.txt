@@ -1,0 +1,10 @@
+================================================================================================
+ROOT طبس   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) centers on the act of overlaying, covering, or fitting one thing closely upon another, such that the two correspond and coincide — a concrete operation of physical matching and concealment.
+REC haqiqah_literal  : The literal physical meaning is التَّطْبِيس (al-taṭbīs), the act of applying or fitting one thing over another (التَّطْبِيق), i.e., bringing two surfaces or entities into close correspondence and covering.
+REC canon_def.ar     : التَّطْبِيسُ: التَّطْبِيقُ. والطَّبَسَان: كُورَتَانِ بِخُرَاسَانَ.
+REC canon_def.en     : Al-taṭbīs is the act of fitting or overlaying (al-taṭbīq). And al-Ṭabasān refers to two districts in Khurāsān.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 43843 hdr=طبس] الطاء والباء والسين ليس بشىء. على أنهم يقولون: الطبسان: كورتان. وهذا وشبهه مما لا معنى لذكره؛ لأنه إذا ذكر ما أشبه كله حمل على كلام العرب ما ليس هو منه. وكذلك قول من قال (2): إن التطبيس: التطبين (3).
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : [line 29548 hdr=طبس] التَّطبيسُ والتطبين واحدٌ. والطَّبَسانِ: كُورتانِ من كُوَرِ خراسان «130» . باب السين والطاء والميم معهما م س ط، س ط م، ط س م، ط م س، م ط س، س م ط مستعملات

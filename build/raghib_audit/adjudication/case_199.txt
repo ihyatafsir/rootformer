@@ -1,0 +1,10 @@
+================================================================================================
+ROOT شثل   stratum=ma
+REC ontological_core : The root's foundational physical origin (Aṣl al-Wadʿ) denotes coarse, thick, and densely compacted bodily tissue — specifically the flesh of the fingers, hands, and feet — characterized by roughness of texture and a knotted, interlocking mass. The primary sensory image is that of a limb whose flesh is not smooth or supple but hard, rough, and closely packed.
+REC haqiqah_literal  : The literal physical meaning, as attested in Lisān al-ʿArab, is a man whose fingers are thick and rough (شَثْل الأَصابع: غليظُها خَشِنُها), and a foot that is thick-fleshed and densely compacted (قَدَمٌ شَثْلةٌ: غليظةُ اللحم مُتَراكِبةٌ). The verb شَثِلَتْ يَدُهُ ورِجْلُهُ describes the hand or foot becoming thus thick, rough, and densely fleshed.
+REC canon_def.ar     : رجل شَثْل الأَصابع: غليظُها خَشِنُها. وقَدَمٌ شَثْلةٌ: غليظةُ اللحم مُتَراكِبةٌ. والشَّثْل لغة في الشَّثْن.
+REC canon_def.en     : A man with thick and rough fingers. And a foot that is thick-fleshed and densely compacted. And shathl is a dialectal variant of shathn.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

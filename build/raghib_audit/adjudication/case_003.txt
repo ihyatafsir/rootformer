@@ -1,0 +1,10 @@
+================================================================================================
+ROOT ايك   stratum=MA
+REC ontological_core : The foundational physical origin of the root is a dense, tangled, interwoven thicket of trees—a grove so closely interlaced that its branches form an impenetrable canopy.
+REC haqiqah_literal  : A tangled grove or thicket of closely interlaced trees; a dense arborous mass.
+REC canon_def.ar     : الأَيْك: شجر ملتف، وأصحاب الأيكة قيل: نسبوا إلى غيضة كانوا يسكنونها، وقيل: هي اسم بلد.
+REC canon_def.en     : Al-Ayk: a tangled, densely interwoven grove of trees. The 'Companions of the Thicket' are said to have been named after a dense grove they inhabited; alternatively, it is said to be the name of a town.
+SRC al-Mufradat      : [line 3264 hdr=أيك] الأيك: شجر ملتف، وأصحاب الأيكة قيل: نسبوا إلى غيضة كانوا يسكنونها، وقيل: هي اسم بلد.
+SRC Maqayis (IbnFaris): [line 5524 hdr=أيك] الهمزة والياء والكاف أصل واحد، وهى اجتماع شجر قال الخليل: الأيكة غيضة تنبت (2) السدر والأراك. ويقال [أيكة (3)] أيكة، وتكون من ناعم الشجر. وقال أصحاب التفسير: كانوا أصحاب شجر ملتف. يعنى قوله تعالى: @QUR@02 كذب أصحاب الأيكة قال أبو زياد: الأيكة جماعة الأراك. قال الأخطل (4) من النخيل (5) فى قوله: يكاد يحار المجتنى وسط أيكها إذا ما تنادى بالعشى هديلها
+SRC Asas [haqiqah_literal]        : فلان فرع من أيكة المجد. وتقول: كذب صاحب مليكه، كما كذب أصحاب الأيكه.
+SRC Ayn (al-Khalil)  : [line 24142 hdr=أيك] الأَيْكَةُ: غيظة تنبت السدر والأَراك ونحوهما من ناعم الشجر. يقال: أيْكةٌ أيكة، أي: مثمرة. باب الرباعي من الكاف الكاف والجيم ك س ب ج

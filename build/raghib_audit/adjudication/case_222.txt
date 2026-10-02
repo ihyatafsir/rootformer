@@ -1,0 +1,10 @@
+================================================================================================
+ROOT عنقس   stratum=ma
+REC ontological_core : The root denotes elongation and stretching, specifically a tall, slender, and extended bodily frame; its foundational physical image is that of something drawn out or extended in length.
+REC haqiqah_literal  : A tall, slender woman of extended stature; the literal physical meaning is a woman characterized by elongation and height.
+REC canon_def.ar     : العَنْقَس من النساء: الطويلة المُعْرِقة.
+REC canon_def.en     : Al-ʿAnqas, of women: the tall, slender one of extended stature.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

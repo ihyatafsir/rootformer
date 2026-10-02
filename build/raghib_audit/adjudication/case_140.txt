@@ -1,0 +1,12 @@
+================================================================================================
+ROOT رصص   stratum=mA
+REC ontological_core : The foundational physical origin of the root رصص is the act of tightly joining, compacting, and aligning solid discrete units—such as stones, bricks, or teeth—into a single cohesive, interlocked structure, eliminating gaps and ensuring firm mutual support.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the construction of a tightly packed, well-aligned building (بنيان مرصوص ومرصص), the compacting of stones (ارتصت الجنادل وترصصت), the close alignment of teeth (في أسنانه رصص), and the act of a hen or ostrich gathering and arranging its eggs with beak and feet (رصت الدجاجة والنعامة بيضها).
+REC canon_def.ar     : رَصَّ البُنْيَانَ يَرُصُّهُ رَصًّا، فَهُوَ مَرْصُوصٌ وَرَصِيصٌ، وَرَصَّصَهُ: أَحْكَمَهُ وَجَمَعَهُ وَضَمَّ بَعْضَهُ إِلَى بَعْضٍ. وَكُلُّ مَا أُحْكِمَ وَضُمَّ فَقَدْ رُصَّ.
+REC canon_def.en     : He compacted the building, joining it tightly; it is marṣūṣ and raṣīṣ. He made it tight: he perfected it, gathered it, and joined its parts to one another. Everything that is made firm and joined together is said to be raṣṣed.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): (NO ENTRY)
+SRC Asas [bilingual_haqiqah_majaz]        : بنيان مرصوص ومرصص. وقد ارتصت الجنادل وترصصت. وفي أسنانه رصص. ورجل أرص وامرأة رصاء. وتراصوا في الصلاة وارتصوا. ورصت الدجاجة والنعامة بيضها: س Metaphorical (Majaz): إن فلانا لرصاصة إذا كان بخيلا يشبه بالحجر أو بهذا الجوهر كما قيل: رجل فلز.
+SRC Asas [haqiqah_literal]        : بنيان مرصوص ومرصص. وقد ارتصت الجنادل وترصصت. وفي أسنانه رصص. ورجل أرص وامرأة رصاء. وتراصوا في الصلاة وارتصوا. ورصت الدجاجة والنعامة بيضها: سوته بمنقارها ورجليها لتقعد عليه. وبيض رصيص. قال امرؤ القيس: على نقنق هيق له ولعرسه ... بمنعرج الوعساء بيض رصيص وامرأة رصاء الفخذين: خلاف بدا
+SRC Asas [majaz_metaphorical]        : إن فلانا لرصاصة إذا كان بخيلا يشبه بالحجر أو بهذا الجوهر كما قيل: رجل فلز.
+SRC Ayn (al-Khalil)  : (NO ENTRY)

@@ -1,0 +1,185 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+khalil_root_gate.py -- al-Khalil's tests as a GATE on the analyser's root extraction.
+
+The analyser has no test of whether the root it extracts is real, which is why 73.9% of its
+(root, pattern) attributions fail basic structural checks ('ballah' -> root ball, 'fihim' ->
+root k-m-m, 'anhum' -> root c-n-n -- all clitic combinations, not roots).
+
+Two of al-Khalil's own instruments supply that test, from opposite directions:
+
+  1. ATTESTATION  (positive) -- Kitab al-'Ayn declares each root's permutations and marks them
+     مستعمل / مستعمل فقط / مهمل. A permutation marked «مهمل» is not a root of the language.
+  2. DHALQ        (exclusion) -- a quadriliteral or quinqueliteral word containing none of
+     ر ل ن ف ب م is NOT Arabic, so it has no Arabic root. Loan words are rootless by nature,
+     not mis-segmented.
+
+plus the prohibitions already implemented (qaf+kaf, jim+qaf, C1==C2, makhraj clash).
+
+The gate is deliberately NEGATIVE -- it rejects what is demonstrably not a root. It does not
+require attestation, because the extracted table is partial (it covers al-'Ayn's own order and
+nothing more), and treating a partial table as exhaustive would reject real roots.
+
+Usage: python khalil_root_gate.py
+"""
+import glob
+import json
+import re
+import sys
+from collections import Counter
+
+sys.path.insert(0, '/workspace/hf_v19_2_release')
+sys.path.insert(0, '/workspace/hf_v19_2_release/models')
+
+DIAC = re.compile(r'[\u064b-\u0652\u0670\u0640\u06d6-\u06ed]')
+AR = re.compile(r'[\u0600-\u06FF]')
+DHALQ = set('رلنفبم')
+C12_BAN = True
+KHALIL_PAIRS = {('ق', 'ك'), ('ك', 'ق'), ('ج', 'ق'), ('ق', 'ج'),
+                ('ء', 'غ'), ('غ', 'ء'), ('ض', 'ص'), ('ص', 'ض')}
+MAKHRAJ = {('ء', 'ه'), ('ه', 'ء'), ('ع', 'ح'), ('ح', 'ع'), ('غ', 'خ'), ('خ', 'غ')}
+
+
+def strip_diac(s):
+    return DIAC.sub('', s)
+
+
+class KhalilRootGate:
+    def __init__(self, attestation_path=None):
+        self.unused = set()
+        if attestation_path:
+            try:
+                d = json.load(open(attestation_path))
+                for t in d.get('unused', []):
+                    if len(t) == 3:
+                        # a permutation's REVERSE is a DIFFERENT root with its own mark in
+                        # al-'Ayn (abd and daba are listed separately). Adding the reversed form
+                        # wrongly condemned attested roots -- abd, ajab, dacf, cadam.
+                        self.unused.add(tuple(t))
+            except Exception as exc:
+                # VISIBILITY (pillar 3): this handler used to swallow the load failure, leaving
+                # self.unused EMPTY -- so every muHMAL exclusion below passed VACUOUSLY, i.e. the
+                # gate reported PASS while measuring nothing.  The default (empty set) is
+                # unchanged; only the failure is now reported.
+                print(f'[khalil_root_gate] attestation record {attestation_path!r} could not be '
+                      f'loaded: {exc!r} -- the muHMAL evidence base is EMPTY for this run',
+                      file=sys.stderr)
+
+    # ---- test 1: the dhalq exclusion (loan words) --------------------------------------
+    VERBAL_PREFIX = ('ي', 'ت', 'ن', 'أ', 'س', 'م', 'ا')
+
+    @staticmethod
+    def dhalq_ok(word):
+        b = strip_diac(word)
+        if b.startswith('ال') and len(b) > 4:
+            b = b[2:]
+        elif b.startswith('ا') and len(b) > 4:
+            b = b[1:]
+        # CONDITION: al-Khalil's examples are all bare NOUNS (al-hadathij, al-khad'athaj,
+        # al-da'shuqa). Applying the test to an inflected verb form is out of scope -- taqdi has
+        # a verbal prefix, and its stem is not a quadriliteral noun.
+        if b and b[0] in KhalilRootGate.VERBAL_PREFIX and len(b) <= 5:
+            return True, 'verbal-prefixed form -- dhalq rule out of scope'
+        # a suffixed clitic means this is not a bare stem either
+        for suf in ('ه', 'ها', 'هم', 'هن', 'كم', 'نا', 'ني', 'ك', 'ت'):
+            if b.endswith(suf) and len(b) > len(suf) + 3:
+                return True, 'clitic-suffixed -- dhalq rule out of scope'
+        if len(b) < 4:
+            return True, 'short word -- rule does not apply'
+        if not any(c in DHALQ for c in b):
+            return False, 'no dhalq/labial letter in a 4+ letter word -> not Arabic (loan?)'
+        return True, 'dhalq present'
+
+    # ---- test 2: phonotactic prohibitions ----------------------------------------------
+    @staticmethod
+    def phonotactics_ok(root):
+        r = strip_diac(root)
+        if len(r) != 3:
+            return True, 'not triliteral'
+        # C2==C3 is the MUDAAF (doubled) class: maddad, khalal, shadada, ladhdha. Legitimate.
+        # Only C1==C2 is impossible in a triliteral root.
+        if r[0] == r[1]:
+            return False, 'C1==C2 impossible in a triliteral'
+        for a, b in zip(r, r[1:]):
+            if (a, b) in KHALIL_PAIRS:
+                return False, f'al-Khalil letter pair {a}+{b}'
+            if (a, b) in MAKHRAJ:
+                return False, f'same-makhraj clash {a}+{b}'
+        return True, 'ok'
+
+    # ---- test 3: the attestation table --------------------------------------------------
+    def attested_ok(self, root):
+        r = tuple(strip_diac(root))
+        if len(r) != 3:
+            return True, 'not triliteral'
+        if r in self.unused:
+            return False, "permutation marked muhmal (unused) in al-'Ayn"
+        return True, 'not in the unused list'
+
+    def check(self, word, root):
+        # NOTE: the dhalq rule is scoped to quadriliteral roots, so it is not applied here --
+        # the analyser is triliteral. Applying it to 4-letter SURFACES was a scope error.
+        for name, fn in (('phonotactics', lambda: self.phonotactics_ok(root)),
+                         ('attestation', lambda: self.attested_ok(root))):
+            ok, why = fn()
+            if not ok:
+                return False, f'{name}: {why}'
+        return True, 'passes'
+
+
+def main():
+    import nrmp_vocab as nv
+    V = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+    vocab = V('/workspace/hf_v19_2_release/data/rootformer_v12_arabic_blueprint.json')
+    gate = KhalilRootGate('/workspace/khalil_attest_v3.json')
+    print(f'[*] gate loaded: {len(gate.unused)} unused permutations')
+
+    files = (sorted(glob.glob('/workspace/scholastic_sanitized/*.txt'))
+             + sorted(glob.glob('/workspace/andalusian_canon_sanitized/*.txt')))[:6]
+    pairs = set()
+    reasons = Counter()
+    rejected_examples = []
+    n_words = 0
+    for f in files:
+        txt = open(f, encoding='utf-8', errors='ignore').read()
+        for w in re.split(r'\s+', txt):
+            if not AR.search(w):
+                continue
+            n_words += 1
+            p, r, wz, s = vocab.encode_word(w)
+            rn = vocab.id2root.get(r, '')
+            wn = vocab.id2wazn.get(wz, '')
+            if rn.startswith('<') or len(strip_diac(rn)) != 3:
+                continue
+            pairs.add((strip_diac(w), rn, wn.split('wazn_')[-1].rstrip('>')))
+    print(f'[*] corpus words {n_words}; distinct (surface, root, pattern) {len(pairs)}')
+
+    kept = 0
+    for surface, root, pat in pairs:
+        ok, why = gate.check(surface, root)
+        if ok:
+            kept += 1
+        else:
+            reasons[why.split(':')[0]] += 1
+            if len(rejected_examples) < 12:
+                rejected_examples.append((surface, root, pat, why))
+
+    rej = len(pairs) - kept
+    print(f'\n=== GATE RESULT ===')
+    print(f'  attributions passing : {kept}/{len(pairs)} = {100*kept/len(pairs):.1f}%')
+    print(f'  rejected             : {rej} = {100*rej/len(pairs):.1f}%')
+    print(f'\n  by test:')
+    for k, v in reasons.most_common():
+        print(f'    {k:<14}{v:>7}{100*v/len(pairs):>8.1f}%')
+    print(f'\n  sample rejections (surface, root the analyser gave, pattern, why):')
+    for surface, root, pat, why in rejected_examples:
+        print(f'    {surface:<12} root={root:<7} pat={pat:<10} {why[:58]}')
+    json.dump({'pairs': len(pairs), 'passed': kept, 'rejected': rej,
+               'reasons': dict(reasons)}, open('/workspace/khalil_gate.json', 'w'),
+              ensure_ascii=False, indent=2)
+    print('\nwrote /workspace/khalil_gate.json')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,10 @@
+================================================================================================
+ROOT خبا   stratum=mA
+REC ontological_core : The root's foundational physical origin centers on concealment, hiding, and the act of rendering something invisible or sheltered from view. It encompasses both the physical act of covering or storing something away and the structural notion of a shelter (خِباء) that veils its occupants.
+REC haqiqah_literal  : The literal physical meaning according to Asās al-Balāghah is the act of hiding, concealing, or storing something away (خبأ), and the physical structure of a tent made of wool or hair (خِباء) that provides concealment. It also includes the literal sense of a young woman kept secluded (مخبأة) and the vessel for storing vinegar (خابية).
+REC canon_def.ar     : الخِباءُ من الأَبنية: واحد الأَخْبية، وهو ما كان من وَبَر أَو صوف ولا يكون من شَعَر، وهو على عمودين أَو ثلاثة، وما فوقَ ذلك فهو بَيْت. والخبء: ما خفي، ومنه: والله يخرج الخبء.
+REC canon_def.en     : Al-Khibāʾ is a type of structure: the singular of al-akhbiya (tents), and it is made of camel hair or wool, not of hair, and it is supported by two or three poles; anything larger is called a bayt (house). Al-Khabʾ means that which is hidde […]
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 23325 hdr=خبأ] الخاء والباء والحرف المعتل والهمزة يدل على ستر الشىء. فمن ذلك خبأت الشىء أخبؤه خبأ. والخبأة: الجارية تخبأ. ومن الباب الخباء؛ تقول أخبيت إخباء، وخبيت، وتخبيت، كل ذلك إذا اتخذت خباء. ||| باب الخاء والتاء وما يثلثهما
+SRC Asas [haqiqah_literal]        : له خبيئة خبأها ليوم حاجته، وله خبايا. " لا مخبأ لعطر بعد عروس " ولفلان مخابيء ومخازن " والله يخرج الخبء " وأخرج خبء السماء خبء الأرض أي المطر النبات. وخبأت الجارية، وجارية مخبأة، ونساء مخبآت ومخبآت، وامرأة خبأة تخنس بعد الاطلاع. واختبأت من فلان: استترت منه، واختبأت له خبيأ إذا عم
+SRC Ayn (al-Khalil)  : (NO ENTRY)

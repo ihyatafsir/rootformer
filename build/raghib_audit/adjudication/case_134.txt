@@ -1,0 +1,10 @@
+================================================================================================
+ROOT نهط   stratum=ma
+REC ontological_core : The foundational physical act of piercing or thrusting a sharp implement—specifically a spear—into a body, constituting a violent, penetrative impact.
+REC haqiqah_literal  : To pierce or stab someone with a spear (ramḥ), a direct, physical act of penetration.
+REC canon_def.ar     : نَهَطَه بالرُّمْح نَهْطاً: طعنَه به.
+REC canon_def.en     : He pierced him with the spear with a thrust.
+SRC al-Mufradat      : (NO ENTRY)
+SRC Maqayis (IbnFaris): [line 69595 hdr=نهط] النون والهاء والطاء زعم ابن دريد (3) النهط الطعن. ونهطه بالرمح: طعنه به
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

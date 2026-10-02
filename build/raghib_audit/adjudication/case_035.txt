@@ -1,0 +1,10 @@
+================================================================================================
+ROOT صرط   stratum=Ma
+REC ontological_core : The root denotes a traversed, extended path or roadway; its foundational physical image is a linear, beaten track that one follows toward a destination. Classical philologists note the phonological proximity of the voiceless alveolar sibilant /s/ and the emphatic alveolar sibilant /ṣ/, with the ṣād form being a dialectal or assimilated variant of the underlying sīn, owing to the adjacency of the emphatic ṭāʾ.
+REC haqiqah_literal  : A road, path, or way; specifically, a clear and straight thoroughfare that is physically traversed. The literal sense is attested in the paired forms al-ṣirāṭ and al-sirāṭ, both denoting a roadway.
+REC canon_def.ar     : الصراط: الطريق المستقيم. وقال الأزهري: وأصل صاده سين قلبت مع الطاء صاداً لقرب مخارجها. وقال الجوهري: الصراط والسراط.
+REC canon_def.en     : Al-ṣirāṭ: the straight path. Al-Azharī said: the original of its ṣād is a sīn, which was changed to ṣād alongside the ṭāʾ due to the proximity of their points of articulation. Al-Jawharī said: al-ṣirāṭ and al-sirāṭ.
+SRC al-Mufradat      : [line 19402 hdr=صرط] الصراط: الطريق المستقيم. قال تعالى: وأن هذا صراطي مستقيما [الأنعام/ 153]، ويقال له: سراط، وقد تقدم.
+SRC Maqayis (IbnFaris): [line 41224 hdr=صرط] الصاد والراء والطاء وهو من باب الإبدال، وقد ذكر فى السين، وهو الطريق. قال: أكر على الحروريين مهرى وأحملهم على وضح الصراط (2) ||| باب ما جاء من كلام العرب على أكثر من ثلاثة أحرف أوله صاد فالذى جاء منه على القياس، الذى تقدم ذكره. [وأما المنحوت] فقولهم (الصعنب) الصغير الرأس، فهذا مما زيدت فيه الباء، وأصله الصاد والعين والنون، وقد قلناه فى الصعون، ومضى تفسيره (3). ومن الباب: (اصمقر) اللبن، إذا اشتدت حموضته. وهذا منحوت من لو عصر منه البان والمسك انعصر كلمتين. من صقر ومقر. أما مقر فهو الحامض، ومن ذلك يقال سمك ممقور. وأما صقر فمن الخثورة، ولذلك سمى الدبس صقرا، وقد مر. ومن ذلك قولهم: بعير (صلخد (1)) أى صلب، فاللام فيه زا […]
+SRC Asas             : (NO ENTRY)
+SRC Ayn (al-Khalil)  : (NO ENTRY)

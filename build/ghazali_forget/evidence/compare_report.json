@@ -1,0 +1,61 @@
+{
+  "n_params": 62252824,
+  "measured": {
+    "LM_CE_heritage_delta": -5.462127089500427,
+    "capability_ce_raw_delta": 3.5321145057678223,
+    "capability_acc_delta": -0.04207960143685341
+  },
+  "corr_ret_syn": {
+    "pearson": 0.9958837474897936,
+    "pearson_log": 0.9572377366855306,
+    "spearman": 0.9951178113311864
+  },
+  "corr_head_ret": {
+    "pearson": 0.18897965517771995,
+    "pearson_log": 0.9240440796968651,
+    "spearman": 0.6019580839456066
+  },
+  "corr_head_syn": {
+    "pearson": 0.184929812401031,
+    "pearson_log": 0.9041189296731027,
+    "spearman": 0.5994250717385159
+  },
+  "tensor_ret_syn": {
+    "spearman": 0.9960698488047718,
+    "top_decile_overlap": 0.8888888888888888
+  },
+  "tensor_head_ret": {
+    "spearman": 0.5896768028605336,
+    "top_decile_overlap": 0.5555555555555556
+  },
+  "tensor_head_syn": {
+    "spearman": 0.5862090223941557,
+    "top_decile_overlap": 0.5555555555555556
+  },
+  "taylor_ret": 0.06260272292791899,
+  "corr_dW2_ret": -0.01367174224493851,
+  "tensor_spearman_dW2_ret": 0.14504569764036807,
+  "taylor_syn": 0.06640422173790755,
+  "corr_dW2_syn": -0.01363466441808215,
+  "tensor_spearman_dW2_syn": 0.1423331226977791,
+  "taylor_head": 8.318084645420444e-05,
+  "corr_dW2_head": -0.013610902378646076,
+  "tensor_spearman_dW2_head": 0.5906940184640045,
+  "lambda": {
+    "ret": {
+      "sum_F_theta0_sq": 3.739385011097391,
+      "penalty_per_unit_lambda_at_dstar": 0.004580746638594304,
+      "lambda_kappa_1": 2421.7928259011846
+    },
+    "syn": {
+      "sum_F_theta0_sq": 3.952348396811688,
+      "penalty_per_unit_lambda_at_dstar": 0.004841626786094319,
+      "lambda_kappa_1": 2291.2999776192455
+    },
+    "head": {
+      "sum_F_theta0_sq": 0.009500495199257029,
+      "penalty_per_unit_lambda_at_dstar": 1.1638106619089862e-05,
+      "lambda_kappa_1": 953215.13281395
+    }
+  }
+}
