@@ -1,0 +1,2321 @@
+{
+  "ckpt": {
+    "file": "rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors",
+    "n_keys": 568,
+    "missing": 18,
+    "missing_non_head": [],
+    "unexpected": [
+      "nrmp_head.cond_proj.0.bias",
+      "nrmp_head.cond_proj.0.weight",
+      "nrmp_head.cond_proj.2.bias",
+      "nrmp_head.cond_proj.2.weight",
+      "nrmp_head.prefix_head.weight",
+      "nrmp_head.root_head.weight",
+      "nrmp_head.suffix_head.weight",
+      "nrmp_head.wazn_head.weight"
+    ]
+  },
+  "perturbation": {
+    "morphemic_embed.root_embed.weight": {
+      "max_abs_delta": 0.0012614727020263672,
+      "bit_equal": false,
+      "eps": 0.0009995037913322449,
+      "nan_poisoned": false
+    },
+    "morphemic_embed.wazn_embed.weight": {
+      "max_abs_delta": 0.0008218288421630859,
+      "bit_equal": false,
+      "eps": 0.0009526413083076477,
+      "nan_poisoned": false
+    },
+    "nrmt_head.root_head.weight": {
+      "max_abs_delta": 5.602836608886719e-06,
+      "bit_equal": false,
+      "eps": 1.9287269562482833e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.q_proj.weight": {
+      "max_abs_delta": 1.0132789611816406e-06,
+      "bit_equal": false,
+      "eps": 6.77492916584015e-05,
+      "nan_poisoned": false
+    },
+    "backbone.embed_tokens.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 2.0399631932377817e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000993104100227356,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.280801236629486e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.230763882398606e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.stream_mix": {
+      "max_abs_delta": 7.748603820800781e-07,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.0.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000979717791080475,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009911264181137085,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.236579060554505e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.212816178798676e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.stream_mix": {
+      "max_abs_delta": 1.5497207641601562e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.1.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009918503165245057,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009920586943626404,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.205271720886231e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.221458852291108e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.stream_mix": {
+      "max_abs_delta": 1.1518597602844238e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.10.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009875573515892029,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000992043673992157,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.210452109575272e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.21830427646637e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.stream_mix": {
+      "max_abs_delta": 1.4960765838623047e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.11.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009777684211730957,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009932541847229004,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.292463630437851e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.226336002349853e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.stream_mix": {
+      "max_abs_delta": 1.4513731002807617e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.12.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009628562927246094,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009928945899009705,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.240823656320573e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.230313122272492e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.stream_mix": {
+      "max_abs_delta": 7.987022399902344e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.13.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009924649000167846,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000992492139339447,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.22101628780365e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.244442403316498e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.stream_mix": {
+      "max_abs_delta": 1.1608004570007324e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.14.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009783502221107482,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009917616844177246,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.255839556455612e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.218249142169952e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.stream_mix": {
+      "max_abs_delta": 1.5735626220703125e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.15.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009762611389160156,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009936777949333191,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.315577566623688e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.235268503427506e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.stream_mix": {
+      "max_abs_delta": 1.2040138244628906e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.16.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009960143566131593,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009929322600364685,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.234269380569458e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.257006317377091e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.stream_mix": {
+      "max_abs_delta": 1.5497207641601562e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.17.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009882239103317261,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009932527542114258,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.229308038949967e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.23813772201538e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.stream_mix": {
+      "max_abs_delta": 1.5139579772949219e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.18.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000999309778213501,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009931855797767639,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.208918780088425e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.196205109357834e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.stream_mix": {
+      "max_abs_delta": 1.6547739505767822e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.19.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009817110300064087,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009924435019493104,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.184165716171265e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.226567715406419e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.stream_mix": {
+      "max_abs_delta": 1.2516975402832031e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.2.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009946714043617248,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009924597144126892,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.285688072443008e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.213196158409119e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.stream_mix": {
+      "max_abs_delta": 1.0907649993896484e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.20.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009829642176628114,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009943066239356995,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.330679893493652e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.231715321540833e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.stream_mix": {
+      "max_abs_delta": 1.920759677886963e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.21.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009806230068206787,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000993515193462372,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.321218401193618e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.240591198205949e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.stream_mix": {
+      "max_abs_delta": 1.93864107131958e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.22.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009834510087966919,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009930388331413269,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.344113290309907e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.247097045183183e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.stream_mix": {
+      "max_abs_delta": 1.4021992683410645e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.23.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009796773791313172,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009924351572990417,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.206770777702332e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.227341085672378e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.stream_mix": {
+      "max_abs_delta": 5.7220458984375e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.3.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000988572597503662,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009935932159423828,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.177098840475083e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.216352224349975e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.stream_mix": {
+      "max_abs_delta": 3.874301910400391e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.4.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009921382069587707,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000992870807647705,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.24683403968811e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.225579023361206e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.stream_mix": {
+      "max_abs_delta": 1.0475516319274902e-05,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.5.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009996508955955506,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009930700659751893,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.232498377561569e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.234808057546616e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.stream_mix": {
+      "max_abs_delta": 4.827976226806641e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.6.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000984673798084259,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009931231737136841,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.307857275009156e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.2264663875103e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.stream_mix": {
+      "max_abs_delta": 8.64267349243164e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.7.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009871161580085755,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009926365613937378,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.211101055145264e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.219910621643066e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.stream_mix": {
+      "max_abs_delta": 6.854534149169922e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.8.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009852933287620544,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.coverage_threshold": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 8.0078125e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.coverage_weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.002,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.governance_strength": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0015,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.ishtiqaq_gamma": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.00025,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.root_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000992245614528656,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.root_k_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.224693149328231e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.root_q_proj.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 7.234221696853638e-05,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.stream_mix": {
+      "max_abs_delta": 7.778406143188477e-06,
+      "bit_equal": false,
+      "eps": 0.0003535533845424652,
+      "nan_poisoned": false
+    },
+    "backbone.layers.9.self_attn.wazn_embed.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009907142519950867,
+      "nan_poisoned": false
+    },
+    "nrmt_head.feat_norm.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.001,
+      "nan_poisoned": false
+    },
+    "nrmt_head.hist_emb.0.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009994067549705505,
+      "nan_poisoned": false
+    },
+    "nrmt_head.hist_emb.1.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009991934299468995,
+      "nan_poisoned": false
+    },
+    "nrmt_head.hist_emb.2.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0010008902549743653,
+      "nan_poisoned": false
+    },
+    "nrmt_head.op_emb.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009721150398254395,
+      "nan_poisoned": false
+    },
+    "nrmt_head.prev_pref_emb.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.000990502417087555,
+      "nan_poisoned": false
+    },
+    "nrmt_head.prev_suff_emb.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009990776777267457,
+      "nan_poisoned": false
+    },
+    "nrmt_head.prev_wazn_emb.weight": {
+      "max_abs_delta": 8.344650268554688e-07,
+      "bit_equal": false,
+      "eps": 0.0009993655681610107,
+      "nan_poisoned": false
+    }
+  },
+  "inert_confirmed": [],
+  "flagged_but_live": [
+    "backbone.embed_tokens.weight",
+    "backbone.layers.0.self_attn.coverage_threshold",
+    "backbone.layers.0.self_attn.coverage_weight",
+    "backbone.layers.0.self_attn.governance_strength",
+    "backbone.layers.0.self_attn.ishtiqaq_gamma",
+    "backbone.layers.0.self_attn.root_embed.weight",
+    "backbone.layers.0.self_attn.root_k_proj.weight",
+    "backbone.layers.0.self_attn.root_q_proj.weight",
+    "backbone.layers.0.self_attn.stream_mix",
+    "backbone.layers.0.self_attn.wazn_embed.weight",
+    "backbone.layers.1.self_attn.coverage_threshold",
+    "backbone.layers.1.self_attn.coverage_weight",
+    "backbone.layers.1.self_attn.governance_strength",
+    "backbone.layers.1.self_attn.ishtiqaq_gamma",
+    "backbone.layers.1.self_attn.root_embed.weight",
+    "backbone.layers.1.self_attn.root_k_proj.weight",
+    "backbone.layers.1.self_attn.root_q_proj.weight",
+    "backbone.layers.1.self_attn.stream_mix",
+    "backbone.layers.1.self_attn.wazn_embed.weight",
+    "backbone.layers.10.self_attn.coverage_threshold",
+    "backbone.layers.10.self_attn.coverage_weight",
+    "backbone.layers.10.self_attn.governance_strength",
+    "backbone.layers.10.self_attn.ishtiqaq_gamma",
+    "backbone.layers.10.self_attn.root_embed.weight",
+    "backbone.layers.10.self_attn.root_k_proj.weight",
+    "backbone.layers.10.self_attn.root_q_proj.weight",
+    "backbone.layers.10.self_attn.stream_mix",
+    "backbone.layers.10.self_attn.wazn_embed.weight",
+    "backbone.layers.11.self_attn.coverage_threshold",
+    "backbone.layers.11.self_attn.coverage_weight",
+    "backbone.layers.11.self_attn.governance_strength",
+    "backbone.layers.11.self_attn.ishtiqaq_gamma",
+    "backbone.layers.11.self_attn.root_embed.weight",
+    "backbone.layers.11.self_attn.root_k_proj.weight",
+    "backbone.layers.11.self_attn.root_q_proj.weight",
+    "backbone.layers.11.self_attn.stream_mix",
+    "backbone.layers.11.self_attn.wazn_embed.weight",
+    "backbone.layers.12.self_attn.coverage_threshold",
+    "backbone.layers.12.self_attn.coverage_weight",
+    "backbone.layers.12.self_attn.governance_strength",
+    "backbone.layers.12.self_attn.ishtiqaq_gamma",
+    "backbone.layers.12.self_attn.root_embed.weight",
+    "backbone.layers.12.self_attn.root_k_proj.weight",
+    "backbone.layers.12.self_attn.root_q_proj.weight",
+    "backbone.layers.12.self_attn.stream_mix",
+    "backbone.layers.12.self_attn.wazn_embed.weight",
+    "backbone.layers.13.self_attn.coverage_threshold",
+    "backbone.layers.13.self_attn.coverage_weight",
+    "backbone.layers.13.self_attn.governance_strength",
+    "backbone.layers.13.self_attn.ishtiqaq_gamma",
+    "backbone.layers.13.self_attn.root_embed.weight",
+    "backbone.layers.13.self_attn.root_k_proj.weight",
+    "backbone.layers.13.self_attn.root_q_proj.weight",
+    "backbone.layers.13.self_attn.stream_mix",
+    "backbone.layers.13.self_attn.wazn_embed.weight",
+    "backbone.layers.14.self_attn.coverage_threshold",
+    "backbone.layers.14.self_attn.coverage_weight",
+    "backbone.layers.14.self_attn.governance_strength",
+    "backbone.layers.14.self_attn.ishtiqaq_gamma",
+    "backbone.layers.14.self_attn.root_embed.weight",
+    "backbone.layers.14.self_attn.root_k_proj.weight",
+    "backbone.layers.14.self_attn.root_q_proj.weight",
+    "backbone.layers.14.self_attn.stream_mix",
+    "backbone.layers.14.self_attn.wazn_embed.weight",
+    "backbone.layers.15.self_attn.coverage_threshold",
+    "backbone.layers.15.self_attn.coverage_weight",
+    "backbone.layers.15.self_attn.governance_strength",
+    "backbone.layers.15.self_attn.ishtiqaq_gamma",
+    "backbone.layers.15.self_attn.root_embed.weight",
+    "backbone.layers.15.self_attn.root_k_proj.weight",
+    "backbone.layers.15.self_attn.root_q_proj.weight",
+    "backbone.layers.15.self_attn.stream_mix",
+    "backbone.layers.15.self_attn.wazn_embed.weight",
+    "backbone.layers.16.self_attn.coverage_threshold",
+    "backbone.layers.16.self_attn.coverage_weight",
+    "backbone.layers.16.self_attn.governance_strength",
+    "backbone.layers.16.self_attn.ishtiqaq_gamma",
+    "backbone.layers.16.self_attn.root_embed.weight",
+    "backbone.layers.16.self_attn.root_k_proj.weight",
+    "backbone.layers.16.self_attn.root_q_proj.weight",
+    "backbone.layers.16.self_attn.stream_mix",
+    "backbone.layers.16.self_attn.wazn_embed.weight",
+    "backbone.layers.17.self_attn.coverage_threshold",
+    "backbone.layers.17.self_attn.coverage_weight",
+    "backbone.layers.17.self_attn.governance_strength",
+    "backbone.layers.17.self_attn.ishtiqaq_gamma",
+    "backbone.layers.17.self_attn.root_embed.weight",
+    "backbone.layers.17.self_attn.root_k_proj.weight",
+    "backbone.layers.17.self_attn.root_q_proj.weight",
+    "backbone.layers.17.self_attn.stream_mix",
+    "backbone.layers.17.self_attn.wazn_embed.weight",
+    "backbone.layers.18.self_attn.coverage_threshold",
+    "backbone.layers.18.self_attn.coverage_weight",
+    "backbone.layers.18.self_attn.governance_strength",
+    "backbone.layers.18.self_attn.ishtiqaq_gamma",
+    "backbone.layers.18.self_attn.root_embed.weight",
+    "backbone.layers.18.self_attn.root_k_proj.weight",
+    "backbone.layers.18.self_attn.root_q_proj.weight",
+    "backbone.layers.18.self_attn.stream_mix",
+    "backbone.layers.18.self_attn.wazn_embed.weight",
+    "backbone.layers.19.self_attn.coverage_threshold",
+    "backbone.layers.19.self_attn.coverage_weight",
+    "backbone.layers.19.self_attn.governance_strength",
+    "backbone.layers.19.self_attn.ishtiqaq_gamma",
+    "backbone.layers.19.self_attn.root_embed.weight",
+    "backbone.layers.19.self_attn.root_k_proj.weight",
+    "backbone.layers.19.self_attn.root_q_proj.weight",
+    "backbone.layers.19.self_attn.stream_mix",
+    "backbone.layers.19.self_attn.wazn_embed.weight",
+    "backbone.layers.2.self_attn.coverage_threshold",
+    "backbone.layers.2.self_attn.coverage_weight",
+    "backbone.layers.2.self_attn.governance_strength",
+    "backbone.layers.2.self_attn.ishtiqaq_gamma",
+    "backbone.layers.2.self_attn.root_embed.weight",
+    "backbone.layers.2.self_attn.root_k_proj.weight",
+    "backbone.layers.2.self_attn.root_q_proj.weight",
+    "backbone.layers.2.self_attn.stream_mix",
+    "backbone.layers.2.self_attn.wazn_embed.weight",
+    "backbone.layers.20.self_attn.coverage_threshold",
+    "backbone.layers.20.self_attn.coverage_weight",
+    "backbone.layers.20.self_attn.governance_strength",
+    "backbone.layers.20.self_attn.ishtiqaq_gamma",
+    "backbone.layers.20.self_attn.root_embed.weight",
+    "backbone.layers.20.self_attn.root_k_proj.weight",
+    "backbone.layers.20.self_attn.root_q_proj.weight",
+    "backbone.layers.20.self_attn.stream_mix",
+    "backbone.layers.20.self_attn.wazn_embed.weight",
+    "backbone.layers.21.self_attn.coverage_threshold",
+    "backbone.layers.21.self_attn.coverage_weight",
+    "backbone.layers.21.self_attn.governance_strength",
+    "backbone.layers.21.self_attn.ishtiqaq_gamma",
+    "backbone.layers.21.self_attn.root_embed.weight",
+    "backbone.layers.21.self_attn.root_k_proj.weight",
+    "backbone.layers.21.self_attn.root_q_proj.weight",
+    "backbone.layers.21.self_attn.stream_mix",
+    "backbone.layers.21.self_attn.wazn_embed.weight",
+    "backbone.layers.22.self_attn.coverage_threshold",
+    "backbone.layers.22.self_attn.coverage_weight",
+    "backbone.layers.22.self_attn.governance_strength",
+    "backbone.layers.22.self_attn.ishtiqaq_gamma",
+    "backbone.layers.22.self_attn.root_embed.weight",
+    "backbone.layers.22.self_attn.root_k_proj.weight",
+    "backbone.layers.22.self_attn.root_q_proj.weight",
+    "backbone.layers.22.self_attn.stream_mix",
+    "backbone.layers.22.self_attn.wazn_embed.weight",
+    "backbone.layers.23.self_attn.coverage_threshold",
+    "backbone.layers.23.self_attn.coverage_weight",
+    "backbone.layers.23.self_attn.governance_strength",
+    "backbone.layers.23.self_attn.ishtiqaq_gamma",
+    "backbone.layers.23.self_attn.root_embed.weight",
+    "backbone.layers.23.self_attn.root_k_proj.weight",
+    "backbone.layers.23.self_attn.root_q_proj.weight",
+    "backbone.layers.23.self_attn.stream_mix",
+    "backbone.layers.23.self_attn.wazn_embed.weight",
+    "backbone.layers.3.self_attn.coverage_threshold",
+    "backbone.layers.3.self_attn.coverage_weight",
+    "backbone.layers.3.self_attn.governance_strength",
+    "backbone.layers.3.self_attn.ishtiqaq_gamma",
+    "backbone.layers.3.self_attn.root_embed.weight",
+    "backbone.layers.3.self_attn.root_k_proj.weight",
+    "backbone.layers.3.self_attn.root_q_proj.weight",
+    "backbone.layers.3.self_attn.stream_mix",
+    "backbone.layers.3.self_attn.wazn_embed.weight",
+    "backbone.layers.4.self_attn.coverage_threshold",
+    "backbone.layers.4.self_attn.coverage_weight",
+    "backbone.layers.4.self_attn.governance_strength",
+    "backbone.layers.4.self_attn.ishtiqaq_gamma",
+    "backbone.layers.4.self_attn.root_embed.weight",
+    "backbone.layers.4.self_attn.root_k_proj.weight",
+    "backbone.layers.4.self_attn.root_q_proj.weight",
+    "backbone.layers.4.self_attn.stream_mix",
+    "backbone.layers.4.self_attn.wazn_embed.weight",
+    "backbone.layers.5.self_attn.coverage_threshold",
+    "backbone.layers.5.self_attn.coverage_weight",
+    "backbone.layers.5.self_attn.governance_strength",
+    "backbone.layers.5.self_attn.ishtiqaq_gamma",
+    "backbone.layers.5.self_attn.root_embed.weight",
+    "backbone.layers.5.self_attn.root_k_proj.weight",
+    "backbone.layers.5.self_attn.root_q_proj.weight",
+    "backbone.layers.5.self_attn.stream_mix",
+    "backbone.layers.5.self_attn.wazn_embed.weight",
+    "backbone.layers.6.self_attn.coverage_threshold",
+    "backbone.layers.6.self_attn.coverage_weight",
+    "backbone.layers.6.self_attn.governance_strength",
+    "backbone.layers.6.self_attn.ishtiqaq_gamma",
+    "backbone.layers.6.self_attn.root_embed.weight",
+    "backbone.layers.6.self_attn.root_k_proj.weight",
+    "backbone.layers.6.self_attn.root_q_proj.weight",
+    "backbone.layers.6.self_attn.stream_mix",
+    "backbone.layers.6.self_attn.wazn_embed.weight",
+    "backbone.layers.7.self_attn.coverage_threshold",
+    "backbone.layers.7.self_attn.coverage_weight",
+    "backbone.layers.7.self_attn.governance_strength",
+    "backbone.layers.7.self_attn.ishtiqaq_gamma",
+    "backbone.layers.7.self_attn.root_embed.weight",
+    "backbone.layers.7.self_attn.root_k_proj.weight",
+    "backbone.layers.7.self_attn.root_q_proj.weight",
+    "backbone.layers.7.self_attn.stream_mix",
+    "backbone.layers.7.self_attn.wazn_embed.weight",
+    "backbone.layers.8.self_attn.coverage_threshold",
+    "backbone.layers.8.self_attn.coverage_weight",
+    "backbone.layers.8.self_attn.governance_strength",
+    "backbone.layers.8.self_attn.ishtiqaq_gamma",
+    "backbone.layers.8.self_attn.root_embed.weight",
+    "backbone.layers.8.self_attn.root_k_proj.weight",
+    "backbone.layers.8.self_attn.root_q_proj.weight",
+    "backbone.layers.8.self_attn.stream_mix",
+    "backbone.layers.8.self_attn.wazn_embed.weight",
+    "backbone.layers.9.self_attn.coverage_threshold",
+    "backbone.layers.9.self_attn.coverage_weight",
+    "backbone.layers.9.self_attn.governance_strength",
+    "backbone.layers.9.self_attn.ishtiqaq_gamma",
+    "backbone.layers.9.self_attn.root_embed.weight",
+    "backbone.layers.9.self_attn.root_k_proj.weight",
+    "backbone.layers.9.self_attn.root_q_proj.weight",
+    "backbone.layers.9.self_attn.stream_mix",
+    "backbone.layers.9.self_attn.wazn_embed.weight",
+    "nrmt_head.feat_norm.weight",
+    "nrmt_head.hist_emb.0.weight",
+    "nrmt_head.hist_emb.1.weight",
+    "nrmt_head.hist_emb.2.weight",
+    "nrmt_head.op_emb.weight",
+    "nrmt_head.prev_pref_emb.weight",
+    "nrmt_head.prev_suff_emb.weight",
+    "nrmt_head.prev_wazn_emb.weight"
+  ],
+  "id_to_root_table": {
+    "root_tokens": 9199,
+    "distinct": 9000,
+    "min": 1,
+    "max": 9014
+  },
+  "flags": [
+    {
+      "kind": "constant_mismatch",
+      "where": "self_attn.root_embed rows  (L24)",
+      "got": 9015,
+      "want": 9490
+    },
+    {
+      "kind": "constant_mismatch",
+      "where": "self_attn.wazn_embed rows  (L24)",
+      "got": 128,
+      "want": 142
+    },
+    {
+      "kind": "grad_flagged_but_perturbation_live",
+      "params": [
+        "backbone.embed_tokens.weight",
+        "backbone.layers.0.self_attn.coverage_threshold",
+        "backbone.layers.0.self_attn.coverage_weight",
+        "backbone.layers.0.self_attn.governance_strength",
+        "backbone.layers.0.self_attn.ishtiqaq_gamma",
+        "backbone.layers.0.self_attn.root_embed.weight",
+        "backbone.layers.0.self_attn.root_k_proj.weight",
+        "backbone.layers.0.self_attn.root_q_proj.weight",
+        "backbone.layers.0.self_attn.stream_mix",
+        "backbone.layers.0.self_attn.wazn_embed.weight",
+        "backbone.layers.1.self_attn.coverage_threshold",
+        "backbone.layers.1.self_attn.coverage_weight",
+        "backbone.layers.1.self_attn.governance_strength",
+        "backbone.layers.1.self_attn.ishtiqaq_gamma",
+        "backbone.layers.1.self_attn.root_embed.weight",
+        "backbone.layers.1.self_attn.root_k_proj.weight",
+        "backbone.layers.1.self_attn.root_q_proj.weight",
+        "backbone.layers.1.self_attn.stream_mix",
+        "backbone.layers.1.self_attn.wazn_embed.weight",
+        "backbone.layers.10.self_attn.coverage_threshold",
+        "backbone.layers.10.self_attn.coverage_weight",
+        "backbone.layers.10.self_attn.governance_strength",
+        "backbone.layers.10.self_attn.ishtiqaq_gamma",
+        "backbone.layers.10.self_attn.root_embed.weight",
+        "backbone.layers.10.self_attn.root_k_proj.weight",
+        "backbone.layers.10.self_attn.root_q_proj.weight",
+        "backbone.layers.10.self_attn.stream_mix",
+        "backbone.layers.10.self_attn.wazn_embed.weight",
+        "backbone.layers.11.self_attn.coverage_threshold",
+        "backbone.layers.11.self_attn.coverage_weight",
+        "backbone.layers.11.self_attn.governance_strength",
+        "backbone.layers.11.self_attn.ishtiqaq_gamma",
+        "backbone.layers.11.self_attn.root_embed.weight",
+        "backbone.layers.11.self_attn.root_k_proj.weight",
+        "backbone.layers.11.self_attn.root_q_proj.weight",
+        "backbone.layers.11.self_attn.stream_mix",
+        "backbone.layers.11.self_attn.wazn_embed.weight",
+        "backbone.layers.12.self_attn.coverage_threshold",
+        "backbone.layers.12.self_attn.coverage_weight",
+        "backbone.layers.12.self_attn.governance_strength",
+        "backbone.layers.12.self_attn.ishtiqaq_gamma",
+        "backbone.layers.12.self_attn.root_embed.weight",
+        "backbone.layers.12.self_attn.root_k_proj.weight",
+        "backbone.layers.12.self_attn.root_q_proj.weight",
+        "backbone.layers.12.self_attn.stream_mix",
+        "backbone.layers.12.self_attn.wazn_embed.weight",
+        "backbone.layers.13.self_attn.coverage_threshold",
+        "backbone.layers.13.self_attn.coverage_weight",
+        "backbone.layers.13.self_attn.governance_strength",
+        "backbone.layers.13.self_attn.ishtiqaq_gamma",
+        "backbone.layers.13.self_attn.root_embed.weight",
+        "backbone.layers.13.self_attn.root_k_proj.weight",
+        "backbone.layers.13.self_attn.root_q_proj.weight",
+        "backbone.layers.13.self_attn.stream_mix",
+        "backbone.layers.13.self_attn.wazn_embed.weight",
+        "backbone.layers.14.self_attn.coverage_threshold",
+        "backbone.layers.14.self_attn.coverage_weight",
+        "backbone.layers.14.self_attn.governance_strength",
+        "backbone.layers.14.self_attn.ishtiqaq_gamma",
+        "backbone.layers.14.self_attn.root_embed.weight",
+        "backbone.layers.14.self_attn.root_k_proj.weight",
+        "backbone.layers.14.self_attn.root_q_proj.weight",
+        "backbone.layers.14.self_attn.stream_mix",
+        "backbone.layers.14.self_attn.wazn_embed.weight",
+        "backbone.layers.15.self_attn.coverage_threshold",
+        "backbone.layers.15.self_attn.coverage_weight",
+        "backbone.layers.15.self_attn.governance_strength",
+        "backbone.layers.15.self_attn.ishtiqaq_gamma",
+        "backbone.layers.15.self_attn.root_embed.weight",
+        "backbone.layers.15.self_attn.root_k_proj.weight",
+        "backbone.layers.15.self_attn.root_q_proj.weight",
+        "backbone.layers.15.self_attn.stream_mix",
+        "backbone.layers.15.self_attn.wazn_embed.weight",
+        "backbone.layers.16.self_attn.coverage_threshold",
+        "backbone.layers.16.self_attn.coverage_weight",
+        "backbone.layers.16.self_attn.governance_strength",
+        "backbone.layers.16.self_attn.ishtiqaq_gamma",
+        "backbone.layers.16.self_attn.root_embed.weight",
+        "backbone.layers.16.self_attn.root_k_proj.weight",
+        "backbone.layers.16.self_attn.root_q_proj.weight",
+        "backbone.layers.16.self_attn.stream_mix",
+        "backbone.layers.16.self_attn.wazn_embed.weight",
+        "backbone.layers.17.self_attn.coverage_threshold",
+        "backbone.layers.17.self_attn.coverage_weight",
+        "backbone.layers.17.self_attn.governance_strength",
+        "backbone.layers.17.self_attn.ishtiqaq_gamma",
+        "backbone.layers.17.self_attn.root_embed.weight",
+        "backbone.layers.17.self_attn.root_k_proj.weight",
+        "backbone.layers.17.self_attn.root_q_proj.weight",
+        "backbone.layers.17.self_attn.stream_mix",
+        "backbone.layers.17.self_attn.wazn_embed.weight",
+        "backbone.layers.18.self_attn.coverage_threshold",
+        "backbone.layers.18.self_attn.coverage_weight",
+        "backbone.layers.18.self_attn.governance_strength",
+        "backbone.layers.18.self_attn.ishtiqaq_gamma",
+        "backbone.layers.18.self_attn.root_embed.weight",
+        "backbone.layers.18.self_attn.root_k_proj.weight",
+        "backbone.layers.18.self_attn.root_q_proj.weight",
+        "backbone.layers.18.self_attn.stream_mix",
+        "backbone.layers.18.self_attn.wazn_embed.weight",
+        "backbone.layers.19.self_attn.coverage_threshold",
+        "backbone.layers.19.self_attn.coverage_weight",
+        "backbone.layers.19.self_attn.governance_strength",
+        "backbone.layers.19.self_attn.ishtiqaq_gamma",
+        "backbone.layers.19.self_attn.root_embed.weight",
+        "backbone.layers.19.self_attn.root_k_proj.weight",
+        "backbone.layers.19.self_attn.root_q_proj.weight",
+        "backbone.layers.19.self_attn.stream_mix",
+        "backbone.layers.19.self_attn.wazn_embed.weight",
+        "backbone.layers.2.self_attn.coverage_threshold",
+        "backbone.layers.2.self_attn.coverage_weight",
+        "backbone.layers.2.self_attn.governance_strength",
+        "backbone.layers.2.self_attn.ishtiqaq_gamma",
+        "backbone.layers.2.self_attn.root_embed.weight",
+        "backbone.layers.2.self_attn.root_k_proj.weight",
+        "backbone.layers.2.self_attn.root_q_proj.weight",
+        "backbone.layers.2.self_attn.stream_mix",
+        "backbone.layers.2.self_attn.wazn_embed.weight",
+        "backbone.layers.20.self_attn.coverage_threshold",
+        "backbone.layers.20.self_attn.coverage_weight",
+        "backbone.layers.20.self_attn.governance_strength",
+        "backbone.layers.20.self_attn.ishtiqaq_gamma",
+        "backbone.layers.20.self_attn.root_embed.weight",
+        "backbone.layers.20.self_attn.root_k_proj.weight",
+        "backbone.layers.20.self_attn.root_q_proj.weight",
+        "backbone.layers.20.self_attn.stream_mix",
+        "backbone.layers.20.self_attn.wazn_embed.weight",
+        "backbone.layers.21.self_attn.coverage_threshold",
+        "backbone.layers.21.self_attn.coverage_weight",
+        "backbone.layers.21.self_attn.governance_strength",
+        "backbone.layers.21.self_attn.ishtiqaq_gamma",
+        "backbone.layers.21.self_attn.root_embed.weight",
+        "backbone.layers.21.self_attn.root_k_proj.weight",
+        "backbone.layers.21.self_attn.root_q_proj.weight",
+        "backbone.layers.21.self_attn.stream_mix",
+        "backbone.layers.21.self_attn.wazn_embed.weight",
+        "backbone.layers.22.self_attn.coverage_threshold",
+        "backbone.layers.22.self_attn.coverage_weight",
+        "backbone.layers.22.self_attn.governance_strength",
+        "backbone.layers.22.self_attn.ishtiqaq_gamma",
+        "backbone.layers.22.self_attn.root_embed.weight",
+        "backbone.layers.22.self_attn.root_k_proj.weight",
+        "backbone.layers.22.self_attn.root_q_proj.weight",
+        "backbone.layers.22.self_attn.stream_mix",
+        "backbone.layers.22.self_attn.wazn_embed.weight",
+        "backbone.layers.23.self_attn.coverage_threshold",
+        "backbone.layers.23.self_attn.coverage_weight",
+        "backbone.layers.23.self_attn.governance_strength",
+        "backbone.layers.23.self_attn.ishtiqaq_gamma",
+        "backbone.layers.23.self_attn.root_embed.weight",
+        "backbone.layers.23.self_attn.root_k_proj.weight",
+        "backbone.layers.23.self_attn.root_q_proj.weight",
+        "backbone.layers.23.self_attn.stream_mix",
+        "backbone.layers.23.self_attn.wazn_embed.weight",
+        "backbone.layers.3.self_attn.coverage_threshold",
+        "backbone.layers.3.self_attn.coverage_weight",
+        "backbone.layers.3.self_attn.governance_strength",
+        "backbone.layers.3.self_attn.ishtiqaq_gamma",
+        "backbone.layers.3.self_attn.root_embed.weight",
+        "backbone.layers.3.self_attn.root_k_proj.weight",
+        "backbone.layers.3.self_attn.root_q_proj.weight",
+        "backbone.layers.3.self_attn.stream_mix",
+        "backbone.layers.3.self_attn.wazn_embed.weight",
+        "backbone.layers.4.self_attn.coverage_threshold",
+        "backbone.layers.4.self_attn.coverage_weight",
+        "backbone.layers.4.self_attn.governance_strength",
+        "backbone.layers.4.self_attn.ishtiqaq_gamma",
+        "backbone.layers.4.self_attn.root_embed.weight",
+        "backbone.layers.4.self_attn.root_k_proj.weight",
+        "backbone.layers.4.self_attn.root_q_proj.weight",
+        "backbone.layers.4.self_attn.stream_mix",
+        "backbone.layers.4.self_attn.wazn_embed.weight",
+        "backbone.layers.5.self_attn.coverage_threshold",
+        "backbone.layers.5.self_attn.coverage_weight",
+        "backbone.layers.5.self_attn.governance_strength",
+        "backbone.layers.5.self_attn.ishtiqaq_gamma",
+        "backbone.layers.5.self_attn.root_embed.weight",
+        "backbone.layers.5.self_attn.root_k_proj.weight",
+        "backbone.layers.5.self_attn.root_q_proj.weight",
+        "backbone.layers.5.self_attn.stream_mix",
+        "backbone.layers.5.self_attn.wazn_embed.weight",
+        "backbone.layers.6.self_attn.coverage_threshold",
+        "backbone.layers.6.self_attn.coverage_weight",
+        "backbone.layers.6.self_attn.governance_strength",
+        "backbone.layers.6.self_attn.ishtiqaq_gamma",
+        "backbone.layers.6.self_attn.root_embed.weight",
+        "backbone.layers.6.self_attn.root_k_proj.weight",
+        "backbone.layers.6.self_attn.root_q_proj.weight",
+        "backbone.layers.6.self_attn.stream_mix",
+        "backbone.layers.6.self_attn.wazn_embed.weight",
+        "backbone.layers.7.self_attn.coverage_threshold",
+        "backbone.layers.7.self_attn.coverage_weight",
+        "backbone.layers.7.self_attn.governance_strength",
+        "backbone.layers.7.self_attn.ishtiqaq_gamma",
+        "backbone.layers.7.self_attn.root_embed.weight",
+        "backbone.layers.7.self_attn.root_k_proj.weight",
+        "backbone.layers.7.self_attn.root_q_proj.weight",
+        "backbone.layers.7.self_attn.stream_mix",
+        "backbone.layers.7.self_attn.wazn_embed.weight",
+        "backbone.layers.8.self_attn.coverage_threshold",
+        "backbone.layers.8.self_attn.coverage_weight",
+        "backbone.layers.8.self_attn.governance_strength",
+        "backbone.layers.8.self_attn.ishtiqaq_gamma",
+        "backbone.layers.8.self_attn.root_embed.weight",
+        "backbone.layers.8.self_attn.root_k_proj.weight",
+        "backbone.layers.8.self_attn.root_q_proj.weight",
+        "backbone.layers.8.self_attn.stream_mix",
+        "backbone.layers.8.self_attn.wazn_embed.weight",
+        "backbone.layers.9.self_attn.coverage_threshold",
+        "backbone.layers.9.self_attn.coverage_weight",
+        "backbone.layers.9.self_attn.governance_strength",
+        "backbone.layers.9.self_attn.ishtiqaq_gamma",
+        "backbone.layers.9.self_attn.root_embed.weight",
+        "backbone.layers.9.self_attn.root_k_proj.weight",
+        "backbone.layers.9.self_attn.root_q_proj.weight",
+        "backbone.layers.9.self_attn.stream_mix",
+        "backbone.layers.9.self_attn.wazn_embed.weight",
+        "nrmt_head.feat_norm.weight",
+        "nrmt_head.hist_emb.0.weight",
+        "nrmt_head.hist_emb.1.weight",
+        "nrmt_head.hist_emb.2.weight",
+        "nrmt_head.op_emb.weight",
+        "nrmt_head.prev_pref_emb.weight",
+        "nrmt_head.prev_suff_emb.weight",
+        "nrmt_head.prev_wazn_emb.weight"
+      ]
+    },
+    {
+      "kind": "stale_root_space_mixed",
+      "self_attn_root_embed_rows": 9015,
+      "live_num_roots": 9490,
+      "missing_ids": 475
+    },
+    {
+      "kind": "root_id_aliasing",
+      "table_rows": 9015,
+      "live_ids": 9490,
+      "ids_without_row": 475,
+      "pct_of_roots": 5.005,
+      "alias_row": 9014,
+      "aliased_ids": 475
+    },
+    {
+      "kind": "id_to_root_table_not_injective",
+      "tokens": 9199,
+      "distinct": 9000
+    },
+    {
+      "kind": "untracked_live_hooks",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "flash_params_M": 534.474,
+      "untracked_params_M": 151.95,
+      "untracked_names": [
+        "model.morphemic_heads.root_head.weight",
+        "model.morphemic_heads.wazn_head.weight",
+        "engram_layer1.tables.0.weight",
+        "engram_layer1.tables.1.weight",
+        "engram_layer1.tables.2.weight",
+        "engram_layer1.tables.3.weight",
+        "engram_layer1.gate_proj.weight",
+        "engram_layer1.gate_proj.bias",
+        "engram_layer1.mem_proj.weight",
+        "engram_layer14.tables.0.weight",
+        "engram_layer14.tables.1.weight",
+        "engram_layer14.tables.2.weight",
+        "engram_layer14.tables.3.weight",
+        "engram_layer14.gate_proj.weight",
+        "engram_layer14.gate_proj.bias",
+        "engram_layer14.mem_proj.weight",
+        "farahidi_orbit.orbit_projs",
+        "farahidi_orbit.orbit_gate.weight",
+        "farahidi_orbit.orbit_gate.bias",
+        "farahidi_orbit.out_proj.weight",
+        "ced_bridge.alpha_ced",
+        "ced_bridge.kv_proj_from_h12.weight"
+      ],
+      "numerically_inert": true
+    }
+  ],
+  "constants": [
+    {
+      "where": "base.vocab_size",
+      "got": 10052,
+      "want": 10052,
+      "ok": true
+    },
+    {
+      "where": "backbone.embed_tokens rows",
+      "got": 10052,
+      "want": 10052,
+      "ok": true
+    },
+    {
+      "where": "morphemic_embed.root_embed rows",
+      "got": 9490,
+      "want": 9490,
+      "ok": true
+    },
+    {
+      "where": "morphemic_embed.wazn_embed rows",
+      "got": 142,
+      "want": 142,
+      "ok": true
+    },
+    {
+      "where": "nrmt_head.root_head out",
+      "got": 9490,
+      "want": 9490,
+      "ok": true
+    },
+    {
+      "where": "nrmt_head.wazn_head out",
+      "got": 142,
+      "want": 142,
+      "ok": true
+    },
+    {
+      "where": "nrmt_head.hist_emb[0] rows",
+      "got": 9490,
+      "want": 9490,
+      "ok": true
+    },
+    {
+      "where": "self_attn.root_embed rows  (L24)",
+      "got": 9015,
+      "want": 9490,
+      "ok": false
+    },
+    {
+      "where": "self_attn.wazn_embed rows  (L24)",
+      "got": 128,
+      "want": 142,
+      "ok": false
+    },
+    {
+      "where": "base.metadata_mask numel",
+      "got": 10052,
+      "want": 10052,
+      "ok": true
+    },
+    {
+      "where": "base.id_to_root_table numel",
+      "got": 10052,
+      "want": 10052,
+      "ok": true
+    }
+  ],
+  "grad_none": [
+    "backbone.embed_tokens.weight",
+    "backbone.layers.0.self_attn.ishtiqaq_gamma",
+    "backbone.layers.0.self_attn.coverage_weight",
+    "backbone.layers.0.self_attn.coverage_threshold",
+    "backbone.layers.0.self_attn.governance_strength",
+    "backbone.layers.0.self_attn.root_embed.weight",
+    "backbone.layers.0.self_attn.wazn_embed.weight",
+    "backbone.layers.0.self_attn.root_q_proj.weight",
+    "backbone.layers.0.self_attn.root_k_proj.weight",
+    "backbone.layers.1.self_attn.ishtiqaq_gamma",
+    "backbone.layers.1.self_attn.coverage_weight",
+    "backbone.layers.1.self_attn.coverage_threshold",
+    "backbone.layers.1.self_attn.governance_strength",
+    "backbone.layers.1.self_attn.root_embed.weight",
+    "backbone.layers.1.self_attn.wazn_embed.weight",
+    "backbone.layers.1.self_attn.root_q_proj.weight",
+    "backbone.layers.1.self_attn.root_k_proj.weight",
+    "backbone.layers.2.self_attn.ishtiqaq_gamma",
+    "backbone.layers.2.self_attn.coverage_weight",
+    "backbone.layers.2.self_attn.coverage_threshold",
+    "backbone.layers.2.self_attn.governance_strength",
+    "backbone.layers.2.self_attn.root_embed.weight",
+    "backbone.layers.2.self_attn.wazn_embed.weight",
+    "backbone.layers.2.self_attn.root_q_proj.weight",
+    "backbone.layers.2.self_attn.root_k_proj.weight",
+    "backbone.layers.3.self_attn.ishtiqaq_gamma",
+    "backbone.layers.3.self_attn.coverage_weight",
+    "backbone.layers.3.self_attn.coverage_threshold",
+    "backbone.layers.3.self_attn.governance_strength",
+    "backbone.layers.3.self_attn.root_embed.weight",
+    "backbone.layers.3.self_attn.wazn_embed.weight",
+    "backbone.layers.3.self_attn.root_q_proj.weight",
+    "backbone.layers.3.self_attn.root_k_proj.weight",
+    "backbone.layers.4.self_attn.ishtiqaq_gamma",
+    "backbone.layers.4.self_attn.coverage_weight",
+    "backbone.layers.4.self_attn.coverage_threshold",
+    "backbone.layers.4.self_attn.governance_strength",
+    "backbone.layers.4.self_attn.root_embed.weight",
+    "backbone.layers.4.self_attn.wazn_embed.weight",
+    "backbone.layers.4.self_attn.root_q_proj.weight",
+    "backbone.layers.4.self_attn.root_k_proj.weight",
+    "backbone.layers.5.self_attn.ishtiqaq_gamma",
+    "backbone.layers.5.self_attn.coverage_weight",
+    "backbone.layers.5.self_attn.coverage_threshold",
+    "backbone.layers.5.self_attn.governance_strength",
+    "backbone.layers.5.self_attn.root_embed.weight",
+    "backbone.layers.5.self_attn.wazn_embed.weight",
+    "backbone.layers.5.self_attn.root_q_proj.weight",
+    "backbone.layers.5.self_attn.root_k_proj.weight",
+    "backbone.layers.6.self_attn.ishtiqaq_gamma",
+    "backbone.layers.6.self_attn.coverage_weight",
+    "backbone.layers.6.self_attn.coverage_threshold",
+    "backbone.layers.6.self_attn.governance_strength",
+    "backbone.layers.6.self_attn.root_embed.weight",
+    "backbone.layers.6.self_attn.wazn_embed.weight",
+    "backbone.layers.6.self_attn.root_q_proj.weight",
+    "backbone.layers.6.self_attn.root_k_proj.weight",
+    "backbone.layers.7.self_attn.ishtiqaq_gamma",
+    "backbone.layers.7.self_attn.coverage_weight",
+    "backbone.layers.7.self_attn.coverage_threshold",
+    "backbone.layers.7.self_attn.governance_strength",
+    "backbone.layers.7.self_attn.root_embed.weight",
+    "backbone.layers.7.self_attn.wazn_embed.weight",
+    "backbone.layers.7.self_attn.root_q_proj.weight",
+    "backbone.layers.7.self_attn.root_k_proj.weight",
+    "backbone.layers.8.self_attn.ishtiqaq_gamma",
+    "backbone.layers.8.self_attn.coverage_weight",
+    "backbone.layers.8.self_attn.coverage_threshold",
+    "backbone.layers.8.self_attn.governance_strength",
+    "backbone.layers.8.self_attn.root_embed.weight",
+    "backbone.layers.8.self_attn.wazn_embed.weight",
+    "backbone.layers.8.self_attn.root_q_proj.weight",
+    "backbone.layers.8.self_attn.root_k_proj.weight",
+    "backbone.layers.9.self_attn.ishtiqaq_gamma",
+    "backbone.layers.9.self_attn.coverage_weight",
+    "backbone.layers.9.self_attn.coverage_threshold",
+    "backbone.layers.9.self_attn.governance_strength",
+    "backbone.layers.9.self_attn.root_embed.weight",
+    "backbone.layers.9.self_attn.wazn_embed.weight",
+    "backbone.layers.9.self_attn.root_q_proj.weight",
+    "backbone.layers.9.self_attn.root_k_proj.weight",
+    "backbone.layers.10.self_attn.ishtiqaq_gamma",
+    "backbone.layers.10.self_attn.coverage_weight",
+    "backbone.layers.10.self_attn.coverage_threshold",
+    "backbone.layers.10.self_attn.governance_strength",
+    "backbone.layers.10.self_attn.root_embed.weight",
+    "backbone.layers.10.self_attn.wazn_embed.weight",
+    "backbone.layers.10.self_attn.root_q_proj.weight",
+    "backbone.layers.10.self_attn.root_k_proj.weight",
+    "backbone.layers.11.self_attn.ishtiqaq_gamma",
+    "backbone.layers.11.self_attn.coverage_weight",
+    "backbone.layers.11.self_attn.coverage_threshold",
+    "backbone.layers.11.self_attn.governance_strength",
+    "backbone.layers.11.self_attn.root_embed.weight",
+    "backbone.layers.11.self_attn.wazn_embed.weight",
+    "backbone.layers.11.self_attn.root_q_proj.weight",
+    "backbone.layers.11.self_attn.root_k_proj.weight",
+    "backbone.layers.12.self_attn.ishtiqaq_gamma",
+    "backbone.layers.12.self_attn.coverage_weight",
+    "backbone.layers.12.self_attn.coverage_threshold",
+    "backbone.layers.12.self_attn.governance_strength",
+    "backbone.layers.12.self_attn.root_embed.weight",
+    "backbone.layers.12.self_attn.wazn_embed.weight",
+    "backbone.layers.12.self_attn.root_q_proj.weight",
+    "backbone.layers.12.self_attn.root_k_proj.weight",
+    "backbone.layers.13.self_attn.ishtiqaq_gamma",
+    "backbone.layers.13.self_attn.coverage_weight",
+    "backbone.layers.13.self_attn.coverage_threshold",
+    "backbone.layers.13.self_attn.governance_strength",
+    "backbone.layers.13.self_attn.root_embed.weight",
+    "backbone.layers.13.self_attn.wazn_embed.weight",
+    "backbone.layers.13.self_attn.root_q_proj.weight",
+    "backbone.layers.13.self_attn.root_k_proj.weight",
+    "backbone.layers.14.self_attn.ishtiqaq_gamma",
+    "backbone.layers.14.self_attn.coverage_weight",
+    "backbone.layers.14.self_attn.coverage_threshold",
+    "backbone.layers.14.self_attn.governance_strength",
+    "backbone.layers.14.self_attn.root_embed.weight",
+    "backbone.layers.14.self_attn.wazn_embed.weight",
+    "backbone.layers.14.self_attn.root_q_proj.weight",
+    "backbone.layers.14.self_attn.root_k_proj.weight",
+    "backbone.layers.15.self_attn.ishtiqaq_gamma",
+    "backbone.layers.15.self_attn.coverage_weight",
+    "backbone.layers.15.self_attn.coverage_threshold",
+    "backbone.layers.15.self_attn.governance_strength",
+    "backbone.layers.15.self_attn.root_embed.weight",
+    "backbone.layers.15.self_attn.wazn_embed.weight",
+    "backbone.layers.15.self_attn.root_q_proj.weight",
+    "backbone.layers.15.self_attn.root_k_proj.weight",
+    "backbone.layers.16.self_attn.ishtiqaq_gamma",
+    "backbone.layers.16.self_attn.coverage_weight",
+    "backbone.layers.16.self_attn.coverage_threshold",
+    "backbone.layers.16.self_attn.governance_strength",
+    "backbone.layers.16.self_attn.root_embed.weight",
+    "backbone.layers.16.self_attn.wazn_embed.weight",
+    "backbone.layers.16.self_attn.root_q_proj.weight",
+    "backbone.layers.16.self_attn.root_k_proj.weight",
+    "backbone.layers.17.self_attn.ishtiqaq_gamma",
+    "backbone.layers.17.self_attn.coverage_weight",
+    "backbone.layers.17.self_attn.coverage_threshold",
+    "backbone.layers.17.self_attn.governance_strength",
+    "backbone.layers.17.self_attn.root_embed.weight",
+    "backbone.layers.17.self_attn.wazn_embed.weight",
+    "backbone.layers.17.self_attn.root_q_proj.weight",
+    "backbone.layers.17.self_attn.root_k_proj.weight",
+    "backbone.layers.18.self_attn.ishtiqaq_gamma",
+    "backbone.layers.18.self_attn.coverage_weight",
+    "backbone.layers.18.self_attn.coverage_threshold",
+    "backbone.layers.18.self_attn.governance_strength",
+    "backbone.layers.18.self_attn.root_embed.weight",
+    "backbone.layers.18.self_attn.wazn_embed.weight",
+    "backbone.layers.18.self_attn.root_q_proj.weight",
+    "backbone.layers.18.self_attn.root_k_proj.weight",
+    "backbone.layers.19.self_attn.ishtiqaq_gamma",
+    "backbone.layers.19.self_attn.coverage_weight",
+    "backbone.layers.19.self_attn.coverage_threshold",
+    "backbone.layers.19.self_attn.governance_strength",
+    "backbone.layers.19.self_attn.root_embed.weight",
+    "backbone.layers.19.self_attn.wazn_embed.weight",
+    "backbone.layers.19.self_attn.root_q_proj.weight",
+    "backbone.layers.19.self_attn.root_k_proj.weight",
+    "backbone.layers.20.self_attn.ishtiqaq_gamma",
+    "backbone.layers.20.self_attn.coverage_weight",
+    "backbone.layers.20.self_attn.coverage_threshold",
+    "backbone.layers.20.self_attn.governance_strength",
+    "backbone.layers.20.self_attn.root_embed.weight",
+    "backbone.layers.20.self_attn.wazn_embed.weight",
+    "backbone.layers.20.self_attn.root_q_proj.weight",
+    "backbone.layers.20.self_attn.root_k_proj.weight",
+    "backbone.layers.21.self_attn.ishtiqaq_gamma",
+    "backbone.layers.21.self_attn.coverage_weight",
+    "backbone.layers.21.self_attn.coverage_threshold",
+    "backbone.layers.21.self_attn.governance_strength",
+    "backbone.layers.21.self_attn.root_embed.weight",
+    "backbone.layers.21.self_attn.wazn_embed.weight",
+    "backbone.layers.21.self_attn.root_q_proj.weight",
+    "backbone.layers.21.self_attn.root_k_proj.weight",
+    "backbone.layers.22.self_attn.ishtiqaq_gamma",
+    "backbone.layers.22.self_attn.coverage_weight",
+    "backbone.layers.22.self_attn.coverage_threshold",
+    "backbone.layers.22.self_attn.governance_strength",
+    "backbone.layers.22.self_attn.root_embed.weight",
+    "backbone.layers.22.self_attn.wazn_embed.weight",
+    "backbone.layers.22.self_attn.root_q_proj.weight",
+    "backbone.layers.22.self_attn.root_k_proj.weight",
+    "backbone.layers.23.self_attn.ishtiqaq_gamma",
+    "backbone.layers.23.self_attn.coverage_weight",
+    "backbone.layers.23.self_attn.coverage_threshold",
+    "backbone.layers.23.self_attn.governance_strength",
+    "backbone.layers.23.self_attn.root_embed.weight",
+    "backbone.layers.23.self_attn.wazn_embed.weight",
+    "backbone.layers.23.self_attn.root_q_proj.weight",
+    "backbone.layers.23.self_attn.root_k_proj.weight"
+  ],
+  "grad_zero": [
+    "nrmt_head.hist_emb.0.weight",
+    "nrmt_head.hist_emb.1.weight",
+    "nrmt_head.hist_emb.2.weight",
+    "nrmt_head.op_emb.weight",
+    "nrmt_head.prev_wazn_emb.weight",
+    "nrmt_head.prev_pref_emb.weight",
+    "nrmt_head.prev_suff_emb.weight",
+    "nrmt_head.feat_norm.weight"
+  ],
+  "per_element_grad": {
+    "backbone.layers.0.self_attn.stream_mix": [
+      -1.1721226655936334e-08,
+      0.0
+    ],
+    "backbone.layers.1.self_attn.stream_mix": [
+      0.00018193598953075707,
+      0.0
+    ],
+    "backbone.layers.2.self_attn.stream_mix": [
+      9.519550076220185e-06,
+      0.0
+    ],
+    "backbone.layers.3.self_attn.stream_mix": [
+      0.00017540864064358175,
+      0.0
+    ],
+    "backbone.layers.4.self_attn.stream_mix": [
+      -0.00016658373351674527,
+      0.0
+    ],
+    "backbone.layers.5.self_attn.stream_mix": [
+      0.0011942790588364005,
+      0.0
+    ],
+    "backbone.layers.6.self_attn.stream_mix": [
+      0.0006961087929084897,
+      0.0
+    ],
+    "backbone.layers.7.self_attn.stream_mix": [
+      6.233283056644723e-05,
+      0.0
+    ],
+    "backbone.layers.8.self_attn.stream_mix": [
+      -0.000492927385494113,
+      0.0
+    ],
+    "backbone.layers.9.self_attn.stream_mix": [
+      -0.0015002259751781821,
+      0.0
+    ],
+    "backbone.layers.10.self_attn.stream_mix": [
+      -0.0003394751693122089,
+      0.0
+    ],
+    "backbone.layers.11.self_attn.stream_mix": [
+      0.0009469310170970857,
+      0.0
+    ],
+    "backbone.layers.12.self_attn.stream_mix": [
+      0.00032028747955337167,
+      0.0
+    ],
+    "backbone.layers.13.self_attn.stream_mix": [
+      -0.0008495572838000953,
+      0.0
+    ],
+    "backbone.layers.14.self_attn.stream_mix": [
+      0.0002708153042476624,
+      0.0
+    ],
+    "backbone.layers.15.self_attn.stream_mix": [
+      0.0009525257046334445,
+      0.0
+    ],
+    "backbone.layers.16.self_attn.stream_mix": [
+      -0.0016876517329365015,
+      0.0
+    ],
+    "backbone.layers.17.self_attn.stream_mix": [
+      -0.0005578192649409175,
+      0.0
+    ],
+    "backbone.layers.18.self_attn.stream_mix": [
+      -0.0020492759067565203,
+      0.0
+    ],
+    "backbone.layers.19.self_attn.stream_mix": [
+      0.0008171190274879336,
+      0.0
+    ],
+    "backbone.layers.20.self_attn.stream_mix": [
+      -0.0013524852693080902,
+      0.0
+    ],
+    "backbone.layers.21.self_attn.stream_mix": [
+      0.002171959262341261,
+      0.0
+    ],
+    "backbone.layers.22.self_attn.stream_mix": [
+      0.00020500500977504998,
+      0.0
+    ],
+    "backbone.layers.23.self_attn.stream_mix": [
+      0.0009452849626541138,
+      0.0
+    ]
+  },
+  "active_root_ids_none": true,
+  "extract_morphemic_ids_wazn_is_stub": true
+}

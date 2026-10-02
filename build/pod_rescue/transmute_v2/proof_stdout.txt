@@ -1,0 +1,45 @@
+
+==============================================================================
+0. BUILD (V13, corrected root-id space)
+==============================================================================
+[Rootformer v13] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v13] Instantiating backbone with IshtiqaqAttention in the LIVE root space (roots=9490, awzan=142)...
+[Rootformer v13] token->root table: 9197 <root_X> tokens -> 9197 distinct live root ids (injective=True, max=9489)
+[Rootformer v13] token->wazn table: 137 <wazn_X> tokens -> 137 distinct live wazn ids
+[Rootformer v13] Initialized! layers=24 vocab=10052 roots=9490 awzan=142 on cpu. [OK]
+  dropped 48 stale tables; missing=66 unexpected=8
+  root sequence roll: 32/32 positions differ
+  schedule 'all' -> 24 layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+
+==============================================================================
+PART 1. INIT EQUIVALENCE -- gate 0 must be BIT-IDENTICAL to no pathway
+==============================================================================
+  reference determinism: bit_equal=True max|d|=0.000e+00
+[*] root cross-attention attached to trunk layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] (57.86M new params, d_root=448, heads=8x112, observe=r_{<=t})
+  attached RESIDUAL injector: {'kind': 'residual_injector', 'layers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], 'rows': 9490, 'dim': 448, 'num_heads': 8, 'out_norm': True, 'exclude_current': False, 'new_params_M': 57.857}
+  [1a] residual gate=0 vs NO pathway : bit_equal=True max|d|=0.000e+00
+  attached SCORE BIAS: {'kind': 'native_score_bias', 'layers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], 'rows': 9490, 'dim': 448, 'gate_init': 0.0, 'pillar_gate_init': 0.0, 'new_params_M': 11.01}
+  [1b] score bias gate=0 vs NO pathway: bit_equal=True max|d|=0.000e+00
+  [1c] BOTH at gate 0 vs NO pathway  : bit_equal=True max|d|=0.000e+00
+
+==============================================================================
+PART 2. ISOLATION -- does the pathway ACT, and does it act ON THE ROOTS?
+==============================================================================
+  [2a] residual gate=1 vs gate=0    : bit_equal=False max|d|=7.122e-01  <- MUST differ
+  [2b] residual gate=1, ROOTS ROLLED, trunk input fixed: bit_equal=False max|d|=1.002e+00  <- MUST differ
+  [2c] residual gate=0, ROOTS ROLLED: bit_equal=True max|d|=0.000e+00  <- MUST be identical
+  [2d] score bias gate=1 vs gate=0  : bit_equal=False max|d|=1.593e-01  <- MUST differ
+  [2e] score bias gate=1, ROOTS ROLLED, trunk input fixed: bit_equal=False max|d|=2.183e-02  <- MUST differ
+  [2f] score bias gate=0, ROOTS ROLLED: bit_equal=True max|d|=0.000e+00  <- MUST be identical
+  [2g] residual-only vs bias-only: bit_equal=False max|d|=6.313e-01 (different mechanisms -> MUST differ)
+       residual effect RMS=1.1178e-01, bias effect RMS=1.2842e-02
+       both vs (residual+bias-none): max|d|=2.676e-02 (not additive -> they interact, which is the point of building both)
+
+==============================================================================
+VERDICT
+==============================================================================
+  PART 1 PASS -- both pathways are BIT-IDENTICAL to no pathway at gate 0.
+  PART 2 PASS -- both pathways ACT (gate 1 changes the output), both READ THE ROOT
+               SEQUENCE (rolling the roots with the trunk input fixed changes the
+               output), and at gate 0 the roll is inert.
+  wrote /workspace/transmute_v2/proof_pathway.json
