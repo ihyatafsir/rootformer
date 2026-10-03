@@ -674,6 +674,28 @@ to carry forward:
   + `LAUNCH_COOLDOWN=240`) — verified present in the live file, not inferred. Two runners remain
   alive but both are now gated against launching into a building arm.
 
+### The queue keeps changing under this session (external edits, ~01:44Z)
+
+`runner.sh` was edited **again** at 01:44:05 (21658 bytes, md5 `ab6485a3556383a142fdb7b16c53bd1b`,
+was `d483b4f0…`), and a **third** `runner.sh run` started (448502) alongside 442734. The queue now
+begins `[FLOOR_A_V2 RESIDUAL_R SCOREBIAS_D LATE_X EARLYROOT_C_S2 …]` — `FLOOR_A_V2` is new, and the
+earlier `FLOOR_A_S2` is gone — and the new runner logs **`started=[]`** even though `EARLYROOT_C`
+*is* running, because a fresh runner re-evaluates the queue from scratch (no state is read back).
+
+**This is not a fault, and nothing needs doing.** Two checks confirm it is safe:
+
+* **Only ONE arm is training** (`pgrep -af nrmt_train` => pid 442737 only). The `started=[]` line is
+  cosmetic for this runner, not a live duplicate.
+* **The gate is holding, and this is the strongest confirmation yet of the 01:30:25 fix.** The new
+  runner logs `WAIT occupants=1/2 used=19646MiB free=12482MiB initialising=0` and does **not**
+  launch — `free=12482 < PER_ARM_MIB=20000`. So even a runner that has forgotten `EARLYROOT_C` and
+  holds `FLOOR_A_V2` at the head of its queue **still refuses to launch**, which is exactly the
+  protection that was missing at 01:28 when `free` read 32,123 MiB against a building arm.
+
+**Interpretation:** the coordinator is actively adding ladder variants (V2) and restarting runners
+while C trains. Expect the stage list to keep changing; **read `pgrep -af nrmt_train` for ground
+truth about what is running, not the runner's `started=` line.**
+
 ### *** FIRST LADDER COMPARISON — `EARLYROOT_C` @1000 vs `FLOOR_A` @1000 ***
 
 The falsifiable checkpoint fired on schedule (predicted ~01:44-01:50Z, arrived 01:44:21Z):
