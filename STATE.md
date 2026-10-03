@@ -733,10 +733,17 @@ Three things this does and does not establish:
 ### *** `EARLYROOT_C` PLATEAUS BY STEP 2000 — 19.82 %, i.e. ~98 % of A2's 20k result in 10 % of the steps ***
 
 ```
-eval @1000   acc@1 18.87 %   acc@5 33.61 %   CE_z 6.1696
-eval @2000   acc@1 19.82 %   acc@5 34.00 %   CE_z 6.3427
-            +0.95 pp        +0.39 pp        +0.173 (WORSE)
+eval @1000   acc@1 18.87 %   acc@5 33.61 %   CE_z 6.1696   NOVEL 19.09 %
+eval @2000   acc@1 19.82 %   acc@5 34.00 %   CE_z 6.3427   NOVEL 20.03 %
+eval @3000   acc@1 20.00 %   acc@5 34.28 %   CE_z 6.4377   NOVEL 20.20 %
+increments     +0.95        +0.18 (collapsing)
+CE_z           +0.173       +0.095  (rising every eval)
 ```
+
+**Three points now confirm the plateau, and the increments are collapsing (0.95 -> 0.18) while CE_z
+rises at every single eval.** Note `NOVEL_only` sits **above** `ALL_val` throughout
+(19.09/20.03/20.20 vs 18.87/19.82/20.00) -- the pathway is **not** trading seen-root memorisation
+for novel-root performance, which is the direction that matters for the thesis.
 
 Reference: **`RCA_UNFREEZE_A2` finished 20,000 steps at 19.53 %.** `EARLYROOT_C` passes it at **step
 2,000** and is already at **19.82 %**. Against `FLOOR_A`'s plateau (7.64 -> 7.74 %) that is **2.56x
