@@ -85,6 +85,54 @@ works the fallaciousness in these two positions."*
 whether the root itself becomes a valid ʿilla. CPU-only, minutes. **This touches the thesis
 directly, unlike every GPU arm.**
 
+#### RE-RUN DONE (2026-10-03) — the rejection was never real, and the root still does no work
+
+Scripts: `build/qiyas/two_condition_rerun.py`, `probe_isolate_clean.py`. Pod, CPU only.
+
+**1. The code never rejected it.** In the STORED `qiyas_results.json`,
+`illas_accepted = ['coarse_weak','strict7','positional','identity']`,
+`illas_rejected = ['wazn_only']`. `identity` carries `ACCEPTED: True`. The "REJECTED by mutāʿaddī"
+line existed only in `QIYAS_REPORT.md` prose and in a separate TADDI block; nothing in
+`Qiyas(...)` ever enforced it. Re-induction over the same 106,664 aṣl (5,551 roots):
+
+```
+illa        purity   cells  ittirad(own)  2-cond verdict
+wazn_only   0.9457      39     0.9457     REJECT   <- the only real rejection
+coarse_weak 0.9885     135     0.9885     accept
+strict7     0.9887     231     0.9886     accept
+positional  0.9901     462     0.9898     accept
+identity    1.0000   25042     0.9963     ACCEPT   <- munḍabiṭ + muṭṭarid, no fourth condition
+```
+
+**2. It is accepted and it does nothing.** Tier-1 holdout (10 % of (root,wazn) pairs):
+`identity`'s own cell carries the ruling for **0 / 10,544** observations; firing goes
+`strict7: 10542, GLOBAL: 1, coarse_weak: 1`. Correct isolation — `chain=['identity']`,
+`tables={'identity'}`, `wazn_cells` emptied — returns **None for 10,544 / 10,544**, with a working
+control (`3000 / 3000` attested pairs still return a rule). So the failure is **not** a validity
+condition at all: withholding the (root, wazn) cell removes precisely the cell that
+"ʿilla = the root" keys on. That is arithmetic, not uṣūl. The root is the **aṣl**, not an ʿilla.
+
+**It also passes both conditions VACUOUSLY**, which is a third, independent reason it is not a
+working ʿilla. `illa_identity(root) => root`, so identity's cell key `(label, wazn)` is
+`(root, wazn)` — a cell contains observations of exactly ONE root. Hence munḍabiṭ purity = 1.0000
+and iṭṭirād 0.9963 are properties of *memorising the instance*, not of a cause doing work.
+`strict7` must fit one alignment to all roots in a class; `identity` fits each root to itself.
+**A cause that is its own instance is not a cause.**
+
+**3. Two traps found in the ENGINE, which invalidated an earlier form of this test.**
+`rule()` consults `self.chain` and then falls through to `self.wazn_cells` at a line **outside**
+the loop; and `__init__` appends `'wazn_only'` to the chain **even when `backoff=False`**
+(`qiyas_engine.py:322-323`). So "identity without back-off" was never actually run anywhere in
+this project. My own first isolation attempt emptied `wazn_cells` only and reported a false
+`0 / 10,544 None`. The check was wrong, not the claim — third time this session.
+
+**4. Citation, edition named.** `corpus/usul/Razi_Al_Mahsul.txt`
+(md5 `ba4ae500744d579da59d75010cc43a31`, 19,330 lines): the `وأما` counter-position and Rāzī's
+`قلت ... المغالطة` refutation are both at **:15718**; `:15719-21` is Rāzī's own qāṣira argument.
+Verified verbatim. The report's substance (root-as-ʿilla is not extendable) survives; only its
+label was wrong. **STATE.md mis-transcribes `Mahsul:15485` as «المعتقل»; the text reads
+«المعتزلة»** — corrected in the new script.
+
 ### Everything else moved a proxy number
 
 ```
@@ -164,22 +212,61 @@ live**), and `p+eps-eps != p` in float32.
 ## RUNNING / OPEN
 
 ```
-pod    FLOOR_A (trunk trained, NO root pathway) ~8 % at step 2k/20k
-       EARLYROOT_C (all 24 layers, both mechanisms)
-       runner.sh queue staged: RESIDUAL_R, SCOREBIAS, early-vs-late, scale, derivational holdout
-       ~20 h GPU budget; two concurrent 32-batch arms is the measured-safe ceiling
+pod    FLOOR_A (trunk trained, NO root pathway) step ~9300/20000, RUNNING, 33 min elapsed
+       EARLYROOT_C  <- DIED at step 1 by CUDA OOM, NOT a stage failure (see below)
+       runner.sh (pid 413704) staged [EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X], WAITING
+       ~20 h GPU budget; two concurrent 32-batch arms does NOT fit
 ```
+
+### FLOOR_A — the floor is flat, and CE_z gets worse (the head-independent fact)
+
+`--eval-every 1000`, `--root-cross-attn none --ishtiqaq-root-bias none`. acc@1 is
+**scale-invariant** by construction; `raw PPL` is scale-dependent (logit_scale drifts 0.59->0.66).
+
+```
+step    ALL acc@1   acc@5    CE_z     NOVEL acc@1   CE_z
+ 1000      7.64     12.86   8.1712      7.53      8.1978
+ 2000      8.12     12.93   8.4177      8.05      8.4424
+ 3000      8.09     12.86   8.5386      7.98      8.5619
+ 4000      8.14     13.15   8.5430      8.09      8.5609
+ 5000      7.79     12.61   8.4943      7.62      8.5108
+ 6000      7.84     12.59   8.7229      7.70      8.7339
+ 7000      7.89     12.73   8.8685      7.78      8.8778
+ 8000      7.89     12.87   8.9425      7.79      8.9497
+ 9000      7.74     12.54   8.9897      7.67      8.9887
+```
+
+**FLAT since step 2000: 7.74-8.14 % across 7,000 steps. CE_z MONOTONE WORSE, 8.1712 -> 8.9897.**
+`acc@1` never climbs; better ranking with worse calibration is the same signature as every other
+lever in this project. The ~8 % floor in NEXT.md is confirmed at step 9,000, not just 6,000.
+
+### EARLYROOT_C died from the TWO-OCCUPANT hazard, not from its own configuration
+
+`log_EARLYROOT_C.txt` traceback: `torch.OutOfMemoryError ... this process has 17.69 GiB in use`,
+with FLOOR_A (pid 405014) holding 13.65 GiB on a 31.37 GiB card. FLOOR_A launched 00:04 and
+EARLYROOT_C 00:16. This is exactly the measured figure the runner's own header documents.
+**Consequence: no arm has ever run under a matched two-occupant condition, and the "matched
+trunk" premise of the early-vs-late test is still unverified — a single FLOOR_A log is the only
+ear-to-the-ground evidence, and it shows the trunk does not learn acc@1 without a root pathway.**
 
 **Open, in priority order:**
 
-1. **The qiyās re-run with TWO conditions** — CPU, minutes. May restore the root-as-ʿilla.
-2. **The early-vs-late test at a matched trained trunk** — if it's a tie, everything concluded
-   about the late RCA's ceiling was a statement about a *frozen* trunk.
-3. **The derivational holdout, properly designed** — the thesis has still never been tested.
+1. **EARLYROOT_C must be re-run** — it has never produced a single step of eval, having died
+   from the two-occupant OOM, not from its own configuration. It is first in the queue, so the
+   queue will do it, but the launch must be checked for the OOM again.
+2. **LATE_X is queued LAST and will not run inside the ~20 h budget.** The runner started
+   00:28 UTC with 4 stages; FLOOR_A alone runs ~3.5 h more, then each full-trunk arm ~4-5 h.
+   `FLOOR_A -> EARLYROOT_C -> RESIDUAL_R -> SCOREBIAS_D -> LATE_X` puts the early-vs-late test at
+   ~20+ h, i.e. past the budget. The runner was **NOT touched**. **Reordering it is a human
+   decision** — it is another agent's process, and the hard rules forbid killing one. `LATE_X` =
+   `--root-cross-attn top4 --ishtiqaq-root-bias top4`; every other flag identical to C.
+3. **The early-vs-late test at a matched trained trunk** — if it's a tie, everything concluded
+   about the late RCA's ceiling was a statement about a *frozen* trunk. **Still not run.**
+4. **The derivational holdout, properly designed** — the thesis has still never been tested.
    Attempt 1 was structurally impossible (a softmax cannot emit an unseen root); attempt 2 ran
    at 0.141 epochs.
-4. **The full 9,220-root inverse search** for qiyās.
-5. `rca_stack.eval()` in `evaluate` (dropout stays active at eval, −0.13 pp);
+5. **The full 9,220-root inverse search** for qiyās.
+6. `rca_stack.eval()` in `evaluate` (dropout stays active at eval, −0.13 pp);
    `--eval-every 0` → `ZeroDivisionError`.
 
 **Local `src/` is missing `validated_segmentation.py`, which silently makes `nrmp_vocab` report
