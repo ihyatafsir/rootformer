@@ -43,34 +43,69 @@ Then: **the full 9,220-root inverse search** — Task B's candidate set was rest
 
 ---
 
-## 1b. LIVE STATUS — this supersedes the estimates below
+## 1b. LIVE STATUS — supersedes every estimate below. Read this first.
 
-**`FLOOR_A` has effectively answered its question. The floor is ~7.75 %.**
+### THE FLOOR IS NOT 7.75 %. THE TRUNK IS DAMAGED. (this retracts the earlier live status)
 
-```
-step 12000  7.73 %     step 13000  7.72 %     step 14000  7.79 %     (plateaued over 3,000 steps)
-```
-
-A **fully trained trunk with NO root pathway at all** plateaus at ~7.75 %, against the
-late-attached RCA's **19.53 %** — i.e. 2.18× the 3.551 % marginal for training alone.
-
-**So a trained Arabic trunk does NOT simply learn roots.** The root pathway more than doubles what
-training alone achieves. That is the good reading, and it is now measured rather than assumed.
-
-The open half of the question is **whether insertion POINT matters once the trunk is trained** —
-exactly what `LATE_X` (both mechanisms, layers 20–23 only) tests against `C` (layers 0–23).
-
-**The runner survived its agent being killed** — it was detached, and is still alive:
+The earlier version of this section said `FLOOR_A` "has effectively answered its question — the
+floor is ~7.75 %". **That number is FLOOR_A's own head self-report, and it is misleading.**
+Measured head-independently (fixed foreign head `head_ALIGNED_FIX.pt`, no root pathway, native root
+ids nulled, same 300 val windows / 18,869 radical positions), `build/qiyas/head_probe_v13.py`:
 
 ```
-pid 413704  bash runner.sh run
-runner.log  WAIT occupants=1/2 used=13992MiB free=18136MiB
-            unstarted=[EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X]
+FLOOR_A, step 13000 checkpoint   LIVE fp32   acc@1  3.498 %   acc@5 6.582 %   ce_z 9.1264
 ```
 
-It is **gated, not stuck**: free = 18,136 MiB against the 20,000 MiB full-trunk gate, so it holds
-until `FLOOR_A` exits and then launches `C` itself. **No human action needed.** To confirm progress:
-`tail /workspace/root_arch/queue/runner.log`.
+Comparators under the *same* protocol — i.e. the bar it should be held to:
+
+```
+FIX (frozen released trunk) 6.837 | ALIGNED_FIX 6.619 | GUARD 6.630 | NOFEAT 6.593
+ALIGNED 6.148 | NGRAM 6.063 | CONTROL 5.718 | marginal (word-stream) 3.551
+```
+
+**FLOOR_A sits BELOW the marginal rate and at less than half the 6.6–6.8 % cluster.** Its
+self-report (flat 7.64–8.14 %) is a *failure* signature, not capability. This is the arm-P pattern
+again: self-report 16.34 % on a trunk measured at 2.676 %.
+
+**Mechanism, measured — the trunk LR was 10x the documented trunk-destroying rate.** From
+`trace_FLOOR_A.jsonl` (n=17,075): peak `1.000e-03`, held ~1e-3 through step 2000, still >1e-4 past
+step 15000, decaying to 5.78e-05 by 17000. The repo documents **1e-4 (0.1x)** as the LR that
+destroys the trunk.
+
+**So the earlier inference inverts.** "A trained Arabic trunk does NOT simply learn roots" was
+argued from the 7.75 % self-report and is retracted. What the trunk actually achieves is **3.498 %**,
+below the 3.551 % marginal. Separately, the root pathway reaching ~19.5 % *on a damaged trunk* is a
+stronger fact than it was before, not a weaker one.
+
+**Scoping that keeps the main comparison valid:** every arm (A, C, R, D, both `_S2`) shares this LR
+schedule via `common_flags`, so a damaged trunk is common to all of them and the **relative** C-vs-X
+comparison still measures placement rather than damage. What is invalid is reading `A` as a healthy
+floor, or reading C/X against A's damaged capability.
+
+**Confound, not excluded:** `head_ALIGNED_FIX.pt` was fitted for a *different* trunk, so part of the
+3.2 pp gap could be head/trunk mismatch. The clean control — a head fitted on FLOOR_A's own trunk,
+or the root decodability probe — **has not been run**.
+
+### Runner state (updates the block below, which is stale)
+
+```
+pid 430556  bash runner.sh run          <- restarted; pid 413704 is GONE
+runner.sh edited 01:03:36 -> md5 5683a6bccae0f661303fcec5c657b14b (was 66184fed...)
+STAGES now SIX arms:
+  unstarted=[EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X FLOOR_A_S2 EARLYROOT_C_S2]
+```
+
+`FLOOR_A_S2` and `EARLYROOT_C_S2` are **second seeds** (`--seed 1`); the runner's own comment:
+*"the A-vs-C conclusion is the whole point of the session, so it must not rest on a single unseeded
+run."* Good instrument — and note `build_meta` fixes the val windows with
+`np.random.default_rng(1)` independently of `--seed`, so **every arm evaluates on the identical
+windows** and the seed perturbs only the training trajectory. The A-vs-C comparison is now two-seed.
+
+The runner is **gated, not stuck**: free VRAM 18,136 MiB against the 20,000 MiB full-trunk gate, so
+it holds until the incumbent exits and then launches the next stage itself. No human action needed.
+`FLOOR_A` is at ~step 17,000 of 20,000, ETA ~01:14 UTC.
+
+*Stale below:* the pid-413704 block and the "~6 h" schedule (six arms is ~7 h).
 
 ---
 

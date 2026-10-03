@@ -7,8 +7,8 @@ directory-level errors. **Read this before trusting anything in a session summar
 
 ## CORRECTIONS — errors made and retracted (do not repeat these)
 
-Three claims were made with confidence and were **wrong**. They are recorded here so they are
-not re-inherited.
+Four claims were made with confidence and were **wrong**. They are recorded here so they are
+not re-inherited. (1-3 were retracted in the prior session; 4 in this one.)
 
 **1. "No Ibn ʿUsfūr text is held; the citation is unverifiable." — FALSE.**
 Held all along at `corpus/andalusian/`, three works:
@@ -40,6 +40,29 @@ lines verify **exactly**:
 «منعكس» *is* at those lines, and the passage *is* about *ḥadd* (defining wine). The resolution:
 **ʿaks is required for a ḥadd but not for an ʿilla** — `Miyār al-ʿIlm:3170-3172`. Not an error
 so much as an unstated domain distinction.
+
+**4. "FLOOR_A answers its question: the floor is ~7.75 %, so a trained trunk does NOT learn
+roots." — RETRACTED (2026-10-03, round 13).** The ~7.75 % was FLOOR_A's **own head
+self-report**. Measured head-independently — fixed foreign head, no root pathway, native root ids
+nulled, same 300 val windows / 18,869 positions — FLOOR_A's trunk scores **3.498 % acc@1**, i.e.
+**below the 3.551 % marginal** and less than half the 6.6–6.8 % cluster (FIX 6.837, ALIGNED_FIX
+6.619, GUARD 6.630, NOFEAT 6.593, ALIGNED 6.148, NGRAM 6.063, CONTROL 5.718). A flat self-report
+was read as a healthy plateau when it was a **failure** signature — the arm-P pattern (self-report
+16.34 % vs head-independent 2.676 %) repeated.
+
+*Mechanism, measured, not inferred:* `trace_FLOOR_A.jsonl` shows the trunk ran at peak LR
+**1.000e-03**, holding ~1e-3 through step 2000 and staying above 1e-4 past step 15000. The repo
+documents **1e-4 (0.1x)** as the trunk LR that destroys the trunk. So the "floor" arm trained its
+trunk 10x too hard.
+
+*This is the fourth instance of the project's recurring failure class*, distinct from the first
+three: not "absence in the search reported as a defect in the claim", but **"a self-reported
+metric accepted as a capability measurement"**. A head trained on the same trunk can pass while the
+trunk is destroyed. **Always keep a head-independent control** — and actually run it.
+
+*Does not invalidate the C-vs-X comparison:* all arms share the LR schedule via `common_flags`, so
+damage is common to them and the relative placement comparison stands. What is invalid is treating
+A as a healthy floor.
 
 ### The root cause, stated plainly
 All three came from **searching the wrong location** — the pod's `heritage_foundations/` and a
@@ -391,122 +414,13 @@ live**), and `p+eps-eps != p` in float32.
 
 ```
 pod    FLOOR_A (trunk trained, NO root pathway) step ~9300/20000, RUNNING, 33 min elapsed
-       EARLYROOT_C  <- DIED at step 1 by CUDA OOM, NOT a stage failure (see below)
-       runner.sh (pid 413704) staged [EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X], WAITING
+       EARLYROOT_C  <- never ran a step; its ONE launch died from a PER_ARM_MIB=16000
+                       override, not a stage defect (see below)
+       runner.sh (pid 430556, restarted 01:03) staged SIX arms:
+         [EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X FLOOR_A_S2 EARLYROOT_C_S2]
        ~20 h GPU budget; two concurrent 32-batch arms does NOT fit
+       ~70 min per arm at the measured 300 steps/min; six arms ~7 h
 ```
-
-### The ladder is now self-reporting (no polling needed)
-
-`/workspace/root_arch/watch_ladder.sh` (source `build/qiyas/watch_ladder.sh`, pid 420709) polls
-every 30 s and appends a timeline to `/workspace/root_arch/queue/watch.log`:
-
-```
-APPEARED  tag=... used=..MiB peak=..MiB step=.. log=...
-EXITED    tag=... peak=..MiB laststep=.. -> clean exit | DIED: CUDA OutOfMemoryError
-ALARM     occupants=3 ...        <- the NEVER-A-THIRD-OCCUPANT rule, alarmed explicitly
-```
-
-It reads `ps` / `nvidia-smi` / logs only and **touches no process**. The launch-time two-occupant
-OOM is the dominant failure mode (it killed EARLYROOT_C and cost ~5 min to detect), so the
-transition is now recorded rather than dependent on someone polling at the right second.
-
-**Correction to an earlier worry of mine: checkpoints DO NOT accumulate.** `torch.save(...,
-args.save)` sits in the eval block and writes the **same path** every time (no `.step` suffix),
-so each arm holds a flat ~834 MiB (`head_<tag>.pt` 51 MiB + `.trunk.pt` 783 MiB). `/tmp` is 48 GiB
-free, so even four arms cost ~3.3 GiB. The disk is NOT a constraint on this ladder.
-
-### FLOOR_A — the floor is flat, and CE_z gets worse (the head-independent fact)
-
-`--eval-every 1000`, `--root-cross-attn none --ishtiqaq-root-bias none`. acc@1 is
-**scale-invariant** by construction; `raw PPL` is scale-dependent (logit_scale drifts 0.59->0.66).
-
-```
-step    ALL acc@1   acc@5    CE_z     NOVEL acc@1   CE_z
- 1000      7.64     12.86   8.1712      7.53      8.1978
- 2000      8.12     12.93   8.4177      8.05      8.4424
- 3000      8.09     12.86   8.5386      7.98      8.5619
- 4000      8.14     13.15   8.5430      8.09      8.5609
- 5000      7.79     12.61   8.4943      7.62      8.5108
- 6000      7.84     12.59   8.7229      7.70      8.7339
- 7000      7.89     12.73   8.8685      7.78      8.8778
- 8000      7.89     12.87   8.9425      7.79      8.9497
- 9000      7.74     12.54   8.9897      7.67      8.9887
-10000      7.86     12.57   9.0772      7.81      9.0714
-11000      7.72     12.32   9.1143      7.63      9.1093
-12000      7.73     12.33   9.1360      7.68      9.1277
-```
-
-**FLAT since step 2000: acc@1 span 7.64-8.14 %, i.e. 0.50 pp across 11,000 steps (full curve
-now extracted to step 12,000, see `build/qiyas/arms_evidence/FLOOR_A_evals.txt` and
-`build/qiyas/parse_floor_a.py`). CE_z WORSENS throughout, 8.1712 -> 9.1360 (+0.9648), and
-`wazn` acc@1 is likewise flat at 44.33-45.27 %.**
-`acc@1` never climbs; better ranking with worse calibration is the same signature as every other
-lever in this project. The ~8 % floor in NEXT.md is confirmed at step 9,000, not just 6,000.
-
-### EARLYROOT_C died because PER_ARM_MIB WAS OVERRIDDEN TO 16000 — not because the gate failed
-
-My earlier account ("the two-occupant hazard") was loose about the mechanism. The mechanism is
-specific and it was an **env override**, confirmed verbatim in `queue/runner.log`:
-
-```
-[00:15:46]   trunk_lr_scale=1.0  max_occupants=2  per_arm_MiB=16000      <- override, not the default
-[00:16:37] SLOT FREE (occupants=1 <= 1, free=18136MiB >= 16000MiB)
-[00:16:37]   pid=405014 etime=12:21 tag=FLOOR_A                          <- incumbent, 12m21s in
-[00:16:37] LAUNCH EARLYROOT_C
-[00:16:40]   EARLYROOT_C confirmed ALIVE
-```
-
-The arm needed ~**18114 MiB** (17.69 GiB) and `free` was **18136 MiB** — a **~22 MiB margin** — so it
-OOM'd on a **28 MiB** request. `log_EARLYROOT_C.txt:103`: twice-resident at the crash, FLOOR_A
-holding 13.65 GiB. It lived **~76 s** and wrote exactly one step.
-
-**Correction to runner.sh's own comment:** it words this as "one `--unfreeze-trunk-all` 32-batch arm
-peaks at 17.69 GiB". But 17.69 GiB was the *failing second* arm (which carries the root pathway);
-the *resident* FLOOR_A was 13.65 GiB. Two different numbers.
-
-### THE SAFETY RULE IS AN ENV VAR WITH NO FLOOR — and the gate does not do what its name says
-
-* `MAX_OCCUPANTS=2` (`runner.sh:59`) yields the condition `occ <= 1`, which **permits** the 1->2
-  transition and only ever blocks a 3rd arm. At `occ=1` the runner literally logs "SLOT FREE".
-* The variable that actually gates 1->2 is `PER_ARM_MIB=${PER_ARM_MIB:-20000}` (`runner.sh:53`) —
-  **an env- overridable number with no floor**. The shipped default 20000 *does* refuse (current
-  runner has logged WAIT continuously with `per_arm_MiB=20000`), so the guarantee rests **entirely**
-  on nobody lowering that variable. Lowering it to 16000 is exactly what caused the OOM.
-* **Route B — the gate can be bypassed outright:** `runner.sh one TAG` (`:365-370`) does preflight
-  then `launch()` directly, no occupancy/free check at all. FLOOR_A was started this way
-  (`ps`: pid 405012 `bash runner.sh one FLOOR_A`).
-* **Route C — no mutual exclusion between queue instances:** `echo $$ > "$PIDFILE"` (`:287`) is
-  unconditional, and grep for `flock|lockfile|already running|kill -0` returns **nothing**. Four
-  `runner.sh run` instances appear in the log (START at :17, :42, :73, :108), all appending to the
-  same log. `running` is in-memory only and the `$STATE/*.started` markers are never read back, so
-  **after any restart the queue re-evaluates from scratch and can relaunch an already-running stage.**
-* **Route D — startup window:** `free` is sampled instantaneously while a new arm allocates
-  gradually (vram.csv shows fresh pids at 2122 -> 5930 -> 6844 MiB over ~90 s), so two pollers can
-  both see `free >= 20000` before the first arm's allocation lands.
-* `TOTAL_VRAM_MIB=32623` (`:42`) is defined and **never used** — it plays no part in the gate.
-* **Counter gap:** a **6.8 GiB GPU tenant was invisible** to `occupants()` at 00:15:52
-  (`runner.log:34` says used=20841 while vram.csv attributes 6844 MiB to pid 407446; 13982+6844 =
-  20826). Five such transient pids appear in vram.csv across the session and **could not be
-  identified**. `occupants()` only matches command lines containing
-  `nrmt_train|alt_train|train_rootformer`, so any differently-named GPU script under the same venv
-  is uncounted. **So the count is not merely narrow (the known trap) — it is incomplete in a way
-  nobody has identified.**
-
-### THE C-vs-X COMPARISON IS UNSEEDED — and this is the largest threat to it
-
-`--seed` exists (`nrmt_train_v13_sdpa.py:197-198`, default **-1 = unseeded**; `:373-378` only seeds
-`if args.seed >= 0`). `runner.sh` passes **no** `--seed`; grep returns only the *comment* at :20
-claiming "eval cadence and seed are identical". Direct proof: `grep -c "seeded run"` == 0 in both
-`log_EARLYROOT_C.txt` and `log_FLOOR_A.txt` (the banner would print), and the live argv has no
-`--seed`. The only hardcoded seeds (`:1033-1034`) are inside the optional `--orbit-grad-probe`
-diagnostic, not the training loop.
-
-**Consequence:** the 0.5 pp tie band I pre-specified from binomial SE (SE(C-X) = 0.279 pp) is
-**incomplete**. It covers sampling noise in the eval, not the seed-to-seed variance of the training
-run, and it is the latter that dominates. A small C-vs-X gap therefore **cannot** be attributed to
-placement without either (a) a fixed seed, or (b) repeated seeds. **This is the single most
-important limitation on the objective's deliverable.**
 
 ### The ladder is now self-reporting (no polling needed)
 
