@@ -258,6 +258,64 @@ coefficients do not.
 
 ---
 
+### FINAL, EXHAUSTIVE audit of the eval harness (all files md5-pinned)
+
+**Q1 CONFIRMED — the RCA `self.drop` is the ONLY live dropout during eval.** Full dropout audit of
+the live path: NRMT head dropout (`nrmt_arch.py:319`) is covered by `head.eval()` -> OFF. Qwen2
+trunk `config.json attention_dropout = 0.0` -> none. `IshtiqaqAttentionV12` is built with
+`dropout=0.0` and the swap preserves it (`ishtiqaq_root_bias.py:285`) -> no-op. So the 24-vs-4
+asymmetry is entirely the RCA stack's `nn.Dropout(0.1)`.
+*Useful refinement:* `rca_stack.zero_gates()` makes the RCA_OFF **value** dropout-independent
+(`0 * x == 0` at `root_cross_attn.py:153`), so RCA_OFF is *not* biased by RCA dropout — but the
+forward still consumes RNG. Both arms run it, so that pass is symmetric.
+
+**Q2 — the metric code is provably identical; the RUN is not comparable.** `evaluate` is one
+function; the metric block `:975-1011` contains no branch on `rca_stack`, `len(rca_layers)` or gate
+values (`rca_stack` appears only under `if ablate`). Same val tensors, same `B=16`, same masks.
+The incomparability is purely the 24-vs-4 dropout draw count.
+
+**Q3 CONFIRMED** — `--eval-every 0` raises `ZeroDivisionError` at the FIRST iteration (`:1154`,
+`int % 0`; arg unvalidated at `:358`). The neighbouring `h_drift_probe` at `:1125` shows the
+intended guard idiom, which `:1154` lacks. Hard crash — it cannot mean "never evaluate".
+
+**Q4 CONFIRMED — the head-independent control EXISTS as reusable code and has NEVER been run for
+these arms.** `/workspace/ghazali_forget/ewc_head_probe.py` (md5 `1eeba60fa49de93bf59deb58c420ca95`),
+CPU-only (`CUDA_VISIBLE_DEVICES=''`), builds the model with **no root pathway**, loads a FIXED
+foreign head, hard-fails if it does not load cleanly, overwrites the trunk from the arm's payload
+restricted to `backbone.layers.`, and sets `active_root_ids=None`. Exact invocation:
+
+```bash
+/workspace/venvs/rootformer/bin/python /workspace/ghazali_forget/ewc_head_probe.py --live \
+  --head  /workspace/head_fix/head_ALIGNED_FIX.pt \
+  --cache /workspace/head_fix/nrmp_cache_9490_aligned \
+  --ckpt  /workspace/hf_v19_2_release/checkpoints/rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors \
+  --trunk /tmp/root_arch_arms/head_<TAG>.pt.trunk.pt \
+  --out   /tmp/probe_head_<TAG>.json
+```
+`--head`/`--cache`/`--ckpt` are already the script's defaults and coincide exactly with
+`runner.sh:40-41`, so it is genuinely re-pointable at these arms.
+
+*NEGATIVE RESULT* — there is **no** head-independent control inside `/workspace/root_arch/`
+(the C-vs-X harness dir). Its `compare_arms.py` only reads the trainer's self-reported
+`ALL_val.acc@1` from `results_<TAG>.json`. **The control must be invoked from outside.**
+
+*Caveats before trusting it (read, not run):* its trunk overwrite is a **silent name-match**
+(`if name in st and name.startswith('backbone.layers.')`) that only *prints* `n` — **assert the
+applied-tensor count covers all 24 layers**. And it scores with a fixed head, so its acc@1 is on a
+different scale: use it as a RELATIVE C-vs-X-vs-FLOOR_A damage control, never against an arm's own
+self-reported number.
+
+**Fix order recorded:** (1) add `rca_stack.eval()`/`.train()` around the scoring loop (or use
+`--rca-dropout 0.0` as in `build/qiyas/REEVAL_PROTOCOL.md`); (2) then run `ewc_head_probe.py --live`
+on both `.trunk.pt` payloads.
+
+**Residual open item, now narrowed:** `stream_mix[1]` and `ishtiqaq_gamma` stay bit-exactly at
+0.25 in 0/4 layers while `root_gate` moves. Since `root_gate`'s gradient is
+`(stream_mix[1] * cond * score_root) + bonus`, the term that *must* be producing it is `bonus`
+(`identical_root_bonus`, which uses no embedding); so `cond * score_root` is plausibly still ~0,
+consistent with the report's own finding that the root terms contribute 0.7123 % where the constant
+bonus contributes 1.2868 %. **Not verified by instrumentation** — that is what would settle it.
+
 ## ARCHITECTURE FIXES — done and verified
 
 ```
