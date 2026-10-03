@@ -346,11 +346,17 @@ the **pre-alignment** release, which still carries root/wazn tables at the STALE
 The 48 skips are the fingerprint of comparing to the wrong checkpoint. `ORIG_CKPT` is now an env
 override and the correct baseline is the runner's `--checkpoint`.
 
-*Anomaly noted, not yet resolved:* FLOOR_A is `--root-cross-attn none --ishtiqaq-root-bias none`,
-and its checkpoint correctly holds `root_cross.* : 0` — but also **48 `ishtiqaq`/`stream_mix`
-tensors**. Either the save selects them unconditionally (inert storage, cf. the 152 M orphan-param
-finding), or FLOOR_A is not as pathway-free as the runner's design claims. Worth one check before
-trusting FLOOR_A as a clean "no root pathway" floor.
+*Anomaly raised and RESOLVED:* FLOOR_A is `--root-cross-attn none --ishtiqaq-root-bias none`, yet
+its checkpoint holds 48 tensors matching `ishtiqaq`/`stream_mix`. They are exactly
+`backbone.layers.{0..23}.self_attn.ishtiqaq_gamma` and `.stream_mix` — **24 x 2 per-layer scalars
+that live on the SDPA attention class itself**, not on a swapped-in root-bias module. Confirmed by
+the gating: `nrmt_train_v13_sdpa.py:606-614` only calls `swap_in_root_bias()` `if ishtiqaq_layers`,
+so `none` builds no module and `ishtiqaq_mods == []`. FLOOR_A therefore IS pathway-free as the
+runner claims; these scalars are inert defaults, and `stream_mix` is the same tensor the project
+already found has `element 1 grad == 0.0` in all 24 layers. No new defect.
+
+*Not confirmed (budget):* the exact shape of each scalar (my name-collapsing script reported `()`);
+the count and the gating logic are what matter and both hold.
 
 ### THE EARLY-VS-LATE COMPARISON, PRE-SPECIFIED BEFORE EITHER ARM EXISTS
 
