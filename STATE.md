@@ -527,12 +527,17 @@ trace_EARLYROOT_C.jsonl   1 line     (never left step 1)
 nvidia-smi               4 MiB used, 0 %, NO compute apps
 ```
 
-`wchan = request_wait_answer` is the FUSE call path: the process is blocked in a request to the
-**MooseFS userspace daemon** for `/workspace` (`mfs#euro-3.runpod.net:9421 on /workspace type
-fuse`). So this is the **network-FUSE stall this file already warns about** — the same filesystem
-whose per-user quota silently killed two arms with no traceback. `/workspace` is where the
-checkpoint, the `nrmp_cache_9490_aligned/{train,val}.pt` and the log all live, so a FUSE hang
-stalls the arm before it can allocate.
+`wchan = request_wait_answer` is the FUSE call path. **But I tested the mount and it is HEALTHY** —
+`stat /workspace`, `ls /workspace/root_arch`, `stat` of the cache's `val.pt` and a read of
+`backup/loop.log` all returned **instantly**, `/tmp` is fine, and there are **zero D-state
+processes system-wide**. So this is **NOT** a global MooseFS stall (my first reading was wrong);
+it is a **process-local hang** in pid 442737 that happens to sit in a FUSE wait.
+
+That distinction matters for the remedy: restarting the MooseFS daemon or blaming the network
+filesystem would be **wrong** and destructive. The evidence — CUDA context open (`/dev/nvidia*`
+fds held) but **0 GPU memory allocated**, log frozen, 1.6 % CPU, one thread in a FUSE wait, mount
+healthy everywhere else — is consistent with a **deadlock/lost-wakeup during model construction or
+the first forward**, i.e. a stuck arm rather than a broken filesystem.
 
 **It holds a CUDA context but zero GPU memory**, so the VRAM gate still reports the card as free
 (`free ≈ 32 GiB`) and the `arm_alive` check still reports the tag alive. **A process that is alive,
