@@ -514,6 +514,46 @@ memory) before considering a second launch — or simply serialise: launch the n
 `occupants == 0`. Given two full-trunk arms cannot coexist, **`MAX_OCCUPANTS` should be 1** for
 this ladder; `MAX_OCCUPANTS=2` is what makes the race reachable.
 
+### *** INCIDENT 2 (ongoing, 01:32Z->) — `EARLYROOT_C` IS HUNG ON FUSE I/O, GPU IDLE ***
+
+After the double-launch incident a **second** `runner.sh run` (pid 442734) was started at
+01:30:58 and relaunched `EARLYROOT_C` at 01:31:52 (python pid **442737**). It is **hung**:
+
+```
+pid 442737   etime 4:14   stat Ssl   cpu 1.7%   rss 528 MB
+wchan: request_wait_answer        <- FUSE: blocked waiting for the MooseFS daemon to answer
+log_EARLYROOT_C.txt  mtime 01:32:09, 9557 bytes, NOT GROWING
+trace_EARLYROOT_C.jsonl   1 line     (never left step 1)
+nvidia-smi               4 MiB used, 0 %, NO compute apps
+```
+
+`wchan = request_wait_answer` is the FUSE call path: the process is blocked in a request to the
+**MooseFS userspace daemon** for `/workspace` (`mfs#euro-3.runpod.net:9421 on /workspace type
+fuse`). So this is the **network-FUSE stall this file already warns about** — the same filesystem
+whose per-user quota silently killed two arms with no traceback. `/workspace` is where the
+checkpoint, the `nrmp_cache_9490_aligned/{train,val}.pt` and the log all live, so a FUSE hang
+stalls the arm before it can allocate.
+
+**It holds a CUDA context but zero GPU memory**, so the VRAM gate still reports the card as free
+(`free ≈ 32 GiB`) and the `arm_alive` check still reports the tag alive. **A process that is alive,
+idle, holding no GPU memory, and making no progress is the worst case for both gates at once.**
+
+**Net state:** GPU **idle at 4 MiB**; one hung arm; **two** runner processes (442187, 442734) that
+will not agree about the queue; `LATE_X` still ~5 arms away. Nothing has trained since FLOOR_A
+exited at 01:27.
+
+*The two runners between them reproduce the no-lock hole:* a second `runner.sh run` re-evaluated
+`EARLYROOT_C` (a stage already started) because `$STATE/EARLYROOT_C.started` had been deleted by the
+restart command and `running` is in-memory only.
+
+**What would unblock it (needs authorisation — it touches the coordinator's processes):**
+```
+kill 442737 442734 442187            # the hung arm and BOTH runners
+MAX_OCCUPANTS=1 STAGES="EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X FLOOR_A_S2 EARLYROOT_C_S2"   setsid nohup bash /workspace/root_arch/runner.sh run > /workspace/root_arch/queue_run.txt 2>&1 &
+```
+`MAX_OCCUPANTS=1` is the load-bearing change: it makes the 1->2 transition **unreachable**, which is
+the only thing that actually closes the startup race, since `PER_ARM_MIB` was powerless against it.
+
 ### FLOOR_A is DONE — final numbers (the only complete arm)
 
 ```
