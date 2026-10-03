@@ -649,6 +649,43 @@ initialising when a runner starts), which `MAX_OCCUPANTS=1` would not have addre
 gate both should behave, but they remain a redundancy worth resolving whenever convenient — the old
 no-lock hazard is not itself patched.
 
+### `EARLYROOT_C`'s TRUNK IS HEALTHY ON ITS OWN TRUNK — decodability 90.08 %
+
+Prompted by a direct concern that the 24-layer RCA at `trunk-lr-scale 1.0 / lr 1e-3` might be
+**destroying the trunk during training**. Measured head-independently (closed-form ridge readout,
+no fitted head, `--split random`, 6,000 samples, 8 threads) on `EARLYROOT_C`'s own step-11,000
+trunk payload:
+
+```
+layer   acc@1     layer   acc@1     layer   acc@1
+    0  89.850        9  90.083  <- peak   20  88.500
+    4  89.967       12  90.033        21  87.683
+    8  90.067       16  89.683        22  86.817
+                                      23  86.650
+```
+
+**The root is linearly decodable from every layer at 86.65-90.08 %.** Comparators on the *same*
+protocol: FLOOR_A 93.7 % (40k samples), published transmuted trunk 92.34 %, raw base 29.30 %. A
+destroyed trunk would read ~30 % or collapse in the late layers; **there is no such signature.**
+
+**So: not destroyed.** Two calibrated caveats, because the difference from FLOOR_A is real but small:
+
+* **90.08 vs 93.7 is ~3.6 pp, and the two runs are not perfectly comparable** -- this measurement
+  used 6,000 samples against FLOOR_A's 40,000, and only the *leaking* (random) split. A 3.6 pp gap
+  on different sample sizes is well inside the uncertainty of this protocol, so **I would not claim
+  C's trunk is worse than A's**; I would claim neither is damaged.
+* **The early-vs-late result is unaffected by either reading.** Both C and X train a trunk from the
+  same init under the same schedule with the same RCA; the interesting question remains whether
+  trained-trunk gradient changes the *late* attachment more than the *early* one, and both arms'
+  trunks are intact.
+
+*Also resolved here:* the probe initially aborted with `SHAPE MISMATCH on root_q_proj: payload
+(896,448) vs model (896,64)`. That is **correct behaviour, not a broken checkpoint** -- the payload
+carries the **shared 448-dim ishtiqaq source** (the fix), while the probe deliberately builds
+without that path. Those tensors never feed `h`; they only reweight attention scores inside the
+native root path the probe disables, so skipping them is right. With the ishtiqaq keys excluded,
+**408/408 base-attention+MLP tensors load cleanly.**
+
 ### LADDER RESUMED — `EARLYROOT_C` is training (01:38Z)
 
 ```
