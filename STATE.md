@@ -411,6 +411,67 @@ already found has `element 1 grad == 0.0` in all 24 layers. No new defect.
 *Not confirmed (budget):* the exact shape of each scalar (my name-collapsing script reported `()`);
 the count and the gating logic are what matter and both hold.
 
+### CONFIRMED DEFECT: `rca_stack.eval()` IS NEVER CALLED — and it is LAYER-COUNT BIASED
+
+Independently confirmed 2026-10-03. `evaluate()` calls `head.eval()` at
+`nrmt_train_v13_sdpa.py:955` and `head.train()` at `:1014`, but `rca_stack` is constructed as a
+**standalone module** at `:571` (`rca_stack = RootCrossAttentionStack(...)`), NOT a child of
+`head`/`model` — so `head.eval()` does not reach it. A grep for `rca_stack` restricted to
+`eval|train` returns **nothing**: it is never put in eval mode anywhere.
+
+`RootCrossAttentionStack` builds `self.mods = nn.ModuleList([...for i in self.layer_indices])`,
+and each `RootCrossAttention` has `self.drop = nn.Dropout(dropout)`
+(`root_cross_attn.py:114`, stack at `:176-180`). The arms pass `--rca-dropout 0.1`.
+
+**Consequence, and it matters for THIS comparison specifically:**
+
+```
+EARLYROOT_C : RCA on layers 0-23  -> 24 dropout modules active at eval
+LATE_X      : RCA on layers 20-23 ->  4 dropout modules active at eval
+```
+
+So the two arms are **not** evaluated on equal footing: C's eval carries 6x the active dropout of
+X's. With zero-init gates the RCA contribution starts at 0 and dropout is a no-op at step 0, but
+the gates train, so by 20k steps both arms' residuals are non-zero at eval and this injects
+arm-dependent stochasticity into exactly the number used to compare them. STATE.md's prior
+`-0.13 pp` figure was measured for one configuration; it does not licence assuming the bias is
+equal across 4 and 24 layers. **Any C-vs-X gap below ~0.5 pp must be read with this in mind, and
+the honest fix is to re-evaluate both checkpoints with `rca_stack.eval()` forced.**
+
+### FLOOR_A has NO head-independent control — and it trains the trunk at a documented-destructive LR
+
+Raised by an independent audit and confirmed against the sources:
+
+* FLOOR_A runs `--trunk-lr-scale 1.0 --lr 1e-3`, i.e. trunk LR **1e-3** — that is **10x** the
+  0.1x (1e-4) trunk LR this repo documents as DESTROYING the trunk (Run A; README.md:53), and
+  **100x** A2's 0.01x. It also unfreezes all 24 layers where A2 unfroze 4.
+* `trunk_motion.py` proves the layers MOVED (24/24, max|Δ| 0.34-0.54). That is **not** evidence
+  that capability survived. The repo's own cautionary case, arm P, self-reported **16.34 %** while
+  its head-independent measure was **2.676 %**.
+* `FIX` baseline (frozen released trunk + FIX head) = **6.837 %**; marginal = **3.551 %**. FLOOR_A
+  at 7.64-8.14 % sits above both, and every known damaged number (Run A 2.411/2.433 %, arm P
+  2.676 %, RCA-ablated 2.825 %) is 2.9-3.4x lower. So "real but weak floor" is supported; **"the
+  trunk is healthy" is COULD NOT DETERMINE without running the control.**
+* The control IS runnable now: `/tmp/root_arch_arms/head_FLOOR_A.pt.trunk.pt` is saved and
+  `/workspace/head_fix/head_ALIGNED_FIX.pt` exists. **Run it before treating FLOOR_A as the bar.**
+
+**Reading rule if both C and X land at FLOOR_A's level:** that is case **(b) both failed**, not
+case (a) "placement does not matter". A tie at a no-pathway arm's level means the pathway added no
+measurable capability, so there is no capability whose placement could matter. The existing
+`--rca-ablate-eval` / `--ishtiqaq-ablate-eval` (already enabled for C and X in
+`runner.sh:136-146`) discriminate the two: if an arm's own acc@1 equals its ablated acc@1 within
+the ~0.20 pp SE, the pathway is contributing nothing.
+
+### Reproduction nits in the FLOOR_A record
+
+* acc@1 span is **7.64-8.14 %**, not "7.7-8.1 %".
+* CE_z from step 5000 is strictly increasing (8.4943 -> 9.1360, 8/8 intervals), but it is NOT
+  monotone globally (dips at 5000). STATE.md line ~303 still says "worsens throughout" and
+  "confirmed at step 9,000", both contradicted by its own row at step 5000 — the table is right,
+  the prose is stale.
+* Never quote `raw PPL`: scale-dependent and rising (2267 -> 3697) while `logit_scale` drifts
+  0.59 -> 0.68; the contract at `:945-953` labels it "NOT a capability measure".
+
 ### THE EARLY-VS-LATE COMPARISON, PRE-SPECIFIED BEFORE EITHER ARM EXISTS
 
 `LATE_X` = `--root-cross-attn top4 --ishtiqaq-root-bias top4`; `EARLYROOT_C` = `all`/`all`. Every
