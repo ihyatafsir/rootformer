@@ -43,10 +43,41 @@ Then: **the full 9,220-root inverse search** — Task B's candidate set was rest
 
 ---
 
-## 2. Watch the ladder (already running, ~6 h of the 20 h)
+## 1b. LIVE STATUS — this supersedes the estimates below
+
+**`FLOOR_A` has effectively answered its question. The floor is ~7.75 %.**
 
 ```
-1 A  FLOOR_A      no root pathway                     RUNNING  ~8 % at step 6k, NOT climbing
+step 12000  7.73 %     step 13000  7.72 %     step 14000  7.79 %     (plateaued over 3,000 steps)
+```
+
+A **fully trained trunk with NO root pathway at all** plateaus at ~7.75 %, against the
+late-attached RCA's **19.53 %** — i.e. 2.18× the 3.551 % marginal for training alone.
+
+**So a trained Arabic trunk does NOT simply learn roots.** The root pathway more than doubles what
+training alone achieves. That is the good reading, and it is now measured rather than assumed.
+
+The open half of the question is **whether insertion POINT matters once the trunk is trained** —
+exactly what `LATE_X` (both mechanisms, layers 20–23 only) tests against `C` (layers 0–23).
+
+**The runner survived its agent being killed** — it was detached, and is still alive:
+
+```
+pid 413704  bash runner.sh run
+runner.log  WAIT occupants=1/2 used=13992MiB free=18136MiB
+            unstarted=[EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X]
+```
+
+It is **gated, not stuck**: free = 18,136 MiB against the 20,000 MiB full-trunk gate, so it holds
+until `FLOOR_A` exits and then launches `C` itself. **No human action needed.** To confirm progress:
+`tail /workspace/root_arch/queue/runner.log`.
+
+---
+
+## 2. The ladder (already staged, ~6 h of the 20 h)
+
+```
+1 A  FLOOR_A      no root pathway                     ~7.75 % PLATEAU (answered, see 1b)
 2 C  EARLYROOT_C  residual + score bias, layers 0-23  QUEUED
 3 E  RESIDUAL_R   residual alone, layers 0-23         QUEUED
 4 D  SCOREBIAS_D  score bias alone, layers 0-23       QUEUED
