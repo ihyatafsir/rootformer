@@ -267,18 +267,37 @@ def main():
     if args.trunk:
         pay = torch.load(args.trunk, map_location='cpu')
         st = pay.get('state', pay)
+        # Tensors that belong to the ISHTIQAQ shared-source path and exist only when the arm was
+        # launched with --ishtiqaq-root-bias: root_q_proj/root_k_proj are widened to 448 inputs
+        # there, while this probe builds the model WITHOUT that path (it is nulled for the
+        # measurement), so their shapes legitimately differ.  They do not feed `h` -- they only
+        # reweight attention scores inside the native root path, which the probe disables -- so
+        # skipping them is correct, not a workaround.  Report them rather than abort.
+        ISHTIQAQ_SUFFIXES = ('root_q_proj.weight', 'root_k_proj.weight',
+                             'root_gate', 'pillar_gate', 'stream_mix',
+                             'ishtiqaq_gamma', 'root_embed.weight', 'wazn_embed.weight')
+        skipped = []
         with torch.no_grad():
             for name, p in model.named_parameters():
-                if name.startswith('backbone.layers.'):
-                    expected += 1
-                    if name in st:
-                        if tuple(st[name].shape) != tuple(p.shape):
-                            raise SystemExit('SHAPE MISMATCH on %s: payload %s vs model %s'
-                                             % (name, tuple(st[name].shape), tuple(p.shape)))
-                        p.data.copy_(st[name].float())
-                        applied += 1
-        print('[*] trunk applied: %d/%d backbone.layers tensors from %s'
+                if not name.startswith('backbone.layers.'):
+                    continue
+                if any(name.endswith(sfx) for sfx in ISHTIQAQ_SUFFIXES):
+                    continue
+                expected += 1
+                if name not in st:
+                    continue
+                if tuple(st[name].shape) != tuple(p.shape):
+                    skipped.append((name, tuple(st[name].shape), tuple(p.shape)))
+                    continue
+                p.data.copy_(st[name].float())
+                applied += 1
+        print('[*] trunk applied: %d/%d base-attention+MLP tensors from %s'
               % (applied, expected, args.trunk), flush=True)
+        if skipped:
+            print('[*] skipped %d non-base tensors (ishtiqaq/root-path shapes differ by design):'
+                  % len(skipped), flush=True)
+            for nm, a, b in skipped[:4]:
+                print('      %s payload%s vs model%s' % (nm, a, b), flush=True)
         # the original probe only PRINTED this; a silent miss would mean we measured a
         # released trunk while claiming a damaged one -- assert instead
         if applied != expected:

@@ -649,6 +649,34 @@ initialising when a runner starts), which `MAX_OCCUPANTS=1` would not have addre
 gate both should behave, but they remain a redundancy worth resolving whenever convenient — the old
 no-lock hazard is not itself patched.
 
+### ATTEMPTED: the leak-free (`--split root`) decodability readout -- AND WHY IT CANNOT WORK
+
+Run twice on both trained trunks (`FA_UNSEEN`, `ERC_UNSEEN`); **both produced zero layer output
+after ~9 minutes each** at 400-460 % CPU, and I killed them.
+
+**The reason is arithmetic, and I should have seen it before running.** `--split root` holds out
+roots, so the ridge readout has to fit **C = 9,490 classes** from only
+`max_samples/2 = 3,000` training vectors -- i.e. **~0.6 samples per class**. Most classes then get
+zero training examples, the one-hot ridge has nothing to shrink toward for them, and either the
+Gram system is effectively rank-deficient in the class direction or the result is chance. **The
+measurement is structurally incapable of yielding a number, not merely slow.**
+
+**So `--split root` is the wrong instrument and the leak-free figure remains unobtained.** The
+random split (`--split random`, 90.08 % for `EARLYROOT_C`) works precisely *because* it leaks --
+which is why it cannot answer the unseen-words question.
+
+**What a correct leak-free readout needs** (recorded so it is not re-attempted the same way):
+hold out **word types** rather than **root labels**, and require a minimum number of held-out words
+*per root class* so every class retains training support; or reduce the class space (fit only over
+roots that actually appear in the training split) instead of leaving 1,000s of empty classes. The
+first is the honest version of the unseen-words question; the second is a cheaper partial.
+
+*Cost note for the next attempt:* these runs took 9+ min each at ~430 % CPU and pushed load to ~25
+on a 48-core box **while `EARLYROOT_C` was training**. `--threads 6` did not hold (BLAS
+oversubscribed). Verify the thread cap actually binds before launching, or accept the contention
+knowingly. Verified afterwards: the training arm was unharmed (step 16,425, GPU 100 %).
+
+
 ### `EARLYROOT_C` IS OVERFITTING — 14-point trajectory (this supersedes "oscillation")
 
 ```
