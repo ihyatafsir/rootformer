@@ -310,12 +310,45 @@ ear-to-the-ground evidence, and it shows the trunk does not learn acc@1 without 
 1. **EARLYROOT_C must be re-run** — it has never produced a single step of eval, having died
    from the two-occupant OOM, not from its own configuration. It is first in the queue, so the
    queue will do it, but the launch must be checked for the OOM again.
-2. **LATE_X is queued LAST and will not run inside the ~20 h budget.** The runner started
-   00:28 UTC with 4 stages; FLOOR_A alone runs ~3.5 h more, then each full-trunk arm ~4-5 h.
-   `FLOOR_A -> EARLYROOT_C -> RESIDUAL_R -> SCOREBIAS_D -> LATE_X` puts the early-vs-late test at
-   ~20+ h, i.e. past the budget. The runner was **NOT touched**. **Reordering it is a human
-   decision** — it is another agent's process, and the hard rules forbid killing one. `LATE_X` =
-   `--root-cross-attn top4 --ishtiqaq-root-bias top4`; every other flag identical to C.
+2. **LATE_X is queued LAST — and it WILL fit. My earlier estimate was WRONG by ~4x.**
+   Measured directly on the pod at 00:47: **300 steps/min**, so a full 20,000-step arm is
+   **~67 min**, not 3.5 h. Startup is ~2-4 min per arm. Projection from FLOOR_A's real start
+   (00:04:18) at ~70 min/arm:
+
+   ```
+   FLOOR_A ~01:14 | EARLYROOT_C ~02:24 | RESIDUAL_R ~03:34 | SCOREBIAS_D ~04:44 | LATE_X ~05:54
+   ```
+
+   Against a ~20 h budget starting 00:04, all five arms fit with hours to spare. **The runner was
+   NOT touched and does not need reordering.** (Earlier in this file I wrote that LATE_X would
+   miss the budget; that came from misreading FLOOR_A's own 00:04->00:39 progress as ~3.5 h for
+   20k steps when it is ~67 min. Corrected here.)
+
+### THE EARLY-VS-LATE COMPARISON, PRE-SPECIFIED BEFORE EITHER ARM EXISTS
+
+`LATE_X` = `--root-cross-attn top4 --ishtiqaq-root-bias top4`; `EARLYROOT_C` = `all`/`all`. Every
+other flag is shared verbatim from `runner.sh:common_flags` (same checkpoint, cache, LR 1e-3,
+`--trunk-lr-scale 1.0`, 20,000 steps, batch 32, head, eval cadence, seed). **So C vs X is matched
+on trunk training by construction** — that is what the objective asks for.
+
+Pre-specified read, with the scale fixed now from FLOOR_A's own sample sizes
+(`ALL_val` n=18,869, `NOVEL_only` n=15,046):
+
+```
+SE(one arm), acc@1 ~0.08  :  ALL_val 0.197 pp | NOVEL_only 0.221 pp
+SE(C - X) if independent  :  ALL_val 0.279 pp
+```
+
+* `|acc@1(C) - acc@1(X)| > 0.5 pp` -> a real gap; early attachment genuinely helps.
+* `<= 0.5 pp` -> **a tie**, and then: everything concluded about the late RCA's ceiling was a
+  statement about a **frozen** trunk, and the architecture was never the bottleneck.
+
+*Caveat stated up front:* 0.5 pp is only ~1.8x SE(C-X) and the seeds are single, so this is a
+soft threshold, not a test with power. A tie is the more likely outcome to be **inconclusive**
+rather than probative. Also, a tie would only be decisive about the ceiling **relative to
+FLOOR_A's ~7.7-8.1 % floor**: if both C and X sit at the floor, that is not an architectural
+tie, it is both failing.
+
 3. **The early-vs-late test at a matched trained trunk** — if it's a tie, everything concluded
    about the late RCA's ceiling was a statement about a *frozen* trunk. **Still not run.**
 4. **The derivational holdout, properly designed** — the thesis has still never been tested.
