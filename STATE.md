@@ -674,6 +674,35 @@ to carry forward:
   + `LAUNCH_COOLDOWN=240`) — verified present in the live file, not inferred. Two runners remain
   alive but both are now gated against launching into a building arm.
 
+### *** FIRST LADDER COMPARISON — `EARLYROOT_C` @1000 vs `FLOOR_A` @1000 ***
+
+The falsifiable checkpoint fired on schedule (predicted ~01:44-01:50Z, arrived 01:44:21Z):
+
+```
+EARLYROOT_C  [eval @1000]  ALL_val  acc@1 18.87 %  acc@5 33.61 %  CE_z 6.1696
+                           NOVEL    acc@1 19.09 %  acc@5 34.28 %  CE_z 6.1178
+FLOOR_A      [eval @1000]  ALL_val  acc@1  7.64 %  acc@5 12.86 %  CE_z 8.1712
+                           NOVEL    acc@1  7.53 %  acc@5 12.66 %  CE_z 8.1978
+```
+
+**Same step, same checkpoint, same cache, same val windows, same LR, same batch — the ONLY
+difference is that `EARLYROOT_C` attaches the root pathway on all 24 layers.** So at step 1,000 the
+root pathway is worth **+11.23 pp acc@1** (7.64 -> 18.87), **+20.75 pp acc@5**, and **-2.0016 CE_z**.
+
+Three things this does and does not establish:
+
+* **It is a large, clean, early separation** — 2.47x FLOOR_A's acc@1 and 2.18x the 3.551 %
+  marginal word-stream rate, at 5 % of training.
+* **It says NOTHING yet about the early-vs-late question.** `LATE_X` has not run. This is C vs the
+  no-pathway floor, not C vs X. **Do not read it as answering the objective.**
+* **FLOOR_A's 7.64 % is its own *start*; it finishes at 7.74 %** — i.e. the no-pathway arm did not
+  improve at all in 20,000 steps, while C reaches 18.87 % in 1,000. That contrast is the sharpest
+  form of the result so far, and it is the same contrast STATE.md already records for
+  `RCA_UNFREEZE_A2` (19.53 %).
+
+*Note on CE_z:* it is **scale-invariant** and comparable; the adjacent `raw PPL` is scale-dependent
+(logit_scale 0.60) and must not be quoted.
+
 ### A transient SECOND CUDA occupant — another agent's ridge probe, handled correctly
 
 At 01:40:45 a second compute app appeared: **`probe_ridge_arm.py --tag FLOOR_A --pathway none`**
