@@ -736,9 +736,28 @@ Three things this does and does not establish:
 eval @1000   acc@1 18.87 %   acc@5 33.61 %   CE_z 6.1696   NOVEL 19.09 %
 eval @2000   acc@1 19.82 %   acc@5 34.00 %   CE_z 6.3427   NOVEL 20.03 %
 eval @3000   acc@1 20.00 %   acc@5 34.28 %   CE_z 6.4377   NOVEL 20.20 %
-increments     +0.95        +0.18 (collapsing)
-CE_z           +0.173       +0.095  (rising every eval)
+eval @4000   acc@1 17.73 %   acc@5 30.55 %   CE_z 6.5751
+increments     +0.95        +0.18        -2.27 (REVERSAL)
+CE_z           +0.173       +0.095       +0.137 (rising at EVERY eval)
 ```
+
+**The @4000 point is a reversal, not a plateau: acc@1 FELL 2.27 pp while CE_z rose again.**
+Two consequences:
+
+* **`20.0 %` at @3000 was a high-water mark, not a ceiling.** The trajectory is
+  `18.87 -> 19.82 -> 20.00 -> 17.73`, so `LATE_X` must be compared against a **band**, not a point.
+  A gap of ~2 pp between arms is **within C's own single-arm spread over 1,000 steps**, so the
+  pre-specified 0.5 pp tie band is **too tight to decide the question** unless the arms are read at
+  a matched step *and* the spread is smaller than it looks here.
+* **The direction matches `FLOOR_A`, which also declined late** (`7.74 @20000`, down from `8.14`
+  @4000) with CE_z rising to `9.23`. **Two independent arms now show acc@1 peaking mid-run and
+  decaying while CE_z grows** -- and **both used `--trunk-lr-scale 1.0` / `lr 1e-3`**, which
+  STATE.md already records as 10x the trunk LR documented to destroy the trunk. The 93.7 %
+  decodability of FLOOR_A's trunk argues the *representation* survived; this decay is more likely
+  **overfitting or LR-driven drift in the head/objective** than trunk destruction.
+* **Alternative explanation NOT excluded:** `rca_stack.eval()` is never called, so every eval
+  carries active `nn.Dropout(0.1)` on 24 layers. That adds variance but its **expectation is
+  unchanged**, so it should not by itself produce a -2.27 pp step. The swing is probably real.
 
 **Three points now confirm the plateau, and the increments are collapsing (0.95 -> 0.18) while CE_z
 rises at every single eval.** Note `NOVEL_only` sits **above** `ALL_val` throughout
