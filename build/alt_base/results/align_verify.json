@@ -1,0 +1,85 @@
+{
+  "audit": {
+    "base": "Qwen/Qwen2.5-0.5B",
+    "base_vocab_size": 151643,
+    "sentences_encoded": 2000,
+    "words": 22126,
+    "base_tokens": 44026,
+    "rejected_whitespace": 0,
+    "rejected_decode_or_len": 0,
+    "skipped_short": 0,
+    "words_ge2_base_tokens": 12741,
+    "words_0_base_tokens": 0,
+    "tokens_with_no_word_overlap": 0,
+    "tokens_assigned_by_carry_rule": 0,
+    "tokens_leading_before_first_word": 0,
+    "fertilite_tokens_per_word": 1.9898,
+    "words_per_base_token": 0.5026,
+    "word_len_hist": {
+      "1": 9385,
+      "2": 5941,
+      "3": 4788,
+      "4": 1693,
+      "5": 292,
+      "6": 26,
+      "7": 1
+    },
+    "reconstruction_rule": "base tokenizer decoded text must equal the sentence exactly; morphemic word list must equal sentence.split() exactly"
+  },
+  "examples": [
+    {
+      "sentence": "# بسم الله الرحمن الرحيم",
+      "words": [
+        {
+          "w": "#",
+          "root": "<PARTICLE>",
+          "span": [
+            0,
+            1
+          ],
+          "n_tok": 1
+        },
+        {
+          "w": "بسم",
+          "root": "بسم",
+          "span": [
+            2,
+            5
+          ],
+          "n_tok": 2
+        },
+        {
+          "w": "الله",
+          "root": "اله",
+          "span": [
+            6,
+            10
+          ],
+          "n_tok": 1
+        },
+        {
+          "w": "الرحمن",
+          "root": "<PARTICLE>",
+          "span": [
+            11,
+            17
+          ],
+          "n_tok": 1
+        },
+        {
+          "w": "الرحيم",
+          "root": "رحم",
+          "span": [
+            18,
+            24
+          ],
+          "n_tok": 2
+        }
+      ],
+      "n_tok": 7,
+      "roundtrip_ok": true
+    }
+  ],
+  "val_files_n": 3,
+  "n_files": 47
+}

@@ -1,0 +1,1014 @@
+{
+ "harness": "two_condition_rerun_v2.py",
+ "built": "2026-10-03T03:42:09",
+ "engine_md5": "44f51619dfda0f6d73d4b2460ddeb681",
+ "required_conditions": [
+  "mundabit",
+  "muttarid"
+ ],
+ "not_required": [
+  "munakis",
+  "mutaaddi"
+ ],
+ "thresholds": {
+  "mundabit_min_purity": 0.98,
+  "muttarid_min_rate": 0.98,
+  "munakis_min_lift": 0.02,
+  "min_cell_for_munakis": 30
+ },
+ "vocab": {
+  "roots": 9490,
+  "awzan": 142
+ },
+ "n_types": 188722,
+ "n_asl": 106664,
+ "n_asl_roots": 5551,
+ "harvest_skipped": {
+  "bad_root": 70671,
+  "baseline_fail": 9636,
+  "bad_wazn": 1751
+ },
+ "gold": {
+  "n": 3588,
+  "n_roots": 37,
+  "histogram_matches_recorded": true
+ },
+ "citations": {
+  "mundabit_required": "Ghazali_Al_Mustasfa.txt:12851",
+  "muttarid_required": [
+   "Ghazali_Al_Mustasfa.txt:13254",
+   "Razi_Al_Mahsul.txt:14389-90"
+  ],
+  "munakis_not_required": [
+   "Ghazali_Al_Mustasfa.txt:12599",
+   "Razi_Al_Mahsul.txt:15485-87"
+  ],
+  "mutaaddi_not_required": [
+   "Ghazali_Al_Mustasfa.txt:13507",
+   "Ghazali_Al_Mustasfa.txt:13511",
+   "Razi_Al_Mahsul.txt:15982-86"
+  ],
+  "shadh_licence": "Al_Zajjaji_Al_Idah_Fi_Ilal_Al_Nahw.txt:1203-1205"
+ },
+ "P1_illas": {
+  "wazn_only": {
+   "illa": "wazn_only",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "determinacy": 1.0,
+   "mundabit_purity": 0.945670516762919,
+   "mundabit_n_cells": 39,
+   "mundabit_impure_cells": 32,
+   "mundabit_exception_observations": 5795,
+   "ittirad_own_rate": 0.945670516762919,
+   "ittirad_n": 106664,
+   "ittirad_fail": 5795,
+   "munakis_lift_NOT_REQUIRED": 0.0,
+   "munakis_in": NaN,
+   "munakis_out": NaN,
+   "munakis_n_cells": 0,
+   "verdict_two_condition": {
+    "mundabit": false,
+    "muttarid": false,
+    "ACCEPTED": false
+   },
+   "verdict_three_condition_as_shipped": false,
+   "verdict_four_condition_as_reported": false,
+   "seconds": 2.5
+  },
+  "coarse_weak": {
+   "illa": "coarse_weak",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "determinacy": 1.0,
+   "mundabit_purity": 0.988515337883447,
+   "mundabit_n_cells": 135,
+   "mundabit_impure_cells": 61,
+   "mundabit_exception_observations": 1225,
+   "ittirad_own_rate": 0.9885059626490662,
+   "ittirad_n": 106664,
+   "ittirad_fail": 1226,
+   "munakis_lift_NOT_REQUIRED": 0.12087684956789446,
+   "munakis_in": 0.9956870490547786,
+   "munakis_out": 0.8748101994868841,
+   "munakis_n_cells": 92,
+   "verdict_two_condition": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED": true
+   },
+   "verdict_three_condition_as_shipped": true,
+   "verdict_four_condition_as_reported": true,
+   "seconds": 3.9
+  },
+  "strict7": {
+   "illa": "strict7",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "determinacy": 1.0,
+   "mundabit_purity": 0.9886840921023026,
+   "mundabit_n_cells": 231,
+   "mundabit_impure_cells": 79,
+   "mundabit_exception_observations": 1207,
+   "ittirad_own_rate": 0.9886372159303982,
+   "ittirad_n": 106664,
+   "ittirad_fail": 1212,
+   "munakis_lift_NOT_REQUIRED": 0.07520208217828839,
+   "munakis_in": 0.9956815774464272,
+   "munakis_out": 0.9204794952681388,
+   "munakis_n_cells": 144,
+   "verdict_two_condition": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED": true
+   },
+   "verdict_three_condition_as_shipped": true,
+   "verdict_four_condition_as_reported": true,
+   "seconds": 4.3
+  },
+  "positional": {
+   "illa": "positional",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "determinacy": 1.0,
+   "mundabit_purity": 0.9900622515562889,
+   "mundabit_n_cells": 462,
+   "mundabit_impure_cells": 72,
+   "mundabit_exception_observations": 1060,
+   "ittirad_own_rate": 0.9898372459311483,
+   "ittirad_n": 106664,
+   "ittirad_fail": 1084,
+   "munakis_lift_NOT_REQUIRED": 0.06388452880260553,
+   "munakis_in": 0.9961663471955996,
+   "munakis_out": 0.9322818183929941,
+   "munakis_n_cells": 200,
+   "verdict_two_condition": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED": true
+   },
+   "verdict_three_condition_as_shipped": true,
+   "verdict_four_condition_as_reported": true,
+   "seconds": 4.9
+  },
+  "identity": {
+   "illa": "identity",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "determinacy": 1.0,
+   "mundabit_purity": 1.0,
+   "mundabit_n_cells": 25042,
+   "mundabit_impure_cells": 0,
+   "mundabit_exception_observations": 0,
+   "ittirad_own_rate": 0.9962780319507988,
+   "ittirad_n": 106664,
+   "ittirad_fail": 397,
+   "munakis_lift_NOT_REQUIRED": 0.12969089168412373,
+   "munakis_in": 1.0,
+   "munakis_out": 0.8703091083158763,
+   "munakis_n_cells": 230,
+   "verdict_two_condition": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED": true
+   },
+   "verdict_three_condition_as_shipped": true,
+   "verdict_four_condition_as_reported": true,
+   "seconds": 4.0
+  }
+ },
+ "P1_accepted_two_condition": [
+  "coarse_weak",
+  "strict7",
+  "positional",
+  "identity"
+ ],
+ "P1_rejected_two_condition": [
+  "wazn_only"
+ ],
+ "P2_identity_cells": {
+  "n_cells": 25042,
+  "n_singleton": 10066,
+  "n_impure": 0
+ },
+ "P2_protocols": {
+  "H_pair": {
+   "n_test": 10544,
+   "n_pairs_held": 2504,
+   "per_illa": {
+    "wazn_only": {
+     "n": 10544,
+     "primary_own_cell": 0,
+     "GLOBAL": 10544,
+     "no_analogue": 0,
+     "primary_firing": 0.0,
+     "global_firing": 1.0,
+     "realisation": 0.958649468892261,
+     "provenance": {
+      "GLOBAL": 10544
+     }
+    },
+    "coarse_weak": {
+     "n": 10544,
+     "primary_own_cell": 10543,
+     "GLOBAL": 1,
+     "no_analogue": 0,
+     "primary_firing": 0.9999051593323217,
+     "global_firing": 9.484066767830046e-05,
+     "realisation": 0.997154779969651,
+     "provenance": {
+      "coarse_weak": 10543,
+      "GLOBAL": 1
+     }
+    },
+    "strict7": {
+     "n": 10544,
+     "primary_own_cell": 10542,
+     "GLOBAL": 1,
+     "no_analogue": 0,
+     "primary_firing": 0.9998103186646434,
+     "global_firing": 9.484066767830046e-05,
+     "realisation": 0.9955424886191199,
+     "provenance": {
+      "strict7": 10542,
+      "GLOBAL": 1,
+      "coarse_weak": 1
+     }
+    },
+    "positional": {
+     "n": 10544,
+     "primary_own_cell": 10502,
+     "GLOBAL": 1,
+     "no_analogue": 0,
+     "primary_firing": 0.9960166919575114,
+     "global_firing": 9.484066767830046e-05,
+     "realisation": 0.9955424886191199,
+     "provenance": {
+      "positional": 10502,
+      "strict7": 40,
+      "GLOBAL": 1,
+      "coarse_weak": 1
+     }
+    },
+    "identity": {
+     "n": 10544,
+     "primary_own_cell": 0,
+     "GLOBAL": 1,
+     "no_analogue": 0,
+     "primary_firing": 0.0,
+     "global_firing": 9.484066767830046e-05,
+     "realisation": 0.9955424886191199,
+     "provenance": {
+      "strict7": 10542,
+      "GLOBAL": 1,
+      "coarse_weak": 1
+     }
+    }
+   }
+  },
+  "H_obs": {
+   "n_test": 10666,
+   "per_illa": {
+    "wazn_only": {
+     "n": 10666,
+     "primary_own_cell": 0,
+     "GLOBAL": 10666,
+     "no_analogue": 0,
+     "primary_firing": 0.0,
+     "global_firing": 1.0,
+     "realisation": 0.955090943183949,
+     "provenance": {
+      "GLOBAL": 10666
+     }
+    },
+    "coarse_weak": {
+     "n": 10666,
+     "primary_own_cell": 10666,
+     "GLOBAL": 0,
+     "no_analogue": 0,
+     "primary_firing": 1.0,
+     "global_firing": 0.0,
+     "realisation": 0.9969998124882805,
+     "provenance": {
+      "coarse_weak": 10666
+     }
+    },
+    "strict7": {
+     "n": 10666,
+     "primary_own_cell": 10666,
+     "GLOBAL": 0,
+     "no_analogue": 0,
+     "primary_firing": 1.0,
+     "global_firing": 0.0,
+     "realisation": 0.9969998124882805,
+     "provenance": {
+      "strict7": 10666
+     }
+    },
+    "positional": {
+     "n": 10666,
+     "primary_own_cell": 10663,
+     "GLOBAL": 0,
+     "no_analogue": 0,
+     "primary_firing": 0.9997187324207762,
+     "global_firing": 0.0,
+     "realisation": 0.9974685917869867,
+     "provenance": {
+      "positional": 10663,
+      "strict7": 3
+     }
+    },
+    "identity": {
+     "n": 10666,
+     "primary_own_cell": 9586,
+     "GLOBAL": 0,
+     "no_analogue": 0,
+     "primary_firing": 0.8987436714794674,
+     "global_firing": 0.0,
+     "realisation": 0.9995312207012939,
+     "provenance": {
+      "identity": 9586,
+      "strict7": 1080
+     }
+    }
+   }
+  }
+ },
+ "P2_isolated_selftest": {
+  "chain": [
+   "identity"
+  ],
+  "positive_with_rule": 800,
+  "positive_n": 800,
+  "negative_with_rule": 0,
+  "negative_n": 800
+ },
+ "P3_headline": {
+  "strict7 (previous ʿilla)": {
+   "config": "strict7 (previous ʿilla)",
+   "illa": "strict7",
+   "mode": "lattice",
+   "chain": [
+    "strict7",
+    "coarse_weak",
+    "wazn_only"
+   ],
+   "task_A_n": 3588,
+   "task_A_shipped_ok": 2933,
+   "task_A_qiyas_ok": 3023,
+   "task_A_rate": 0.842530657748049,
+   "task_A_shipped_rate": 0.8174470457079153,
+   "task_A_no_analogue": 101,
+   "task_A_provenance": {
+    "strict7": 3487,
+    "NONE": 101
+   },
+   "task_B_top1": 3031,
+   "task_B_top1_rate": 0.8447603121516165,
+   "task_B_top5": 3032,
+   "task_B_top5_rate": 0.8450390189520625,
+   "task_B_no_candidate": 556,
+   "task_B_mean_candidates": 1.1552396878483835,
+   "grid_realisations": 1314,
+   "seconds": 1.9
+  },
+  "positional": {
+   "config": "positional",
+   "illa": "positional",
+   "mode": "lattice",
+   "chain": [
+    "positional",
+    "strict7",
+    "coarse_weak",
+    "wazn_only"
+   ],
+   "task_A_n": 3588,
+   "task_A_shipped_ok": 2933,
+   "task_A_qiyas_ok": 3023,
+   "task_A_rate": 0.842530657748049,
+   "task_A_shipped_rate": 0.8174470457079153,
+   "task_A_no_analogue": 101,
+   "task_A_provenance": {
+    "positional": 3487,
+    "NONE": 101
+   },
+   "task_B_top1": 3032,
+   "task_B_top1_rate": 0.8450390189520625,
+   "task_B_top5": 3032,
+   "task_B_top5_rate": 0.8450390189520625,
+   "task_B_no_candidate": 556,
+   "task_B_mean_candidates": 1.1552396878483835,
+   "grid_realisations": 1314,
+   "seconds": 2.2
+  },
+  "identity (root) + lattice": {
+   "config": "identity (root) + lattice",
+   "illa": "identity",
+   "mode": "lattice",
+   "chain": [
+    "identity",
+    "strict7",
+    "coarse_weak",
+    "wazn_only"
+   ],
+   "task_A_n": 3588,
+   "task_A_shipped_ok": 2933,
+   "task_A_qiyas_ok": 3023,
+   "task_A_rate": 0.842530657748049,
+   "task_A_shipped_rate": 0.8174470457079153,
+   "task_A_no_analogue": 101,
+   "task_A_provenance": {
+    "strict7": 3487,
+    "NONE": 101
+   },
+   "task_B_top1": 3031,
+   "task_B_top1_rate": 0.8447603121516165,
+   "task_B_top5": 3032,
+   "task_B_top5_rate": 0.8450390189520625,
+   "task_B_no_candidate": 556,
+   "task_B_mean_candidates": 1.1552396878483835,
+   "grid_realisations": 1314,
+   "seconds": 1.9
+  },
+  "identity + wazn_only floor": {
+   "config": "identity + wazn_only floor",
+   "illa": "identity",
+   "mode": "floor_wazn_only",
+   "chain": [
+    "identity",
+    "wazn_only"
+   ],
+   "task_A_n": 3588,
+   "task_A_shipped_ok": 2933,
+   "task_A_qiyas_ok": 2695,
+   "task_A_rate": 0.7511148272017837,
+   "task_A_shipped_rate": 0.8174470457079153,
+   "task_A_no_analogue": 101,
+   "task_A_provenance": {
+    "GLOBAL": 3487,
+    "NONE": 101
+   },
+   "task_B_top1": 2694,
+   "task_B_top1_rate": 0.7508361204013378,
+   "task_B_top5": 2695,
+   "task_B_top5_rate": 0.7511148272017837,
+   "task_B_no_candidate": 893,
+   "task_B_mean_candidates": 1.0638238573021181,
+   "grid_realisations": 1295,
+   "seconds": 1.4
+  },
+  "identity ISOLATED (root alone)": {
+   "config": "identity ISOLATED (root alone)",
+   "illa": "identity",
+   "mode": "isolated",
+   "chain": [
+    "identity"
+   ],
+   "task_A_n": 3588,
+   "task_A_shipped_ok": 2933,
+   "task_A_qiyas_ok": 0,
+   "task_A_rate": 0.0,
+   "task_A_shipped_rate": 0.8174470457079153,
+   "task_A_no_analogue": 3588,
+   "task_A_provenance": {
+    "NONE": 3588
+   },
+   "task_B_top1": 0,
+   "task_B_top1_rate": 0.0,
+   "task_B_top5": 0,
+   "task_B_top5_rate": 0.0,
+   "task_B_no_candidate": 3588,
+   "task_B_mean_candidates": 0.0,
+   "grid_realisations": 0,
+   "seconds": 1.0
+  },
+  "wazn_only (negative control)": {
+   "config": "wazn_only (negative control)",
+   "illa": "wazn_only",
+   "mode": "lattice",
+   "chain": [
+    "wazn_only"
+   ],
+   "task_A_n": 3588,
+   "task_A_shipped_ok": 2933,
+   "task_A_qiyas_ok": 2695,
+   "task_A_rate": 0.7511148272017837,
+   "task_A_shipped_rate": 0.8174470457079153,
+   "task_A_no_analogue": 101,
+   "task_A_provenance": {
+    "GLOBAL": 3487,
+    "NONE": 101
+   },
+   "task_B_top1": 2694,
+   "task_B_top1_rate": 0.7508361204013378,
+   "task_B_top5": 2695,
+   "task_B_top5_rate": 0.7511148272017837,
+   "task_B_no_candidate": 893,
+   "task_B_mean_candidates": 1.0638238573021181,
+   "grid_realisations": 1295,
+   "seconds": 1.2
+  }
+ },
+ "P4_exception_cells": {
+  "wazn_only": {
+   "illa": "wazn_only",
+   "n_cells": 39,
+   "n_exception_cells": 32,
+   "n_exception_cells_with_majority_support_gt1": 32,
+   "n_exception_observations": 5795,
+   "share_of_asl": 0.05432948323708093,
+   "n_distinct_wazn_with_exception_cell": 32,
+   "finer_illa_tested": "positional",
+   "n_exceptions_explained_by_finer_illa": 5589,
+   "n_exceptions_idiosyncratic": 206,
+   "worst_cells": [
+    [
+     "*",
+     "فَعَالِيل",
+     162,
+     103,
+     20
+    ],
+    [
+     "*",
+     "فَعَاوِيل",
+     45,
+     30,
+     2
+    ],
+    [
+     "*",
+     "فَعَائِيل",
+     21,
+     14,
+     2
+    ],
+    [
+     "*",
+     "فَاعِل",
+     7214,
+     5988,
+     3
+    ],
+    [
+     "*",
+     "فُعْلَان",
+     1524,
+     1323,
+     2
+    ],
+    [
+     "*",
+     "فَعَلَ",
+     28608,
+     25162,
+     2
+    ],
+    [
+     "*",
+     "اِسْتَفْعَلَ",
+     620,
+     578,
+     5
+    ],
+    [
+     "*",
+     "مُفْتَعِل",
+     1334,
+     1244,
+     5
+    ],
+    [
+     "*",
+     "تَفَعْلَلَ",
+     77,
+     72,
+     2
+    ],
+    [
+     "*",
+     "مُتَفَعِّل",
+     1325,
+     1249,
+     3
+    ],
+    [
+     "*",
+     "اِنْفَعَلَ",
+     431,
+     418,
+     3
+    ],
+    [
+     "*",
+     "مَفْعُول",
+     2993,
+     2903,
+     2
+    ],
+    [
+     "*",
+     "مَفْعَل",
+     5299,
+     5142,
+     2
+    ],
+    [
+     "*",
+     "يَفْتَعِلُ",
+     750,
+     728,
+     5
+    ],
+    [
+     "*",
+     "اِسْتِفْعَال",
+     784,
+     763,
+     4
+    ]
+   ]
+  },
+  "coarse_weak": {
+   "illa": "coarse_weak",
+   "n_cells": 135,
+   "n_exception_cells": 61,
+   "n_exception_cells_with_majority_support_gt1": 60,
+   "n_exception_observations": 1225,
+   "share_of_asl": 0.011484662116552915,
+   "n_distinct_wazn_with_exception_cell": 32,
+   "finer_illa_tested": "positional",
+   "n_exceptions_explained_by_finer_illa": 970,
+   "n_exceptions_idiosyncratic": 255,
+   "worst_cells": [
+    [
+     "WEAK",
+     "فَعَالِيل",
+     9,
+     3,
+     7
+    ],
+    [
+     "MUDAAF",
+     "فَعَالِيل",
+     2,
+     1,
+     2
+    ],
+    [
+     "WEAK",
+     "فَعَاوِيل",
+     24,
+     15,
+     2
+    ],
+    [
+     "WEAK",
+     "فَعَائِيل",
+     11,
+     7,
+     2
+    ],
+    [
+     "SAHIH",
+     "فَعَالِيل",
+     151,
+     102,
+     14
+    ],
+    [
+     "MUDAAF",
+     "فُعْلَان",
+     23,
+     17,
+     2
+    ],
+    [
+     "SAHIH",
+     "فُعْلَان",
+     957,
+     776,
+     2
+    ],
+    [
+     "MUDAAF",
+     "اِنْفَعَلَ",
+     6,
+     5,
+     2
+    ],
+    [
+     "WEAK",
+     "اِسْتَفْعَلَ",
+     260,
+     234,
+     5
+    ],
+    [
+     "WEAK",
+     "مُفْتَعِل",
+     247,
+     223,
+     4
+    ],
+    [
+     "WEAK",
+     "يَفْتَعِلُ",
+     93,
+     85,
+     3
+    ],
+    [
+     "SAHIH",
+     "تَفَعْلَلَ",
+     59,
+     54,
+     2
+    ],
+    [
+     "WEAK",
+     "اِنْفَعَلَ",
+     109,
+     101,
+     3
+    ],
+    [
+     "SAHIH",
+     "مُتَفَعِّل",
+     717,
+     669,
+     3
+    ],
+    [
+     "MAHMUZ",
+     "أَفْعَلَ",
+     16,
+     15,
+     2
+    ]
+   ]
+  },
+  "strict7": {
+   "illa": "strict7",
+   "n_cells": 231,
+   "n_exception_cells": 79,
+   "n_exception_cells_with_majority_support_gt1": 76,
+   "n_exception_observations": 1207,
+   "share_of_asl": 0.011315907897697442,
+   "n_distinct_wazn_with_exception_cell": 30,
+   "finer_illa_tested": "positional",
+   "n_exceptions_explained_by_finer_illa": 953,
+   "n_exceptions_idiosyncratic": 254,
+   "worst_cells": [
+    [
+     "MITHAL",
+     "فَعَالِيل",
+     3,
+     1,
+     3
+    ],
+    [
+     "NAQIS",
+     "فَعَالِيل",
+     3,
+     1,
+     3
+    ],
+    [
+     "MUDAAF",
+     "فَعَالِيل",
+     2,
+     1,
+     2
+    ],
+    [
+     "NAQIS",
+     "فِعَال",
+     31,
+     17,
+     2
+    ],
+    [
+     "MITHAL",
+     "اِنْفَعَلَ",
+     9,
+     5,
+     2
+    ],
+    [
+     "LAFIF",
+     "فِعَال",
+     63,
+     42,
+     2
+    ],
+    [
+     "SAHIH",
+     "فَعَالِيل",
+     151,
+     102,
+     14
+    ],
+    [
+     "AJWAF",
+     "يَفْتَعِلُ",
+     23,
+     16,
+     2
+    ],
+    [
+     "MITHAL",
+     "اِفْتِعَال",
+     7,
+     5,
+     2
+    ],
+    [
+     "LAFIF",
+     "فُعْلَان",
+     40,
+     29,
+     2
+    ],
+    [
+     "MUDAAF",
+     "فُعْلَان",
+     23,
+     17,
+     2
+    ],
+    [
+     "MITHAL",
+     "اِنْفِعَال",
+     4,
+     3,
+     2
+    ],
+    [
+     "LAFIF",
+     "فَعِيل",
+     58,
+     47,
+     2
+    ],
+    [
+     "SAHIH",
+     "فُعْلَان",
+     957,
+     776,
+     2
+    ],
+    [
+     "NAQIS",
+     "اِسْتَفْعَلَ",
+     29,
+     24,
+     3
+    ]
+   ]
+  },
+  "positional": {
+   "illa": "positional",
+   "n_cells": 462,
+   "n_exception_cells": 72,
+   "n_exception_cells_with_majority_support_gt1": 69,
+   "n_exception_observations": 1060,
+   "share_of_asl": 0.009937748443711094,
+   "n_distinct_wazn_with_exception_cell": 28,
+   "finer_illa_tested": "strict7",
+   "n_exceptions_explained_by_finer_illa": 806,
+   "n_exceptions_idiosyncratic": 254,
+   "worst_cells": [
+    [
+     "NAQIS_ا",
+     "فَعَالِيل",
+     3,
+     1,
+     3
+    ],
+    [
+     "LAFIF_02",
+     "فُعْلَان",
+     20,
+     10,
+     2
+    ],
+    [
+     "MUDAAF_12",
+     "فَعَالِيل",
+     2,
+     1,
+     2
+    ],
+    [
+     "MITHAL_و",
+     "فَعَالِيل",
+     2,
+     1,
+     2
+    ],
+    [
+     "AJWAF_و",
+     "يَفْتَعِلُ",
+     17,
+     10,
+     2
+    ],
+    [
+     "NAQIS_ي",
+     "اِسْتَفْعَلَ",
+     9,
+     6,
+     3
+    ],
+    [
+     "SAHIH",
+     "فَعَالِيل",
+     151,
+     102,
+     14
+    ],
+    [
+     "LAFIF_12",
+     "فَوْعَل",
+     41,
+     29,
+     2
+    ],
+    [
+     "MUDAAF_01",
+     "فَعَلَ",
+     31,
+     23,
+     2
+    ],
+    [
+     "LAFIF_12",
+     "فَعِيل",
+     8,
+     6,
+     2
+    ],
+    [
+     "MITHAL_ا",
+     "اِسْتَفْعَلَ",
+     4,
+     3,
+     2
+    ],
+    [
+     "LAFIF_02",
+     "فَعِيل",
+     38,
+     29,
+     2
+    ],
+    [
+     "AJWAF_ا",
+     "مُتَفَعِّل",
+     49,
+     38,
+     2
+    ],
+    [
+     "LAFIF_02",
+     "اِسْتَفْعَلَ",
+     5,
+     4,
+     2
+    ],
+    [
+     "SAHIH",
+     "فُعْلَان",
+     957,
+     776,
+     2
+    ]
+   ]
+  },
+  "identity": {
+   "illa": "identity",
+   "n_cells": 25042,
+   "n_exception_cells": 0,
+   "n_exception_cells_with_majority_support_gt1": 0,
+   "n_exception_observations": 0,
+   "share_of_asl": 0.0,
+   "n_distinct_wazn_with_exception_cell": 0,
+   "finer_illa_tested": "strict7",
+   "n_exceptions_explained_by_finer_illa": 0,
+   "n_exceptions_idiosyncratic": 0,
+   "worst_cells": []
+  }
+ },
+ "P5_verdict": {
+  "identity_accepted_two_condition": true,
+  "identity_purity": 1.0,
+  "identity_ittirad": 0.9962780319507988,
+  "identity_fired_on_heldout_root_task": 0,
+  "identity_isolated_task_A_rate": 0.0,
+  "strict7_task_A_rate": 0.842530657748049,
+  "strict7_task_B_top1_rate": 0.8447603121516165,
+  "learned_decoder_task_B_top1_rate": 0.0,
+  "headline_change": "flat under the lattice (identity fires 0x, strict7 carries all); 0.0000 under isolation"
+ }
+}

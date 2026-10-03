@@ -1,0 +1,20 @@
+--- root_cross_attn.py.bak.clamp_inplace_20261003T001215Z	2026-10-02 14:36:34.000000000 +0000
++++ root_cross_attn.py	2026-10-03 00:12:15.000000000 +0000
+@@ -133,7 +133,16 @@
+         hf = h.float()
+         q = self.q_norm(self.q_proj(hf).view(B, T, H, D)).transpose(1, 2)      # [B,H,T,D]
+ 
+-        safe = root_ids.clamp_(0, root_weight.shape[0] - 1)
++        # OUT-OF-PLACE, deliberately.  This was `clamp_`, which mutates the CALLER\^s root-id
++        # tensor.  Every one of the attached layers then saves a VIEW of that same tensor in
++        # IndexSelectBackward0, and the NEXT layer\^s `clamp_` bumps its version, so the first
++        # backward fails with:
++        #   one of the variables needed for gradient computation has been modified by an
++        #   inplace operation: [torch.cuda.LongTensor [512]] is at version 24; expected 23
++        # It only surfaces when `root_weight.requires_grad` (i.e. the morphemic embedding is
++        # UNFROZEN): with it frozen, index_select builds no grad node and the index is never
++        # saved, which is why every earlier arm got away with it.  Numerically identical.
++        safe = root_ids.clamp(0, root_weight.shape[0] - 1)
+         r = root_weight.index_select(0, safe.reshape(-1)).view(B, T, -1).float()
+         k = self.k_norm(self.k_proj(r).view(B, T, H, D)).transpose(1, 2)       # [B,H,T,D]
+         v = self.v_proj(r).view(B, T, H, D).transpose(1, 2)                    # [B,H,T,D]

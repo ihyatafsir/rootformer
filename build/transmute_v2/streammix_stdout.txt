@@ -1,0 +1,34 @@
+[Rootformer v12] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v12] Instantiating 24-layer backbone with IshtiqaqAttention...
+[Rootformer v12] Initialized! Total Layers: 24 | Vocab: 10052 on cpu. [OK]
+determinism: True
+active_root_ids all None: True
+  L00  element0: bit_equal=False max|d|=2.861e-06   element1: bit_equal=True  max|d|=0.000e+00
+  L01  element0: bit_equal=False max|d|=5.364e-06   element1: bit_equal=True  max|d|=0.000e+00
+  L02  element0: bit_equal=False max|d|=2.861e-06   element1: bit_equal=True  max|d|=0.000e+00
+  L03  element0: bit_equal=False max|d|=2.050e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L04  element0: bit_equal=False max|d|=3.171e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L05  element0: bit_equal=False max|d|=9.346e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L06  element0: bit_equal=False max|d|=3.815e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L07  element0: bit_equal=False max|d|=4.923e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L08  element0: bit_equal=False max|d|=3.242e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L09  element0: bit_equal=False max|d|=9.346e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L10  element0: bit_equal=False max|d|=1.230e-04   element1: bit_equal=True  max|d|=0.000e+00
+  L11  element0: bit_equal=False max|d|=1.063e-04   element1: bit_equal=True  max|d|=0.000e+00
+  L12  element0: bit_equal=False max|d|=1.254e-04   element1: bit_equal=True  max|d|=0.000e+00
+  L13  element0: bit_equal=False max|d|=9.584e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L14  element0: bit_equal=False max|d|=8.535e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L15  element0: bit_equal=False max|d|=1.020e-04   element1: bit_equal=True  max|d|=0.000e+00
+  L16  element0: bit_equal=False max|d|=6.247e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L17  element0: bit_equal=False max|d|=9.108e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L18  element0: bit_equal=False max|d|=7.033e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L19  element0: bit_equal=False max|d|=9.060e-05   element1: bit_equal=True  max|d|=0.000e+00
+  L20  element0: bit_equal=False max|d|=1.097e-04   element1: bit_equal=True  max|d|=0.000e+00
+  L21  element0: bit_equal=False max|d|=2.904e-04   element1: bit_equal=True  max|d|=0.000e+00
+  L22  element0: bit_equal=False max|d|=1.416e-04   element1: bit_equal=True  max|d|=0.000e+00
+  L23  element0: bit_equal=False max|d|=1.347e-04   element1: bit_equal=True  max|d|=0.000e+00
+
+restore integrity: True
+element 0 LIVE in 24/24 layers  (it multiplies the surface score)
+element 1 INERT in 24/24 layers (it multiplies the root branch, never taken)
+wrote /workspace/transmute_v2/liveness_streammix.json

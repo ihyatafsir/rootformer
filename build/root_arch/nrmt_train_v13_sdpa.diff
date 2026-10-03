@@ -1,0 +1,126 @@
+--- _ref_nrmt_train_v13.py
++++ nrmt_train_v13_sdpa.py
+@@ -51,6 +51,9 @@
+ # transmute_v2: root_space (the ONE root-id space), unified_rootformer_v13, early_root_path
+ if '/workspace/transmute_v2' not in sys.path:
+     sys.path.insert(0, '/workspace/transmute_v2')
++# root_arch: Phase 0a SDPA attention + the 0d flash-hook decision
++if '/workspace/root_arch' not in sys.path:
++    sys.path.insert(0, '/workspace/root_arch')
+ 
+ WIN, STRIDE, CTX = 128, 64, 12
+ HASH_B = np.uint64(1000003)
+@@ -327,6 +330,17 @@
+                     help='deepseek_v4_1_flash_model registers forward hooks on trunk '
+                          'layers 1/11/14 whose 151.95M params are in NO checkpoint and NO '
+                          'optimizer (zero-init INERT).  `off` detaches them.')
++    # ---- PHASE 0a: fused attention ---------------------------------------------------
++    ap.add_argument('--sdpa', action='store_true',
++                    help='replace the hand-materialised [B,14,T,T] attention with '
++                         'F.scaled_dot_product_attention (root_arch/sdpa_attention.py). '
++                         'Installed BEFORE the model is built, so the backbone is '
++                         'constructed from the SDPA classes outright.')
++    ap.add_argument('--pillar-freeze', action='store_true',
++                    help='hold the AynEngine Pillar-I/II gate at EXACTLY 0 and remove it '
++                         'from the optimizer, so the only root score term is the declared '
++                         'score bias.  Required with --sdpa: the pillar block needs the '
++                         'post-softmax weights a fused kernel does not return.')
+     ap.add_argument('--unfreeze-last', type=int, default=0,
+                     help='also train the top N trunk layers (0 = frozen, historical).  This '
+                          'BYPASSES the frozen hidden-state cache by construction')
+@@ -348,6 +362,14 @@
+     ap.add_argument('--save', default='/workspace/nrmt_head.pt')
+     args = ap.parse_args()
+ 
++    # P3 -- Phase 0a.  MUST run before any model is constructed: `unified_rootformer_v13`
++    # binds `IshtiqaqAttentionV12` at import time, so patching the module afterwards would
++    # leave the already-built backbone on the eager path.
++    if args.sdpa:
++        import sdpa_attention as _sdpa
++        _sdpa.install(verbose=True)
++        print('[*] SDPA installed BEFORE model construction (Phase 0a)', flush=True)
++        # PROVE the fused kernel is used instead of assuming it.  One attention call at\n        # B=8, T=1024 must allocate O(T); a MATH-backend fallback would allocate the whole\n        # [B,14,T,T] matrix (224 MB) and show up as ratio >= 1.\n        for _b in (False, True):\n            try:\n                _v = _sdpa.verify_dispatch(bias=_b)\n                print(f'[*] SDPA dispatch bias={_b}: peak {_v["peak_MB"]:.2f} MB vs eager\n                      f' [B,14,T,T] {_v["eager_matrix_MB"]:.1f} MB (ratio {_v["ratio"]:.3f})\n                      f' -> fused kernel used = {_v["fused_kernel_used"]}', flush=True)\n                if not _v['fused_kernel_used']:\n                    print('[warn] SDPA materialises [B,14,T,T]; the memory saving will NOT\n                          ' materialise', flush=True)\n            except Exception as _e:\n                print(f'[warn] SDPA dispatch verification failed: {_e}', flush=True)\n
+     if args.seed >= 0:
+         torch.manual_seed(args.seed)
+         np.random.seed(args.seed)
+@@ -365,6 +387,16 @@
+     V = next(v for k, v in vars(nv).items() if isinstance(v, type) and 'MorphemicVocab' in k)
+     bp = str(ROOT_DIR / 'data/rootformer_v12_arabic_blueprint.json')
+     vocab = V(bp)
++    # P5 -- the silent-shrink trap.  nrmp_vocab reports 9445 instead of 9490 when a release
++    # module is missing from sys.path; NO downstream table raises, so every number computed
++    # afterwards is quietly wrong.  Fail here, before the 5-minute model build.
++    if (int(vocab.num_roots), int(vocab.num_awzan)) != (9490, 142):
++        raise SystemExit(
++            f'[PREFLIGHT] SILENT VOCAB SHRINK: nrmp_vocab gives {vocab.num_roots} roots / '
++            f'{vocab.num_awzan} awzan, expected 9490 / 142.  Refusing to train on a '
++            f'shrunken root space.')
++    print(f'[*] PREFLIGHT root count OK: roots={vocab.num_roots} awzan={vocab.num_awzan}',
++          flush=True)
+ 
+     # (0) the cache is loaded BEFORE the head is built, because the discrete pathway's `vocab`
+     # mode needs the train root stream to size its tables (one row per distinct context).
+@@ -522,6 +554,16 @@
+     if str(args.root_cross_attn).strip().lower() not in ('', 'none', 'off', '0'):
+         if '/workspace/root_attn' not in sys.path:
+             sys.path.insert(0, '/workspace/root_attn')
++        # P7 -- defuse the IN-PLACE `safe = root_ids.clamp_(...)` at root_cross_attn.py:136
++        # WITHOUT editing that verified module.  `clamp_` returns self, so `safe` IS the shared
++        # root-id tensor; every attached layer then saves a VIEW of it in IndexSelectBackward0, and
++        # the NEXT layer's clamp_ bumps its version, so the first backward dies with
++        #   "modified by an inplace operation ... [LongTensor [512]] is at version 24; expected 23"
++        # It only fires once `morphemic_embed` is trainable (index_select builds no grad node while
++        # root_embed.weight is frozen), which is exactly this experiment.  rca_compat wraps the
++        # method so each layer clamps a tensor it owns.  Numerically identical.
++        import rca_compat
++        rca_compat.install(verbose=True)
+         from root_cross_attn import RootCrossAttentionStack
+         from early_root_path import parse_layer_spec_v13 as parse_layer_spec
+         rca_layers = parse_layer_spec(args.root_cross_attn, len(model.backbone.layers))
+@@ -578,6 +620,22 @@
+             pillar_gate_init=args.ishtiqaq_pillar_gate_init)
+         for _p in ishtiqaq_params:
+             _p.requires_grad_(True)
++        if args.pillar_freeze:
++            # P4 -- see make_trainer_v13_sdpa.py.  Structural, not numeric: the gate is
++            # zeroed AND made non-trainable AND dropped from every optimizer group, so it
++            # can never leave 0 and the fused kernel never has to reproduce the pillar
++            # block.  `_ig_ids` (below) is built AFTER this, so the parameter cannot leak
++            # into `trunk_params` either.
++            _pg = set()
++            for _m in ishtiqaq_mods:
++                with torch.no_grad():
++                    _m.pillar_gate.data.zero_()
++                _m.pillar_gate.requires_grad_(False)
++                _pg.add(id(_m.pillar_gate))
++            ishtiqaq_params[:] = [p for p in ishtiqaq_params if id(p) not in _pg]
++            print(f'[*] PILLAR-FREEZE: {len(_pg)} pillar gates held at exactly 0.0 and '
++                  f'removed from the optimizer (coverage_weight / governance_strength '
++                  f'stay at their checkpoint values but are multiplied by 0)', flush=True)
+         print(f'[*] NATIVE root score bias on trunk layers {ishtiqaq_layers} '
+               f'({sum(p.numel() for p in ishtiqaq_params)/1e6:.3f}M NEW params, source='
+               f'{ishtiqaq_root_source}, gates='
+@@ -740,11 +798,21 @@
+         visible), while the head consumes positions 0..T-2, exactly as in the cached path.
+         """
+         emb = model.morphemic_embed(Pr_w, Tr_w, Wr_w, Sr_w)
++        # P6 -- `root_cross_attn.py:136` does `safe = root_ids.clamp_(...)` IN PLACE on the
++        # tensor it is handed.  Under `--unfreeze-trunk-all` the `morphemic_embed` lookup
++        # above has ALREADY SAVED Tr_w for backward, so that in-place bump kills backward
++        # with: 'one of the variables needed for gradient computation has been modified
++        # by an inplace operation: [torch.cuda.LongTensor [1024]] is at version 24;
++        # expected version 23'.  The recorded arms never hit it because their
++        # `morphemic_embed` was FROZEN (no embedding_backward -> indices not saved -> no
++        # version check).  Handing the pathways a CLONE leaves the saved tensor untouched.
++        # This is an UPSTREAM bug in another agent's module: reported, not silently fixed.
++        _rid = Tr_w.clone() if (rca_stack is not None or ishtiqaq_layers) else Tr_w
+         if rca_stack is not None:
+-            rca_stack.set_root_ids(Tr_w)
++            rca_stack.set_root_ids(_rid)
+         # the ONLY wiring the shipped native root path has ever needed
+         for _i in ishtiqaq_layers:
+-            model.backbone.layers[_i].self_attn.active_root_ids = Tr_w
++            model.backbone.layers[_i].self_attn.active_root_ids = _rid
+         out = model.backbone(inputs_embeds=emb)
+         return model.final_norm(out.last_hidden_state).float()[:, :-1].contiguous()
+ 

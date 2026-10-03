@@ -105,12 +105,53 @@ class NRMTHead(nn.Module):
         root_logits = self.root_head(h_aug)
         if root_embed is not None:
             chosen = cond_roots if cond_roots is not None else root_logits.argmax(-1)
-            e_root = root_embed(chosen)
-            h_cond = self.cond_proj(torch.cat([h_aug, e_root.to(h_aug.dtype)], dim=-1))
+            e_root = root_embed(chosen).to(h_aug.dtype)
+            h_cond = self.cond_proj(torch.cat([h_aug, e_root], dim=-1))
         else:
             h_cond = h_aug
         return {'root_logits': root_logits, 'wazn_logits': self.wazn_head(h_cond),
                 'prefix_logits': self.prefix_head(h_cond), 'suffix_logits': self.suffix_head(h_cond)}
+
+
+BASE_SKIP = ('active_root_ids', 'active_wazn_ids', '.rotary_emb.', 'id_to_root_table')
+
+
+def load_base_trunk(model, repo, hf_home, log):
+    """Put the REAL base weights into the trunk.
+
+    `RootformerNRMT.backbone` is the Qwen2Model built from the morphemic blueprint, so its
+    `embed_tokens` has 10,052 rows and its transformer blocks are randomly initialised.  A base
+    token id can be up to ~149k, so the table MUST be resized and filled from the actual base
+    checkpoint, and every block tensor must be copied too -- otherwise the trunk is not the base
+    model at all and the embedding lookup traps the CUDA context.
+    """
+    import os
+    from transformers import AutoModelForCausalLM
+    os.environ.setdefault('HF_HOME', hf_home)
+    ref = AutoModelForCausalLM.from_pretrained(repo, dtype=torch.float32,
+                                              cache_dir=str(Path(hf_home) / 'hub'))
+    rsd = ref.state_dict()
+    n_emb = int(rsd['model.embed_tokens.weight'].shape[0])
+    tgt = model.backbone.state_dict()
+    cur = int(tgt['embed_tokens.weight'].shape[0])
+    if cur != n_emb:
+        log(f'resizing trunk embed_tokens {cur} -> {n_emb} (base vocab)')
+        model.backbone.resize_token_embeddings(n_emb)
+    tgt = model.backbone.state_dict()
+    keep, skipped = {}, []
+    for k, v in rsd.items():
+        kk = k[len('model.'):] if k.startswith('model.') else k
+        if kk in tgt and tuple(tgt[kk].shape) == tuple(v.shape) and not any(
+                x in kk for x in BASE_SKIP):
+            keep[kk] = v
+        else:
+            skipped.append(kk)
+    model.backbone.load_state_dict(keep, strict=False)
+    log(f'base trunk: loaded {len(keep)}/{len(rsd)} tensors from {repo}; skipped {len(skipped)}')
+    if skipped[:5]:
+        log(f'    first skipped: {skipped[:5]}')
+    del ref
+    return len(keep)
 
 
 def load_matching(model, sd, tag='ckpt'):
@@ -205,6 +246,9 @@ def gather_window(tr, b, tok_wstart=None):
 
 def build_novel_mask(tr_roots, va_roots, va_blocks, log=None, ctx=12):
     """Novelty of each val position's `ctx`-root context w.r.t. the TRAIN root stream."""
+    # NOTE: materialise the train root list ONCE.  Rebuilding it per position (and using a list
+    # for the membership test) made the live path appear to hang: ~64k positions x a 7M-element
+    # list membership scan.  This is a throughput bug, not a correctness one.
     a = np.asarray(tr_roots.tolist(), dtype=np.uint64)
     B_ = np.uint64(1000003)
     L = max(len(a) - ctx + 1, 0)
@@ -273,6 +317,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--cache', default='/workspace/alt_base/cache/rootqwen')
     ap.add_argument('--base', default='Qwen/Qwen2.5-0.5B')
+    ap.add_argument('--hf-home', default='/workspace/alt_base/cache')
     ap.add_argument('--ckpt', default=str(RELEASE / 'checkpoints/'
                     'rootformer_v19_2_synthesis_ar_backbone.awzan142.safetensors'))
     ap.add_argument('--tag', default='A')
@@ -314,6 +359,10 @@ def main():
                     help='END-TO-END: run the trunk in the forward pass every step (trunk '
                          'gradients enabled).  Required for the root pathway to be trainable '
                          'from the INPUT stage upward.  Bypasses the frozen hidden-state cache.')
+    ap.add_argument('--grad-ckpt', action='store_true',
+                    help='live mode: gradient checkpointing (trades compute for activation memory)')
+    ap.add_argument('--block-words', type=int, default=128,
+                    help='word events per training window (shorter = much cheaper steps)')
     ap.add_argument('--trunk-lr-scale', type=float, default=1.0,
                     help='lr of the pretrained trunk weights as a fraction of --lr (1.0 = full LR; '
                          'English preservation is explicitly NOT a requirement)')
@@ -390,6 +439,15 @@ def main():
                            dropout=args.dropout, use_features=not args.no_features,
                            feat_gate=args.feat_gate,
                            feat_gate_proj_std=args.feat_gate_proj_std).to(dev)
+    load_base_trunk(model, args.base, args.hf_home, log)
+    if args.live and args.grad_ckpt:
+        try:
+            model.backbone.gradient_checkpointing_enable(
+                gradient_checkpointing_kwargs={'use_reentrant': False})
+            model.backbone.config.use_cache = False
+            log('gradient checkpointing ENABLED on the trunk (non-reentrant)')
+        except Exception as _e:
+            log(f'[warn] gradient checkpointing unavailable: {_e}')
     sd = load_file(args.ckpt)
     load_matching(model, sd, Path(args.ckpt).name)
     # PURE BASE: the native root term reads SUBWORD token ids clamped to [0,9014], which are
@@ -414,6 +472,11 @@ def main():
                     dropout=args.dropout, use_features=not args.no_features,
                     feat_gate=args.feat_gate,
                     feat_gate_proj_std=args.feat_gate_proj_std).to(dev).float()
+    # OUR head is newly constructed and must ALWAYS train (its parameters are the ones that
+    # produce the reported root/wazn/prefix/suffix accuracies); the checkpoint load above does
+    # not set requires_grad, but be explicit so head_params is never an empty list.
+    for _p in head.parameters():
+        _p.requires_grad = True
     hs = head.state_dict()
     if args.head_init == 'remap':
         rm, applied, exempt = remap_legacy_head(sd, hs, model.d_model)
@@ -592,6 +655,22 @@ def main():
         Sw = torch.stack([S[int(b) * WIN:(int(b) + 1) * WIN] for b in blocks])
         return Hr, Rw.to(dev), Ww.to(dev), Pw.to(dev), Sw.to(dev), rows, nb
 
+    if args.live:
+        # END-TO-END: the trunk is TRAINED at full LR, so the frozen hidden-state cache is not
+        # used (and must not be, or the trunk would never receive a gradient).  Rows are built
+        # lazily per sampled block -- materialising all 55k windows would be pointless work.
+        live_tr_by_b = LRows(tr, tr_blocks)
+        live_va_by_b = LRows(va, va_blocks)
+        log('live rows: lazy per-block construction')
+        live_novel = build_novel_mask(tr['word'][1], va['word'][1], va_blocks, log)
+        run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params,
+                       root_embed, spec_t, fmask, vocab, live_tr_by_b, live_va_by_b,
+                       tr_blocks, va_blocks,
+                       lambda rm, bi: make_batch_from(rm, bi),
+                       live_novel, RES, args.out, args.save, probe,
+                       tr=tr, va=va)
+        return
+
     Htr_a, Rtr, Wtr, Ptr, Str, rows_trA, ntrA = aligned(tr, tr_blocks, Htr, Itr)
     Hva_a, Rva, Wva, Pva, Sva, rows_vaA, nvaA = aligned(va, va_blocks, Hva, Iva)
     log(f'word tensors: train {tuple(Htr_a.shape)} {tuple(Rtr.shape)} | '
@@ -731,18 +810,145 @@ def main():
     log(f'val windows={len(va_blocks)} radical(val) novel fraction='
         f'{100.0*float(novel_mask.sum())/novel_mask.numel():.1f}%')
 
-    if args.live:
-        # END-TO-END: the trunk is TRAINED at full LR, so the frozen hidden-state cache is not
-        # used (and must not be, or the trunk would never receive a gradient).  Rows are built
-        # lazily per sampled block -- materialising all 55k windows would be pointless work.
-        live_tr_by_b = LRows(tr, tr_blocks)
-        live_va_by_b = LRows(va, va_blocks)
-        log('live rows: lazy per-block construction')
-        return run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params,
-                              root_embed, spec_t, fmask, vocab, live_tr_by_b, live_va_by_b,
-                              tr_blocks, va_blocks,
-                              lambda rm, bi: make_batch_from(rm, bi),
-                              novel_mask, RES, args.out, args.save, probe)
+    Htr_a, Rtr, Wtr, Ptr, Str, rows_trA, ntrA = aligned(tr, tr_blocks, Htr, Itr)
+    Hva_a, Rva, Wva, Pva, Sva, rows_vaA, nvaA = aligned(va, va_blocks, Hva, Iva)
+    log(f'word tensors: train {tuple(Htr_a.shape)} {tuple(Rtr.shape)} | '
+        f'val {tuple(Hva_a.shape)} peak_vram={torch.cuda.max_memory_allocated()/2**20:.0f}MiB')
+
+    # targets are the NEXT word's tuple (positions 0..T-2 -> targets 1..T-1)
+    def slices(H, R, W, P, S, i):
+        h = H[i, :-1].contiguous()
+        r = R[i, :-1].contiguous()
+        tgt_r = R[i, 1:].contiguous()
+        tgt_w = W[i, 1:].contiguous()
+        tgt_p = P[i, 1:].contiguous()
+        tgt_s = S[i, 1:].contiguous()
+        return h, r, W[i, :-1].contiguous(), P[i, :-1].contiguous(), S[i, :-1].contiguous(), \
+            tgt_r, tgt_w, tgt_p, tgt_s
+
+    # ---- operator ids (Sibawayh ʿāmil when available, else the t-1 operator table) -----
+    op_table = None
+    try:
+        from nrmt_arch import build_operator_table
+        op_table = build_operator_table(vocab).to(dev)
+        log(f'operator table {tuple(op_table.shape)}')
+    except Exception as e:
+        log(f'[warn] build_operator_table failed: {e}')
+
+    def op_of(Rw, Ww, Pw):
+        if op_table is None:
+            return torch.zeros_like(Rw)
+        return op_table[Rw.clamp(min=0)]
+
+    # ---- loss --------------------------------------------------------------------------
+    def compute_loss(H, R, W, P, S, O, tgt_r, tgt_w, tgt_p, tgt_s, margin=None):
+        O = op_of(R, W, P) if O is None else O
+        out = head(H, R, O, W, P, S, cond_roots=tgt_r, root_embed=root_embed)
+        keep = ~torch.isin(tgt_r, spec_t.to(tgt_r.device))
+        rl_raw = out['root_logits']
+        if args.logit_scale == 'ln':
+            rl = (rl_raw - rl_raw.mean(-1, keepdim=True)) / \
+                rl_raw.std(-1, keepdim=True).clamp_min(1e-6)
+        elif args.logit_scale == 'l2':
+            rl = rl_raw / rl_raw.norm(dim=-1, keepdim=True).clamp_min(1e-6) \
+                * math.sqrt(vocab.num_roots)
+        else:
+            rl = rl_raw
+        info = {}
+        l_root = F.cross_entropy(rl[keep], tgt_r[keep]) if keep.any() else rl.sum() * 0.0
+        l_wazn = F.cross_entropy(out['wazn_logits'].reshape(-1, vocab.num_awzan),
+                                 tgt_w.reshape(-1), ignore_index=vocab.PAD_WAZN)
+        l_pref = F.cross_entropy(out['prefix_logits'].reshape(-1, vocab.num_prefixes),
+                                 tgt_p.reshape(-1), ignore_index=vocab.PAD_PREFIX)
+        l_suff = F.cross_entropy(out['suffix_logits'].reshape(-1, vocab.num_suffixes),
+                                 tgt_s.reshape(-1), ignore_index=vocab.PAD_SUFFIX)
+        loss = l_root + 0.5 * l_wazn + 0.25 * l_pref + 0.25 * l_suff
+        info.update({'root': float(l_root.detach()), 'wazn': float(l_wazn.detach()),
+                     'prefix': float(l_pref.detach()), 'suffix': float(l_suff.detach())})
+        if keep.any():
+            rr = rl_raw[keep]
+            rs = rr.std(-1, keepdim=True).clamp_min(1e-6)
+            info['root_cez'] = float(F.cross_entropy(
+                (rr - rr.mean(-1, keepdim=True)) / rs, tgt_r[keep]).detach())
+        fm = fmask.to(tgt_r.device)[tgt_r]
+        m = args.margin if margin is None else margin
+        if fm.any() and m != 0.0:
+            pen = F.relu(rl_raw[fm] - m) ** 2
+            loss = loss + 0.1 * pen.mean()
+            info['impossible'] = float(pen.mean().detach()); info['margin'] = m
+        # accuracy on this batch (all / novel not available live, so report all)
+        with torch.no_grad():
+            if keep.any():
+                info['acc1'] = float((rl_raw[keep].argmax(-1) == tgt_r[keep]).float().mean())
+                info['n'] = int(keep.sum())
+        return loss, info
+
+    def margin_at(step):
+        if args.margin_ramp <= 0:
+            return args.margin
+        f = min(1.0, (step - 1) / max(args.margin_ramp - 1, 1))
+        return args.margin_start + (args.margin - args.margin_start) * f
+
+    # ---- evaluation (frozen protocol: free-running condition, gold targets) ------------
+    @torch.no_grad()
+    def evaluate(H, R, W, P, S, ablate=False, bs=32):
+        head.eval()
+        if ablate and rca_stack is not None:
+            old = rca_stack.zero_gates()
+        n_all = n_nov = c_all = c_nov = 0
+        morph = Counter(); morph_n = 0
+        for s in range(0, H.shape[0], bs):
+            sl = slice(s, min(s + bs, H.shape[0]))
+            h = H[sl, :-1]
+            r = R[sl, :-1]; tgt = R[sl, 1:]
+            O = op_of(r, W[sl, :-1], P[sl, :-1])
+            out = head(h, r, O, W[sl, :-1], P[sl, :-1], S[sl, :-1], cond_roots=None,
+                       root_embed=root_embed)
+            rl = out['root_logits']
+            if args.logit_scale == 'ln':
+                rl = (rl - rl.mean(-1, keepdim=True)) / rl.std(-1, keepdim=True).clamp_min(1e-6)
+            keep = ~torch.isin(tgt, spec_t.to(tgt.device))
+            pred = out['root_logits'].argmax(-1)
+            nov = novel_mask[sl]
+            c_all += int(((pred == tgt) & keep).sum()); n_all += int(keep.sum())
+            c_nov += int(((pred == tgt) & keep & nov).sum()); n_nov += int((keep & nov).sum())
+            for nm, lg, tg, ig in (('wazn', out['wazn_logits'], W[sl, 1:], vocab.PAD_WAZN),
+                                   ('prefix', out['prefix_logits'], P[sl, 1:], vocab.PAD_PREFIX),
+                                   ('suffix', out['suffix_logits'], S[sl, 1:], vocab.PAD_SUFFIX)):
+                p = lg.argmax(-1); m = tg != ig
+                morph[nm] += int(((p == tg) & m).sum()); 
+            morph_n += int((W[sl, 1:] != vocab.PAD_WAZN).sum())
+        if ablate and rca_stack is not None:
+            rca_stack.restore_gates(old)
+        head.train()
+        return {'root_acc_all_pct': 100.0 * c_all / max(n_all, 1),
+                'root_acc_novel_pct': 100.0 * c_nov / max(n_nov, 1),
+                'n_all': n_all, 'n_novel': n_nov,
+                'wazn_acc_pct': 100.0 * morph['wazn'] / max(morph_n, 1),
+                'prefix_acc_pct': 100.0 * morph['prefix'] / max(morph_n, 1),
+                'suffix_acc_pct': 100.0 * morph['suffix'] / max(morph_n, 1)}
+
+    # novel mask over val word positions (order = va_blocks order, 127 positions each)
+    trR = tr['word'][1].tolist()
+    B_ = np.uint64(1000003)
+    a = np.asarray(trR, dtype=np.uint64)
+    L = len(a) - 12 + 1
+    hh = np.zeros(L, dtype=np.uint64)
+    for k in range(12):
+        hh = hh * B_ + a[k:k + L]
+    nov_hash = set(np.unique(hh).tolist())
+    novel_mask = torch.zeros(len(va_blocks), WIN - 1, dtype=torch.bool)
+    for wi, b in enumerate(va_blocks):
+        seg = va['word'][1][int(b) * WIN:(int(b) + 1) * WIN].tolist()
+        for t in range(12, WIN):
+            ctx = seg[t - 12:t]
+            h_ = 0
+            for x in ctx:
+                h_ = (h_ * 1000003 + int(x)) & ((1 << 64) - 1)
+            novel_mask[wi, t - 1] = h_ not in nov_hash
+    log(f'val windows={len(va_blocks)} radical(val) novel fraction='
+        f'{100.0*float(novel_mask.sum())/novel_mask.numel():.1f}%')
+
 
     # ---- optimizer ---------------------------------------------------------------------
     groups = [{'params': head_params, 'lr': args.lr, 'grp': 'head'}]
@@ -821,11 +1027,16 @@ def main():
 
 def run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params, root_embed, spec_t,
                    fmask, vocab, rows_tr_by_b, rows_va_by_b, tr_blocks, va_blocks,
-                   make_batch_from, novel_mask, RES, Res_path, save_path, probe):
+                   make_batch_from, novel_mask, RES, Res_path, save_path, probe,
+                   tr=None, va=None):
     """END-TO-END branch: unfreeze the trunk, run it live every step, train at full LR."""
     import json as _json
     log('=== LIVE END-TO-END MODE: trunk is TRAINED (full LR); no frozen-cache bypass ===')
+    # unfreeze EVERYTHING: this arm trains the trunk at the same LR as the head (English
+    # preservation is explicitly not a requirement, so there is no forgetting constraint).
     for p in model.parameters():
+        p.requires_grad = True
+    for p in head.parameters():
         p.requires_grad = True
     head_params = [p for p in head.parameters() if p.requires_grad]
     trunk_params = [p for n, p in model.named_parameters() if p.requires_grad]
@@ -851,6 +1062,9 @@ def run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params, root_
         return args.margin_start + (args.margin - args.margin_start) * f
 
     def compute(h, r, w, p, s, tgt_r, tgt_w, tgt_p, tgt_s, margin=None):
+        # cross_entropy requires int64 class targets; the streams are int32 for compactness
+        r = r.long(); w = w.long(); p = p.long(); s = s.long()
+        tgt_r = tgt_r.long(); tgt_w = tgt_w.long(); tgt_p = tgt_p.long(); tgt_s = tgt_s.long()
         out = head(h, r, op_of(r, w, p), w, p, s, cond_roots=tgt_r, root_embed=root_embed)
         keep = ~torch.isin(tgt_r, spec_t.to(tgt_r.device))
         rl_raw = out['root_logits']
@@ -891,49 +1105,51 @@ def run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params, root_
         ids, wid, mask, ll, wids = make_batch_from(rows_map, bidx)
         return ids, wid, mask, ll, wids
 
-    def forward_words(ids, wid, mask, ll, wids, Rw, global_R):
+    def word_ids(blk):
+        """block ids -> the (B,128) global WORD indices of those windows."""
+        return torch.stack([torch.arange(int(b) * WIN, (int(b) + 1) * WIN) for b in blk])
+
+    def forward_words(ids, wid, mask, ll, blk, split, global_R):
         T = ids.shape[1]
-        if rca_stack is not None:
-            rca_stack._attn_mask = mask.to(dev)
-            Rtok = global_R[wids].to(dev).gather(1, wid.to(dev))
-            rca_stack.set_root_ids(Rtok)
-        o = model.backbone(input_ids=ids.to(dev),
-                           attention_mask=mask.to(dev))
-        h = model.final_norm(o.last_hidden_state)
-        ll2 = ll.to(dev).clamp(max=T - 1)
-        hw = h.gather(1, ll2.unsqueeze(-1).expand(-1, -1, h.shape[-1]))
-        W_ = (tr if global_R is tr['word'][1] else va)['word']
+        wids = word_ids(blk)                                # [B,128] global word index
+        W_ = split['word']
         wl = W_[2][wids].long().to(dev); pl = W_[0][wids].long().to(dev)
         sl = W_[3][wids].long().to(dev)
+        Rw = global_R[wids].to(dev)
+        if rca_stack is not None:
+            rca_stack._attn_mask = mask.to(dev)
+            rca_stack.set_root_ids(Rw.gather(1, wid.to(dev)))
+        o = model.backbone(input_ids=ids.to(dev), attention_mask=mask.to(dev))
+        h = model.final_norm(o.last_hidden_state)
+        ll2 = ll.to(dev).clamp(max=T - 1)
+        hw = h.gather(1, ll2.unsqueeze(-1).expand(-1, -1, h.shape[-1])).float()
         n = wl.shape[1]
         return hw[:, :n - 1].contiguous(), wl[:, :n - 1], pl[:, :n - 1], sl[:, :n - 1], \
             wl[:, 1:].contiguous(), pl[:, 1:].contiguous(), sl[:, 1:].contiguous(), \
-            Rw.to(dev)[:, :n - 1].contiguous(), Rw.to(dev)[:, 1:].contiguous()
+            Rw[:, :n - 1].contiguous(), Rw[:, 1:].contiguous()
 
     @torch.no_grad()
-    def evaluate_live(blocks, rows_map, global_R, ablate=False, maxb=None):
+    def evaluate_live(blocks, rows_map, global_R, split, ablate=False, maxb=None):
         head.eval(); model.eval()
         if ablate and rca_stack is not None:
             old = rca_stack.zero_gates()
         n_all = n_nov = c_all = c_nov = 0
         mg = Counter(); mn = 0
-        bl = list(blocks[:maxb] if maxb else blocks)
+        bl = [int(b) for b in (blocks[:maxb] if maxb else blocks)]
+        nm_all = build_novel_mask(tr['word'][1], va['word'][1], bl, None)
         for s in range(0, len(bl), max(1, args.batch_size)):
-            bidx = [int(b) for b in bl[s:s + args.batch_size]]
-            ids, wid, mask, ll, wids = batch_for(rows_map, bidx)
-            Rw = global_R[wids]
-            hw, wi, pi, si, tw, tp, ts, ri, tr_ = forward_words(ids, wid, mask, ll, wids, Rw,
+            bidx = bl[s:s + args.batch_size]
+            ids, wid, mask, ll, blk = batch_for(rows_map, bidx)
+            hw, wi, pi, si, tw, tp, ts, ri, tr_ = forward_words(ids, wid, mask, ll, blk, split,
                                                                 global_R)
             out = head(hw, ri, torch.zeros_like(ri), wi, pi, si, cond_roots=None,
                        root_embed=root_embed)
             keep = ~torch.isin(tr_, spec_t.to(tr_.device))
             pred = out['root_logits'].argmax(-1)
-            nov = novel_mask[torch.tensor([list(blocks).index(b) for b in bidx])] \
-                if False else None
+            nov = nm_all[s:s + len(bidx)].to(dev)
             c_all += int(((pred == tr_) & keep).sum()); n_all += int(keep.sum())
-            if nov is not None:
-                c_nov += int(((pred == tr_) & keep & nov.to(dev)).sum())
-                n_nov += int((keep & nov.to(dev)).sum())
+            c_nov += int(((pred == tr_) & keep & nov).sum())
+            n_nov += int((keep & nov).sum())
             for lg, tg, ig, nm in ((out['wazn_logits'], tw, vocab.PAD_WAZN, 'wazn'),
                                    (out['prefix_logits'], tp, vocab.PAD_PREFIX, 'prefix'),
                                    (out['suffix_logits'], ts, vocab.PAD_SUFFIX, 'suffix')):
@@ -957,12 +1173,9 @@ def run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params, root_
         t0 = time.time()
         for step in range(1, args.bench + 1):
             bidx = rng.integers(0, nb_tr, size=min(args.batch_size, nb_tr))
-            ids, wid, mask, ll, wids = batch_for(rows_tr_by_b, [int(tr_blocks[i]) for i in bidx])
-            Rw = tr['word'][1][wids]
-            if rca_stack is not None:
-                Rtok = tr['word'][1][torch.tensor(wids)].to(dev).gather(1, wid.to(dev))
-                rca_stack.set_root_ids(Rtok)
-            hw, wi, pi, si, tw, tp, ts, ri, tr_ = forward_words(ids, wid, mask, ll, wids, Rw,
+            ids, wid, mask, ll, blk = batch_for(rows_tr_by_b,
+                                                [int(tr_blocks[i]) for i in bidx])
+            hw, wi, pi, si, tw, tp, ts, ri, tr_ = forward_words(ids, wid, mask, ll, blk, tr,
                                                                 tr['word'][1])
             loss, info = compute(hw, ri, wi, pi, si, tr_, tw, tp, ts, margin=margin_at(step))
             opt.zero_grad(set_to_none=True); loss.backward()
@@ -981,12 +1194,8 @@ def run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params, root_
     for step in range(1, args.steps + 1):
         bidx = rng.integers(0, nb_tr, size=min(args.batch_size, nb_tr))
         bs = [int(tr_blocks[i]) for i in bidx]
-        ids, wid, mask, ll, wids = batch_for(rows_tr_by_b, bs)
-        Rw = tr['word'][1][wids]
-        if rca_stack is not None:
-            Rtok = tr['word'][1][torch.tensor(wids)].to(dev).gather(1, wid.to(dev))
-            rca_stack.set_root_ids(Rtok)
-        hw, wi, pi, si, tw, tp, ts, ri, tr_ = forward_words(ids, wid, mask, ll, wids, Rw,
+        ids, wid, mask, ll, blk = batch_for(rows_tr_by_b, bs)
+        hw, wi, pi, si, tw, tp, ts, ri, tr_ = forward_words(ids, wid, mask, ll, blk, tr,
                                                             tr['word'][1])
         loss, info = compute(hw, ri, wi, pi, si, tr_, tw, tp, ts, margin=margin_at(step))
         opt.zero_grad(set_to_none=True)
@@ -1008,14 +1217,15 @@ def run_live_suite(args, dev, T0, log, model, head, rca_stack, rca_params, root_
             RES['history'].append({'step': step, 'loss': float(loss), **info, 'gnorm': gn,
                                    'gates': g})
         if args.eval_every and (step % args.eval_every == 0 or step == args.steps):
-            ev = evaluate_live(va_blocks, rows_va_by_b, va['word'][1], maxb=args.val_windows)
+            ev = evaluate_live(va_blocks, rows_va_by_b, va['word'][1], va,
+                               maxb=args.val_windows)
             log(f'  EVAL step {step}: root acc@1 ALL {ev["root_acc_all_pct"]:.2f}% '
                 f'NOVEL {ev["root_acc_novel_pct"]:.2f}% (n={ev["n_all"]}/{ev["n_novel"]}) '
                 f'wazn {ev["wazn_acc_pct"]:.2f}% pref {ev["prefix_acc_pct"]:.2f}% '
                 f'suff {ev["suffix_acc_pct"]:.2f}%')
             RES['arms'][f'step{step}'] = ev
             if rca_stack is not None and args.rca_ablate_eval:
-                ev2 = evaluate_live(va_blocks, rows_va_by_b, va['word'][1], ablate=True,
+                ev2 = evaluate_live(va_blocks, rows_va_by_b, va['word'][1], va, ablate=True,
                                     maxb=args.val_windows)
                 log(f'  EVAL step {step} GATE-OFF: root acc@1 ALL {ev2["root_acc_all_pct"]:.2f}% '
                     f'NOVEL {ev2["root_acc_novel_pct"]:.2f}%')

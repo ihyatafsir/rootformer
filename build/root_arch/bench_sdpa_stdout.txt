@@ -1,0 +1,112 @@
+[*] PREFLIGHT root count OK: roots=9490 awzan=142
+[Rootformer v13] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v13] Instantiating backbone with IshtiqaqAttention in the LIVE root space (roots=9490, awzan=142)...
+[Rootformer v13] token->root table: 9197 <root_X> tokens -> 9197 distinct live root ids (injective=True, max=9489)
+[Rootformer v13] token->wazn table: 137 <wazn_X> tokens -> 137 distinct live wazn ids
+[Rootformer v13] Initialized! layers=24 vocab=10052 roots=9490 awzan=142 on cuda. [OK]
+    detached 3 forward hooks
+[*] flash hooks DETACHED: 3 hooks cleared (0d decision)
+[*] checkpoint loaded: dropped 48 stale-SPACE self_attn tables; missing=67 (0 unexpected-missing) unexpected=8
+[*] VRAM free 16.37 / 31.37 GB  (a resident arm holds the rest; budget for it)
+
+============================================================================================
+BENCH: eager vs sdpa vs sdpa+root -- fwd+bwd, identical weights, T=128 (trainer) and T=512
+============================================================================================
+  ckpt=0 T=128 eager      B= 4    3.88 it/s     257.8 ms  peak   2.05 GB (free before 16.37 GB)
+  ckpt=0 T=128 eager      B= 8    8.11 it/s     123.2 ms  peak   3.06 GB (free before 15.25 GB)
+  ckpt=0 T=128 eager      B=16    7.05 it/s     141.8 ms  peak   5.06 GB (free before 15.08 GB)
+  ckpt=0 T=128 eager      B=32    4.38 it/s     228.1 ms  peak   9.08 GB (free before 14.83 GB)
+  ckpt=0 T=128 eager      B=64  SKIP (need ~20.0 GB, free 14.23 GB)
+  ckpt=0 T=128 sdpa       B= 4    8.46 it/s     118.2 ms  peak   1.93 GB (free before 14.23 GB)
+  ckpt=0 T=128 sdpa       B= 8    9.57 it/s     104.5 ms  peak   2.81 GB (free before 15.32 GB)
+  ckpt=0 T=128 sdpa       B=16    8.93 it/s     111.9 ms  peak   4.58 GB (free before 15.12 GB)
+  ckpt=0 T=128 sdpa       B=32    5.34 it/s     187.3 ms  peak   8.10 GB (free before 15.07 GB)
+  ckpt=0 T=128 sdpa       B=64  SKIP (need ~17.8 GB, free 14.51 GB)
+/workspace/root_arch/sdpa_attention.py:274: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  if self._uses_root_path and float(self.pillar_gate) != 0.0:
+  ckpt=0 T=128 sdpa+root  B= 4    1.35 it/s     738.3 ms  peak   2.14 GB (free before 14.51 GB)
+  ckpt=0 T=128 sdpa+root  B= 8    2.27 it/s     440.2 ms  peak   3.21 GB (free before 15.14 GB)
+  ckpt=0 T=128 sdpa+root  B=16    4.86 it/s     205.9 ms  peak   5.36 GB (free before 14.96 GB)
+  ckpt=0 T=128 sdpa+root  B=32    3.91 it/s     255.8 ms  peak   9.66 GB (free before 14.79 GB)
+  ckpt=0 T=128 sdpa+root  B=64  SKIP (need ~21.2 GB, free 14.00 GB)
+  ckpt=0 T=512 eager      B= 2    7.67 it/s     130.4 ms  peak   4.06 GB (free before 14.00 GB)
+  ckpt=0 T=512 eager      B= 4    5.58 it/s     179.1 ms  peak   7.04 GB (free before 14.75 GB)
+  ckpt=0 T=512 eager      B= 8  SKIP (need ~15.5 GB, free 14.79 GB)
+  ckpt=0 T=512 eager      B=16  SKIP (need ~15.5 GB, free 14.79 GB)
+  ckpt=0 T=512 sdpa       B= 2    6.16 it/s     162.4 ms  peak   2.82 GB (free before 14.79 GB)
+  ckpt=0 T=512 sdpa       B= 4    6.89 it/s     145.1 ms  peak   4.59 GB (free before 15.10 GB)
+  ckpt=0 T=512 sdpa       B= 8    4.85 it/s     206.1 ms  peak   8.12 GB (free before 15.00 GB)
+  ckpt=0 T=512 sdpa       B=16  SKIP (need ~17.9 GB, free 14.48 GB)
+  ckpt=0 T=512 sdpa+root  B= 2    5.98 it/s     167.3 ms  peak   4.07 GB (free before 14.48 GB)
+  ckpt=0 T=512 sdpa+root  B= 4    4.41 it/s     226.7 ms  peak   7.07 GB (free before 14.95 GB)
+  ckpt=0 T=512 sdpa+root  B= 8  SKIP (need ~15.6 GB, free 14.48 GB)
+  ckpt=0 T=512 sdpa+root  B=16  SKIP (need ~15.6 GB, free 14.48 GB)
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  ckpt=1 T=128 eager      B= 4    5.12 it/s     195.5 ms  peak   1.75 GB (free before 14.48 GB)
+  ckpt=1 T=128 eager      B= 8    1.32 it/s     758.0 ms  peak   1.80 GB (free before 15.48 GB)
+  ckpt=1 T=128 eager      B=16    1.11 it/s     903.1 ms  peak   1.90 GB (free before 15.49 GB)
+  ckpt=1 T=128 eager      B=32    3.83 it/s     261.3 ms  peak   2.11 GB (free before 15.45 GB)
+  ckpt=1 T=128 eager      B=64    2.02 it/s     495.0 ms  peak   2.53 GB (free before 15.38 GB)
+  ckpt=1 T=128 sdpa       B= 4    4.52 it/s     221.4 ms  peak   1.74 GB (free before 15.32 GB)
+  ckpt=1 T=128 sdpa       B= 8    5.11 it/s     195.8 ms  peak   1.79 GB (free before 15.55 GB)
+  ckpt=1 T=128 sdpa       B=16    4.70 it/s     213.0 ms  peak   1.88 GB (free before 15.54 GB)
+  ckpt=1 T=128 sdpa       B=32    3.82 it/s     261.7 ms  peak   2.07 GB (free before 15.48 GB)
+  ckpt=1 T=128 sdpa       B=64    2.08 it/s     480.8 ms  peak   2.45 GB (free before 15.38 GB)
+  ckpt=1 T=128 sdpa+root  B= 4    3.75 it/s     266.3 ms  peak   1.79 GB (free before 15.29 GB)
+  ckpt=1 T=128 sdpa+root  B= 8    3.09 it/s     323.5 ms  peak   1.85 GB (free before 15.51 GB)
+  ckpt=1 T=128 sdpa+root  B=16    3.33 it/s     300.0 ms  peak   1.96 GB (free before 15.47 GB)
+  ckpt=1 T=128 sdpa+root  B=32    2.69 it/s     371.4 ms  peak   2.18 GB (free before 15.44 GB)
+  ckpt=1 T=128 sdpa+root  B=64    1.47 it/s     680.0 ms  peak   2.62 GB (free before 15.29 GB)
+  ckpt=1 T=512 eager      B= 2    3.98 it/s     251.1 ms  peak   1.86 GB (free before 15.27 GB)
+  ckpt=1 T=512 eager      B= 4    4.34 it/s     230.6 ms  peak   2.01 GB (free before 15.47 GB)
+  ckpt=1 T=512 eager      B= 8    2.50 it/s     400.7 ms  peak   2.31 GB (free before 15.50 GB)
+  ckpt=1 T=512 eager      B=16    1.30 it/s     772.1 ms  peak   2.91 GB (free before 15.32 GB)
+  ckpt=1 T=512 sdpa       B= 2    5.14 it/s     194.5 ms  peak   1.79 GB (free before 15.30 GB)
+  ckpt=1 T=512 sdpa       B= 4    4.52 it/s     221.2 ms  peak   1.88 GB (free before 15.52 GB)
+  ckpt=1 T=512 sdpa       B= 8    3.43 it/s     291.2 ms  peak   2.07 GB (free before 15.52 GB)
+  ckpt=1 T=512 sdpa       B=16    1.92 it/s     520.6 ms  peak   2.45 GB (free before 15.38 GB)
+  ckpt=1 T=512 sdpa+root  B= 2    3.33 it/s     300.3 ms  peak   1.90 GB (free before 15.34 GB)
+  ckpt=1 T=512 sdpa+root  B= 4    2.91 it/s     343.6 ms  peak   2.05 GB (free before 15.44 GB)
+  ckpt=1 T=512 sdpa+root  B= 8    1.97 it/s     508.8 ms  peak   2.35 GB (free before 15.34 GB)
+  ckpt=1 T=512 sdpa+root  B=16    0.95 it/s    1049.9 ms  peak   2.95 GB (free before 15.28 GB)
+
+wrote /workspace/root_arch/bench_sdpa.json
+
+============================================================================================
+SUMMARY  (it/s @ peak GB, or OOM)
+============================================================================================
+  gradient checkpointing OFF   T=128
+    B= 4  eager=3.88it/s@2.1G  sdpa=8.46it/s@1.9G  sdpa+root=1.35it/s@2.1G
+    B= 8  eager=8.11it/s@3.1G  sdpa=9.57it/s@2.8G  sdpa+root=2.27it/s@3.2G
+    B=16  eager=7.05it/s@5.1G  sdpa=8.93it/s@4.6G  sdpa+root=4.86it/s@5.4G
+    B=32  eager=4.38it/s@9.1G  sdpa=5.34it/s@8.1G  sdpa+root=3.91it/s@9.7G
+    B=64  eager=skip  sdpa=skip  sdpa+root=skip
+    max batch eager      = 32  (4.38 it/s, peak 9.08 GB)
+    max batch sdpa       = 32  (5.34 it/s, peak 8.10 GB)
+    max batch sdpa+root  = 32  (3.91 it/s, peak 9.66 GB)
+  gradient checkpointing OFF   T=512
+    B= 2  eager=7.67it/s@4.1G  sdpa=6.16it/s@2.8G  sdpa+root=5.98it/s@4.1G
+    B= 4  eager=5.58it/s@7.0G  sdpa=6.89it/s@4.6G  sdpa+root=4.41it/s@7.1G
+    B= 8  eager=skip  sdpa=4.85it/s@8.1G  sdpa+root=skip
+    B=16  eager=skip  sdpa=skip  sdpa+root=skip
+    max batch eager      =  4  (5.58 it/s, peak 7.04 GB)
+    max batch sdpa       =  8  (4.85 it/s, peak 8.12 GB)
+    max batch sdpa+root  =  4  (4.41 it/s, peak 7.07 GB)
+  gradient checkpointing ON    T=128
+    B= 4  eager=5.12it/s@1.7G  sdpa=4.52it/s@1.7G  sdpa+root=3.75it/s@1.8G
+    B= 8  eager=1.32it/s@1.8G  sdpa=5.11it/s@1.8G  sdpa+root=3.09it/s@1.8G
+    B=16  eager=1.11it/s@1.9G  sdpa=4.70it/s@1.9G  sdpa+root=3.33it/s@2.0G
+    B=32  eager=3.83it/s@2.1G  sdpa=3.82it/s@2.1G  sdpa+root=2.69it/s@2.2G
+    B=64  eager=2.02it/s@2.5G  sdpa=2.08it/s@2.4G  sdpa+root=1.47it/s@2.6G
+    max batch eager      = 64  (2.02 it/s, peak 2.53 GB)
+    max batch sdpa       = 64  (2.08 it/s, peak 2.45 GB)
+    max batch sdpa+root  = 64  (1.47 it/s, peak 2.62 GB)
+  gradient checkpointing ON    T=512
+    B= 2  eager=3.98it/s@1.9G  sdpa=5.14it/s@1.8G  sdpa+root=3.33it/s@1.9G
+    B= 4  eager=4.34it/s@2.0G  sdpa=4.52it/s@1.9G  sdpa+root=2.91it/s@2.1G
+    B= 8  eager=2.50it/s@2.3G  sdpa=3.43it/s@2.1G  sdpa+root=1.97it/s@2.4G
+    B=16  eager=1.30it/s@2.9G  sdpa=1.92it/s@2.5G  sdpa+root=0.95it/s@2.9G
+    max batch eager      = 16  (1.30 it/s, peak 2.91 GB)
+    max batch sdpa       = 16  (1.92 it/s, peak 2.45 GB)
+    max batch sdpa+root  = 16  (0.95 it/s, peak 2.95 GB)

@@ -1,0 +1,923 @@
+
+==============================================================================
+0. BUILD THE LIVE MODEL (exactly as nrmt_train.py does)
+==============================================================================
+[Rootformer v12] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v12] Instantiating 24-layer backbone with IshtiqaqAttention...
+[Rootformer v12] Initialized! Total Layers: 24 | Vocab: 10052 on cpu. [OK]
+checkpoint: rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors
+  keys in file        : 568
+  missing             : 18  (nrmt_head new=18, OTHER=0)
+  unexpected          : 8
+  unexpected keys (in file, not in model): ['nrmp_head.cond_proj.0.bias', 'nrmp_head.cond_proj.0.weight', 'nrmp_head.cond_proj.2.bias', 'nrmp_head.cond_proj.2.weight', 'nrmp_head.prefix_head.weight', 'nrmp_head.root_head.weight', 'nrmp_head.suffix_head.weight', 'nrmp_head.wazn_head.weight']
+live vocab: num_roots=9490 num_awzan=142 num_prefixes=26 num_suffixes=22 vocab_size=10052
+
+==============================================================================
+1. CONSTANTS vs THE LIVE VOCAB
+==============================================================================
+  [OK ] base.vocab_size                                      got=   10052 want=   10052 
+  [OK ] backbone.embed_tokens rows                           got=   10052 want=   10052 
+  [OK ] morphemic_embed.root_embed rows                      got=    9490 want=    9490 
+  [OK ] morphemic_embed.wazn_embed rows                      got=     142 want=     142 
+  [OK ] nrmt_head.root_head out                              got=    9490 want=    9490 
+  [OK ] nrmt_head.wazn_head out                              got=     142 want=     142 
+  [OK ] nrmt_head.hist_emb[0] rows                           got=    9490 want=    9490 
+  [FAIL] self_attn.root_embed rows  (L24)                     got=    9015 want=    9490 <== STALE SPACE
+  [FAIL] self_attn.wazn_embed rows  (L24)                     got=     128 want=     142 <== STALE SPACE
+  [OK ] base.metadata_mask numel                             got=   10052 want=   10052 
+  [OK ] base.id_to_root_table numel                          got=   10052 want=   10052 
+
+==============================================================================
+2. MODULE REACH (forward hooks, not grep)
+==============================================================================
+  self_attn call counts : [1] over 24 layers (24 expected)
+  mlp call counts       : [1] over 24 layers
+  reached: backbone                                                 1x
+  reached: backbone.layers.0                                        1x
+  reached: backbone.layers.0.input_layernorm                        1x
+  reached: backbone.layers.0.mlp.act_fn                             1x
+  reached: backbone.layers.0.mlp.down_proj                          1x
+  reached: backbone.layers.0.mlp.gate_proj                          1x
+  reached: backbone.layers.0.mlp.up_proj                            1x
+  reached: backbone.layers.0.post_attention_layernorm               1x
+  reached: backbone.layers.0.self_attn.dropout                      1x
+  reached: backbone.layers.0.self_attn.k_norm                       1x
+  reached: backbone.layers.0.self_attn.k_proj                       1x
+  reached: backbone.layers.0.self_attn.o_proj                       1x
+  reached: backbone.layers.0.self_attn.q_norm                       1x
+  reached: backbone.layers.0.self_attn.q_proj                       1x
+  reached: backbone.layers.0.self_attn.v_proj                       1x
+  reached: backbone.layers.1                                        1x
+  reached: backbone.layers.1.input_layernorm                        1x
+  reached: backbone.layers.1.mlp.act_fn                             1x
+  reached: backbone.layers.1.mlp.down_proj                          1x
+  reached: backbone.layers.1.mlp.gate_proj                          1x
+  reached: backbone.layers.1.mlp.up_proj                            1x
+  reached: backbone.layers.1.post_attention_layernorm               1x
+  reached: backbone.layers.1.self_attn.dropout                      1x
+  reached: backbone.layers.1.self_attn.k_norm                       1x
+  reached: backbone.layers.1.self_attn.k_proj                       1x
+  reached: backbone.layers.1.self_attn.o_proj                       1x
+  reached: backbone.layers.1.self_attn.q_norm                       1x
+  reached: backbone.layers.1.self_attn.q_proj                       1x
+  reached: backbone.layers.1.self_attn.v_proj                       1x
+  reached: backbone.layers.10                                       1x
+  reached: backbone.layers.10.input_layernorm                       1x
+  reached: backbone.layers.10.mlp.act_fn                            1x
+  reached: backbone.layers.10.mlp.down_proj                         1x
+  reached: backbone.layers.10.mlp.gate_proj                         1x
+  reached: backbone.layers.10.mlp.up_proj                           1x
+  reached: backbone.layers.10.post_attention_layernorm              1x
+  reached: backbone.layers.10.self_attn.dropout                     1x
+  reached: backbone.layers.10.self_attn.k_norm                      1x
+  reached: backbone.layers.10.self_attn.k_proj                      1x
+  reached: backbone.layers.10.self_attn.o_proj                      1x
+  reached: backbone.layers.10.self_attn.q_norm                      1x
+  reached: backbone.layers.10.self_attn.q_proj                      1x
+  reached: backbone.layers.10.self_attn.v_proj                      1x
+  reached: backbone.layers.11                                       1x
+  reached: backbone.layers.11.input_layernorm                       1x
+  reached: backbone.layers.11.mlp.act_fn                            1x
+  reached: backbone.layers.11.mlp.down_proj                         1x
+  reached: backbone.layers.11.mlp.gate_proj                         1x
+  reached: backbone.layers.11.mlp.up_proj                           1x
+  reached: backbone.layers.11.post_attention_layernorm              1x
+  reached: backbone.layers.11.self_attn.dropout                     1x
+  reached: backbone.layers.11.self_attn.k_norm                      1x
+  reached: backbone.layers.11.self_attn.k_proj                      1x
+  reached: backbone.layers.11.self_attn.o_proj                      1x
+  reached: backbone.layers.11.self_attn.q_norm                      1x
+  reached: backbone.layers.11.self_attn.q_proj                      1x
+  reached: backbone.layers.11.self_attn.v_proj                      1x
+  reached: backbone.layers.12                                       1x
+  reached: backbone.layers.12.input_layernorm                       1x
+  reached: backbone.layers.12.mlp.act_fn                            1x
+  reached: backbone.layers.12.mlp.down_proj                         1x
+  reached: backbone.layers.12.mlp.gate_proj                         1x
+  reached: backbone.layers.12.mlp.up_proj                           1x
+  reached: backbone.layers.12.post_attention_layernorm              1x
+  reached: backbone.layers.12.self_attn.dropout                     1x
+  reached: backbone.layers.12.self_attn.k_norm                      1x
+  reached: backbone.layers.12.self_attn.k_proj                      1x
+  reached: backbone.layers.12.self_attn.o_proj                      1x
+  reached: backbone.layers.12.self_attn.q_norm                      1x
+  reached: backbone.layers.12.self_attn.q_proj                      1x
+  reached: backbone.layers.12.self_attn.v_proj                      1x
+  reached: backbone.layers.13                                       1x
+  reached: backbone.layers.13.input_layernorm                       1x
+  reached: backbone.layers.13.mlp.act_fn                            1x
+  reached: backbone.layers.13.mlp.down_proj                         1x
+  reached: backbone.layers.13.mlp.gate_proj                         1x
+  reached: backbone.layers.13.mlp.up_proj                           1x
+  reached: backbone.layers.13.post_attention_layernorm              1x
+  reached: backbone.layers.13.self_attn.dropout                     1x
+  reached: backbone.layers.13.self_attn.k_norm                      1x
+  reached: backbone.layers.13.self_attn.k_proj                      1x
+  reached: backbone.layers.13.self_attn.o_proj                      1x
+  reached: backbone.layers.13.self_attn.q_norm                      1x
+  reached: backbone.layers.13.self_attn.q_proj                      1x
+  reached: backbone.layers.13.self_attn.v_proj                      1x
+  reached: backbone.layers.14                                       1x
+  reached: backbone.layers.14.input_layernorm                       1x
+  reached: backbone.layers.14.mlp.act_fn                            1x
+  reached: backbone.layers.14.mlp.down_proj                         1x
+  reached: backbone.layers.14.mlp.gate_proj                         1x
+  reached: backbone.layers.14.mlp.up_proj                           1x
+  reached: backbone.layers.14.post_attention_layernorm              1x
+  reached: backbone.layers.14.self_attn.dropout                     1x
+  reached: backbone.layers.14.self_attn.k_norm                      1x
+  reached: backbone.layers.14.self_attn.k_proj                      1x
+  reached: backbone.layers.14.self_attn.o_proj                      1x
+  reached: backbone.layers.14.self_attn.q_norm                      1x
+  reached: backbone.layers.14.self_attn.q_proj                      1x
+  reached: backbone.layers.14.self_attn.v_proj                      1x
+  reached: backbone.layers.15                                       1x
+  reached: backbone.layers.15.input_layernorm                       1x
+  reached: backbone.layers.15.mlp.act_fn                            1x
+  reached: backbone.layers.15.mlp.down_proj                         1x
+  reached: backbone.layers.15.mlp.gate_proj                         1x
+  reached: backbone.layers.15.mlp.up_proj                           1x
+  reached: backbone.layers.15.post_attention_layernorm              1x
+  reached: backbone.layers.15.self_attn.dropout                     1x
+  reached: backbone.layers.15.self_attn.k_norm                      1x
+  reached: backbone.layers.15.self_attn.k_proj                      1x
+  reached: backbone.layers.15.self_attn.o_proj                      1x
+  reached: backbone.layers.15.self_attn.q_norm                      1x
+  reached: backbone.layers.15.self_attn.q_proj                      1x
+  reached: backbone.layers.15.self_attn.v_proj                      1x
+  reached: backbone.layers.16                                       1x
+  reached: backbone.layers.16.input_layernorm                       1x
+  reached: backbone.layers.16.mlp.act_fn                            1x
+  reached: backbone.layers.16.mlp.down_proj                         1x
+  reached: backbone.layers.16.mlp.gate_proj                         1x
+  reached: backbone.layers.16.mlp.up_proj                           1x
+  reached: backbone.layers.16.post_attention_layernorm              1x
+  reached: backbone.layers.16.self_attn.dropout                     1x
+  reached: backbone.layers.16.self_attn.k_norm                      1x
+  reached: backbone.layers.16.self_attn.k_proj                      1x
+  reached: backbone.layers.16.self_attn.o_proj                      1x
+  reached: backbone.layers.16.self_attn.q_norm                      1x
+  reached: backbone.layers.16.self_attn.q_proj                      1x
+  reached: backbone.layers.16.self_attn.v_proj                      1x
+  reached: backbone.layers.17                                       1x
+  reached: backbone.layers.17.input_layernorm                       1x
+  reached: backbone.layers.17.mlp.act_fn                            1x
+  reached: backbone.layers.17.mlp.down_proj                         1x
+  reached: backbone.layers.17.mlp.gate_proj                         1x
+  reached: backbone.layers.17.mlp.up_proj                           1x
+  reached: backbone.layers.17.post_attention_layernorm              1x
+  reached: backbone.layers.17.self_attn.dropout                     1x
+  reached: backbone.layers.17.self_attn.k_norm                      1x
+  reached: backbone.layers.17.self_attn.k_proj                      1x
+  reached: backbone.layers.17.self_attn.o_proj                      1x
+  reached: backbone.layers.17.self_attn.q_norm                      1x
+  reached: backbone.layers.17.self_attn.q_proj                      1x
+  reached: backbone.layers.17.self_attn.v_proj                      1x
+  reached: backbone.layers.18                                       1x
+  reached: backbone.layers.18.input_layernorm                       1x
+  reached: backbone.layers.18.mlp.act_fn                            1x
+  reached: backbone.layers.18.mlp.down_proj                         1x
+  reached: backbone.layers.18.mlp.gate_proj                         1x
+  reached: backbone.layers.18.mlp.up_proj                           1x
+  reached: backbone.layers.18.post_attention_layernorm              1x
+  reached: backbone.layers.18.self_attn.dropout                     1x
+  reached: backbone.layers.18.self_attn.k_norm                      1x
+  reached: backbone.layers.18.self_attn.k_proj                      1x
+  reached: backbone.layers.18.self_attn.o_proj                      1x
+  reached: backbone.layers.18.self_attn.q_norm                      1x
+  reached: backbone.layers.18.self_attn.q_proj                      1x
+  reached: backbone.layers.18.self_attn.v_proj                      1x
+  reached: backbone.layers.19                                       1x
+  reached: backbone.layers.19.input_layernorm                       1x
+  reached: backbone.layers.19.mlp.act_fn                            1x
+  reached: backbone.layers.19.mlp.down_proj                         1x
+  reached: backbone.layers.19.mlp.gate_proj                         1x
+  reached: backbone.layers.19.mlp.up_proj                           1x
+  reached: backbone.layers.19.post_attention_layernorm              1x
+  reached: backbone.layers.19.self_attn.dropout                     1x
+  reached: backbone.layers.19.self_attn.k_norm                      1x
+  reached: backbone.layers.19.self_attn.k_proj                      1x
+  reached: backbone.layers.19.self_attn.o_proj                      1x
+  reached: backbone.layers.19.self_attn.q_norm                      1x
+  reached: backbone.layers.19.self_attn.q_proj                      1x
+  reached: backbone.layers.19.self_attn.v_proj                      1x
+  reached: backbone.layers.2                                        1x
+  reached: backbone.layers.2.input_layernorm                        1x
+  reached: backbone.layers.2.mlp.act_fn                             1x
+  reached: backbone.layers.2.mlp.down_proj                          1x
+  reached: backbone.layers.2.mlp.gate_proj                          1x
+  reached: backbone.layers.2.mlp.up_proj                            1x
+  reached: backbone.layers.2.post_attention_layernorm               1x
+  reached: backbone.layers.2.self_attn.dropout                      1x
+  reached: backbone.layers.2.self_attn.k_norm                       1x
+  reached: backbone.layers.2.self_attn.k_proj                       1x
+  reached: backbone.layers.2.self_attn.o_proj                       1x
+  reached: backbone.layers.2.self_attn.q_norm                       1x
+  reached: backbone.layers.2.self_attn.q_proj                       1x
+  reached: backbone.layers.2.self_attn.v_proj                       1x
+  reached: backbone.layers.20                                       1x
+  reached: backbone.layers.20.input_layernorm                       1x
+  reached: backbone.layers.20.mlp.act_fn                            1x
+  reached: backbone.layers.20.mlp.down_proj                         1x
+  reached: backbone.layers.20.mlp.gate_proj                         1x
+  reached: backbone.layers.20.mlp.up_proj                           1x
+  reached: backbone.layers.20.post_attention_layernorm              1x
+  reached: backbone.layers.20.self_attn.dropout                     1x
+  reached: backbone.layers.20.self_attn.k_norm                      1x
+  reached: backbone.layers.20.self_attn.k_proj                      1x
+  reached: backbone.layers.20.self_attn.o_proj                      1x
+  reached: backbone.layers.20.self_attn.q_norm                      1x
+  reached: backbone.layers.20.self_attn.q_proj                      1x
+  reached: backbone.layers.20.self_attn.v_proj                      1x
+  reached: backbone.layers.21                                       1x
+  reached: backbone.layers.21.input_layernorm                       1x
+  reached: backbone.layers.21.mlp.act_fn                            1x
+  reached: backbone.layers.21.mlp.down_proj                         1x
+  reached: backbone.layers.21.mlp.gate_proj                         1x
+  reached: backbone.layers.21.mlp.up_proj                           1x
+  reached: backbone.layers.21.post_attention_layernorm              1x
+  reached: backbone.layers.21.self_attn.dropout                     1x
+  reached: backbone.layers.21.self_attn.k_norm                      1x
+  reached: backbone.layers.21.self_attn.k_proj                      1x
+  reached: backbone.layers.21.self_attn.o_proj                      1x
+  reached: backbone.layers.21.self_attn.q_norm                      1x
+  reached: backbone.layers.21.self_attn.q_proj                      1x
+  reached: backbone.layers.21.self_attn.v_proj                      1x
+  reached: backbone.layers.22                                       1x
+  reached: backbone.layers.22.input_layernorm                       1x
+  reached: backbone.layers.22.mlp.act_fn                            1x
+  reached: backbone.layers.22.mlp.down_proj                         1x
+  reached: backbone.layers.22.mlp.gate_proj                         1x
+  reached: backbone.layers.22.mlp.up_proj                           1x
+  reached: backbone.layers.22.post_attention_layernorm              1x
+  reached: backbone.layers.22.self_attn.dropout                     1x
+  reached: backbone.layers.22.self_attn.k_norm                      1x
+  reached: backbone.layers.22.self_attn.k_proj                      1x
+  reached: backbone.layers.22.self_attn.o_proj                      1x
+  reached: backbone.layers.22.self_attn.q_norm                      1x
+  reached: backbone.layers.22.self_attn.q_proj                      1x
+  reached: backbone.layers.22.self_attn.v_proj                      1x
+  reached: backbone.layers.23                                       1x
+  reached: backbone.layers.23.input_layernorm                       1x
+  reached: backbone.layers.23.mlp.act_fn                            1x
+  reached: backbone.layers.23.mlp.down_proj                         1x
+  reached: backbone.layers.23.mlp.gate_proj                         1x
+  reached: backbone.layers.23.mlp.up_proj                           1x
+  reached: backbone.layers.23.post_attention_layernorm              1x
+  reached: backbone.layers.23.self_attn.dropout                     1x
+  reached: backbone.layers.23.self_attn.k_norm                      1x
+  reached: backbone.layers.23.self_attn.k_proj                      1x
+  reached: backbone.layers.23.self_attn.o_proj                      1x
+  reached: backbone.layers.23.self_attn.q_norm                      1x
+  reached: backbone.layers.23.self_attn.q_proj                      1x
+  reached: backbone.layers.23.self_attn.v_proj                      1x
+  reached: backbone.layers.3                                        1x
+  reached: backbone.layers.3.input_layernorm                        1x
+  reached: backbone.layers.3.mlp.act_fn                             1x
+  reached: backbone.layers.3.mlp.down_proj                          1x
+  reached: backbone.layers.3.mlp.gate_proj                          1x
+  reached: backbone.layers.3.mlp.up_proj                            1x
+  reached: backbone.layers.3.post_attention_layernorm               1x
+  reached: backbone.layers.3.self_attn.dropout                      1x
+  reached: backbone.layers.3.self_attn.k_norm                       1x
+  reached: backbone.layers.3.self_attn.k_proj                       1x
+  reached: backbone.layers.3.self_attn.o_proj                       1x
+  reached: backbone.layers.3.self_attn.q_norm                       1x
+  reached: backbone.layers.3.self_attn.q_proj                       1x
+  reached: backbone.layers.3.self_attn.v_proj                       1x
+  reached: backbone.layers.4                                        1x
+  reached: backbone.layers.4.input_layernorm                        1x
+  reached: backbone.layers.4.mlp.act_fn                             1x
+  reached: backbone.layers.4.mlp.down_proj                          1x
+  reached: backbone.layers.4.mlp.gate_proj                          1x
+  reached: backbone.layers.4.mlp.up_proj                            1x
+  reached: backbone.layers.4.post_attention_layernorm               1x
+  reached: backbone.layers.4.self_attn.dropout                      1x
+  reached: backbone.layers.4.self_attn.k_norm                       1x
+  reached: backbone.layers.4.self_attn.k_proj                       1x
+  reached: backbone.layers.4.self_attn.o_proj                       1x
+  reached: backbone.layers.4.self_attn.q_norm                       1x
+  reached: backbone.layers.4.self_attn.q_proj                       1x
+  reached: backbone.layers.4.self_attn.v_proj                       1x
+  reached: backbone.layers.5                                        1x
+  reached: backbone.layers.5.input_layernorm                        1x
+  reached: backbone.layers.5.mlp.act_fn                             1x
+  reached: backbone.layers.5.mlp.down_proj                          1x
+  reached: backbone.layers.5.mlp.gate_proj                          1x
+  reached: backbone.layers.5.mlp.up_proj                            1x
+  reached: backbone.layers.5.post_attention_layernorm               1x
+  reached: backbone.layers.5.self_attn.dropout                      1x
+  reached: backbone.layers.5.self_attn.k_norm                       1x
+  reached: backbone.layers.5.self_attn.k_proj                       1x
+  reached: backbone.layers.5.self_attn.o_proj                       1x
+  reached: backbone.layers.5.self_attn.q_norm                       1x
+  reached: backbone.layers.5.self_attn.q_proj                       1x
+  reached: backbone.layers.5.self_attn.v_proj                       1x
+  reached: backbone.layers.6                                        1x
+  reached: backbone.layers.6.input_layernorm                        1x
+  reached: backbone.layers.6.mlp.act_fn                             1x
+  reached: backbone.layers.6.mlp.down_proj                          1x
+  reached: backbone.layers.6.mlp.gate_proj                          1x
+  reached: backbone.layers.6.mlp.up_proj                            1x
+  reached: backbone.layers.6.post_attention_layernorm               1x
+  reached: backbone.layers.6.self_attn.dropout                      1x
+  reached: backbone.layers.6.self_attn.k_norm                       1x
+  reached: backbone.layers.6.self_attn.k_proj                       1x
+  reached: backbone.layers.6.self_attn.o_proj                       1x
+  reached: backbone.layers.6.self_attn.q_norm                       1x
+  reached: backbone.layers.6.self_attn.q_proj                       1x
+  reached: backbone.layers.6.self_attn.v_proj                       1x
+  reached: backbone.layers.7                                        1x
+  reached: backbone.layers.7.input_layernorm                        1x
+  reached: backbone.layers.7.mlp.act_fn                             1x
+  reached: backbone.layers.7.mlp.down_proj                          1x
+  reached: backbone.layers.7.mlp.gate_proj                          1x
+  reached: backbone.layers.7.mlp.up_proj                            1x
+  reached: backbone.layers.7.post_attention_layernorm               1x
+  reached: backbone.layers.7.self_attn.dropout                      1x
+  reached: backbone.layers.7.self_attn.k_norm                       1x
+  reached: backbone.layers.7.self_attn.k_proj                       1x
+  reached: backbone.layers.7.self_attn.o_proj                       1x
+  reached: backbone.layers.7.self_attn.q_norm                       1x
+  reached: backbone.layers.7.self_attn.q_proj                       1x
+  reached: backbone.layers.7.self_attn.v_proj                       1x
+  reached: backbone.layers.8                                        1x
+  reached: backbone.layers.8.input_layernorm                        1x
+  reached: backbone.layers.8.mlp.act_fn                             1x
+  reached: backbone.layers.8.mlp.down_proj                          1x
+  reached: backbone.layers.8.mlp.gate_proj                          1x
+  reached: backbone.layers.8.mlp.up_proj                            1x
+  reached: backbone.layers.8.post_attention_layernorm               1x
+  reached: backbone.layers.8.self_attn.dropout                      1x
+  reached: backbone.layers.8.self_attn.k_norm                       1x
+  reached: backbone.layers.8.self_attn.k_proj                       1x
+  reached: backbone.layers.8.self_attn.o_proj                       1x
+  reached: backbone.layers.8.self_attn.q_norm                       1x
+  reached: backbone.layers.8.self_attn.q_proj                       1x
+  reached: backbone.layers.8.self_attn.v_proj                       1x
+  reached: backbone.layers.9                                        1x
+  reached: backbone.layers.9.input_layernorm                        1x
+  reached: backbone.layers.9.mlp.act_fn                             1x
+  reached: backbone.layers.9.mlp.down_proj                          1x
+  reached: backbone.layers.9.mlp.gate_proj                          1x
+  reached: backbone.layers.9.mlp.up_proj                            1x
+  reached: backbone.layers.9.post_attention_layernorm               1x
+  reached: backbone.layers.9.self_attn.dropout                      1x
+  reached: backbone.layers.9.self_attn.k_norm                       1x
+  reached: backbone.layers.9.self_attn.k_proj                       1x
+  reached: backbone.layers.9.self_attn.o_proj                       1x
+  reached: backbone.layers.9.self_attn.q_norm                       1x
+  reached: backbone.layers.9.self_attn.q_proj                       1x
+  reached: backbone.layers.9.self_attn.v_proj                       1x
+  reached: backbone.norm                                            1x
+  reached: backbone.rotary_emb                                      1x
+  reached: final_norm                                               1x
+  reached: morphemic_embed                                          1x
+  reached: morphemic_embed.prefix_embed                             1x
+  reached: morphemic_embed.root_embed                               2x
+  reached: morphemic_embed.suffix_embed                             1x
+  reached: morphemic_embed.wazn_embed                               1x
+  reached: nrmt_head                                                1x
+  reached: nrmt_head.cond_proj                                      1x
+  reached: nrmt_head.cond_proj.0                                    1x
+  reached: nrmt_head.cond_proj.1                                    1x
+  reached: nrmt_head.cond_proj.2                                    1x
+  reached: nrmt_head.drop                                           1x
+  reached: nrmt_head.feat_norm                                      1x
+  reached: nrmt_head.feat_proj                                      1x
+  reached: nrmt_head.hist_emb.0                                     1x
+  reached: nrmt_head.hist_emb.1                                     1x
+  reached: nrmt_head.hist_emb.2                                     1x
+  reached: nrmt_head.op_emb                                         1x
+  reached: nrmt_head.prefix_head                                    1x
+  reached: nrmt_head.prev_pref_emb                                  1x
+  reached: nrmt_head.prev_suff_emb                                  1x
+  reached: nrmt_head.prev_wazn_emb                                  1x
+  reached: nrmt_head.root_head                                      1x
+  reached: nrmt_head.suffix_head                                    1x
+  reached: nrmt_head.wazn_head                                      1x
+
+==============================================================================
+3. PARAMETER REACH (.grad after one real backward; per-element when numel<=4)
+==============================================================================
+  parameters with .grad is None (NEVER READ in the forward): 193
+      DEAD: backbone.embed_tokens.weight
+      DEAD: backbone.layers.0.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.0.self_attn.coverage_weight
+      DEAD: backbone.layers.0.self_attn.coverage_threshold
+      DEAD: backbone.layers.0.self_attn.governance_strength
+      DEAD: backbone.layers.0.self_attn.root_embed.weight
+      DEAD: backbone.layers.0.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.0.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.0.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.1.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.1.self_attn.coverage_weight
+      DEAD: backbone.layers.1.self_attn.coverage_threshold
+      DEAD: backbone.layers.1.self_attn.governance_strength
+      DEAD: backbone.layers.1.self_attn.root_embed.weight
+      DEAD: backbone.layers.1.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.1.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.1.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.2.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.2.self_attn.coverage_weight
+      DEAD: backbone.layers.2.self_attn.coverage_threshold
+      DEAD: backbone.layers.2.self_attn.governance_strength
+      DEAD: backbone.layers.2.self_attn.root_embed.weight
+      DEAD: backbone.layers.2.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.2.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.2.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.3.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.3.self_attn.coverage_weight
+      DEAD: backbone.layers.3.self_attn.coverage_threshold
+      DEAD: backbone.layers.3.self_attn.governance_strength
+      DEAD: backbone.layers.3.self_attn.root_embed.weight
+      DEAD: backbone.layers.3.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.3.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.3.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.4.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.4.self_attn.coverage_weight
+      DEAD: backbone.layers.4.self_attn.coverage_threshold
+      DEAD: backbone.layers.4.self_attn.governance_strength
+      DEAD: backbone.layers.4.self_attn.root_embed.weight
+      DEAD: backbone.layers.4.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.4.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.4.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.5.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.5.self_attn.coverage_weight
+      DEAD: backbone.layers.5.self_attn.coverage_threshold
+      DEAD: backbone.layers.5.self_attn.governance_strength
+      DEAD: backbone.layers.5.self_attn.root_embed.weight
+      DEAD: backbone.layers.5.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.5.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.5.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.6.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.6.self_attn.coverage_weight
+      DEAD: backbone.layers.6.self_attn.coverage_threshold
+      DEAD: backbone.layers.6.self_attn.governance_strength
+      DEAD: backbone.layers.6.self_attn.root_embed.weight
+      DEAD: backbone.layers.6.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.6.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.6.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.7.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.7.self_attn.coverage_weight
+      DEAD: backbone.layers.7.self_attn.coverage_threshold
+      DEAD: backbone.layers.7.self_attn.governance_strength
+      DEAD: backbone.layers.7.self_attn.root_embed.weight
+      DEAD: backbone.layers.7.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.7.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.7.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.8.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.8.self_attn.coverage_weight
+      DEAD: backbone.layers.8.self_attn.coverage_threshold
+      DEAD: backbone.layers.8.self_attn.governance_strength
+      DEAD: backbone.layers.8.self_attn.root_embed.weight
+      DEAD: backbone.layers.8.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.8.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.8.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.9.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.9.self_attn.coverage_weight
+      DEAD: backbone.layers.9.self_attn.coverage_threshold
+      DEAD: backbone.layers.9.self_attn.governance_strength
+      DEAD: backbone.layers.9.self_attn.root_embed.weight
+      DEAD: backbone.layers.9.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.9.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.9.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.10.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.10.self_attn.coverage_weight
+      DEAD: backbone.layers.10.self_attn.coverage_threshold
+      DEAD: backbone.layers.10.self_attn.governance_strength
+      DEAD: backbone.layers.10.self_attn.root_embed.weight
+      DEAD: backbone.layers.10.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.10.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.10.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.11.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.11.self_attn.coverage_weight
+      DEAD: backbone.layers.11.self_attn.coverage_threshold
+      DEAD: backbone.layers.11.self_attn.governance_strength
+      DEAD: backbone.layers.11.self_attn.root_embed.weight
+      DEAD: backbone.layers.11.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.11.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.11.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.12.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.12.self_attn.coverage_weight
+      DEAD: backbone.layers.12.self_attn.coverage_threshold
+      DEAD: backbone.layers.12.self_attn.governance_strength
+      DEAD: backbone.layers.12.self_attn.root_embed.weight
+      DEAD: backbone.layers.12.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.12.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.12.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.13.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.13.self_attn.coverage_weight
+      DEAD: backbone.layers.13.self_attn.coverage_threshold
+      DEAD: backbone.layers.13.self_attn.governance_strength
+      DEAD: backbone.layers.13.self_attn.root_embed.weight
+      DEAD: backbone.layers.13.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.13.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.13.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.14.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.14.self_attn.coverage_weight
+      DEAD: backbone.layers.14.self_attn.coverage_threshold
+      DEAD: backbone.layers.14.self_attn.governance_strength
+      DEAD: backbone.layers.14.self_attn.root_embed.weight
+      DEAD: backbone.layers.14.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.14.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.14.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.15.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.15.self_attn.coverage_weight
+      DEAD: backbone.layers.15.self_attn.coverage_threshold
+      DEAD: backbone.layers.15.self_attn.governance_strength
+      DEAD: backbone.layers.15.self_attn.root_embed.weight
+      DEAD: backbone.layers.15.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.15.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.15.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.16.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.16.self_attn.coverage_weight
+      DEAD: backbone.layers.16.self_attn.coverage_threshold
+      DEAD: backbone.layers.16.self_attn.governance_strength
+      DEAD: backbone.layers.16.self_attn.root_embed.weight
+      DEAD: backbone.layers.16.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.16.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.16.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.17.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.17.self_attn.coverage_weight
+      DEAD: backbone.layers.17.self_attn.coverage_threshold
+      DEAD: backbone.layers.17.self_attn.governance_strength
+      DEAD: backbone.layers.17.self_attn.root_embed.weight
+      DEAD: backbone.layers.17.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.17.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.17.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.18.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.18.self_attn.coverage_weight
+      DEAD: backbone.layers.18.self_attn.coverage_threshold
+      DEAD: backbone.layers.18.self_attn.governance_strength
+      DEAD: backbone.layers.18.self_attn.root_embed.weight
+      DEAD: backbone.layers.18.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.18.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.18.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.19.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.19.self_attn.coverage_weight
+      DEAD: backbone.layers.19.self_attn.coverage_threshold
+      DEAD: backbone.layers.19.self_attn.governance_strength
+      DEAD: backbone.layers.19.self_attn.root_embed.weight
+      DEAD: backbone.layers.19.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.19.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.19.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.20.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.20.self_attn.coverage_weight
+      DEAD: backbone.layers.20.self_attn.coverage_threshold
+      DEAD: backbone.layers.20.self_attn.governance_strength
+      DEAD: backbone.layers.20.self_attn.root_embed.weight
+      DEAD: backbone.layers.20.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.20.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.20.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.21.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.21.self_attn.coverage_weight
+      DEAD: backbone.layers.21.self_attn.coverage_threshold
+      DEAD: backbone.layers.21.self_attn.governance_strength
+      DEAD: backbone.layers.21.self_attn.root_embed.weight
+      DEAD: backbone.layers.21.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.21.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.21.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.22.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.22.self_attn.coverage_weight
+      DEAD: backbone.layers.22.self_attn.coverage_threshold
+      DEAD: backbone.layers.22.self_attn.governance_strength
+      DEAD: backbone.layers.22.self_attn.root_embed.weight
+      DEAD: backbone.layers.22.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.22.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.22.self_attn.root_k_proj.weight
+      DEAD: backbone.layers.23.self_attn.ishtiqaq_gamma
+      DEAD: backbone.layers.23.self_attn.coverage_weight
+      DEAD: backbone.layers.23.self_attn.coverage_threshold
+      DEAD: backbone.layers.23.self_attn.governance_strength
+      DEAD: backbone.layers.23.self_attn.root_embed.weight
+      DEAD: backbone.layers.23.self_attn.wazn_embed.weight
+      DEAD: backbone.layers.23.self_attn.root_q_proj.weight
+      DEAD: backbone.layers.23.self_attn.root_k_proj.weight
+  parameters with .grad norm exactly 0: 8
+      ZERO: nrmt_head.hist_emb.0.weight
+      ZERO: nrmt_head.hist_emb.1.weight
+      ZERO: nrmt_head.hist_emb.2.weight
+      ZERO: nrmt_head.op_emb.weight
+      ZERO: nrmt_head.prev_wazn_emb.weight
+      ZERO: nrmt_head.prev_pref_emb.weight
+      ZERO: nrmt_head.prev_suff_emb.weight
+      ZERO: nrmt_head.feat_norm.weight
+  per-element grads of the small tensors:
+      backbone.layers.0.self_attn.stream_mix                       [9.637815310270526e-07, 0.0]
+      backbone.layers.1.self_attn.stream_mix                       [9.204073285218328e-05, 0.0]
+      backbone.layers.10.self_attn.stream_mix                      [0.0031443629413843155, 0.0]
+      backbone.layers.11.self_attn.stream_mix                      [0.000841573579236865, 0.0]
+      backbone.layers.12.self_attn.stream_mix                      [0.0014033184852451086, 0.0]
+      backbone.layers.13.self_attn.stream_mix                      [0.0011247124057263136, 0.0]
+      backbone.layers.14.self_attn.stream_mix                      [0.0001013543878798373, 0.0]
+      backbone.layers.15.self_attn.stream_mix                      [0.0016159635270014405, 0.0]
+      backbone.layers.16.self_attn.stream_mix                      [-0.00045348925050348043, 0.0]
+      backbone.layers.17.self_attn.stream_mix                      [0.001711767166852951, 0.0]
+      backbone.layers.18.self_attn.stream_mix                      [-0.0017173048108816147, 0.0]
+      backbone.layers.19.self_attn.stream_mix                      [-2.407567808404565e-05, 0.0]
+      backbone.layers.2.self_attn.stream_mix                       [-6.722038961015642e-07, 0.0]
+      backbone.layers.20.self_attn.stream_mix                      [0.0008415600168518722, 0.0]
+      backbone.layers.21.self_attn.stream_mix                      [0.007852090522646904, 0.0]
+      backbone.layers.22.self_attn.stream_mix                      [-0.001592978835105896, 0.0]
+      backbone.layers.23.self_attn.stream_mix                      [-0.0015252962475642562, 0.0]
+      backbone.layers.3.self_attn.stream_mix                       [-0.0011898563243448734, 0.0]
+      backbone.layers.4.self_attn.stream_mix                       [-0.0004834538558498025, 0.0]
+      backbone.layers.5.self_attn.stream_mix                       [0.0008287436794489622, 0.0]
+      backbone.layers.6.self_attn.stream_mix                       [0.00011133612133562565, 0.0]
+      backbone.layers.7.self_attn.stream_mix                       [0.0008281111950054765, 0.0]
+      backbone.layers.8.self_attn.stream_mix                       [-0.00032750971149653196, 0.0]
+      backbone.layers.9.self_attn.stream_mix                       [0.00023557494569104165, 0.0]
+
+==============================================================================
+3b. THE TWO SPECIFIC CLAIMS
+==============================================================================
+  after a FULL live forward, every self_attn.active_root_ids is None : True
+     => the native IshtiqaqAttentionV12 root path (root_embed, root_q_proj, root_k_proj,
+        ishtiqaq_gamma, stream_mix[1], Pillar I/II) is NEVER given root ids in the NRMT forward.
+  base.extract_morphemic_ids() returns wazn_ids == zeros : True  (unified_rootformer_v12.py:121)
+     => the returned wazn id is a DEAD STUB.  The wazn is nevertheless LIVE through a different
+        route: morphemic_embed(p, r, w, s) consumes the real w in the NRMT path.  This is the one
+        finding that was previously misread as the architecture; the perturbation test below settles it.
+
+==============================================================================
+4. PERTURBATION (causal: does changing this parameter change the OUTPUT?)
+==============================================================================
+  determinism: two identical forwards bit-equal = True (max|d| = 0.000e+00)
+  -- POSITIVE CONTROLS: parameters the grad test called LIVE --
+      morphemic_embed.root_embed.weight                        eps=9.995e-04 max|d|=1.210153e-03 bit_equal=False LIVE
+      morphemic_embed.wazn_embed.weight                        eps=9.526e-04 max|d|=8.743703e-04 bit_equal=False LIVE
+      nrmt_head.root_head.weight                               eps=1.929e-05 max|d|=5.483627e-06 bit_equal=False LIVE
+      backbone.layers.0.self_attn.q_proj.weight                eps=6.775e-05 max|d|=7.152557e-07 bit_equal=False LIVE
+      backbone.embed_tokens.weight                             eps=2.040e-05 max|d|=0.000000e+00 bit_equal=True INERT
+  -- the parameters the grad test flagged (confirm causally) --
+      backbone.embed_tokens.weight                             eps=2.040e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.root_embed.weight            eps=9.931e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.root_k_proj.weight           eps=7.281e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.root_q_proj.weight           eps=7.231e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.0.self_attn.stream_mix                   eps=3.536e-04 max|d|=8.940697e-07 bit_equal=False LIVE
+      backbone.layers.0.self_attn.wazn_embed.weight            eps=9.797e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.root_embed.weight            eps=9.911e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.root_k_proj.weight           eps=7.237e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.root_q_proj.weight           eps=7.213e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.1.self_attn.stream_mix                   eps=3.536e-04 max|d|=1.624227e-06 bit_equal=False LIVE
+      backbone.layers.1.self_attn.wazn_embed.weight            eps=9.919e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.root_embed.weight           eps=9.921e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.root_k_proj.weight          eps=7.205e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.root_q_proj.weight          eps=7.221e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.10.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.186132e-05 bit_equal=False LIVE
+      backbone.layers.10.self_attn.wazn_embed.weight           eps=9.876e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.root_embed.weight           eps=9.920e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.root_k_proj.weight          eps=7.210e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.root_q_proj.weight          eps=7.218e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.11.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.573563e-05 bit_equal=False LIVE
+      backbone.layers.11.self_attn.wazn_embed.weight           eps=9.778e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.root_embed.weight           eps=9.933e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.root_k_proj.weight          eps=7.292e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.root_q_proj.weight          eps=7.226e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.12.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.583993e-05 bit_equal=False LIVE
+      backbone.layers.12.self_attn.wazn_embed.weight           eps=9.629e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.root_embed.weight           eps=9.929e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.root_k_proj.weight          eps=7.241e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.root_q_proj.weight          eps=7.230e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.13.self_attn.stream_mix                  eps=3.536e-04 max|d|=8.344650e-06 bit_equal=False LIVE
+      backbone.layers.13.self_attn.wazn_embed.weight           eps=9.925e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.root_embed.weight           eps=9.925e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.root_k_proj.weight          eps=7.221e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.root_q_proj.weight          eps=7.244e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.14.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.132488e-05 bit_equal=False LIVE
+      backbone.layers.14.self_attn.wazn_embed.weight           eps=9.784e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.root_embed.weight           eps=9.918e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.root_k_proj.weight          eps=7.256e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.root_q_proj.weight          eps=7.218e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.15.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.788139e-05 bit_equal=False LIVE
+      backbone.layers.15.self_attn.wazn_embed.weight           eps=9.763e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.root_embed.weight           eps=9.937e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.root_k_proj.weight          eps=7.316e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.root_q_proj.weight          eps=7.235e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.16.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.182407e-05 bit_equal=False LIVE
+      backbone.layers.16.self_attn.wazn_embed.weight           eps=9.960e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.root_embed.weight           eps=9.929e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.root_k_proj.weight          eps=7.234e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.root_q_proj.weight          eps=7.257e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.17.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.546741e-05 bit_equal=False LIVE
+      backbone.layers.17.self_attn.wazn_embed.weight           eps=9.882e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.root_embed.weight           eps=9.933e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.root_k_proj.weight          eps=7.229e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.root_q_proj.weight          eps=7.238e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.18.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.515448e-05 bit_equal=False LIVE
+      backbone.layers.18.self_attn.wazn_embed.weight           eps=9.993e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.root_embed.weight           eps=9.932e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.root_k_proj.weight          eps=7.209e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.root_q_proj.weight          eps=7.196e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.19.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.516193e-05 bit_equal=False LIVE
+      backbone.layers.19.self_attn.wazn_embed.weight           eps=9.817e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.root_embed.weight            eps=9.924e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.root_k_proj.weight           eps=7.184e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.root_q_proj.weight           eps=7.227e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.2.self_attn.stream_mix                   eps=3.536e-04 max|d|=1.251698e-06 bit_equal=False LIVE
+      backbone.layers.2.self_attn.wazn_embed.weight            eps=9.947e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.root_embed.weight           eps=9.925e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.root_k_proj.weight          eps=7.286e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.root_q_proj.weight          eps=7.213e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.20.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.084805e-05 bit_equal=False LIVE
+      backbone.layers.20.self_attn.wazn_embed.weight           eps=9.830e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.root_embed.weight           eps=9.943e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.root_k_proj.weight          eps=7.331e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.root_q_proj.weight          eps=7.232e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.21.self_attn.stream_mix                  eps=3.536e-04 max|d|=2.050400e-05 bit_equal=False LIVE
+      backbone.layers.21.self_attn.wazn_embed.weight           eps=9.806e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.root_embed.weight           eps=9.935e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.root_k_proj.weight          eps=7.321e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.root_q_proj.weight          eps=7.241e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.22.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.832843e-05 bit_equal=False LIVE
+      backbone.layers.22.self_attn.wazn_embed.weight           eps=9.835e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.coverage_threshold          eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.coverage_weight             eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.governance_strength         eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.ishtiqaq_gamma              eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.root_embed.weight           eps=9.930e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.root_k_proj.weight          eps=7.344e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.root_q_proj.weight          eps=7.247e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.23.self_attn.stream_mix                  eps=3.536e-04 max|d|=1.454353e-05 bit_equal=False LIVE
+      backbone.layers.23.self_attn.wazn_embed.weight           eps=9.797e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.root_embed.weight            eps=9.924e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.root_k_proj.weight           eps=7.207e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.root_q_proj.weight           eps=7.227e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.3.self_attn.stream_mix                   eps=3.536e-04 max|d|=5.200505e-06 bit_equal=False LIVE
+      backbone.layers.3.self_attn.wazn_embed.weight            eps=9.886e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.root_embed.weight            eps=9.936e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.root_k_proj.weight           eps=7.177e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.root_q_proj.weight           eps=7.216e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.4.self_attn.stream_mix                   eps=3.536e-04 max|d|=4.470348e-06 bit_equal=False LIVE
+      backbone.layers.4.self_attn.wazn_embed.weight            eps=9.921e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.root_embed.weight            eps=9.929e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.root_k_proj.weight           eps=7.247e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.root_q_proj.weight           eps=7.226e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.5.self_attn.stream_mix                   eps=3.536e-04 max|d|=1.108646e-05 bit_equal=False LIVE
+      backbone.layers.5.self_attn.wazn_embed.weight            eps=9.997e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.root_embed.weight            eps=9.931e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.root_k_proj.weight           eps=7.232e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.root_q_proj.weight           eps=7.235e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.6.self_attn.stream_mix                   eps=3.536e-04 max|d|=4.306436e-06 bit_equal=False LIVE
+      backbone.layers.6.self_attn.wazn_embed.weight            eps=9.847e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.root_embed.weight            eps=9.931e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.root_k_proj.weight           eps=7.308e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.root_q_proj.weight           eps=7.226e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.7.self_attn.stream_mix                   eps=3.536e-04 max|d|=8.821487e-06 bit_equal=False LIVE
+      backbone.layers.7.self_attn.wazn_embed.weight            eps=9.871e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.root_embed.weight            eps=9.926e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.root_k_proj.weight           eps=7.211e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.root_q_proj.weight           eps=7.220e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.8.self_attn.stream_mix                   eps=3.536e-04 max|d|=7.741153e-06 bit_equal=False LIVE
+      backbone.layers.8.self_attn.wazn_embed.weight            eps=9.853e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.coverage_threshold           eps=8.008e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.coverage_weight              eps=2.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.governance_strength          eps=1.500e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.ishtiqaq_gamma               eps=2.500e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.root_embed.weight            eps=9.922e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.root_k_proj.weight           eps=7.225e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.root_q_proj.weight           eps=7.234e-05 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      backbone.layers.9.self_attn.stream_mix                   eps=3.536e-04 max|d|=7.361174e-06 bit_equal=False LIVE
+      backbone.layers.9.self_attn.wazn_embed.weight            eps=9.907e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.feat_norm.weight                               eps=1.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.hist_emb.0.weight                              eps=1.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.hist_emb.1.weight                              eps=1.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.hist_emb.2.weight                              eps=1.000e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.op_emb.weight                                  eps=9.722e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.prev_pref_emb.weight                           eps=1.024e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.prev_suff_emb.weight                           eps=1.015e-03 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+      nrmt_head.prev_wazn_emb.weight                           eps=9.855e-04 max|d|=0.000000e+00 bit_equal=True INERT (bit-equal)
+  => INERT confirmed causally (bit-equal under an eps perturbation): 201
+  => flagged by grad but CAUSALLY LIVE: 24
+  restore integrity: after 230 perturb/restore cycles the forward is bit-equal to the original = True
+
+==============================================================================
+5. ROOT-ID SPACES -- no two spaces may be silently mixed
+==============================================================================
+  live       morphemic_embed.root_embed        rows=9490
+  live       nrmp_head.root_head               rows=9490
+  live       nrmp_head.hist_emb[0]             rows=9490
+  live       vocab.num_roots                   rows=9490
+  STALE      self_attn.root_embed (x24)        rows=9015
+  clamp(root_ids, 0, 9014) on the live id stream 0..9489:
+      ids that have NO row of their own : 475  (5.01 % of roots)
+      ids that ALIAS onto row 9014   : 475 ids collapse there, so row 9014 represents 476 different roots
+      injective                          : False
+  base.id_to_root_table: 9199 <root_*> tokens -> 9000 distinct root ids  (injective=False)
+      min=1 max=9014   (max must be <= 9489; <root_start>/<root_end> map to 1)
+
+==============================================================================
+6. THE FLASH WRAPPER HOOKS (found during recon, not in the brief)
+==============================================================================
+  trunk layers carrying EXTRA (flash) forward hooks: [(0, 1), (1, 2), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 2), (12, 1), (13, 1), (14, 2), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1)]
+  flash wrapper params total                       : 534.474 M
+  ... reachable through model.backbone (TRACKED)   : 382.524 M
+  ... NOT in model.parameters() (UNTRACKED, never optimised): 151.950 M
+      untracked param names: ['model.morphemic_heads.root_head.weight', 'model.morphemic_heads.wazn_head.weight', 'engram_layer1.tables.0.weight', 'engram_layer1.tables.1.weight', 'engram_layer1.tables.2.weight', 'engram_layer1.tables.3.weight', 'engram_layer1.gate_proj.weight', 'engram_layer1.gate_proj.bias', 'engram_layer1.mem_proj.weight', 'engram_layer14.tables.0.weight', 'engram_layer14.tables.1.weight', 'engram_layer14.tables.2.weight', 'engram_layer14.tables.3.weight', 'engram_layer14.gate_proj.weight', 'engram_layer14.gate_proj.bias', 'engram_layer14.mem_proj.weight', 'farahidi_orbit.orbit_projs', 'farahidi_orbit.orbit_gate.weight', 'farahidi_orbit.orbit_gate.bias', 'farahidi_orbit.out_proj.weight', 'ced_bridge.alpha_ced', 'ced_bridge.kv_proj_from_h12.weight']
+  the hooks inject engram_layer1 @L1, engram_layer14 + farahidi_orbit @L14.
+  both modules are ZERO-init output (mem_proj / out_proj = 0) and are NOT in the
+  checkpoint and NOT in model.parameters(), so they are numerically INERT but they
+  accumulate .grad forever and would inject random noise the moment anyone
+  initialised their output projections.  FLAGGED for the new construction.
+
+==============================================================================
+FLAGS
+==============================================================================
+  * constant_mismatch: {"where": "self_attn.root_embed rows  (L24)", "got": 9015, "want": 9490}
+  * constant_mismatch: {"where": "self_attn.wazn_embed rows  (L24)", "got": 128, "want": 142}
+  * grad_flagged_but_perturbation_live: {"params": ["backbone.layers.0.self_attn.stream_mix", "backbone.layers.1.self_attn.stream_mix", "backbone.layers.10.self_attn.stream_mix", "backbone.layers.11.self_attn.stream_mix", "backbone.layers.12.self_attn.stream_m
+  * stale_root_space_mixed: {"self_attn_root_embed_rows": 9015, "live_num_roots": 9490, "missing_ids": 475}
+  * root_id_aliasing: {"table_rows": 9015, "live_ids": 9490, "ids_without_row": 475, "pct_of_roots": 5.005, "alias_row": 9014, "aliased_ids": 475}
+  * id_to_root_table_not_injective: {"tokens": 9199, "distinct": 9000}
+  * untracked_live_hooks: {"layers": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], "flash_params_M": 534.474, "untracked_params_M": 151.95, "untracked_names": ["model.morphemic_heads.root_head.weight", "m
+
+wrote /workspace/transmute_v2/liveness_report.json

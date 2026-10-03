@@ -1,0 +1,158 @@
+[sdpa] installed: models.ishtiqaq_attention_v12.IshtiqaqAttentionV12; ishtiqaq_root_bias.IshtiqaqRootBiasAttention
+[*] SDPA installed BEFORE model construction (Phase 0a)
+[*] PREFLIGHT root count OK: roots=9490 awzan=142
+[Rootformer v13] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v13] Instantiating backbone with IshtiqaqAttention in the LIVE root space (roots=9490, awzan=142)...
+[Rootformer v13] token->root table: 9197 <root_X> tokens -> 9197 distinct live root ids (injective=True, max=9489)
+[Rootformer v13] token->wazn table: 137 <wazn_X> tokens -> 137 distinct live wazn ids
+[Rootformer v13] Initialized! layers=24 vocab=10052 roots=9490 awzan=142 on cuda. [OK]
+[*] V13 architecture: roots=9490 awzan=142 vocab=10052 built in 20.6s
+[*] flash hooks DETACHED: 3 hooks removed from trunk layers (bit-identical: their output projections are exactly 0)
+[*] ARM [EARLYROOT_C] use_features=True dropout=0.1
+[*] v18fix: feat_gate=True (proj_std 0.001) logit_scale=ln margin_ramp=10 (start 50.0 -> -2.0) grad_warmup=10@thresh50.0 extra_norm_l2=0.0 grad_clip=1.0
+[*] V13 dropped 48 stale-SPACE self_attn tables (rows [128, 9015] -> live 9490/142)
+[*] checkpoint rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors: missing=67 (of which nrmt_head new=19) unexpected=8
+[*] new head cond_proj.0.weight target (896, 1344) (d_root=448, d_model=896)
+[*] head warm start [remap/truncate]: applied 8/8 legacy head tensors
+      + cond_proj.0.bias (896,) (exact)
+      + cond_proj.0.weight (896, 1344) (exact)
+      + cond_proj.2.bias (896,) (exact)
+      + cond_proj.2.weight (896, 896) (exact)
+      + prefix_head.weight (26, 896) (exact)
+      + root_head.weight (9490, 896) (exact)
+      + suffix_head.weight (22, 896) (exact)
+      + wazn_head.weight (142, 896) (exact)
+      [info] 11 new head tensors stay at their init (history/operator/morph embeddings, feat_norm)
+[*] extra-conditioning norm at init: 0.534795 (GAUGE -- no logit effect; the real branch magnitude is feat_scale 29.933260)
+[*] Al-Taqalib orbit pairs: 4448
+[*] morph conditioning: gold->model root schedule ss_prob 1.000 -> 1.000 (p = P(use MODEL greedy root); 0 = full teacher forcing)
+[*] root cross-attention attached to trunk layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] (57.86M new params, d_root=448, heads=8x112, observe=r_{<=t})
+[*] TRUNK-ALL: 24 backbone layers + morphemic_embed + final_norm trainable (383.3M backbone + 4.29M embed + 0.002M final_norm)
+[*] PILLAR-FREEZE: 24 pillar gates held at exactly 0.0 and removed from the optimizer (coverage_weight / governance_strength stay at their checkpoint values but are multiplied by 0)
+[*] NATIVE root score bias on trunk layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] (11.010M NEW params, source=shared, gates=[(0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0)] on cuda:0
+[*] trainable parameters: 453.08M (head 12.80M @lr 0.001 | rca 57.86M @lr 0.001 layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] | trunk 371.42M @lr 0.001 layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] | ishtiqaq 11.010M @lr 0.001 layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] source=shared)
+[*] TRUNK LIVE: hidden-state cache BYPASSED (extract_backbone is NOT called; the trunk runs in the forward pass every step).  morphemic_embed and final_norm stay frozen.
+[*] RCA init check: gates=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] (exactly 0 => the attached stack is a numerical no-op at step 0)
+[*] train 7063767 | val 837575 root tokens
+    novelty: 6956862 distinct 12-gram hashes (1s)
+[*] ʿāmil stream: SibawayhGovernor (persistent, al-Kitab 1/421)
+[*] AlKhalilV2: C1==C2 impossible roots=30  leaked=2
+    observed adjacent pairs=721  unobserved=723 of 1444
+    makhraj clashes not attested in inventory=18 (these are the genuinely impossible pairs)
+    bare-alif roots now ALLOWED: 280
+    Al-Khalil verbatim letter-pair violations (qaf+kaf, jim+qaf): 1 -> ['جقق']
+[*] static forbidden roots (impossibility hinge): 34
+[*] training windows: 3000 x 127 positions = 381000
+[*] val radical positions: all=18869 novel=15046 (79.7%)
+[*] optimizer groups (max_lr; the lr shown by the scheduler at step 0 is max_lr/div_factor=25 until the warm-up completes): head n=19 max_lr=4e-05 | rca n=264 max_lr=4e-05 | ishtiqaq n=72 max_lr=4e-05 | trunk n=488 max_lr=4e-05
+  [proof] step 1: trunk h for a FIXED batch vs step 1: max|dh|=0.000000e+00 | fp 327535.563940 (step-1 fp 327535.563940) | grad_norm head=1.073e+01 rca=8.561e-03 trunk=1.645e+00
+/workspace/root_arch/nrmt_train_v13_sdpa.py:1129: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  _pf.write(json.dumps({'step': step, 'loss': float(loss),
+Traceback (most recent call last):
+  File "/workspace/root_arch/nrmt_train_v13_sdpa.py", line 1240, in <module>
+    main()
+  File "/workspace/root_arch/nrmt_train_v13_sdpa.py", line 1078, in main
+    h_batch = live_h_windows(_p, _r, _w, _s)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/root_arch/nrmt_train_v13_sdpa.py", line 806, in live_h_windows
+    out = model.backbone(inputs_embeds=emb)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/utils/output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 388, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/modeling_layers.py", line 110, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1879, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1827, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 282, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/root_arch/sdpa_attention.py", line 302, in forward
+    add_bias = self._root_bias(safe, q.dtype, B, T, self.scale)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/root_arch/sdpa_attention.py", line 245, in _root_bias
+    return (g * self.stream_mix[1]) * (ishtiqaq_cond * score_root) + (g * bonus)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 28.00 MiB. GPU 0 has a total capacity of 31.37 GiB of which 14.25 MiB is free. Process 405014 has 13.65 GiB memory in use. Including non-PyTorch memory, this process has 17.69 GiB memory in use. Of the allocated memory 16.75 GiB is allocated by PyTorch, and 632.18 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[sdpa] installed: models.ishtiqaq_attention_v12.IshtiqaqAttentionV12; ishtiqaq_root_bias.IshtiqaqRootBiasAttention
+[*] SDPA installed BEFORE model construction (Phase 0a)
+[sdpa] installed: models.ishtiqaq_attention_v12.IshtiqaqAttentionV12; ishtiqaq_root_bias.IshtiqaqRootBiasAttention
+[*] SDPA installed BEFORE model construction (Phase 0a)
+[*] PREFLIGHT root count OK: roots=9490 awzan=142
+[Rootformer v13] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v13] Instantiating backbone with IshtiqaqAttention in the LIVE root space (roots=9490, awzan=142)...
+[Rootformer v13] token->root table: 9197 <root_X> tokens -> 9197 distinct live root ids (injective=True, max=9489)
+[Rootformer v13] token->wazn table: 137 <wazn_X> tokens -> 137 distinct live wazn ids
+[Rootformer v13] Initialized! layers=24 vocab=10052 roots=9490 awzan=142 on cuda. [OK]
+[*] V13 architecture: roots=9490 awzan=142 vocab=10052 built in 16.1s
+[*] flash hooks DETACHED: 3 hooks removed from trunk layers (bit-identical: their output projections are exactly 0)
+[*] ARM [EARLYROOT_C] use_features=True dropout=0.1
+[*] v18fix: feat_gate=True (proj_std 0.001) logit_scale=ln margin_ramp=10 (start 50.0 -> -2.0) grad_warmup=10@thresh50.0 extra_norm_l2=0.0 grad_clip=1.0
+[*] V13 dropped 48 stale-SPACE self_attn tables (rows [128, 9015] -> live 9490/142)
+[*] checkpoint rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors: missing=67 (of which nrmt_head new=19) unexpected=8
+[*] new head cond_proj.0.weight target (896, 1344) (d_root=448, d_model=896)
+[*] head warm start [remap/truncate]: applied 8/8 legacy head tensors
+      + cond_proj.0.bias (896,) (exact)
+      + cond_proj.0.weight (896, 1344) (exact)
+      + cond_proj.2.bias (896,) (exact)
+      + cond_proj.2.weight (896, 896) (exact)
+      + prefix_head.weight (26, 896) (exact)
+      + root_head.weight (9490, 896) (exact)
+      + suffix_head.weight (22, 896) (exact)
+      + wazn_head.weight (142, 896) (exact)
+      [info] 11 new head tensors stay at their init (history/operator/morph embeddings, feat_norm)
+[*] extra-conditioning norm at init: 0.534324 (GAUGE -- no logit effect; the real branch magnitude is feat_scale 29.933260)
+[*] Al-Taqalib orbit pairs: 4448
+[*] morph conditioning: gold->model root schedule ss_prob 1.000 -> 1.000 (p = P(use MODEL greedy root); 0 = full teacher forcing)
+[*] rca_compat: RootHistoryCrossAttention.forward wrapped (per-layer root_ids.clone) -- works around the in-place `clamp_` at root_cross_attn.py:136 WITHOUT editing it
+[*] root cross-attention attached to trunk layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] (57.86M new params, d_root=448, heads=8x112, observe=r_{<=t})
+[*] TRUNK-ALL: 24 backbone layers + morphemic_embed + final_norm trainable (383.3M backbone + 4.29M embed + 0.002M final_norm)
+[*] PILLAR-FREEZE: 24 pillar gates held at exactly 0.0 and removed from the optimizer (coverage_weight / governance_strength stay at their checkpoint values but are multiplied by 0)
+[*] NATIVE root score bias on trunk layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] (11.010M NEW params, source=shared, gates=[(0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.0, 0.0)] on cuda:0
+[*] trainable parameters: 453.08M (head 12.80M @lr 0.001 | rca 57.86M @lr 0.001 layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] | trunk 371.42M @lr 0.001 layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] | ishtiqaq 11.010M @lr 0.001 layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] source=shared)
+[*] TRUNK LIVE: hidden-state cache BYPASSED (extract_backbone is NOT called; the trunk runs in the forward pass every step).  morphemic_embed and final_norm stay frozen.
+[*] RCA init check: gates=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] (exactly 0 => the attached stack is a numerical no-op at step 0)
+[*] train 7063767 | val 837575 root tokens
+    novelty: 6956862 distinct 12-gram hashes (1s)
+[*] ʿāmil stream: SibawayhGovernor (persistent, al-Kitab 1/421)
+[*] AlKhalilV2: C1==C2 impossible roots=30  leaked=2
+    observed adjacent pairs=721  unobserved=723 of 1444
+    makhraj clashes not attested in inventory=18 (these are the genuinely impossible pairs)
+    bare-alif roots now ALLOWED: 280
+    Al-Khalil verbatim letter-pair violations (qaf+kaf, jim+qaf): 1 -> ['جقق']
+[*] static forbidden roots (impossibility hinge): 34
+[*] training windows: 3000 x 127 positions = 381000
+[*] val radical positions: all=18869 novel=15046 (79.7%)
+[*] optimizer groups (max_lr; the lr shown by the scheduler at step 0 is max_lr/div_factor=25 until the warm-up completes): head n=19 max_lr=4e-05 | rca n=264 max_lr=4e-05 | ishtiqaq n=72 max_lr=4e-05 | trunk n=488 max_lr=4e-05
+  [proof] step 1: trunk h for a FIXED batch vs step 1: max|dh|=0.000000e+00 | fp 327463.741012 (step-1 fp 327463.741012) | grad_norm head=1.083e+01 rca=1.151e-02 trunk=1.709e+00
+/workspace/root_arch/nrmt_train_v13_sdpa.py:1139: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  _pf.write(json.dumps({'step': step, 'loss': float(loss),
+  [eval @1000] ALL_val: acc@1 18.87% acc@5 33.61% CE_z 6.1696 [scale-invariant] | raw PPL 555.5 (SCALE-DEPENDENT, logit_scale 0.60) (n=18869) | NOVEL_only: acc@1 19.09% acc@5 34.28% CE_z 6.1178 [scale-invariant] | raw PPL 535.8 (SCALE-DEPENDENT, logit_scale 0.60) (n=15046) | wazn: ce 2.8003 ce_z 3.1831 acc@1 45.13% (n=38100) | prefix: ce 1.0781 ce_z 1.7882 acc@1 74.72% (n=38100) | suffix: ce 1.0888 ce_z 1.5979 acc@1 80.03% (n=38100) | ALL_val_RCA_OFF: acc@1 6.02% acc@5 10.28% CE_z 8.3273 [scale-invariant] | raw PPL 3203.9 (SCALE-DEPENDENT, logit_scale 0.59) (n=18869) | NOVEL_only_RCA_OFF: acc@1 5.74% acc@5 9.98% CE_z 8.3579 [scale-invariant] | raw PPL 3296.0 (SCALE-DEPENDENT, logit_scale 0.58) (n=15046) | ALL_val_ISHTIQAQ_OFF: acc@1 18.94% acc@5 33.72% CE_z 6.1685 [scale-invariant] | raw PPL 556.1 (SCALE-DEPENDENT, logit_scale 0.60) (n=18869) | NOVEL_only_ISHTIQAQ_OFF: acc@1 19.10% acc@5 34.38% CE_z 6.1182 [scale-invariant] | raw PPL 537.4 (SCALE-DEPENDENT, logit_scale 0.60) (n=15046) | extra_norm 13.2057 (GAUGE) | feat_scale 32.0499 (real branch RMS x 1.0707) | RCA gates -0.3359,+0.3491,+0.3520,-0.3549,-0.3574,-0.3626,+0.3670,-0.3681,-0.3718,-0.3727,+0.3832,+0.3840,+0.3883,-0.3944,-0.3945,-0.4004,-0.4033,+0.4031,-0.4125,+0.4210,+0.4223,-0.4283,+0.4341,+0.3661 (|mean| 0.3845) | ISHTIQAQ gates +0.0005/+0.0000,-0.0013/+0.0000,-0.0002/+0.0000,-0.0041/+0.0000,-0.1611/+0.0000,-0.1196/+0.0000,-0.0654/+0.0000,-0.0305/+0.0000,-0.0486/+0.0000,-0.1235/+0.0000,-0.1582/+0.0000,-0.1318/+0.0000,-0.2041/+0.0000,-0.1641/+0.0000,-0.1318/+0.0000,-0.1865/+0.0000,-0.1484/+0.0000,-0.1030/+0.0000,-0.2314/+0.0000,-0.1318/+0.0000,-0.1543/+0.0000,-0.1748/+0.0000,-0.2656/+0.0000,-0.1699/+0.0000 | h_drift 1.6047e+01

@@ -1,0 +1,608 @@
+{
+ "harness": "two_condition_rerun.py",
+ "built": "2026-10-03T00:34:56",
+ "vocab": {
+  "roots": 9490,
+  "awzan": 142
+ },
+ "n_types": 188722,
+ "n_asl": 106664,
+ "harvest_skipped": {
+  "bad_root": 70671,
+  "baseline_fail": 9636,
+  "bad_wazn": 1751
+ },
+ "n_roots_with_asl": 5551,
+ "required_conditions": [
+  "mundabit",
+  "muttarid"
+ ],
+ "not_required": [
+  "munakis",
+  "mutaaddi"
+ ],
+ "thresholds": {
+  "mundabit_min_purity": 0.98,
+  "muttarid_min_rate": 0.98,
+  "munakis_min_lift": 0.02,
+  "min_cell_for_munakis": 30
+ },
+ "part1_illas": {
+  "wazn_only": {
+   "illa": "wazn_only",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "mundabit_purity": 0.945670516762919,
+   "mundabit_n_cells": 39,
+   "mundabit_impure_cells": 32,
+   "ittirad_own_rate": 0.945670516762919,
+   "ittirad_n": 106664,
+   "ittirad_fail": 5795,
+   "munakis_lift_NOT_REQUIRED": 0.0,
+   "munakis_in": NaN,
+   "munakis_out": NaN,
+   "munakis_pass_would_be": false,
+   "munakis_note": "a constant cause has no outside: lift is 0 by construction",
+   "ittirad_examples": [
+    [
+     "سرر",
+     "فَعَلَ",
+     "سر",
+     "^0^1^2"
+    ],
+    [
+     "غيي",
+     "فَاعِل",
+     "غاي",
+     "^0ا^1^2"
+    ],
+    [
+     "منع",
+     "مُفْتَعِل",
+     "ممتنع",
+     "م^0ت^1^2"
+    ],
+    [
+     "حدد",
+     "فَعَلَ",
+     "حد",
+     "^0^1^2"
+    ],
+    [
+     "سنن",
+     "فَعَلَ",
+     "سن",
+     "^0^1^2"
+    ],
+    [
+     "ربب",
+     "فَعَلَ",
+     "رب",
+     "^0^1^2"
+    ],
+    [
+     "حرر",
+     "فَاعِل",
+     "حار",
+     "^0ا^1^2"
+    ],
+    [
+     "حدد",
+     "فَعَلَ",
+     "حد",
+     "^0^1^2"
+    ],
+    [
+     "صفف",
+     "فَعَلَ",
+     "صف",
+     "^0^1^2"
+    ],
+    [
+     "عدد",
+     "فَاعِل",
+     "عاد",
+     "^0ا^1^2"
+    ]
+   ],
+   "seconds": 2.4,
+   "verdict": {
+    "mundabit": false,
+    "muttarid": false,
+    "ACCEPTED_two_condition": false
+   }
+  },
+  "coarse_weak": {
+   "illa": "coarse_weak",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "mundabit_purity": 0.988515337883447,
+   "mundabit_n_cells": 135,
+   "mundabit_impure_cells": 61,
+   "ittirad_own_rate": 0.9885059626490662,
+   "ittirad_n": 106664,
+   "ittirad_fail": 1226,
+   "munakis_lift_NOT_REQUIRED": 0.12087684956789446,
+   "munakis_in": 0.9956870490547786,
+   "munakis_out": 0.8748101994868841,
+   "munakis_pass_would_be": true,
+   "munakis_note": "",
+   "ittirad_examples": [
+    [
+     "منع",
+     "مُفْتَعِل",
+     "ممتنع",
+     "م^0ت^1^2"
+    ],
+    [
+     "سبب",
+     "فَعَلَ",
+     "سبب",
+     "^0^1"
+    ],
+    [
+     "سبب",
+     "فَعَلَ",
+     "سبب",
+     "^0^1"
+    ],
+    [
+     "منع",
+     "مُفْتَعِل",
+     "ممتنع",
+     "م^0ت^1^2"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ],
+    [
+     "وحد",
+     "أَفْعَال",
+     "آحاد",
+     "أ^0^1ا^2"
+    ],
+    [
+     "وحد",
+     "أَفْعَال",
+     "آحاد",
+     "أ^0^1ا^2"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ],
+    [
+     "رجحن",
+     "فُعْلَان",
+     "رجحان",
+     "^0^1^2ان"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ]
+   ],
+   "seconds": 3.9,
+   "verdict": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED_two_condition": true
+   }
+  },
+  "strict7": {
+   "illa": "strict7",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "mundabit_purity": 0.9886840921023026,
+   "mundabit_n_cells": 231,
+   "mundabit_impure_cells": 79,
+   "ittirad_own_rate": 0.9886372159303982,
+   "ittirad_n": 106664,
+   "ittirad_fail": 1212,
+   "munakis_lift_NOT_REQUIRED": 0.07520208217828839,
+   "munakis_in": 0.9956815774464272,
+   "munakis_out": 0.9204794952681388,
+   "munakis_pass_would_be": true,
+   "munakis_note": "",
+   "ittirad_examples": [
+    [
+     "منع",
+     "مُفْتَعِل",
+     "ممتنع",
+     "م^0ت^1^2"
+    ],
+    [
+     "سبب",
+     "فَعَلَ",
+     "سبب",
+     "^0^1"
+    ],
+    [
+     "سبب",
+     "فَعَلَ",
+     "سبب",
+     "^0^1"
+    ],
+    [
+     "منع",
+     "مُفْتَعِل",
+     "ممتنع",
+     "م^0ت^1^2"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ],
+    [
+     "وحد",
+     "أَفْعَال",
+     "آحاد",
+     "أ^0^1ا^2"
+    ],
+    [
+     "وحد",
+     "أَفْعَال",
+     "آحاد",
+     "أ^0^1ا^2"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ],
+    [
+     "رجحن",
+     "فُعْلَان",
+     "رجحان",
+     "^0^1^2ان"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ]
+   ],
+   "seconds": 4.3,
+   "verdict": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED_two_condition": true
+   }
+  },
+  "positional": {
+   "illa": "positional",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "mundabit_purity": 0.9900622515562889,
+   "mundabit_n_cells": 462,
+   "mundabit_impure_cells": 72,
+   "ittirad_own_rate": 0.9898372459311483,
+   "ittirad_n": 106664,
+   "ittirad_fail": 1084,
+   "munakis_lift_NOT_REQUIRED": 0.06388452880260553,
+   "munakis_in": 0.9961663471955996,
+   "munakis_out": 0.9322818183929941,
+   "munakis_pass_would_be": true,
+   "munakis_note": "",
+   "ittirad_examples": [
+    [
+     "منع",
+     "مُفْتَعِل",
+     "ممتنع",
+     "م^0ت^1^2"
+    ],
+    [
+     "سبب",
+     "فَعَلَ",
+     "سبب",
+     "^0^1"
+    ],
+    [
+     "سبب",
+     "فَعَلَ",
+     "سبب",
+     "^0^1"
+    ],
+    [
+     "منع",
+     "مُفْتَعِل",
+     "ممتنع",
+     "م^0ت^1^2"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ],
+    [
+     "وحد",
+     "أَفْعَال",
+     "آحاد",
+     "أ^0^1ا^2"
+    ],
+    [
+     "وحد",
+     "أَفْعَال",
+     "آحاد",
+     "أ^0^1ا^2"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ],
+    [
+     "رجحن",
+     "فُعْلَان",
+     "رجحان",
+     "^0^1^2ان"
+    ],
+    [
+     "مكن",
+     "مَفْعَل",
+     "ممكن",
+     "م^0^1^2"
+    ]
+   ],
+   "seconds": 5.2,
+   "verdict": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED_two_condition": true
+   }
+  },
+  "identity": {
+   "illa": "identity",
+   "n_asl": 106664,
+   "n_unalignable": 0,
+   "mundabit_purity": 1.0,
+   "mundabit_n_cells": 25042,
+   "mundabit_impure_cells": 0,
+   "ittirad_own_rate": 0.9962780319507988,
+   "ittirad_n": 106664,
+   "ittirad_fail": 397,
+   "munakis_lift_NOT_REQUIRED": 0.12969089168412373,
+   "munakis_in": 1.0,
+   "munakis_out": 0.8703091083158763,
+   "munakis_pass_would_be": true,
+   "munakis_note": "",
+   "ittirad_examples": [
+    [
+     "ثمم",
+     "فَعَلَ",
+     "ثم",
+     "^0^1^2"
+    ],
+    [
+     "تلمذ",
+     "تَفَعْلَلَ",
+     "تتلمذ",
+     "ت^0^1^2^3"
+    ],
+    [
+     "عربن",
+     "فُعْلَان",
+     "عربان",
+     "^0^1^2ان"
+    ],
+    [
+     "ميط",
+     "مَفْعَل",
+     "مميط",
+     "م^0^1^2"
+    ],
+    [
+     "امن",
+     "فَعَالِيل",
+     "امامين",
+     "^0^1ا^2ي^3"
+    ],
+    [
+     "نكك",
+     "فَعَلَ",
+     "نك",
+     "^0^1^2"
+    ],
+    [
+     "كحثل",
+     "فُعْلَان",
+     "كحثال",
+     "^0^1^2ان"
+    ],
+    [
+     "فزز",
+     "فَاعِل",
+     "فاز",
+     "^0ا^1^2"
+    ],
+    [
+     "تقد",
+     "تَفَعَّلَ",
+     "تتقد",
+     "ت^0^1^2"
+    ],
+    [
+     "تبر",
+     "تَفْعِيل",
+     "تتبير",
+     "ت^0^1ي^2"
+    ]
+   ],
+   "seconds": 4.1,
+   "verdict": {
+    "mundabit": true,
+    "muttarid": true,
+    "ACCEPTED_two_condition": true
+   }
+  }
+ },
+ "part1_accepted_two_condition": [
+  "coarse_weak",
+  "strict7",
+  "positional",
+  "identity"
+ ],
+ "part2_tier1_pair_holdout": {
+  "n_pairs_total": 25042,
+  "n_pairs_held": 2504,
+  "n_obs_held": 10544,
+  "n_roots_in_held_pairs": 1842,
+  "per_illa": {
+   "wazn_only": {
+    "n": 10544,
+    "primary_own_cell": 0,
+    "GLOBAL": 10544,
+    "no_analogue": 0,
+    "primary_firing": 0.0,
+    "global_firing": 1.0,
+    "realisation": 0.958649468892261
+   },
+   "coarse_weak": {
+    "n": 10544,
+    "primary_own_cell": 10543,
+    "GLOBAL": 1,
+    "no_analogue": 0,
+    "primary_firing": 0.9999051593323217,
+    "global_firing": 9.484066767830046e-05,
+    "realisation": 0.997154779969651
+   },
+   "strict7": {
+    "n": 10544,
+    "primary_own_cell": 10542,
+    "GLOBAL": 1,
+    "no_analogue": 0,
+    "primary_firing": 0.9998103186646434,
+    "global_firing": 9.484066767830046e-05,
+    "realisation": 0.9955424886191199
+   },
+   "positional": {
+    "n": 10544,
+    "primary_own_cell": 10502,
+    "GLOBAL": 1,
+    "no_analogue": 0,
+    "primary_firing": 0.9960166919575114,
+    "global_firing": 9.484066767830046e-05,
+    "realisation": 0.9955424886191199
+   },
+   "identity": {
+    "n": 10544,
+    "primary_own_cell": 0,
+    "GLOBAL": 1,
+    "no_analogue": 0,
+    "primary_firing": 0.0,
+    "global_firing": 9.484066767830046e-05,
+    "realisation": 0.9955424886191199
+   }
+  }
+ },
+ "part2_tier2_heldout_root": {
+  "n_roots_held": 37,
+  "roots": [
+   "أصل",
+   "أمر",
+   "أمل",
+   "ابا",
+   "ابت",
+   "ابخ",
+   "ابر",
+   "ابز",
+   "ابط",
+   "ابه",
+   "ابي",
+   "اتا",
+   "اتب",
+   "اتل",
+   "اتن",
+   "اتي",
+   "اثث",
+   "اثم",
+   "اثن",
+   "اجج",
+   "احد",
+   "اخخ",
+   "اخر",
+   "ادر",
+   "ادل",
+   "ارب",
+   "ارت",
+   "ارخ",
+   "ارر",
+   "ارز",
+   "ارس",
+   "ارش",
+   "ارك",
+   "ارن",
+   "ازا",
+   "ازم",
+   "اسب"
+  ],
+  "n_train_obs": 105901,
+  "n_test_obs": 763,
+  "per_illa": {
+   "wazn_only": {
+    "n": 763,
+    "primary_own_cell": 0,
+    "GLOBAL": 763,
+    "no_analogue": 0,
+    "primary_firing": 0.0,
+    "global_firing": 1.0,
+    "realisation": 0.963302752293578
+   },
+   "coarse_weak": {
+    "n": 763,
+    "primary_own_cell": 749,
+    "GLOBAL": 14,
+    "no_analogue": 0,
+    "primary_firing": 0.981651376146789,
+    "global_firing": 0.01834862385321101,
+    "realisation": 1.0
+   },
+   "strict7": {
+    "n": 763,
+    "primary_own_cell": 749,
+    "GLOBAL": 14,
+    "no_analogue": 0,
+    "primary_firing": 0.981651376146789,
+    "global_firing": 0.01834862385321101,
+    "realisation": 1.0
+   },
+   "positional": {
+    "n": 763,
+    "primary_own_cell": 745,
+    "GLOBAL": 14,
+    "no_analogue": 0,
+    "primary_firing": 0.9764089121887287,
+    "global_firing": 0.01834862385321101,
+    "realisation": 1.0
+   },
+   "identity": {
+    "n": 763,
+    "primary_own_cell": 0,
+    "GLOBAL": 14,
+    "no_analogue": 0,
+    "primary_firing": 0.0,
+    "global_firing": 0.01834862385321101,
+    "realisation": 1.0
+   }
+  }
+ },
+ "part3_isolation": {
+  "n": 10544,
+  "returns_None": 0,
+  "carries_a_ruling": 10544,
+  "note": "chain=[identity]; wazn_only removed.  Any far' whose (root,wazn) cell was withheld has NO analogue left, so None is the only possible answer."
+ }
+}

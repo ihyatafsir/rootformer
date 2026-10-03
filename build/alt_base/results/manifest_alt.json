@@ -1,0 +1,123 @@
+{
+  "base": "Qwen/Qwen2.5-0.5B",
+  "base_repo": "Qwen/Qwen2.5-0.5B",
+  "writer": "/workspace/hf_v19_2_release/nrmp_train.py",
+  "writer_md5": "cdb50c48494c5b6fb0576e6e357b290e",
+  "corpora": [
+    "/workspace/andalusian_canon_sanitized",
+    "/workspace/scholastic_sanitized",
+    "/workspace/scholastic_sunni_sanitized",
+    "/workspace/scholastic_masters",
+    "/workspace/scholastic_falsafa_sanitized",
+    "/workspace/chronological_mujtahid_corpus",
+    "/workspace/heritage_foundations"
+  ],
+  "seed": 1337,
+  "val_fraction": 0.08,
+  "n_files": 47,
+  "n_val_files": 3,
+  "val_files": [
+    "/workspace/andalusian_canon_sanitized/02_Suhayli_Nataij_al_Fikr.txt",
+    "/workspace/scholastic_masters/Ghazali_Ihya_Ulum_al_Din.txt",
+    "/workspace/scholastic_sanitized/Mustafa_Sabri_Mawqif_al_Aql_vol2.txt"
+  ],
+  "sentence_filter": {
+    "min_words": 4,
+    "max_words": 64,
+    "per_corpus_limit": 120000,
+    "split_regex": "[\\n.!?؟]+"
+  },
+  "dedup": "identical sentence strings, first occurrence wins",
+  "level": "FILE (no file straddles the split)",
+  "seg_mode": "0",
+  "alignment_audit": {
+    "base": "Qwen/Qwen2.5-0.5B",
+    "base_vocab_size": 151643,
+    "sentences_encoded": 690986,
+    "words": 7898052,
+    "base_tokens": 15699870,
+    "rejected_whitespace": 0,
+    "rejected_decode_or_len": 141,
+    "skipped_short": 0,
+    "words_ge2_base_tokens": 4596354,
+    "words_0_base_tokens": 0,
+    "tokens_with_no_word_overlap": 32994,
+    "tokens_assigned_by_carry_rule": 32994,
+    "tokens_leading_before_first_word": 0,
+    "fertilite_tokens_per_word": 1.9878,
+    "words_per_base_token": 0.5031,
+    "word_len_hist": {
+      "1": 3301698,
+      "2": 2163062,
+      "3": 1796006,
+      "4": 537811,
+      "5": 80721,
+      "6": 12219,
+      "7": 3144,
+      "8": 1230,
+      "9": 696,
+      "10": 465,
+      "11": 333,
+      "12": 200
+    },
+    "reconstruction_rule": "base tokenizer decoded text must equal the sentence exactly; morphemic word list must equal sentence.split() exactly"
+  },
+  "counts": {
+    "train": {
+      "word_events": 7060477,
+      "base_tokens": 13991627,
+      "sentence_count": 623582,
+      "root_max": 9489,
+      "root_min": 3,
+      "distinct_root_ids": 8614,
+      "tokens_per_word": 1.9817,
+      "n_blocks_128": 55159,
+      "block_tokens_p50": 252,
+      "block_tokens_p99": 319,
+      "block_tokens_p999": 576,
+      "block_tokens_max": 711
+    },
+    "val": {
+      "word_events": 837575,
+      "base_tokens": 1708243,
+      "sentence_count": 67404,
+      "root_max": 9489,
+      "root_min": 3,
+      "distinct_root_ids": 5070,
+      "tokens_per_word": 2.0395,
+      "n_blocks_128": 6543,
+      "block_tokens_p50": 260,
+      "block_tokens_p99": 308,
+      "block_tokens_p999": 327,
+      "block_tokens_max": 350
+    }
+  },
+  "outputs": {
+    "word_train": "/workspace/alt_base/cache/rootqwen/word_train.pt",
+    "tok_train": "/workspace/alt_base/cache/rootqwen/tok_train.pt",
+    "soff_train": "/workspace/alt_base/cache/rootqwen/soff_train.pt",
+    "wtokoff_train": "/workspace/alt_base/cache/rootqwen/wtokoff_train.pt",
+    "wstart_train": "/workspace/alt_base/cache/rootqwen/wstart_train.pt",
+    "wlen_train": "/workspace/alt_base/cache/rootqwen/wlen_train.pt",
+    "word_val": "/workspace/alt_base/cache/rootqwen/word_val.pt",
+    "tok_val": "/workspace/alt_base/cache/rootqwen/tok_val.pt",
+    "soff_val": "/workspace/alt_base/cache/rootqwen/soff_val.pt",
+    "wtokoff_val": "/workspace/alt_base/cache/rootqwen/wtokoff_val.pt",
+    "wstart_val": "/workspace/alt_base/cache/rootqwen/wstart_val.pt",
+    "wlen_val": "/workspace/alt_base/cache/rootqwen/wlen_val.pt"
+  },
+  "md5": {
+    "word_train": "21d93316544574d3e5475e0a446caa02",
+    "tok_train": "0ba9a35d016be069983692de7213dc69",
+    "soff_train": "ee0cc809d809c97f78195cb7eccb5b0c",
+    "wtokoff_train": "3a980657885cf465d06e8975ac53b9bb",
+    "wstart_train": "beadd95b920d2fc4ca22ddc785993a15",
+    "wlen_train": "2953b714c9386ded6289b3acca443a77",
+    "word_val": "9bbf4bb88655ba85a7b6f3c74d381530",
+    "tok_val": "468894746fb3eb02858fc6ca956ef3b3",
+    "soff_val": "f0d283dbaa921160f0d8e2aeca9355ea",
+    "wtokoff_val": "38a8e0e0e91e8bc21a6164561d3cbbc1",
+    "wstart_val": "ec8970b1431875f61efb253e3a3c7758",
+    "wlen_val": "7a0a8395ad72187450b7c050fa18f167"
+  }
+}

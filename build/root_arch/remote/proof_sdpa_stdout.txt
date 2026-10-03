@@ -1,0 +1,119 @@
+
+==============================================================================
+0. BUILD (V13 -> DeepSeekFlash -> RootformerNRMT, the trainer's own object graph)
+==============================================================================
+[*] PREFLIGHT root count OK: roots=9490 awzan=142
+[Rootformer v13] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v13] Instantiating backbone with IshtiqaqAttention in the LIVE root space (roots=9490, awzan=142)...
+[Rootformer v13] token->root table: 9197 <root_X> tokens -> 9197 distinct live root ids (injective=True, max=9489)
+[Rootformer v13] token->wazn table: 137 <wazn_X> tokens -> 137 distinct live wazn ids
+[Rootformer v13] Initialized! layers=24 vocab=10052 roots=9490 awzan=142 on cuda. [OK]
+[*] checkpoint loaded: dropped 48 stale-SPACE self_attn tables; missing=67 (0 unexpected-missing) unexpected=8
+  batch 8 x 128; live root space = 9490 roots / 142 awzan
+  morphemic_embed.root_embed = (9490, 448) (the LIVE root source)
+  per-layer self_attn.root_embed = (9490, 64) (the STALE table, never used)
+
+==============================================================================
+0.5 FLASH HOOKS (0d) -- is detaching the 151.95 M orphans really bit-identical?
+==============================================================================
+  The claim was analytic ("mem_proj / out_proj are exactly 0").  Closed empirically:
+    (a) hooks ON vs hooks OFF on the same weights  -> must be BIT-EQUAL
+    (b) un-zero the output projection WITH hooks ON -> must CHANGE the output
+    (c) the same un-zeroed weights with hooks OFF  -> must NOT change the output
+  (a) 3 hooks removed; hooks-ON vs hooks-OFF bit_equal=True max|d|=0.000e+00
+  (b) un-zeroed mem_proj/out_proj WITH hooks : output moves 6.3995e+00  (must be > 0)
+  (c) same weights WITH hooks detached        : output moves 0.0000e+00  (must be 0)
+  VERDICT: bit-identical at load=True, hooks are live=True, detachment is a true removal=True
+
+==============================================================================
+1. SURFACE ONLY (arm A attention): eager [B,14,T,T] vs SDPA
+==============================================================================
+  reference logits RMS = 1.0021
+[sdpa] installed: models.ishtiqaq_attention_v12.IshtiqaqAttentionV12; unified_rootformer_v13.IshtiqaqAttentionV12; ishtiqaq_root_bias.IshtiqaqRootBiasAttention
+  self_attn class now: SdpaIshtiqaqAttention
+  eager vs sdpa (logits)         max|d|=2.0075e-01  rms=4.3011e-03  ref_rms=1.0021e+00  max/ref_rms=2.003e-01
+  top-1 token agreement over 1024 positions: 99.316%
+  eager vs sdpa (dtype=fp32)     max|d|=1.2800e-01  rms=4.2794e-03  ref_rms=1.0021e+00  max/ref_rms=1.277e-01
+  top-1 token agreement at dtype=fp32: 99.609%
+  sdpa bf16 vs sdpa fp32         max|d|=1.6030e-01  rms=4.0932e-03  ref_rms=1.0021e+00  max/ref_rms=1.600e-01
+
+==============================================================================
+2. ROOT SCORE BIAS on ALL 24 layers, root_gate=1 (arm C attention)
+==============================================================================
+/workspace/root_arch/prove_sdpa_equivalence.py:211: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  f'root_gate={float(m_e[0].root_gate)} ({time.time()-t0:.0f}s)')
+  eager root bias attached to all 24 layers: 11.010M params, root_gate=1.0 (0s)
+  eager vs sdpa + root bias      max|d|=1.9456e-01  rms=4.3458e-03  ref_rms=1.0021e+00  max/ref_rms=1.941e-01
+  top-1 token agreement: 99.219%
+  SANITY: gate=0 vs gate=1 on the SDPA path differs by 1.8953e-01 (must be > 0)
+
+==============================================================================
+3. fp64 ORACLE + THE DTYPE THE SHIPPED CODE ACTUALLY USES
+==============================================================================
+  q_proj out (8, 128, 896) torch.bfloat16   v_proj out torch.bfloat16
+  q_norm.weight torch.float32   k_norm.weight torch.float32   <-- the forgotten class: `nn.Parameter(torch.ones(dim))` with no dtype argument
+  after norm: q torch.float32  k torch.float32  v torch.bfloat16   <-- MIXED, which is why SDPA needs an explicit dtype policy
+  eager (shipped fp32 QK^T)  vs fp64 truth:  max|d|=2.2699e-01  rms=2.3026e-02
+  sdpa  dtype=fp32           vs fp64 truth:  max|d|=1.9073e-05  rms=2.0327e-06
+  sdpa  dtype=bf16           vs fp64 truth:  max|d|=2.0493e-01  rms=2.3095e-02
+  => fp32 SDPA at least as close to truth as eager: True
+  => bf16 SDPA is the SPEED choice: its error is the bf16 rounding of the kernel (2.05e-01 vs 2.27e-01)
+
+==============================================================================
+4. NOISE FLOOR -- the deviation vs a 1-ULP change in one trunk weight
+==============================================================================
+  1-ULP on L12 o_proj.weight     max|d|=1.6442e-01  rms=3.4569e-03  ref_rms=1.0021e+00  max/ref_rms=1.641e-01
+  moved 802816 weights by 1 ULP
+  -> eager-vs-SDPA deviation is 1.221x a ONE-ULP weight change
+
+==============================================================================
+5. GRADIENTS -- same parameter gradients?
+==============================================================================
+  cosine over the 166 parameters with gradient norm > 1e-4 of the max: min 0.999992
+  the global min-cosine parameter is backbone.layers.0.self_attn.k_proj.bias whose gradient norm is 1.087e-10 (max is 2.842e-01) -- a near-zero gradient, where a cosine is not a meaningful statistic
+  367 parameter gradients compared
+  cosine(sdpa, eager):  min 0.00011831   mean 0.98375166
+  relative L2 diff    :  median 1.960e-03   max 3.876e-01 (backbone.layers.0.self_attn.stream_mix)
+
+==============================================================================
+6. BACKENDS
+==============================================================================
+  ARM A: expanded k/v, is_causal        : kernels that accept it = ['FLASH_ATTENTION', 'EFFICIENT_ATTENTION', 'MATH']
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: Memory efficient kernel not used because: (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:858.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: Memory Efficient attention has been runtime disabled. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/sdp_utils_cpp.h:552.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: Flash attention kernel not used because: (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:860.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: Flash Attention does not support non-null attn_mask. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/sdp_utils_cpp.h:262.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: CuDNN attention kernel not used because: (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:862.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: CuDNN attention has been runtime disabled. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:592.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+  ARM C: expanded k/v, additive mask    : kernels that accept it = ['EFFICIENT_ATTENTION', 'MATH']
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: For dense input, both fused kernels require query, key and value to have the same num_heads. Query.sizes(): [2, 14, 256, 64], Key sizes(): [2, 2, 256, 64], Value sizes(): [2, 2, 256, 64] instead. To broadcast dense inputs, try using unsqueeze and expand_to before passing them into the kernel. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/sdp_utils_cpp.h:418.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+/workspace/root_arch/prove_sdpa_equivalence.py:415: UserWarning: Flash attention has been runtime disabled. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/sdp_utils_cpp.h:540.)
+  F.scaled_dot_product_attention(a, b, c, scale=0.125, **kw)
+  enable_gqa=True, is_causal            : kernels that accept it = ['FLASH_ATTENTION', 'MATH']
+  enable_gqa=True, additive mask        : kernels that accept it = ['MATH']
+  NOTE: with enable_gqa=True NO named kernel accepts the call, so the default dispatcher is
+  the only thing that runs -- which is exactly how arm C reached the MATH backend and would
+  have materialised [B,14,T,T] at batch 32.  Explicit expansion fixes it (see _sdpa).
+
+wrote /workspace/root_arch/proof_sdpa_equivalence.json
+
+==============================================================================
+VERDICT
+==============================================================================
+  surface   max|d| 2.0075e-01 on logits of RMS 1.002e+00 | top-1 agree 99.316%  -> PASS
+  root bias max|d| 1.9456e-01 | top-1 agree 99.219%  -> PASS
+  gradients  min cosine 0.00011831  -> PASS
+  accuracy   fp32-SDPA at least as close to fp64 as eager: True  -> PASS
+  noise      deviation is 1.22x a 1-ULP weight change
+  flash hooks (0d): detach bit-identical=True  hooks proved LIVE=True
+  TOLERANCE: top-1 >= 99% and max|dlogits| <= 1.5 x eager-vs-fp64 (0.3405)
+  fp64 truth: eager 2.2699e-01 | sdpa-fp32 1.9073e-05 | sdpa-bf16 2.0493e-01  -> bf16 SDPA more accurate than eager: True
+  gradients  min cosine over significant grads 0.999992

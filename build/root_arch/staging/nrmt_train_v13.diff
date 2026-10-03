@@ -1,0 +1,154 @@
+--- _ref_nrmt_train_ishtiqaq.py
++++ nrmt_train_v13.py
+@@ -48,6 +48,9 @@
+     ROOT_DIR = Path('/workspace/hf_v19_2_release')
+ sys.path.insert(0, str(ROOT_DIR))
+ sys.path.insert(0, str(ROOT_DIR / 'models'))
++# transmute_v2: root_space (the ONE root-id space), unified_rootformer_v13, early_root_path
++if '/workspace/transmute_v2' not in sys.path:
++    sys.path.insert(0, '/workspace/transmute_v2')
+ 
+ WIN, STRIDE, CTX = 128, 64, 12
+ HASH_B = np.uint64(1000003)
+@@ -313,6 +316,17 @@
+     ap.add_argument('--ishtiqaq-ablate-eval', action='store_true',
+                     help='also evaluate with the native root gates forced to 0: the causal '
+                          'ablation of the native path on the SAME trunk weights')
++    # ---- V13: corrected root-id space + whole-trunk training + early root schedule ------ 
++    ap.add_argument('--model-v13', action='store_true',
++                    help='build UnifiedRootformerV13 (roots 9490 / awzan 142 / vocab '
++                         '10052) and drop the 48 stale-SPACE self_attn keys on load')
++    ap.add_argument('--unfreeze-trunk-all', action='store_true',
++                    help='train EVERY backbone layer + morphemic_embed (the input stage) '
++                         '+ final_norm at --lr*--trunk-lr-scale.  No freezing, no EWC.')
++    ap.add_argument('--flash-hooks', choices=('on', 'off'), default='on',
++                    help='deepseek_v4_1_flash_model registers forward hooks on trunk '
++                         'layers 1/11/14 whose 151.95M params are in NO checkpoint and NO '
++                         'optimizer (zero-init INERT).  `off` detaches them.')
+     ap.add_argument('--unfreeze-last', type=int, default=0,
+                     help='also train the top N trunk layers (0 = frozen, historical).  This '
+                          'BYPASSES the frozen hidden-state cache by construction')
+@@ -365,7 +379,17 @@
+               ', '.join(f'k{k}={len(v)}' for k, v in zip(ng_orders, ng_vocabs)) +
+               f' rows ({time.time()-_t:.0f}s)', flush=True)
+ 
+-    base = UnifiedRootformerV12(bp, 'Qwen/Qwen2.5-0.5B', str(device), torch.bfloat16).to(device)
++    if args.model_v13:
++        from models.unified_rootformer_v13 import UnifiedRootformerV13
++        _t0 = time.time()
++        base = UnifiedRootformerV13(bp, 'Qwen/Qwen2.5-0.5B', str(device),
++                                    torch.bfloat16, vocab=vocab).to(device)
++        print(f'[*] V13 architecture: roots={vocab.num_roots} awzan={vocab.num_awzan} '
++              f'vocab={base.vocab_size} built in {time.time()-_t0:.1f}s', flush=True)
++        assert vocab.num_roots == 9490 and vocab.num_awzan == 142, 'live space changed'
++    else:
++        base = UnifiedRootformerV12(bp, 'Qwen/Qwen2.5-0.5B', str(device),
++                                    torch.bfloat16).to(device)
+     flash = UnifiedRootformerV17_DeepSeekFlash(base, device, torch.bfloat16).to(device)
+     model = RootformerNRMT(flash, vocab, device, torch.bfloat16, hist=args.hist,
+                            dropout=args.dropout, use_features=not args.no_features,
+@@ -380,6 +404,19 @@
+               f'd_ng={args.ngram_dim} gate={not args.no_ngram_gate} '
+               f'tables={model.nrmt_head.ngram_table_stats()} '
+               f'params={model.nrmt_head.ngram_params()/1e6:.2f}M')
++    if args.flash_hooks == 'off':
++        # The flash wrapper registered forward hooks on trunk layers 1/11/14 in its own
++        # __init__, and its 151.95M params are in NO checkpoint and NO optimizer.  They
++        # are zero-init INERT, but they add a 152M-param dead autograd branch; detaching
++        # them is bit-identical (mem_proj / out_proj are exactly 0) and is recorded.
++        _n = 0
++        for _l in model.backbone.layers:
++            _k = len(_l._forward_hooks)
++            if _k:
++                _l._forward_hooks.clear()
++                _n += _k
++        print(f'[*] flash hooks DETACHED: {_n} hooks removed from trunk layers (bit-identical: '
++              f'their output projections are exactly 0)', flush=True)
+     print(f'[*] ARM [{args.tag}] use_features={not args.no_features} dropout={args.dropout}')
+     print(f'[*] v18fix: feat_gate={args.feat_gate} (proj_std {args.feat_gate_proj_std}) '
+           f'logit_scale={args.logit_scale} '
+@@ -397,6 +434,28 @@
+         _DEFAULT_CKPT = ROOT_DIR / 'checkpoints/rootformer_v19_2_synthesis_ar_backbone.safetensors'
+     ckpt = args.checkpoint or str(_DEFAULT_CKPT)
+     sd = load_file(ckpt)
++    if args.model_v13:
++        # The released file carries 24 x self_attn.root_embed (9015,64) and 24 x
++        # self_attn.wazn_embed (128,64): the STALE space, and dead code in the NRMT forward
++        # (0/24 attention calls carry root ids; see liveness_report.json).  A 9015-row
++        # tensor cannot load into a 9490-row module, so they are dropped -- and the dropped
++        # set is ASSERTED to be exactly the 48 stale tables, nothing else.
++        _want = model.state_dict()
++        _drop = {}
++        for _k in list(sd):
++            if ('self_attn.root_embed.weight' in _k or 'self_attn.wazn_embed.weight' in _k):
++                if _k in _want and tuple(sd[_k].shape) != tuple(_want[_k].shape):
++                    _drop[_k] = (tuple(sd[_k].shape), tuple(_want[_k].shape))
++                    del sd[_k]
++                elif _k not in _want:
++                    _drop[_k] = (tuple(sd[_k].shape), None)
++                    del sd[_k]
++        _rstale = sorted({v[0][0] for v in _drop.values()})
++        print(f'[*] V13 dropped {len(_drop)} stale-SPACE self_attn tables (rows '
++              f'{_rstale} -> live {vocab.num_roots}/{vocab.num_awzan})', flush=True)
++        if len(_drop) != 48:
++            raise SystemExit(f'[V13] expected exactly 48 stale tables dropped, got '
++                             f'{len(_drop)}: {sorted(_drop)[:6]}')
+     missing, unexpected = model.load_state_dict(sd, strict=False)
+     new_keys = [k for k in missing if k.startswith('nrmt_head.')]
+     print(f'[*] checkpoint {Path(ckpt).name}: missing={len(missing)} '
+@@ -463,7 +522,8 @@
+     if str(args.root_cross_attn).strip().lower() not in ('', 'none', 'off', '0'):
+         if '/workspace/root_attn' not in sys.path:
+             sys.path.insert(0, '/workspace/root_attn')
+-        from root_cross_attn import RootCrossAttentionStack, parse_layer_spec
++        from root_cross_attn import RootCrossAttentionStack
++        from early_root_path import parse_layer_spec_v13 as parse_layer_spec
+         rca_layers = parse_layer_spec(args.root_cross_attn, len(model.backbone.layers))
+     if rca_layers:
+         rca_stack = RootCrossAttentionStack(
+@@ -479,6 +539,25 @@
+         for _i in unfrozen_layers:
+             for _p in model.backbone.layers[_i].parameters():
+                 _p.requires_grad = True
++    if args.unfreeze_trunk_all:
++        # NO FREEZING, NO PRESERVATION MACHINERY.  English does not need preserving, so the
++        # LR cliff (which IS catastrophic forgetting) is not a constraint.  The input stage
++        # `morphemic_embed` is trained too: it is what creates the root signal from the
++        # (P,R,W,S) tuple, and 'root structure from the EARLY stage' is meaningless if the
++        # embedding that carries it is held frozen.
++        _n = len(model.backbone.layers)
++        unfrozen_layers = list(range(_n))
++        for _p in model.backbone.parameters():
++            _p.requires_grad = True
++        for _p in model.morphemic_embed.parameters():
++            _p.requires_grad = True
++        for _p in model.final_norm.parameters():
++            _p.requires_grad = True
++        print(f'[*] TRUNK-ALL: {_n} backbone layers + morphemic_embed + final_norm trainable '
++              f'({sum(p.numel() for p in model.backbone.parameters())/1e6:.1f}M backbone + '
++              f'{sum(p.numel() for p in model.morphemic_embed.parameters())/1e6:.2f}M '
++              f'embed + {sum(p.numel() for p in model.final_norm.parameters())/1e6:.3f}M '
++              f'final_norm)', flush=True)
+     # ---- NATIVE root score bias: swapped in only when explicitly requested -------------
+     ishtiqaq_mods, ishtiqaq_params, ishtiqaq_layers = [], [], []
+     ishtiqaq_root_source = 'native'
+@@ -487,7 +566,8 @@
+             sys.path.insert(0, '/workspace/ishtiqaq_check')
+         from ishtiqaq_root_bias import (swap_in_root_bias, parse_layer_spec as _ig_spec,
+                                         zero_gates as _ig_zero, restore_gates as _ig_restore)
+-        ishtiqaq_layers = _ig_spec(args.ishtiqaq_root_bias, len(model.backbone.layers))
++        from early_root_path import parse_layer_spec_v13 as _ig_spec_v13
++        ishtiqaq_layers = _ig_spec_v13(args.ishtiqaq_root_bias, len(model.backbone.layers))
+         ishtiqaq_root_source = args.ishtiqaq_root_source
+     if ishtiqaq_layers:
+         ishtiqaq_mods, ishtiqaq_params = swap_in_root_bias(
+@@ -1071,6 +1151,9 @@
+                 # the head alone does NOT reproduce this arm: the unfrozen trunk moved too
+                 keep = {n: p.detach().to(torch.bfloat16).cpu() for n, p in model.named_parameters()
+                         if n.startswith('root_cross.')
++                        or n.startswith('nrmt_head.')
++                        or n.startswith('morphemic_embed.')
++                        or n.startswith('final_norm.')
+                         or any(n.startswith(f'backbone.layers.{i}.') for i in unfrozen_layers)
+                         or any(n.startswith(f'backbone.layers.{i}.') for i in ishtiqaq_layers)}
+                 torch.save({'state': keep, 'unfrozen_layers': unfrozen_layers,

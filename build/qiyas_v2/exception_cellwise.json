@@ -1,0 +1,8374 @@
+{
+ "citations": {
+  "shadh_licence": "Al_Zajjaji_Al_Idah_Fi_Ilal_Al_Nahw.txt:1203-1205",
+  "edition_md5": "663e493f1d2e7a3223dcc8c6b702e7d0",
+  "mundabit_required": "Ghazali_Al_Mustasfa.txt:12851",
+  "muttarid_required": "Ghazali_Al_Mustasfa.txt:13254"
+ },
+ "per_illa": {
+  "coarse_weak": {
+   "n_cells": 135,
+   "n_exception_cells": 61,
+   "n_exception_observations": 1225,
+   "cells_all_exceptions_explained": 52,
+   "cells_partly_explained": 6,
+   "cells_no_exception_explained": 3,
+   "rows": [
+    {
+     "cell": "MUDAAF|فَعَلَ",
+     "n": 3529,
+     "modal_support": 3446,
+     "n_exceptions": 83,
+     "n_explained_by_positional": 23,
+     "examples": [
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "ملل",
+       "surface": "ملل",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفْعُول",
+     "n": 2167,
+     "modal_support": 2096,
+     "n_exceptions": 71,
+     "n_explained_by_positional": 71,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدح",
+       "surface": "ممدوح",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَاعِل",
+     "n": 1227,
+     "modal_support": 1209,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 18,
+     "examples": [
+      {
+       "root": "ماد",
+       "surface": "مااد",
+       "alignment": "^0^1ا^2",
+       "cell_n": 1227,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "زاب",
+       "surface": "زااب",
+       "alignment": "^0^1ا^2",
+       "cell_n": 1227,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "باز",
+       "surface": "بااز",
+       "alignment": "^0^1ا^2",
+       "cell_n": 1227,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "كاي",
+       "surface": "كااي",
+       "alignment": "^0^1ا^2",
+       "cell_n": 1227,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|أَفْعَال",
+     "n": 729,
+     "modal_support": 711,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 729,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 729,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 729,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 729,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|فَاعِل",
+     "n": 1221,
+     "modal_support": 1208,
+     "n_exceptions": 13,
+     "n_explained_by_positional": 13,
+     "examples": [
+      {
+       "root": "ببل",
+       "surface": "بابل",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ببن",
+       "surface": "بابن",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ببن",
+       "surface": "بابن",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ببل",
+       "surface": "بابل",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِفْتِعَال",
+     "n": 1429,
+     "modal_support": 1411,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 18,
+     "examples": [
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتن",
+       "surface": "افتتان",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قتل",
+       "surface": "اقتتال",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفْعَل",
+     "n": 3889,
+     "modal_support": 3778,
+     "n_exceptions": 111,
+     "n_explained_by_positional": 111,
+     "examples": [
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مُفْتَعِل",
+     "n": 1073,
+     "modal_support": 1007,
+     "n_exceptions": 66,
+     "n_explained_by_positional": 66,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفَاعِل",
+     "n": 2040,
+     "modal_support": 1988,
+     "n_exceptions": 52,
+     "n_explained_by_positional": 52,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِسْتِفْعَال",
+     "n": 208,
+     "modal_support": 204,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سرر",
+       "surface": "استسرار",
+       "alignment": "ا^0تس^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفْعِيل",
+     "n": 2194,
+     "modal_support": 2192,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "تبر",
+       "surface": "تتبير",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 2194,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تفر",
+       "surface": "تتفير",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 2194,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|مَفْعَل",
+     "n": 1140,
+     "modal_support": 1098,
+     "n_exceptions": 42,
+     "n_explained_by_positional": 42,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 1140,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 1140,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 1140,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميت",
+       "surface": "مميت",
+       "alignment": "^0م^1^2",
+       "cell_n": 1140,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِفْتَعَلَ",
+     "n": 836,
+     "modal_support": 825,
+     "n_exceptions": 11,
+     "n_explained_by_positional": 11,
+     "examples": [
+      {
+       "root": "فتن",
+       "surface": "افتتن",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ستر",
+       "surface": "استتر",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَوْعَل",
+     "n": 910,
+     "modal_support": 879,
+     "n_exceptions": 31,
+     "n_explained_by_positional": 31,
+     "examples": [
+      {
+       "root": "لوا",
+       "surface": "لووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 910,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نوا",
+       "surface": "نووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 910,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قول",
+       "surface": "قوول",
+       "alignment": "^0^1و^2",
+       "cell_n": 910,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نوه",
+       "surface": "نووه",
+       "alignment": "^0^1و^2",
+       "cell_n": 910,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|يَفْعَلُ",
+     "n": 1665,
+     "modal_support": 1655,
+     "n_exceptions": 10,
+     "n_explained_by_positional": 10,
+     "examples": [
+      {
+       "root": "يبس",
+       "surface": "ييبس",
+       "alignment": "^0ي^1^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "ييسر",
+       "alignment": "^0ي^1^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يبس",
+       "surface": "ييبس",
+       "alignment": "^0ي^1^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يهم",
+       "surface": "ييهم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|تَفَعَّلَ",
+     "n": 1786,
+     "modal_support": 1768,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 18,
+     "examples": [
+      {
+       "root": "تقي",
+       "surface": "تتقي",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1786,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "توب",
+       "surface": "تتوب",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1786,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تار",
+       "surface": "تتار",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1786,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تور",
+       "surface": "تتور",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1786,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مُتَفَعِّل",
+     "n": 717,
+     "modal_support": 669,
+     "n_exceptions": 48,
+     "n_explained_by_positional": 48,
+     "examples": [
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مسك",
+       "surface": "متمسك",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|تَفْعِيل",
+     "n": 790,
+     "modal_support": 789,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "توع",
+       "surface": "تتويع",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 790,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|يَتَفَعَّلُ",
+     "n": 250,
+     "modal_support": 244,
+     "n_exceptions": 6,
+     "n_explained_by_positional": 6,
+     "examples": [
+      {
+       "root": "يقن",
+       "surface": "يتيقن",
+       "alignment": "^0تي^1^2",
+       "cell_n": 250,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "يتيسر",
+       "alignment": "^0تي^1^2",
+       "cell_n": 250,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "يتيسر",
+       "alignment": "^0تي^1^2",
+       "cell_n": 250,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يقن",
+       "surface": "يتيقن",
+       "alignment": "^0تي^1^2",
+       "cell_n": 250,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|يَفْتَعِلُ",
+     "n": 645,
+     "modal_support": 631,
+     "n_exceptions": 14,
+     "n_explained_by_positional": 9,
+     "examples": [
+      {
+       "root": "جمع",
+       "surface": "تجتمع",
+       "alignment": "ت^0ت^1^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "قتل",
+       "surface": "يقتتل",
+       "alignment": "ي^0^1ت^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "جمع",
+       "surface": "تجتمع",
+       "alignment": "ت^0ت^1^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "ستر",
+       "surface": "يستتر",
+       "alignment": "ي^0^1ت^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|اِسْتَفْعَلَ",
+     "n": 260,
+     "modal_support": 234,
+     "n_exceptions": 26,
+     "n_explained_by_positional": 26,
+     "examples": [
+      {
+       "root": "تار",
+       "surface": "استتار",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 260,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "استتاب",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 260,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "استتاب",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 260,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تار",
+       "surface": "استتار",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 260,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فِعَال",
+     "n": 1628,
+     "modal_support": 1593,
+     "n_exceptions": 35,
+     "n_explained_by_positional": 35,
+     "examples": [
+      {
+       "root": "بها",
+       "surface": "بهاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 1628,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ادا",
+       "surface": "اداا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 1628,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "الا",
+       "surface": "الاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 1628,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قلا",
+       "surface": "قلاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 1628,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|مُتَفَعِّل",
+     "n": 475,
+     "modal_support": 447,
+     "n_exceptions": 28,
+     "n_explained_by_positional": 28,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 475,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 475,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 475,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ماس",
+       "surface": "متماس",
+       "alignment": "^0تم^1^2",
+       "cell_n": 475,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَعَّلَ",
+     "n": 3339,
+     "modal_support": 3289,
+     "n_exceptions": 50,
+     "n_explained_by_positional": 50,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تقد",
+       "surface": "تتقد",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تسع",
+       "surface": "تتسع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِنْفِعَال",
+     "n": 92,
+     "modal_support": 91,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "انن",
+       "surface": "انانان",
+       "alignment": "^0^1ا^2ان",
+       "cell_n": 92,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَاعَلَ",
+     "n": 818,
+     "modal_support": 808,
+     "n_exceptions": 10,
+     "n_explained_by_positional": 10,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فُعْلَان",
+     "n": 539,
+     "modal_support": 525,
+     "n_exceptions": 14,
+     "n_explained_by_positional": 14,
+     "examples": [
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 539,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 539,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 539,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 539,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَعِيل",
+     "n": 1000,
+     "modal_support": 982,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 18,
+     "examples": [
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 1000,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ثدي",
+       "surface": "ثديي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 1000,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 1000,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وصي",
+       "surface": "وصيي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 1000,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|مَفْعُول",
+     "n": 357,
+     "modal_support": 354,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "ميس",
+       "surface": "مميوس",
+       "alignment": "^0م^1و^2",
+       "cell_n": 357,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ملا",
+       "surface": "مملوا",
+       "alignment": "^0م^1و^2",
+       "cell_n": 357,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "محا",
+       "surface": "ممحوا",
+       "alignment": "^0م^1و^2",
+       "cell_n": 357,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|مَفْعُول",
+     "n": 444,
+     "modal_support": 428,
+     "n_exceptions": 16,
+     "n_explained_by_positional": 16,
+     "examples": [
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منن",
+       "surface": "ممنون",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|مَفَاعِل",
+     "n": 675,
+     "modal_support": 671,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "ممايز",
+       "alignment": "^0ما^1^2",
+       "cell_n": 675,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مسا",
+       "surface": "مماسا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 675,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ملا",
+       "surface": "ممالا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 675,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متا",
+       "surface": "مماتا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 675,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|تَفْعِيل",
+     "n": 433,
+     "modal_support": 424,
+     "n_exceptions": 9,
+     "n_explained_by_positional": 9,
+     "examples": [
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|يَفْعَلُ",
+     "n": 152,
+     "modal_support": 149,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|تَفَاعَلَ",
+     "n": 404,
+     "modal_support": 403,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "جاب",
+       "surface": "تجااب",
+       "alignment": "ت^0^1ا^2",
+       "cell_n": 404,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|اِفْتِعَال",
+     "n": 136,
+     "modal_support": 133,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "ادل",
+       "surface": "ااتدال",
+       "alignment": "^0ات^1ا^2",
+       "cell_n": 136,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "افق",
+       "surface": "ااتفاق",
+       "alignment": "^0ات^1ا^2",
+       "cell_n": 136,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "حما",
+       "surface": "احتماا",
+       "alignment": "ا^0ت^1^2ا",
+       "cell_n": 136,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|مُفْتَعِل",
+     "n": 247,
+     "modal_support": 223,
+     "n_exceptions": 24,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 247,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 247,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 247,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 247,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِنْفَعَلَ",
+     "n": 315,
+     "modal_support": 311,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "نسب",
+       "surface": "اننسب",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نظم",
+       "surface": "اننظم",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نهر",
+       "surface": "اننهر",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نظر",
+       "surface": "اننظر",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|مَفْعَل",
+     "n": 239,
+     "modal_support": 235,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "ملل",
+       "surface": "مملل",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|فُعْلَان",
+     "n": 957,
+     "modal_support": 776,
+     "n_exceptions": 181,
+     "n_explained_by_positional": 89,
+     "examples": [
+      {
+       "root": "رجحن",
+       "surface": "رجحان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "برهن",
+       "surface": "برهان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قربت",
+       "surface": "قربات",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "بلسن",
+       "surface": "بلسان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَعْلَلَ",
+     "n": 59,
+     "modal_support": 54,
+     "n_exceptions": 5,
+     "n_explained_by_positional": 5,
+     "examples": [
+      {
+       "root": "تلمذ",
+       "surface": "تتلمذ",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترجم",
+       "surface": "تترجم",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مِفْعَال",
+     "n": 311,
+     "modal_support": 300,
+     "n_exceptions": 11,
+     "n_explained_by_positional": 11,
+     "examples": [
+      {
+       "root": "مرض",
+       "surface": "ممراض",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متز",
+       "surface": "ممتاز",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكان",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متز",
+       "surface": "ممتاز",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِسْتِفْعَال",
+     "n": 553,
+     "modal_support": 537,
+     "n_exceptions": 16,
+     "n_explained_by_positional": 16,
+     "examples": [
+      {
+       "root": "سلم",
+       "surface": "استسلام",
+       "alignment": "ا^0تس^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|مِفْعَال",
+     "n": 135,
+     "modal_support": 134,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "نها",
+       "surface": "منهاا",
+       "alignment": "م^0^1^2ا",
+       "cell_n": 135,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَوَاعِل",
+     "n": 217,
+     "modal_support": 213,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "هول",
+       "surface": "هواول",
+       "alignment": "^0^1او^2",
+       "cell_n": 217,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "هول",
+       "surface": "هواول",
+       "alignment": "^0^1او^2",
+       "cell_n": 217,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دون",
+       "surface": "دواون",
+       "alignment": "^0^1او^2",
+       "cell_n": 217,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "زوي",
+       "surface": "زواوي",
+       "alignment": "^0^1او^2",
+       "cell_n": 217,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|اِفْتَعَلَ",
+     "n": 128,
+     "modal_support": 127,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "ثتي",
+       "surface": "اثتتي",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 128,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَعَائِل",
+     "n": 263,
+     "modal_support": 262,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "هلا",
+       "surface": "هلائا",
+       "alignment": "^0^1^2ئا",
+       "cell_n": 263,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِسْتَفْعَلَ",
+     "n": 336,
+     "modal_support": 320,
+     "n_exceptions": 16,
+     "n_explained_by_positional": 16,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "استتبع",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سلم",
+       "surface": "استسلم",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتبع",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبت",
+       "surface": "استتبت",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|يَتَفَعَّلُ",
+     "n": 89,
+     "modal_support": 86,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|يَفْتَعِلُ",
+     "n": 93,
+     "modal_support": 85,
+     "n_exceptions": 8,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 93,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 93,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 93,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 93,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|فُعْلَان",
+     "n": 23,
+     "modal_support": 17,
+     "n_exceptions": 6,
+     "n_explained_by_positional": 6,
+     "examples": [
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَعَاوِيل",
+     "n": 24,
+     "modal_support": 15,
+     "n_exceptions": 9,
+     "n_explained_by_positional": 9,
+     "examples": [
+      {
+       "root": "يسن",
+       "surface": "يساوين",
+       "alignment": "^0^1اوي^2",
+       "cell_n": 24,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دون",
+       "surface": "دواوين",
+       "alignment": "^0^1اوي^2",
+       "cell_n": 24,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دون",
+       "surface": "دواوين",
+       "alignment": "^0^1اوي^2",
+       "cell_n": 24,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "طوس",
+       "surface": "طواويس",
+       "alignment": "^0^1اوي^2",
+       "cell_n": 24,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|فَعَالِيل",
+     "n": 151,
+     "modal_support": 102,
+     "n_exceptions": 49,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "دمل",
+       "surface": "دماميل",
+       "alignment": "^0^1امي^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "دنر",
+       "surface": "دنانير",
+       "alignment": "^0^1اني^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "سلم",
+       "surface": "سلاليم",
+       "alignment": "^0^1الي^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "دنر",
+       "surface": "دنانير",
+       "alignment": "^0^1اني^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|اِنْفِعَال",
+     "n": 33,
+     "modal_support": 32,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "اكح",
+       "surface": "اناكاح",
+       "alignment": "^0نا^1ا^2",
+       "cell_n": 33,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَعَالِيل",
+     "n": 9,
+     "modal_support": 3,
+     "n_exceptions": 6,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "امن",
+       "surface": "امامين",
+       "alignment": "^0^1امي^2",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وهبل",
+       "surface": "وهابيل",
+       "alignment": "^0^1ا^2ي^3",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "هلا",
+       "surface": "هلاليا",
+       "alignment": "^0^1^2ليا",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "رصا",
+       "surface": "رصاصيا",
+       "alignment": "^0^1^2صيا",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|اِنْفَعَلَ",
+     "n": 109,
+     "modal_support": 101,
+     "n_exceptions": 8,
+     "n_explained_by_positional": 8,
+     "examples": [
+      {
+       "root": "نخا",
+       "surface": "اننخا",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 109,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "الن",
+       "surface": "انالن",
+       "alignment": "^0نا^1^2",
+       "cell_n": 109,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اتا",
+       "surface": "اناتا",
+       "alignment": "^0نا^1^2",
+       "cell_n": 109,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اته",
+       "surface": "اناته",
+       "alignment": "^0نا^1^2",
+       "cell_n": 109,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|اِسْتِفْعَال",
+     "n": 23,
+     "modal_support": 22,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "ارن",
+       "surface": "استاران",
+       "alignment": "^0ستا^1ا^2",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MAHMUZ|أَفْعَلَ",
+     "n": 16,
+     "modal_support": 15,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "أصل",
+       "surface": "أأصل",
+       "alignment": "^0أ^1^2",
+       "cell_n": 16,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "WEAK|فَعَائِيل",
+     "n": 11,
+     "modal_support": 7,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "الم",
+       "surface": "الائيم",
+       "alignment": "^0^1ائي^2",
+       "cell_n": 11,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دون",
+       "surface": "دوائين",
+       "alignment": "^0^1ائي^2",
+       "cell_n": 11,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "هوت",
+       "surface": "هوائيت",
+       "alignment": "^0^1ائي^2",
+       "cell_n": 11,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دون",
+       "surface": "دوائين",
+       "alignment": "^0^1ائي^2",
+       "cell_n": 11,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|فَعَالِيل",
+     "n": 2,
+     "modal_support": 1,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "جنن",
+       "surface": "جنانين",
+       "alignment": "^0^1ا^2ين",
+       "cell_n": 2,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِنْفَعَلَ",
+     "n": 6,
+     "modal_support": 5,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "نكك",
+       "surface": "اننكك",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 6,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِفْتَعَلَ",
+     "n": 16,
+     "modal_support": 15,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "بتت",
+       "surface": "ابتتت",
+       "alignment": "ا^0^1^2ت",
+       "cell_n": 16,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    }
+   ]
+  },
+  "strict7": {
+   "n_cells": 231,
+   "n_exception_cells": 79,
+   "n_exception_observations": 1207,
+   "cells_all_exceptions_explained": 69,
+   "cells_partly_explained": 5,
+   "cells_no_exception_explained": 5,
+   "rows": [
+    {
+     "cell": "MUDAAF|فَعَلَ",
+     "n": 3529,
+     "modal_support": 3446,
+     "n_exceptions": 83,
+     "n_explained_by_positional": 23,
+     "examples": [
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "ملل",
+       "surface": "ملل",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3529,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفْعُول",
+     "n": 2167,
+     "modal_support": 2096,
+     "n_exceptions": 71,
+     "n_explained_by_positional": 71,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدح",
+       "surface": "ممدوح",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|فَاعِل",
+     "n": 1221,
+     "modal_support": 1208,
+     "n_exceptions": 13,
+     "n_explained_by_positional": 13,
+     "examples": [
+      {
+       "root": "ببل",
+       "surface": "بابل",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ببن",
+       "surface": "بابن",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ببن",
+       "surface": "بابن",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ببل",
+       "surface": "بابل",
+       "alignment": "^0ا^1^2",
+       "cell_n": 1221,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِفْتِعَال",
+     "n": 1429,
+     "modal_support": 1411,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 18,
+     "examples": [
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتن",
+       "surface": "افتتان",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قتل",
+       "surface": "اقتتال",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفْعَل",
+     "n": 3889,
+     "modal_support": 3778,
+     "n_exceptions": 111,
+     "n_explained_by_positional": 111,
+     "examples": [
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مُفْتَعِل",
+     "n": 1073,
+     "modal_support": 1007,
+     "n_exceptions": 66,
+     "n_explained_by_positional": 66,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفَاعِل",
+     "n": 2040,
+     "modal_support": 1988,
+     "n_exceptions": 52,
+     "n_explained_by_positional": 52,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِسْتِفْعَال",
+     "n": 208,
+     "modal_support": 204,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سرر",
+       "surface": "استسرار",
+       "alignment": "ا^0تس^1ا^2",
+       "cell_n": 208,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفْعِيل",
+     "n": 2194,
+     "modal_support": 2192,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "تبر",
+       "surface": "تتبير",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 2194,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تفر",
+       "surface": "تتفير",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 2194,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|مَفْعَل",
+     "n": 281,
+     "modal_support": 278,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "مسا",
+       "surface": "ممسا",
+       "alignment": "^0م^1^2",
+       "cell_n": 281,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منا",
+       "surface": "ممنا",
+       "alignment": "^0م^1^2",
+       "cell_n": 281,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مرا",
+       "surface": "ممرا",
+       "alignment": "^0م^1^2",
+       "cell_n": 281,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِفْتَعَلَ",
+     "n": 836,
+     "modal_support": 825,
+     "n_exceptions": 11,
+     "n_explained_by_positional": 11,
+     "examples": [
+      {
+       "root": "فتن",
+       "surface": "افتتن",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ستر",
+       "surface": "استتر",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|تَفَعَّلَ",
+     "n": 1032,
+     "modal_support": 1017,
+     "n_exceptions": 15,
+     "n_explained_by_positional": 15,
+     "examples": [
+      {
+       "root": "توب",
+       "surface": "تتوب",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1032,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تار",
+       "surface": "تتار",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1032,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تور",
+       "surface": "تتور",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1032,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تور",
+       "surface": "تتور",
+       "alignment": "^0ت^1^2",
+       "cell_n": 1032,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مُتَفَعِّل",
+     "n": 717,
+     "modal_support": 669,
+     "n_exceptions": 48,
+     "n_explained_by_positional": 48,
+     "examples": [
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مسك",
+       "surface": "متمسك",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|تَفْعِيل",
+     "n": 507,
+     "modal_support": 506,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "توع",
+       "surface": "تتويع",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 507,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|يَتَفَعَّلُ",
+     "n": 73,
+     "modal_support": 67,
+     "n_exceptions": 6,
+     "n_explained_by_positional": 6,
+     "examples": [
+      {
+       "root": "يقن",
+       "surface": "يتيقن",
+       "alignment": "^0تي^1^2",
+       "cell_n": 73,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "يتيسر",
+       "alignment": "^0تي^1^2",
+       "cell_n": 73,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "يتيسر",
+       "alignment": "^0تي^1^2",
+       "cell_n": 73,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يقن",
+       "surface": "يتيقن",
+       "alignment": "^0تي^1^2",
+       "cell_n": 73,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|فَوْعَل",
+     "n": 431,
+     "modal_support": 413,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 18,
+     "examples": [
+      {
+       "root": "قول",
+       "surface": "قوول",
+       "alignment": "^0^1و^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نوه",
+       "surface": "نووه",
+       "alignment": "^0^1و^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "روه",
+       "surface": "رووه",
+       "alignment": "^0^1و^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "روه",
+       "surface": "رووه",
+       "alignment": "^0^1و^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|يَفْتَعِلُ",
+     "n": 645,
+     "modal_support": 631,
+     "n_exceptions": 14,
+     "n_explained_by_positional": 9,
+     "examples": [
+      {
+       "root": "جمع",
+       "surface": "تجتمع",
+       "alignment": "ت^0ت^1^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "قتل",
+       "surface": "يقتتل",
+       "alignment": "ي^0^1ت^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "جمع",
+       "surface": "تجتمع",
+       "alignment": "ت^0ت^1^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "ستر",
+       "surface": "يستتر",
+       "alignment": "ي^0^1ت^2",
+       "cell_n": 645,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|تَفَعَّلَ",
+     "n": 183,
+     "modal_support": 180,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "تقي",
+       "surface": "تتقي",
+       "alignment": "^0ت^1^2",
+       "cell_n": 183,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تشا",
+       "surface": "تتشا",
+       "alignment": "^0ت^1^2",
+       "cell_n": 183,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تقي",
+       "surface": "تتقي",
+       "alignment": "^0ت^1^2",
+       "cell_n": 183,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|اِسْتَفْعَلَ",
+     "n": 163,
+     "modal_support": 147,
+     "n_exceptions": 16,
+     "n_explained_by_positional": 16,
+     "examples": [
+      {
+       "root": "تار",
+       "surface": "استتار",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 163,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "استتاب",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 163,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "استتاب",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 163,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تار",
+       "surface": "استتار",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 163,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَعَّلَ",
+     "n": 3339,
+     "modal_support": 3289,
+     "n_exceptions": 50,
+     "n_explained_by_positional": 50,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تقد",
+       "surface": "تتقد",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تسع",
+       "surface": "تتسع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِنْفِعَال",
+     "n": 92,
+     "modal_support": 91,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "انن",
+       "surface": "انانان",
+       "alignment": "^0^1ا^2ان",
+       "cell_n": 92,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَاعَلَ",
+     "n": 818,
+     "modal_support": 808,
+     "n_exceptions": 10,
+     "n_explained_by_positional": 10,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|فُعْلَان",
+     "n": 290,
+     "modal_support": 289,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "ميسن",
+       "surface": "ميسان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 290,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|فَعِيل",
+     "n": 230,
+     "modal_support": 223,
+     "n_exceptions": 7,
+     "n_explained_by_positional": 7,
+     "examples": [
+      {
+       "root": "ثدي",
+       "surface": "ثديي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 230,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ردي",
+       "surface": "رديي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 230,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "كمي",
+       "surface": "كميي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 230,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متي",
+       "surface": "متيي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 230,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|مَفْعَل",
+     "n": 583,
+     "modal_support": 544,
+     "n_exceptions": 39,
+     "n_explained_by_positional": 39,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 583,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 583,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 583,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميت",
+       "surface": "مميت",
+       "alignment": "^0م^1^2",
+       "cell_n": 583,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|مَفْعُول",
+     "n": 444,
+     "modal_support": 428,
+     "n_exceptions": 16,
+     "n_explained_by_positional": 16,
+     "examples": [
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منن",
+       "surface": "ممنون",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|مَفَاعِل",
+     "n": 180,
+     "modal_support": 177,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "مسا",
+       "surface": "مماسا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 180,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ملا",
+       "surface": "ممالا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 180,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متا",
+       "surface": "مماتا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 180,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|تَفْعِيل",
+     "n": 433,
+     "modal_support": 424,
+     "n_exceptions": 9,
+     "n_explained_by_positional": 9,
+     "examples": [
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 433,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|يَفْعَلُ",
+     "n": 152,
+     "modal_support": 149,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|مُتَفَعِّل",
+     "n": 275,
+     "modal_support": 249,
+     "n_exceptions": 26,
+     "n_explained_by_positional": 26,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 275,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 275,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 275,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ماس",
+       "surface": "متماس",
+       "alignment": "^0تم^1^2",
+       "cell_n": 275,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|فَاعِل",
+     "n": 255,
+     "modal_support": 238,
+     "n_exceptions": 17,
+     "n_explained_by_positional": 17,
+     "examples": [
+      {
+       "root": "ماد",
+       "surface": "مااد",
+       "alignment": "^0^1ا^2",
+       "cell_n": 255,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "زاب",
+       "surface": "زااب",
+       "alignment": "^0^1ا^2",
+       "cell_n": 255,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "باز",
+       "surface": "بااز",
+       "alignment": "^0^1ا^2",
+       "cell_n": 255,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "كاج",
+       "surface": "كااج",
+       "alignment": "^0^1ا^2",
+       "cell_n": 255,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|يَفْعَلُ",
+     "n": 243,
+     "modal_support": 233,
+     "n_exceptions": 10,
+     "n_explained_by_positional": 10,
+     "examples": [
+      {
+       "root": "يبس",
+       "surface": "ييبس",
+       "alignment": "^0ي^1^2",
+       "cell_n": 243,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "ييسر",
+       "alignment": "^0ي^1^2",
+       "cell_n": 243,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يبس",
+       "surface": "ييبس",
+       "alignment": "^0ي^1^2",
+       "cell_n": 243,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يهم",
+       "surface": "ييهم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 243,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|مُفْتَعِل",
+     "n": 95,
+     "modal_support": 93,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "مها",
+       "surface": "ممتها",
+       "alignment": "^0مت^1^2",
+       "cell_n": 95,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مرا",
+       "surface": "ممترا",
+       "alignment": "^0مت^1^2",
+       "cell_n": 95,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|أَفْعَال",
+     "n": 263,
+     "modal_support": 245,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 263,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 263,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 263,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 263,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|مُتَفَعِّل",
+     "n": 46,
+     "modal_support": 44,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "منا",
+       "surface": "متمنا",
+       "alignment": "^0تم^1^2",
+       "cell_n": 46,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منا",
+       "surface": "متمنا",
+       "alignment": "^0تم^1^2",
+       "cell_n": 46,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِنْفَعَلَ",
+     "n": 315,
+     "modal_support": 311,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "نسب",
+       "surface": "اننسب",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نظم",
+       "surface": "اننظم",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نهر",
+       "surface": "اننهر",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نظر",
+       "surface": "اننظر",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|مَفْعَل",
+     "n": 239,
+     "modal_support": 235,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "ملل",
+       "surface": "مملل",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 239,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|فِعَال",
+     "n": 31,
+     "modal_support": 17,
+     "n_exceptions": 14,
+     "n_explained_by_positional": 14,
+     "examples": [
+      {
+       "root": "بها",
+       "surface": "بهاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 31,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قلا",
+       "surface": "قلاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 31,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سبا",
+       "surface": "سباا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 31,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سلا",
+       "surface": "سلاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 31,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|فُعْلَان",
+     "n": 957,
+     "modal_support": 776,
+     "n_exceptions": 181,
+     "n_explained_by_positional": 89,
+     "examples": [
+      {
+       "root": "رجحن",
+       "surface": "رجحان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "برهن",
+       "surface": "برهان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قربت",
+       "surface": "قربات",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "بلسن",
+       "surface": "بلسان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَعْلَلَ",
+     "n": 59,
+     "modal_support": 54,
+     "n_exceptions": 5,
+     "n_explained_by_positional": 5,
+     "examples": [
+      {
+       "root": "تلمذ",
+       "surface": "تتلمذ",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترجم",
+       "surface": "تترجم",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|تَفَاعَلَ",
+     "n": 188,
+     "modal_support": 187,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "جاب",
+       "surface": "تجااب",
+       "alignment": "ت^0^1ا^2",
+       "cell_n": 188,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مِفْعَال",
+     "n": 311,
+     "modal_support": 300,
+     "n_exceptions": 11,
+     "n_explained_by_positional": 11,
+     "examples": [
+      {
+       "root": "مرض",
+       "surface": "ممراض",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متز",
+       "surface": "ممتاز",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكان",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متز",
+       "surface": "ممتاز",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِسْتِفْعَال",
+     "n": 553,
+     "modal_support": 537,
+     "n_exceptions": 16,
+     "n_explained_by_positional": 16,
+     "examples": [
+      {
+       "root": "سلم",
+       "surface": "استسلام",
+       "alignment": "ا^0تس^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|مُفْتَعِل",
+     "n": 121,
+     "modal_support": 101,
+     "n_exceptions": 20,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 121,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 121,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 121,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 121,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|اِفْتَعَلَ",
+     "n": 85,
+     "modal_support": 84,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "ثتي",
+       "surface": "اثتتي",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 85,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|فُعْلَان",
+     "n": 40,
+     "modal_support": 29,
+     "n_exceptions": 11,
+     "n_explained_by_positional": 11,
+     "examples": [
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 40,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 40,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 40,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 40,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|فَعِيل",
+     "n": 58,
+     "modal_support": 47,
+     "n_exceptions": 11,
+     "n_explained_by_positional": 11,
+     "examples": [
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 58,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 58,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وصي",
+       "surface": "وصيي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 58,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ابي",
+       "surface": "ابيي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 58,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِسْتَفْعَلَ",
+     "n": 336,
+     "modal_support": 320,
+     "n_exceptions": 16,
+     "n_explained_by_positional": 16,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "استتبع",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سلم",
+       "surface": "استسلم",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتبع",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبت",
+       "surface": "استتبت",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|فُعْلَان",
+     "n": 138,
+     "modal_support": 136,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "البن",
+       "surface": "البان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 138,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "البن",
+       "surface": "البان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 138,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|فَاعِل",
+     "n": 114,
+     "modal_support": 113,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "كاي",
+       "surface": "كااي",
+       "alignment": "^0^1ا^2",
+       "cell_n": 114,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|مَفَاعِل",
+     "n": 262,
+     "modal_support": 261,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "ممايز",
+       "alignment": "^0ما^1^2",
+       "cell_n": 262,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|يَتَفَعَّلُ",
+     "n": 89,
+     "modal_support": 86,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|مَفْعُول",
+     "n": 42,
+     "modal_support": 40,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "ملا",
+       "surface": "مملوا",
+       "alignment": "^0م^1و^2",
+       "cell_n": 42,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "محا",
+       "surface": "ممحوا",
+       "alignment": "^0م^1و^2",
+       "cell_n": 42,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|فُعْلَان",
+     "n": 23,
+     "modal_support": 17,
+     "n_exceptions": 6,
+     "n_explained_by_positional": 6,
+     "examples": [
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "بغدد",
+       "surface": "بغداد",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|اِسْتَفْعَلَ",
+     "n": 13,
+     "modal_support": 12,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "اشا",
+       "surface": "استاشا",
+       "alignment": "^0ستا^1^2",
+       "cell_n": 13,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|فَعَالِيل",
+     "n": 151,
+     "modal_support": 102,
+     "n_exceptions": 49,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "دمل",
+       "surface": "دماميل",
+       "alignment": "^0^1امي^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "دنر",
+       "surface": "دنانير",
+       "alignment": "^0^1اني^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "سلم",
+       "surface": "سلاليم",
+       "alignment": "^0^1الي^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "دنر",
+       "surface": "دنانير",
+       "alignment": "^0^1اني^2",
+       "cell_n": 151,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|فَوْعَل",
+     "n": 76,
+     "modal_support": 63,
+     "n_exceptions": 13,
+     "n_explained_by_positional": 13,
+     "examples": [
+      {
+       "root": "لوا",
+       "surface": "لووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 76,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نوا",
+       "surface": "نووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 76,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "روا",
+       "surface": "رووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 76,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نوي",
+       "surface": "نووي",
+       "alignment": "^0^1و^2",
+       "cell_n": 76,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|فَعَائِل",
+     "n": 26,
+     "modal_support": 25,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "هلا",
+       "surface": "هلائا",
+       "alignment": "^0^1^2ئا",
+       "cell_n": 26,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|فَعَالِيل",
+     "n": 3,
+     "modal_support": 1,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "وهبل",
+       "surface": "وهابيل",
+       "alignment": "^0^1ا^2ي^3",
+       "cell_n": 3,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ولن",
+       "surface": "ولالين",
+       "alignment": "^0^1الي^2",
+       "cell_n": 3,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|مُفْتَعِل",
+     "n": 15,
+     "modal_support": 13,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "اتا",
+       "surface": "ماتتا",
+       "alignment": "م^0^1ت^2",
+       "cell_n": 15,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اتا",
+       "surface": "ماتتا",
+       "alignment": "م^0^1ت^2",
+       "cell_n": 15,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|يَفْتَعِلُ",
+     "n": 23,
+     "modal_support": 16,
+     "n_exceptions": 7,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 23,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|اِسْتَفْعَلَ",
+     "n": 29,
+     "modal_support": 24,
+     "n_exceptions": 5,
+     "n_explained_by_positional": 5,
+     "examples": [
+      {
+       "root": "تري",
+       "surface": "استتري",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 29,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سقي",
+       "surface": "استسقي",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 29,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سعا",
+       "surface": "استسعا",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 29,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سعا",
+       "surface": "استسعا",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 29,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|اِسْتَفْعَلَ",
+     "n": 55,
+     "modal_support": 51,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "اسم",
+       "surface": "استاسم",
+       "alignment": "^0^1تاس^2",
+       "cell_n": 55,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اذن",
+       "surface": "استاذن",
+       "alignment": "^0ستا^1^2",
+       "cell_n": 55,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "الت",
+       "surface": "استالت",
+       "alignment": "^0ستا^1^2",
+       "cell_n": 55,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اخر",
+       "surface": "استاخر",
+       "alignment": "^0ستا^1^2",
+       "cell_n": 55,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|مَفْعُول",
+     "n": 9,
+     "modal_support": 8,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "ميس",
+       "surface": "مميوس",
+       "alignment": "^0م^1و^2",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|اِسْتِفْعَال",
+     "n": 13,
+     "modal_support": 12,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "ارن",
+       "surface": "استاران",
+       "alignment": "^0ستا^1ا^2",
+       "cell_n": 13,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MAHMUZ|أَفْعَلَ",
+     "n": 16,
+     "modal_support": 15,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "أصل",
+       "surface": "أأصل",
+       "alignment": "^0أ^1^2",
+       "cell_n": 16,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|اِنْفَعَلَ",
+     "n": 16,
+     "modal_support": 15,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "نخا",
+       "surface": "اننخا",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 16,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|فَوَاعِل",
+     "n": 32,
+     "modal_support": 31,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "زوي",
+       "surface": "زواوي",
+       "alignment": "^0^1او^2",
+       "cell_n": 32,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|يَفْتَعِلُ",
+     "n": 7,
+     "modal_support": 6,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "يدي",
+       "surface": "ييتدي",
+       "alignment": "^0يت^1^2",
+       "cell_n": 7,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|فَعَالِيل",
+     "n": 2,
+     "modal_support": 1,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "جنن",
+       "surface": "جنانين",
+       "alignment": "^0^1ا^2ين",
+       "cell_n": 2,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|فِعَال",
+     "n": 63,
+     "modal_support": 42,
+     "n_exceptions": 21,
+     "n_explained_by_positional": 21,
+     "examples": [
+      {
+       "root": "ادا",
+       "surface": "اداا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 63,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "الا",
+       "surface": "الاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 63,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اتا",
+       "surface": "اتاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 63,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اقا",
+       "surface": "اقاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 63,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF|اِنْفَعَلَ",
+     "n": 14,
+     "modal_support": 12,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "اتا",
+       "surface": "اناتا",
+       "alignment": "^0نا^1^2",
+       "cell_n": 14,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اثا",
+       "surface": "اناثا",
+       "alignment": "^0نا^1^2",
+       "cell_n": 14,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِنْفَعَلَ",
+     "n": 6,
+     "modal_support": 5,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "نكك",
+       "surface": "اننكك",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 6,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF|فَوَاعِل",
+     "n": 24,
+     "modal_support": 21,
+     "n_exceptions": 3,
+     "n_explained_by_positional": 3,
+     "examples": [
+      {
+       "root": "هول",
+       "surface": "هواول",
+       "alignment": "^0^1او^2",
+       "cell_n": 24,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "هول",
+       "surface": "هواول",
+       "alignment": "^0^1او^2",
+       "cell_n": 24,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دون",
+       "surface": "دواون",
+       "alignment": "^0^1او^2",
+       "cell_n": 24,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|اِنْفِعَال",
+     "n": 4,
+     "modal_support": 3,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "اكح",
+       "surface": "اناكاح",
+       "alignment": "^0نا^1ا^2",
+       "cell_n": 4,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|اِنْفَعَلَ",
+     "n": 9,
+     "modal_support": 5,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "يهم",
+       "surface": "انيهم",
+       "alignment": "ان^0^1^2",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وتد",
+       "surface": "انوتد",
+       "alignment": "ان^0^1^2",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ورد",
+       "surface": "انورد",
+       "alignment": "ان^0^1^2",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وفن",
+       "surface": "انوفن",
+       "alignment": "ان^0^1^2",
+       "cell_n": 9,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL|اِفْتِعَال",
+     "n": 7,
+     "modal_support": 5,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "ادل",
+       "surface": "ااتدال",
+       "alignment": "^0ات^1ا^2",
+       "cell_n": 7,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "افق",
+       "surface": "ااتفاق",
+       "alignment": "^0ات^1ا^2",
+       "cell_n": 7,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF|اِفْتَعَلَ",
+     "n": 16,
+     "modal_support": 15,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "بتت",
+       "surface": "ابتتت",
+       "alignment": "ا^0^1^2ت",
+       "cell_n": 16,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS|فَعَالِيل",
+     "n": 3,
+     "modal_support": 1,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "رصا",
+       "surface": "رصاصيا",
+       "alignment": "^0^1^2صيا",
+       "cell_n": 3,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "ضبا",
+       "surface": "ضبابيا",
+       "alignment": "^0^1^2بيا",
+       "cell_n": 3,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    }
+   ]
+  },
+  "positional": {
+   "n_cells": 462,
+   "n_exception_cells": 72,
+   "n_exception_observations": 1060,
+   "cells_all_exceptions_explained": 62,
+   "cells_partly_explained": 3,
+   "cells_no_exception_explained": 7,
+   "rows": [
+    {
+     "cell": "MUDAAF_12|فَعَلَ",
+     "n": 3498,
+     "modal_support": 3438,
+     "n_exceptions": 60,
+     "n_explained_by_strict7": 0,
+     "examples": [
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3498,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3498,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "ملل",
+       "surface": "ملل",
+       "alignment": "^0^1^2",
+       "cell_n": 3498,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "سبب",
+       "surface": "سبب",
+       "alignment": "^0^1^2",
+       "cell_n": 3498,
+       "own_illa": "strict7",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفْعُول",
+     "n": 2167,
+     "modal_support": 2096,
+     "n_exceptions": 71,
+     "n_explained_by_strict7": 71,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مدح",
+       "surface": "ممدوح",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2167,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِفْتِعَال",
+     "n": 1429,
+     "modal_support": 1411,
+     "n_exceptions": 18,
+     "n_explained_by_strict7": 18,
+     "examples": [
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "فتن",
+       "surface": "افتتان",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "قتل",
+       "surface": "اقتتال",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1429,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفْعَل",
+     "n": 3889,
+     "modal_support": 3778,
+     "n_exceptions": 111,
+     "n_explained_by_strict7": 111,
+     "examples": [
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 3889,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مُفْتَعِل",
+     "n": 1073,
+     "modal_support": 1007,
+     "n_exceptions": 66,
+     "n_explained_by_strict7": 66,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1073,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مَفَاعِل",
+     "n": 2040,
+     "modal_support": 1988,
+     "n_exceptions": 52,
+     "n_explained_by_strict7": 52,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2040,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|اِسْتِفْعَال",
+     "n": 208,
+     "modal_support": 204,
+     "n_exceptions": 4,
+     "n_explained_by_strict7": 4,
+     "examples": [
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 208,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "سرر",
+       "surface": "استسرار",
+       "alignment": "ا^0تس^1ا^2",
+       "cell_n": 208,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفْعِيل",
+     "n": 2194,
+     "modal_support": 2192,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "تبر",
+       "surface": "تتبير",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 2194,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تفر",
+       "surface": "تتفير",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 2194,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|مَفْعَل",
+     "n": 171,
+     "modal_support": 168,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "مسا",
+       "surface": "ممسا",
+       "alignment": "^0م^1^2",
+       "cell_n": 171,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منا",
+       "surface": "ممنا",
+       "alignment": "^0م^1^2",
+       "cell_n": 171,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مرا",
+       "surface": "ممرا",
+       "alignment": "^0م^1^2",
+       "cell_n": 171,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِفْتَعَلَ",
+     "n": 836,
+     "modal_support": 825,
+     "n_exceptions": 11,
+     "n_explained_by_strict7": 11,
+     "examples": [
+      {
+       "root": "فتن",
+       "surface": "افتتن",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ستر",
+       "surface": "استتر",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 836,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_و|تَفَعَّلَ",
+     "n": 441,
+     "modal_support": 434,
+     "n_exceptions": 7,
+     "n_explained_by_strict7": 7,
+     "examples": [
+      {
+       "root": "توب",
+       "surface": "تتوب",
+       "alignment": "^0ت^1^2",
+       "cell_n": 441,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تور",
+       "surface": "تتور",
+       "alignment": "^0ت^1^2",
+       "cell_n": 441,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تور",
+       "surface": "تتور",
+       "alignment": "^0ت^1^2",
+       "cell_n": 441,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "توع",
+       "surface": "تتوع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 441,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مُتَفَعِّل",
+     "n": 717,
+     "modal_support": 669,
+     "n_exceptions": 48,
+     "n_explained_by_strict7": 48,
+     "examples": [
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مسك",
+       "surface": "متمسك",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 717,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_و|تَفْعِيل",
+     "n": 317,
+     "modal_support": 316,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "توع",
+       "surface": "تتويع",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 317,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|يَفْتَعِلُ",
+     "n": 645,
+     "modal_support": 631,
+     "n_exceptions": 14,
+     "n_explained_by_strict7": 9,
+     "examples": [
+      {
+       "root": "جمع",
+       "surface": "تجتمع",
+       "alignment": "ت^0ت^1^2",
+       "cell_n": 645,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "قتل",
+       "surface": "يقتتل",
+       "alignment": "ي^0^1ت^2",
+       "cell_n": 645,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "جمع",
+       "surface": "تجتمع",
+       "alignment": "ت^0ت^1^2",
+       "cell_n": 645,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "ستر",
+       "surface": "يستتر",
+       "alignment": "ي^0^1ت^2",
+       "cell_n": 645,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ا|اِسْتَفْعَلَ",
+     "n": 138,
+     "modal_support": 122,
+     "n_exceptions": 16,
+     "n_explained_by_strict7": 16,
+     "examples": [
+      {
+       "root": "تار",
+       "surface": "استتار",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 138,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "استتاب",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 138,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "استتاب",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 138,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تار",
+       "surface": "استتار",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 138,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَعَّلَ",
+     "n": 3339,
+     "modal_support": 3289,
+     "n_exceptions": 50,
+     "n_explained_by_strict7": 50,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تقد",
+       "surface": "تتقد",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تسع",
+       "surface": "تتسع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 3339,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|اِنْفِعَال",
+     "n": 91,
+     "modal_support": 90,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "انن",
+       "surface": "انانان",
+       "alignment": "^0^1ا^2ان",
+       "cell_n": 91,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَاعَلَ",
+     "n": 818,
+     "modal_support": 808,
+     "n_exceptions": 10,
+     "n_explained_by_strict7": 10,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 818,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ي|تَفَعَّلَ",
+     "n": 423,
+     "modal_support": 418,
+     "n_exceptions": 5,
+     "n_explained_by_strict7": 5,
+     "examples": [
+      {
+       "root": "تيس",
+       "surface": "تتيس",
+       "alignment": "^0ت^1^2",
+       "cell_n": 423,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تيع",
+       "surface": "تتيع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 423,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تيح",
+       "surface": "تتيح",
+       "alignment": "^0ت^1^2",
+       "cell_n": 423,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تير",
+       "surface": "تتير",
+       "alignment": "^0ت^1^2",
+       "cell_n": 423,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_و|مَفْعَل",
+     "n": 159,
+     "modal_support": 151,
+     "n_exceptions": 8,
+     "n_explained_by_strict7": 8,
+     "examples": [
+      {
+       "root": "موه",
+       "surface": "مموه",
+       "alignment": "^0م^1^2",
+       "cell_n": 159,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "موه",
+       "surface": "مموه",
+       "alignment": "^0م^1^2",
+       "cell_n": 159,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مول",
+       "surface": "ممول",
+       "alignment": "^0م^1^2",
+       "cell_n": 159,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "موه",
+       "surface": "مموه",
+       "alignment": "^0م^1^2",
+       "cell_n": 159,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|مَفْعُول",
+     "n": 444,
+     "modal_support": 428,
+     "n_exceptions": 16,
+     "n_explained_by_strict7": 16,
+     "examples": [
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منن",
+       "surface": "ممنون",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدود",
+       "alignment": "^0م^1و^2",
+       "cell_n": 444,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|مَفَاعِل",
+     "n": 136,
+     "modal_support": 133,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "مسا",
+       "surface": "مماسا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 136,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ملا",
+       "surface": "ممالا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 136,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "متا",
+       "surface": "مماتا",
+       "alignment": "^0ما^1^2",
+       "cell_n": 136,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|تَفْعِيل",
+     "n": 432,
+     "modal_support": 423,
+     "n_exceptions": 9,
+     "n_explained_by_strict7": 9,
+     "examples": [
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 432,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 432,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 432,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 432,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|يَفْعَلُ",
+     "n": 152,
+     "modal_support": 149,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 152,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ي|مُتَفَعِّل",
+     "n": 95,
+     "modal_support": 85,
+     "n_exceptions": 10,
+     "n_explained_by_strict7": 10,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 95,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 95,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 95,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 95,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ي|مَفْعَل",
+     "n": 238,
+     "modal_support": 210,
+     "n_exceptions": 28,
+     "n_explained_by_strict7": 28,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ميت",
+       "surface": "مميت",
+       "alignment": "^0م^1^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|مُفْتَعِل",
+     "n": 57,
+     "modal_support": 55,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "مها",
+       "surface": "ممتها",
+       "alignment": "^0مت^1^2",
+       "cell_n": 57,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مرا",
+       "surface": "ممترا",
+       "alignment": "^0مت^1^2",
+       "cell_n": 57,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL_و|أَفْعَال",
+     "n": 238,
+     "modal_support": 220,
+     "n_exceptions": 18,
+     "n_explained_by_strict7": 0,
+     "examples": [
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 238,
+       "own_illa": "strict7",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|مُتَفَعِّل",
+     "n": 34,
+     "modal_support": 32,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "منا",
+       "surface": "متمنا",
+       "alignment": "^0تم^1^2",
+       "cell_n": 34,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "منا",
+       "surface": "متمنا",
+       "alignment": "^0تم^1^2",
+       "cell_n": 34,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِنْفَعَلَ",
+     "n": 315,
+     "modal_support": 311,
+     "n_exceptions": 4,
+     "n_explained_by_strict7": 4,
+     "examples": [
+      {
+       "root": "نسب",
+       "surface": "اننسب",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "نظم",
+       "surface": "اننظم",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "نهر",
+       "surface": "اننهر",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "نظر",
+       "surface": "اننظر",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 315,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ي|تَفَعَّلَ",
+     "n": 123,
+     "modal_support": 121,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "تقي",
+       "surface": "تتقي",
+       "alignment": "^0ت^1^2",
+       "cell_n": 123,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تقي",
+       "surface": "تتقي",
+       "alignment": "^0ت^1^2",
+       "cell_n": 123,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|مَفْعَل",
+     "n": 235,
+     "modal_support": 231,
+     "n_exceptions": 4,
+     "n_explained_by_strict7": 4,
+     "examples": [
+      {
+       "root": "ملل",
+       "surface": "مملل",
+       "alignment": "^0م^1^2",
+       "cell_n": 235,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 235,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 235,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مدد",
+       "surface": "ممدد",
+       "alignment": "^0م^1^2",
+       "cell_n": 235,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|فُعْلَان",
+     "n": 957,
+     "modal_support": 776,
+     "n_exceptions": 181,
+     "n_explained_by_strict7": 89,
+     "examples": [
+      {
+       "root": "رجحن",
+       "surface": "رجحان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "برهن",
+       "surface": "برهان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "قربت",
+       "surface": "قربات",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "بلسن",
+       "surface": "بلسان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 957,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|تَفَعْلَلَ",
+     "n": 59,
+     "modal_support": 54,
+     "n_exceptions": 5,
+     "n_explained_by_strict7": 5,
+     "examples": [
+      {
+       "root": "تلمذ",
+       "surface": "تتلمذ",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ترجم",
+       "surface": "تترجم",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 59,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|مِفْعَال",
+     "n": 311,
+     "modal_support": 300,
+     "n_exceptions": 11,
+     "n_explained_by_strict7": 11,
+     "examples": [
+      {
+       "root": "مرض",
+       "surface": "ممراض",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "متز",
+       "surface": "ممتاز",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكان",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "متز",
+       "surface": "ممتاز",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 311,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_و|مُتَفَعِّل",
+     "n": 131,
+     "modal_support": 126,
+     "n_exceptions": 5,
+     "n_explained_by_strict7": 5,
+     "examples": [
+      {
+       "root": "موج",
+       "surface": "متموج",
+       "alignment": "^0تم^1^2",
+       "cell_n": 131,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "موج",
+       "surface": "متموج",
+       "alignment": "^0تم^1^2",
+       "cell_n": 131,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مول",
+       "surface": "متمول",
+       "alignment": "^0تم^1^2",
+       "cell_n": 131,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مول",
+       "surface": "متمول",
+       "alignment": "^0تم^1^2",
+       "cell_n": 131,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ا|تَفَعَّلَ",
+     "n": 168,
+     "modal_support": 165,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "تار",
+       "surface": "تتار",
+       "alignment": "^0ت^1^2",
+       "cell_n": 168,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "تتاب",
+       "alignment": "^0ت^1^2",
+       "cell_n": 168,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تال",
+       "surface": "تتال",
+       "alignment": "^0ت^1^2",
+       "cell_n": 168,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِسْتِفْعَال",
+     "n": 553,
+     "modal_support": 537,
+     "n_exceptions": 16,
+     "n_explained_by_strict7": 16,
+     "examples": [
+      {
+       "root": "سلم",
+       "surface": "استسلام",
+       "alignment": "ا^0تس^1ا^2",
+       "cell_n": 553,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 553,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ا|مَفْعَل",
+     "n": 186,
+     "modal_support": 183,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "مان",
+       "surface": "ممان",
+       "alignment": "^0م^1^2",
+       "cell_n": 186,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مار",
+       "surface": "ممار",
+       "alignment": "^0م^1^2",
+       "cell_n": 186,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "مار",
+       "surface": "ممار",
+       "alignment": "^0م^1^2",
+       "cell_n": 186,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_و|مُفْتَعِل",
+     "n": 109,
+     "modal_support": 89,
+     "n_exceptions": 20,
+     "n_explained_by_strict7": 0,
+     "examples": [
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 109,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 109,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 109,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "محتاج",
+       "alignment": "م^0تا^2",
+       "cell_n": 109,
+       "own_illa": "strict7",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_02|فُعْلَان",
+     "n": 20,
+     "modal_support": 10,
+     "n_exceptions": 10,
+     "n_explained_by_strict7": 10,
+     "examples": [
+      {
+       "root": "وصي",
+       "surface": "وصيان",
+       "alignment": "^0^1^2ان",
+       "cell_n": 20,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ولي",
+       "surface": "وليان",
+       "alignment": "^0^1^2ان",
+       "cell_n": 20,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "وعي",
+       "surface": "وعيان",
+       "alignment": "^0^1^2ان",
+       "cell_n": 20,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "وخي",
+       "surface": "وخيان",
+       "alignment": "^0^1^2ان",
+       "cell_n": 20,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_02|فَعِيل",
+     "n": 38,
+     "modal_support": 29,
+     "n_exceptions": 9,
+     "n_explained_by_strict7": 9,
+     "examples": [
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 38,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 38,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "وصي",
+       "surface": "وصيي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 38,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ابي",
+       "surface": "ابيي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 38,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ا|مُتَفَعِّل",
+     "n": 49,
+     "modal_support": 38,
+     "n_exceptions": 11,
+     "n_explained_by_strict7": 11,
+     "examples": [
+      {
+       "root": "ماس",
+       "surface": "متماس",
+       "alignment": "^0تم^1^2",
+       "cell_n": 49,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ماس",
+       "surface": "متماس",
+       "alignment": "^0تم^1^2",
+       "cell_n": 49,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ماس",
+       "surface": "متماس",
+       "alignment": "^0تم^1^2",
+       "cell_n": 49,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ماس",
+       "surface": "متماس",
+       "alignment": "^0تم^1^2",
+       "cell_n": 49,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|اِسْتَفْعَلَ",
+     "n": 336,
+     "modal_support": 320,
+     "n_exceptions": 16,
+     "n_explained_by_strict7": 16,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "استتبع",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "سلم",
+       "surface": "استسلم",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 336,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتبع",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تبت",
+       "surface": "استتبت",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 336,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_12|فَاعِل",
+     "n": 58,
+     "modal_support": 57,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "كاي",
+       "surface": "كااي",
+       "alignment": "^0^1ا^2",
+       "cell_n": 58,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|يَتَفَعَّلُ",
+     "n": 89,
+     "modal_support": 86,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 89,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ي|فُعْلَان",
+     "n": 158,
+     "modal_support": 157,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "ميسن",
+       "surface": "ميسان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 158,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|مَفْعُول",
+     "n": 29,
+     "modal_support": 27,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "ملا",
+       "surface": "مملوا",
+       "alignment": "^0م^1و^2",
+       "cell_n": 29,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "محا",
+       "surface": "ممحوا",
+       "alignment": "^0م^1و^2",
+       "cell_n": 29,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|تَفَعَّلَ",
+     "n": 57,
+     "modal_support": 56,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "تشا",
+       "surface": "تتشا",
+       "alignment": "^0ت^1^2",
+       "cell_n": 57,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL_ا|فُعْلَان",
+     "n": 24,
+     "modal_support": 22,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "البن",
+       "surface": "البان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 24,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "البن",
+       "surface": "البان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 24,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ي|اِفْتَعَلَ",
+     "n": 37,
+     "modal_support": 36,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "ثتي",
+       "surface": "اثتتي",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 37,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_01|فَاعِل",
+     "n": 16,
+     "modal_support": 13,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "ققق",
+       "surface": "قاق",
+       "alignment": "^0ا^1",
+       "cell_n": 16,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ققق",
+       "surface": "قاق",
+       "alignment": "^0ا^1",
+       "cell_n": 16,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ننن",
+       "surface": "نان",
+       "alignment": "^0ا^1",
+       "cell_n": 16,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ي|مَفَاعِل",
+     "n": 96,
+     "modal_support": 95,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "ممايز",
+       "alignment": "^0ما^1^2",
+       "cell_n": 96,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "SAHIH|فَعَالِيل",
+     "n": 151,
+     "modal_support": 102,
+     "n_exceptions": 49,
+     "n_explained_by_strict7": 0,
+     "examples": [
+      {
+       "root": "دمل",
+       "surface": "دماميل",
+       "alignment": "^0^1امي^2",
+       "cell_n": 151,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "دنر",
+       "surface": "دنانير",
+       "alignment": "^0^1اني^2",
+       "cell_n": 151,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "سلم",
+       "surface": "سلاليم",
+       "alignment": "^0^1الي^2",
+       "cell_n": 151,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "دنر",
+       "surface": "دنانير",
+       "alignment": "^0^1اني^2",
+       "cell_n": 151,
+       "own_illa": "strict7",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_12|فَوْعَل",
+     "n": 41,
+     "modal_support": 29,
+     "n_exceptions": 12,
+     "n_explained_by_strict7": 12,
+     "examples": [
+      {
+       "root": "لوا",
+       "surface": "لووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 41,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "نوا",
+       "surface": "نووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 41,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "روا",
+       "surface": "رووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 41,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "نوي",
+       "surface": "نووي",
+       "alignment": "^0^1و^2",
+       "cell_n": 41,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_و|يَفْتَعِلُ",
+     "n": 17,
+     "modal_support": 10,
+     "n_exceptions": 7,
+     "n_explained_by_strict7": 0,
+     "examples": [
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 17,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 17,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 17,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 17,
+       "own_illa": "strict7",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ي|اِسْتَفْعَلَ",
+     "n": 9,
+     "modal_support": 6,
+     "n_exceptions": 3,
+     "n_explained_by_strict7": 3,
+     "examples": [
+      {
+       "root": "تري",
+       "surface": "استتري",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 9,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "سقي",
+       "surface": "استسقي",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 9,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "تري",
+       "surface": "استتري",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 9,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "AJWAF_ي|مَفْعُول",
+     "n": 9,
+     "modal_support": 8,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "ميس",
+       "surface": "مميوس",
+       "alignment": "^0م^1و^2",
+       "cell_n": 9,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|اِسْتَفْعَلَ",
+     "n": 20,
+     "modal_support": 18,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "سعا",
+       "surface": "استسعا",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 20,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "سعا",
+       "surface": "استسعا",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 20,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MAHMUZ|أَفْعَلَ",
+     "n": 16,
+     "modal_support": 15,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "أصل",
+       "surface": "أأصل",
+       "alignment": "^0أ^1^2",
+       "cell_n": 16,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|اِنْفَعَلَ",
+     "n": 14,
+     "modal_support": 13,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "نخا",
+       "surface": "اننخا",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 14,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_12|فَوَاعِل",
+     "n": 23,
+     "modal_support": 22,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "زوي",
+       "surface": "زواوي",
+       "alignment": "^0^1او^2",
+       "cell_n": 23,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_02|اِسْتَفْعَلَ",
+     "n": 5,
+     "modal_support": 4,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "اشا",
+       "surface": "استاشا",
+       "alignment": "^0ستا^1^2",
+       "cell_n": 5,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_01|فَعَلَ",
+     "n": 31,
+     "modal_support": 23,
+     "n_exceptions": 8,
+     "n_explained_by_strict7": 8,
+     "examples": [
+      {
+       "root": "ننن",
+       "surface": "نن",
+       "alignment": "^0^1",
+       "cell_n": 31,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ببب",
+       "surface": "بب",
+       "alignment": "^0^1",
+       "cell_n": 31,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ببب",
+       "surface": "بب",
+       "alignment": "^0^1",
+       "cell_n": 31,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ببب",
+       "surface": "بب",
+       "alignment": "^0^1",
+       "cell_n": 31,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|فَعَالِيل",
+     "n": 2,
+     "modal_support": 1,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 0,
+     "examples": [
+      {
+       "root": "جنن",
+       "surface": "جنانين",
+       "alignment": "^0^1ا^2ين",
+       "cell_n": 2,
+       "own_illa": "strict7",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL_و|فَعَالِيل",
+     "n": 2,
+     "modal_support": 1,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 0,
+     "examples": [
+      {
+       "root": "ولن",
+       "surface": "ولالين",
+       "alignment": "^0^1الي^2",
+       "cell_n": 2,
+       "own_illa": "strict7",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_01|فَوْعَل",
+     "n": 8,
+     "modal_support": 7,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "اوس",
+       "surface": "اووس",
+       "alignment": "^0^1و^2",
+       "cell_n": 8,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "LAFIF_12|فَعِيل",
+     "n": 8,
+     "modal_support": 6,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 2,
+     "examples": [
+      {
+       "root": "كوي",
+       "surface": "كويي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 8,
+       "own_illa": "strict7",
+       "explained": true
+      },
+      {
+       "root": "ناي",
+       "surface": "نايي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 8,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|اِنْفَعَلَ",
+     "n": 6,
+     "modal_support": 5,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "نكك",
+       "surface": "اننكك",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 6,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MUDAAF_12|اِفْتَعَلَ",
+     "n": 16,
+     "modal_support": 15,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "بتت",
+       "surface": "ابتتت",
+       "alignment": "ا^0^1^2ت",
+       "cell_n": 16,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "MITHAL_ا|اِسْتَفْعَلَ",
+     "n": 4,
+     "modal_support": 3,
+     "n_exceptions": 1,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "اسم",
+       "surface": "استاسم",
+       "alignment": "^0^1تاس^2",
+       "cell_n": 4,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "NAQIS_ا|فَعَالِيل",
+     "n": 3,
+     "modal_support": 1,
+     "n_exceptions": 2,
+     "n_explained_by_strict7": 1,
+     "examples": [
+      {
+       "root": "رصا",
+       "surface": "رصاصيا",
+       "alignment": "^0^1^2صيا",
+       "cell_n": 3,
+       "own_illa": "strict7",
+       "explained": false
+      },
+      {
+       "root": "ضبا",
+       "surface": "ضبابيا",
+       "alignment": "^0^1^2بيا",
+       "cell_n": 3,
+       "own_illa": "strict7",
+       "explained": true
+      }
+     ]
+    }
+   ]
+  },
+  "wazn_only": {
+   "n_cells": 39,
+   "n_exception_cells": 32,
+   "n_exception_observations": 5795,
+   "cells_all_exceptions_explained": 25,
+   "cells_partly_explained": 6,
+   "cells_no_exception_explained": 1,
+   "rows": [
+    {
+     "cell": "*|فَعَلَ",
+     "n": 28608,
+     "modal_support": 25162,
+     "n_exceptions": 3446,
+     "n_explained_by_positional": 3438,
+     "examples": [
+      {
+       "root": "سرر",
+       "surface": "سر",
+       "alignment": "^0^1",
+       "cell_n": 28608,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "حدد",
+       "surface": "حد",
+       "alignment": "^0^1",
+       "cell_n": 28608,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سنن",
+       "surface": "سن",
+       "alignment": "^0^1",
+       "cell_n": 28608,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ربب",
+       "surface": "رب",
+       "alignment": "^0^1",
+       "cell_n": 28608,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|يَفْعَلُ",
+     "n": 5922,
+     "modal_support": 5909,
+     "n_exceptions": 13,
+     "n_explained_by_positional": 13,
+     "examples": [
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 5922,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "ييمم",
+       "alignment": "^0ي^1^2",
+       "cell_n": 5922,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يبس",
+       "surface": "ييبس",
+       "alignment": "^0ي^1^2",
+       "cell_n": 5922,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "ييسر",
+       "alignment": "^0ي^1^2",
+       "cell_n": 5922,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|مَفْعُول",
+     "n": 2993,
+     "modal_support": 2903,
+     "n_exceptions": 90,
+     "n_explained_by_positional": 90,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2993,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مدح",
+       "surface": "ممدوح",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2993,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2993,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممنوع",
+       "alignment": "^0م^1و^2",
+       "cell_n": 2993,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|أَفْعَلَ",
+     "n": 4786,
+     "modal_support": 4785,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "أصل",
+       "surface": "أأصل",
+       "alignment": "^0أ^1^2",
+       "cell_n": 4786,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فَاعِل",
+     "n": 7214,
+     "modal_support": 5988,
+     "n_exceptions": 1226,
+     "n_explained_by_positional": 1223,
+     "examples": [
+      {
+       "root": "غيي",
+       "surface": "غاي",
+       "alignment": "^0ا^1",
+       "cell_n": 7214,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "حرر",
+       "surface": "حار",
+       "alignment": "^0ا^1",
+       "cell_n": 7214,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "عدد",
+       "surface": "عاد",
+       "alignment": "^0ا^1",
+       "cell_n": 7214,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "حجج",
+       "surface": "حاج",
+       "alignment": "^0ا^1",
+       "cell_n": 7214,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|أَفْعَال",
+     "n": 2382,
+     "modal_support": 2364,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 0,
+     "examples": [
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 2382,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 2382,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 2382,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "وحد",
+       "surface": "آحاد",
+       "alignment": "آ^1ا^2",
+       "cell_n": 2382,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "*|اِفْتِعَال",
+     "n": 1772,
+     "modal_support": 1751,
+     "n_exceptions": 21,
+     "n_explained_by_positional": 21,
+     "examples": [
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1772,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتن",
+       "surface": "افتتان",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1772,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ختم",
+       "surface": "اختتام",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1772,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قتل",
+       "surface": "اقتتال",
+       "alignment": "ا^0^1تا^2",
+       "cell_n": 1772,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|مَفْعَل",
+     "n": 5299,
+     "modal_support": 5142,
+     "n_exceptions": 157,
+     "n_explained_by_positional": 157,
+     "examples": [
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 5299,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 5299,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكن",
+       "alignment": "^0م^1^2",
+       "cell_n": 5299,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "مميز",
+       "alignment": "^0م^1^2",
+       "cell_n": 5299,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|مُفْتَعِل",
+     "n": 1334,
+     "modal_support": 1244,
+     "n_exceptions": 90,
+     "n_explained_by_positional": 70,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1334,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1334,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1334,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممتنع",
+       "alignment": "^0مت^1^2",
+       "cell_n": 1334,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|مَفَاعِل",
+     "n": 2722,
+     "modal_support": 2666,
+     "n_exceptions": 56,
+     "n_explained_by_positional": 56,
+     "examples": [
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2722,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "منع",
+       "surface": "ممانع",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2722,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2722,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مثل",
+       "surface": "مماثل",
+       "alignment": "^0ما^1^2",
+       "cell_n": 2722,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فِعَال",
+     "n": 7806,
+     "modal_support": 7771,
+     "n_exceptions": 35,
+     "n_explained_by_positional": 35,
+     "examples": [
+      {
+       "root": "بها",
+       "surface": "بهاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 7806,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ادا",
+       "surface": "اداا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 7806,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "الا",
+       "surface": "الاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 7806,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قلا",
+       "surface": "قلاا",
+       "alignment": "^0^1^2ا",
+       "cell_n": 7806,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|اِسْتِفْعَال",
+     "n": 784,
+     "modal_support": 763,
+     "n_exceptions": 21,
+     "n_explained_by_positional": 21,
+     "examples": [
+      {
+       "root": "سلم",
+       "surface": "استسلام",
+       "alignment": "ا^0تس^1ا^2",
+       "cell_n": 784,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 784,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتباع",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 784,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "استتمام",
+       "alignment": "اس^0ت^1ا^2",
+       "cell_n": 784,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فَوْعَل",
+     "n": 1665,
+     "modal_support": 1634,
+     "n_exceptions": 31,
+     "n_explained_by_positional": 31,
+     "examples": [
+      {
+       "root": "لوا",
+       "surface": "لووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نوا",
+       "surface": "نووا",
+       "alignment": "^0^1و^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قول",
+       "surface": "قوول",
+       "alignment": "^0^1و^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نوه",
+       "surface": "نووه",
+       "alignment": "^0^1و^2",
+       "cell_n": 1665,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|تَفْعِيل",
+     "n": 3429,
+     "modal_support": 3417,
+     "n_exceptions": 12,
+     "n_explained_by_positional": 12,
+     "examples": [
+      {
+       "root": "تبر",
+       "surface": "تتبير",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 3429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 3429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 3429,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تمم",
+       "surface": "تتميم",
+       "alignment": "^0ت^1ي^2",
+       "cell_n": 3429,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|اِنْفِعَال",
+     "n": 685,
+     "modal_support": 683,
+     "n_exceptions": 2,
+     "n_explained_by_positional": 2,
+     "examples": [
+      {
+       "root": "انن",
+       "surface": "انانان",
+       "alignment": "^0^1ا^2ان",
+       "cell_n": 685,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "اكح",
+       "surface": "اناكاح",
+       "alignment": "^0نا^1ا^2",
+       "cell_n": 685,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|اِفْتَعَلَ",
+     "n": 992,
+     "modal_support": 979,
+     "n_exceptions": 13,
+     "n_explained_by_positional": 13,
+     "examples": [
+      {
+       "root": "فتن",
+       "surface": "افتتن",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 992,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ستر",
+       "surface": "استتر",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 992,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 992,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "فتح",
+       "surface": "افتتح",
+       "alignment": "ا^0^1ت^2",
+       "cell_n": 992,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|تَفَعَّلَ",
+     "n": 5513,
+     "modal_support": 5445,
+     "n_exceptions": 68,
+     "n_explained_by_positional": 68,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 5513,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تقد",
+       "surface": "تتقد",
+       "alignment": "^0ت^1^2",
+       "cell_n": 5513,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتبع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 5513,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تسع",
+       "surface": "تتسع",
+       "alignment": "^0ت^1^2",
+       "cell_n": 5513,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|يَتَفَعَّلُ",
+     "n": 843,
+     "modal_support": 834,
+     "n_exceptions": 9,
+     "n_explained_by_positional": 9,
+     "examples": [
+      {
+       "root": "يقن",
+       "surface": "يتيقن",
+       "alignment": "^0تي^1^2",
+       "cell_n": 843,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يسر",
+       "surface": "يتيسر",
+       "alignment": "^0تي^1^2",
+       "cell_n": 843,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 843,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "يمم",
+       "surface": "يتيمم",
+       "alignment": "^0تي^1^2",
+       "cell_n": 843,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فَعِيل",
+     "n": 5294,
+     "modal_support": 5276,
+     "n_exceptions": 18,
+     "n_explained_by_positional": 18,
+     "examples": [
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 5294,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ثدي",
+       "surface": "ثديي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 5294,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ولي",
+       "surface": "وليي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 5294,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وصي",
+       "surface": "وصيي",
+       "alignment": "^0^1^2ي",
+       "cell_n": 5294,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|مُتَفَعِّل",
+     "n": 1325,
+     "modal_support": 1249,
+     "n_exceptions": 76,
+     "n_explained_by_positional": 76,
+     "examples": [
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 1325,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "متمكن",
+       "alignment": "^0تم^1^2",
+       "cell_n": 1325,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ميز",
+       "surface": "متميز",
+       "alignment": "^0تم^1^2",
+       "cell_n": 1325,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مسك",
+       "surface": "متمسك",
+       "alignment": "^0تم^1^2",
+       "cell_n": 1325,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|يَفْتَعِلُ",
+     "n": 750,
+     "modal_support": 728,
+     "n_exceptions": 22,
+     "n_explained_by_positional": 10,
+     "examples": [
+      {
+       "root": "جمع",
+       "surface": "تجتمع",
+       "alignment": "ت^0ت^1^2",
+       "cell_n": 750,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 750,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "حوج",
+       "surface": "يحتاج",
+       "alignment": "ي^0تا^2",
+       "cell_n": 750,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "قتل",
+       "surface": "يقتتل",
+       "alignment": "ي^0^1ت^2",
+       "cell_n": 750,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|اِسْتَفْعَلَ",
+     "n": 620,
+     "modal_support": 578,
+     "n_exceptions": 42,
+     "n_explained_by_positional": 42,
+     "examples": [
+      {
+       "root": "تار",
+       "surface": "استتار",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 620,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تاب",
+       "surface": "استتاب",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 620,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "استتبع",
+       "alignment": "اس^0ت^1^2",
+       "cell_n": 620,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "سلم",
+       "surface": "استسلم",
+       "alignment": "ا^0تس^1^2",
+       "cell_n": 620,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|تَفَاعَلَ",
+     "n": 1229,
+     "modal_support": 1218,
+     "n_exceptions": 11,
+     "n_explained_by_positional": 11,
+     "examples": [
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 1229,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 1229,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 1229,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تبع",
+       "surface": "تتابع",
+       "alignment": "^0تا^1^2",
+       "cell_n": 1229,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فُعْلَان",
+     "n": 1524,
+     "modal_support": 1323,
+     "n_exceptions": 201,
+     "n_explained_by_positional": 109,
+     "examples": [
+      {
+       "root": "رجحن",
+       "surface": "رجحان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 1524,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "برهن",
+       "surface": "برهان",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 1524,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وسوس",
+       "surface": "وسواس",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 1524,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "قربت",
+       "surface": "قربات",
+       "alignment": "^0^1^2ا^3",
+       "cell_n": 1524,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "*|فَوَاعِل",
+     "n": 798,
+     "modal_support": 794,
+     "n_exceptions": 4,
+     "n_explained_by_positional": 4,
+     "examples": [
+      {
+       "root": "هول",
+       "surface": "هواول",
+       "alignment": "^0^1او^2",
+       "cell_n": 798,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "هول",
+       "surface": "هواول",
+       "alignment": "^0^1او^2",
+       "cell_n": 798,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دون",
+       "surface": "دواون",
+       "alignment": "^0^1او^2",
+       "cell_n": 798,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "زوي",
+       "surface": "زواوي",
+       "alignment": "^0^1او^2",
+       "cell_n": 798,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|اِنْفَعَلَ",
+     "n": 431,
+     "modal_support": 418,
+     "n_exceptions": 13,
+     "n_explained_by_positional": 13,
+     "examples": [
+      {
+       "root": "نسب",
+       "surface": "اننسب",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نظم",
+       "surface": "اننظم",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نخا",
+       "surface": "اننخا",
+       "alignment": "ا^0ن^1^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "الن",
+       "surface": "انالن",
+       "alignment": "^0نا^1^2",
+       "cell_n": 431,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|تَفَعْلَلَ",
+     "n": 77,
+     "modal_support": 72,
+     "n_exceptions": 5,
+     "n_explained_by_positional": 5,
+     "examples": [
+      {
+       "root": "تلمذ",
+       "surface": "تتلمذ",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 77,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 77,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترتب",
+       "surface": "تترتب",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 77,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "ترجم",
+       "surface": "تترجم",
+       "alignment": "^0ت^1^2^3",
+       "cell_n": 77,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فَعَائِل",
+     "n": 900,
+     "modal_support": 899,
+     "n_exceptions": 1,
+     "n_explained_by_positional": 1,
+     "examples": [
+      {
+       "root": "هلا",
+       "surface": "هلائا",
+       "alignment": "^0^1^2ئا",
+       "cell_n": 900,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|مِفْعَال",
+     "n": 471,
+     "modal_support": 459,
+     "n_exceptions": 12,
+     "n_explained_by_positional": 12,
+     "examples": [
+      {
+       "root": "مرض",
+       "surface": "ممراض",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 471,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متز",
+       "surface": "ممتاز",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 471,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "نها",
+       "surface": "منهاا",
+       "alignment": "م^0^1^2ا",
+       "cell_n": 471,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مكن",
+       "surface": "ممكان",
+       "alignment": "^0م^1ا^2",
+       "cell_n": 471,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فَعَاوِيل",
+     "n": 45,
+     "modal_support": 30,
+     "n_exceptions": 15,
+     "n_explained_by_positional": 15,
+     "examples": [
+      {
+       "root": "مسا",
+       "surface": "مساويا",
+       "alignment": "^0^1^2ويا",
+       "cell_n": 45,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "تسا",
+       "surface": "تساويا",
+       "alignment": "^0^1^2ويا",
+       "cell_n": 45,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "مسا",
+       "surface": "مساويا",
+       "alignment": "^0^1^2ويا",
+       "cell_n": 45,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "متا",
+       "surface": "متاويا",
+       "alignment": "^0^1^2ويا",
+       "cell_n": 45,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    },
+    {
+     "cell": "*|فَعَالِيل",
+     "n": 162,
+     "modal_support": 103,
+     "n_exceptions": 59,
+     "n_explained_by_positional": 6,
+     "examples": [
+      {
+       "root": "امن",
+       "surface": "امامين",
+       "alignment": "^0^1امي^2",
+       "cell_n": 162,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "دمل",
+       "surface": "دماميل",
+       "alignment": "^0^1امي^2",
+       "cell_n": 162,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "دنر",
+       "surface": "دنانير",
+       "alignment": "^0^1اني^2",
+       "cell_n": 162,
+       "own_illa": "positional",
+       "explained": false
+      },
+      {
+       "root": "سلم",
+       "surface": "سلاليم",
+       "alignment": "^0^1الي^2",
+       "cell_n": 162,
+       "own_illa": "positional",
+       "explained": false
+      }
+     ]
+    },
+    {
+     "cell": "*|فَعَائِيل",
+     "n": 21,
+     "modal_support": 14,
+     "n_exceptions": 7,
+     "n_explained_by_positional": 7,
+     "examples": [
+      {
+       "root": "مرا",
+       "surface": "مرائيا",
+       "alignment": "^0^1^2ئيا",
+       "cell_n": 21,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وجا",
+       "surface": "وجائيا",
+       "alignment": "^0^1^2ئيا",
+       "cell_n": 21,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "غذا",
+       "surface": "غذائيا",
+       "alignment": "^0^1^2ئيا",
+       "cell_n": 21,
+       "own_illa": "positional",
+       "explained": true
+      },
+      {
+       "root": "وما",
+       "surface": "ومائيا",
+       "alignment": "^0^1^2ئيا",
+       "cell_n": 21,
+       "own_illa": "positional",
+       "explained": true
+      }
+     ]
+    }
+   ]
+  },
+  "identity": {
+   "n_cells": 25042,
+   "n_exception_cells": 0,
+   "n_exception_observations": 0,
+   "cells_all_exceptions_explained": 0,
+   "cells_partly_explained": 0,
+   "cells_no_exception_explained": 0,
+   "rows": []
+  }
+ },
+ "identity_cell_size_histogram": {
+  "1": 10066,
+  "2": 4189,
+  "3": 2470,
+  "4": 1710,
+  "5": 1179,
+  "6": 877,
+  "7": 720,
+  "8": 560,
+  "9": 406,
+  "10": 371,
+  "11": 354,
+  "12": 280
+ },
+ "identity_n_impure_cells": 0
+}

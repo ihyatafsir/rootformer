@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "tag": "orig",
+    "base": "Qwen/Qwen2.5-0.5B",
+    "trunk": "ORIGINAL untransmuted Qwen2.5-0.5B (plain HF, no root branch)",
+    "n_train_words": 177694,
+    "n_val_words": 63496,
+    "n_seen": 42253,
+    "n_unseen": 21243,
+    "ridge_lambda": 0.1,
+    "internal_holdout_acc_pct": 1693.961,
+    "peak_vram_mib": 4655.3,
+    "wall_s": 308.4
+  },
+  "marginals": {
+    "val_all": 0.4047,
+    "val_unseen_words": 0.3719,
+    "val_seen_words": 0.4213,
+    "train_all": 0.2257
+  },
+  "val_all": {
+    "n": 63496,
+    "acc@1_pct": 29.3026,
+    "acc@5_pct": 48.4172
+  },
+  "val_unseen_words": {
+    "n": 21243,
+    "acc@1_pct": 23.3442,
+    "acc@5_pct": 39.5848
+  },
+  "val_seen_words": {
+    "n": 42253,
+    "acc@1_pct": 32.2983,
+    "acc@5_pct": 52.8578
+  },
+  "train_all": {
+    "n": 177694,
+    "acc@1_pct": 23.8117,
+    "acc@5_pct": 43.4089
+  }
+}

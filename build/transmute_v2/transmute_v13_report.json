@@ -1,0 +1,164 @@
+{
+  "live_vocab": {
+    "roots": 9490,
+    "awzan": 142,
+    "vocab": 10052
+  },
+  "root_table_rows": [
+    9490
+  ],
+  "token_root_table": {
+    "tokens": 9197,
+    "distinct": 9197,
+    "min": 0,
+    "max": 9489
+  },
+  "released_shapes": {
+    "backbone.embed_tokens.weight": [
+      [
+        10052,
+        896
+      ]
+    ],
+    "backbone.": [
+      [
+        128,
+        64
+      ],
+      [
+        9015,
+        64
+      ]
+    ],
+    "morphemic_embed.root_embed.weight": [
+      [
+        9490,
+        448
+      ]
+    ],
+    "morphemic_embed.wazn_embed.weight": [
+      [
+        142,
+        224
+      ]
+    ],
+    "nrmp_head.root_head.weight": [
+      [
+        9490,
+        896
+      ]
+    ],
+    "nrmp_head.wazn_head.weight": [
+      [
+        142,
+        896
+      ]
+    ]
+  },
+  "transmute": {
+    "qwen_state_keys": 290,
+    "weights_path": "/workspace/alt_base/cache/hub/models--Qwen--Qwen2.5-0.5B/blobs/88c142557820ccad55bb59756bfcfcf891de9cc6202816bd346445188a0ed342",
+    "resized": [
+      [
+        "embed_tokens.weight",
+        [
+          151936,
+          896
+        ],
+        [
+          10052,
+          896
+        ]
+      ]
+    ],
+    "missed": [],
+    "layer_tensors": 288,
+    "embed_tokens_rows": 151936,
+    "target_rows": 10052,
+    "consumed_qwen_tensors": 290
+  },
+  "checkpoint_overlay": {
+    "dropped": 48,
+    "dropped_rows": [
+      128,
+      9015
+    ],
+    "backbone_keys_mapped": 506,
+    "stale_missing": 48,
+    "other_missing": [
+      "backbone.lm_head.weight",
+      "morphemic_heads.root_head.weight",
+      "morphemic_heads.wazn_head.weight"
+    ],
+    "missing": [
+      "backbone.model.layers.0.self_attn.root_embed.weight",
+      "backbone.model.layers.0.self_attn.wazn_embed.weight",
+      "backbone.model.layers.1.self_attn.root_embed.weight",
+      "backbone.model.layers.1.self_attn.wazn_embed.weight",
+      "backbone.model.layers.2.self_attn.root_embed.weight",
+      "backbone.model.layers.2.self_attn.wazn_embed.weight",
+      "backbone.model.layers.3.self_attn.root_embed.weight",
+      "backbone.model.layers.3.self_attn.wazn_embed.weight",
+      "backbone.model.layers.4.self_attn.root_embed.weight",
+      "backbone.model.layers.4.self_attn.wazn_embed.weight",
+      "backbone.model.layers.5.self_attn.root_embed.weight",
+      "backbone.model.layers.5.self_attn.wazn_embed.weight",
+      "backbone.model.layers.6.self_attn.root_embed.weight",
+      "backbone.model.layers.6.self_attn.wazn_embed.weight",
+      "backbone.model.layers.7.self_attn.root_embed.weight",
+      "backbone.model.layers.7.self_attn.wazn_embed.weight",
+      "backbone.model.layers.8.self_attn.root_embed.weight",
+      "backbone.model.layers.8.self_attn.wazn_embed.weight",
+      "backbone.model.layers.9.self_attn.root_embed.weight",
+      "backbone.model.layers.9.self_attn.wazn_embed.weight",
+      "backbone.model.layers.10.self_attn.root_embed.weight",
+      "backbone.model.layers.10.self_attn.wazn_embed.weight",
+      "backbone.model.layers.11.self_attn.root_embed.weight",
+      "backbone.model.layers.11.self_attn.wazn_embed.weight",
+      "backbone.model.layers.12.self_attn.root_embed.weight",
+      "backbone.model.layers.12.self_attn.wazn_embed.weight",
+      "backbone.model.layers.13.self_attn.root_embed.weight",
+      "backbone.model.layers.13.self_attn.wazn_embed.weight",
+      "backbone.model.layers.14.self_attn.root_embed.weight",
+      "backbone.model.layers.14.self_attn.wazn_embed.weight",
+      "backbone.model.layers.15.self_attn.root_embed.weight",
+      "backbone.model.layers.15.self_attn.wazn_embed.weight",
+      "backbone.model.layers.16.self_attn.root_embed.weight",
+      "backbone.model.layers.16.self_attn.wazn_embed.weight",
+      "backbone.model.layers.17.self_attn.root_embed.weight",
+      "backbone.model.layers.17.self_attn.wazn_embed.weight",
+      "backbone.model.layers.18.self_attn.root_embed.weight",
+      "backbone.model.layers.18.self_attn.wazn_embed.weight",
+      "backbone.model.layers.19.self_attn.root_embed.weight",
+      "backbone.model.layers.19.self_attn.wazn_embed.weight",
+      "backbone.model.layers.20.self_attn.root_embed.weight",
+      "backbone.model.layers.20.self_attn.wazn_embed.weight",
+      "backbone.model.layers.21.self_attn.root_embed.weight",
+      "backbone.model.layers.21.self_attn.wazn_embed.weight",
+      "backbone.model.layers.22.self_attn.root_embed.weight",
+      "backbone.model.layers.22.self_attn.wazn_embed.weight",
+      "backbone.model.layers.23.self_attn.root_embed.weight",
+      "backbone.model.layers.23.self_attn.wazn_embed.weight",
+      "backbone.lm_head.weight",
+      "morphemic_heads.root_head.weight",
+      "morphemic_heads.wazn_head.weight"
+    ],
+    "unexpected": [],
+    "not_owned": [
+      "final_norm.bias",
+      "final_norm.weight",
+      "morphemic_embed.prefix_embed.weight",
+      "morphemic_embed.root_embed.weight",
+      "morphemic_embed.suffix_embed.weight",
+      "morphemic_embed.wazn_embed.weight",
+      "nrmp_head.cond_proj.0.bias",
+      "nrmp_head.cond_proj.0.weight",
+      "nrmp_head.cond_proj.2.bias",
+      "nrmp_head.cond_proj.2.weight",
+      "nrmp_head.prefix_head.weight",
+      "nrmp_head.root_head.weight",
+      "nrmp_head.suffix_head.weight",
+      "nrmp_head.wazn_head.weight"
+    ]
+  }
+}

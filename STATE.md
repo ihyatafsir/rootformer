@@ -98,15 +98,16 @@ muta'addi  NOT REQUIRED   [Mustasfa:13507] «مسألة العلة القاصر�
                                             فلو توقفت صحتها في نفسها على صحة تعديتها إلى الفرع لزم الدور»
 ```
 
-**CONSEQUENCE — and this is the open work:** the qiyās build **rejected "ʿilla = the root"** on
-the **mutaʿaddī** condition, which both authorities say is **not required**. The passage it cited
-(`Mahsul:15719-15721`) sits in a **dialectical** passage whose own response opens
-«قلت قد بينا في كتبنا العقلية ما في هذين الوجهين من المغالطة» — *"I have shown in my rational
-works the fallaciousness in these two positions."*
+**CONSEQUENCE — RESOLVED, see "RE-RUN DONE" below.** The qiyās build **rejected "ʿilla = the
+root"** on the **mutaʿaddī** condition, which both authorities say is **not required**.
 
-**So the rejection is unsound.** Re-run the induction with **munḍabiṭ + muṭṭarid only** and see
-whether the root itself becomes a valid ʿilla. CPU-only, minutes. **This touches the thesis
-directly, unlike every GPU arm.**
+**Framing correction — my earlier reading of `Mahsul:15719-15721` was WRONG.** That passage is
+**al-Rāzī's own voice** (it opens «قلت قد بينا…» at :15718), addressing the narrower question
+«التعليل بمحل الحكم» **conditioned on** the ʿilla being *mutaʿaddiya* — not a general requirement
+that the ʿilla be extendable. `:15697-99` in the same masʾala already **affirms** the *qāṣira*
+ʿilla. It is **not** "a refuted opponent position", as I claimed. The *conclusion* is unchanged —
+*mutaʿaddī* is not required, on `Mustasfa:12599/13507` + `Mahsul:14389/15485/15982` — but my
+*reason* was wrong, and the "dialectical passage / fallaciousness" framing above is retracted.
 
 #### RE-RUN DONE (2026-10-03) — the rejection was never real, and the root still does no work
 

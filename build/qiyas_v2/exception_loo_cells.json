@@ -1,0 +1,86 @@
+{
+ "wazn_only": {
+  "ittirad_failures": 5795,
+  "distinct_cells_with_failure": 32,
+  "cells_failing_only_because_singleton": 0,
+  "distinct_NON_SINGLETON_cells_with_failure": 32,
+  "distinct_roots_in_non_singleton_failure_cells": 5175,
+  "non_singleton_failure_examples": [
+   "*|فَعَلَ",
+   "*|فَاعِل",
+   "*|مُفْتَعِل",
+   "*|مَفْعَل",
+   "*|أَفْعَال",
+   "*|فُعْلَان",
+   "*|مُتَفَعِّل",
+   "*|مَفْعُول",
+   "*|يَتَفَعَّلُ",
+   "*|مَفَاعِل"
+  ]
+ },
+ "coarse_weak": {
+  "ittirad_failures": 1226,
+  "distinct_cells_with_failure": 61,
+  "cells_failing_only_because_singleton": 0,
+  "distinct_NON_SINGLETON_cells_with_failure": 61,
+  "distinct_roots_in_non_singleton_failure_cells": 3784,
+  "non_singleton_failure_examples": [
+   "SAHIH|مُفْتَعِل",
+   "MUDAAF|فَعَلَ",
+   "SAHIH|مَفْعَل",
+   "WEAK|أَفْعَال",
+   "SAHIH|فُعْلَان",
+   "WEAK|مُتَفَعِّل",
+   "WEAK|مَفْعَل",
+   "SAHIH|مَفْعُول",
+   "WEAK|فُعْلَان",
+   "WEAK|يَتَفَعَّلُ"
+  ]
+ },
+ "strict7": {
+  "ittirad_failures": 1212,
+  "distinct_cells_with_failure": 81,
+  "cells_failing_only_because_singleton": 2,
+  "distinct_NON_SINGLETON_cells_with_failure": 79,
+  "distinct_roots_in_non_singleton_failure_cells": 3332,
+  "non_singleton_failure_examples": [
+   "SAHIH|مُفْتَعِل",
+   "MUDAAF|فَعَلَ",
+   "SAHIH|مَفْعَل",
+   "MITHAL|أَفْعَال",
+   "SAHIH|فُعْلَان",
+   "AJWAF|مُتَفَعِّل",
+   "AJWAF|مَفْعَل",
+   "SAHIH|مَفْعُول",
+   "LAFIF|فُعْلَان",
+   "MITHAL|يَتَفَعَّلُ"
+  ]
+ },
+ "positional": {
+  "ittirad_failures": 1084,
+  "distinct_cells_with_failure": 83,
+  "cells_failing_only_because_singleton": 11,
+  "distinct_NON_SINGLETON_cells_with_failure": 72,
+  "distinct_roots_in_non_singleton_failure_cells": 3003,
+  "non_singleton_failure_examples": [
+   "SAHIH|مُفْتَعِل",
+   "MUDAAF_12|فَعَلَ",
+   "SAHIH|مَفْعَل",
+   "MITHAL_و|أَفْعَال",
+   "SAHIH|فُعْلَان",
+   "AJWAF_ي|مُتَفَعِّل",
+   "AJWAF_ي|مَفْعَل",
+   "SAHIH|مَفْعُول",
+   "LAFIF_02|فُعْلَان",
+   "AJWAF_و|مُفْتَعِل"
+  ]
+ },
+ "identity": {
+  "ittirad_failures": 397,
+  "distinct_cells_with_failure": 397,
+  "cells_failing_only_because_singleton": 397,
+  "distinct_NON_SINGLETON_cells_with_failure": 0,
+  "distinct_roots_in_non_singleton_failure_cells": 0,
+  "non_singleton_failure_examples": []
+ }
+}

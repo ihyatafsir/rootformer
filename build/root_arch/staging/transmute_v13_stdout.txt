@@ -1,0 +1,115 @@
+
+==============================================================================
+0. BUILD UnifiedRootformerV13 (the live space, asserted at construction)
+==============================================================================
+  live vocab: roots=9490 awzan=142 vocab=10052
+[Rootformer v13] Initializing Qwen2.5-0.5B config from Qwen/Qwen2.5-0.5B...
+[Rootformer v13] Instantiating backbone with IshtiqaqAttention in the LIVE root space (roots=9490, awzan=142)...
+[Rootformer v13] token->root table: 9197 <root_X> tokens -> 9197 distinct live root ids (injective=True, max=9489)
+[Rootformer v13] token->wazn table: 137 <wazn_X> tokens -> 137 distinct live wazn ids
+[Rootformer v13] Initialized! layers=24 vocab=10052 roots=9490 awzan=142 on cpu. [OK]
+
+==============================================================================
+1. ONE ROOT-ID SPACE -- census of every root-bearing table
+==============================================================================
+    model.layers.0.self_attn.root_embed.weight                   rows=9490
+    model.layers.0.self_attn.wazn_embed.weight                   rows=142
+    model.layers.1.self_attn.root_embed.weight                   rows=9490
+    model.layers.1.self_attn.wazn_embed.weight                   rows=142
+    model.layers.10.self_attn.root_embed.weight                  rows=9490
+    model.layers.10.self_attn.wazn_embed.weight                  rows=142
+    model.layers.11.self_attn.root_embed.weight                  rows=9490
+    model.layers.11.self_attn.wazn_embed.weight                  rows=142
+    model.layers.12.self_attn.root_embed.weight                  rows=9490
+    model.layers.12.self_attn.wazn_embed.weight                  rows=142
+    model.layers.13.self_attn.root_embed.weight                  rows=9490
+    model.layers.13.self_attn.wazn_embed.weight                  rows=142
+    model.layers.14.self_attn.root_embed.weight                  rows=9490
+    model.layers.14.self_attn.wazn_embed.weight                  rows=142
+    model.layers.15.self_attn.root_embed.weight                  rows=9490
+    model.layers.15.self_attn.wazn_embed.weight                  rows=142
+    model.layers.16.self_attn.root_embed.weight                  rows=9490
+    model.layers.16.self_attn.wazn_embed.weight                  rows=142
+    model.layers.17.self_attn.root_embed.weight                  rows=9490
+    model.layers.17.self_attn.wazn_embed.weight                  rows=142
+    model.layers.18.self_attn.root_embed.weight                  rows=9490
+    model.layers.18.self_attn.wazn_embed.weight                  rows=142
+    model.layers.19.self_attn.root_embed.weight                  rows=9490
+    model.layers.19.self_attn.wazn_embed.weight                  rows=142
+    model.layers.2.self_attn.root_embed.weight                   rows=9490
+    model.layers.2.self_attn.wazn_embed.weight                   rows=142
+    model.layers.20.self_attn.root_embed.weight                  rows=9490
+    model.layers.20.self_attn.wazn_embed.weight                  rows=142
+    model.layers.21.self_attn.root_embed.weight                  rows=9490
+    model.layers.21.self_attn.wazn_embed.weight                  rows=142
+    model.layers.22.self_attn.root_embed.weight                  rows=9490
+    model.layers.22.self_attn.wazn_embed.weight                  rows=142
+    model.layers.23.self_attn.root_embed.weight                  rows=9490
+    model.layers.23.self_attn.wazn_embed.weight                  rows=142
+    model.layers.3.self_attn.root_embed.weight                   rows=9490
+    model.layers.3.self_attn.wazn_embed.weight                   rows=142
+    model.layers.4.self_attn.root_embed.weight                   rows=9490
+    model.layers.4.self_attn.wazn_embed.weight                   rows=142
+    model.layers.5.self_attn.root_embed.weight                   rows=9490
+    model.layers.5.self_attn.wazn_embed.weight                   rows=142
+    model.layers.6.self_attn.root_embed.weight                   rows=9490
+    model.layers.6.self_attn.wazn_embed.weight                   rows=142
+    model.layers.7.self_attn.root_embed.weight                   rows=9490
+    model.layers.7.self_attn.wazn_embed.weight                   rows=142
+    model.layers.8.self_attn.root_embed.weight                   rows=9490
+    model.layers.8.self_attn.wazn_embed.weight                   rows=142
+    model.layers.9.self_attn.root_embed.weight                   rows=9490
+    model.layers.9.self_attn.wazn_embed.weight                   rows=142
+  distinct root-table row counts across ALL 24 layers: [9490]
+  [OK] every root table is 9490 rows; every wazn table is 142
+
+==============================================================================
+2. TOKEN -> ID TABLES (by string, injective, in range)
+==============================================================================
+  <root_X> tokens                 : 9197
+  distinct live root ids reached  : 9197
+  injective                       : True
+  min=0 max=9489  (live max must be 9489)
+  <wazn_X> tokens                 : 137 -> 137 distinct live wazn ids
+  [OK] injective, in range, offset arithmetic eliminated, module table == builder
+
+==============================================================================
+3. THE THREE HISTORICAL SPACES, AND WHAT THE CORRECTION DID
+==============================================================================
+  9490  morphemic_embed / nrmp_vocab / live NRMT stream   <- V13 uses this everywhere
+  9015  unified_rootformer_v12.py hardcoded               -> corrected to 9490
+  9015  IshtiqaqAttentionV12.root_embed (9015,64) dead    -> corrected to 9490
+  128   the awzan hardcode                                -> corrected to 142
+  released checkpoint shapes (grouped):
+    backbone.                                                (128, 64)
+    backbone.                                                (9015, 64)
+    backbone.embed_tokens.weight                             (10052, 896)
+    morphemic_embed.root_embed.weight                        (9490, 448)
+    morphemic_embed.wazn_embed.weight                        (142, 224)
+    nrmp_head.root_head.weight                               (9490, 896)
+    nrmp_head.wazn_head.weight                               (142, 896)
+
+==============================================================================
+4. TRANSMUTE FROM CLEAN QWEN2.5-0.5B -- resize + all 290 real tensors
+==============================================================================
+[Transmute v13] loading the sealed base Qwen/Qwen2.5-0.5B (local_files_only=True)...
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Traceback (most recent call last):
+  File "/workspace/transmute_v2/transmute_v13_check.py", line 194, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/transmute_v2/transmute_v13_check.py", line 132, in main
+    info = base.transmute_from_clean_qwen2_5('Qwen/Qwen2.5-0.5B', local_files_only=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/transmute_v2/unified_rootformer_v13.py", line 294, in transmute_from_clean_qwen2_5
+    pretrained = AutoModelForCausalLM.from_pretrained(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 409, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4243, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/rootformer/lib/python3.12/site-packages/transformers/modeling_utils.py", line 747, in _get_resolved_checkpoint_files
+    raise OSError(
+OSError: Qwen/Qwen2.5-0.5B does not appear to have a file named pytorch_model.bin or model.safetensors.
