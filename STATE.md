@@ -539,9 +539,41 @@ fds held) but **0 GPU memory allocated**, log frozen, 1.6 % CPU, one thread in a
 healthy everywhere else — is consistent with a **deadlock/lost-wakeup during model construction or
 the first forward**, i.e. a stuck arm rather than a broken filesystem.
 
-**It holds a CUDA context but zero GPU memory**, so the VRAM gate still reports the card as free
-(`free ≈ 32 GiB`) and the `arm_alive` check still reports the tag alive. **A process that is alive,
-idle, holding no GPU memory, and making no progress is the worst case for both gates at once.**
+### *** RETRACTED: it was NOT hung. It was CPU-STARVED BY MY OWN PROBES. ***
+
+This entry was wrong twice over, and both corrections matter.
+
+**What I claimed:** pid 442737 was deadlocked in model construction (`wchan = request_wait_answer`,
+frozen log, 0 GPU memory, no D-state anywhere). **What was actually true:** it was **alive and
+working, just starved of CPU.** The decisive evidence, in order:
+
+1. `wchan = request_wait_answer` is where the *main thread* sat, but model construction is
+   **multi-threaded** — a single-thread snapshot does not show a deadlock, only where one thread
+   was parked at that instant.
+2. The system `load average` was **61 on a 48-core box**, and the top two CPU consumers were
+   **my own** `head_probe_v13.py --linear-readout` processes at **~455 % each (~9 cores)**,
+   running `numpy`/BLAS GEMMs fanned across all 48 threads.
+3. The moment I killed those probes the arm **recovered on its own**: log resumed at 01:37:46
+   (9557 → 11591 bytes), construction completed, it printed its
+   `[proof] step 1 … grad_norm head=1.083e+01 rca=1.151e-02 trunk=1.709e+00` line, and the GPU went
+   **4 MiB → 19,566 MiB at 89 %** — i.e. it reached its full ~17.7 GiB training footprint.
+
+**So the real chain was: I starved the CPU → construction crawled → I read the crawl as a hang →
+I "diagnosed" a deadlock that did not exist.** The lesson generalises: **before calling a process
+hung, check the load and the top CPU consumers** — and check whether *you* are one of them. A
+single-thread `wchan` is not evidence of deadlock, and "no D-state processes" was evidence *against*
+my FUSE-stall story that I mis-read as consistent with a different one.
+
+**Is this the same failure class as the three retractions at the top?** Related but distinct: those
+were "absence in my search reported as a defect in the claim". This is **"my own interference
+reported as a defect in the system"** — and it is worth its own line because the remedy is
+different: *look for your own footprint in the measurements before interpreting them.*
+
+**The gate observation still stands and is separate:** while the arm was stalled it held a CUDA
+context but ~0 GPU memory, so the VRAM gate truthfully reported the card as free (`free ≈ 32 GiB`)
+and `arm_alive` truthfully reported the tag alive. A slow-starting arm is genuinely
+indistinguishable from an empty card to that gate — which is exactly the Incident-1 startup race.
+It just was not evidence of a hang.
 
 **Net state:** GPU **idle at 4 MiB**; one hung arm; **two** runner processes (442187, 442734) that
 will not agree about the queue; `LATE_X` still ~5 arms away. Nothing has trained since FLOOR_A
