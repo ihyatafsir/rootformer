@@ -706,6 +706,50 @@ the ~0.20 pp SE, the pathway is contributing nothing.
 * Never quote `raw PPL`: scale-dependent and rising (2267 -> 3697) while `logit_scale` drifts
   0.59 -> 0.68; the contract at `:945-953` labels it "NOT a capability measure".
 
+### *** FLOOR_A's TRUNK MEASURES 3.498 % HEAD-INDEPENDENTLY — BELOW THE MARGINAL ***
+
+Round 12. I wrote the missing control (`build/qiyas/head_probe_v13.py`, `--live`, CPU, source on
+pod at `/workspace/qiyas/head_probe_v13.py`) because the project's own `ewc_head_probe.py` cannot
+run on these arms (stale 9015 tables; see the blocker entry above). Result:
+
+```
+[FLOOR_A] LIVE fp32 (V13)  acc@1 3.498 %   acc@5 6.582 %   ce_z 9.1264   (n = 18,869)
+trunk applied: 552/552 backbone.layers tensors   <- asserted, not a silent name-match
+```
+
+Same probe, same fixed head, same 300 val windows / 18,869 radical positions as the project's own
+protocol. Comparators under that protocol:
+
+```
+FIX (the bar, frozen released trunk)   6.837     ALIGNED_FIX (exact control for A2)  6.619
+GUARD 6.630   NOFEAT 6.593   ALIGNED 6.148   NGRAM 6.063   CONTROL 5.718
+marginal (word-stream)                 3.551
+FLOOR_A, measured this run             3.498     <- LESS THAN HALF the 6.6-6.8 % cluster
+```
+
+**So FLOOR_A's trunk is not a healthy bar.** Its self-reported `acc@1` is flat at 7.64-8.14 %, while
+its trunk measured with a foreign fixed head sits at the marginal rate — the arm-P pattern
+(self-report 16.34 % vs head-independent 2.676 %) reproduced here at a smaller scale. This is
+consistent with the audit's concern: FLOOR_A trains the trunk at `--trunk-lr-scale 1.0
+--lr 1e-3`, i.e. 10x the trunk LR the repo documents as destroying the trunk, across all 24 layers.
+
+**Consequences — this changes how the ladder must be read:**
+1. FLOOR_A is **not** a valid floor for `C - A` or `X - A`. A comparison against a damaged trunk
+   tells you about damage, not about the root pathway.
+2. If C and X land near 7.8 %, that is **above** this measured trunk capability and the pathway is
+   doing something real — the opposite of the earlier "both at the floor" reading.
+3. The 3.498 % figure is a *relative damage* number, and the FIX-head cluster (5.7-6.8 %) is the
+   bar it should be compared against, **not** FLOOR_A's own self-report.
+
+**THE CONFOUND, STATED PLAINLY AND NOT YET EXCLUDED.** `head_ALIGNED_FIX.pt` was fitted for a
+*different* trunk (the A2/ALIGNED line). A foreign head transfers imperfectly, so part of the 3.2 pp
+gap could be head/trunk mismatch rather than capability loss. The clean control is a head **fitted
+on FLOOR_A's own trunk** under the same protocol, or the root linear-decodability probe
+(29.30 % original base / 92.34 % transmuted). **Neither has been run.** Until one is, the correct
+statement is: *FLOOR_A's trunk scores 3.498 % under the project's own fixed-head control, below the
+marginal rate; the gap is large enough that head-mismatch alone is an unlikely full explanation,
+but that has not been tested.*
+
 ### THE EARLY-VS-LATE COMPARISON, PRE-SPECIFIED BEFORE EITHER ARM EXISTS
 
 `LATE_X` = `--root-cross-attn top4 --ishtiqaq-root-bias top4`; `EARLYROOT_C` = `all`/`all`. Every
