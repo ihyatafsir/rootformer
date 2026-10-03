@@ -668,6 +668,14 @@ to carry forward:
 * **Budget projection (corrected).** Six arms at ~2 h each from ~01:37 => `LATE_X` (6th) lands
   around **~07:30-08:00Z**, inside the ~20 h budget. So the ladder **should reach the comparison it
   exists for**, subject to no further incidents.
+* **RATE, third attempt — and the one to trust (two anchor points, 9 minutes apart).**
+  `step 425 @ 01:39:56` -> `step 1775 @ 01:48:46` = **1350 steps in 530 s = 2.55 steps/s = 153/min.**
+  So a 20,000-step arm is **~2.2 h**, and six arms from ~01:37 put `LATE_X` around
+  **~08:30-09:00Z**. This supersedes BOTH earlier figures: the "1.2-2 steps/s / 2.8-4.6 h" (which
+  charged construction time to the step count) and the "166/min / 2.0 h" (a single 45 s window,
+  which flattered because it followed an eval burst). **Two anchors nine minutes apart is the
+  minimum for a rate claim; a single short window is not.** The rate is not constant — an eval at
+  steps 1000/2000 is itself work — so treat ~2 h/arm as approximate.
 * **Falsifiable checkpoint:** first `eval @1000` expected ~01:44-01:50Z. Absent by ~02:00Z means the
   arm is not progressing.
 * **The Incident-1 recurrence risk is CLOSED** by the 01:30:25 gate rewrite above (`starting_arms()`
