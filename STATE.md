@@ -413,11 +413,18 @@ the count and the gating logic are what matter and both hold.
 
 ### CONFIRMED DEFECT: `rca_stack.eval()` IS NEVER CALLED — and it is LAYER-COUNT BIASED
 
-Independently confirmed 2026-10-03. `evaluate()` calls `head.eval()` at
-`nrmt_train_v13_sdpa.py:955` and `head.train()` at `:1014`, but `rca_stack` is constructed as a
-**standalone module** at `:571` (`rca_stack = RootCrossAttentionStack(...)`), NOT a child of
-`head`/`model` — so `head.eval()` does not reach it. A grep for `rca_stack` restricted to
-`eval|train` returns **nothing**: it is never put in eval mode anywhere.
+Independently confirmed 2026-10-03, twice, and my first phrasing was imprecise. `evaluate()`
+calls `head.eval()` at `nrmt_train_v13_sdpa.py:955` and `head.train()` at `:1014`. Crucially
+`head = model.nrmt_head` (`:791`) while the stack is `model.root_cross = rca_stack` (`:576`) --
+so the two are **SIBLINGS under `model`**, and `head.eval()` structurally cannot reach
+`root_cross`. (I first wrote "not a child of model, a standalone module"; the stack IS registered
+on `model`, which is exactly why the bug survived review -- registering it made it look covered.)
+An exhaustive grep of the 1250-line trainer for `.eval()` / `.train()` / `model.eval()` /
+`training=` returns ONLY 955, 1014, 1059 (`head.train()`). There is no `rca_stack.eval()` and no
+`model.eval()` anywhere, so nothing ever flips the stack out of its construction default
+`training=True`. `--eval-every 0` is separately CONFIRMED to raise `ZeroDivisionError`
+(`int % 0` at `:1154`; the arg at `:358` is an unvalidated int, and unlike `h_drift_probe` at
+`:1125` it has no guard).
 
 `RootCrossAttentionStack` builds `self.mods = nn.ModuleList([...for i in self.layer_indices])`,
 and each `RootCrossAttention` has `self.drop = nn.Dropout(dropout)`
@@ -431,12 +438,18 @@ LATE_X      : RCA on layers 20-23 ->  4 dropout modules active at eval
 ```
 
 So the two arms are **not** evaluated on equal footing: C's eval carries 6x the active dropout of
-X's. With zero-init gates the RCA contribution starts at 0 and dropout is a no-op at step 0, but
-the gates train, so by 20k steps both arms' residuals are non-zero at eval and this injects
-arm-dependent stochasticity into exactly the number used to compare them. STATE.md's prior
-`-0.13 pp` figure was measured for one configuration; it does not licence assuming the bias is
-equal across 4 and 24 layers. **Any C-vs-X gap below ~0.5 pp must be read with this in mind, and
-the honest fix is to re-evaluate both checkpoints with `rca_stack.eval()` forced.**
+X's. `nn.Dropout` scales by `1/(1-p)` in train mode, so its **expectation is unchanged** -- this
+adds VARIANCE, not a systematic bias. The honest statement is therefore: **C's eval is ~6x noisier
+than X's**, not that C is biased up or down. With `--rca-dropout 0.1` over 18,869 samples the
+variance cost is likely well under the 0.197 pp binomial SE, so it probably does not threaten the
+comparison -- but it is an unquantified, arm-dependent term in exactly the number being compared,
+and STATE.md's prior `-0.13 pp` was measured for ONE configuration, so it does not licence assuming
+the term is equal across 4 and 24 layers. **Fix if it matters: force `rca_stack.eval()` and
+re-evaluate both checkpoints from their saved trunks -- CPU-runnable, no GPU needed.**
+
+*Second-order:* dropout in train mode also consumes the global RNG, so every eval perturbs the
+subsequent training trajectory -- differently for C (24 modules) and X (4). A further
+arm-dependent term, and the reason the two trunks are not bit-comparable even from the same init.
 
 ### FLOOR_A has NO head-independent control — and it trains the trunk at a documented-destructive LR
 
@@ -454,6 +467,20 @@ Raised by an independent audit and confirmed against the sources:
   trunk is healthy" is COULD NOT DETERMINE without running the control.**
 * The control IS runnable now: `/tmp/root_arch_arms/head_FLOOR_A.pt.trunk.pt` is saved and
   `/workspace/head_fix/head_ALIGNED_FIX.pt` exists. **Run it before treating FLOOR_A as the bar.**
+
+**Also available and better than a raw cross-arm diff:** both C and X pass `--rca-ablate-eval`
+(and `--ishtiqaq-ablate-eval`), so each arm logs its own pathway-OFF number
+(`ALL_val_RCA_OFF`, `:1164-1174`). **Prefer the WITHIN-arm deltas**
+
+```
+Δ_C = acc@1(C)     - acc@1(C_RCA_OFF)
+Δ_X = acc@1(X)     - acc@1(X_RCA_OFF)
+```
+
+over the raw `acc@1(C) - acc@1(X)`. Reason: C and X train *different trunks* from the same init, so
+a raw diff conflates pathway placement with trunk divergence; each Δ is that arm's own causal
+pathway contribution. If both Δ are ~0 within SE, neither pathway does anything and the placement
+question is void. Note the ablation is stochastic too (dropout is active on the ON pass only).
 
 **Reading rule if both C and X land at FLOOR_A's level:** that is case **(b) both failed**, not
 case (a) "placement does not matter". A tie at a no-pathway arm's level means the pathway added no
