@@ -1364,3 +1364,56 @@ tie, it is both failing.
 
 **Local `src/` is missing `validated_segmentation.py`, which silently makes `nrmp_vocab` report
 9,445 roots instead of 9,490. The pod is correct at 9,490.**
+
+---
+
+## LADDER COMPLETE (2026-10-03) — early beats late, and the comparator was inflated by freezing
+
+Matched trunk training, matched 20,000 steps, matched batch 32, matched LR 1e-3.
+
+```
+arm              pathway          layers   ALL      NOVEL    ridge val_all  ridge unseen
+C EARLYROOT_C    residual+bias    0-23     18.99 %  19.22 %  90.64 %        80.16 %
+E RESIDUAL_R     residual only    0-23     18.94 %  19.17 %  90.44 %        79.53 %
+X LATE_X         residual+bias    20-23    15.43 %  15.53 %  89.51 %        78.07 %
+A FLOOR_A_V2     none             —         8.04 %   7.87 %  87.37 %        74.73 %
+D SCOREBIAS_D    bias only        0-23      7.83 %   7.71 %  87.36 %        74.96 %
+```
+
+**EARLY BEATS LATE: +3.56 pp ALL / +3.69 pp NOVEL.** Only the attachment layer differs.
+
+**THE REVERSAL.** The same LATE schedule at 1.0x LR scores 15.43 %; at 0.01x LR with the trunk
+FROZEN it scored 19.53 %. So the frozen trunk was never a handicap — **it was protection.**
+Full-rate training moves the trunk away from the representation a late pathway needs, and layers
+20–23 cannot get it back; early attachment can, because the root signal is still present at the
+input stage and the pathway holds it on the way up.
+
+**The correct sentence: the 19.53 % ceiling was never about placement — it was about what
+full-rate training does to the representation. Attach early and you reach ~19 % with no freezing.**
+
+**A normally-trained trunk is a FLOOR, and worse than the trunk it started from.** Arm A: 8.04 %,
+flat from step 4,000, and its ridge decodability FALLS (92.34 -> 87.37 val_all; 83.92 -> 74.73
+unseen, -9.19 pp). **The pathway anchors the representation** — C halves that damage (90.64/80.16)
+and keeps most of the benefit with the pathway switched OFF at probe time, so the gain is in the
+weights, not the readout.
+
+**THE SCORE BIAS IS INERT — five measurements, four from separate runs:**
+```
+D (bias alone) 7.83 % vs A (nothing) 8.04 %        -0.21 pp
+D ridge vs A ridge                                  within 0.23 pp
+C with bias ablated in place: 18.99 -> 18.81 %      -0.18 pp
+C (both) vs E (residual only): 18.99 vs 18.94 %     -0.05 pp
+C with the RESIDUAL ablated:   18.99 ->  6.38 %     -12.61 pp
+```
+It received gradients for the first time in this project and still changes nothing. **The entire
+early-root effect is the 57.86 M residual injector.** The 11.01 M score-bias path is dead —
+demonstrated, not assumed.
+
+**NOT ATTEMPTED, stated plainly:** item 6 (1.5B scale) needs a new transmutation and ~4x the
+activations, will not fit batch 32; item 7 (derivational holdout) needs a ROOT-DISJOINT split and
+therefore retraining (~6 h). `NOVEL_only` tracks ALL within 0.3 pp in EVERY arm, so no memorisation
+gap hides behind these numbers. `EARLYROOT_C_S2` (--seed 1) is the last queued stage.
+
+Artifacts: `rootformer/build/root_arch/` — `REPORT_phase0.md`, `REPORT_phase1.md` (verdict = §5),
+`remote/` holds every `results_*.json`, `probe_ridge_*.json`, `proof_sdpa_stdout.txt`,
+`bench_sdpa.json`.

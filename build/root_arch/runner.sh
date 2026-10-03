@@ -165,6 +165,17 @@ stage_flags() {
     # the dropout stream.  Identical in every other respect to FLOOR_A / EARLYROOT_C.
     FLOOR_A_S2)
       echo "--root-cross-attn none --ishtiqaq-root-bias none --seed 1" ;;
+    LATE_X_S2)
+      echo "--root-cross-attn top4 --rca-lr-scale 1.0 --rca-ablate-eval \
+--ishtiqaq-root-bias top4 $C_BOTH --ishtiqaq-ablate-eval --seed 1" ;;
+    # SCHEDULE-LENGTH PROBE.  Every arm in the ladder ran the brief's 20 000 steps and EARLYROOT_C
+    # was still creeping upward at the end (18.99 %) while its train loss was already 0.0000.  This
+    # asks whether 20 k is BINDING: same flags as RESIDUAL_R (the cheapest arm that reaches ~19 %)
+    # but 30 000 steps.  `--steps` is appended AFTER common_flags, and argparse takes the last
+    # occurrence, so this overrides the common 20 000.
+    RESIDUAL_R_30K)
+      echo "--root-cross-attn all --rca-lr-scale 1.0 --rca-ablate-eval \
+--ishtiqaq-root-bias none --steps 30000" ;;
     EARLYROOT_C_S2)
       echo "--root-cross-attn all --rca-lr-scale 1.0 --rca-ablate-eval \
 --ishtiqaq-root-bias all $C_BOTH --ishtiqaq-ablate-eval --seed 1" ;;
