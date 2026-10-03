@@ -742,7 +742,14 @@ increments     +0.95    +0.18    -2.27    +1.43 (OSCILLATING)
 CE_z           +0.173   +0.095   +0.137   -0.013 (rising 4 of 5)
 ```
 
-**Five points: `18.87, 19.82, 20.00, 17.73, 19.16`. The arm is NOT converging upward -- it is
+**Six points: `18.87, 19.82, 20.00, 17.73, 19.16, 19.42` (CE_z 6.1696, 6.3427, 6.4377, 6.5751,
+6.5620, 6.6704).** `@6000` is in-band at 19.42 % while **CE_z makes a new high of 6.6704**, so the
+two curves have cleanly separated: **acc@1 flat in a ~2.3 pp band, CE_z rising monotonically.**
+That is the fifth independent lever in this project to show *better ranking, no better calibration*
+(after width, depth, `bound`, and the 7-input `RCA_NORM`), and it is now the clearest instance --
+six points, one direction, no exceptions after the first.
+
+*Historical five points, kept for the trend:* `18.87, 19.82, 20.00, 17.73, 19.16`. The arm is NOT converging upward -- it is
 oscillating in a ~2.3 pp band while CE_z drifts monotonically worse** (6.1696 -> 6.3427 -> 6.4377
 -> 6.5751 -> 6.5620). `@4000`'s drop partly reverted at `@5000`, so that step was largely **eval
 noise**, not a collapse -- which is itself the finding.
