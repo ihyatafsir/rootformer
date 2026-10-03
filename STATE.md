@@ -290,9 +290,15 @@ step    ALL acc@1   acc@5    CE_z     NOVEL acc@1   CE_z
  7000      7.89     12.73   8.8685      7.78      8.8778
  8000      7.89     12.87   8.9425      7.79      8.9497
  9000      7.74     12.54   8.9897      7.67      8.9887
+10000      7.86     12.57   9.0772      7.81      9.0714
+11000      7.72     12.32   9.1143      7.63      9.1093
+12000      7.73     12.33   9.1360      7.68      9.1277
 ```
 
-**FLAT since step 2000: 7.74-8.14 % across 7,000 steps. CE_z MONOTONE WORSE, 8.1712 -> 8.9897.**
+**FLAT since step 2000: acc@1 span 7.64-8.14 %, i.e. 0.50 pp across 11,000 steps (full curve
+now extracted to step 12,000, see `build/qiyas/arms_evidence/FLOOR_A_evals.txt` and
+`build/qiyas/parse_floor_a.py`). CE_z WORSENS throughout, 8.1712 -> 9.1360 (+0.9648), and
+`wazn` acc@1 is likewise flat at 44.33-45.27 %.**
 `acc@1` never climbs; better ranking with worse calibration is the same signature as every other
 lever in this project. The ~8 % floor in NEXT.md is confirmed at step 9,000, not just 6,000.
 
