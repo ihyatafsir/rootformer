@@ -165,13 +165,49 @@ it where it is weakest.
 
 ```
 neural compositional decoder, held-out root   0 / 3,588     (0.00 %)
-computed qiyas, inverse root ID from surface  3,031 / 3,588 = 84.48 %   (chance 2.70 %)
+computed qiyas, inverse root ID, 37-root candidates  3,031 / 3,588 = 84.48 %   (chance 2.70 %)
+computed qiyas, FULL 9,220-root inventory            2,838 / 3,588 = 79.10 %   (chance 0.011 %)
+                                                     <- the honest Task B number
 ```
 
 Caveats, stated: all 90 realisation fixes are **one root's orthography** (`بدا`, hamza vs bare
 alif); over 8 random 37-root folds the computed analogy is **marginally worse** than the
 hand-coded realiser (0.8908 vs 0.8957); and Task B's candidate set was **restricted to 37 roots**
 — the full 9,220-root inverse search is the honest completion and was never run.
+
+#### THE FULL 9,220-ROOT INVERSE SEARCH — RUN 2026-10-03. **Task B drops to 79.10 %.**
+
+`build/qiyas/full_inventory_id.py`. All 9,220 non-special roots x 139 awzan = 1,281,580
+realizations (384,242 realized, 255,084 surfaces), 28 CPU processes, 88 s total. Same engine
+(`strict7`, backoff), same match test `(p+qy+s)==w or qy==w`, same `rank_key`.
+
+```
+FULL inventory 9,220 roots : top1 2,838 / 3,588 = 79.10 %   top5 85.84 %   chance 0.0108 %
+control 37 roots, SAME harness : top1 3,072 / 3,588 = 85.62 %   (stored deriv3588: 3,031 = 84.48 %)
+```
+
+**So the "restricted to 37 roots" caveat was real, and it inflates the headline by ~5.4 pp
+(84.48 -> 79.10).** The rate is still enormous against chance (1/9220 = 0.011 %), so the finding
+survives — but the number in the report and this file is the 37-root one and must be read as such.
+
+Why the previously-stored `control_74_roots` did NOT catch this: it was identical to the 37-root
+result (3031) because the 37 extra roots were a **random** sample, and doubling the inventory in
+a random sample adds few new false candidates. The failure mode only appears at full density.
+
+*Harness validation and its residual gap, stated honestly:* the same-harness control gives
+3,072 vs the stored 3,031 (**+41 positions, +1.14 pp**). Cause: this script's harvest yields
+**113,899 aṣl / 5,556 roots** (`r in hold` test) where `qiyas_corpus.py` yields 106,664 / 5,551
+(`HOLD37` list). The full-inventory figure carries the same uncertainty in the same direction.
+
+*Traps found building this harness (three separate wrong answers before a correct one):*
+1. Looked up `index[word]` on the **full affixed word**, so every prefixed/suffixed position got
+   0 candidates -> control collapsed to 31.22 %. The realization `qy` **is** the causal stem
+   (`النفي` with `p='ال'` -> `qy='نفي'`), so the test must run as written, not via a re-derived stem.
+2. Then mis-derived the stem in a diagnostic by stripping a prefix that was already stripped.
+3. Final form: index bucketed by **realization length**, keeping the original's exact test on
+   precomputed realizations — no re-stripping heuristic anywhere.
+The first wrong answer was caught **only** because the harness carried its own 37-root control.
+
 
 ---
 

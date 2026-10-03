@@ -71,7 +71,9 @@ Then **1.5B scale** and the **derivational holdout** — the latter needs new en
 The claim: one root embedding shared across كتب / كاتب / مكتوب / كتابة generalises to **unseen
 derivational forms**. Attempt 1 was structurally impossible (a softmax cannot emit an unseen root,
 proved at 4,117 positions); attempt 2 ran at **0.141 epochs**. Qiyās demonstrated it as a
-*computed capacity* (84.48 % vs 0.00 %). It has **never** been demonstrated as a *learned* one.
+*computed capacity* (79.10 % over the FULL 9,220-root inventory vs 0.00 %; the older
+84.48 % was on a 37-root candidate set — see STATE.md). It has **never** been demonstrated as a
+*learned* one.
 
 **This is the project's actual open question. Nothing else on this list is.**
 
@@ -128,7 +130,9 @@ FIX baseline                6.837 %      RCA_W2N                19.39 % (best ac
 FLOOR_A (no root pathway)   ~8 %         EWC_Q20K (0.1x LR)     ~19.1 % plateau
 root decodability: raw base 29.30 %  |  transmuted trunk 92.34 %
   local isolated probe: 21.83 % @ layer 4  ->  13.00 % @ layer 23  (DECAYS; transmuted is monotone UP)
-qiyas on forms the learned decoder scored 0.00 % on:  84.48 %
+qiyas on forms the learned decoder scored 0.00 % on:
+  FULL 9,220-root inventory  79.10 %  <- honest
+  37-root candidate set      84.48 %  <- the older, inflated number (see STATE.md)
 levers: bound +2.54 | unfreeze 0.01x +3.0 | width +0.22 | depth +0.13   (CE_z does NOT improve)
 ```
 
