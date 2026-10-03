@@ -305,6 +305,43 @@ applied-tensor count covers all 24 layers**. And it scores with a fixed head, so
 different scale: use it as a RELATIVE C-vs-X-vs-FLOOR_A damage control, never against an arm's own
 self-reported number.
 
+**BLOCKER FOUND — the head-independent control CANNOT be run on these arms as-is.** I actually
+executed it (round 10), rather than assuming it worked:
+
+```bash
+CUDA_VISIBLE_DEVICES= python ewc_head_probe.py --live \
+  --trunk /tmp/root_arch_arms/head_FLOOR_A.pt.trunk.pt --tag FLOOR_A --out /tmp/probe_head_FLOOR_A.json
+# RuntimeError: The size of tensor a (9015) must match the size of tensor b (9490)
+#   at ewc_head_probe.py:123  p.data.copy_(st[name].float())
+```
+
+Passing the runner's correct `--ckpt` does **not** help. Root cause, isolated:
+
+```
+vocab.num_roots                              = 9490   (the blueprint IS correct)
+model.backbone.layers[0].self_attn.root_embed.weight = (9015, 64)   <- stale
+trunk payload backbone.layers.0.self_attn.root_embed.weight = (9490, 64)
+```
+
+`build_model` (`ewc_fisher.py:42-64`) takes its vocab from the current blueprint and prints the
+correct count, but `UnifiedRootformerV12` constructs its attention with the **old 9015** root table.
+So the payload cannot be copied in. **This is the same stale-id-space class as
+`rootformer_v19_2_...roots9313` and the 48 dropped-SPACE tables — in a fourth place.**
+
+Consequence: `ewc_head_probe.py` is **not runnable** on FLOOR_A / C / X without either (a) editing
+`/workspace/ghazali_forget/ewc_fisher.py` or the probe to rebuild/resize the attention root tables
+to 9490, or (b) writing an equivalent probe against `UnifiedRootformerV13` / the aligned blueprint.
+**(a) edits another agent's file — not done unilaterally.** (b) is the clean route.
+
+*Also note:* `ewc_fisher.py:49` uses the fragile
+`next(v for k,v in vars(nv).items() if isinstance(v,type) and 'MorphemicVocab' in k)` idiom that
+works only by dict-iteration order. Use `nv.FarāhīdianMorphemicVocab` explicitly (see
+`build/qiyas/probe_class.py`).
+
+**So the FLOOR_A floor is still NOT certified**: `trunk_motion.py` shows the layers moved, but the
+capability check that would rule out an arm-P-style destroyed trunk (self-report 16.34 % vs
+head-independent 2.676 %) remains unrun, now for a concrete, identified reason.
+
 **Fix order recorded:** (1) add `rca_stack.eval()`/`.train()` around the scoring loop (or use
 `--rca-dropout 0.0` as in `build/qiyas/REEVAL_PROTOCOL.md`); (2) then run `ewc_head_probe.py --live`
 on both `.trunk.pt` payloads.
