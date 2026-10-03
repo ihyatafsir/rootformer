@@ -682,6 +682,29 @@ the ~0.20 pp SE, the pathway is contributing nothing.
 * Never quote `raw PPL`: scale-dependent and rising (2267 -> 3697) while `logit_scale` drifts
   0.59 -> 0.68; the contract at `:945-953` labels it "NOT a capability measure".
 
+### IN FLIGHT: the UNCONFOUNDED control (linear decodability, no fitted head)
+
+`build/qiyas/head_probe_v13.py --linear-readout` → running detached on the pod as pid **434315**,
+log `/workspace/qiyas/probe_lr_FLOOR_A.log`, output `/tmp/probe_lr_FLOOR_A.json`.
+
+Why it matters: the 3.498 % figure above carries a **head/trunk transfer confound**
+(`head_ALIGNED_FIX.pt` was fitted for a different trunk). This probe has **no fitted head at all** —
+it is the project's own decodability protocol (`probe_orig_base.py:121-129`: closed-form ridge to
+one-hot, weights solved in closed form) applied per trunk layer, asking only *is the current
+position's root linearly decodable from this trunk's hidden state?* Published reference on the same
+protocol: raw base **29.30 %** (unseen 23.34 %), transmuted trunk **92.34 %**, local isolated probe
+decaying **21.83 % @ layer 4 → 13.00 % @ layer 23**.
+
+*Target convention, deliberate:* the readout pairs hidden state at position *i* with the root of
+*that same position* (`Tv[i]`), matching `probe_orig_base.py:147`. `eval_head` instead predicts
+`Tv[:, 1:]` — a **next-token** target, a different question. Do not conflate the two numbers.
+
+*Self-inflicted note:* the first run had no sample cap and overran its local timeout, leaving a
+detached process behind; it and the capped rerun then contended (load average 12 → 25). I verified
+pid 432655 was my own script (`head_probe_v13.py`, zero `max-samples`) and killed it — my own
+abandoned duplicate, not another agent's work. `--max-samples` now defaults to 40,000, because the
+ridge cost is O(n·d²) plus a d×9490 multiply per layer and does not need every position.
+
 ### *** FLOOR_A's TRUNK MEASURES 3.498 % HEAD-INDEPENDENTLY — BELOW THE MARGINAL ***
 
 Round 12. I wrote the missing control (`build/qiyas/head_probe_v13.py`, `--live`, CPU, source on

@@ -122,6 +122,87 @@ def build_model_v13(ckpt, dtype=torch.float32):
     return base, flash, model, vocab
 
 
+def linear_readout(model, Pv, Tv, Wv, Sv, n_layers, threads=6,
+                   train_frac=0.5, alpha=1.0, seed=0, max_samples=40000):
+    """HEAD-INDEPENDENT, FOREIGN-HEAD-FREE control: is the CURRENT position's root linearly
+    decodable from each trunk layer's hidden state?
+
+    This is the project's own decodability protocol (`probe_orig_base.py:121-129`: closed-form
+    ridge to one-hot, no fitted network, no transfer from another trunk) applied to a live arm.
+    It answers the question the fixed-head probe cannot answer without a head/trunk confound:
+    does this trunk still CARRY root information?
+
+    Published reference on the same protocol: raw base 29.30 % (unseen 23.34 %), transmuted trunk
+    92.34 %, and a local isolated probe decaying 21.83 % @ layer 4 -> 13.00 % @ layer 23.
+
+    Target convention: hidden state at position i vs the root OF THAT position (Tv[i]), matching
+    `probe_orig_base.py`.  Note `eval_head` instead predicts Tv[:, 1:] (next-token) -- a DIFFERENT
+    target, deliberately.
+    """
+    import numpy as np
+    torch.set_num_threads(threads)
+
+    # capture every backbone layer's output for the whole val set
+    buf = {}
+
+    def mk_hook(li):
+        def hook(module, inp, out):
+            h = out[0] if isinstance(out, (tuple, list)) else out
+            buf[li] = h.detach()
+        return hook
+
+    handles = [model.backbone.layers[i].register_forward_hook(mk_hook(i))
+               for i in range(n_layers)]
+    hs = []
+    with torch.no_grad():
+        for i in range(0, Tv.shape[0], 8):
+            sl = slice(i, min(i + 8, Tv.shape[0]))
+            emb = model.morphemic_embed(Pv[sl], Tv[sl], Wv[sl], Sv[sl])
+            model.backbone(inputs_embeds=emb)
+            hs.append({li: buf[li].float().clone() for li in range(n_layers)})
+    for h in handles:
+        h.remove()
+
+    y_all = Tv.reshape(-1)
+    valid = (y_all >= 0)
+    out = {}
+    for li in range(n_layers):
+        H = torch.cat([d[li] for d in hs])            # [W, T, d]
+        X_all = H.reshape(-1, H.shape[-1])
+        keep = valid & (y_all < model.vocab.num_roots)
+        if int(keep.sum()) < 100:
+            continue
+        X = X_all[keep].numpy().astype(np.float32)
+        y = y_all[keep].numpy().astype(np.int64)
+        rng = np.random.default_rng(seed)
+        idx = rng.permutation(len(y))
+        # cap the ridge cost: O(n*d^2) Gram + a d x C multiply.  A decodability probe does not
+        # need every position; `probe_orig_base.py` is order-of-magnitude comparable at this scale.
+        cap = max_samples
+        if len(idx) > cap:
+            idx = idx[:cap]
+            ntr = int(train_frac * cap)
+        else:
+            ntr = int(train_frac * len(idx))
+        tr, te = idx[:ntr], idx[ntr:]
+        C = int(model.vocab.num_roots)
+        Y = np.zeros((len(tr), C), dtype=np.float32)
+        Y[np.arange(len(tr)), y[tr]] = 1.0
+        Xtr = X[tr]
+        mu = Xtr.mean(0, keepdims=True)
+        Xtr = Xtr - mu
+        Xte = X[te] - mu
+        A = Xtr.T @ Xtr + alpha * np.eye(Xtr.shape[1], dtype=np.float32)
+        W = np.linalg.solve(A, Xtr.T @ Y)
+        S = Xte @ W
+        a1 = float((S.argmax(1) == y[te]).mean())
+        k = min(5, C)
+        top5 = np.argpartition(-S, k - 1, axis=1)[:, :k]
+        a5 = float((top5 == y[te, None]).any(1).mean())
+        out[li] = {'acc@1_pct': 100 * a1, 'acc@5_pct': 100 * a5, 'n': int(len(y))}
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--cache', default='/workspace/head_fix/nrmp_cache_9490_aligned')
@@ -135,6 +216,10 @@ def main():
     ap.add_argument('--tag', default='probe')
     ap.add_argument('--out', default='')
     ap.add_argument('--threads', type=int, default=6)
+    ap.add_argument('--max-samples', type=int, default=40000,
+                    help='cap positions fed to the ridge readout')
+    ap.add_argument('--linear-readout', action='store_true',
+                    help='head-independent ridge decodability per layer (no fitted head)')
     args = ap.parse_args()
     torch.set_num_threads(args.threads)
 
@@ -203,6 +288,19 @@ def main():
         print('[%s] LIVE fp32 (V13) acc@1 %.3f%% acc@5 %.3f%% ce_z %.4f'
               % (args.tag, 100 * res['live']['acc@1'], 100 * res['live']['acc@5'],
                  res['live']['ce_z']), flush=True)
+
+    if args.linear_readout:
+        print('[*] linear decodability readout (closed-form ridge, no fitted head) ...', flush=True)
+        lr_res = linear_readout(model, Pv, Tv, Wv, Sv, len(model.backbone.layers),
+                               threads=args.threads, max_samples=args.max_samples)
+        res['linear_readout'] = {str(k): v for k, v in lr_res.items()}
+        print('    layer   acc@1     acc@5', flush=True)
+        for li in sorted(lr_res):
+            r = lr_res[li]
+            print('    %5d  %7.3f%%  %7.3f%%' % (li, r['acc@1_pct'], r['acc@5_pct']), flush=True)
+        if lr_res:
+            best = max(lr_res, key=lambda k: lr_res[k]['acc@1_pct'])
+            print('    BEST layer %d : acc@1 %.3f%%' % (best, lr_res[best]['acc@1_pct']), flush=True)
 
     if args.out:
         json.dump(res, open(args.out, 'w'), indent=2)
