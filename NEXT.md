@@ -240,3 +240,44 @@ levers: bound +2.54 | unfreeze 0.01x +3.0 | width +0.22 | depth +0.13   (CE_z do
 ```
 
 **Every lever that worked fixed HOW WE INJECT. None changed WHAT THE TRUNK REPRESENTS.**
+
+---
+
+## REFRAMING (parent decision, 2026-10-03) — the thesis is not a hypothesis to test
+
+**The root generalising across patterns is not something to prove. It is what the tradition has
+assumed for two thousand years** — al-qiyās and al-ishtiqāq are built on it, and every Arabic
+lexicon is organised by it. Asking a held-out split to confirm the organising principle of Arabic
+grammar is an ML habit applied where it doesn't belong.
+
+**And the capacity is already demonstrated computationally:** qiyās realises unseen-root forms at
+**84.48 %** where the learned decoder scored **0.00 %**. A rule doesn't need a held-out split to
+generalise — it applies to whatever it accepts. Unseen forms are not the hard case for a rule-based
+realiser; **they are the normal case.**
+
+### So: DROP the root-disjoint retraining experiment
+
+```
+DROP   root-disjoint split + ~6 h retraining, framed as "proving generalisation"
+       -> different question, expensive, and it answers something the tradition settled
+KEEP   end-to-end realisation accuracy on held-out roots
+       -> not a proof of a principle: a measurement of the SYSTEM.
+          same corpus, no retraining, and it fails in ways you can fix.
+```
+
+### The pipeline is the deliverable
+
+```
+1  ANALYZE    word -> (P,R,W,S)        the analyzer -- fix by cause, from the grammarians
+2  PREDICT    context -> next tuple     the tuple-LM; the objective already exists
+3  REALIZE    (P,R,W,S) -> surface      tokenizer + tasrif + qiyas + the orthography cases
+                                        (divine name = surface-preserving passthrough)
+4  GENERATE   the loop
+```
+
+**Text training waits on stage 3, not on a proof.** A morphemic model's ceiling is its realiser:
+if realisation is at 57.59 %, a tuple-LM produces well-formed tuples that render as the wrong word.
+Fix the analyzer and realiser first, then train on top of them.
+
+**The metric that matters: does it produce correct Arabic** — which is the only question the
+tradition was ever answering.
