@@ -649,6 +649,45 @@ initialising when a runner starts), which `MAX_OCCUPANTS=1` would not have addre
 gate both should behave, but they remain a redundancy worth resolving whenever convenient — the old
 no-lock hazard is not itself patched.
 
+### `EARLYROOT_C` IS OVERFITTING — 14-point trajectory (this supersedes "oscillation")
+
+```
+step   acc@1   acc@5   CE_z        step   acc@1   acc@5   CE_z
+ 1000  18.87   33.61   6.1696      8000  19.63   33.77   6.8032  <- 2nd peak
+ 2000  19.82   34.00   6.3427      9000  17.65   29.86   6.8781
+ 3000  20.00   34.28   6.4377 PEAK 10000 18.36   31.28   6.9415
+ 4000  17.73   30.55   6.5751     11000  18.61   31.70   6.9828
+ 5000  19.16   32.60   6.5620     12000  18.76   31.94   7.0090
+ 6000  19.42   33.26   6.6704     13000  18.57   31.53   7.0107
+ 7000  19.59   33.41   6.7453     14000  18.26   30.70   7.0534  <- latest
+```
+
+**This is not the "oscillation in a ~2.3 pp band" I recorded earlier -- it is a rise then a
+sustained fall.** acc@1 climbs 18.87 -> 20.00 (step 3,000), makes a second run to 19.63 (step
+8,000), and has declined since; **step 14,000 is below step 2,000.** CE_z rises **monotonically**
+6.1696 -> 7.0534 (two trivial exceptions). Every 1,000-step increment after step 8,000 is negative.
+
+**Diagnosis: overfitting.** The training objective keeps improving while both held-out capability
+and calibration degrade -- the textbook signature. My earlier reading was too kind: with 6 points I
+called it a band; with 14 the downward trend is unambiguous.
+
+**Why the trunk-destruction hypothesis is still the less likely one:** the decodability probe reads
+the root off this same trunk at **90.08 % across all 24 layers** -- so the *invariant* structure
+survived. That measurement was taken at step 11,000, when acc@1 was already below its peak and CE_z
+already rising, and it still read 90 %. Overfitting would preserve decodability while degrading
+task-specific readout, which is what is observed; a destroyed trunk would not read 90 %.
+
+**CONSEQUENCE FOR THE OBJECTIVE -- this is the important part.** `EARLYROOT_C` has **no single
+number** to compare against:
+```
+peak @3000   20.00 %      final @20000   ~18 % and still falling
+```
+That is a **~2 pp spread depending only on which step you quote**, which is the same order as the
+entire early-vs-late effect being looked for. **Any C-vs-X comparison must therefore fix a step and
+quote that step for both arms** -- comparing one arm's peak against another's final would be
+meaningless. And it reinforces the earlier caveat: the instrument cannot resolve a sub-2-pp gap.
+
+
 ### `EARLYROOT_C`'s TRUNK IS HEALTHY ON ITS OWN TRUNK — decodability 90.08 %
 
 Prompted by a direct concern that the 24-layer RCA at `trunk-lr-scale 1.0 / lr 1e-3` might be
