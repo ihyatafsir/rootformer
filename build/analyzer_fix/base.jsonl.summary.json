@@ -1,0 +1,9 @@
+{
+  "vocab": "/workspace/hf_v19_2_release/nrmp_vocab.py",
+  "type_rt": 57.5884,
+  "occ_rt": 82.1065,
+  "failing": 80040,
+  "roots": 9490,
+  "awzan": 142,
+  "af_analyzer_fix": "0"
+}

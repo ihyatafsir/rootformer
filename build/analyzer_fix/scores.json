@@ -1,0 +1,15 @@
+{
+  "release": "/workspace/hf_v19_2_release",
+  "md5": {
+    "nrmp_vocab.py": "0ee0ab6301d7f26eddc7bd079f7fede7",
+    "models/validated_segmentation.py": "68d645a9ba0ddbfe4f586dfcc7fbe6ff",
+    "models/morphemic_tokenizer_v12_arabic.py": "a1185eafa89b20a98ade3ae58aa12ffb"
+  },
+  "types": 188722,
+  "type_rt": 57.5884,
+  "type_rt_skel": 57.5884,
+  "occ_rt": 82.1065,
+  "failing_types": 80040,
+  "nrmp_vocab_roots": 9490,
+  "nrmp_vocab_awzan": 142
+}

@@ -1,0 +1,9 @@
+{
+  "vocab": "/workspace/analyzer_fix/patched/nrmp_vocab.py",
+  "type_rt": 58.6667,
+  "occ_rt": 83.8204,
+  "failing": 78005,
+  "roots": 9515,
+  "awzan": 142,
+  "af_analyzer_fix": "1"
+}

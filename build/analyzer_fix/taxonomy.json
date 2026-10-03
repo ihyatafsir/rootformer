@@ -1,0 +1,65 @@
+{
+  "aggregate": {
+    "CONTROL_root_slot_control_token": {
+      "types": 67351,
+      "occ": 426547
+    },
+    "WRONG_WAZN_same_root_other_pattern": {
+      "types": 4820,
+      "occ": 42850
+    },
+    "REALISER_wazn_unimplemented_engine_ok": {
+      "types": 2630,
+      "occ": 24501
+    },
+    "ANALYZER_wrong_root": {
+      "types": 16,
+      "occ": 2180
+    },
+    "ANALYZER_no_wazn_assigned": {
+      "types": 1744,
+      "occ": 19750
+    },
+    "DIVINE_passthrough_by_design": {
+      "types": 13,
+      "occ": 34880
+    },
+    "ANALYZER_particle_overcapture": {
+      "types": 1301,
+      "occ": 18110
+    },
+    "OTHER": {
+      "types": 234,
+      "occ": 9758
+    },
+    "WRONG_AFFIX_surface_letter_unaccounted": {
+      "types": 1879,
+      "occ": 11029
+    },
+    "CLITIC_MISSPLIT_slot_off_the_edge": {
+      "types": 25,
+      "occ": 546
+    },
+    "ORTHOGRAPHIC_hamza_or_weak_spelling": {
+      "types": 9,
+      "occ": 23
+    },
+    "PUNCTUATION_tokenisation_artefact": {
+      "types": 18,
+      "occ": 18
+    }
+  },
+  "total_failing": 80040,
+  "total_types": 188722,
+  "control_sub": {
+    "root_<PARTICLE>": 67307,
+    "root_<UNK>": 44
+  },
+  "implemented_wazn": 39,
+  "md5": {
+    "nrmp_vocab.py": "0ee0ab6301d7f26eddc7bd079f7fede7",
+    "models/validated_segmentation.py": "68d645a9ba0ddbfe4f586dfcc7fbe6ff",
+    "models/morphemic_tokenizer_v12_arabic.py": "a1185eafa89b20a98ade3ae58aa12ffb",
+    "tasrif_engine.py": "2a7a6aaf5398a5c52ade707c44119549"
+  }
+}
