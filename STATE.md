@@ -559,6 +559,37 @@ MAX_OCCUPANTS=1 STAGES="EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X FLOOR_A_S2 EAR
 `MAX_OCCUPANTS=1` is the load-bearing change: it makes the 1->2 transition **unreachable**, which is
 the only thing that actually closes the startup race, since `PER_ARM_MIB` was powerless against it.
 
+### SELF-INFLICTED: the ridge readout saturates the box (transposed BLAS cost, not data size)
+
+The two `--linear-readout` probes (`--split root` / `--split random`) ran **11.5 min** without
+producing a single layer line, each at **~455 % CPU** — **~9 cores combined**, taking system load
+from **23 to 61** on a 48-core box. I verified both pids were my own script and killed them.
+
+**Diagnosis — my cost model was wrong, in the opposite direction.** I bounded the *sample count*
+(`--max-samples`, treating `X^T X` as the O(n·d²) term) and that was backwards. With
+`n = 10,000` (half of 20,000) and `d = 448`, `X^T X` is ~2.0 GFLOP and takes **seconds**. The real
+cost is the **second** product, `X^T Y` with `Y` being **one-hot over C = 9490 classes** — i.e. a
+`448 × 10000` by `10000 × 9490` multiply, ~42 GFLOP **per layer × 24 layers**, plus 24 `solve` calls.
+Memory bandwidth, not sample count, is the binding constraint. **Lowering `--max-samples` therefore
+did almost nothing**, which is why the "bounded" rerun behaved identically to the unbounded one.
+
+**And the CPU blow-up is thread oversubscription on top of that:** each process calls
+`torch.set_num_threads(threads)` and then hands numpy/BLAS a large GEMM, so both processes fan out
+across all 48 cores at once. **Two such processes on a 47-core box is thrash, not parallelism.**
+
+*Fix for next time:* one readout at a time; pass **`--threads 4`**; and cut the *class* dimension
+(e.g. restrict the one-hot to a subsample of roots, or fit the readout with SGD over a subset of
+classes) rather than the sample dimension. The transpose cost is what must fall.
+
+*Checked for harm before killing:* the hung arm (`pid 442737`) was at **1.5-2.1 % CPU**, so these
+probes were **not** starving it — killing them was my own hygiene on a shared box, and it avoids a
+false "the box is overloaded" reading for the next session. The hung arm is unaffected and still
+stuck.
+
+**Consequence for the record:** the leak-free (`--split root`) and overall (`--split random`)
+readouts were **never obtained**. The 93.7 % figure above remains the **leaking** variant, and the
+unseen-words number is still **unknown**. Do not quote 93.7 % as an unseen result.
+
 ### FLOOR_A is DONE — final numbers (the only complete arm)
 
 ```
