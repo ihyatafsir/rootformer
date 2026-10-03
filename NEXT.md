@@ -86,6 +86,43 @@ floor, or reading C/X against A's damaged capability.
 3.2 pp gap could be head/trunk mismatch. The clean control — a head fitted on FLOOR_A's own trunk,
 or the root decodability probe — **has not been run**.
 
+### !! DO NOT RESTART THE RUNNER. IT SURVIVED AND WILL LAUNCH C BY ITSELF. !!
+
+**Verified 2026-10-03T01:21Z.** The queue process outlived the agent that started it — it is
+detached (`ppid=1`, its own session) and still running:
+
+```
+ps -eo pid=,ppid=,etime=,args | grep 'runner.sh'
+  430556  1  17:36  bash runner.sh run        <- ALIVE, detached, will launch the next stage
+  405012  1  01:17  bash runner.sh one FLOOR_A  <- the launcher for the currently running arm
+```
+
+It is **gated, not stuck**: free VRAM is 18,136 MiB against the 20,000 MiB full-trunk gate, so it
+holds while FLOOR_A runs and **launches `EARLYROOT_C` itself when FLOOR_A exits.** No human or agent
+action is required.
+
+**Why restarting would be actively harmful:** `runner.sh` takes no lock (grep for
+`flock|lockfile|already running|kill -0` returns nothing) and `echo $$ > "$PIDFILE"` overwrites
+unconditionally. A second `runner.sh run` would therefore run *concurrently* and could launch a
+second full-trunk arm into 18.1 GiB — the exact ~22 MiB-margin OOM that already killed
+`EARLYROOT_C` once (it OOM'd on a 28 MiB request). **A duplicate runner is the most likely way to
+break this ladder.**
+
+**To check progress, read — never restart:**
+
+```bash
+tail -3   /workspace/root_arch/queue/runner.log        # WAIT / LAUNCH / SLOT FREE lines
+tail -5   /workspace/root_arch/queue/watch.log         # APPEARED / EXITED timeline
+ls -la    /workspace/root_arch/arms/                   # which log_/trace_ files exist
+grep -c 'eval @' /workspace/root_arch/arms/log_<TAG>.txt   # how many evals that arm has done
+```
+
+An arm is finished when `results_<TAG>.json` exists (written once, after the loop, at trainer
+`:1245`) — **not** when the log stops growing.
+
+*(Note: pid 413704, quoted in the older block below, was replaced by 430556 when `runner.sh` was
+edited at 01:03:36 to add the two `_S2` seed arms. The older block is stale in that one detail.)*
+
 ### Runner state (updates the block below, which is stale)
 
 ```
