@@ -674,6 +674,27 @@ to carry forward:
   + `LAUNCH_COOLDOWN=240`) — verified present in the live file, not inferred. Two runners remain
   alive but both are now gated against launching into a building arm.
 
+### A transient SECOND CUDA occupant — another agent's ridge probe, handled correctly
+
+At 01:40:45 a second compute app appeared: **`probe_ridge_arm.py --tag FLOOR_A --pathway none`**
+(pid 446471, parent `timeout 900`, another agent's work). It ramped **310 -> 1,410 -> 5,608 MiB**,
+peaking at **25,259 MiB used / 6,869 MiB free** alongside `EARLYROOT_C`'s 19,636 MiB, then **exited
+on its own** when its 900 s timeout fired, leaving a single resident arm at 19,646 MiB.
+
+**Nothing needed doing, and nothing was done.** Three observations worth keeping:
+
+* **It never threatened the resident arm.** Peak combined 25.26 GiB on a 31.37 GiB card left
+  **6.87 GiB** free — nowhere near the ~22 MiB margin that killed `EARLYROOT_C` earlier. A ~1.4-5.6 GB
+  auxiliary tenant coexists fine with a 19.6 GiB full-trunk arm; it is a *second full-trunk arm*
+  (~17.7 GiB) that does not fit.
+* **The new gate behaved correctly under a real second occupant:** `runner.log` held at
+  `occupants=1/2`, `initialising=0`, `started=[EARLYROOT_C]` and launched nothing from the queue.
+  That is the first live confirmation that the 01:30:25 rewrite does what it claims.
+* **This is the probe I recommended building.** Another agent built and ran the ridge/decodability
+  measurement on FLOOR_A's trunk within minutes of my note — so the leak-free decodability number
+  may now exist elsewhere on the pod. **Look for its output before re-running mine** (`--pathway
+  none`, `--tag FLOOR_A`); do not duplicate the ~9-core cost that caused the false-hang incident.
+
 ### DEFERRED: the leak-free readout (do not relaunch carelessly)
 
 The `--split root` (leak-free) and `--split random` (overall) decodability readouts were never
