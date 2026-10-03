@@ -622,6 +622,33 @@ stuck.
 readouts were **never obtained**. The 93.7 % figure above remains the **leaking** variant, and the
 unseen-words number is still **unknown**. Do not quote 93.7 % as an unseen result.
 
+### THE GATE RACE IS FIXED (runner.sh edited 01:30:25, md5 d483b4f0…)
+
+**My recommendation to set `MAX_OCCUPANTS=1` is SUPERSEDED — do not apply it.** The coordinator
+rewrote the gate at 01:30:25 (20994 bytes, md5 `d483b4f0d15ea8f05508571566319e12`, was `5683a6bc…`)
+and fixed the cold-start race directly. Its own comment reproduces the Incident-1 diagnosis:
+
+> *"Trainer processes that are ALIVE but NOT yet in `nvidia-smi --query-compute-apps` — i.e. still
+> building the model and holding no memory. `free` alone cannot see them, which is how a second arm
+> got admitted 49 s after the first at 01:28 and OOM'd it."*
+
+Two changes close it:
+
+* **`starting_arms()`** — counts trainer pids that are running but absent from
+  `nvidia-smi --query-compute-apps`. The gate now additionally requires
+  **`[ "${starting:-0}" -eq 0 ]`**, so it refuses to launch while *any* arm is still building.
+* **`LAUNCH_COOLDOWN` default 240 s** — `[ $((now_s - last_launch)) -ge 240 ]`. The 01:28 second
+  launch came **49 s** after the first, so the cooldown alone would have blocked it.
+
+`MAX_OCCUPANTS` is still 2, but with `starting` and the cooldown the 1->2 transition is now
+effectively unreachable for full-trunk arms, which is what was wanted. **This is the correct fix and
+better than mine**, because it is general: it also covers a *cold start* (another arm already
+initialising when a runner starts), which `MAX_OCCUPANTS=1` would not have addressed.
+
+*Still nominally open:* **two** `runner.sh run` processes are alive (442187, 442734). With the new
+gate both should behave, but they remain a redundancy worth resolving whenever convenient — the old
+no-lock hazard is not itself patched.
+
 ### LADDER RESUMED — `EARLYROOT_C` is training (01:38Z)
 
 ```
@@ -638,10 +665,9 @@ to carry forward:
   arm is **~2.8 h**; at 1.2 steps/s it is **~4.6 h**. Its first eval (`--eval-every 1000`) had not
   appeared at step 75. **Expect the first `eval @1000` around 01:44-01:50Z** — if it is not there by
   ~02:00Z, the arm is not progressing and the CPU-starvation reading applies again.
-* **Two runners are STILL alive** (442187, 442734). Nothing was done about the no-lock hazard, so
-  **the Incident-1 startup race can recur the moment `EARLYROOT_C` exits** and frees 19.6 GiB: a
-  second runner can see the card as empty while the next arm is still building. `MAX_OCCUPANTS=1`
-  remains the load-bearing fix and is still unapplied.
+* **The Incident-1 recurrence risk is CLOSED** by the 01:30:25 gate rewrite above (`starting_arms()`
+  + `LAUNCH_COOLDOWN=240`) — verified present in the live file, not inferred. Two runners remain
+  alive but both are now gated against launching into a building arm.
 
 ### DEFERRED: the leak-free readout (do not relaunch carelessly)
 
