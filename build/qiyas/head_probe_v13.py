@@ -123,7 +123,7 @@ def build_model_v13(ckpt, dtype=torch.float32):
 
 
 def linear_readout(model, Pv, Tv, Wv, Sv, n_layers, threads=6,
-                   train_frac=0.5, alpha=1.0, seed=0, max_samples=40000):
+                   train_frac=0.5, alpha=1.0, seed=0, max_samples=40000, split='root'):
     """HEAD-INDEPENDENT, FOREIGN-HEAD-FREE control: is the CURRENT position's root linearly
     decodable from each trunk layer's hidden state?
 
@@ -174,17 +174,42 @@ def linear_readout(model, Pv, Tv, Wv, Sv, n_layers, threads=6,
             continue
         X = X_all[keep].numpy().astype(np.float32)
         y = y_all[keep].numpy().astype(np.int64)
+        # SPLIT BY WORD IDENTITY, not by position.  A random split over positions LEAKS: the same
+        # word type occurs in many windows, so a near-duplicate of a test instance sits in train
+        # and the probe scores high by memorisation.  `probe_orig_base.py` reports BOTH an
+        # overall and an `unseen` figure precisely for this reason, and the two differ materially
+        # (92.34 % overall vs 83.92 % unseen).  Splitting on the word id removes the leak.
+        wid = X_all[keep, :0]  # placeholder, replaced below
         rng = np.random.default_rng(seed)
-        idx = rng.permutation(len(y))
+        # word id = the root target is NOT the word; use the token id stream instead
+        # (Tv is the root/token stream aligned to positions, so use it as the identity key)
+        if split == 'root':
+            # hold out ROOTS -> the UNSEEN figure.  Compare against probe_orig_base's 83.92 %.
+            wkey = y.copy()
+            uw = np.unique(wkey)
+            rng.shuffle(uw)
+            n_wtr = int(train_frac * len(uw))
+            tr = np.isin(wkey, uw[:n_wtr])
+            te = ~tr
+        else:
+            # random over positions -> the OVERALL figure.  Compare against 92.34 %.
+            ii = rng.permutation(len(y))
+            k = int(train_frac * len(ii))
+            tr = np.zeros(len(y), dtype=bool)
+            te = np.zeros(len(y), dtype=bool)
+            tr[ii[:k]] = True
+            te[ii[k:]] = True
         # cap the ridge cost: O(n*d^2) Gram + a d x C multiply.  A decodability probe does not
         # need every position; `probe_orig_base.py` is order-of-magnitude comparable at this scale.
         cap = max_samples
-        if len(idx) > cap:
-            idx = idx[:cap]
-            ntr = int(train_frac * cap)
+        if int(tr.sum()) > cap:
+            tri = np.flatnonzero(tr)[:cap]
         else:
-            ntr = int(train_frac * len(idx))
-        tr, te = idx[:ntr], idx[ntr:]
+            tri = np.flatnonzero(tr)
+        tei = np.flatnonzero(te)
+        if len(tei) > cap:
+            tei = tei[:cap]
+        tr, te = tri, tei
         C = int(model.vocab.num_roots)
         Y = np.zeros((len(tr), C), dtype=np.float32)
         Y[np.arange(len(tr)), y[tr]] = 1.0
@@ -216,6 +241,8 @@ def main():
     ap.add_argument('--tag', default='probe')
     ap.add_argument('--out', default='')
     ap.add_argument('--threads', type=int, default=6)
+    ap.add_argument('--split', choices=('root', 'random'), default='root',
+                    help='root=hold out ROOTS (unseen figure); random=over positions (overall)')
     ap.add_argument('--max-samples', type=int, default=40000,
                     help='cap positions fed to the ridge readout')
     ap.add_argument('--linear-readout', action='store_true',
@@ -292,7 +319,8 @@ def main():
     if args.linear_readout:
         print('[*] linear decodability readout (closed-form ridge, no fitted head) ...', flush=True)
         lr_res = linear_readout(model, Pv, Tv, Wv, Sv, len(model.backbone.layers),
-                               threads=args.threads, max_samples=args.max_samples)
+                               threads=args.threads, max_samples=args.max_samples,
+                               split=args.split)
         res['linear_readout'] = {str(k): v for k, v in lr_res.items()}
         print('    layer   acc@1     acc@5', flush=True)
         for li in sorted(lr_res):

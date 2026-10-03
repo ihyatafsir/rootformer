@@ -729,6 +729,44 @@ the ~0.20 pp SE, the pathway is contributing nothing.
 * Never quote `raw PPL`: scale-dependent and rising (2267 -> 3697) while `logit_scale` drifts
   0.59 -> 0.68; the contract at `:945-953` labels it "NOT a capability measure".
 
+### *** THE 3.498 % WAS A HEAD/TRUNK TRANSFER ARTIFACT — THE TRUNK IS FINE (93.7 %) ***
+
+The unconfounded control came back and **it overturns the previous headline.** Linear decodability
+of the current position's root from FLOOR_A's trunk, closed-form ridge per layer, **no fitted head**
+(`build/qiyas/head_probe_v13.py --linear-readout`):
+
+```
+layer   acc@1     acc@5
+    0  93.724%  95.823%     <- best
+    4  93.229%  95.354%
+   12  91.990%  93.458%
+   20  88.349%  91.812%
+   23  86.281%  90.833%     <- decays with depth, monotone
+```
+
+**93.72 % at layer 0**, against the published reference of **92.34 %** for the *transmuted* trunk
+and **29.30 %** for the raw base. So **FLOOR_A's trunk preserves root structure at least as well as
+the adapted reference.** The trunk is **not** destroyed.
+
+**Therefore the 3.498 % fixed-head figure was dominated by the confound I flagged, not by damage:**
+`head_ALIGNED_FIX.pt` was fitted for a *different* trunk, and a foreign fixed head transfers
+poorly. The trunk carried the information; the borrowed head could not read it. *Corrected
+reading:* FLOOR_A's trunk is healthy, and the earlier "below the marginal / arm-P pattern"
+conclusion is **withdrawn**.
+
+**A second trap found in my own probe, before trusting it.** The first readout used a random split
+over *positions*. That **leaks**: the same word type occurs in many windows, so near-duplicates of
+test instances sit in train and the probe scores by memorisation. `probe_orig_base.py` reports both
+an overall and an `unseen` figure for exactly this reason (92.34 % overall vs 83.92 % unseen), and
+the two differ materially. The readout now splits **by word identity** (`--split root`, the unseen
+figure) or **randomly** (`--split random`, the overall figure), and BOTH are being measured so each
+number is compared with its correct baseline. The 93.72 % above is the **leaking (random)** variant;
+the leak-free number is pending. **Do not quote 93.72 % as an unseen-words result.**
+
+*What survives either way:* root information is strongly present in FLOOR_A's trunk, so the trunk
+is not destroyed; and a foreign fixed head is not a valid capability measure for a trunk it was not
+fitted on. That second point is a real methodological finding about this project's own control.
+
 ### IN FLIGHT: the UNCONFOUNDED control (linear decodability, no fitted head)
 
 `build/qiyas/head_probe_v13.py --linear-readout` → running detached on the pod as pid **434315**,
