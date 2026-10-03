@@ -730,6 +730,34 @@ Three things this does and does not establish:
   form of the result so far, and it is the same contrast STATE.md already records for
   `RCA_UNFREEZE_A2` (19.53 %).
 
+### *** `EARLYROOT_C` PLATEAUS BY STEP 2000 — 19.82 %, i.e. ~98 % of A2's 20k result in 10 % of the steps ***
+
+```
+eval @1000   acc@1 18.87 %   acc@5 33.61 %   CE_z 6.1696
+eval @2000   acc@1 19.82 %   acc@5 34.00 %   CE_z 6.3427
+            +0.95 pp        +0.39 pp        +0.173 (WORSE)
+```
+
+Reference: **`RCA_UNFREEZE_A2` finished 20,000 steps at 19.53 %.** `EARLYROOT_C` passes it at **step
+2,000** and is already at **19.82 %**. Against `FLOOR_A`'s plateau (7.64 -> 7.74 %) that is **2.56x
+the no-pathway floor**, and 5.58x the 3.551 % marginal.
+
+**Three readings, and the third is the one that matters for the ladder:**
+
+1. **The root pathway's value is real and large** — +12.18 pp over the no-pathway floor at the same
+   step, with the pathway being the only difference in the recipe.
+2. **The gain saturates almost immediately.** +0.95 pp from step 1000 to 2000, while **CE_z gets
+   *worse*** (+0.173) — the same "better ranking, no better calibration" signature STATE.md records
+   for every other lever (width, depth, bound). If the remaining 18,000 steps add ~1 pp, then
+   **~90 % of the ladder's information is already in hand 10 % of the way through.**
+3. **This is the number `LATE_X` must beat.** If X (late layers only) lands near 19.8 % too, the
+   tie is at a *saturated* level — which is a materially different statement from a tie at a low
+   level, and it is the reading the objective asks for. If X lands much lower, insertion point
+   matters even though the early arm had already saturated.
+
+*Do not over-read 2,000 steps:* a tie-or-gap at saturation is still the objective's answer, but the
+arms are being run to 20,000, so the comparison will be made at the plateau rather than at 2,000.
+
 *Note on CE_z:* it is **scale-invariant** and comparable; the adjacent `raw PPL` is scale-dependent
 (logit_scale 0.60) and must not be quoted.
 
