@@ -622,6 +622,30 @@ genuine two-seed comparison.
 difference in the eval is attributable to the pathway" — true for the original five arms, **false
 once `_S2` exists by design**. And the schedule lengthens to six arms (~70 min each).
 
+### FLOOR_A's ACTUAL LR TRAJECTORY — peak 1.000e-03, sustained (measured)
+
+Extracted from `trace_FLOOR_A.jsonl` (n=17,075 steps):
+
+```
+step      1   lr=4.001e-05     step   500   lr=9.367e-04
+step     10   lr=4.066e-05     step  1000   lr=9.989e-04   <- peak ~1e-3
+step    100   lr=1.045e-04     step  2000   lr=9.872e-04
+step   5000   lr=8.783e-04     step 10000   lr=5.242e-04
+step  15000   lr=1.551e-04     step 17000   lr=5.782e-05
+                       peak 1.000e-03   min 4.001e-05
+```
+
+So the trunk did not merely touch 1e-3 — it **held ~1e-3 for the first ~2,000 steps** and was still
+above 1e-4 until past step 15,000. The repo documents **1e-4 (0.1x)** as the trunk LR that
+*destroys* the trunk; this arm ran **10x that, sustained**. That is the mechanism behind the 3.498 %
+head-independent measurement above, and it is now a measured claim, not an inference from a flag.
+
+**Why this damages `A` specifically and less than it first appears for `C` vs `X`:** every arm —
+A, C, R, D, and both `_S2` — shares this same LR schedule (it comes from `common_flags`). So a
+high-LR-damaged trunk is common to all of them, and the **relative** C-vs-X comparison still
+measures placement rather than damage. What is *not* valid is reading A as a healthy floor, or
+reading C/X against A's damaged capability.
+
 ### TRUNK MOTION VERIFIED — the "matched trunk" premise is sound (head-independent)
 
 `build/qiyas/trunk_motion.py` compares an arm's `.trunk.pt` against the checkpoint the runner
