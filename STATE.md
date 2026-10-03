@@ -211,6 +211,53 @@ The first wrong answer was caught **only** because the harness carried its own 3
 
 ---
 
+### ishtiqaq — FIXED, and fixed only PARTLY (checkpoint evidence, 2026-10-03)
+
+Pulled and read `/workspace/ishtiqaq_check/REPORT_ishtiqaq_native_root_path.md` (443 lines) plus
+the fix and the SDPA attention the arms use. Three independent pre-fix causes: dead wiring
+(0/24 attention calls carried root ids), a stale/never-trained 9015-id-space table, and the
+learned coefficients never receiving gradient.
+
+The fix (a gated subclass, shipped module unedited, md5 `d192ac9f…` unchanged) is verified
+bitwise: gate 0 == shipped (`max|d| 0.000e+00`), gate 1 live (`RMS(Δh)/RMS(h) 1.3542 %`), gate 1
+root-sequence-dependent (`max|Δh| 0.25` over 125 rolled positions), gate 0 invariant
+(`0.000e+00`), still a pure score bias (rel residual `7.804e-06`). 7 suites pass.
+
+**But reading the trained checkpoint (`build/qiyas/ishtiqaq_gate_check.py`) shows the fix is
+PARTIAL.** Arm `RCA_NATIVE_A2`, step 16000, layers [20,21,22,23], source `shared`:
+
+```
+root_gate        moved off 0.0 in 4/4 layers   (distinct -0.1260 .. -0.1563)
+pillar_gate      moved off 0.0 in 4/4 layers   (distinct -0.0549 .. -0.1250)
+stream_mix[1]    BIT-EXACTLY 0.25 in 0/4 moved   element1 range 0.250000..0.250000
+ishtiqaq_gamma   BIT-EXACTLY 0.25 in 0/4 moved
+```
+
+Contrast FLOOR_A (flag off) step 12000: no `root_gate`/`pillar_gate` at all; `stream_mix[0]` in
+the *backbone* has moved off 0.75 in at least one layer (range 0.750000..0.761719) while
+`stream_mix[1]` and `ishtiqaq_gamma` are bit-exactly at init in 0/24.
+
+**So: the gates now train (the fix worked), but the two multiplicative coefficients that scale
+the root score terms remain bit-exactly frozen at 0.25 even after 16,000 steps.** The report's
+own explanation is that bit-exactness implies no gradient; the fix supplied gradient to the
+zero-init gates (via the `identical_root_bonus` term, which does not pass through
+`stream_mix[1]`), but not to `stream_mix[1]`/`ishtiqaq_gamma`.
+
+*Honest limit:* I cannot yet explain WHY `d(loss)/d(stream_mix[1])` stays exactly 0 once
+`root_gate != 0` — the obvious `root_gate`-multiplication argument would only hold while
+`root_gate == 0`, and `root_gate` is not 0. So either `stream_mix` is outside the optimizer's
+param groups, or there is a second structural zero. **Not resolved; flagged.** It does not change
+the verdict (§4b/§5): the fixed path measures **−0.0053 pp ALL / 0.000 pp NOVEL** acc@1 on
+`head_ALIGNED_FIX.pt` over layers [20,21,22,23] — the exact topology LATE_X uses — so the native
+path is *live but behaviourally inert*, and superseded by the residual RCA (which reads fresh
+information from `W_v·E_root(r_j)` where the native path can only reweight `v_proj(h)`).
+
+**STATE.md's `stream_mix[1].grad == 0.0` line is PRE-FIX historical and is NOT a defect of the
+current shared-source arms.** The post-fix fact is different and stronger: the gates move, the
+coefficients do not.
+
+---
+
 ## ARCHITECTURE FIXES — done and verified
 
 ```
