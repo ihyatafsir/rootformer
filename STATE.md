@@ -469,6 +469,64 @@ pod    FLOOR_A (trunk trained, NO root pathway) step ~9300/20000, RUNNING, 33 mi
        ~70 min per arm at the measured 300 steps/min; six arms ~7 h
 ```
 
+### *** INCIDENT 01:28Z — THE RUNNER DOUBLE-LAUNCHED AND KILLED BOTH ARMS ***
+
+The predicted failure happened, on the first hand-off, **with the default `PER_ARM_MIB=20000`
+correctly set.** Verbatim `runner.log`:
+
+```
+01:28:05  SLOT FREE (occupants=0 <= 1, free=32126MiB >= 20000MiB)
+01:28:05  LAUNCH EARLYROOT_C
+01:28:08    EARLYROOT_C confirmed ALIVE (launcher pid 440819)
+01:28:54  SLOT FREE (occupants=1 <= 1, free=32123MiB >= 20000MiB)   <- only 3 MiB less!
+01:28:55  LAUNCH RESIDUAL_R
+01:28:58    RESIDUAL_R confirmed ALIVE
+```
+
+**Root cause — the gate is a STARTUP RACE, and this is the real defect.** `free_vram()` samples
+`nvidia-smi memory.free` instantaneously, but a freshly launched arm allocates **gradually** over
+~20-90 s (it must build the model first). At 01:28:54, EARLYROOT_C had been "alive" 46 s and had
+not yet touched the GPU, so `free` was still **32,123 MiB** — the gate saw a near-empty card and
+launched a second full-trunk arm into it. `occupants=1` was satisfied, `MAX_OCCUPANTS=2` permits
+exactly this, and **`PER_ARM_MIB=20000` was powerless because the number it compares against was
+measured before the incumbent had allocated.** Both arms then tried to hold ~17.7 GiB on a 31.37 GiB
+card.
+
+Then **two runner processes appeared** (442187 and 442734, both alive) — a second `runner.sh run`
+was started at 01:30:58, and the `rm -f queue/state/EARLYROOT_C.started` + relaunch means the queue
+**re-evaluated a stage it had already started**, which is the "no lock, no mutual exclusion" hole.
+
+**Consequences:**
+* `EARLYROOT_C` — **OOM again**, exactly the same signature (`Process 405014 has 13.65 GiB in use
+  … this process has 17.69 GiB`), 1 trace line, never left step 1. Its log is APPEND-ONLY, so OLD
+  OOM text persists and reading the tail shows a stale traceback; check `stat` mtime and the trace
+  line count, not just the tail.
+* `RESIDUAL_R` — started 01:28:58, log 2 lines, **no trace file at all**, gone by 01:29:11. Never
+  reached step 1.
+* GPU has been **EMPTY** (`4 MiB used, 0 %`) since ~01:29. **The ladder has produced no training
+  compute since FLOOR_A exited.**
+* Two concurrent runners make the state unpredictable and could re-launch a stage.
+
+**The fix the next session needs (NOT yet applied — it edits the coordinator's runner.sh):** the
+gate must require that the incumbent has *actually allocated*, e.g. wait for
+`occupants>=1 AND free <= TOTAL - PER_ARM_MIB` (i.e. confirm the resident arm has taken its
+memory) before considering a second launch — or simply serialise: launch the next stage only when
+`occupants == 0`. Given two full-trunk arms cannot coexist, **`MAX_OCCUPANTS` should be 1** for
+this ladder; `MAX_OCCUPANTS=2` is what makes the race reachable.
+
+### FLOOR_A is DONE — final numbers (the only complete arm)
+
+```
+step 20000   ALL_val acc@1 7.74 %  acc@5 12.31 %  CE_z 9.2293
+             NOVEL_only acc@1 7.63 %  acc@5 12.10 %  CE_z 9.2059
+results_FLOOR_A.json written 01:27, 20 history entries, self-report FLAT 7.64-7.74 %
+```
+
+Self-report unchanged and flat to the end. **FLOOR_A's trunk is nonetheless healthy** — the
+unconfounded linear readout reads the root off it at **93.7 %** (see the correction above), so its
+whole 7.7 % self-report is a *head/objective* problem, not a trunk problem. Two different
+measurements of the same arm, disagreeing by 12x, and the head was the misleading one.
+
 ### The ladder is now self-reporting (no polling needed)
 
 `/workspace/root_arch/watch_ladder.sh` (source `build/qiyas/watch_ladder.sh`, pid 420709) polls
