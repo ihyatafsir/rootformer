@@ -660,11 +660,16 @@ load average 24.7 on 48 cores (back to the ~12-25 normal band)
 So the ladder is **moving again**, and the objective is time-bound rather than broken. Two things
 to carry forward:
 
-* **`EARLYROOT_C` is the critical path and it is slow.** Rough rate ≈ **1.2 steps/s at best**
-  (step 75 at 06:29 elapsed, but most of that was construction). Even at 2 steps/s a 20,000-step
-  arm is **~2.8 h**; at 1.2 steps/s it is **~4.6 h**. Its first eval (`--eval-every 1000`) had not
-  appeared at step 75. **Expect the first `eval @1000` around 01:44-01:50Z** — if it is not there by
-  ~02:00Z, the arm is not progressing and the CPU-starvation reading applies again.
+* **Rate, measured properly (2nd attempt).** A 45-second window gives **166 steps/min**
+  (step 300 -> 425) => **~2.0 h per arm**, vs FLOOR_A's **~240 steps/min / 83 min**. My first
+  estimate of "1.2-2 steps/s => 2.8-4.6 h" was **wrong by ~3x**: I measured a *cumulative* rate
+  (step 275 over 7:38 of elapsed time) and thereby charged the whole model-construction phase to
+  the step count. **Cumulative rate is not step rate** — measure a window, not the elapsed total.
+* **Budget projection (corrected).** Six arms at ~2 h each from ~01:37 => `LATE_X` (6th) lands
+  around **~07:30-08:00Z**, inside the ~20 h budget. So the ladder **should reach the comparison it
+  exists for**, subject to no further incidents.
+* **Falsifiable checkpoint:** first `eval @1000` expected ~01:44-01:50Z. Absent by ~02:00Z means the
+  arm is not progressing.
 * **The Incident-1 recurrence risk is CLOSED** by the 01:30:25 gate rewrite above (`starting_arms()`
   + `LAUNCH_COOLDOWN=240`) — verified present in the live file, not inferred. Two runners remain
   alive but both are now gated against launching into a building arm.
