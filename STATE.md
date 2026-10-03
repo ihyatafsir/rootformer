@@ -324,6 +324,34 @@ ear-to-the-ground evidence, and it shows the trunk does not learn acc@1 without 
    miss the budget; that came from misreading FLOOR_A's own 00:04->00:39 progress as ~3.5 h for
    20k steps when it is ~67 min. Corrected here.)
 
+### TRUNK MOTION VERIFIED — the "matched trunk" premise is sound (head-independent)
+
+`build/qiyas/trunk_motion.py` compares an arm's `.trunk.pt` against the checkpoint the runner
+actually trains FROM (`...awzan142.roots9490.tok10052.safetensors`, arg `--checkpoint`), tensor by
+tensor, with no involvement of the NRMT head or any self-reported metric.
+
+```
+FLOOR_A @step 12000 : 24/24 backbone layers MOVED, 0 frozen
+                      max|delta| per layer 3.41e-01 .. 5.40e-01
+```
+
+**So `--unfreeze-trunk-all` does what it claims**, and the C-vs-X comparison really is at a
+*trained* trunk rather than a frozen one that nobody noticed. This is the premise the whole
+early-vs-late question rests on, and it is now measured rather than assumed.
+
+*Trap found in this check, worth keeping:* my first baseline was the **release** checkpoint
+`rootformer_v19_2_synthesis_ar_backbone.awzan142.roots9490.tok10052.safetensors`... no -- it was
+the **pre-alignment** release, which still carries root/wazn tables at the STALE `(9015,64)` and
+`(128,64)` shapes. Comparing against it silently skipped 48 tensors per arm on shape mismatch.
+The 48 skips are the fingerprint of comparing to the wrong checkpoint. `ORIG_CKPT` is now an env
+override and the correct baseline is the runner's `--checkpoint`.
+
+*Anomaly noted, not yet resolved:* FLOOR_A is `--root-cross-attn none --ishtiqaq-root-bias none`,
+and its checkpoint correctly holds `root_cross.* : 0` — but also **48 `ishtiqaq`/`stream_mix`
+tensors**. Either the save selects them unconditionally (inert storage, cf. the 152 M orphan-param
+finding), or FLOOR_A is not as pathway-free as the runner's design claims. Worth one check before
+trusting FLOOR_A as a clean "no root pathway" floor.
+
 ### THE EARLY-VS-LATE COMPARISON, PRE-SPECIFIED BEFORE EITHER ARM EXISTS
 
 `LATE_X` = `--root-cross-attn top4 --ishtiqaq-root-bias top4`; `EARLYROOT_C` = `all`/`all`. Every
