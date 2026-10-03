@@ -584,6 +584,44 @@ ear-to-the-ground evidence, and it shows the trunk does not learn acc@1 without 
    miss the budget; that came from misreading FLOOR_A's own 00:04->00:39 progress as ~3.5 h for
    20k steps when it is ~67 min. Corrected here.)
 
+### THE QUEUE CHANGED UNDER THIS SESSION — two `_S2` seed arms added (not by me)
+
+At 01:06 UTC the running queue listed **six** arms, not five:
+
+```
+unstarted=[EARLYROOT_C RESIDUAL_R SCOREBIAS_D LATE_X FLOOR_A_S2 EARLYROOT_C_S2]
+```
+
+`/workspace/root_arch/runner.sh` was **edited at 01:03:36** (md5 now `5683a6bccae0f661303fcec5c657b14b`,
+18401 bytes; it was `66184fed99fb2180e711c5b9b04cce83` in the audit earlier this session). Its
+`STAGES` default is now the six-arm list, `stage_flags()` gained `FLOOR_A_S2` and `EARLYROOT_C_S2`,
+and the runner process was restarted (pid 413704 -> **430556**). **I did not make this change and did
+not touch either process** — per the standing rule. It is presumably the coordinator responding to
+the unseeded-comparison finding below.
+
+The `_S2` stages are **second seeds**:
+
+```bash
+FLOOR_A_S2)     "--root-cross-attn none --ishtiqaq-root-bias none --seed 1" ;;
+EARLYROOT_C_S2) "--root-cross-attn all --rca-lr-scale 1.0 --rca-ablate-eval \
+                 --ishtiqaq-root-bias all $C_BOTH --ishtiqaq-ablate-eval --seed 1" ;;
+```
+
+with the runner's own comment: *"The A-vs-C conclusion is the whole point of the session, so it must
+not rest on a single unseeded run: `--seed 1` reseeds torch/numpy/cuda and therefore the batch order
+and the dropout stream. Identical in every other respect to FLOOR_A / EARLYROOT_C."*
+
+**This is the right instrument, and one detail makes it better than it looks:** `build_meta`
+(`ewc_head_probe.py:31-35`) chooses validation windows with `np.random.default_rng(1)`, a seed
+FIXED independently of `--seed`. So **every arm evaluates on the identical 300 val windows /
+18,869 radical positions** regardless of training seed — the seed perturbs the training trajectory
+only, which is exactly the variance we want to measure. The A-vs-C comparison is therefore now a
+genuine two-seed comparison.
+
+*Stale text to ignore:* `runner.sh:20` still claims "eval cadence and seed are identical, so a
+difference in the eval is attributable to the pathway" — true for the original five arms, **false
+once `_S2` exists by design**. And the schedule lengthens to six arms (~70 min each).
+
 ### TRUNK MOTION VERIFIED — the "matched trunk" premise is sound (head-independent)
 
 `build/qiyas/trunk_motion.py` compares an arm's `.trunk.pt` against the checkpoint the runner
