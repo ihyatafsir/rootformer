@@ -622,6 +622,36 @@ stuck.
 readouts were **never obtained**. The 93.7 % figure above remains the **leaking** variant, and the
 unseen-words number is still **unknown**. Do not quote 93.7 % as an unseen result.
 
+### LADDER RESUMED — `EARLYROOT_C` is training (01:38Z)
+
+```
+pid 442737  stat SLsl  rss 3.59 GB  pcpu 25%   GPU 19,646 MiB at 94 %   96% of the card
+trace step 75, loss 7.93, 75 trace lines and climbing
+load average 24.7 on 48 cores (back to the ~12-25 normal band)
+```
+
+So the ladder is **moving again**, and the objective is time-bound rather than broken. Two things
+to carry forward:
+
+* **`EARLYROOT_C` is the critical path and it is slow.** Rough rate ≈ **1.2 steps/s at best**
+  (step 75 at 06:29 elapsed, but most of that was construction). Even at 2 steps/s a 20,000-step
+  arm is **~2.8 h**; at 1.2 steps/s it is **~4.6 h**. Its first eval (`--eval-every 1000`) had not
+  appeared at step 75. **Expect the first `eval @1000` around 01:44-01:50Z** — if it is not there by
+  ~02:00Z, the arm is not progressing and the CPU-starvation reading applies again.
+* **Two runners are STILL alive** (442187, 442734). Nothing was done about the no-lock hazard, so
+  **the Incident-1 startup race can recur the moment `EARLYROOT_C` exits** and frees 19.6 GiB: a
+  second runner can see the card as empty while the next arm is still building. `MAX_OCCUPANTS=1`
+  remains the load-bearing fix and is still unapplied.
+
+### DEFERRED: the leak-free readout (do not relaunch carelessly)
+
+The `--split root` (leak-free) and `--split random` (overall) decodability readouts were never
+obtained; I killed them for saturating the box. **Do not simply relaunch them as-is:** they cost
+~9 cores combined and, critically, they contend with a *building* training arm, which is exactly
+what produced the false "hang" above. If rerun, do ONE at a time with `--threads 4`, and prefer to
+wait until no arm is in its construction phase. **Meanwhile 93.7 % remains the LEAKING variant and
+the unseen-words figure is unknown.**
+
 ### FLOOR_A is DONE — final numbers (the only complete arm)
 
 ```
