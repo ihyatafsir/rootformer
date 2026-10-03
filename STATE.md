@@ -737,9 +737,30 @@ eval @1000   acc@1 18.87 %   acc@5 33.61 %   CE_z 6.1696   NOVEL 19.09 %
 eval @2000   acc@1 19.82 %   acc@5 34.00 %   CE_z 6.3427   NOVEL 20.03 %
 eval @3000   acc@1 20.00 %   acc@5 34.28 %   CE_z 6.4377   NOVEL 20.20 %
 eval @4000   acc@1 17.73 %   acc@5 30.55 %   CE_z 6.5751
-increments     +0.95        +0.18        -2.27 (REVERSAL)
-CE_z           +0.173       +0.095       +0.137 (rising at EVERY eval)
+eval @5000   acc@1 19.16 %   acc@5 32.60 %   CE_z 6.5620
+increments     +0.95    +0.18    -2.27    +1.43 (OSCILLATING)
+CE_z           +0.173   +0.095   +0.137   -0.013 (rising 4 of 5)
 ```
+
+**Five points: `18.87, 19.82, 20.00, 17.73, 19.16`. The arm is NOT converging upward -- it is
+oscillating in a ~2.3 pp band while CE_z drifts monotonically worse** (6.1696 -> 6.3427 -> 6.4377
+-> 6.5751 -> 6.5620). `@4000`'s drop partly reverted at `@5000`, so that step was largely **eval
+noise**, not a collapse -- which is itself the finding.
+
+**This is the concrete case against the pre-specified tie band.** My own binomial SE (0.197 pp)
+assumed independent samples and **cannot see this oscillation**: the observed single-arm spread
+over 1,000-step steps is **2.27 pp, ~11x that SE**. So any C-vs-X difference below ~2 pp is
+*inside one arm's own step-to-step movement* at the current cadence, and **the 0.5 pp band I
+pre-registered is unsound as written**. It must be revisited with either (a) several matched-step
+evals per arm, (b) a re-eval with `--rca-dropout 0.0` / `rca_stack.eval()` forced (see
+`build/qiyas/REEVAL_PROTOCOL.md`), or (c) both. **Do not report a C-vs-X gap under ~2 pp as a
+result.**
+
+*Cause of the oscillation, most likely:* `rca_stack.eval()` is never called, so every eval runs 24
+dropout modules in train mode. Dropout's expectation is unchanged -- so it should not *bias* the
+number -- **but it injects variance proportional to the number of attached layers, which is exactly
+the 24-vs-4 asymmetry between C and X.** This is the first measurement that makes that abstract
+concern concrete: an 11x-SE spread is consistent with active dropout, not with binomial sampling.
 
 **The @4000 point is a reversal, not a plateau: acc@1 FELL 2.27 pp while CE_z rose again.**
 Two consequences:
