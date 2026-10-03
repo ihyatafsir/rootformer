@@ -254,6 +254,26 @@ pod    FLOOR_A (trunk trained, NO root pathway) step ~9300/20000, RUNNING, 33 mi
        ~20 h GPU budget; two concurrent 32-batch arms does NOT fit
 ```
 
+### The ladder is now self-reporting (no polling needed)
+
+`/workspace/root_arch/watch_ladder.sh` (source `build/qiyas/watch_ladder.sh`, pid 420709) polls
+every 30 s and appends a timeline to `/workspace/root_arch/queue/watch.log`:
+
+```
+APPEARED  tag=... used=..MiB peak=..MiB step=.. log=...
+EXITED    tag=... peak=..MiB laststep=.. -> clean exit | DIED: CUDA OutOfMemoryError
+ALARM     occupants=3 ...        <- the NEVER-A-THIRD-OCCUPANT rule, alarmed explicitly
+```
+
+It reads `ps` / `nvidia-smi` / logs only and **touches no process**. The launch-time two-occupant
+OOM is the dominant failure mode (it killed EARLYROOT_C and cost ~5 min to detect), so the
+transition is now recorded rather than dependent on someone polling at the right second.
+
+**Correction to an earlier worry of mine: checkpoints DO NOT accumulate.** `torch.save(...,
+args.save)` sits in the eval block and writes the **same path** every time (no `.step` suffix),
+so each arm holds a flat ~834 MiB (`head_<tag>.pt` 51 MiB + `.trunk.pt` 783 MiB). `/tmp` is 48 GiB
+free, so even four arms cost ~3.3 GiB. The disk is NOT a constraint on this ladder.
+
 ### FLOOR_A — the floor is flat, and CE_z gets worse (the head-independent fact)
 
 `--eval-every 1000`, `--root-cross-attn none --ishtiqaq-root-bias none`. acc@1 is
