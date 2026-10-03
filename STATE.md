@@ -376,6 +376,53 @@ on both `.trunk.pt` payloads.
 consistent with the report's own finding that the root terms contribute 0.7123 % where the constant
 bonus contributes 1.2868 %. **Not verified by instrumentation** — that is what would settle it.
 
+## AUTOMATED GOOGLE-DRIVE BACKUP — every 3 hours, verified end to end
+
+Installed 2026-10-03. Two scripts, source in `build/qiyas/`, deployed to `/workspace/root_arch/`:
+
+```
+/workspace/root_arch/backup_to_gdrive.sh   one backup, incremental, copy + checksum-verify
+/workspace/root_arch/backup_loop.sh        detached loop, INTERVAL=10800s (3 h), pid 437468
+```
+
+**Runs on the POD, and that is load-bearing.** `/workspace/.rclone/rclone.conf` exists so rclone
+can reach `gdrive:` without staging anything; the laptop's rclone has **no config** ("didn't find
+section in config file"), so `gdrive:` does not resolve locally. The pod also holds artifacts the
+laptop does not — backing up laptop→Drive would silently miss them, which is this project's
+recurring failure mode.
+
+**Layout** (one timestamped directory per run, so a bad run cannot corrupt the previous good one):
+
+```
+gdrive:rootformer_backup_auto/<UTC-stamp>/
+  STATE.md  NEXT.md            <- the handoff docs
+  pod/{qiyas,root_arch,transmute_v2}/
+  creds/rclone.conf            <- without it none of this is reproducible
+  git_state.txt                <- git log + status at backup time
+```
+
+**Verified, not asserted.** Two runs completed with `rclone copy --checksum` (45 s) then
+`rclone check --checksum --one-way` reporting **0 differences / 100 matching files**; the Drive
+copies of STATE.md and NEXT.md were md5-checked against local and **match exactly**
+(`a0c7f1e1015707f54b09305e342ea710` / `e48e5689554099f106d327e54ae791f3`, 48,063 / 10,892 bytes).
+
+**Trap hit and fixed while building it:** the first run staged `pod/*` and `creds/` but **not**
+STATE.md/NEXT.md — because those files existed only on the laptop, never on the pod. The script
+logged `WARN: missing source` rather than failing silently, which is how it was caught. They are
+now staged on the pod and included. **The script warns on any missing source and refuses to report
+success if the remote is unreachable, the copy fails, or verification fails** (exit 9/10/11) — no
+`|| true`, no suppressed exit codes.
+
+**Scope deliberately excluded:** `ghazali_forget` (2.3 GiB), `head_fix` (364 MiB),
+`ishtiqaq_check` (391 MiB) are **not** swept every 3 h — they are already in the older
+`rootformer_backup_2026-10-0*` sets, and re-uploading 3 GiB on a timer is not what backing up the
+handoff should mean. `TIER1=1 bash backup_to_gdrive.sh` adds them.
+
+**Caveat that matters:** the loop lives on the pod, so backups stop when the pod dies. The local
+`git push` to `github.com/ihyatafsir/rootformer` remains the durable record; Drive is the second copy.
+
+---
+
 ## ARCHITECTURE FIXES — done and verified
 
 ```
